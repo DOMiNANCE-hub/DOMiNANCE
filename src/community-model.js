@@ -1,0 +1,7 @@
+import {normalizeAvatar} from './avatars.js'
+export function communityCohort(profile){return ['HB1','HB 1'].includes(profile?.year)?'KNUST-SMS-HB1':null}
+export function profileBio(value=''){if(typeof value!=='string'||value.trim().length>160)throw Error('Keep your bio within 160 characters.');const bio=value.trim();if(Array.from(bio).some(character=>character.charCodeAt(0)<32||character.charCodeAt(0)===127))throw Error('Use plain text without control characters.');return bio}
+export function communityDraft(value){const name=typeof value?.name==='string'?value.name.trim():'';if(!name||name.length>60)throw Error('Use a display name between 1 and 60 characters in My Profile.');if(Array.from(name).some(c=>c.charCodeAt(0)<32||c.charCodeAt(0)===127))throw Error('Use plain text without control characters.');return{name,bio:profileBio(value?.bio||'')}}
+export function publicIdentity(profile){return{...communityDraft({name:profile.username||profile.name,bio:profile.profileBio||''}),avatar:normalizeAvatar(profile.dashboardState?.avatar),cohort:communityCohort(profile),identityVersion:2}}
+export function communityView(id,value){if(typeof id!=='string'||!id||!value||value.cohort!=='KNUST-SMS-HB1')throw Error('Invalid community profile');return{id,...communityDraft(value),avatar:normalizeAvatar(value.avatar),cohort:value.cohort,identityVersion:value.identityVersion===2?2:1}}
+export function communityInitials(name){return name.trim().split(/\s+/).slice(0,2).map(part=>part[0]).join('').toUpperCase()}

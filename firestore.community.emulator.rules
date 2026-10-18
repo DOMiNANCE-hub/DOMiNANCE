@@ -1,0 +1,86 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function isSuperAdmin() {
+      // Fictional local administrative fixture; production identity remains unchanged.
+      return signedIn() && request.auth.token.email == 'emulator-superadmin@example.invalid';
+    }
+    function isAdmin() {
+      return isSuperAdmin() || (signedIn()
+        && exists(/databases/$(database)/documents/users/$(request.auth.uid))
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin');
+    }
+    function isOwner(userId) { return signedIn() && request.auth.uid == userId; }
+    function cohortFor(p) { return p.get('year','') in ['HB1','HB 1'] ? 'KNUST-SMS-HB1' : 'unavailable'; }
+    function canonicalName(p) {
+      let username = p.get('username','');
+      return username is string && username.size() > 0 ? username : p.get('name','');
+    }
+    function validAvatar(avatar) { return avatar in ['initials','glasses','coils','crop','waves','braids','part']; }
+    function savedAvatar(p) {
+      let state = p.get('dashboardState',{});
+      let avatar = state is map ? state.get('avatar','initials') : 'initials';
+      return validAvatar(avatar) ? avatar : 'initials';
+    }
+    function matchesIdentity(p, shared) {
+      return shared.get('identityVersion',0) == 2
+        && p.get('communityVisible',false) == true
+        && shared.get('name','') == canonicalName(p)
+        && shared.get('bio','') == p.get('profileBio','')
+        && shared.get('avatar','') == savedAvatar(p)
+        && shared.get('cohort','') == 'KNUST-SMS-HB1'
+        && shared.cohort == cohortFor(p);
+    }
+    function identityChanged(before, after) {
+      return after.diff(before).affectedKeys().hasAny(['name','username','year','profileBio','communityVisible'])
+        || savedAvatar(before) != savedAvatar(after);
+    }
+    function coherentUpdate(userId) {
+      let path = /databases/$(database)/documents/communityProfiles/$(userId);
+      return !existsAfter(path) || (matchesIdentity(request.resource.data,getAfter(path).data)
+        && (request.resource.data.get('year','') == resource.data.get('year','')
+          || (cohortFor(request.resource.data) == 'KNUST-SMS-HB1' && cohortFor(resource.data) == 'KNUST-SMS-HB1')));
+    }
+    match /users/{userId} {
+      allow create: if isOwner(userId)
+        && request.resource.data.email == request.auth.token.email
+        && (request.resource.data.role == 'student'
+          || (isSuperAdmin() && request.resource.data.role == 'superAdmin'));
+      allow read: if isOwner(userId) || isSuperAdmin();
+      allow update: if isSuperAdmin() || (isOwner(userId)
+        && request.resource.data.role == resource.data.role
+        && request.resource.data.email == resource.data.email
+        && (!identityChanged(resource.data,request.resource.data) || coherentUpdate(userId)));
+      allow delete: if isSuperAdmin();
+    }
+    match /courses/{courseId} {
+      allow read: if signedIn();
+      allow write: if isSuperAdmin() || isAdmin();
+    }
+    // LOCAL EMULATOR CANDIDATE ONLY. Never deploy without a separate release review.
+    function sharedCohort() {
+      return cohortFor(get(/databases/$(database)/documents/users/$(request.auth.uid)).data);
+    }
+    match /communityProfiles/{profileId} {
+      function validShared() {
+        let p = request.resource.data;
+        let account = getAfter(/databases/$(database)/documents/users/$(profileId)).data;
+        return p.keys().hasAll(['name','bio','avatar','cohort','identityVersion','joinedAt','updatedAt'])
+          && p.keys().hasOnly(['name','bio','avatar','cohort','identityVersion','joinedAt','updatedAt'])
+          && p.name is string && p.name.size() >= 1 && p.name.size() <= 60
+          && p.name.matches('[^[:cntrl:]]+')
+          && p.bio is string && p.bio.size() <= 160 && p.bio.matches('[^[:cntrl:]]*')
+          && validAvatar(p.avatar) && matchesIdentity(account,p)
+          && p.joinedAt is timestamp && p.updatedAt == request.time;
+      }
+      allow get: if signedIn() && (isOwner(profileId) || resource.data.cohort == sharedCohort());
+      allow list: if signedIn() && request.query.limit != null && request.query.limit <= 8
+        && resource.data.cohort == sharedCohort();
+      allow create: if isOwner(profileId) && validShared() && request.resource.data.joinedAt == request.time;
+      allow update: if isOwner(profileId) && validShared() && request.resource.data.joinedAt == resource.data.joinedAt;
+      allow delete: if isOwner(profileId);
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

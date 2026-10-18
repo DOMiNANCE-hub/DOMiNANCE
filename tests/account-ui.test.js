@@ -8,6 +8,8 @@ test('account interfaces render without Firebase calls',async()=>{
  const server=await createServer({server:{middlewareMode:true},appType:'custom'});
  try{
   const {AuthGate,AccountBar,Onboarding}=await server.ssrLoadModule('/src/DominanceApp.jsx');
+  const {CommunityPanel}=await server.ssrLoadModule('/src/community-panel.jsx');const disabledCommunity=renderToString(React.createElement(CommunityPanel,{enabled:false,user:{uid:'fictional',email:'private@example.invalid'},profile:{name:'Private name',year:'HB 1'}}));assert.match(disabledCommunity,/not enabled on the live app/);assert.doesNotMatch(disabledCommunity,/private@example.invalid|Private name|Join community|<form/);
+  const localCommunity=renderToString(React.createElement(CommunityPanel,{enabled:true,user:{uid:'fictional',email:'private@example.invalid'},profile:{name:'Private name',year:'HB 1'}}));assert.match(localCommunity,/My Profile/);assert.doesNotMatch(localCommunity,/<form|My community profile|community-name|community-bio|private@example.invalid/);
   const onboarding=renderToString(React.createElement(Onboarding,{profile:{name:'Fictional Student',year:'HB 1',semester:'First',courses:['Cell Structure']},save:()=>{throw Error('No calls during render')}}));assert.doesNotMatch(onboarding,/Your courses|type="checkbox"/);assert.match(onboarding,/Semester|semester/);
   const signIn=renderToString(React.createElement(AuthGate));
   assert.match(signIn,/Forgot password/);assert.match(signIn,/Continue with Google/);assert.match(signIn,/Sign in/);assert.match(signIn,/DOMiNANCE/);assert.doesNotMatch(signIn,/caduceus|dom-auth-mark/);
