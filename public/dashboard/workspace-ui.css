@@ -1,0 +1,122 @@
+/* Shared interaction contract for the account shell and authenticated learning workspace.
+   Existing academic/appearance files define content and palettes; this file owns UI rhythm. */
+:root{--ui-radius:12px;--ui-card-radius:18px;--ui-control-height:46px;--ui-gap:16px;--ui-duration:140ms;--ui-ease:cubic-bezier(.2,.7,.3,1)}
+.authenticated-dashboard{scrollbar-gutter:stable}.authenticated-dashboard body{margin:0}.account-shell,.authenticated-dashboard .shell{font-family:'DM Sans','Segoe UI',sans-serif;-webkit-tap-highlight-color:transparent}
+/* Stable geometry: borders are reserved before hover/focus and never animate size. */
+.account-shell button,.authenticated-dashboard .shell button{touch-action:manipulation}
+.account-shell .account-secondary,.account-shell .account-save,.authenticated-dashboard .shell .primary,.authenticated-dashboard .shell .secondary,.authenticated-dashboard .workspace-choice{min-height:var(--ui-control-height);border-radius:var(--ui-radius);font:600 14px/1.45 'DM Sans','Segoe UI',sans-serif;box-sizing:border-box;transition:background-color var(--ui-duration) var(--ui-ease),border-color var(--ui-duration) var(--ui-ease),color var(--ui-duration) var(--ui-ease)}
+.authenticated-dashboard .shell .content .course,.authenticated-dashboard .shell .content .panel,.authenticated-dashboard .shell .content .choice,.authenticated-dashboard .shell .content .topicrow,.authenticated-dashboard .shell .content .quiz,.authenticated-dashboard .shell .content .soon{border-radius:var(--ui-card-radius)!important;backdrop-filter:none;box-shadow:0 3px 12px #102d5008!important;transform:none!important}
+.authenticated-dashboard .shell .content .course,.authenticated-dashboard .shell .content .topicrow,.authenticated-dashboard .shell .content .choice{transition:border-color var(--ui-duration) var(--ui-ease),background-color var(--ui-duration) var(--ui-ease)}
+.authenticated-dashboard .shell .content .course:hover,.authenticated-dashboard .shell .content .topicrow:hover,.authenticated-dashboard .shell .content .choice:hover{border-color:var(--app-muted)!important;transform:none!important}
+.authenticated-dashboard .shell .nav button{transform:none!important;transition:background-color var(--ui-duration) var(--ui-ease),color var(--ui-duration) var(--ui-ease)}
+.authenticated-dashboard .content{padding:28px clamp(18px,3vw,44px) 40px}.authenticated-dashboard .h1{font-size:clamp(25px,2.8vw,34px);line-height:1.25;letter-spacing:-.7px}.authenticated-dashboard .sub{line-height:1.65;margin-top:10px}.authenticated-dashboard .destination-grid{gap:var(--ui-gap);margin:24px 0}.authenticated-dashboard .destination-card{gap:14px;padding:22px}.authenticated-dashboard .destination-card h2{font:700 19px/1.4 Manrope,'Segoe UI',sans-serif}.authenticated-dashboard .destination-card p{font-size:14px;line-height:1.65}.authenticated-dashboard .destination-card .availability{font-size:12px}.authenticated-dashboard .cell-blocks{gap:var(--ui-gap)}.authenticated-dashboard .cell-block-card h3{font-size:18px;line-height:1.4}.authenticated-dashboard .lesson-list{gap:10px}.authenticated-dashboard .lesson-list .topicrow{padding:15px 18px;border-radius:var(--ui-radius)!important;line-height:1.55}
+/* Solid focused surfaces make long reading and option selection comfortable on phones. */
+html.section-reader .shell .content .panel,html.focused-quiz .shell .content .quiz{background:var(--app-surface)!important;backdrop-filter:none!important;box-shadow:none!important}.authenticated-dashboard .cell-reader{padding:clamp(20px,3vw,32px);line-height:1.8}.authenticated-dashboard .section-navigation{margin:22px 0}.authenticated-dashboard .cell-actions{gap:12px;margin:22px 0}.authenticated-dashboard .cell-question .answer{border-radius:var(--ui-radius)!important;margin:10px 0;line-height:1.6;padding:14px 52px 14px 16px!important;box-shadow:none!important}.authenticated-dashboard .shell .quiz .answer.selected{border-color:var(--app-accent)!important;box-shadow:none!important;outline:none!important}.authenticated-dashboard .shell .quiz .answer:focus-visible{outline:2px solid var(--app-focus)!important;outline-offset:3px}.authenticated-dashboard .question-review button{min-height:46px;white-space:normal;text-align:left}.authenticated-dashboard #quizArea details{border-radius:var(--ui-radius)}
+/* A short opacity entrance gives feedback without moving content or delaying interaction. */
+.authenticated-dashboard .view.active{animation:workspace-enter var(--ui-duration) ease-out}.authenticated-dashboard #cellSection{animation:workspace-enter var(--ui-duration) ease-out}@keyframes workspace-enter{from{opacity:.82}to{opacity:1}}
+.account-shell .account-dialog,.workspace-choice-dialog,.authenticated-dashboard .study-confirm{border-radius:18px;box-shadow:0 20px 60px #071b3626}.workspace-choice-dialog[open]{display:flex;flex-direction:column;overflow:hidden;gap:0}.workspace-choice-head{flex-shrink:0}.workspace-choice-dialog input{flex-shrink:0}.workspace-choice-list{min-height:0;max-height:min(50dvh,420px);scrollbar-gutter:stable}.workspace-choice-option{border-radius:10px;transition:background-color var(--ui-duration) var(--ui-ease),border-color var(--ui-duration) var(--ui-ease)}.workspace-choice-option[aria-pressed=true]{box-shadow:none;outline:none}
+.account-save-status{min-width:66px;max-width:88px;text-align:center;color:#e2e9f7;font:500 11px/1.4 'DM Sans','Segoe UI',sans-serif;flex-shrink:0}.account-save-status[data-active=false]{visibility:hidden}.account-shell .account-sync{border-color:var(--app-muted);box-shadow:0 4px 16px #071a3518}.account-shell .account-dialog button:not(.theme-thumbnail){transition:background-color var(--ui-duration) var(--ui-ease),border-color var(--ui-duration) var(--ui-ease)}
+@media(max-width:680px){.authenticated-dashboard .content{padding:22px 18px 32px}.authenticated-dashboard .destination-card,.authenticated-dashboard .cell-block-card{padding:20px}.authenticated-dashboard .destination-card h2{font-size:18px}.authenticated-dashboard .cell-reader,.authenticated-dashboard .cell-question{padding:20px!important}.authenticated-dashboard .cell-actions>*{min-height:46px}.account-save-status{min-width:48px;max-width:56px;font-size:10px}.account-shell .account-bar{gap:8px}.workspace-choice-dialog{max-height:calc(100dvh - 24px)}.workspace-choice-list{max-height:55dvh}.authenticated-dashboard .shell .content .panel,.authenticated-dashboard .shell .content .course,.account-shell .account-dialog{backdrop-filter:none!important}}
+[data-motion=reduced] .view.active,[data-motion=reduced] #cellSection{animation:none!important}[data-motion=reduced] button{transition:none!important}@media(prefers-reduced-motion:reduce){.view.active,#cellSection{animation:none!important}.account-shell *, .authenticated-dashboard *{transition:none!important;scroll-behavior:auto!important}}@media(forced-colors:active){.workspace-choice-option[aria-pressed=true]{border:2px solid Highlight}.account-save-status{color:CanvasText}.authenticated-dashboard .shell .quiz .answer.selected{border:2px solid Highlight!important}}
+
+/* Account controls need an opaque base even when workspace glass is enabled. */
+.account-shell .account-dialog{background-color:var(--app-surface)!important;backdrop-filter:none!important}
+
+/* Keep long lessons, result text and small screens inside their layout tracks. */
+.authenticated-dashboard .main,.authenticated-dashboard .view,.authenticated-dashboard .content,.account-shell{min-width:0}
+.authenticated-dashboard .view,.account-dialog{overflow-wrap:anywhere}
+.authenticated-dashboard .cell-reader,.authenticated-dashboard .cell-question{box-sizing:border-box;max-width:100%}
+.authenticated-dashboard .cell-table{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain}
+.workspace-choice-list,.account-dialog{overscroll-behavior:contain}
+.workspace-choice-dialog input,.account-dialog input,.account-dialog select{font-size:16px}
+.authenticated-dashboard #quizArea>.cell-question{animation:workspace-enter var(--ui-duration) ease-out}
+.account-dialog[open],.workspace-choice-dialog[open],.study-confirm[open]{animation:workspace-enter var(--ui-duration) ease-out}
+.authenticated-dashboard .cell-actions button:active,.account-shell button:active{filter:brightness(.96)}
+.workspace-loading{position:absolute;inset:var(--account-height) 0 0;z-index:4;display:grid;align-content:center;justify-items:center;gap:14px;background:var(--app-bg);color:var(--app-ink);font:600 15px/1.6 'DM Sans','Segoe UI',sans-serif}
+.loading-mark{width:36px;height:36px;border:3px solid var(--app-line);border-top-color:var(--app-accent);border-radius:50%}
+.deferred-panel{min-height:104px;display:grid;align-content:center;gap:12px;color:var(--app-muted)}
+.deferred-panel p{margin:0}.deferred-panel button{justify-self:start}
+@media(max-width:680px){
+ .authenticated-dashboard:not(.focused-quiz):not(.section-reader) .content{padding-bottom:calc(92px + env(safe-area-inset-bottom,0px))}
+ .authenticated-dashboard .side{padding-bottom:calc(6px + env(safe-area-inset-bottom,0px));height:calc(67px + env(safe-area-inset-bottom,0px));box-sizing:border-box}
+ .authenticated-dashboard .shell .content::before,.authenticated-dashboard .shell .content::after{animation:none!important}
+ .authenticated-dashboard .cell-actions{flex-wrap:wrap}
+ .authenticated-dashboard .cell-actions>*{min-width:0;white-space:normal}
+}
+[data-motion=reduced] #quizArea>.cell-question,[data-motion=reduced] dialog[open]{animation:none!important}
+@media(prefers-reduced-motion:reduce){#quizArea>.cell-question,dialog[open]{animation:none!important}}
+
+/* Compact Home: study first, honest progress, visible future toolkit. */
+#home.home-compact .greeting{margin:0 0 18px!important;align-items:center}
+#home.home-compact .greeting .h1{font-size:clamp(24px,2.3vw,30px)!important;line-height:1.3;margin:5px 0!important}
+#home.home-compact .greeting .sub{font-size:13px!important;margin:5px 0!important}
+#home.home-compact .home-actions{display:grid;grid-template-columns:1.35fr 1fr;gap:14px;margin:0!important}
+#home.home-compact .home-actions>article{min-width:0;min-height:0!important;padding:20px!important;margin:0!important;border-radius:16px!important}
+#home.home-compact .home-continue h2{font-size:23px!important;line-height:1.35;margin:9px 0!important}
+#home.home-compact .home-quick h2{font-size:19px!important;line-height:1.4;margin:9px 0!important}
+#home.home-compact .home-actions p{font-size:13px!important;line-height:1.6;margin:8px 0 12px!important}
+#home.home-compact .home-actions small{display:block!important;font-size:11px;line-height:1.5;margin-top:10px}
+#home.home-compact .home-actions button{min-height:44px;font-size:13px;padding:10px 14px}
+#home.home-compact .home-focus-grid{display:block;margin:14px 0!important}
+#home.home-compact .home-momentum{padding:16px!important;border-radius:16px}
+#home.home-compact .home-momentum h2{font-size:16px!important}
+#home.home-compact .home-momentum .stats{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;margin:10px 0!important;gap:8px!important}
+#home.home-compact .home-momentum .stat{padding:8px 10px!important;min-width:0;border-radius:10px!important}
+#home.home-compact .home-momentum .stathead{font-size:11px!important;line-height:1.4}
+#home.home-compact .home-momentum .stat strong{font-size:23px!important;margin:5px 0!important}
+#home.home-compact .section-note{font-size:11px;line-height:1.5;margin:6px 0 0}
+#home.home-compact .home-tools{margin:20px 0}
+#home.home-compact .home-tools .sectionhead{margin:0 0 10px}
+#home.home-compact .home-tools h2{font-size:17px}
+#home.home-compact .home-tools-note{font-size:11px;color:var(--app-muted)}
+#home.home-compact .home-tool-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+#home.home-compact .home-tool-card{display:flex;flex-direction:column;align-items:flex-start;gap:6px;min-width:0;min-height:144px;box-sizing:border-box;text-align:left;padding:16px!important;margin:0!important;border:1px solid var(--app-line)!important;border-radius:14px!important;background:var(--app-surface)!important;color:var(--app-ink)!important;font:inherit;box-shadow:none}
+#home.home-compact button.home-tool-card{cursor:pointer;transition:border-color var(--ui-duration),background-color var(--ui-duration)}
+#home.home-compact button.home-tool-card:hover{border-color:var(--app-muted)!important}
+#home.home-compact .home-tool-card strong{font:700 17px/1.35 Manrope,'Segoe UI',sans-serif}
+#home.home-compact .home-tool-symbol{font:700 23px/1.2 'Segoe UI',sans-serif;color:var(--app-accent)}
+#home.home-compact .home-tool-description,#home.home-compact .home-tool-card p{font-size:12px;line-height:1.5;color:var(--app-muted);margin:0}
+#home.home-compact .home-tool-status,#home.home-compact .home-tool-about{font:600 11px/1.4 'DM Sans',sans-serif;color:var(--app-muted);margin-top:auto;padding:4px 8px;border:1px solid var(--app-line);border-radius:6px;background:var(--app-bg)}
+#home.home-compact .home-tool-about{min-height:44px;cursor:pointer}
+#home.home-compact .home-tool-card .race-status{display:none}
+#home.home-compact .home-spotlight{margin:18px 0!important}
+#home.home-compact .spotlight-heading{margin-bottom:8px}
+#home.home-compact .spotlight-heading h2{font-size:16px!important}
+#home.home-compact .spotlight-track{border-radius:14px;backdrop-filter:none!important}
+#home.home-compact .spotlight-slide{min-height:128px!important;padding:16px!important;gap:12px}
+#home.home-compact .spotlight-slide h3{font-size:17px!important;margin:0 0 6px!important}
+#home.home-compact .spotlight-slide p{font-size:12px!important;line-height:1.5}
+#home.home-compact .spotlight-slide .eyebrow{display:none}
+#home.home-compact .spotlight-slide .primary{font-size:12px;min-height:44px;padding:10px 12px;white-space:normal}
+#home.home-compact .spotlight-controls{margin:8px auto 0;backdrop-filter:none}
+#home.home-compact .home-weekly,#home.home-compact .home-community{padding:14px 16px!important;margin:14px 0!important;min-height:0!important}
+#home.home-compact .home-goal{margin:14px 0}
+#home.home-compact .home-empty{padding:12px!important;font-size:13px}
+#home.home-compact .home-empty p{margin:4px 0 8px;font-size:12px}
+#home.home-compact .home-upcoming{padding:14px 16px!important;margin-top:14px}
+.home-tool-dialog{width:min(440px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto;box-sizing:border-box;padding:24px;border:1px solid var(--app-line);border-radius:18px;background:var(--app-surface)!important;color:var(--app-ink)}
+.home-tool-dialog h2{font-size:23px;margin:10px 0}
+.home-tool-dialog>p:not(.eyebrow){font-size:14px;line-height:1.7;color:var(--app-muted);margin:14px 0 20px}
+.home-tool-dialog>button{min-height:44px}
+@media(max-width:680px){
+ #home.home-compact .home-actions{grid-template-columns:1fr;gap:10px}
+ #home.home-compact .home-actions>article{padding:16px!important}
+ #home.home-compact .home-continue h2{font-size:21px!important}
+ #home.home-compact .home-quick{display:grid;grid-template-columns:1fr auto;gap:3px 12px;align-items:center}
+ #home.home-compact .home-quick .eyebrow{grid-column:1}
+ #home.home-compact .home-quick h2{font-size:16px!important;margin:2px 0!important;grid-column:1}
+ #home.home-compact .home-quick p{font-size:12px!important;margin:2px 0!important;grid-column:1}
+ #home.home-compact .home-quick button{grid-column:2;grid-row:1/4;max-width:104px}
+ #home.home-compact .home-tool-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ #home.home-compact .home-tool-card{min-height:136px;padding:13px!important}
+ #home.home-compact .home-tool-card strong{font-size:16px}
+ #home.home-compact .home-tools-note{display:none}
+ #home.home-compact .home-momentum{padding:13px!important}
+ #home.home-compact .home-momentum .stat{padding:7px!important}
+ #home.home-compact .home-momentum .stathead{font-size:10px!important}
+ #home.home-compact .home-momentum .stat strong{font-size:21px!important}
+ #home.home-compact .spotlight-slide{grid-template-columns:1fr;gap:9px;min-height:166px!important}
+ #home.home-compact .spotlight-slide .primary{justify-self:start;margin:0!important}
+}
+
+@media(min-width:681px) and (max-width:1100px){#home.home-compact .home-tool-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#home.home-compact .home-actions{grid-template-columns:1fr}}

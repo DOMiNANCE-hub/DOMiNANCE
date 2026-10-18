@@ -1,8 +1,6 @@
 import { getApps, initializeApp } from 'firebase/app'
 import { getAuth, connectAuthEmulator } from 'firebase/auth'
 import { getFirestore, connectFirestoreEmulator } from 'firebase/firestore'
-import { getDatabase } from 'firebase/database'
-import { getStorage } from 'firebase/storage'
 import { firebaseConfiguration } from './firebase-mode.js'
 
 // Emulator mode ignores ALL real-project configuration and never falls back.
@@ -25,6 +23,5 @@ if (emulatorMode && !existing) {
   connectFirestoreEmulator(db, '127.0.0.1', 8080)
   firebaseApp[emulatorConnected] = true
 }
-// Services without emulators are unavailable in this isolated testing mode.
-export const realtimeDb = firebaseApp && !emulatorMode ? getDatabase(firebaseApp) : null
-export const storage = firebaseApp && !emulatorMode ? getStorage(firebaseApp) : null
+// Unused optional services are isolated in firebase-optional.js.
+// Keep the active account startup limited to Authentication and Firestore.

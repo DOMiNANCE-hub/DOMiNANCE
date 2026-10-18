@@ -8,6 +8,7 @@ export default defineConfig(({mode, command}) => {
   }
   return {
     plugins: [react(), tailwindcss()],
+    build: {manifest: true},
     server: mode === 'emulator' ? {
       host: '127.0.0.1', port: 5174, strictPort: true,
       // A second barrier: SDK fetch/XHR cannot reach live Firebase endpoints.

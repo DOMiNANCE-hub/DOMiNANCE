@@ -23,3 +23,13 @@ For a profile-access failure test, run node scripts/emulator-profile-failure.mjs
 This Windows environment needed OpenJDK's TCP-loopback fallback: the launcher selects a missing Unix-socket directory while keeping the normal temp directory valid. Startup initially failed before that workaround. All listener ports (including 9150) were verified bound to 127.0.0.1.
 
 For appearance-save failure testing, `node scripts/emulator-profile-failure.mjs deny-writes` retains owner-only profile reads but denies all writes in emulator memory. Verify the unsaved draft/error message, then immediately run `node scripts/emulator-profile-failure.mjs restore` and retry Save. This is only the fixed loopback demo-dominance emulator; production rules/configuration remain unchanged. Never leave an override active or run the integration suite during the override.
+
+## Community local-only foundation (2026-10-18)
+
+The dedicated emulator config now loads firestore.community.emulator.rules. This preserves the private account baseline while allowing only the bounded HB1 opt-in Community schema and atomic level-change withdrawal locally. Production firestore.rules is unchanged. npm run test:emulators runs both account isolation and Community integration tests sequentially; the Community test loads this candidate only at the fixed 127.0.0.1:8080 demo-dominance endpoint. Fictional Community records may remain for local review; they are labelled Fictional and disappear with an unexported emulator restart. Production Community is disabled in the application. See docs/COMMUNITY_FOUNDATION.md before any release proposal.
+
+
+The unified My Profile follow-up uses a version-2 public projection of the same saved name, bio and preset/initials. Account edits and published projection updates are one emulator transaction; temporary personal-photo previews remain private. The integration suite covers direct identity mismatch rejection, hide without deleting private records, reload, legacy-card review/private backup and account isolation. A fixed loopback emulator-only admin fixture seeds a fictional legacy card; it uses no real credentials or production endpoint. See docs/COMMUNITY_FOUNDATION.md for manual steps. The local candidate remains the intended emulator ruleset after testing, with no temporary permissive override left active.
+
+
+Privacy review for the pre-migration checkpoint replaced the copied owner contact in the emulator-only candidate with `emulator-superadmin@example.invalid`. This is a fictional local administrative fixture, not a real account or a production configuration change. Student tests remain fictional and loopback-only. Production owner identities and rules were not edited.
