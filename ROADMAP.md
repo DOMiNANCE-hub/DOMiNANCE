@@ -1,12 +1,36 @@
 # DOMiNANCE roadmap
 
-Updated 2026-10-14. Status describes local implementation separately from live-service verification. Existing uncommitted work is preserved; nothing has been committed or deployed.
+Updated 2026-10-15. Current status below supersedes historical milestone entries. Phase 1 is checkpointed at 89d982a; Phase 2 is on codex/hb1-cell-structure-content in Draft PR #1, based on pj/student-experience-foundation. No merge or deployment.
+
+## Current verified state — stabilization and course/practice architecture
+
+- Five primary tabs remain: Home, My Courses, Practice, Community, My Progress. Home/Profile remain intact. Account reliability 1A–1C and Phase 1 were manually accepted.
+- Every available course opens Study Blocks, Summaries and LAMLA. Cell Structure Study Blocks contains seven blocks, 46 numbered lessons and one-section-at-a-time reading. Other courses have honest unavailable destinations.
+- Practice independently opens Topic Questions, Past Questions, Flashcards and Mock Exams. Only Topic Questions has content: the 170 supplied Cell Structure MCQs. Other destinations are Coming Soon; no invented papers, decks or exam formats.
+- Section reading supports contents, Previous/Next, explicit read markers, 51 revealable checks, source disclosures and approximate account-owned section resume. Focused reading/quiz hides primary navigation but retains clear exits and the account header.
+- Practice supports actual-pool five/ten/all counts, stable shuffled choices, changeable answers, Previous/Next, jump/status, review before submission, unanswered marking, explanations, history and retry. Existing drafts resume without replacement.
+- Signup/onboarding no longer has a course/favourites picker. Existing course preferences remain intact; curriculum visibility follows year/semester eligibility. No new compulsory assignment implemented.
+- Theme Studio previews are scoped to its miniature. Explicit Save acknowledges an atomic owner-profile write before applying globally. Failure preserves the draft for retry. Cancel/close discards unsaved preview.
+- Reproduced theme leakage and 42px sync-induced layout movement are fixed. Remaining claims and before/after evidence are in docs/STABILIZATION_REPORT.md.
+- All 92 educational components reviewed: 50 effective, 34 useful but unclear, 4 questionable and 4 exact duplicates. Formatting applied; four exact repeated connections link to their shared original. Substantive academic revisions await approval. All original lesson Markdown and MCQ JSON remain unchanged.
+- Verification: 100 automated tests and one real local Auth/Firestore integration scenario pass; lint has eight existing legacy warnings and zero errors; build passes with the existing bundle-size warning. Desktop/390px journeys checked. Physical-device touch, screen-reader audit, complete source reconciliation and question-by-question certification remain outstanding.
+
+## Next approval gates and planned work
+
+1. User/Ofobi review of this Draft PR and the academic proposals in docs/EDUCATIONAL_REVIEW.md. No automatic merge or deployment.
+2. Approve and prepare seven block summaries separately; Slide Essentials are not approved block summaries.
+3. Define and academically review LAMLA (Last-Minute Learning Association), verified past papers, flashcards and mock assessment rules before implementing content/workflows.
+4. Future curriculum catalogue maintenance and compulsory-course personalization remain separate from eligibility visibility. Handbook 2024 needs current lecturer-outline verification.
+5. Community, Weekly Revision, Speed Race, Mistake Bank and an actual source-grounded assistant remain planned; no fabricated activity or working integration claims.
+6. Resolve pilot capacity/offline/concurrent-draft limitations before wider release. Protect licensed content and authoritative assessments server-side if introduced.
+
+Historical entries below record what was true at each earlier milestone; later verified status above takes precedence.
 
 ## Product direction
 
 Build an understandable, trustworthy medical study space for Ghanaian KNUST students. Preserve DOMiNANCE branding, its clean typographic DOMiNANCE wordmark (lowercase i, no caduceus or decorative D), blue-and-gold default and existing slogans. Keep phone use, keyboard access and readable themes central.
 
-Application functionality and foundations come first. HB1 is the first eventual academic-content priority because materials exist for both semesters. Academic preparation is a parallel workflow, potentially coordinated by Ofobi with team support; ownership and review procedures still need agreement. No extraction, question generation or uploads are underway.
+Application functionality and foundations come first. HB1 is the first eventual academic-content priority because materials exist for both semesters. Academic preparation is a parallel workflow, potentially coordinated by Ofobi with team support; ownership and review procedures still need agreement. Cell Structure supplied materials are now a versioned review candidate; no automatic question generation or resource uploads are implemented.
 
 The SMS Handbook 2024 provides curriculum context. Verify current lecturer outlines before treating it as 2026/27 course content. HB2 has paired semester course codes despite annual student navigation; HB3 has five core course groups. Preserve codes and source editions in a future maintained curriculum catalogue rather than rewriting screens. Handbook title/credit inconsistencies require verification. Clinical years remain future scope.
 
@@ -18,7 +42,7 @@ Stage 1C: the parent bootstraps the dashboard from authenticated UID and loaded 
 
 Target: incremental consolidation into one React application, shared stable course/topic/content models, trusted identity and routes, reviewed resources, then cloud progress. Preserve existing records during migrations.
 
-## Implemented locally before this milestone
+## Historical baseline before account milestones
 
 - Four primary tabs: Home, My courses, Practice and My progress, with mobile navigation.
 - Practice groups quizzes, flashcards and LAMLA. Flashcards is explicitly coming soon; LAMLA remains a Home shortcut. Topic assistant identifies itself as a disconnected preview.
@@ -256,3 +280,29 @@ Focused demo quizzes suppress the pattern; study/reading contexts and LAMLA also
 Files: public/dashboard/medical-study-pattern.svg, shared refinement.css, index.html and these development documents. Verification: 73 automated tests passed, lint passed with eight existing warnings and build with the existing large-bundle warning. Actual emulator-mode browser checked all five tabs, palette inheritance, pointer-events:none, quiz suppression and protected exit, Calm in both workspace/Studio, Vibrant live preview and Cancel restoration, plus 1440px desktop and 390px phone layouts without horizontal overflow. Physical-device/performance and comprehensive accessibility audits remain unverified. No Firebase/account persistence code changed, so the emulator integration scenario was not rerun for this styling-only update. No production Firebase configuration/rules changes, commits, pushes, merges or deployment.
 
 Review the actual app at http://127.0.0.1:5174/#home, including the other browsing tabs and Preferences. The separate 5189 concept remains a design exploration, not the application. Await manual review; no next milestone started.
+
+### Phase 2 — Cell Structure pilot (2026-10-14)
+
+Phase 1 is accepted and committed as 89d982a on pj/student-experience-foundation. The approved integration stays in DOMiNANCE-gls/DOMiNANCE with Firebase; the kit's Supabase/other-repository directions are superseded by the user's explicit instruction. Feature branch: codex/hb1-cell-structure-content. Draft PR only; no merge or deploy.
+
+Implemented locally: versioned 46-lesson/170-question source package; deterministic validated compiler; safe lesson rendering and search; lesson/course practice with explanations and correct shuffle mapping; changeable selections before checking; private saved drafts/read markers/completed results; existing account-bound transaction persistence; My Progress pilot panel and Home validated lesson resume. Generic demonstrations remain intact. No diagrams, original slides, QA CSVs, generated academic material, automatic course-assignment rewrite, full flashcards, LAMLA engine or Community work added.
+
+No production configuration/rules changes or schema migration. Academic approval by the user and Ofobi remains required. Static content assets are not confidential/secure assessment delivery. Private learning records remain owner-protected; results are not authoritative grading or mastery. Pilot capacity and offline/concurrent-draft limitations are documented in docs/CELL_STRUCTURE_INTEGRATION.md. Final verification results will be recorded with the feature commit/PR.
+
+Clarified next onboarding correction: choose year and applicable semester only; curriculum courses appear automatically. My Courses already lists eligible courses independently of favourites, but the optional Home-favourites onboarding step and related empty-state wording still need removal/reconciliation. Preserve existing course access and student data when making that follow-up change.
+
+Final local verification: 83 automated tests passed; isolated real Firebase Auth/Firestore scenario passed with expected cross-account denials; lint passed with eight existing legacy React warnings; build passed with the existing bundle warning. Desktop/390px interface checks covered catalogue/search/reader, selection/explanation/completion, reload/resume, exit cancellation/confirmation, saved results, Home resume and two-account isolation. Source schema and compact shared validation keep academic text out of the account bundle. Review captures and precise limitations are in docs/CELL_STRUCTURE_INTEGRATION.md. Await draft-PR academic review; no merge or deployment.
+
+### Phase 2 learning-experience refinement — 2026-10-15
+
+Approved within Draft PR #1: seven-block continuous reading replaces the 46-item entry list while preserving every source section/question. Microscopy chapters cover optical foundations, imaging methods and specimen preparation. Sticky contents/overview, validated approximate section-relative resume, explicit section read markers and optional next-block transitions are implemented. Read markers and position estimates are separate from scores/mastery.
+
+The 51 existing embedded checks now reveal/hide supplied answers on demand without grading or blocking reading. All currently have identifiable answers; no missing explanation was invented. Blocks with no embedded checks remain without them. Source OR01 duplicate uricase notes and unapproved diagrams remain academic-review items; editorial cover/figure-placement metadata is excluded from student output only.
+
+Practice This Block reuses the existing engine, with five/ten/all mapped questions, sampling without duplicates, existing-draft protection, explanations and saved block-labelled results. Lesson-level and course-level practice remain. Original 46 lesson files and 170-question JSON are unchanged. No Firebase configuration/rules changes or ambiguous-data migration.
+
+Active iframe assistant/chat/launch functions are removed; old assistant destinations return Home. One noninteractive AI Study Assistant — Coming Soon item appears on Home. Five primary tabs and Phase 1 Home/Profile remain. Dormant unreachable React code is not a live assistant. Favourites-picker removal remains a separate onboarding correction.
+
+Verification and screenshots: docs/CELL_STRUCTURE_INTEGRATION.md. Draft academic-review candidate only; no merge, private-testing deployment or production deployment performed.
+
+Refinement verification: 93 tests passed, isolated real Auth/Firestore integration passed with reading-position persistence/relogin and expected cross-account denials, lint/build passed with existing warnings. Actual desktop/mobile-width UI checks covered seven-block navigation, continuous text, reveal/hide checks, reload/section resume, five-question block practice, interruption/resume/completion, separate accounts and preserved original full-course draft. Full notes and screenshots are in docs/CELL_STRUCTURE_INTEGRATION.md. Source 46/170 unchanged. Physical-device, screen-reader and final academic/diagram reviews remain outstanding. Await review in Draft PR #1; no deployment or merge.

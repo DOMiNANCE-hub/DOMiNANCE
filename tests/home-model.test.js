@@ -16,3 +16,5 @@ test('corrupt saved enabled goals fall back to off rather than award an invented
 test('corrupt appearance and inherited property names cannot crash token resolution',()=>{for(const theme of ['__proto__','constructor','toString','unknown']){assert.equal(a.normalize({theme}).theme,'signature');assert.ok(a.tokens({theme})['--app-bg']);}assert.equal(a.normalize(null).theme,'signature');});
 
 test('impossible activity counts cannot inflate goals or momentum',()=>{const r={id:'bad',completedAt:new Date().toISOString(),total:1e100,correct:0};assert.equal(m.records(JSON.stringify([r]),null).length,0);});
+
+test('study and practice focus and control boundaries meet non-text contrast in every palette',()=>{for(const theme of Object.keys(a.palettes))for(const mode of ['light','dark']){const v=a.tokens({theme,mode});assert.ok(contrast(v['--app-focus'],v['--app-surface'])>=3,theme+mode+' focus');assert.ok(contrast(v['--app-muted'],v['--app-surface'])>=3,theme+mode+' control boundary')}});

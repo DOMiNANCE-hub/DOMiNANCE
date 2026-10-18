@@ -7,7 +7,8 @@ import {renderToString} from 'react-dom/server';
 test('account interfaces render without Firebase calls',async()=>{
  const server=await createServer({server:{middlewareMode:true},appType:'custom'});
  try{
-  const {AuthGate,AccountBar}=await server.ssrLoadModule('/src/DominanceApp.jsx');
+  const {AuthGate,AccountBar,Onboarding}=await server.ssrLoadModule('/src/DominanceApp.jsx');
+  const onboarding=renderToString(React.createElement(Onboarding,{profile:{name:'Fictional Student',year:'HB 1',semester:'First',courses:['Cell Structure']},save:()=>{throw Error('No calls during render')}}));assert.doesNotMatch(onboarding,/Your courses|type="checkbox"/);assert.match(onboarding,/Semester|semester/);
   const signIn=renderToString(React.createElement(AuthGate));
   assert.match(signIn,/Forgot password/);assert.match(signIn,/Continue with Google/);assert.match(signIn,/Sign in/);assert.match(signIn,/DOMiNANCE/);assert.doesNotMatch(signIn,/caduceus|dom-auth-mark/);
   const account=renderToString(React.createElement(AccountBar,{user:{uid:'mock-only',email:'student@example.invalid'},profile:{name:'Test student',year:'HB 2',semester:'Annual',courses:[]},logout:()=>{throw new Error('must not execute during render')}}));

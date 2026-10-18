@@ -16,3 +16,5 @@
 .account-dialog select:focus-visible{outline:3px solid #f3cc71;outline-offset:3px}
 
 .account-sync{padding:8px 16px;font-size:13px;background:#fff4d6;color:#173452}.account-sync button{margin-left:12px;min-height:36px;border:1px solid #b48b2c;border-radius:8px;background:#fff;color:#173452}
+/* Sync state has a permanent slot: saves must never move the iframe. */
+.account-shell{--sync-height:36px}.account-sync{height:var(--sync-height);min-height:var(--sync-height);max-height:var(--sync-height);box-sizing:border-box;display:flex;align-items:center;padding:0 16px;font-size:12px;overflow:hidden}.account-sync[data-active=false]{visibility:hidden}.account-sync button{min-height:28px;height:28px;padding:2px 10px}.account-shell .dom-prototype{height:calc(100dvh - var(--account-height) - var(--sync-height))}

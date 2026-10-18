@@ -21,3 +21,5 @@ Verified results are recorded in ROADMAP.md after each test run.
 For a profile-access failure test, run node scripts/emulator-profile-failure.mjs deny, reload the signed-in app and confirm the Retry screen. Then ALWAYS run node scripts/emulator-profile-failure.mjs restore and Retry. These commands alter only emulator memory, never the on-disk or deployed rules.
 
 This Windows environment needed OpenJDK's TCP-loopback fallback: the launcher selects a missing Unix-socket directory while keeping the normal temp directory valid. Startup initially failed before that workaround. All listener ports (including 9150) were verified bound to 127.0.0.1.
+
+For appearance-save failure testing, `node scripts/emulator-profile-failure.mjs deny-writes` retains owner-only profile reads but denies all writes in emulator memory. Verify the unsaved draft/error message, then immediately run `node scripts/emulator-profile-failure.mjs restore` and retry Save. This is only the fixed loopback demo-dominance emulator; production rules/configuration remain unchanged. Never leave an override active or run the integration suite during the override.
