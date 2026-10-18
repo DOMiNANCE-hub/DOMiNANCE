@@ -10,6 +10,7 @@
  el('homeToolClose').onclick=()=>el('homeToolDialog').close();el('homeToolDialog').onclose=()=>toolOrigin?.isConnected&&toolOrigin.focus();
  el('homeTools').querySelectorAll('[data-home-tool]').forEach(button=>button.onclick=()=>openTool(button.dataset.homeTool));
  const openPractice=()=>ctx.quickPractice?ctx.quickPractice():ctx.navigate('practice');
+ el('homePracticeAction').onclick=openPractice;
  function saveGoal(value){try{const next=model.validateGoal(value);if(!ctx.save('dailyGoal',JSON.stringify(next)))throw Error('Your goal could not be saved. Please retry.');refresh();return true}catch(error){el('goalError').textContent=error.message;return false}}
  function openGoal(){const g=prefs();goalOrigin=d.activeElement;el('goalType').value=g.type;el('goalTarget').value=g.target;el('goalTarget').max=g.type==='questions'?200:20;el('goalTimezone').value=g.timeZone;el('goalError').textContent='';el('dailyGoalDialog').showModal();el('goalType').focus()}
  const dialog=el('dailyGoalDialog');dialog.onclose=()=>{(goalOrigin?.isConnected?goalOrigin:el('goalOpen'))?.focus()};dialog.onkeydown=e=>{if(e.key!=='Tab')return;const controls=[...dialog.querySelectorAll('input,select,button')].filter(c=>!c.disabled);if(e.shiftKey&&d.activeElement===controls[0]){e.preventDefault();controls.at(-1).focus()}else if(!e.shiftKey&&d.activeElement===controls.at(-1)){e.preventDefault();controls[0].focus()}};
