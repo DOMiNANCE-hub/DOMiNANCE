@@ -22,7 +22,7 @@ test('Sprint 02 standardizes AuthGate, Onboarding modal, Community cards, activi
  assert.match(accountCss,/\.dom-modal input,\.dom-modal select,\.dom-modal \.workspace-choice\{[^}]*min-height:46px/);
  assert.match(uiCss,/\.authenticated-dashboard \.activity\{border-bottom:1px solid var\(--app-line\)/);
  assert.match(uiCss,/\.authenticated-dashboard \.toast\{[^}]*background:var\(--app-nav\)/);
- assert.match(uiCss,/html\[data-mode=dark\] \.authenticated-dashboard \.shell \.content \.course/);
+ assert.match(uiCss,/html\.authenticated-dashboard\[data-mode=dark\] \.shell \.content \.course/);
 });
 test('Sprint 03 refines study block cards, lesson topic rows, section navigation, concept checks, quiz question headers, review tiles, and explanation accordions',()=>{
  const uiCss=readFileSync('public/dashboard/workspace-ui.css','utf8');
@@ -44,3 +44,11 @@ test('Sprint 04 deduplicates courseCard progress parsing, guards visibilitychang
  assert.match(uiCss,/\.authenticated-dashboard details summary:focus-visible/);
  assert.match(uiCss,/@media\(prefers-reduced-motion:reduce\)/);
 });
+test('Sprint 05 fixes concept-check answer background, hides orphan reader hr wrappers, refines dark-mode active nav contrast, and polishes Community person cards',()=>{
+ const uiCss=readFileSync('public/dashboard/workspace-ui.css','utf8');
+ assert.match(uiCss,/\.authenticated-dashboard \.cell-concept-answer\{background:transparent!important\}/);
+ assert.match(uiCss,/\.authenticated-dashboard \.cell-reader>div:not\(:has\(p,ul,ol,table,h2,h3,h4\)\)\{display:none\}/);
+ assert.match(uiCss,/html\.authenticated-dashboard\[data-mode=dark\] \.shell \.side \.nav button\.active\{background:#1d3557!important/);
+ assert.match(uiCss,/\.authenticated-dashboard \.community-person\{min-height:196px/);
+});
+
