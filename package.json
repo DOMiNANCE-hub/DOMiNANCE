@@ -16,7 +16,9 @@
     "firebase:check": "node scripts/check-firebase-env.mjs",
     "test:firebase:development": "node --use-env-proxy scripts/test-firebase-development.mjs",
     "content:cell": "node scripts/import-cell-structure.mjs",
-    "prebuild": "npm run content:cell"
+    "prebuild": "npm run content:cell && npm run content:computer",
+    "content:computer": "node scripts/import-computer-appreciation.mjs",
+    "content:coverage": "node scripts/report-hb1-coverage.mjs"
   },
   "dependencies": {
     "firebase": "^13.0.0",

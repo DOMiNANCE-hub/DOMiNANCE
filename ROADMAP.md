@@ -6,6 +6,8 @@ The current user authorized isolated academic branches, implementation, tests, c
 
 Cell Structure reliability: four reproduced defects fixed (lesson-specific resume, obsolete section links, draft resume availability, completed-draft transaction resurrection). All supplied 46 lessons/170 MCQs/51 checks preserved. 134 individual offline checks, lint/build and the added real emulator transaction pass; Chromium desktop/390px covers reader, exit/resume, submission and explanations with no page errors or narrow overflow. See [evidence and remaining academic gaps](docs/HB1_CELL_RELIABILITY.md).
 
+Computer Appreciation: 12 lessons/72 explained MCQs in four blocks, grounded in the connected CSM 177 Excel/PowerPoint lecturer notes with lesson and individual-question PDF citations. Reuses the existing reader/practice engine and authenticated Firebase transaction path with independent course drafts/history. Confirmed results contribute to Home/goals; skipped questions remain excluded. Current official syllabus and final academic approval remain unverified. All 143 individual offline and 37 emulator checks pass; lint/build pass with existing warnings. [Readiness report and remaining gaps](docs/HB1_CONTENT_READINESS.md), [generated nine-course inventory](docs/HB1_CONTENT_COVERAGE_TABLE.md). The seven other configured first-semester courses still have no implemented academic lessons/MCQs. Draft review only; no deployment/merge.
+
 Updated 2026-10-15. Current status below supersedes historical milestone entries. Phase 1 is checkpointed at 89d982a; Phase 2 is on codex/hb1-cell-structure-content in Draft PR #1, based on pj/student-experience-foundation. No merge or deployment.
 
 ## Current verified state — stabilization and course/practice architecture

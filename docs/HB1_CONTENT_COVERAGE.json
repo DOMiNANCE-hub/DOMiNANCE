@@ -1,0 +1,361 @@
+{
+  "scope": "HB1:First",
+  "basis": "Repository curriculum and supplied material; current official syllabus not verified",
+  "courses": [
+    {
+      "course": "Basic Medical Chemistry",
+      "lessons": 0,
+      "questions": 0,
+      "status": "no-implemented-content",
+      "lessonCoverage": []
+    },
+    {
+      "course": "Biological Chemistry",
+      "lessons": 0,
+      "questions": 0,
+      "status": "no-implemented-content",
+      "lessonCoverage": []
+    },
+    {
+      "course": "Medical Genetics",
+      "lessons": 0,
+      "questions": 0,
+      "status": "no-implemented-content",
+      "lessonCoverage": []
+    },
+    {
+      "course": "Cell Structure",
+      "lessons": 46,
+      "questions": 170,
+      "status": "academic-review-pending",
+      "lessonCoverage": [
+        {
+          "id": "lesson_01",
+          "title": "Lesson 1 — Why Microscopy Matters",
+          "questions": 1
+        },
+        {
+          "id": "lesson_02",
+          "title": "Lesson 2 — Simple Microscopes",
+          "questions": 1
+        },
+        {
+          "id": "lesson_03",
+          "title": "Lesson 3 — Optical Aberrations",
+          "questions": 1
+        },
+        {
+          "id": "lesson_04",
+          "title": "Lesson 4 — Compound and Dissecting Microscopes",
+          "questions": 1
+        },
+        {
+          "id": "lesson_05",
+          "title": "Lesson 5 — Magnification, Parfocality and Working Distance",
+          "questions": 1
+        },
+        {
+          "id": "lesson_06",
+          "title": "Lesson 6 — Resolution and Numerical Aperture",
+          "questions": 1
+        },
+        {
+          "id": "lesson_07",
+          "title": "Lesson 7 — Bright-field and Dark-field Microscopy",
+          "questions": 1
+        },
+        {
+          "id": "lesson_08",
+          "title": "Lesson 8 — Phase-Contrast Microscopy",
+          "questions": 1
+        },
+        {
+          "id": "lesson_09",
+          "title": "Lesson 9 — Ultraviolet Microscopy",
+          "questions": 1
+        },
+        {
+          "id": "lesson_10",
+          "title": "Lesson 10 — Fluorescence and Immunofluorescence",
+          "questions": 1
+        },
+        {
+          "id": "lesson_11",
+          "title": "Lesson 11 — Electron Microscopy and Transmission Electron Microscopy (TEM)",
+          "questions": 1
+        },
+        {
+          "id": "lesson_12",
+          "title": "Lesson 12 — Scanning Electron Microscopy (SEM) and Microscope Comparison",
+          "questions": 1
+        },
+        {
+          "id": "lesson_13",
+          "title": "Lesson 13 — Why Specimens Must Be Prepared",
+          "questions": 1
+        },
+        {
+          "id": "lesson_14",
+          "title": "Lesson 14 — Fixation",
+          "questions": 1
+        },
+        {
+          "id": "lesson_15",
+          "title": "Lesson 15 — Dehydration, Clearing and Embedding",
+          "questions": 1
+        },
+        {
+          "id": "lesson_16",
+          "title": "Lesson 16 — Sectioning and Microtomes",
+          "questions": 1
+        },
+        {
+          "id": "lesson_17",
+          "title": "Lesson 17 — Staining for Light Microscopy",
+          "questions": 1
+        },
+        {
+          "id": "lesson_18",
+          "title": "Lesson 18 — Staining for Electron Microscopy",
+          "questions": 1
+        },
+        {
+          "id": "CO01",
+          "title": "The Cell as the Fundamental Unit of Life",
+          "questions": 6
+        },
+        {
+          "id": "CO02",
+          "title": "Cellular Diversity, Size and Shape",
+          "questions": 6
+        },
+        {
+          "id": "CO03",
+          "title": "Surface-Area-to-Volume Ratio and Cell Size",
+          "questions": 6
+        },
+        {
+          "id": "CO04",
+          "title": "Prokaryotic and Eukaryotic Cells",
+          "questions": 6
+        },
+        {
+          "id": "OR01",
+          "title": "OR01 — Microbodies and Peroxisomes",
+          "questions": 5
+        },
+        {
+          "id": "OR02",
+          "title": "OR02 — Glyoxysomes and Hydrogenosomes",
+          "questions": 5
+        },
+        {
+          "id": "OR03",
+          "title": "OR03 — Lysosomes: Structure and Intracellular Digestion",
+          "questions": 5
+        },
+        {
+          "id": "OR04",
+          "title": "OR04 — Lysosomes in Disease: Silicosis and Tay–Sachs",
+          "questions": 5
+        },
+        {
+          "id": "OR05",
+          "title": "OR05 — Nucleus: Envelope, Pores and Genetic Instructions",
+          "questions": 5
+        },
+        {
+          "id": "OR06",
+          "title": "OR06 — Nucleolus, Chromatin and Chromosomes",
+          "questions": 5
+        },
+        {
+          "id": "OR07",
+          "title": "OR07 — Centrosome and Centrioles",
+          "questions": 5
+        },
+        {
+          "id": "CM01",
+          "title": "CM01 — Cytosol and the phospholipid bilayer",
+          "questions": 6
+        },
+        {
+          "id": "CM02",
+          "title": "CM02 — Cholesterol and membrane fluidity",
+          "questions": 6
+        },
+        {
+          "id": "CM03",
+          "title": "CM03 — Membrane lipids, proteins and glycocalyx",
+          "questions": 6
+        },
+        {
+          "id": "CM04",
+          "title": "CM04 — Selective permeability and electrochemical gradients",
+          "questions": 6
+        },
+        {
+          "id": "CY01",
+          "title": "CY01 — Cytoskeleton: architecture and movement",
+          "questions": 6
+        },
+        {
+          "id": "CY02",
+          "title": "CY02 — Three filament systems and motor proteins",
+          "questions": 6
+        },
+        {
+          "id": "CY03",
+          "title": "CY03 — Microtubule structure, polarity and dynamic instability",
+          "questions": 6
+        },
+        {
+          "id": "CY04",
+          "title": "CY04 — Microtubules in mitosis and medicine",
+          "questions": 6
+        },
+        {
+          "id": "CE01",
+          "title": "CE01 — Cell Disruption and Homogenisation",
+          "questions": 5
+        },
+        {
+          "id": "CE02",
+          "title": "CE02 — Centrifugation and Differential Fractionation",
+          "questions": 5
+        },
+        {
+          "id": "CE03",
+          "title": "CE03 — Density Gradients, Rate-Zonal and Isopycnic Separation",
+          "questions": 5
+        },
+        {
+          "id": "CE04",
+          "title": "CE04 — Analytical Ultracentrifugation and Centrifuge Examples",
+          "questions": 5
+        },
+        {
+          "id": "BI01",
+          "title": "BI01 — Biochemical analysis and spectrophotometry",
+          "questions": 5
+        },
+        {
+          "id": "BI02",
+          "title": "BI02 — Autoradiography and radioactive tracers",
+          "questions": 5
+        },
+        {
+          "id": "BI03",
+          "title": "BI03 — Chromatography and partition principles",
+          "questions": 5
+        },
+        {
+          "id": "BI04",
+          "title": "BI04 — Paper chromatography: setup and migration",
+          "questions": 5
+        },
+        {
+          "id": "BI05",
+          "title": "BI05 — Chromatograms and retention factor",
+          "questions": 5
+        }
+      ]
+    },
+    {
+      "course": "Ghanaian Sign Language",
+      "lessons": 0,
+      "questions": 0,
+      "status": "no-implemented-content",
+      "lessonCoverage": []
+    },
+    {
+      "course": "Communication Skills",
+      "lessons": 0,
+      "questions": 0,
+      "status": "no-implemented-content",
+      "lessonCoverage": []
+    },
+    {
+      "course": "Computer Appreciation",
+      "lessons": 12,
+      "questions": 72,
+      "status": "academic-review-pending",
+      "lessonCoverage": [
+        {
+          "id": "CA01",
+          "title": "Spreadsheets and dependable data entry",
+          "questions": 6
+        },
+        {
+          "id": "CA02",
+          "title": "Editing, AutoComplete and AutoFill",
+          "questions": 6
+        },
+        {
+          "id": "CA03",
+          "title": "Formulas, references and evaluation order",
+          "questions": 6
+        },
+        {
+          "id": "CA04",
+          "title": "Functions, dates and common calculations",
+          "questions": 6
+        },
+        {
+          "id": "CA05",
+          "title": "Describing and counting numeric data",
+          "questions": 6
+        },
+        {
+          "id": "CA06",
+          "title": "Text, logical tests and financial arguments",
+          "questions": 6
+        },
+        {
+          "id": "CA07",
+          "title": "Formatting, printing and workbook care",
+          "questions": 6
+        },
+        {
+          "id": "CA08",
+          "title": "Choosing and checking charts",
+          "questions": 6
+        },
+        {
+          "id": "CA09",
+          "title": "Sorting and filtering records",
+          "questions": 6
+        },
+        {
+          "id": "CA10",
+          "title": "PowerPoint slides, layouts and saved files",
+          "questions": 6
+        },
+        {
+          "id": "CA11",
+          "title": "Tables, pictures and presentation objects",
+          "questions": 6
+        },
+        {
+          "id": "CA12",
+          "title": "Presenting, printing and controlled effects",
+          "questions": 6
+        }
+      ]
+    },
+    {
+      "course": "Algebra",
+      "lessons": 0,
+      "questions": 0,
+      "status": "no-implemented-content",
+      "lessonCoverage": []
+    },
+    {
+      "course": "Statistical Methods",
+      "lessons": 0,
+      "questions": 0,
+      "status": "no-implemented-content",
+      "lessonCoverage": []
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+/* Topic groups mapped to the cited CSM 177 material; no official syllabus claim. */
+globalThis.DominanceComputerLearning=globalThis.DominanceCellLearning.create([{"id": "spreadsheet-foundations", "title": "Spreadsheet Foundations", "lessons": ["CA01", "CA02", "CA03"]}, {"id": "spreadsheet-functions", "title": "Spreadsheet Functions", "lessons": ["CA04", "CA05", "CA06"]}, {"id": "data-and-charts", "title": "Data Handling & Charts", "lessons": ["CA07", "CA08", "CA09"]}, {"id": "presentations", "title": "Presentations", "lessons": ["CA10", "CA11", "CA12"]}]);
