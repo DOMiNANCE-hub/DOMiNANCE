@@ -2,24 +2,31 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {initializeApp,deleteApp} from 'firebase/app';
 import {getAuth,connectAuthEmulator,createUserWithEmailAndPassword,signInWithEmailAndPassword,sendPasswordResetEmail,signOut,onAuthStateChanged} from 'firebase/auth';
-import {getFirestore,connectFirestoreEmulator,setDoc,updateDoc,getDoc,doc,onSnapshot,terminate,runTransaction} from 'firebase/firestore';
+import {getFirestore,connectFirestoreEmulator,setDoc,updateDoc,getDoc,getDocFromServer,doc,onSnapshot,terminate,runTransaction} from 'firebase/firestore';
 import '../public/dashboard/curriculum.js';
 import {profileChanges,saveAcademicProfile} from '../src/profile-edit.js';
 import {createDashboardStorage,mergeDemoHistory,mergeCellHistory} from '../src/dashboard-session.js';
-import {observeAccount} from '../src/account-session.js';
+import {observeAccount,studentAccountProfile} from '../src/account-session.js';
 const project='demo-dominance';
 const config={apiKey:'demo-only-key',projectId:project,appId:'demo-only-app'};
 const clients=[];
 function client(name){const app=initializeApp(config,name),auth=getAuth(app),db=getFirestore(app);connectAuthEmulator(auth,'http://127.0.0.1:9099',{disableWarnings:true});connectFirestoreEmulator(db,'127.0.0.1',8080);clients.push({app,db});return{auth,db}}
 const waitFor=async(check)=>{const until=Date.now()+10000;while(Date.now()<until){if(check())return;await new Promise(resolve=>setTimeout(resolve,25))}throw new Error('Expected emulator account state was not reached')};
-test('real local Auth/Firestore integration and profile isolation',async()=>{
+test('real local Auth/Firestore integration and profile isolation',async t=>{
  const {auth,db}=client('isolated-account-test');const suffix=Date.now();const password='Fictional-test-123!';let state;
  const stop=observeAccount({subscribeAuth:(next,fail)=>onAuthStateChanged(auth,next,fail),subscribeProfile:(uid,next,fail)=>onSnapshot(doc(db,'users',uid),snapshot=>next(snapshot.exists()?snapshot.data():null),fail),publish:next=>{state=next}});
  try{
   const aliceEmail='alice-'+suffix+'@example.invalid',bobEmail='bob-'+suffix+'@example.invalid';
   const alice=(await createUserWithEmailAndPassword(auth,aliceEmail,password)).user;
   await waitFor(()=>state?.user?.uid===alice.uid&&!state.loading);assert.equal(state.profile,null);
-  await setDoc(doc(db,'users',alice.uid),{name:'Fictional Alice',email:aliceEmail,role:'student',year:'HB 1',semester:'First',courses:['Cell Structure']});
+  await t.test('onboarding persists only student fields with the authenticated email',async()=>{
+   const draft={name:'Fictional Alice',email:'forged@example.invalid',role:'superAdmin',year:'HB 1',semester:'First',courses:['Cell Structure'],communityVisible:true,claims:{admin:true}};
+   await setDoc(doc(db,'users',alice.uid),studentAccountProfile(alice,draft));
+   const saved=(await getDocFromServer(doc(db,'users',alice.uid))).data();
+   assert.equal(saved.email,aliceEmail);assert.equal(saved.role,'student');
+   assert.equal(saved.username,'Fictional Alice');assert.ok(saved.createdAt);
+   assert.equal(Object.hasOwn(saved,'communityVisible'),false);assert.equal(Object.hasOwn(saved,'claims'),false);
+  });
   await waitFor(()=>state?.profile?.name==='Fictional Alice');assert.equal(state.profile.id,alice.uid);
   await saveAcademicProfile({auth,uid:alice.uid,changes:profileChanges({name:'Fictional Alice Edited',year:'HB1',semester:'Second'},state.profile,globalThis.DominanceCurriculum),write:(uid,data)=>updateDoc(doc(db,'users',uid),data)});
   await waitFor(()=>state?.profile?.name==='Fictional Alice Edited');assert.equal(state.profile.semester,'Second');assert.deepEqual(state.profile.courses,[]);assert.equal(state.profile.role,'student');
