@@ -24,3 +24,13 @@ test('Sprint 02 standardizes AuthGate, Onboarding modal, Community cards, activi
  assert.match(uiCss,/\.authenticated-dashboard \.toast\{[^}]*background:var\(--app-nav\)/);
  assert.match(uiCss,/html\[data-mode=dark\] \.authenticated-dashboard \.shell \.content \.course/);
 });
+test('Sprint 03 refines study block cards, lesson topic rows, section navigation, concept checks, quiz question headers, review tiles, and explanation accordions',()=>{
+ const uiCss=readFileSync('public/dashboard/workspace-ui.css','utf8');
+ assert.match(uiCss,/\.authenticated-dashboard \.cell-block-card\{display:flex;flex-direction:column;min-height:204px/);
+ assert.match(uiCss,/\.authenticated-dashboard \.lesson-list \.topicrow::after\{content:'→'/);
+ assert.match(uiCss,/\.authenticated-dashboard \.section-navigation\{background:var\(--app-surface\)/);
+ assert.match(uiCss,/\.authenticated-dashboard \.cell-concept-check\{[^}]*border-left:4px solid var\(--app-secondary\)!important/);
+ assert.match(uiCss,/\.authenticated-dashboard \.question-review button\{border:1px solid var\(--app-line\)/);
+ assert.match(uiCss,/\.authenticated-dashboard #quizArea details\[open\] summary\{padding-bottom:10px;border-bottom:1px solid var\(--app-line\)/);
+ assert.match(uiCss,/\.authenticated-dashboard \.lamla-options button\{min-height:44px/);
+});
