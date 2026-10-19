@@ -37,6 +37,21 @@ test('real local Auth/Firestore integration and profile isolation',async t=>{
   const merged=JSON.parse((await getDoc(doc(db,'users',alice.uid))).data().dashboardState.scores);assert.equal(merged.length,3);
   storage.setItem('cellStructure',JSON.stringify({version:1,lessons:{CO01:'2026-10-14T12:00:00Z'},reading:{microscopy:{section:'lesson_08',offset:0.35,updatedAt:'2026-10-14T12:00:00Z'}},draft:{id:'emulator-draft',questions:['CO-Q001'],index:0,answers:[],selected:3,checked:false},attempts:[{id:'cell-completed',completedAt:'2026-10-14T12:00:00Z',answers:[{question:'CO-Q001',option:3}]}]}));await storage.retry();const cellSaved=(await getDoc(doc(db,'users',alice.uid))).data().dashboardState.cellStructure;assert.equal(JSON.parse(cellSaved).draft.selected,3);assert.equal(JSON.parse(cellSaved).reading.microscopy.section,'lesson_08');assert.equal(JSON.parse(mergeCellHistory(cellSaved,cellSaved)).attempts.length,1);
   const modern=JSON.parse(cellSaved);modern.reading.microscopy.part=1;modern.draft={format:2,id:'emulator-draft',questions:['CO-Q001','CO-Q002'],index:1,responses:{'CO-Q001':3},phase:'review'};modern.attempts.push({id:'skipped-completed',completedAt:'2026-10-15T12:00:00Z',answers:[{question:'CO-Q002',option:null}]});storage.setItem('cellStructure',JSON.stringify(modern));await storage.retry();assert.equal(storage.pending,0);const modernSaved=JSON.parse((await getDoc(doc(db,'users',alice.uid))).data().dashboardState.cellStructure);assert.equal(modernSaved.draft.phase,'review');assert.equal(modernSaved.draft.responses['CO-Q001'],3);assert.equal(modernSaved.attempts.at(-1).answers[0].option,null);
+  await t.test('completed practice stays completed after a stale Firestore transaction',async()=>{
+   const stale={...modernSaved,draft:{...modernSaved.draft,id:'stale-completed'}};
+   const completed={...stale,draft:null,attempts:[...stale.attempts,{id:'stale-completed',completedAt:new Date().toISOString(),answers:[{question:'CO-Q001',option:3}]}]};
+   const ref=doc(db,'users',alice.uid);
+   try{
+    await updateDoc(ref,{'dashboardState.cellStructure':JSON.stringify(completed)});
+    await runTransaction(db,async transaction=>{
+     const snapshot=await transaction.get(ref);
+     transaction.update(ref,{'dashboardState.cellStructure':mergeCellHistory(snapshot.data().dashboardState.cellStructure,JSON.stringify(stale))});
+    });
+    const saved=JSON.parse((await getDocFromServer(ref)).data().dashboardState.cellStructure);
+    assert.equal(saved.draft,null);assert.equal(saved.attempts.filter(a=>a.id==='stale-completed').length,1);
+    assert.deepEqual(saved.lessons,modernSaved.lessons);assert.deepEqual(saved.reading,modernSaved.reading);
+   }finally{await updateDoc(ref,{'dashboardState.cellStructure':JSON.stringify(modernSaved)})}
+  });
   storage.setItem('avatar','glasses');storage.setItem('theme','aurora');storage.setItem('mode','system');storage.setItem('intensity','vibrant');storage.setItem('motion','reduced');storage.setItem('dailyGoal',JSON.stringify({enabled:true,paused:false,type:'questions',target:10,timeZone:'Africa/Accra'}));await storage.retry();assert.equal(storage.pending,0);
   await sendPasswordResetEmail(auth,aliceEmail);
   const recovery=await fetch('http://127.0.0.1:9099/emulator/v1/projects/'+project+'/oobCodes').then(response=>response.json());assert.ok(recovery.oobCodes.some(code=>code.email===aliceEmail&&code.requestType==='PASSWORD_RESET'));
