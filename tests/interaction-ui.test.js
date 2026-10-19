@@ -34,3 +34,13 @@ test('Sprint 03 refines study block cards, lesson topic rows, section navigation
  assert.match(uiCss,/\.authenticated-dashboard #quizArea details\[open\] summary\{padding-bottom:10px;border-bottom:1px solid var\(--app-line\)/);
  assert.match(uiCss,/\.authenticated-dashboard \.lamla-options button\{min-height:44px/);
 });
+test('Sprint 04 deduplicates courseCard progress parsing, guards visibilitychange Home refreshes, and adds layout containment, touch-action, focus-visible, and reduced-motion rules',()=>{
+ const uiCss=readFileSync('public/dashboard/workspace-ui.css','utf8'),homeUi=readFileSync('public/dashboard/home-ui.js','utf8');
+ assert.match(html,/function courseCard\(name,index,tag,attempts=progressTotals\(\)\.attempts\)/);
+ assert.match(html,/courseCard\(n,i,academicPolicy\.label\(selectedScope\),attempts\)/);
+ assert.match(homeUi,/addEventListener\('visibilitychange',\(\)=>\{if\(!d\.hidden&&el\('home'\)\.classList\.contains\('active'\)\)refresh\(\)\}\)/);
+ assert.match(uiCss,/contain:layout style/);
+ assert.match(uiCss,/touch-action:manipulation/);
+ assert.match(uiCss,/\.authenticated-dashboard details summary:focus-visible/);
+ assert.match(uiCss,/@media\(prefers-reduced-motion:reduce\)/);
+});

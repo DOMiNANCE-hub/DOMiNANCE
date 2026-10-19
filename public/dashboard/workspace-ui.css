@@ -239,3 +239,13 @@ html[data-mode=dark] .authenticated-dashboard .lesson-list .topicrow::after{colo
 .authenticated-dashboard .shell .content .focus{border:1px solid var(--app-line)!important;border-left:4px solid var(--app-accent)!important;border-radius:14px!important;padding:16px 18px}
 .authenticated-dashboard .cramlist li{font-size:13px;line-height:1.6;padding:6px 0}
 .authenticated-dashboard .lamla-options button{min-height:44px;padding:8px 16px;border-radius:10px;font-size:13px}
+
+/* Sprint 04: Performance containment, touch responsiveness, keyboard focus-visible completeness, and reduced-motion guards. */
+.authenticated-dashboard .shell .content .course,.authenticated-dashboard .cell-block-card,.authenticated-dashboard .destination-card,.authenticated-dashboard .community-person{contain:layout style}
+.authenticated-dashboard .spotlight-track{overflow-anchor:none}
+.authenticated-dashboard .course[role=button],.authenticated-dashboard summary,.authenticated-dashboard #home.home-compact .home-tool-card,.authenticated-dashboard .community-person button,.authenticated-dashboard .question-review button,.account-shell .preset-grid button,.account-shell .account-panel .account-sections button{touch-action:manipulation}
+.authenticated-dashboard details summary:focus-visible,.authenticated-dashboard .course[role=button]:focus-visible,.authenticated-dashboard .spotlight-track:focus-visible,.authenticated-dashboard .question-review button:focus-visible,.account-shell .account-panel .account-sections button:focus-visible{outline:3px solid var(--ui-focus,var(--panel-focus,#c69214))!important;outline-offset:2px}
+[data-motion=reduced] .authenticated-dashboard .race-live-transition,[data-motion=reduced] .authenticated-dashboard .race-starting-transition,[data-motion=reduced] .authenticated-dashboard .nav button,[data-motion=reduced] .authenticated-dashboard .course,[data-motion=reduced] .authenticated-dashboard .choice,[data-motion=reduced] .authenticated-dashboard .topicrow{animation:none!important;transition:none!important;transform:none!important}
+@media(prefers-reduced-motion:reduce){
+ .authenticated-dashboard .race-live-transition,.authenticated-dashboard .race-starting-transition,.authenticated-dashboard .nav button,.authenticated-dashboard .course,.authenticated-dashboard .choice,.authenticated-dashboard .topicrow{animation:none!important;transition:none!important;transform:none!important}
+}
