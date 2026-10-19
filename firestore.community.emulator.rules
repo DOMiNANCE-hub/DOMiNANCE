@@ -4,7 +4,8 @@ service cloud.firestore {
     function signedIn() { return request.auth != null; }
     function isSuperAdmin() {
       // Fictional local administrative fixture; production identity remains unchanged.
-      return signedIn() && request.auth.token.email == 'emulator-superadmin@example.invalid';
+      return signedIn() && request.auth.token.email_verified == true
+        && request.auth.token.email == 'emulator-superadmin@example.invalid';
     }
     function isAdmin() {
       return isSuperAdmin() || (signedIn()

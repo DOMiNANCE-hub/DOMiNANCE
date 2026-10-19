@@ -1,16 +1,16 @@
 import { getApps, initializeApp } from 'firebase/app'
 import { getAuth, connectAuthEmulator } from 'firebase/auth'
 import { getFirestore, connectFirestoreEmulator } from 'firebase/firestore'
-import { firebaseConfiguration } from './firebase-mode.js'
+import { firebaseConfiguration, firebaseConfigurationStatus, assertFirebaseAppConfiguration } from './firebase-mode.js'
 
 // Emulator mode ignores ALL real-project configuration and never falls back.
 const selected = firebaseConfiguration(import.meta.env)
 export const emulatorMode = selected.emulator
 export const firebaseProjectConfig = selected.config
-const requiredConfig = ['apiKey', 'authDomain', 'projectId', 'storageBucket', 'messagingSenderId', 'appId']
-const isConfigured = requiredConfig.every(key => firebaseProjectConfig[key])
+const isConfigured = firebaseConfigurationStatus(firebaseProjectConfig).ready
 const appName = emulatorMode ? 'dominance-emulator' : '[DEFAULT]'
 const existing = getApps().find(app => app.name === appName)
+if (isConfigured && !emulatorMode) assertFirebaseAppConfiguration(existing, firebaseProjectConfig)
 const emulatorConnected = Symbol.for('dominance.localEmulatorsConnected')
 if (emulatorMode && existing && (existing.options.projectId !== 'demo-dominance' || existing.options.apiKey !== 'demo-only-key' || !existing[emulatorConnected])) {
   throw new Error('Refusing to reuse a Firebase app without verified local emulator connections.')

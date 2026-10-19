@@ -1,4 +1,26 @@
 export const EMULATOR_PROJECT = 'demo-dominance';
+export const FIREBASE_WEB_FIELDS = Object.freeze({
+  VITE_FIREBASE_API_KEY:'apiKey',
+  VITE_FIREBASE_AUTH_DOMAIN:'authDomain',
+  VITE_FIREBASE_PROJECT_ID:'projectId',
+  VITE_FIREBASE_STORAGE_BUCKET:'storageBucket',
+  VITE_FIREBASE_MESSAGING_SENDER_ID:'messagingSenderId',
+  VITE_FIREBASE_APP_ID:'appId',
+});
+export function firebaseConfigurationStatus(config) {
+  const missing=[],placeholders=[];
+  for(const [name,field] of Object.entries(FIREBASE_WEB_FIELDS)) {
+    const value=config?.[field];
+    if(typeof value!=='string'||!value.trim())missing.push(name);
+    else if(/^your_/i.test(value.trim()))placeholders.push(name);
+  }
+  return {ready:!missing.length&&!placeholders.length,missing,placeholders};
+}
+export function assertFirebaseAppConfiguration(app,config) {
+  if(app&&Object.values(FIREBASE_WEB_FIELDS).some(field=>app.options[field]!==config[field])) {
+    throw new Error('Firebase configuration changed. Reload before continuing.');
+  }
+}
 export function firebaseConfiguration(env) {
   const emulator = env.MODE === 'emulator' || env.VITE_USE_FIREBASE_EMULATORS === 'true';
   if (emulator && (!env.DEV || env.MODE !== 'emulator')) {

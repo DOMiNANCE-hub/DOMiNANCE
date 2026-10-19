@@ -6,7 +6,7 @@ import { useEffect, useLayoutEffect, useImperativeHandle, useRef, useState } fro
 import { GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, sendPasswordResetEmail, updateProfile } from 'firebase/auth'
 import { collection, doc, onSnapshot, setDoc, updateDoc, runTransaction } from 'firebase/firestore'
 import { auth, db, emulatorMode } from './firebase.js'
-import { observeAccount, accountError } from './account-session.js'
+import { observeAccount, accountError, studentAccountProfile } from './account-session.js'
 import { createDashboardNavigation } from './dashboard-navigation.js'
 import { createDashboardStorage, mergeDemoHistory, mergeCellHistory } from './dashboard-session.js'
 import { profileChanges, saveAcademicProfile } from './profile-edit.js'
@@ -31,7 +31,6 @@ import {normalizeAvatar,validAvatar} from './avatars.js'
 
 const academicPolicy = globalThis.DominanceCurriculum
 const curriculum = Object.fromEntries(Object.entries(academicPolicy.curriculum).map(([year,periods])=>[year.replace('HB','HB '),periods]))
-const SUPER_ADMIN_EMAIL = 'ofobifrimpongk@gmail.com'
 
 export default function DominanceApp() {
   const [session,setSession]=useState({user:null,profile:null,loading:true,error:''})
@@ -53,7 +52,7 @@ export default function DominanceApp() {
   if(error)return <div className="dom-auth"><section><h1>Let’s get you back in</h1><p role="alert">{error}</p><button className="dom-primary" onClick={()=>{setActionError('');setSession({user:null,profile:null,loading:true,error:''});setRetry(n=>n+1)}}>Retry</button>{user&&<button className="account-secondary" onClick={logout}>Sign out</button>}{actionError&&<p role="alert">{actionError}</p>}</section></div>
   if(!user)return <AuthGate />
   if(!profile)return <><AccountBar key={'account:'+user.uid} user={user} profile={null} logout={logout} actionError={actionError}/><Onboarding profile={{name:user.displayName||user.email?.split('@')[0]||'Medical Student',year:'HB 1',semester:'First',courses:[]}} save={async(nextProfile)=>{
-    await setDoc(doc(db,'users',user.uid),{...nextProfile,email:user.email,role:user.email===SUPER_ADMIN_EMAIL?'superAdmin':'student',createdAt:new Date().toISOString()})
+    await setDoc(doc(db,'users',user.uid),studentAccountProfile(user,nextProfile))
   }}/></>
   if(profile.id!==user.uid)return <div className="dom-loading" role="status">Loading your account…</div>
   return <StudentWorkspace key={user.uid} user={user} profile={profile} logout={logout} actionError={actionError}/>
