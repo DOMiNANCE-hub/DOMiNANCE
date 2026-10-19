@@ -16,7 +16,6 @@ import './foundation.css'
 import './auth.css'
 import './auth-overrides.css'
 import './prototype.css'
-import './account.css'
 
 import './appearance.css'
 import './refinement.css'
