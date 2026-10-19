@@ -177,3 +177,28 @@ html.section-reader .shell .content .panel,html.focused-quiz .shell .content .qu
  .account-panel .account-sections button{font-size:11px;line-height:1.25;padding:6px 4px}
 }
 @media(min-width:681px) and (max-width:1100px){#home.home-compact .home-tool-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#home.home-compact .home-actions{grid-template-columns:1fr}}
+
+/* Sprint 02: App-wide visual consistency across Community, account dialogs, feedback states, and dark mode. */
+.authenticated-dashboard .activity{border-bottom:1px solid var(--app-line);padding:12px 0;gap:14px}
+.authenticated-dashboard .activity:last-child{border-bottom:0;padding-bottom:4px}
+.authenticated-dashboard .actcopy strong{font-size:13px;line-height:1.4}
+.authenticated-dashboard .actcopy small{font-size:12px;line-height:1.5;color:var(--app-muted)}
+.authenticated-dashboard .score{display:inline-flex;align-items:center;padding:5px 10px;border-radius:999px;border:1px solid var(--app-line);background:var(--app-bg);color:var(--app-accent);font:700 12px/1.2 'DM Sans','Segoe UI',sans-serif;white-space:nowrap}
+html[data-mode=dark] .authenticated-dashboard .score{color:var(--app-secondary)}
+.authenticated-dashboard .bar{height:7px;background:var(--app-bg)!important;border:1px solid var(--app-line);border-radius:999px;overflow:hidden}
+.authenticated-dashboard .bar span{background:var(--app-accent)!important;border-radius:999px}
+html[data-mode=dark] .authenticated-dashboard .bar span{background:var(--app-secondary)!important}
+.authenticated-dashboard .toast{bottom:24px;background:var(--app-nav);color:#fff;border:1px solid color-mix(in srgb,var(--app-secondary) 55%,var(--app-nav));border-radius:12px;padding:12px 18px;font:600 13px/1.4 'DM Sans','Segoe UI',sans-serif;box-shadow:0 12px 32px #05132945;z-index:95;max-width:min(420px,calc(100vw - 32px));text-align:center}
+.authenticated-dashboard .community-card,.authenticated-dashboard .community-privacy,.authenticated-dashboard .community-person,.authenticated-dashboard .community-next{border-radius:var(--ui-card-radius)!important;box-shadow:0 3px 12px #102d5008}
+.authenticated-dashboard .community-privacy{justify-content:space-between;flex-wrap:wrap;gap:16px}
+.authenticated-dashboard .community-privacy>div:first-child{flex:1 1 280px}
+.authenticated-dashboard .community-privacy>div:last-child{display:flex;flex-wrap:wrap;gap:8px;flex:0 1 auto;align-items:center}
+.authenticated-dashboard .community-privacy>div:last-child>button,.authenticated-dashboard .community-list-heading>button{margin:0!important}
+.authenticated-dashboard .community-list-heading{flex-wrap:wrap;gap:12px}
+.account-shell .account-panel .account-sections{padding:4px;border:1px solid var(--panel-line);border-radius:12px;background:color-mix(in srgb,var(--panel-bg) 92%,var(--panel-ink) 8%);gap:4px}
+.account-shell .account-panel .account-sections button{min-height:42px;border-radius:9px;border:1px solid transparent;font-weight:700}
+.account-shell .account-panel .account-sections button[aria-pressed=true]{background:var(--panel-bg);box-shadow:0 2px 8px #071a3514}
+html[data-mode=dark] .authenticated-dashboard .shell .content .course,html[data-mode=dark] .authenticated-dashboard .shell .content .panel,html[data-mode=dark] .authenticated-dashboard .shell .content .choice,html[data-mode=dark] .authenticated-dashboard .shell .content .topicrow,html[data-mode=dark] .authenticated-dashboard .shell .content .quiz,html[data-mode=dark] .authenticated-dashboard .shell .content .soon,html[data-mode=dark] #home.home-compact .home-tool-card,html[data-mode=dark] .authenticated-dashboard #cellPractice:not(:has(.practice-destinations)),html[data-mode=dark] .authenticated-dashboard .community-card,html[data-mode=dark] .authenticated-dashboard .community-privacy,html[data-mode=dark] .authenticated-dashboard .community-person,html[data-mode=dark] .authenticated-dashboard .community-next{box-shadow:0 6px 20px #02081440!important}
+@media(max-width:680px){
+ .authenticated-dashboard .toast{bottom:calc(82px + env(safe-area-inset-bottom,0px))}
+}

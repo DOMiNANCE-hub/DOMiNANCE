@@ -14,3 +14,13 @@ test('Sprint 01 keeps single account stylesheet import, delegates active Home me
  assert.match(css,/@media\(max-width:400px\)/);
  assert.match(css,/@media\(max-width:1080px\)/);
 });
+test('Sprint 02 standardizes AuthGate, Onboarding modal, Community cards, activity dividers, toasts, and dark-mode surfaces',()=>{
+ const authCss=readFileSync('src/auth.css','utf8'),accountCss=readFileSync('src/account.css','utf8'),uiCss=readFileSync('public/dashboard/workspace-ui.css','utf8');
+ assert.match(authCss,/\.dom-auth>section\{[^}]*border-radius:22px/);
+ assert.match(authCss,/\.dom-auth input\{[^}]*min-height:46px/);
+ assert.match(accountCss,/\.account-intro\{display:grid;grid-template-columns:44px 1fr/);
+ assert.match(accountCss,/\.dom-modal input,\.dom-modal select,\.dom-modal \.workspace-choice\{[^}]*min-height:46px/);
+ assert.match(uiCss,/\.authenticated-dashboard \.activity\{border-bottom:1px solid var\(--app-line\)/);
+ assert.match(uiCss,/\.authenticated-dashboard \.toast\{[^}]*background:var\(--app-nav\)/);
+ assert.match(uiCss,/html\[data-mode=dark\] \.authenticated-dashboard \.shell \.content \.course/);
+});
