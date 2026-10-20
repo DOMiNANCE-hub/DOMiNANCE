@@ -7,7 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev:emulator": "vite --mode emulator",
+    "emulators": "node scripts/start-emulators.mjs",
+    "test": "node --test tests/*.test.js tests/*.test.cjs",
+    "test:emulators": "node --test --test-concurrency=1 tests/auth.emulator.integration.js tests/emulator.integration.js tests/community.emulator.integration.js tests/permissions.emulator.integration.js",
+    "test:auth:emulator": "node --test tests/auth.emulator.integration.js",
+    "firebase:check": "node scripts/check-firebase-env.mjs",
+    "test:firebase:development": "node --use-env-proxy scripts/test-firebase-development.mjs",
+    "content:cell": "node scripts/import-cell-structure.mjs",
+    "prebuild": "npm run content:cell"
   },
   "dependencies": {
     "firebase": "^13.0.0",
@@ -19,6 +28,8 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "@vitejs/plugin-react": "^4.3.4",
+    "firebase-tools": "^15.33.0",
+    "oxlint": "^1.88.0",
     "tailwindcss": "^4.3.3",
     "vite": "^5.4.19"
   }

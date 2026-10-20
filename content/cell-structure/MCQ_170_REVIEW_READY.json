@@ -1,0 +1,2589 @@
+[
+  {
+    "id": "CO-Q001",
+    "lesson": "CO01",
+    "question": "Which statement best defines a cell?",
+    "options": [
+      "Any structure that contains genetic material",
+      "A group of tissues that performs one function",
+      "The smallest visible structure in an organism",
+      "The smallest unit capable of performing life functions"
+    ],
+    "letter": "D",
+    "explanation": "The lecture defines a cell as the smallest living unit capable of independently performing life functions.",
+    "source": "question_bank_24.csv",
+    "source_pages": "193"
+  },
+  {
+    "id": "CO-Q002",
+    "lesson": "CO01",
+    "question": "Which is a general function of cells?",
+    "options": [
+      "Producing antibodies as a universal activity",
+      "Regulating the entry and exit of materials",
+      "Producing peptidoglycan in all organisms",
+      "Maintaining a constant shape in all tissues"
+    ],
+    "letter": "B",
+    "explanation": "Regulating inflow and outflow is one of four general cellular functions on PDF p. 195. Antibody production is specialized, and peptidoglycan is not made by all cells.",
+    "source": "question_bank_24.csv",
+    "source_pages": "195"
+  },
+  {
+    "id": "CO-Q003",
+    "lesson": "CO01",
+    "question": "What most directly determines the biochemical activities of a cell in the lecture?",
+    "options": [
+      "The total number of cells in the organism",
+      "Subcellular structure",
+      "The structure and organisation of its components",
+      "The distance between neighbouring cells"
+    ],
+    "letter": "B",
+    "explanation": "The lecture states that biochemical activities are dictated by subcellular structure.",
+    "source": "question_bank_24.csv",
+    "source_pages": "194"
+  },
+  {
+    "id": "CO-Q004",
+    "lesson": "CO01",
+    "question": "What do unicellular organisms demonstrate?",
+    "options": [
+      "Only multicellular life can reproduce",
+      "Cells never respond to stimuli",
+      "One cell can carry out major life functions",
+      "All cells require tissues to survive"
+    ],
+    "letter": "C",
+    "explanation": "A single cell can exhibit major properties of life.",
+    "source": "question_bank_24.csv",
+    "source_pages": "192"
+  },
+  {
+    "id": "CO-Q005",
+    "lesson": "CO01",
+    "question": "Which activity is NOT a general function of every cell?",
+    "options": [
+      "Directing cellular activity using genetic material",
+      "Compartmentalizing biochemical processes",
+      "Regulating exchange with the environment",
+      "Secreting antibodies to defend the organism"
+    ],
+    "letter": "D",
+    "explanation": "PDF p. 195 lists compartmentalization, regulation of inflow and outflow, genetic direction of cell activities and continuity of life. Antibody secretion is restricted to specialized immune cells.",
+    "source": "question_bank_24.csv",
+    "source_pages": "195"
+  },
+  {
+    "id": "CO-Q006",
+    "lesson": "CO01",
+    "question": "The cell is described as the basic structural and what other unit of life?",
+    "options": [
+      "Functional",
+      "Skeletal",
+      "Hormonal",
+      "Circulatory"
+    ],
+    "letter": "A",
+    "explanation": "The cell is the basic structural and functional unit.",
+    "source": "question_bank_24.csv",
+    "source_pages": "194"
+  },
+  {
+    "id": "CO-Q007",
+    "lesson": "CO02",
+    "question": "Which feature is most closely associated with differences in cell shape?",
+    "options": [
+      "A fixed cytoplasmic viscosity",
+      "Functional adaptation",
+      "All cells having equal volume",
+      "All cells having a cell wall"
+    ],
+    "letter": "B",
+    "explanation": "The lecture explicitly lists functional adaptation as a determinant of shape.",
+    "source": "question_bank_24.csv",
+    "source_pages": "200"
+  },
+  {
+    "id": "CO-Q008",
+    "lesson": "CO02",
+    "question": "Which factor is listed as influencing cell shape?",
+    "options": [
+      "The colour of the nucleus",
+      "The number of chromosomes alone",
+      "Mechanical action of adjoining cells",
+      "The number of organs in the body"
+    ],
+    "letter": "C",
+    "explanation": "Mechanical forces exerted by neighbouring cells can affect shape.",
+    "source": "question_bank_24.csv",
+    "source_pages": "200"
+  },
+  {
+    "id": "CO-Q009",
+    "lesson": "CO02",
+    "question": "The figure of 100 trillion cells in the human body should be understood as which of the following?",
+    "options": [
+      "A fixed value for every person",
+      "An estimate rather than an exact count",
+      "The number of cell types in the body",
+      "The number of cells in each organ"
+    ],
+    "letter": "B",
+    "explanation": "PDF p. 197 states 100 trillion cells and about 200 cell types. Retain 100 trillion as the lecturer’s stated estimate, not a precise universal count; modern estimates differ.",
+    "source": "question_bank_24.csv",
+    "source_pages": "197"
+  },
+  {
+    "id": "CO-Q010",
+    "lesson": "CO02",
+    "question": "Which statement best links cell form and function?",
+    "options": [
+      "Cell geometry can suit a specialized task",
+      "Every cell performs the same task",
+      "Shape never affects cell activity",
+      "Only the nucleus determines cell shape"
+    ],
+    "letter": "A",
+    "explanation": "The lecture relates size and shape to function.",
+    "source": "question_bank_24.csv",
+    "source_pages": "197"
+  },
+  {
+    "id": "CO-Q011",
+    "lesson": "CO02",
+    "question": "Which structure defines the outer boundary of a typical animal cell?",
+    "options": [
+      "Mitochondrial matrix",
+      "Plasma membrane",
+      "Nuclear envelope",
+      "Cell wall"
+    ],
+    "letter": "B",
+    "explanation": "The plasma membrane bounds the cell.",
+    "source": "question_bank_24.csv",
+    "source_pages": "198"
+  },
+  {
+    "id": "CO-Q012",
+    "lesson": "CO02",
+    "question": "Which factor is explicitly identified as influencing cell shape?",
+    "options": [
+      "The number of mitochondria alone",
+      "The quantity of DNA per chromosome",
+      "The mechanical action of adjoining cells",
+      "The color of the plasma membrane"
+    ],
+    "letter": "C",
+    "explanation": "PDF p. 200 lists surface tension and viscosity of cytoplasm, mechanical action of adjoining cells, membrane rigidity and functional adaptation. Mechanical influence from neighbouring cells is a listed factor. The membrane cortex/cytoskeleton also contributes to mechanical properties.",
+    "source": "question_bank_24.csv",
+    "source_pages": "200"
+  },
+  {
+    "id": "CO-Q013",
+    "lesson": "CO03",
+    "question": "What is the total surface area of a cube with side 2 cm?",
+    "options": [
+      "8 cm²",
+      "12 cm²",
+      "16 cm²",
+      "24 cm²"
+    ],
+    "letter": "D",
+    "explanation": "Six faces, each of area 4 cm², give 24 cm².",
+    "source": "question_bank_24.csv",
+    "source_pages": "202"
+  },
+  {
+    "id": "CO-Q014",
+    "lesson": "CO03",
+    "question": "What is the volume of a cube with side 4 cm?",
+    "options": [
+      "64 cm³",
+      "16 cm³",
+      "96 cm³",
+      "24 cm³"
+    ],
+    "letter": "A",
+    "explanation": "V = L³ = 4³ = 64 cm³.",
+    "source": "question_bank_24.csv",
+    "source_pages": "202"
+  },
+  {
+    "id": "CO-Q015",
+    "lesson": "CO03",
+    "question": "What is the SA:V ratio for a cube with side 4 cm?",
+    "options": [
+      "4 cm⁻¹",
+      "1.5 cm⁻¹",
+      "6 cm⁻¹",
+      "3 cm⁻¹"
+    ],
+    "letter": "B",
+    "explanation": "SA:V = 96/64 = 1.5 cm⁻¹.",
+    "source": "question_bank_24.csv",
+    "source_pages": "202"
+  },
+  {
+    "id": "CO-Q016",
+    "lesson": "CO03",
+    "question": "If the side length of a cube doubles, by what factor does its volume increase?",
+    "options": [
+      "4",
+      "16",
+      "8",
+      "2"
+    ],
+    "letter": "C",
+    "explanation": "A cube has volume L³. Doubling L gives (2L)³ = 8L³. The lecture’s surface-area-to-volume table on PDF page 202 demonstrates this relationship.",
+    "source": "question_bank_24.csv",
+    "source_pages": "202"
+  },
+  {
+    "id": "CO-Q017",
+    "lesson": "CO03",
+    "question": "As a cube increases in side length, what happens to its surface-area-to-volume ratio?",
+    "options": [
+      "Volume increases more slowly than surface area",
+      "The SA:V ratio stays constant",
+      "The exchange surface becomes zero",
+      "Surface area per unit volume decreases"
+    ],
+    "letter": "D",
+    "explanation": "For a cube, surface area/volume = 6/L. Thus the ratio decreases as side length increases, consistent with the lecture table on PDF page 202.",
+    "source": "question_bank_24.csv",
+    "source_pages": "202"
+  },
+  {
+    "id": "CO-Q018",
+    "lesson": "CO03",
+    "question": "Why does SA:V help explain microscopic cell size?",
+    "options": [
+      "Exchange surface does not keep pace with internal volume",
+      "Cells contain no transport proteins",
+      "Large cells cannot carry out reactions",
+      "Cell membranes have no permeability"
+    ],
+    "letter": "A",
+    "explanation": "Volume-related demands can rise faster than exchange area.",
+    "source": "question_bank_24.csv",
+    "source_pages": "203"
+  },
+  {
+    "id": "CO-Q019",
+    "lesson": "CO04",
+    "question": "What is the defining feature of a typical eukaryotic cell?",
+    "options": [
+      "DNA in a nucleoid only",
+      "A membrane-bound nucleus",
+      "A peptidoglycan wall",
+      "Absence of ribosomes"
+    ],
+    "letter": "B",
+    "explanation": "Eukaryotes characteristically have a membrane-bound nucleus.",
+    "source": "question_bank_24.csv",
+    "source_pages": "190"
+  },
+  {
+    "id": "CO-Q020",
+    "lesson": "CO04",
+    "question": "Which component is characteristic of most bacterial cell walls?",
+    "options": [
+      "Chitin",
+      "Collagen",
+      "Peptidoglycan",
+      "Cellulose"
+    ],
+    "letter": "C",
+    "explanation": "The lecture specifies peptidoglycan for bacteria.",
+    "source": "question_bank_24.csv",
+    "source_pages": "204"
+  },
+  {
+    "id": "CO-Q021",
+    "lesson": "CO04",
+    "question": "Which structure is present in both prokaryotes and eukaryotes?",
+    "options": [
+      "Mitochondria",
+      "Golgi apparatus",
+      "Nuclear envelope",
+      "Ribosomes"
+    ],
+    "letter": "D",
+    "explanation": "Both use ribosomes for protein synthesis.",
+    "source": "question_bank_24.csv",
+    "source_pages": "204"
+  },
+  {
+    "id": "CO-Q022",
+    "lesson": "CO04",
+    "question": "Which statement about archaeal cell walls is most accurate?",
+    "options": [
+      "They lack bacterial peptidoglycan",
+      "They always contain bacterial peptidoglycan",
+      "They are identical to plant cellulose walls",
+      "All archaea lack any outer boundary"
+    ],
+    "letter": "A",
+    "explanation": "Archaeal walls use chemically distinct materials where walls exist.",
+    "source": "question_bank_24.csv",
+    "source_pages": "204"
+  },
+  {
+    "id": "CO-Q023",
+    "lesson": "CO04",
+    "question": "Which statement accurately qualifies the lecture’s generalization that prokaryotic DNA is not wrapped around histones?",
+    "options": [
+      "DNA packaging never varies across domains",
+      "Some archaea possess histone proteins",
+      "All bacteria have nucleosomes identical to human cells",
+      "All prokaryotes possess a membrane-bound nucleus"
+    ],
+    "letter": "B",
+    "explanation": "The slide describes prokaryotes generally; some archaea do have histone proteins, whereas bacteria usually use other DNA-associated proteins. This is a scientific clarification, not a replacement of the examinable slide wording.",
+    "source": "question_bank_24.csv",
+    "source_pages": "204"
+  },
+  {
+    "id": "CO-Q024",
+    "lesson": "CO04",
+    "question": "Which statement is part of cell theory?",
+    "options": [
+      "Cells arise spontaneously from nonliving material",
+      "All living organisms are composed of one or more cells",
+      "Only animal cells contain genetic information",
+      "All cells have a membrane-bound nucleus"
+    ],
+    "letter": "B",
+    "explanation": "Cell theory holds that organisms consist of cells, the cell is a basic unit of life and cells arise from pre-existing cells. PDF p. 201 assigns cell theory for study but does not explain it; this is explicitly supplementary learning content.",
+    "source": "question_bank_24.csv",
+    "source_pages": "201",
+    "source_alignment": "SUPPLEMENTARY_CELL_THEORY_NOT_EXPLAINED_ON_SLIDE_201"
+  },
+  {
+    "id": "OR01-Q01",
+    "lesson": "OR01",
+    "question": "Which membrane arrangement is characteristic of the microbodies described in the lecture?",
+    "options": [
+      "A single limiting membrane",
+      "Two membranes with cristae",
+      "No membrane at all",
+      "A cell wall surrounding them"
+    ],
+    "letter": "A",
+    "explanation": "The lecture defines microbodies as small single-membrane organelles.",
+    "source": "question_bank_35.csv",
+    "source_pages": "206-209"
+  },
+  {
+    "id": "OR01-Q02",
+    "lesson": "OR01",
+    "question": "Which peroxisomal enzyme decomposes hydrogen peroxide?",
+    "options": [
+      "Urate oxidase",
+      "Catalase",
+      "Hexosaminidase A",
+      "RNA polymerase"
+    ],
+    "letter": "B",
+    "explanation": "Catalase converts hydrogen peroxide into water and oxygen.",
+    "source": "question_bank_35.csv",
+    "source_pages": "206-209"
+  },
+  {
+    "id": "OR01-Q03",
+    "lesson": "OR01",
+    "question": "Which statement about human urate oxidase is most accurate?",
+    "options": [
+      "It is a principal human liver enzyme",
+      "It makes ATP in human peroxisomes",
+      "Humans lack functional urate oxidase",
+      "It is secreted by human lysosomes"
+    ],
+    "letter": "C",
+    "explanation": "The lecture lists urate oxidase generally, but humans do not possess a functional uricase.",
+    "source": "question_bank_35.csv",
+    "source_pages": "206-209"
+  },
+  {
+    "id": "OR01-Q04",
+    "lesson": "OR01",
+    "question": "Which process is associated with peroxisomes?",
+    "options": [
+      "Ribosome assembly",
+      "Chromosome segregation",
+      "DNA transcription",
+      "Fatty-acid oxidation"
+    ],
+    "letter": "D",
+    "explanation": "Peroxisomes participate in oxidative metabolism, including fatty-acid breakdown.",
+    "source": "question_bank_35.csv",
+    "source_pages": "206-209"
+  },
+  {
+    "id": "OR01-Q05",
+    "lesson": "OR01",
+    "question": "Why must cells break down the hydrogen peroxide generated during peroxisomal oxidation?",
+    "options": [
+      "It can damage cellular components by oxidation",
+      "It is the main source of chromatin",
+      "It directly builds nuclear pores",
+      "It prevents all enzyme reactions"
+    ],
+    "letter": "A",
+    "explanation": "Peroxisomal oxidases can produce hydrogen peroxide (H₂O₂), which can damage cellular molecules. Catalase decomposes H₂O₂. Note: the lecturer lists urate oxidase among peroxisomal enzymes; functional urate oxidase is absent in humans.",
+    "source": "question_bank_35.csv",
+    "source_pages": "206-209"
+  },
+  {
+    "id": "OR02-Q01",
+    "lesson": "OR02",
+    "question": "What is the central metabolic importance of glyoxysomes in oil-rich seeds?",
+    "options": [
+      "Formation of the mitotic spindle",
+      "Conversion of stored fat carbon toward sugars",
+      "Assembly of ribosomal subunits",
+      "Digestion of inhaled silica"
+    ],
+    "letter": "B",
+    "explanation": "The glyoxylate cycle supports conversion of lipid-derived acetyl-CoA into intermediates used to form carbohydrates.",
+    "source": "question_bank_35.csv",
+    "source_pages": "210-213"
+  },
+  {
+    "id": "OR02-Q02",
+    "lesson": "OR02",
+    "question": "What is the net product specifically named in the slide for the glyoxylate cycle?",
+    "options": [
+      "Lactate",
+      "Glucose",
+      "Succinate",
+      "Urate"
+    ],
+    "letter": "C",
+    "explanation": "The lecture identifies succinate as a net glyoxylate-cycle product.",
+    "source": "question_bank_35.csv",
+    "source_pages": "210-213"
+  },
+  {
+    "id": "OR02-Q03",
+    "lesson": "OR02",
+    "question": "Which by-product gives hydrogenosomes their name?",
+    "options": [
+      "Oxygen",
+      "Ammonia",
+      "Carbon dioxide",
+      "Molecular hydrogen"
+    ],
+    "letter": "D",
+    "explanation": "Hydrogenosomes release H₂ during certain anaerobic energy-generating pathways.",
+    "source": "question_bank_35.csv",
+    "source_pages": "210-213"
+  },
+  {
+    "id": "OR02-Q04",
+    "lesson": "OR02",
+    "question": "In which environment are hydrogenosomes particularly associated?",
+    "options": [
+      "Anaerobic eukaryotic cells",
+      "Mature human erythrocytes",
+      "Chloroplasts of green leaves",
+      "Extracellular collagen fibres"
+    ],
+    "letter": "A",
+    "explanation": "Hydrogenosomes occur in some oxygen-independent eukaryotes.",
+    "source": "question_bank_35.csv",
+    "source_pages": "210-213"
+  },
+  {
+    "id": "OR02-Q05",
+    "lesson": "OR02",
+    "question": "Which term is listed in the microbody family but not explained in detail by these slides?",
+    "options": [
+      "Centrosome",
+      "Glycosome",
+      "Nucleolus",
+      "Phagosome"
+    ],
+    "letter": "B",
+    "explanation": "Glycosomes are named in the source list but not developed in this section.",
+    "source": "question_bank_35.csv",
+    "source_pages": "210-213"
+  },
+  {
+    "id": "OR03-Q01",
+    "lesson": "OR03",
+    "question": "What maintains the acidic lumen of a lysosome?",
+    "options": [
+      "A DNA helicase",
+      "A ribosomal subunit",
+      "An H⁺-ATPase",
+      "A centriole triplet"
+    ],
+    "letter": "C",
+    "explanation": "The proton pump uses ATP to move H⁺ into lysosomes.",
+    "source": "question_bank_35.csv",
+    "source_pages": "214-218"
+  },
+  {
+    "id": "OR03-Q02",
+    "lesson": "OR03",
+    "question": "The lecturer states that H⁺ pumping acidifies the lysosome lumen to approximately what pH?",
+    "options": [
+      "7.4",
+      "6.8",
+      "5.0",
+      "2.0"
+    ],
+    "letter": "C",
+    "explanation": "Lysosomal proton pumps maintain an acidic lumen around pH 5.0, as stated on the slide. This is an approximate value, not a universal fixed pH.",
+    "source": "question_bank_35.csv",
+    "source_pages": "214"
+  },
+  {
+    "id": "OR03-Q03",
+    "lesson": "OR03",
+    "question": "Which process digests components originating inside the cell?",
+    "options": [
+      "Autophagy",
+      "Heterophagy",
+      "Transcription",
+      "Glycolysis"
+    ],
+    "letter": "A",
+    "explanation": "Autophagy recycles the cell’s own structures.",
+    "source": "question_bank_35.csv",
+    "source_pages": "214-218"
+  },
+  {
+    "id": "OR03-Q04",
+    "lesson": "OR03",
+    "question": "Which vesicle initially contains material engulfed by phagocytosis?",
+    "options": [
+      "Nucleosome",
+      "Phagosome",
+      "Peroxisome",
+      "Centrosome"
+    ],
+    "letter": "B",
+    "explanation": "A phagosome forms around an engulfed particle and can fuse with lysosomal compartments.",
+    "source": "question_bank_35.csv",
+    "source_pages": "214-218"
+  },
+  {
+    "id": "OR03-Q05",
+    "lesson": "OR03",
+    "question": "What is a residual body?",
+    "options": [
+      "A site of rRNA transcription",
+      "A membrane-less DNA compartment",
+      "A compartment with undigested remains",
+      "A precursor of a centriole"
+    ],
+    "letter": "C",
+    "explanation": "Residual bodies retain material not fully degraded by lysosomal enzymes.",
+    "source": "question_bank_35.csv",
+    "source_pages": "214-218"
+  },
+  {
+    "id": "OR04-Q01",
+    "lesson": "OR04",
+    "question": "Which consequence of persistent silica-induced lung injury is emphasised in the lecture?",
+    "options": [
+      "Higher nuclear pore permeability",
+      "Loss of ribosomal subunits",
+      "Increased glyoxylate-cycle activity",
+      "Collagen deposition and fibrosis"
+    ],
+    "letter": "D",
+    "explanation": "Phagocyte injury and inflammation can promote fibroblast-driven fibrosis.",
+    "source": "question_bank_35.csv",
+    "source_pages": "219-226"
+  },
+  {
+    "id": "OR04-Q02",
+    "lesson": "OR04",
+    "question": "What is the deficient enzyme in Tay–Sachs disease?",
+    "options": [
+      "β-Hexosaminidase A",
+      "Catalase",
+      "Urate oxidase",
+      "DNA polymerase"
+    ],
+    "letter": "A",
+    "explanation": "HEXA-associated deficiency of β-hexosaminidase A leads to GM2 accumulation.",
+    "source": "question_bank_35.csv",
+    "source_pages": "219-226"
+  },
+  {
+    "id": "OR04-Q03",
+    "lesson": "OR04",
+    "question": "What accumulates in neurons in Tay–Sachs disease?",
+    "options": [
+      "Succinate",
+      "GM2 ganglioside",
+      "Hydrogen peroxide",
+      "Collagen"
+    ],
+    "letter": "B",
+    "explanation": "GM2 is the lysosomal substrate that cannot be adequately degraded.",
+    "source": "question_bank_35.csv",
+    "source_pages": "219-226"
+  },
+  {
+    "id": "OR04-Q04",
+    "lesson": "OR04",
+    "question": "Which statement about Tay–Sachs ancestry is accurate?",
+    "options": [
+      "It occurs only in Eastern Europe",
+      "It cannot affect African populations",
+      "It can occur in any ancestry",
+      "It is caused by nationality"
+    ],
+    "letter": "C",
+    "explanation": "Some populations have higher carrier frequencies, but the disease is not exclusive to them.",
+    "source": "question_bank_35.csv",
+    "source_pages": "219-226"
+  },
+  {
+    "id": "OR04-Q05",
+    "lesson": "OR04",
+    "question": "What does lysosomal enzyme deficiency typically cause?",
+    "options": [
+      "Immediate chromosome duplication",
+      "An increase in nuclear pore number",
+      "Centriole disappearance",
+      "Accumulation of undegraded substrate"
+    ],
+    "letter": "D",
+    "explanation": "Substrate storage is the defining consequence of many lysosomal storage diseases.",
+    "source": "question_bank_35.csv",
+    "source_pages": "219-226"
+  },
+  {
+    "id": "OR05-Q01",
+    "lesson": "OR05",
+    "question": "What is continuous with the outer nuclear membrane?",
+    "options": [
+      "Rough endoplasmic reticulum",
+      "Lysosomal lumen",
+      "Centriolar microtubules",
+      "The plasma membrane"
+    ],
+    "letter": "A",
+    "explanation": "The outer nuclear envelope is continuous with rough ER.",
+    "source": "question_bank_35.csv",
+    "source_pages": "227-234"
+  },
+  {
+    "id": "OR05-Q02",
+    "lesson": "OR05",
+    "question": "What regulates selective exchange between nucleus and cytoplasm?",
+    "options": [
+      "Catalase",
+      "Nuclear pore complexes",
+      "Glyoxysomes",
+      "Collagen fibres"
+    ],
+    "letter": "B",
+    "explanation": "NPCs control transport across the nuclear envelope.",
+    "source": "question_bank_35.csv",
+    "source_pages": "227-234"
+  },
+  {
+    "id": "OR05-Q03",
+    "lesson": "OR05",
+    "question": "How many chromosomes are normally present in a typical human diploid somatic cell?",
+    "options": [
+      "23",
+      "92",
+      "46",
+      "44"
+    ],
+    "letter": "C",
+    "explanation": "A typical human diploid somatic cell has 46 chromosomes; gametes have 23.",
+    "source": "question_bank_35.csv",
+    "source_pages": "227-234"
+  },
+  {
+    "id": "OR05-Q04",
+    "lesson": "OR05",
+    "question": "What is the basic repeating DNA-packaging unit of chromatin?",
+    "options": [
+      "Hydrogenosome",
+      "Phagosome",
+      "Peroxisome",
+      "Nucleosome"
+    ],
+    "letter": "D",
+    "explanation": "DNA wrapped around histone proteins forms a nucleosome.",
+    "source": "question_bank_35.csv",
+    "source_pages": "227-234"
+  },
+  {
+    "id": "OR05-Q05",
+    "lesson": "OR05",
+    "question": "What does transcription produce from a DNA template?",
+    "options": [
+      "RNA",
+      "Newly assembled collagen fibres",
+      "Centrioles",
+      "Hydrogen peroxide"
+    ],
+    "letter": "A",
+    "explanation": "Transcription synthesises RNA using DNA information.",
+    "source": "question_bank_35.csv",
+    "source_pages": "227-234"
+  },
+  {
+    "id": "OR06-Q01",
+    "lesson": "OR06",
+    "question": "Which process occurs prominently in the nucleolus?",
+    "options": [
+      "Fatty-acid oxidation",
+      "rRNA production and ribosomal subunit assembly",
+      "Digestion of silica",
+      "Formation of peroxisomal catalase"
+    ],
+    "letter": "B",
+    "explanation": "The nucleolus synthesises rRNA and assembles ribosomal subunits.",
+    "source": "question_bank_35.csv",
+    "source_pages": "235-240"
+  },
+  {
+    "id": "OR06-Q02",
+    "lesson": "OR06",
+    "question": "What is the membrane status of the nucleolus?",
+    "options": [
+      "Double membrane",
+      "Single membrane",
+      "No surrounding membrane",
+      "A bacterial cell wall"
+    ],
+    "letter": "C",
+    "explanation": "The nucleolus is a membrane-less nuclear region.",
+    "source": "question_bank_35.csv",
+    "source_pages": "235-240"
+  },
+  {
+    "id": "OR06-Q03",
+    "lesson": "OR06",
+    "question": "Which chromosomal region is associated with nucleolus formation?",
+    "options": [
+      "Centromere only",
+      "Telomere only",
+      "Lysosomal membrane",
+      "Nucleolar organiser region"
+    ],
+    "letter": "D",
+    "explanation": "NORs contain rRNA genes and help nucleoli form.",
+    "source": "question_bank_35.csv",
+    "source_pages": "235-240"
+  },
+  {
+    "id": "OR06-Q04",
+    "lesson": "OR06",
+    "question": "Which statement best describes chromatin?",
+    "options": [
+      "DNA with associated proteins",
+      "Only free RNA",
+      "Only condensed chromosomes in mitosis",
+      "A network of microtubules"
+    ],
+    "letter": "A",
+    "explanation": "Chromatin comprises DNA and proteins including histones.",
+    "source": "question_bank_35.csv",
+    "source_pages": "235-240"
+  },
+  {
+    "id": "OR06-Q05",
+    "lesson": "OR06",
+    "question": "Which statement about nucleolar number is scientifically best?",
+    "options": [
+      "Every species has exactly four nucleoli",
+      "It can vary with cell type and activity",
+      "Every cell contains one nucleolus",
+      "Nucleoli persist unchanged through mitosis"
+    ],
+    "letter": "B",
+    "explanation": "The slide gives a fixed-number generalisation, but nucleolar number varies.",
+    "source": "question_bank_35.csv",
+    "source_pages": "235-240"
+  },
+  {
+    "id": "OR07-Q01",
+    "lesson": "OR07",
+    "question": "How many microtubule triplets occur around a typical centriole?",
+    "options": [
+      "Seven",
+      "Eight",
+      "Nine",
+      "Ten"
+    ],
+    "letter": "C",
+    "explanation": "A centriole has nine peripheral triplets (9 × 3).",
+    "source": "question_bank_35.csv",
+    "source_pages": "241-244"
+  },
+  {
+    "id": "OR07-Q02",
+    "lesson": "OR07",
+    "question": "Approximately what angle do the two centrioles in a typical centrosome form?",
+    "options": [
+      "0°",
+      "30°",
+      "45°",
+      "Approximately 90°"
+    ],
+    "letter": "D",
+    "explanation": "The slide on PDF page 241 describes the two centrioles as oriented at approximately 90 degrees to each other.",
+    "source": "question_bank_35.csv",
+    "source_pages": "241"
+  },
+  {
+    "id": "OR07-Q03",
+    "lesson": "OR07",
+    "question": "What is a major role of centrosomes during animal-cell division?",
+    "options": [
+      "Organisation of the mitotic spindle",
+      "Synthesis of lysosomal hydrolases",
+      "Degradation of GM2 ganglioside",
+      "Transcription of rRNA"
+    ],
+    "letter": "A",
+    "explanation": "Centrosomes organise spindle microtubules.",
+    "source": "question_bank_35.csv",
+    "source_pages": "241-244"
+  },
+  {
+    "id": "OR07-Q04",
+    "lesson": "OR07",
+    "question": "Which end of a typical radial centrosomal microtubule extends toward the cell edge?",
+    "options": [
+      "Minus end",
+      "Plus end",
+      "Both ends equally anchored",
+      "Neither end"
+    ],
+    "letter": "B",
+    "explanation": "Plus ends usually face outward and are more dynamic.",
+    "source": "question_bank_35.csv",
+    "source_pages": "241-244"
+  },
+  {
+    "id": "OR07-Q05",
+    "lesson": "OR07",
+    "question": "What can a centriole become to organise a cilium?",
+    "options": [
+      "A nucleosome",
+      "A residual body",
+      "A basal body",
+      "A glyoxysome"
+    ],
+    "letter": "C",
+    "explanation": "Basal bodies derive from centrioles and organise ciliary microtubules.",
+    "source": "question_bank_35.csv",
+    "source_pages": "241-244"
+  },
+  {
+    "id": "CYQ01",
+    "lesson": "CY01",
+    "question": "Which filament has an outer diameter of approximately 25 nm?",
+    "options": [
+      "Actin filament",
+      "Microtubule",
+      "Intermediate filament",
+      "Keratin filament"
+    ],
+    "letter": "B",
+    "explanation": "The lecture lists microtubules at about 25 nm.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "245-258"
+  },
+  {
+    "id": "CYQ02",
+    "lesson": "CY01",
+    "question": "Which protein forms the main subunits of microfilaments?",
+    "options": [
+      "Actin",
+      "Tubulin",
+      "Keratin",
+      "Dynein"
+    ],
+    "letter": "A",
+    "explanation": "Microfilaments are actin filaments.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "245-258"
+  },
+  {
+    "id": "CYQ03",
+    "lesson": "CY01",
+    "question": "Which motor protein typically operates on actin filaments?",
+    "options": [
+      "Kinesin",
+      "Dynein",
+      "Myosin",
+      "Tau"
+    ],
+    "letter": "C",
+    "explanation": "Myosin motors interact with actin.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "245-258"
+  },
+  {
+    "id": "CYQ04",
+    "lesson": "CY01",
+    "question": "What mechanical property is most closely associated with intermediate filaments?",
+    "options": [
+      "Resistance to stretching and mechanical stress",
+      "Rapid shortening driven by myosin motors",
+      "ATP-dependent transport of vesicles",
+      "Formation of a hollow tubulin-based track"
+    ],
+    "letter": "A",
+    "explanation": "Intermediate filaments provide tensile strength and protect cells from mechanical deformation. Myosin acts with actin; vesicle transport often uses microtubules.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "245-258"
+  },
+  {
+    "id": "CYQ05",
+    "lesson": "CY01",
+    "question": "Which three protein families are identified as cytoskeletal motors?",
+    "options": [
+      "Kinesin, dynein, myosin",
+      "Actin, tubulin, keratin",
+      "Tau, actin, collagen",
+      "Kinesin, keratin, laminin"
+    ],
+    "letter": "A",
+    "explanation": "These are the three motor families listed in the slides.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "245-258"
+  },
+  {
+    "id": "CYQ06",
+    "lesson": "CY01",
+    "question": "Which set of filament diameters matches the lecture slide?",
+    "options": [
+      "Microtubules ~10 nm; intermediate filaments ~25 nm; actin ~8 nm",
+      "Microtubules ~25 nm; intermediate filaments ~10 nm; actin ~8 nm",
+      "Microtubules ~8 nm; intermediate filaments ~10 nm; actin ~25 nm",
+      "Microtubules ~25 nm; intermediate filaments ~8 nm; actin ~10 nm"
+    ],
+    "letter": "B",
+    "explanation": "The lecturer lists external diameters: microtubules ~25 nm, intermediate filaments ~10 nm, and actin filaments ~8 nm.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "260"
+  },
+  {
+    "id": "CYQ07",
+    "lesson": "CY02",
+    "question": "Which cellular structure helps red blood cells maintain a flexible biconcave shape?",
+    "options": [
+      "Nucleolus",
+      "Membrane-associated cytoskeleton",
+      "Mitotic spindle",
+      "Golgi stack"
+    ],
+    "letter": "B",
+    "explanation": "The membrane skeleton contributes to red-cell shape and deformability.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "259-272"
+  },
+  {
+    "id": "CYQ08",
+    "lesson": "CY02",
+    "question": "What is a protofilament in a microtubule?",
+    "options": [
+      "A membrane pore",
+      "An ATPase complex",
+      "A chromosome arm",
+      "A linear chain of tubulin dimers"
+    ],
+    "letter": "D",
+    "explanation": "Protofilaments are longitudinal tubulin polymers.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "259-272"
+  },
+  {
+    "id": "CYQ09",
+    "lesson": "CY02",
+    "question": "How many protofilaments usually make up a cytoplasmic microtubule wall?",
+    "options": [
+      "13",
+      "8",
+      "10",
+      "25"
+    ],
+    "letter": "A",
+    "explanation": "A typical microtubule contains 13 protofilaments.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "259-272"
+  },
+  {
+    "id": "CYQ10",
+    "lesson": "CY02",
+    "question": "Which pair forms the tubulin dimer?",
+    "options": [
+      "Actin and myosin",
+      "Kinesin and dynein",
+      "Alpha- and beta-tubulin",
+      "Keratin and tau"
+    ],
+    "letter": "C",
+    "explanation": "Microtubule subunits are α/β-tubulin heterodimers.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "259-272"
+  },
+  {
+    "id": "CYQ11",
+    "lesson": "CY02",
+    "question": "The plus and minus ends of a microtubule refer to what?",
+    "options": [
+      "Opposite electrical charges",
+      "Structural polarity",
+      "Different organelles",
+      "Two cell types"
+    ],
+    "letter": "B",
+    "explanation": "Plus/minus describe structural orientation, not electric charge.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "259-272"
+  },
+  {
+    "id": "CYQ12",
+    "lesson": "CY02",
+    "question": "Which process is called dynamic instability?",
+    "options": [
+      "Permanent filament rigidity",
+      "Motor-protein synthesis",
+      "Chromosome duplication",
+      "Switching between growth and shrinkage"
+    ],
+    "letter": "D",
+    "explanation": "Microtubule ends alternate between assembly and rapid shortening.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "259-272"
+  },
+  {
+    "id": "CYQ13",
+    "lesson": "CY03",
+    "question": "What is a major microtubule-organizing centre in animal cells?",
+    "options": [
+      "Centrosome",
+      "Lysosome",
+      "Peroxisome",
+      "Nucleolus"
+    ],
+    "letter": "A",
+    "explanation": "The centrosome is a principal MTOC in many animal cells.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "273-279"
+  },
+  {
+    "id": "CYQ14",
+    "lesson": "CY03",
+    "question": "Which microtubule-associated protein is implicated in Alzheimer’s disease?",
+    "options": [
+      "Myosin",
+      "Keratin",
+      "Tau",
+      "Actin"
+    ],
+    "letter": "C",
+    "explanation": "Tau binds microtubules and its abnormal phosphorylation/aggregation is implicated in Alzheimer’s disease. The lecture also describes neurofilament changes; do not equate Alzheimer’s disease solely with neurofilament defects.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "273-279"
+  },
+  {
+    "id": "CYQ15",
+    "lesson": "CY03",
+    "question": "What does microtubule polarity enable?",
+    "options": [
+      "Production of ATP",
+      "Directional organization of tracks",
+      "Protein translation",
+      "DNA transcription"
+    ],
+    "letter": "B",
+    "explanation": "Directional asymmetry supports regulated organization and motor transport.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "273-279"
+  },
+  {
+    "id": "CYQ16",
+    "lesson": "CY03",
+    "question": "A patient has skin blistering caused by defective keratin filament networks. Which condition is most consistent?",
+    "options": [
+      "Tay–Sachs disease",
+      "Epidermolysis bullosa simplex",
+      "Primary ciliary dyskinesia",
+      "Huntington disease"
+    ],
+    "letter": "B",
+    "explanation": "The slide on PDF p. 271 associates epidermolysis bullosa simplex with defective keratin bundles and skin blistering. Keratin 5/14 variants are common molecular causes.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "271"
+  },
+  {
+    "id": "CYQ17",
+    "lesson": "CY03",
+    "question": "What is the main cytoskeletal role of a mitotic spindle?",
+    "options": [
+      "Chromosome alignment and segregation",
+      "Lipid synthesis",
+      "Protein glycosylation",
+      "Waste digestion"
+    ],
+    "letter": "A",
+    "explanation": "Spindle microtubules position and separate chromosomes.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "273-279"
+  },
+  {
+    "id": "CYQ18",
+    "lesson": "CY03",
+    "question": "What does paclitaxel (Taxol) do to microtubules?",
+    "options": [
+      "Destroys tubulin genes",
+      "Prevents ATP synthesis",
+      "Stabilizes them against disassembly",
+      "Converts them into actin"
+    ],
+    "letter": "C",
+    "explanation": "Paclitaxel suppresses normal microtubule disassembly and dynamics.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "273-279"
+  },
+  {
+    "id": "CYQ19",
+    "lesson": "CY04",
+    "question": "Which drug is named in the slides as used in cancer chemotherapy?",
+    "options": [
+      "Paclitaxel",
+      "Vincristine",
+      "Tubulin",
+      "Kinesin"
+    ],
+    "letter": "B",
+    "explanation": "Vincristine is an established anticancer vinca alkaloid.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "280-284"
+  },
+  {
+    "id": "CYQ20",
+    "lesson": "CY04",
+    "question": "Which change would also disrupt mitosis despite preserving polymerized microtubules?",
+    "options": [
+      "Increasing DNA repair",
+      "Increasing ribosome assembly",
+      "Raising cell glucose",
+      "Preventing microtubule disassembly"
+    ],
+    "letter": "D",
+    "explanation": "Over-stabilized microtubules cannot remodel normally during mitosis.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "280-284"
+  },
+  {
+    "id": "CYQ21",
+    "lesson": "CY04",
+    "question": "Which cytoskeletal class is about 10 nm in diameter?",
+    "options": [
+      "Intermediate filaments",
+      "Actin filaments",
+      "Microtubules",
+      "Myosin motors"
+    ],
+    "letter": "A",
+    "explanation": "The slide gives intermediate filaments as approximately 10 nm.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "280-284"
+  },
+  {
+    "id": "CYQ22",
+    "lesson": "CY04",
+    "question": "Which motor families commonly travel on microtubules?",
+    "options": [
+      "Myosin and actin",
+      "Keratin and laminin",
+      "Kinesin and dynein",
+      "Tau and collagen"
+    ],
+    "letter": "C",
+    "explanation": "Kinesins and dyneins are microtubule-based motors.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "280-284"
+  },
+  {
+    "id": "CYQ23",
+    "lesson": "CY04",
+    "question": "Which statement best describes the cytoskeleton?",
+    "options": [
+      "An unchanging cell wall",
+      "A dynamic filament network",
+      "A DNA-storage compartment",
+      "A single membrane layer"
+    ],
+    "letter": "B",
+    "explanation": "The cytoskeleton continually reorganizes.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "280-284"
+  },
+  {
+    "id": "CYQ24",
+    "lesson": "CY04",
+    "question": "Why can microtubule-targeting drugs affect healthy cells?",
+    "options": [
+      "Only healthy cells contain tubulin",
+      "Normal cells never divide",
+      "They directly remove all DNA",
+      "Normal cells also require microtubules"
+    ],
+    "letter": "D",
+    "explanation": "Normal cells rely on microtubules for division and intracellular transport.",
+    "source": "CY_MCQ_24.csv",
+    "source_pages": "280-284"
+  },
+  {
+    "id": "CM_MCQ_24-84",
+    "lesson": "CM01",
+    "question": "Which term refers to the aqueous phase of cytoplasm outside membrane-enclosed organelles?",
+    "options": [
+      "Cytosol",
+      "Nucleoplasm",
+      "Chromatin",
+      "Glycocalyx"
+    ],
+    "letter": "A",
+    "explanation": "Cytosol is the aqueous component of the cytoplasm; cytoplasm includes organelles.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "285-294"
+  },
+  {
+    "id": "CM_MCQ_24-85",
+    "lesson": "CM01",
+    "question": "Which component of a phospholipid is most directly hydrophobic?",
+    "options": [
+      "Phosphate head",
+      "Fatty-acid tails",
+      "Polar head group",
+      "Attached carbohydrate"
+    ],
+    "letter": "B",
+    "explanation": "The nonpolar hydrocarbon tails avoid water.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "285-294"
+  },
+  {
+    "id": "CM_MCQ_24-86",
+    "lesson": "CM01",
+    "question": "Why do phospholipids form a bilayer in water?",
+    "options": [
+      "Their tails bond to water",
+      "Their heads repel all ions",
+      "Their amphipathic regions orient appropriately",
+      "Their proteins assemble first"
+    ],
+    "letter": "C",
+    "explanation": "Hydrophilic heads face water while hydrophobic tails cluster inward.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "285-294"
+  },
+  {
+    "id": "CM_MCQ_24-87",
+    "lesson": "CM01",
+    "question": "What is the central idea of the fluid mosaic model?",
+    "options": [
+      "A rigid protein shell",
+      "A mobile lipid bilayer with associated proteins",
+      "A single lipid monolayer",
+      "A membrane made entirely of proteins"
+    ],
+    "letter": "B",
+    "explanation": "Membrane proteins are embedded in or associated with a fluid lipid matrix.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "285-294"
+  },
+  {
+    "id": "CM_MCQ_24-88",
+    "lesson": "CM01",
+    "question": "Which inclusion is explicitly listed in the cytosol slides?",
+    "options": [
+      "Glycogen granule",
+      "Nuclear pore",
+      "Crista",
+      "Centriole"
+    ],
+    "letter": "A",
+    "explanation": "The slides identify glycogen granules and lipid droplets as cytosolic inclusions.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "285-294"
+  },
+  {
+    "id": "CM_MCQ_24-89",
+    "lesson": "CM01",
+    "question": "Which structure separates the cell interior from the external environment?",
+    "options": [
+      "Nucleolus",
+      "Plasma membrane",
+      "Centrosome",
+      "Ribosome"
+    ],
+    "letter": "B",
+    "explanation": "The plasma membrane forms the cell boundary.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "285-294"
+  },
+  {
+    "id": "CM_MCQ_24-90",
+    "lesson": "CM02",
+    "question": "What is lateral diffusion in a membrane?",
+    "options": [
+      "Movement between the two leaflets",
+      "Movement along the plane of one leaflet",
+      "Removal of cholesterol",
+      "Transport through a channel"
+    ],
+    "letter": "B",
+    "explanation": "Lateral movement is within the bilayer plane, unlike flip-flop.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "295-306"
+  },
+  {
+    "id": "CM_MCQ_24-91",
+    "lesson": "CM02",
+    "question": "Which lipid tails usually reduce tight packing?",
+    "options": [
+      "Fully saturated tails",
+      "Cis-unsaturated tails",
+      "Identical straight tails",
+      "Longer straight tails"
+    ],
+    "letter": "B",
+    "explanation": "Cis double bonds introduce bends that hinder close packing.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "295-306"
+  },
+  {
+    "id": "CM_MCQ_24-92",
+    "lesson": "CM02",
+    "question": "At relatively low temperatures, how does cholesterol generally affect phospholipid packing?",
+    "options": [
+      "Promotes tighter packing",
+      "Eliminates the bilayer",
+      "Reduces close packing",
+      "Converts lipids to proteins"
+    ],
+    "letter": "C",
+    "explanation": "At low temperatures, cholesterol disrupts tight phospholipid packing and can reduce membrane solidification. At higher temperatures it restrains excessive phospholipid movement; the effect is temperature-dependent.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "295-306"
+  },
+  {
+    "id": "CM_MCQ_24-93",
+    "lesson": "CM02",
+    "question": "Which movement is relatively rare without specialized enzymes?",
+    "options": [
+      "Lateral diffusion",
+      "Protein rotation",
+      "Transverse flip-flop",
+      "Local tail flexing"
+    ],
+    "letter": "C",
+    "explanation": "Spontaneous transfer between leaflets is energetically unfavorable.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "295-306"
+  },
+  {
+    "id": "CM_MCQ_24-94",
+    "lesson": "CM02",
+    "question": "As temperature decreases, membrane lipid movement generally does what?",
+    "options": [
+      "Increases indefinitely",
+      "Decreases",
+      "Becomes independent of composition",
+      "Converts to active transport"
+    ],
+    "letter": "B",
+    "explanation": "Cooling reduces molecular motion and may cause a phase transition.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "295-306"
+  },
+  {
+    "id": "CM_MCQ_24-95",
+    "lesson": "CM02",
+    "question": "At relatively high temperatures, cholesterol in animal-cell membranes generally",
+    "options": [
+      "Increases spontaneous lipid flip-flop markedly",
+      "Restrains excessive movement of phospholipid tails",
+      "Converts the lipid bilayer into a monolayer",
+      "Prevents all diffusion of membrane proteins"
+    ],
+    "letter": "B",
+    "explanation": "Cholesterol tends to restrain excessive phospholipid mobility at higher temperatures, while disrupting close packing at lower temperatures. It does not stop diffusion entirely.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "295-306"
+  },
+  {
+    "id": "CM_MCQ_24-96",
+    "lesson": "CM03",
+    "question": "Which membrane protein spans the entire lipid bilayer?",
+    "options": [
+      "Peripheral protein",
+      "Transmembrane protein",
+      "Soluble cytosolic protein",
+      "Nucleolar protein"
+    ],
+    "letter": "B",
+    "explanation": "Transmembrane proteins cross the bilayer.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "307-317"
+  },
+  {
+    "id": "CM_MCQ_24-97",
+    "lesson": "CM03",
+    "question": "Which cell-surface structure is rich in carbohydrate groups?",
+    "options": [
+      "Glycocalyx",
+      "Microtubule",
+      "Nucleolus",
+      "Centrosome"
+    ],
+    "letter": "A",
+    "explanation": "The glycocalyx includes carbohydrate chains from glycoproteins and glycolipids.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "307-317"
+  },
+  {
+    "id": "CM_MCQ_24-98",
+    "lesson": "CM03",
+    "question": "What is a key distinction of peripheral membrane proteins?",
+    "options": [
+      "They always span the bilayer",
+      "They bind relatively loosely to membrane surfaces",
+      "They are all ion channels",
+      "They contain only lipids"
+    ],
+    "letter": "B",
+    "explanation": "Peripheral proteins associate with surfaces or other proteins rather than spanning the core.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "307-317"
+  },
+  {
+    "id": "CM_MCQ_24-99",
+    "lesson": "CM03",
+    "question": "Which protein type binds a signal and initiates a cellular response?",
+    "options": [
+      "Receptor",
+      "Structural phospholipid",
+      "Glycogen granule",
+      "Cholesterol"
+    ],
+    "letter": "A",
+    "explanation": "Receptors detect extracellular or intracellular signals.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "307-317"
+  },
+  {
+    "id": "CM_MCQ_24-100",
+    "lesson": "CM03",
+    "question": "Which protein type typically binds a solute and changes conformation to move it?",
+    "options": [
+      "Transporter",
+      "A protein that only anchors the membrane to the cytoskeleton",
+      "A ligand-binding receptor that triggers a signalling cascade",
+      "An enzyme that catalyses a reaction without moving a solute"
+    ],
+    "letter": "A",
+    "explanation": "Carrier transporters bind substrates and change shape during transport.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "307-317"
+  },
+  {
+    "id": "CM_MCQ_24-101",
+    "lesson": "CM03",
+    "question": "Where are plasma-membrane glycolipid carbohydrate groups generally oriented?",
+    "options": [
+      "Toward extracellular space",
+      "Only toward cytosol",
+      "Inside the hydrophobic core",
+      "Toward the nucleus"
+    ],
+    "letter": "A",
+    "explanation": "The lecture depicts glycolipid sugars on the extracellular side.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "307-317"
+  },
+  {
+    "id": "CM_MCQ_24-102",
+    "lesson": "CM04",
+    "question": "Which molecule generally crosses the lipid bilayer relatively readily?",
+    "options": [
+      "A hydrated sodium ion",
+      "Oxygen",
+      "A large folded protein",
+      "A DNA fragment"
+    ],
+    "letter": "B",
+    "explanation": "Small nonpolar gases diffuse through the lipid core.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "318-321"
+  },
+  {
+    "id": "CM_MCQ_24-103",
+    "lesson": "CM04",
+    "question": "What is the combined effect of concentration and voltage on ion movement called?",
+    "options": [
+      "Osmotic pressure only",
+      "Electrochemical gradient",
+      "Hydrostatic gradient",
+      "Protein folding"
+    ],
+    "letter": "B",
+    "explanation": "Ion movement depends on chemical and electrical driving forces.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "318-321"
+  },
+  {
+    "id": "CM_MCQ_24-104",
+    "lesson": "CM04",
+    "question": "Which protein can greatly facilitate water movement across many cell membranes?",
+    "options": [
+      "Aquaporin",
+      "Histone",
+      "Tubulin",
+      "DNA polymerase"
+    ],
+    "letter": "A",
+    "explanation": "Aquaporins are water channels; water can also cross lipid bilayers slowly.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "318-321"
+  },
+  {
+    "id": "CM_MCQ_24-105",
+    "lesson": "CM04",
+    "question": "Which process can move large cargo across a cell membrane?",
+    "options": [
+      "Simple diffusion through lipid tails",
+      "Vesicular transport",
+      "Lateral lipid diffusion",
+      "Spontaneous flip-flop"
+    ],
+    "letter": "B",
+    "explanation": "Endocytosis and exocytosis move material using vesicles.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "318-321"
+  },
+  {
+    "id": "CM_MCQ_24-106",
+    "lesson": "CM04",
+    "question": "In a typical animal cell, which ion is more concentrated inside than outside?",
+    "options": [
+      "Sodium",
+      "Potassium",
+      "Free calcium in the cytosol",
+      "Chloride in every animal-cell type"
+    ],
+    "letter": "B",
+    "explanation": "The slides give higher intracellular K+ and higher extracellular Na+.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "318-321"
+  },
+  {
+    "id": "CM_MCQ_24-107",
+    "lesson": "CM04",
+    "question": "What is a membrane potential?",
+    "options": [
+      "A difference in voltage across the membrane",
+      "The total number of phospholipids",
+      "A difference in temperature",
+      "The concentration of cholesterol"
+    ],
+    "letter": "A",
+    "explanation": "Charge separation creates a voltage difference across the membrane.",
+    "source": "CM_MCQ_24.csv",
+    "source_pages": "318-321"
+  },
+  {
+    "id": "CE01-Q01",
+    "lesson": "CE01",
+    "question": "Which stage follows homogenisation in cell fractionation?",
+    "options": [
+      "Protein translation",
+      "Separation of cell components",
+      "DNA replication",
+      "Fixation for microscopy"
+    ],
+    "letter": "B",
+    "explanation": "Homogenisation makes a mixture; separation isolates fractions.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "322-340"
+  },
+  {
+    "id": "CE01-Q02",
+    "lesson": "CE01",
+    "question": "Why use an iso-osmotic medium?",
+    "options": [
+      "To protect organelles against osmotic damage",
+      "To stain nuclei",
+      "To dissolve all membranes",
+      "To increase radioactive decay"
+    ],
+    "letter": "A",
+    "explanation": "An appropriate osmotic environment helps preserve organelle structure.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "322-340"
+  },
+  {
+    "id": "CE01-Q03",
+    "lesson": "CE01",
+    "question": "Which technique uses high-frequency sound?",
+    "options": [
+      "Sedimentation analysis",
+      "Autoradiography",
+      "Chromatography",
+      "Sonication"
+    ],
+    "letter": "D",
+    "explanation": "Sonication disrupts cells with sound-induced mechanical effects.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "322-340"
+  },
+  {
+    "id": "CE01-Q04",
+    "lesson": "CE01",
+    "question": "Which method is especially useful for tough plant tissue?",
+    "options": [
+      "Beer–Lambert assay",
+      "Rate-zonal separation",
+      "Autoradiography",
+      "Grinding with mortar and pestle"
+    ],
+    "letter": "D",
+    "explanation": "Mechanical grinding breaks relatively rigid plant tissues.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "322-340"
+  },
+  {
+    "id": "CE01-Q05",
+    "lesson": "CE01",
+    "question": "What is a homogenate?",
+    "options": [
+      "Suspension after cell disruption",
+      "A purified enzyme crystal",
+      "A chromatographic solvent",
+      "A photographic emulsion"
+    ],
+    "letter": "A",
+    "explanation": "The disrupted cellular mixture is called the homogenate.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "322-340"
+  },
+  {
+    "id": "CE02-Q01",
+    "lesson": "CE02",
+    "question": "The liquid remaining above a centrifuged pellet is the",
+    "options": [
+      "Supernatant",
+      "Stationary phase",
+      "Solvent front",
+      "Homogenate pellet"
+    ],
+    "letter": "A",
+    "explanation": "Supernatant is the liquid above sedimented material.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "341-352"
+  },
+  {
+    "id": "CE02-Q02",
+    "lesson": "CE02",
+    "question": "What sequence best describes differential centrifugation of a cell homogenate?",
+    "options": [
+      "One equilibrium-density gradient followed by no additional spins",
+      "A series of spins at progressively higher centrifugal forces",
+      "One spin that produces completely pure organelle fractions",
+      "A series of spins at progressively lower centrifugal forces"
+    ],
+    "letter": "B",
+    "explanation": "In differential centrifugation, the supernatant is spun successively at higher forces to sediment progressively smaller/lighter components; fractions are enriched, not automatically pure.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "345-352"
+  },
+  {
+    "id": "CE02-Q03",
+    "lesson": "CE02",
+    "question": "A low-speed pellet is most likely enriched in",
+    "options": [
+      "Only free amino acids",
+      "Pure ribosomes",
+      "Nuclei and large debris",
+      "Only soluble salts"
+    ],
+    "letter": "C",
+    "explanation": "Large particles tend to sediment first.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "341-352"
+  },
+  {
+    "id": "CE02-Q04",
+    "lesson": "CE02",
+    "question": "Why is rpm alone insufficient to specify centrifugal force?",
+    "options": [
+      "Rotor radius also affects RCF",
+      "Only tube colour matters",
+      "All rotors have identical radius",
+      "RPM always equals ×g"
+    ],
+    "letter": "A",
+    "explanation": "RCF depends on both rotational speed and rotor radius.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "341-352"
+  },
+  {
+    "id": "CE02-Q05",
+    "lesson": "CE02",
+    "question": "An organelle fraction from differential centrifugation is generally",
+    "options": [
+      "Identical to the starting homogenate",
+      "Always free of membrane fragments",
+      "Guaranteed chemically pure",
+      "Enriched rather than completely pure"
+    ],
+    "letter": "D",
+    "explanation": "Different structures can co-sediment.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "341-352"
+  },
+  {
+    "id": "CE03-Q01",
+    "lesson": "CE03",
+    "question": "Two proteins have similar buoyant densities but different sedimentation speeds. Which technique separates them chiefly by their rate of movement through a gradient?",
+    "options": [
+      "Isopycnic centrifugation",
+      "Rate-zonal centrifugation",
+      "Equilibrium CsCl banding",
+      "Simple dialysis"
+    ],
+    "letter": "B",
+    "explanation": "Rate-zonal centrifugation separates by sedimentation rate, influenced by size, mass and shape. Isopycnic separation instead resolves equilibrium buoyant density.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "359-361"
+  },
+  {
+    "id": "CE03-Q02",
+    "lesson": "CE03",
+    "question": "During isopycnic centrifugation, a particle reaches its equilibrium band when",
+    "options": [
+      "Its diameter equals the tube diameter",
+      "Its sedimentation coefficient becomes zero in vacuum",
+      "Its buoyant density matches the surrounding gradient",
+      "Its molecular mass matches the solvent mass"
+    ],
+    "letter": "C",
+    "explanation": "At equilibrium, the particle bands where its buoyant density equals that of the gradient medium; size alone does not define the equilibrium position.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "362-363"
+  },
+  {
+    "id": "CE03-Q03",
+    "lesson": "CE03",
+    "question": "Why must a rate-zonal gradient centrifugation run be stopped before all components pellet?",
+    "options": [
+      "To keep separated zones at different positions",
+      "To ensure particles reach equal density",
+      "To remove the gradient solvent completely",
+      "To convert it into an isopycnic run"
+    ],
+    "letter": "A",
+    "explanation": "Rate-zonal separation depends on different sedimentation distances; if particles pellet, the resolved zones are lost.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "359-361"
+  },
+  {
+    "id": "CE03-Q04",
+    "lesson": "CE03",
+    "question": "Which experiment is best suited to separating nucleic acids according to equilibrium buoyant density?",
+    "options": [
+      "A rate-zonal run terminated early",
+      "Differential centrifugation of nuclei",
+      "A sucrose wash with no centrifugal field",
+      "Isopycnic centrifugation in CsCl"
+    ],
+    "letter": "D",
+    "explanation": "The lecturer identifies CsCl isopycnic gradients for nucleic acids; bands form at matching buoyant density.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "362-363"
+  },
+  {
+    "id": "CE03-Q05",
+    "lesson": "CE03",
+    "question": "After collecting organelle bands from a density gradient, what best establishes which organelles are in each fraction?",
+    "options": [
+      "Position in the tube without other measurements",
+      "Organelle-specific enzyme markers or other assays",
+      "The colour of the rotor used for the run",
+      "The fact that each band is automatically pure"
+    ],
+    "letter": "B",
+    "explanation": "Gradient position alone cannot prove identity or purity. Marker enzymes, microscopy or appropriate assays are needed to characterize fractions.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "353-365"
+  },
+  {
+    "id": "CE04-Q01",
+    "lesson": "CE04",
+    "question": "The primary goal of preparative centrifugation is to",
+    "options": [
+      "Find Rf values",
+      "Recover material for further study",
+      "Measure visible-light wavelength",
+      "Measure film exposure"
+    ],
+    "letter": "B",
+    "explanation": "Preparative methods collect fractions.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "366-370"
+  },
+  {
+    "id": "CE04-Q02",
+    "lesson": "CE04",
+    "question": "Analytical ultracentrifugation studies",
+    "options": [
+      "Microscope eyepiece power",
+      "Solvent fronts on paper",
+      "Radioactive silver grains",
+      "Sedimentation behavior in solution"
+    ],
+    "letter": "D",
+    "explanation": "Analytical methods quantify macromolecular behavior.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "366-370"
+  },
+  {
+    "id": "CE04-Q03",
+    "lesson": "CE04",
+    "question": "Which statement correctly describes the Svedberg (S) unit?",
+    "options": [
+      "It expresses sedimentation coefficient, with 1 S = 10⁻¹³ s",
+      "It measures particle diameter, with 1 S = 10⁻¹³ m",
+      "It measures buoyant density, with 1 S = 10⁻¹³ g/mL",
+      "It expresses angular speed, with 1 S = 10⁻¹³ rpm"
+    ],
+    "letter": "A",
+    "explanation": "The sedimentation coefficient has units of time; one svedberg equals 10⁻¹³ seconds. It depends on mass, shape, friction and buoyancy.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "366-370"
+  },
+  {
+    "id": "CE04-Q04",
+    "lesson": "CE04",
+    "question": "Why is sedimentation coefficient not mass alone?",
+    "options": [
+      "It cannot vary with solvent",
+      "Shape and friction also affect it",
+      "It depends only on sample colour",
+      "It is always equal to molecular weight"
+    ],
+    "letter": "B",
+    "explanation": "Sedimentation also depends on buoyancy and hydrodynamics.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "366-370"
+  },
+  {
+    "id": "CE04-Q05",
+    "lesson": "CE04",
+    "question": "Which parameter is essential for safe centrifuge use?",
+    "options": [
+      "Film grain size",
+      "Rotor-rated speed and tube compatibility",
+      "Visible-light hue",
+      "Spot colour on paper"
+    ],
+    "letter": "B",
+    "explanation": "Rotor and tube limits must be respected.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "366-370"
+  },
+  {
+    "id": "BI01-Q01",
+    "lesson": "BI01",
+    "question": "Spectrophotometry can measure a sample’s",
+    "options": [
+      "Centrifuge rotor radius only",
+      "Rate of radioactive decay only",
+      "Absorbance of light",
+      "Spot movement without solvent"
+    ],
+    "letter": "C",
+    "explanation": "Spectrophotometry quantifies light absorption or transmission.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "371-381"
+  },
+  {
+    "id": "BI01-Q02",
+    "lesson": "BI01",
+    "question": "In the Beer–Lambert relationship A = εlc, what does l represent?",
+    "options": [
+      "Spot diameter",
+      "Radioactive half-life",
+      "Sedimentation rate",
+      "Optical path length"
+    ],
+    "letter": "D",
+    "explanation": "The variable l is optical path length, commonly in cm. ε is molar absorptivity and c is concentration. The equation assumes suitable measurement conditions.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "371-381"
+  },
+  {
+    "id": "BI01-Q03",
+    "lesson": "BI01",
+    "question": "A blank is used mainly to",
+    "options": [
+      "Generate radioactivity",
+      "Correct background from solvent and reagents",
+      "Identify every unknown molecule",
+      "Increase sample concentration"
+    ],
+    "letter": "B",
+    "explanation": "Blanking accounts for baseline absorbance.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "371-381"
+  },
+  {
+    "id": "BI01-Q04",
+    "lesson": "BI01",
+    "question": "Which equation defines absorbance?",
+    "options": [
+      "A = RCF / rpm",
+      "A = I0 × I",
+      "A = distance spot / time",
+      "A = log10(I0/I)"
+    ],
+    "letter": "D",
+    "explanation": "Absorbance is the log of incident over transmitted intensity.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "371-381"
+  },
+  {
+    "id": "BI01-Q05",
+    "lesson": "BI01",
+    "question": "Why might Beer–Lambert estimates fail?",
+    "options": [
+      "Correct blank selection",
+      "High concentration or scattering",
+      "A valid linear calibration",
+      "Stable wavelength"
+    ],
+    "letter": "B",
+    "explanation": "Nonlinear conditions can invalidate direct concentration estimates.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "371-381"
+  },
+  {
+    "id": "BI02-Q01",
+    "lesson": "BI02",
+    "question": "Autoradiography primarily detects",
+    "options": [
+      "Cellular pH with no probe",
+      "Membrane fluidity directly",
+      "Protein mass by centrifuge only",
+      "Location of radioactive tracer"
+    ],
+    "letter": "D",
+    "explanation": "It maps emissions from labelled material.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "382-387"
+  },
+  {
+    "id": "BI02-Q02",
+    "lesson": "BI02",
+    "question": "What happens to the exposed silver halide crystals during conventional film autoradiography?",
+    "options": [
+      "They become radioactive isotopes",
+      "They are converted into metallic silver during development",
+      "They dissolve into the specimen before exposure",
+      "They are converted directly into barium sulfate"
+    ],
+    "letter": "B",
+    "explanation": "Radiation produces a latent image in silver-halide emulsion; photographic development yields metallic silver at exposed sites. Unexposed silver halide is removed during photographic fixing.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "385"
+  },
+  {
+    "id": "BI02-Q03",
+    "lesson": "BI02",
+    "question": "After incubating cells with a radioactive precursor, what can autoradiography most directly show?",
+    "options": [
+      "Exact molecular identity of every labelled compound",
+      "The absolute number of enzymes in each organelle",
+      "Spatial distribution of radioactive label",
+      "The fraction of all proteins that are catalytically active"
+    ],
+    "letter": "C",
+    "explanation": "Autoradiography maps where radiolabel is detected; assigning that label to a particular molecule requires knowledge of the precursor, experimental controls and complementary evidence.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "382-387"
+  },
+  {
+    "id": "BI02-Q04",
+    "lesson": "BI02",
+    "question": "Which affects autoradiographic spatial resolution?",
+    "options": [
+      "Only paper baseline length",
+      "Only membrane cholesterol",
+      "Only rotor radius",
+      "Isotope emission and specimen thickness"
+    ],
+    "letter": "D",
+    "explanation": "Emission range and specimen geometry influence localization.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "382-387"
+  },
+  {
+    "id": "BI02-Q05",
+    "lesson": "BI02",
+    "question": "Which practice is essential when interpreting autoradiographic silver grains?",
+    "options": [
+      "Assume every grain is specific to the target",
+      "Omit unlabeled controls because film has no background",
+      "Treat grain size as an exact measurement of protein mass",
+      "Use suitable background controls and radiation precautions"
+    ],
+    "letter": "D",
+    "explanation": "Silver grains can include background and nonspecific signal; controls are required for interpretation, and radioisotopes require appropriate radiation safety.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "382-387"
+  },
+  {
+    "id": "BI03-Q01",
+    "lesson": "BI03",
+    "question": "The moving phase in chromatography is called the",
+    "options": [
+      "The phase that remains fixed in the system",
+      "Mobile phase",
+      "The solid support that holds the sample at the origin",
+      "The fraction recovered after centrifugation"
+    ],
+    "letter": "B",
+    "explanation": "The mobile phase carries sample components.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "388-391"
+  },
+  {
+    "id": "BI03-Q02",
+    "lesson": "BI03",
+    "question": "A solute binds more strongly to the stationary phase than another solute under the same column conditions. What usually happens?",
+    "options": [
+      "It elutes earlier because it moves faster",
+      "It remains permanently attached in all conditions",
+      "It elutes later because it spends more time retained",
+      "It has the same retention time regardless of affinity"
+    ],
+    "letter": "C",
+    "explanation": "Greater affinity for the stationary phase usually slows migration and delays elution, all else equal.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "388-391;402"
+  },
+  {
+    "id": "BI03-Q03",
+    "lesson": "BI03",
+    "question": "Partition chromatography relies mainly on",
+    "options": [
+      "Only differences in radioactive decay",
+      "Different distribution between phases",
+      "Centrifugal force alone",
+      "Protein synthesis speed"
+    ],
+    "letter": "B",
+    "explanation": "Relative solubility between phases underlies partition.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "388-391"
+  },
+  {
+    "id": "BI03-Q04",
+    "lesson": "BI03",
+    "question": "Which change can alter chromatographic retention?",
+    "options": [
+      "Mobile-phase composition",
+      "Changing centrifuge tube colour",
+      "Increasing film exposure only",
+      "Changing microscope objective only"
+    ],
+    "letter": "A",
+    "explanation": "Solvent conditions influence phase interactions.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "388-391"
+  },
+  {
+    "id": "BI03-Q05",
+    "lesson": "BI03",
+    "question": "Can early column elution alone identify a substance?",
+    "options": [
+      "Only if the column is transparent",
+      "Only if the solvent is water",
+      "No, standards and controls are needed",
+      "Yes, always"
+    ],
+    "letter": "C",
+    "explanation": "Retention is condition-dependent and not unique identification.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "388-391"
+  },
+  {
+    "id": "BI04-Q01",
+    "lesson": "BI04",
+    "question": "In paper chromatography the sample baseline should be",
+    "options": [
+      "Fully submerged",
+      "At the solvent front",
+      "Cut away before development",
+      "Above the solvent level"
+    ],
+    "letter": "D",
+    "explanation": "Submerging spots can wash them into the reservoir.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "392-401"
+  },
+  {
+    "id": "BI04-Q02",
+    "lesson": "BI04",
+    "question": "Solvent rises through paper mainly by",
+    "options": [
+      "Ultracentrifugation",
+      "Cell lysis",
+      "Radioactive emission",
+      "Capillary action"
+    ],
+    "letter": "D",
+    "explanation": "Capillary action draws solvent through paper.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "392-401"
+  },
+  {
+    "id": "BI04-Q03",
+    "lesson": "BI04",
+    "question": "When should the solvent front be marked?",
+    "options": [
+      "Before solvent is added to the chamber",
+      "After the solvent front has completely evaporated",
+      "Only after the chromatogram is stained",
+      "Immediately after removing the paper"
+    ],
+    "letter": "D",
+    "explanation": "The front can become difficult to locate as solvent evaporates.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "392-401"
+  },
+  {
+    "id": "BI04-Q04",
+    "lesson": "BI04",
+    "question": "Why do mixture components travel different distances?",
+    "options": [
+      "Identical phase affinities",
+      "Different interactions with two phases",
+      "Same visible colour",
+      "Same molecular mass always"
+    ],
+    "letter": "B",
+    "explanation": "Different partitioning or adsorption leads to separation.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "392-401"
+  },
+  {
+    "id": "BI04-Q05",
+    "lesson": "BI04",
+    "question": "A spot matching a standard’s position proves",
+    "options": [
+      "Absolute chemical identity",
+      "All compounds have the same Rf",
+      "Similarity under the tested conditions only",
+      "The sample is pure"
+    ],
+    "letter": "C",
+    "explanation": "Co-migration alone is not definitive identification.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "392-401"
+  },
+  {
+    "id": "BI05-Q01",
+    "lesson": "BI05",
+    "question": "Rf is calculated as",
+    "options": [
+      "Solvent-front distance divided by spot distance",
+      "Absorbance divided by wavelength",
+      "Spot distance times rotor speed",
+      "Spot distance divided by solvent-front distance"
+    ],
+    "letter": "D",
+    "explanation": "Both distances start at the same baseline.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "402-410"
+  },
+  {
+    "id": "BI05-Q02",
+    "lesson": "BI05",
+    "question": "In the lecture TLC example, a spot travels 1.4 cm while the solvent front travels 7.7 cm. What is its Rf?",
+    "options": [
+      "0.18",
+      "0.53",
+      "0.78",
+      "5.50"
+    ],
+    "letter": "A",
+    "explanation": "Rf = 1.4/7.7 = 0.1818, approximately 0.18. Both distances are measured from the origin/baseline.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "409-410"
+  },
+  {
+    "id": "BI05-Q03",
+    "lesson": "BI05",
+    "question": "In the slide’s column example, solute B emerges first because it",
+    "options": [
+      "Is less strongly retained than A",
+      "Is permanently bound to the column",
+      "Has a larger radioactive signal",
+      "Is always heavier than A"
+    ],
+    "letter": "A",
+    "explanation": "B moves faster through the column.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "402-410"
+  },
+  {
+    "id": "BI05-Q04",
+    "lesson": "BI05",
+    "question": "The lecture TLC plate has a 7.7 cm solvent front and a spot 6.0 cm from the origin. What is the Rf of that spot?",
+    "options": [
+      "0.53",
+      "0.78",
+      "1.28",
+      "0.18"
+    ],
+    "letter": "B",
+    "explanation": "Rf = 6.0/7.7 = 0.7792, approximately 0.78, matching the second worked value on the lecture slide.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "409-410"
+  },
+  {
+    "id": "BI05-Q05",
+    "lesson": "BI05",
+    "question": "A third spot on the lecture TLC plate travels 4.1 cm from the baseline, with the solvent front at 7.7 cm. Which Rf matches the worked solution?",
+    "options": [
+      "0.18",
+      "0.78",
+      "0.53",
+      "1.88"
+    ],
+    "letter": "C",
+    "explanation": "Rf = 4.1/7.7 = 0.5325, approximately 0.53. Rf is dimensionless.",
+    "source": "QUESTION_BANK_45.csv",
+    "source_pages": "409-410"
+  },
+  {
+    "id": "MI-Q001",
+    "lesson": "lesson_01",
+    "question": "Which property lets a microscope distinguish two close points?",
+    "options": [
+      "Magnification",
+      "Resolution",
+      "Contrast",
+      "Depth of field"
+    ],
+    "letter": "B",
+    "explanation": "Resolution is the ability to separate closely spaced points.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "21;24;36;62;66;73;74;75",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q002",
+    "lesson": "lesson_02",
+    "question": "A simple microscope forms a magnified image primarily using",
+    "options": [
+      "Two separate objective lenses",
+      "A concave mirror alone",
+      "A single converging lens",
+      "A scanning electron beam"
+    ],
+    "letter": "C",
+    "explanation": "A simple microscope uses a single lens or lens system as a magnifier.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "18;25;26;27;28;29;30;31",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q003",
+    "lesson": "lesson_03",
+    "question": "Chromatic aberration arises because",
+    "options": [
+      "Spherical aberration from peripheral rays",
+      "Incorrect condenser centering",
+      "Reduced objective numerical aperture",
+      "Different wavelengths are refracted differently"
+    ],
+    "letter": "D",
+    "explanation": "Wavelength-dependent refraction causes different colours to focus differently.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "43;44;47;48;49;50",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q004",
+    "lesson": "lesson_04",
+    "question": "In a compound microscope, the objective lens first",
+    "options": [
+      "Forms a magnified intermediate image",
+      "Forms only the final virtual image",
+      "Produces a reduced intermediate image",
+      "Projects an electron image onto a screen"
+    ],
+    "letter": "A",
+    "explanation": "The objective produces the primary magnified image, enlarged further by the eyepiece.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "18;19;20;21;38;61;67;68",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q005",
+    "lesson": "lesson_05",
+    "question": "Parfocal objectives are designed so that",
+    "options": [
+      "Have identical working distances",
+      "Have identical resolving powers",
+      "The specimen stays nearly in focus after changing objectives",
+      "Require identical numerical apertures"
+    ],
+    "letter": "C",
+    "explanation": "Parfocality reduces the refocusing required when changing objectives.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "21;61;67;68;69;70;71",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q006",
+    "lesson": "lesson_06",
+    "question": "Which lens property is central to microscope resolution?",
+    "options": [
+      "Eyepiece magnification alone",
+      "Field diaphragm diameter alone",
+      "Objective barrel length alone",
+      "Numerical aperture"
+    ],
+    "letter": "D",
+    "explanation": "Numerical aperture determines the angular range of light collected.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "75;81;82;83;84;86;87;88",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q007",
+    "lesson": "lesson_07",
+    "question": "In dark-field microscopy, the specimen appears bright because",
+    "options": [
+      "Unscattered central rays enter the objective",
+      "Scattered light reaches the objective against a dark field",
+      "Light is emitted by a fluorophore",
+      "Only transmitted direct light reaches the objective"
+    ],
+    "letter": "B",
+    "explanation": "Dark-field optics block direct rays and use specimen-scattered light.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "101;105",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q008",
+    "lesson": "lesson_08",
+    "question": "Phase-contrast microscopy is especially useful for",
+    "options": [
+      "Unstained, transparent living cells",
+      "Fixed, metal-coated specimens",
+      "Thick, opaque mineral sections",
+      "Cells viewed solely by electron transmission"
+    ],
+    "letter": "A",
+    "explanation": "Phase differences produced by transparent structures become visible intensity differences.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "110;111;112;113;114;115;116;117",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q009",
+    "lesson": "lesson_09",
+    "question": "Ultraviolet microscopy can offer better theoretical resolution than visible-light microscopy because",
+    "options": [
+      "Greater eyepiece magnification",
+      "Greater specimen thickness",
+      "Ultraviolet light has a shorter wavelength",
+      "A longer illumination wavelength"
+    ],
+    "letter": "C",
+    "explanation": "Shorter wavelengths can improve the diffraction-limited resolving distance.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "125;126;127;133",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q010",
+    "lesson": "lesson_10",
+    "question": "Immunofluorescence localizes a target using",
+    "options": [
+      "Fluorophore-labelled lipids with no targeting",
+      "Electron-dense heavy-metal salts",
+      "Silver-halide photographic film only",
+      "Antibodies coupled directly or indirectly to fluorescent labels"
+    ],
+    "letter": "D",
+    "explanation": "Fluorescent antibody-based detection visualizes specific antigens.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "133;134;135;136;137;139",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q011",
+    "lesson": "lesson_11",
+    "question": "Transmission electron microscopy is best suited to studying",
+    "options": [
+      "Three-dimensional external surface topography",
+      "Internal ultrastructure in thin specimens",
+      "Direct observation of living cells in air",
+      "Fluorescent antigen localization"
+    ],
+    "letter": "B",
+    "explanation": "TEM images electrons transmitted through thin specimens.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "50;64;77;129;134;143;145;146",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q012",
+    "lesson": "lesson_12",
+    "question": "Scanning electron microscopy is especially useful for",
+    "options": [
+      "Surface morphology",
+      "Internal detail in ultrathin sections",
+      "Fluorescent antigen localization",
+      "Live-cell phase-contrast imaging"
+    ],
+    "letter": "A",
+    "explanation": "SEM images surface-related signals.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "30;123;143;151;152;153;154;155",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q013",
+    "lesson": "lesson_13",
+    "question": "Why is specimen preparation often necessary before microscopy?",
+    "options": [
+      "Increase objective numerical aperture",
+      "Convert all organelles to equal density",
+      "To preserve structures and create suitable contrast or thickness",
+      "Eliminate all biological variability"
+    ],
+    "letter": "C",
+    "explanation": "Preparation supports preservation, imaging compatibility and contrast.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "134;145;159;162;165;166;167;168",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q014",
+    "lesson": "lesson_14",
+    "question": "A primary purpose of chemical fixation is to",
+    "options": [
+      "Remove all water before paraffin infiltration",
+      "Produce permanent fluorescence in every cell",
+      "Remove every lipid from the sample",
+      "Preserve cellular structure and reduce autolysis"
+    ],
+    "letter": "D",
+    "explanation": "Fixatives stabilize cellular constituents and limit post-collection change.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "159;160;162;163;164;165",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q015",
+    "lesson": "lesson_15",
+    "question": "During routine paraffin histology, dehydration primarily removes",
+    "options": [
+      "Paraffin wax from tissue",
+      "Water from the tissue",
+      "Heavy-metal stains from tissue",
+      "All nucleic acids from tissue"
+    ],
+    "letter": "B",
+    "explanation": "Water is replaced through graded alcohols before clearing and wax infiltration.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "166;170",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q016",
+    "lesson": "lesson_16",
+    "question": "A microtome is used to",
+    "options": [
+      "Cut thin tissue sections",
+      "Generate electron beams for imaging",
+      "Measure the absorbance of stains",
+      "Illuminate the condenser"
+    ],
+    "letter": "A",
+    "explanation": "Microtomes cut thin sections for microscopy.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "171;172;173;176",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q017",
+    "lesson": "lesson_17",
+    "question": "Haematoxylin in routine H&E staining typically colours nuclei",
+    "options": [
+      "Pink to red",
+      "Brown to black",
+      "Blue to purple",
+      "Bright green"
+    ],
+    "letter": "C",
+    "explanation": "Haematoxylin stains basophilic structures, including nuclei, blue-purple.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "180;183",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  },
+  {
+    "id": "MI-Q018",
+    "lesson": "lesson_18",
+    "question": "In conventional TEM negative staining, which region appears relatively electron-dense?",
+    "options": [
+      "The background surrounding the particle",
+      "The particle interior only, with a bright background",
+      "Only the specimen holder, not the sample",
+      "The vacuum outside the microscope column"
+    ],
+    "letter": "A",
+    "explanation": "Electron-dense heavy-metal stain accumulates around the specimen, making the background dark while the particle is comparatively light.",
+    "source": "lesson_derived_new_draft",
+    "source_pages": "188",
+    "status": "DRAFT_REQUIRES_LECTURE_ALIGNMENT",
+    "review_status": "Edited for distractor plausibility; slide term mapping is not full semantic certification"
+  }
+]

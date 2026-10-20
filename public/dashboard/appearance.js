@@ -1,0 +1,18 @@
+/* Shared by React and the legacy workspace. No credentials or persistence here. */
+(function(root){
+ const palettes={
+ signature:{label:'Signature',accent:'#245da8',secondary:'#d6aa43',nav:'#102d50',light:['#edf3fa','#ffffff','#152c49','#51647b','#ccd8e6'],dark:['#0b1628','#15243b','#edf4ff','#bdcce0','#34465e']},
+ aurora:{label:'Aurora',accent:'#6944b3',secondary:'#39b6a5',nav:'#302050',light:['#f1effa','#ffffff','#302447','#66577a','#dbd2e8'],dark:['#171127','#29203d','#f3edff','#d1c3e5','#4a3b63']},
+ sunset:{label:'Sunset',accent:'#a83e42',secondary:'#dfa347',nav:'#4b2637',light:['#faf0eb','#fffdfb','#462936','#775963','#e5d2d0'],dark:['#24151b','#39252d','#fff0ed','#e4c4cb','#62464e']},
+ ocean:{label:'Ocean',accent:'#096c83',secondary:'#48bdd0',nav:'#103b4c',light:['#eaf6f8','#ffffff','#173a47','#486973','#c6dfe5'],dark:['#091e29','#143442','#e9faff','#b6d4dd','#355361']},
+ bloom:{label:'Bloom',accent:'#a03f7b',secondary:'#b3a0e9',nav:'#45243f',light:['#faf0f7','#ffffff','#43263d','#75576c','#e6d0de'],dark:['#231424','#3a253d','#fff0fb','#e0c4da','#604465']},
+ midnight:{label:'Midnight',accent:'#4f51b7',secondary:'#43b7a7',nav:'#232343',light:['#f0f0fa','#ffffff','#282a49','#5e617e','#d4d5e9'],dark:['#111326','#22263f','#f0f2ff','#c3c8e7','#434a69']}
+ };
+ const aliases={'blue-gold':'signature',rose:'sunset',teal:'ocean'};
+ function normalize(value={}){value=value&&typeof value==='object'?value:{};return{theme:Object.hasOwn(palettes,value.theme)?value.theme:Object.hasOwn(aliases,value.theme)?aliases[value.theme]:'signature',mode:['light','dark','system'].includes(value.mode)?value.mode:'light',intensity:['calm','balanced','vibrant'].includes(value.intensity)?value.intensity:'balanced',motion:['reduced','smooth','expressive'].includes(value.motion)?value.motion:'smooth'}}
+ function resolve(value,device={}){const p=normalize(value);return{...p,resolvedMode:p.mode==='system'?(device.dark?'dark':'light'):p.mode,effectiveMotion:device.reduced||p.motion==='reduced'?'reduced':p.motion}}
+ function tokens(value,device={}){const p=resolve(value,device),c=palettes[p.theme],a=c[p.resolvedMode];return{'--app-bg':a[0],'--app-surface':a[1],'--app-ink':a[2],'--app-muted':a[3],'--app-line':a[4],'--app-accent':c.accent,'--app-on-accent':'#ffffff','--app-secondary':c.secondary,'--app-nav':c.nav,'--app-nav-ink':'#ffffff','--app-focus':p.resolvedMode==='dark'?'#f5cf79':'#7d5413','--app-soft':p.resolvedMode==='dark'?'#ffffff0c':'#ffffffb8','--app-shadow':p.intensity==='calm'?'none':'0 12px 38px '+(p.resolvedMode==='dark'?'#00000024':'#23304c0c'),'--app-ambient':p.intensity==='calm'?'none':'radial-gradient(ellipse at 95% 0%, '+c.secondary+(p.intensity==='vibrant'?'35':'18')+', transparent 55%), radial-gradient(ellipse at 0% 70%, '+c.accent+'12, transparent 65%)'}}
+ function apply(element,value,device={}){const p=resolve(value,device);for(const [key,color] of Object.entries(tokens(p,device)))element.style.setProperty(key,color);element.dataset.appTheme=p.theme;element.dataset.mode=p.resolvedMode;element.dataset.displayMode=p.mode;element.dataset.intensity=p.intensity;element.dataset.motion=p.effectiveMotion;return p}
+ function watch(host,listener){const dark=host.matchMedia('(prefers-color-scheme: dark)'),reduced=host.matchMedia('(prefers-reduced-motion: reduce)');const change=()=>listener({dark:dark.matches,reduced:reduced.matches});dark.addEventListener('change',change);reduced.addEventListener('change',change);change();return()=>{dark.removeEventListener('change',change);reduced.removeEventListener('change',change)}}
+ root.DominanceAppearance={watch,palettes,normalize,resolve,tokens,apply};
+})(globalThis);

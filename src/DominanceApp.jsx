@@ -1,46 +1,60 @@
-import { useEffect, useState } from 'react'
-import { GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, updateProfile } from 'firebase/auth'
-import { collection, doc, onSnapshot, setDoc, updateDoc } from 'firebase/firestore'
-import { auth, db } from './firebase.js'
+import {createPortal} from 'react-dom'
+import {WorkspaceSelect} from './workspace-select.jsx'
+import '../public/dashboard/curriculum.js'
+import '../public/dashboard/appearance.js'
+import { useEffect, useLayoutEffect, useImperativeHandle, useRef, useState } from 'react'
+import { GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, sendPasswordResetEmail, updateProfile } from 'firebase/auth'
+import { collection, doc, onSnapshot, setDoc, updateDoc, runTransaction } from 'firebase/firestore'
+import { auth, db, emulatorMode } from './firebase.js'
+import { observeAccount, accountError, studentAccountProfile } from './account-session.js'
+import { createDashboardNavigation } from './dashboard-navigation.js'
+import { createDashboardStorage, mergeDemoHistory, mergeCellHistory } from './dashboard-session.js'
+import { profileChanges, saveAcademicProfile } from './profile-edit.js'
+import {profileBio} from './community-model.js'
+import './account.css'
 import './foundation.css'
 import './auth.css'
 import './auth-overrides.css'
 import './prototype.css'
 
-const curriculum = {
-  'HB 1': { First: ['Basic Medical Chemistry', 'Biological Chemistry', 'Medical Genetics', 'Cell Structure', 'Ghanaian Sign Language', 'Communication Skills', 'Computer Appreciation', 'Algebra', 'Statistical Methods'], Second: ['Ghanaian Sign Language', 'Medical Entomology', 'Behavioural Science', 'Human Anatomy I', 'Biochemistry I', 'Physiology I'] },
-  'HB 2': { First: ['Human Anatomy II', 'Biochemistry II', 'Physiology II'], Second: ['Human Anatomy II', 'Biochemistry II', 'Physiology II'] },
-  'HB 3': { First: [], Second: [] },
-}
-const SUPER_ADMIN_EMAIL = 'ofobifrimpongk@gmail.com'
+import './appearance.css'
+import './refinement.css'
+import '../public/dashboard/workspace-ui.css'
+import {DeferredPanel} from './deferred-panel.jsx'
+import {createModuleLoader} from './deferred-module.js'
+const loadAppearanceStudio=createModuleLoader(()=>import('./appearance-studio.jsx'),'AppearanceStudio')
+const loadProfilePhoto=createModuleLoader(()=>import('./profile-photo.jsx'),'ProfilePhoto')
+const loadCommunityPanel=createModuleLoader(()=>import('./community-panel.jsx'),'CommunityPanel')
+import {AvatarVisual} from './avatar-visual.jsx'
+import {normalizeAvatar,validAvatar} from './avatars.js'
+
+const academicPolicy = globalThis.DominanceCurriculum
+const curriculum = Object.fromEntries(Object.entries(academicPolicy.curriculum).map(([year,periods])=>[year.replace('HB','HB '),periods]))
 
 export default function DominanceApp() {
-  const [user, setUser] = useState(null)
-  const [profile, setProfile] = useState(null)
-  const [loading, setLoading] = useState(true)
-  const [page, setPage] = useState('home')
-  const [course, setCourse] = useState('Cell Structure')
-  const [dark, setDark] = useState(false)
-  useEffect(() => {
-    if (!auth || !db) { setLoading(false); return undefined }
-    let stopProfile = () => {}
-    const stopAuth = onAuthStateChanged(auth, (nextUser) => {
-      stopProfile()
-      setUser(nextUser)
-      if (!nextUser) { setProfile(null); setLoading(false); return }
-      stopProfile = onSnapshot(doc(db, 'users', nextUser.uid), (snapshot) => {
-        setProfile(snapshot.exists() ? { ...snapshot.data(), id: snapshot.id } : null)
-        setLoading(false)
-      })
-    })
-    return () => { stopAuth(); stopProfile() }
-  }, [])
-  if (loading) return <div className="dom-loading">Loading DOMiNANCE…</div>
-  if (!user) return <AuthGate />
-  if (!profile) return <Onboarding profile={{ name: user.displayName || user.email?.split('@')[0] || 'Medical Student', year: 'HB 1', semester: 'First', courses: [] }} save={async (nextProfile) => {
-    await setDoc(doc(db, 'users', user.uid), { ...nextProfile, email: user.email, role: user.email === SUPER_ADMIN_EMAIL ? 'superAdmin' : 'student', createdAt: new Date().toISOString() })
-  }} />
-  return <PrototypeDashboard profile={profile} />
+  const [session,setSession]=useState({user:null,profile:null,loading:true,error:''})
+  const [retry,setRetry]=useState(0),[signingOut,setSigningOut]=useState(false),[actionError,setActionError]=useState('')
+  const logoutLock=useRef(false)
+  const [page,setPage]=useState('home'),[course,setCourse]=useState('Cell Structure'),[dark,setDark]=useState(false)
+  useEffect(()=>{
+    if(!auth||!db)return undefined
+    return observeAccount({subscribeAuth:(next,fail)=>onAuthStateChanged(auth,next,fail),subscribeProfile:(uid,next,fail)=>onSnapshot(doc(db,'users',uid),{includeMetadataChanges:true},snapshot=>next(snapshot.exists()?{...snapshot.data(),__pendingWrites:snapshot.metadata.hasPendingWrites}:null),fail),publish:setSession})
+  },[retry])
+  const logout=async()=>{
+    if(logoutLock.current)return;logoutLock.current=true;setSigningOut(true);setActionError('')
+    try{await signOut(auth);setSession({user:null,profile:null,loading:false,error:''})}
+    catch(error){setActionError(accountError(error))}
+    finally{logoutLock.current=false;setSigningOut(false)}
+  }
+  const {user,profile,loading,error}=auth&&db?session:{user:null,profile:null,loading:false,error:'Account services are not configured. Please contact the app team.'}
+  if(loading||signingOut)return <div className="dom-loading" role="status" aria-live="polite">{signingOut?'Signing out…':'Loading your account…'}</div>
+  if(error)return <div className="dom-auth"><section><h1>Let’s get you back in</h1><p role="alert">{error}</p><button className="dom-primary" onClick={()=>{setActionError('');setSession({user:null,profile:null,loading:true,error:''});setRetry(n=>n+1)}}>Retry</button>{user&&<button className="account-secondary" onClick={logout}>Sign out</button>}{actionError&&<p role="alert">{actionError}</p>}</section></div>
+  if(!user)return <AuthGate />
+  if(!profile)return <><AccountBar key={'account:'+user.uid} user={user} profile={null} logout={logout} actionError={actionError}/><Onboarding profile={{name:user.displayName||user.email?.split('@')[0]||'Medical Student',year:'HB 1',semester:'First',courses:[]}} save={async(nextProfile)=>{
+    await setDoc(doc(db,'users',user.uid),studentAccountProfile(user,nextProfile))
+  }}/></>
+  if(profile.id!==user.uid)return <div className="dom-loading" role="status">Loading your account…</div>
+  return <StudentWorkspace key={user.uid} user={user} profile={profile} logout={logout} actionError={actionError}/>
   const navigation = [['home','⌂','Home'],['courses','▤','Courses'],['desk','✦','Study desk'],['quiz','✓','Quiz'],['cards','▣','Cards']]
   if (profile.role === 'superAdmin' || profile.role === 'admin') navigation.push(['admin','⚙','Admin'])
   return <div className={dark ? 'dom-app dark' : 'dom-app'}>
@@ -50,31 +64,89 @@ export default function DominanceApp() {
   </div>
 }
 
-function PrototypeDashboard({ profile }) {
-  const params = new URLSearchParams({
-    account: profile.id,
-    name: profile.username || profile.name || 'Medical Student',
-    year: profile.year.replace(' ', ''),
-    semester: profile.semester,
-    role: profile.role || 'student',
-  })
-  return <iframe className="dom-prototype" src={`/dashboard/index.html?${params.toString()}`} title="DOMiNANCE medical study dashboard" />
+// Account controls live in the authenticated parent, not in URL-driven iframe actions.
+function PasswordRecovery({initialEmail='',onClose}){
+ const [email,setEmail]=useState(initialEmail),[busy,setBusy]=useState(false),[error,setError]=useState(''),[sent,setSent]=useState(false)
+ const lock=useRef(false)
+ const submit=async(event)=>{event.preventDefault();if(lock.current)return;lock.current=true;setBusy(true);setError('');setSent(false);try{if(!auth)throw new Error('unavailable');await sendPasswordResetEmail(auth,email.trim());setSent(true)}catch(exception){setError(accountError(exception))}finally{lock.current=false;setBusy(false)}}
+ return <form onSubmit={submit}><h3>Reset your password</h3><p>For email/password accounts. If you use Google, continue with Google to sign in.</p><label>Email address<input autoFocus required type="email" autoComplete="email" value={email} disabled={busy} onChange={event=>{setEmail(event.target.value);setSent(false)}}/></label>{error&&<p role="alert">{error}</p>}{sent&&<p role="status">{emulatorMode?'Recovery request completed locally. Eligible accounts have a reset link in the Auth emulator; no email is delivered.':'If this email is eligible for password recovery, a reset link has been sent. Check your inbox and spam folder.'}</p>}<button className="dom-primary" disabled={busy}>{busy?'Sending…':'Send reset link'}</button><button className="account-secondary" type="button" disabled={busy} onClick={onClose}>Back</button></form>
+}
+export function AccountBar({user,profile,logout,actionError,syncMessage='',appearance={theme:'signature',mode:'light',intensity:'balanced',motion:'smooth'},onAppearance,onPreview=()=>{},photo=null,onPhoto=()=>{},avatarPreset="initials",onAvatar=()=>{},onAdmin,profileControl}) {
+ const [open,setOpen]=useState(false),[section,setSection]=useState(null),[recovering,setRecovering]=useState(false)
+ const trigger=useRef(null),dialog=useRef(null),closeButton=useRef(null),backdropStart=useRef(false)
+ const name=profile?.username||profile?.name||user.displayName||'Medical Student'
+ const initials=name.trim().split(/\s+/).slice(0,2).map(part=>part[0]).join('').toUpperCase()
+ const titles={profile:'My Profile',preferences:'Preferences',security:'Account & Security'}
+ const outsideMenu=event=>{if(section||event.target!==dialog.current)return false;const r=dialog.current.getBoundingClientRect();return event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom};
+ const close=()=>{onPreview(null);dialog.current?.close();setOpen(false);setSection(null);setRecovering(false);trigger.current?.focus()}
+ useImperativeHandle(profileControl,()=>()=>{setSection('profile');setRecovering(false);setOpen(true)},[]);
+ useEffect(()=>{if(open&&!dialog.current.open)dialog.current.showModal()},[open])
+ useEffect(()=>{if(open)closeButton.current?.focus()},[section,open])
+ return <><header className="account-bar"><div className="account-brand"><span className="account-wordmark">DOMiNANCE</span>{emulatorMode&&<small className="account-test-badge">Local test</small>}</div><span className="account-save-status" data-active={syncMessage==='Saving changes…'} role="status">{syncMessage==='Saving changes…'?'Saving…':''}</span>{actionError&&<span className="account-header-error" role="alert">{actionError}</span>}<button ref={trigger} className="account-trigger" aria-label={'Open account menu for '+name} aria-haspopup="dialog" aria-expanded={open} onClick={()=>{setSection(null);setRecovering(false);setOpen(true)}}><span className="account-avatar" aria-hidden="true"><AvatarVisual photo={photo} preset={avatarPreset} initials={initials}/></span><span className="account-name">{name}</span><span className="account-chevron" aria-hidden="true">⌄</span></button></header>
+ <dialog ref={dialog} onPointerDown={event=>{backdropStart.current=outsideMenu(event)}} onClick={event=>{const dismiss=backdropStart.current&&outsideMenu(event);backdropStart.current=false;if(dismiss)close()}} className={'account-dialog '+(section?'account-panel':'account-menu')} data-mode={appearance.resolvedMode||appearance.mode} aria-labelledby="account-heading" onCancel={event=>{event.preventDefault();close()}} onClose={()=>{setOpen(false);setSection(null);onPreview(null)}}><div className="account-dialog-head"><h2 id="account-heading">{section?titles[section]:'Your account'}</h2><button ref={closeButton} autoFocus className="account-secondary" aria-label="Close account panel" onClick={close}>Close</button></div>
+ {!section&&<p className="account-intro"><span className="account-avatar" aria-hidden="true"><AvatarVisual photo={photo} preset={avatarPreset} initials={initials}/></span>{name}<small>{user.email}</small></p>}
+ <nav className="account-sections" aria-label="Account sections">{Object.entries(titles).map(([id,title])=><button key={id} aria-pressed={section===id} onClick={()=>{setRecovering(false);setSection(id)}}>{title}<span aria-hidden="true">{section===id?'•':'→'}</span></button>)}</nav>{!section&&onAdmin&&<button className="account-secondary" onClick={()=>{onAdmin();close()}}>Administration</button>}
+ {section==='profile'&&<section>{profile&&<><DeferredPanel load={loadProfilePhoto} label="profile picture controls" componentProps={{uid:user.uid,currentUid:()=>auth?.currentUser?.uid,photo,onPhoto,preset:avatarPreset,onPreset:onAvatar,name,academicLabel:academicPolicy.label(academicPolicy.currentScope(profile))}}/><AcademicProfileEditor key={user.uid} user={user} profile={profile}/><details className="featured-details"><summary>Featured courses · {profile.courses?.length||0}</summary>{profile.courses?.length?<ul className="account-course-list">{profile.courses.map(course=><li key={course}>{course}</li>)}</ul>:<p>No courses pinned to Home.</p>}<p className="account-help">Featured courses stay within your current academic period.</p></details></>}</section>}
+ {section==='preferences'&&<section>{onAppearance?<DeferredPanel load={loadAppearanceStudio} label="workspace preferences" componentProps={{appearance,onApply:onAppearance,onPreview}}/>:<p className="account-help">Workspace preferences are available after onboarding.</p>}</section>}
+ {section==='security'&&<section><dl className="account-details"><div><dt>Sign-in email</dt><dd>{user.email}</dd></div></dl>{recovering?<PasswordRecovery initialEmail={user.email||''} onClose={()=>{setRecovering(false);closeButton.current?.focus()}}/>:<><h3>Password recovery</h3><p className="account-help">Email/password accounts can request a reset link. Google accounts sign in with Google.</p><button className="account-secondary" onClick={()=>setRecovering(true)}>Reset password</button></>}</section>}
+ {actionError&&<p role="alert">{actionError}</p>}{(!section||section==='security')&&<div className="account-signout-area"><button className="account-signout" onClick={logout}>Sign out</button></div>}</dialog></>
 }
 
-function AuthGate() {
+export function AcademicProfileEditor({user,profile}) {
+ const initial=academicPolicy.normalizeProfile(profile),sharingKey=JSON.stringify([user.uid,profile.year,profile.profileBio,profile.communityVisible]);
+ const [draft,setDraft]=useState({name:profile.username||profile.name||'',year:initial.year,semester:initial.semester});
+ const [sharing,setSharing]=useState({}),[sharingRetry,setSharingRetry]=useState(0),[busy,setBusy]=useState(false),[error,setError]=useState(''),[saved,setSaved]=useState(false);const lock=useRef(false),mounted=useRef(true),preview=useRef(null);
+ const privacy=sharing.key===sharingKey?sharing:null,sharingReady=!emulatorMode||privacy&&!privacy.error;
+ useEffect(()=>{mounted.current=true;return()=>{mounted.current=false}},[]);
+ useEffect(()=>{if(!emulatorMode)return;let active=true,client;import('./community-service.js').then(module=>{if(!active)return;client=module.createCommunityService({auth,db,uid:user.uid,enabled:true});return client.own()}).then(value=>{if(active&&value)setSharing({key:sharingKey,...value})},()=>{if(active)setSharing({key:sharingKey,error:true})});return()=>{active=false;client?.dispose()}},[user.uid,profile.year,profile.profileBio,profile.communityVisible,sharingKey,sharingRetry]);
+ const change=next=>{setDraft(previous=>({...previous,...next}));setSaved(false);setError('')};
+ const changeSharing=next=>{setSharing(previous=>({...previous,...next}));setSaved(false);setError('')};
+ const submit=async event=>{event.preventDefault();if(lock.current||!sharingReady)return;setError('');setSaved(false);let changes;try{changes=profileChanges(draft,profile,academicPolicy);if(emulatorMode)profileBio(privacy.bio)}catch(failure){setError(failure.message);return}lock.current=true;setBusy(true);
+ try{await saveAcademicProfile({auth,uid:user.uid,changes,write:(uid,data)=>emulatorMode?import('./community-service.js').then(module=>module.updateProfileWithCommunity({auth,db,uid,changes:data,community:{bio:privacy.bio,visible:privacy.visible&&draft.year==='HB1',consent:privacy.visible&&draft.year==='HB1'}})):updateDoc(doc(db,'users',uid),data)});if(mounted.current)setSaved(true)}catch{if(mounted.current)setError('Your changes could not be saved. Check your connection and retry Save profile.')}finally{lock.current=false;if(mounted.current)setBusy(false)}
+ };
+ const publicName=draft.name.trim()||'Your display name',initials=publicName.split(/\s+/).slice(0,2).map(word=>word[0]).join('').toUpperCase();
+ return <><form className="account-profile-form" onSubmit={submit}><fieldset disabled={busy}><legend>Profile & academic information</legend><label htmlFor="profile-name">Display name</label><input id="profile-name" value={draft.name} maxLength={60} required onChange={e=>change({name:e.target.value})}/><label htmlFor="profile-level">Academic level</label><WorkspaceSelect id="profile-level" value={draft.year} onChange={e=>change({year:e.target.value,semester:e.target.value==='HB1'?'First':'Annual'})}>{Object.keys(academicPolicy.curriculum).map(year=><option key={year}>{year}</option>)}</WorkspaceSelect>{draft.year==='HB1'?<><label htmlFor="profile-semester">Current semester</label><WorkspaceSelect id="profile-semester" value={draft.semester} onChange={e=>change({semester:e.target.value})}><option value="First">First semester</option><option value="Second">Second semester</option></WorkspaceSelect></>:<p className="account-help">Courses cover the whole academic year.</p>}<p className="account-help">Changing your academic period keeps only previously selected featured courses that belong to the new period. Previous-year access follows your level.</p>
+ {emulatorMode&&<section className="profile-sharing"><h3>Bio & Community visibility</h3>{!privacy?<p role="status">Loading your visibility settings…</p>:privacy.error?<><p role="alert">Visibility settings could not be loaded. Retry before saving.</p><button type="button" className="account-secondary" onClick={()=>{setSharing({});setSharingRetry(value=>value+1)}}>Retry visibility settings</button></>:<><label htmlFor="profile-bio">Short bio <small>(optional)</small></label><input id="profile-bio" maxLength={160} value={privacy.bio||''} onChange={event=>changeSharing({bio:event.target.value})}/><p className="account-help">{privacy.bio?.length||0}/160 · Leave out contact details and sensitive information.</p><label className="profile-visibility-choice"><input type="checkbox" checked={!!privacy.visible&&draft.year==='HB1'} disabled={draft.year!=='HB1'} onChange={event=>changeSharing({visible:event.target.checked})}/>Let signed-in HB1 classmates find me.</label><p className="account-help">While visible, classmates see your saved display name, saved avatar or initials, bio and HB1 cohort. Name and saved-avatar changes update that same public view. Email, quiz answers and detailed progress stay private.</p>{privacy.needsReview&&<p className="account-help">Your earlier separate Community details need confirmation. Save profile with visibility enabled to use this profile. Saving with visibility off hides the earlier card and retains its details privately.</p>}{draft.year!=='HB1'&&<p className="account-help">Community discovery is currently for HB1. Changing level hides your shared profile.</p>}<button type="button" className="account-secondary" disabled={draft.year!=='HB1'} onClick={()=>preview.current?.showModal()}>Preview what classmates see</button><p className="account-help">Temporary personal-photo previews are not uploaded or shared. Classmates see your saved avatar or initials.</p></>}</section>}
+ <p className="account-help" id="profile-save-scope">{emulatorMode?'Saves your name, academic details, bio and visibility together. Picture selections save separately when confirmed in the picture picker.':'Saves your display name, academic level and applicable semester. Photo previews are separate.'}</p><button className="account-save" aria-describedby="profile-save-scope" disabled={!sharingReady} type="submit">{busy?'Saving profile…':'Save profile'}</button></fieldset>{error&&<p role="alert">{error}</p>}{saved&&<p role="status">Profile saved.</p>}</form>
+ <dialog ref={preview} className="account-dialog profile-public-preview" aria-labelledby="public-preview-title"><p className="account-help">Preview only · Save profile to apply changes.</p><span className="account-avatar" aria-hidden="true"><AvatarVisual preset={normalizeAvatar(profile.dashboardState?.avatar)} initials={initials}/></span><h2 id="public-preview-title">{publicName}</h2><p>KNUST SMS · HB1</p><p>{privacy?.bio||'No bio added yet.'}</p><p className="account-help">{privacy?.visible?'Visible after you save.':'Your profile will stay hidden with your current choice.'}</p><button type="button" autoFocus className="account-secondary" onClick={()=>preview.current?.close()}>Close preview</button></dialog></>
+}
+
+function StudentWorkspace({user,profile,logout,actionError}) {
+ const frame=useRef(null),latest=useRef(profile),storage=useRef(null),navigation=useRef(null),[syncMessage,setSyncMessage]=useState(''),[appearance,setAppearance]=useState(()=>globalThis.DominanceAppearance.normalize(Object.fromEntries(['theme','mode','intensity','motion'].map(key=>[key,profile.dashboardState?.[key]])))),[ready,setReady]=useState(false),[photo,setPhoto]=useState(null),[avatarPreset,setAvatarPreset]=useState(()=>normalizeAvatar(profile.dashboardState?.avatar));
+ const [activeView,setActiveView]=useState('home'),[communityHost,setCommunityHost]=useState(null);const profileControl=useRef(null);
+ const photoRef=useRef(null);useEffect(()=>()=>{if(photoRef.current)URL.revokeObjectURL(photoRef.current)},[]);
+ const changePhoto=blob=>{if(auth.currentUser?.uid!==user.uid)throw Error('Your account changed.');const next=blob?URL.createObjectURL(blob):null;if(photoRef.current)URL.revokeObjectURL(photoRef.current);photoRef.current=next;setPhoto(next)};
+ const changeAvatar=value=>{if(auth.currentUser?.uid!==user.uid||!validAvatar(value)||!storage.current?.setItem('avatar',value))throw Error('Your avatar could not be saved. Please try again.');setAvatarPreset(value);changePhoto(null)};
+ const previewAppearance=()=>{};
+ useEffect(()=>{latest.current=profile},[profile]);
+
+ const syncAppearance=()=>{const workspace=frame.current?.contentWindow;if(workspace?.getAppearance){setAppearance(workspace.getAppearance());setReady(true)}};
+ useEffect(()=>{const stop=globalThis.DominanceAppearance.watch(window,()=>{frame.current?.contentWindow?.refreshAppearance?.();syncAppearance()});return()=>{stop();globalThis.DominanceAppearance.apply(document.documentElement,{})}},[user.uid]);
+ useLayoutEffect(()=>{globalThis.DominanceAppearance.apply(document.documentElement,appearance,{dark:matchMedia('(prefers-color-scheme: dark)').matches,reduced:matchMedia('(prefers-reduced-motion: reduce)').matches})},[appearance]);
+ useEffect(()=>{navigation.current=createDashboardNavigation({host:window,uid:user.uid,onRoute:(route,done)=>frame.current?.contentWindow?.restoreNavigation?.(route,done)});storage.current=createDashboardStorage({auth,uid:user.uid,initial:latest.current.dashboardState||{},initialConfirmed:!latest.current.__pendingWrites,write:async(uid,key,value)=>{if(key==='avatar'&&emulatorMode)return import('./community-service.js').then(module=>module.updateAvatarWithCommunity({auth,db,uid,avatar:value}));const ref=doc(db,'users',uid);if(['scores','lamlaScores','cellStructure'].includes(key))return runTransaction(db,async transaction=>{const snapshot=await transaction.get(ref);if(!snapshot.exists())throw Error('Profile missing');const merged=(key==='cellStructure'?mergeCellHistory:mergeDemoHistory)(snapshot.data().dashboardState?.[key],value);transaction.update(ref,{['dashboardState.'+key]:merged});return merged});await updateDoc(ref,{['dashboardState.'+key]:value});return value},onStatus:message=>{setSyncMessage(message);frame.current?.contentWindow?.refreshHomeWidgets?.();frame.current?.contentWindow?.refreshCellProgress?.()}});const workspace=frame.current?.contentWindow;if(workspace?.initializeDashboard&&auth.currentUser?.uid===user.uid){setCommunityHost(frame.current?.contentDocument?.getElementById('communityRoot')||null);workspace.initializeDashboard({profile:{...latest.current,id:user.uid},storage:storage.current,navigation:navigation.current,onView:setActiveView,onAppearance:setAppearance});syncAppearance()}return()=>{storage.current?.dispose();navigation.current?.dispose()}},[user.uid]);
+ useEffect(()=>{storage.current?.reconcile(profile.dashboardState,!profile.__pendingWrites);setAvatarPreset(normalizeAvatar(storage.current?.getItem('avatar')??profile.dashboardState?.avatar));if(auth.currentUser?.uid===user.uid)frame.current?.contentWindow?.updateAcademicProfile?.({...profile,id:user.uid})},[profile,user.uid]);
+ const loaded=()=>{if(storage.current&&auth.currentUser?.uid===user.uid){setCommunityHost(frame.current.contentDocument?.getElementById('communityRoot')||null);frame.current.contentWindow.initializeDashboard?.({profile:{...latest.current,id:user.uid},storage:storage.current,navigation:navigation.current,onView:setActiveView,onAppearance:setAppearance});syncAppearance()}};
+ const changeAppearance=async next=>{if(auth.currentUser?.uid!==user.uid)throw Error('Account changed');const normalized=globalThis.DominanceAppearance.normalize(next);await updateDoc(doc(db,'users',user.uid),Object.fromEntries(Object.entries(normalized).map(([key,value])=>['dashboardState.'+key,value])));if(auth.currentUser?.uid!==user.uid)throw Error('Account changed');storage.current?.reconcile(normalized,true);frame.current?.contentWindow?.setAppearance?.(normalized);syncAppearance()};
+ return <div className="account-shell" data-mode={appearance.mode}><AccountBar profileControl={profileControl} user={user} profile={profile} logout={logout} actionError={actionError} syncMessage={syncMessage} appearance={appearance} onAppearance={ready?changeAppearance:undefined} onPreview={previewAppearance} photo={photo} onPhoto={changePhoto} avatarPreset={avatarPreset} onAvatar={ready?changeAvatar:undefined} onAdmin={ready&&['admin','superAdmin'].includes(profile.role)?()=>frame.current?.contentWindow?.showView('admin'):undefined}/>{<div className="account-sync" data-active={!!syncMessage&&syncMessage!=='Saving changes…'} role="status" aria-live="polite">{syncMessage}{syncMessage.includes('not synced')&&<button onClick={()=>storage.current?.retry()}>Retry sync</button>}</div>}{!ready&&<div className="workspace-loading" role="status"><span className="loading-mark" aria-hidden="true"/><p>Opening your study space…</p></div>}{communityHost&&activeView==='community'&&createPortal(<DeferredPanel key={user.uid+':'+profile.year} load={loadCommunityPanel} label="Community" componentProps={{user,profile,enabled:emulatorMode,onEditProfile:()=>profileControl.current?.()}}/>,communityHost)}<iframe ref={frame} onLoad={loaded} className="dom-prototype" src="/dashboard/index.html" title="DOMiNANCE medical study dashboard" /></div>
+}
+
+export function AuthGate() {
+  const [recovering,setRecovering]=useState(false)
+  const authLock=useRef(false)
   const [mode, setMode] = useState('signin')
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(false)
-  const submit = async (event) => { event.preventDefault(); setError(''); setBusy(true); try { if (!auth) throw new Error('Firebase is not configured.'); if (mode === 'signup') { const result = await createUserWithEmailAndPassword(auth, email, password); if (name.trim()) await updateProfile(result.user, { displayName: name.trim() }) } else await signInWithEmailAndPassword(auth, email, password) } catch (exception) { setError(exception.message.replace('Firebase: ', '')) } finally { setBusy(false) } }
-  const google = async () => { setError(''); setBusy(true); try { if (!auth) throw new Error('Firebase is not configured.'); await signInWithPopup(auth, new GoogleAuthProvider()) } catch (exception) { setError(exception.message.replace('Firebase: ', '')) } finally { setBusy(false) } }
+  const submit = async (event) => { event.preventDefault();if(authLock.current)return;authLock.current=true;setError('');setBusy(true); try { if (!auth) throw new Error('Firebase is not configured.'); if (mode === 'signup') { const result = await createUserWithEmailAndPassword(auth, email, password); if (name.trim()) await updateProfile(result.user, { displayName: name.trim() }) } else await signInWithEmailAndPassword(auth, email, password) } catch (exception) { setError(accountError(exception)) } finally { authLock.current=false;setBusy(false) } }
+  const google = async () => {if(authLock.current)return;authLock.current=true;setError(''); setBusy(true); try { if (!auth) throw new Error('Firebase is not configured.'); await signInWithPopup(auth, new GoogleAuthProvider()) } catch (exception) { setError(accountError(exception)) } finally { authLock.current=false;setBusy(false) } }
   return <div className="dom-auth"><section>
-    <div className="dom-auth-brand"><span className="dom-auth-mark">D</span><span className="dom-auth-wordmark">DOM<span className="dom-caduceus" aria-label="winged caduceus"><svg viewBox="0 0 24 32" aria-hidden="true"><path d="M12 7v22M12 9C9 5 5 7 3 3c4 0 7 1 9 4 2-3 5-4 9-4-2 4-6 2-9 6M10 10c-6 0-5 5 2 6s8 6 1 7-8 6-2 7M14 10c6 0 5 5-2 6s-8 6-1 7 8 6 2 7"/></svg></span>NANCE<small>MEDICAL EDUCATION</small></span></div>
-    <p className="dom-kicker">YOUR MEDICAL STUDY SPACE</p><h1>READY TO DOMINATE?!</h1><p className="dom-auth-tagline"><strong>Absolute DOMiNANCE.</strong> <em>Get locked in, dominate.</em></p>
-    <form onSubmit={submit}>{mode === 'signup' && <label>Full name<input required value={name} onChange={event => setName(event.target.value)} placeholder="Your name"/></label>}<label>Email<input required type="email" value={email} onChange={event => setEmail(event.target.value)} placeholder="you@example.com"/></label><label>Password<input required type="password" minLength="6" value={password} onChange={event => setPassword(event.target.value)} placeholder="At least 6 characters"/></label>{error && <p className="dom-auth-error">{error}</p>}<button className="dom-primary" disabled={busy}>{busy ? 'Please wait…' : mode === 'signin' ? 'Sign in' : 'Create free account'}</button></form>
-    <div className="dom-auth-divider">or</div><button className="dom-google" onClick={google} disabled={busy}>G &nbsp; Continue with Google</button><p className="dom-auth-switch">{mode === 'signin' ? 'New to DOMiNANCE?' : 'Already have an account?'} <button onClick={() => { setMode(mode === 'signin' ? 'signup' : 'signin'); setError('') }}>{mode === 'signin' ? 'Create an account' : 'Sign in'}</button></p>
+    <div className="dom-auth-brand"><span className="account-wordmark">DOMiNANCE</span></div>
+    <p className="dom-kicker">{emulatorMode?'LOCAL EMULATOR · FICTIONAL ACCOUNTS ONLY':'YOUR MEDICAL STUDY SPACE'}</p><h1>READY TO DOMINATE?!</h1><p className="dom-auth-tagline"><strong>Absolute DOMiNANCE.</strong> <em>Get locked in, dominate.</em></p>
+    {recovering?<PasswordRecovery initialEmail={email} onClose={()=>setRecovering(false)}/>:<><form onSubmit={submit}>{mode === 'signup' && <label>Full name<input required value={name} onChange={event => setName(event.target.value)} placeholder="Your name"/></label>}<label>Email<input required type="email" value={email} onChange={event => setEmail(event.target.value)} placeholder="you@example.com"/></label><label>Password<input required type="password" minLength="6" value={password} onChange={event => setPassword(event.target.value)} placeholder="At least 6 characters"/></label>{error && <p className="dom-auth-error" role="alert">{error}</p>}<button className="dom-primary" disabled={busy}>{busy ? 'Please wait…' : mode === 'signin' ? 'Sign in' : 'Create free account'}</button></form>
+    <div className="dom-auth-divider">or</div><button className="dom-google" onClick={google} disabled={busy}>G &nbsp; Continue with Google</button><p className="dom-auth-switch">{mode === 'signin' ? 'New to DOMiNANCE?' : 'Already have an account?'} <button disabled={busy} onClick={() => { setMode(mode === 'signin' ? 'signup' : 'signin'); setError('') }}>{mode === 'signin' ? 'Create an account' : 'Sign in'}</button></p>
+    {mode==='signin'&&<button className="account-secondary" disabled={busy} onClick={()=>setRecovering(true)}>Forgot password?</button>}</>}
   </section></div>
 }
 
@@ -84,4 +156,9 @@ function Desk({course}) { const [input,setInput]=useState('');const [chat,setCha
 function Quiz(){const questions=[['Which structure regulates movement into and out of a cell?',['Ribosome','Cell membrane','Nucleolus','Golgi body'],1,'The selectively permeable cell membrane regulates transport.'],['Which process uses energy to move against a gradient?',['Diffusion','Osmosis','Active transport','Filtration'],2,'Active transport uses energy, commonly ATP.']];const [index,setIndex]=useState(0),[answer,setAnswer]=useState(),[checked,setChecked]=useState(false);const q=questions[index];return <section className="dom-page dom-narrow"><p className="dom-kicker">RETRIEVAL PRACTICE</p><h1>Cell Structure quiz</h1><div className="dom-progress"><span style={{width:`${(index+1)/questions.length*100}%`}}/></div><article className="dom-quiz"><small>Question {index+1} of {questions.length}</small><h2>{q[0]}</h2>{q[1].map((x,i)=><button className={answer===i?'picked':''} onClick={()=>!checked&&setAnswer(i)}>{String.fromCharCode(65+i)}. {x}</button>)}{checked&&<div className="dom-explain"><b>{answer===q[2]?'Correct!':'Correct answer: '+q[1][q[2]]}</b><p>{q[3]}</p></div>}<button className="dom-primary" onClick={()=>{if(answer===undefined)return;if(!checked)setChecked(true);else if(index<questions.length-1){setIndex(index+1);setAnswer();setChecked(false)}}}>{checked&&index<questions.length-1?'Next question':'Check answer'}</button></article></section>}
 function Cards(){const cards=[['Osmosis','Net movement of water through a selectively permeable membrane.'],['Active transport','Movement against a concentration gradient using energy.'],['Mitochondrion','The organelle that makes most of a cell’s ATP.']];const [i,setI]=useState(0),[show,setShow]=useState(false);return <section className="dom-page dom-narrow"><p className="dom-kicker">SPACED RECALL</p><h1>Cell Structure cards</h1><button className={'dom-card '+(show?'show':'')} onClick={()=>setShow(!show)}><small>{show?'DEFINITION':'TERM · TAP TO FLIP'}</small><h2>{show?cards[i][1]:cards[i][0]}</h2></button><div className="dom-card-actions"><button onClick={()=>{setI((i+1)%3);setShow(false)}}>↺ Need Review</button><button onClick={()=>{setI((i+1)%3);setShow(false)}}>✓ I Know This</button></div></section>}
 function Admin({profile,user}){const [tab,setTab]=useState('Courses');const [people,setPeople]=useState([]);const data={Courses:'Add and edit years, semesters, and subjects.',Slides:'Upload PDFs to Firebase Storage.',Quizzes:'Create questions, four options, correct answers, and explanations.',Flashcards:'Create high-yield terms and definitions.',Admins:'Promote trusted team members after they have created an account.'};useEffect(()=>{if(tab!=='Admins'||profile.role!=='superAdmin'||!db)return undefined;return onSnapshot(collection(db,'users'),snapshot=>setPeople(snapshot.docs.map(item=>({id:item.id,...item.data()}))))},[tab,profile.role]);const toggleAdmin=async(person)=>{if(person.id===user.uid)return;await updateDoc(doc(db,'users',person.id),{role:person.role==='admin'?'student':'admin'})};return <section className="dom-page"><p className="dom-kicker">{profile.role==='superAdmin'?'SUPER ADMIN':'ADMIN'}</p><h1>Manage DOMiNANCE</h1><div className="dom-admin"><nav>{Object.keys(data).filter(x=>x!=='Admins'||profile.role==='superAdmin').map(x=><button key={x} className={tab===x?'active':''} onClick={()=>setTab(x)}>{x}</button>)}</nav><article><h2>{tab}</h2><p>{data[tab]}</p>{tab==='Admins'?<div className="dom-admin-list">{people.length===0?<div className="dom-admin-row">No accounts yet. A team member must first create a DOMiNANCE account before you can promote them.</div>:people.map(person=><div className="dom-admin-row" key={person.id}><span><b>{person.name||person.email}</b><small>{person.email} · {person.role==='superAdmin'?'Super Admin':person.role==='admin'?'Admin':'Student'}</small></span>{person.id!==user.uid&&<button onClick={()=>toggleAdmin(person)}>{person.role==='admin'?'Remove admin':'Make admin'}</button>}</div>)}</div>:<><div className="dom-admin-row">{tab==='Courses'?'HB1 · First Semester — 9 courses':tab==='Slides'?'Cell Structure · lecture-02.pdf':tab==='Quizzes'?'Cell Structure · 3 questions':'Cell Structure · 3 flashcards'}</div><button className="dom-primary">Add {tab==='Courses'?'course':tab==='Slides'?'PDF':tab==='Quizzes'?'question':'flashcard'} +</button></>}</article></div></section>}
-function Onboarding({profile,save}){const [username,setUsername]=useState(profile.name);const [year,setYear]=useState(profile.year),[semester,setSemester]=useState(profile.semester),[selected,setSelected]=useState(profile.courses);const toggle=x=>setSelected(selected.includes(x)?selected.filter(y=>y!==x):[...selected,x]);return <div className="dom-modal"><article><p className="dom-kicker">WELCOME TO DOMiNANCE</p><h2>Build your study space</h2><p>Choose how DOMiNANCE should address you, then select your year, semester, and courses.</p><label>Display name<input value={username} onChange={e=>setUsername(e.target.value)} placeholder="What should we call you?"/></label><label>Year<select value={year} onChange={e=>{setYear(e.target.value);setSelected([])}}>{Object.keys(curriculum).map(x=><option key={x}>{x}</option>)}</select></label><label>Semester<select value={semester} onChange={e=>{setSemester(e.target.value);setSelected([])}}><option>First</option><option>Second</option></select></label><label>Courses</label>{year==='HB 3'?<p>HB3 content is coming soon.</p>:<div className="dom-picks">{curriculum[year][semester].map(x=><button key={x} className={selected.includes(x)?'on':''} onClick={()=>toggle(x)}>{selected.includes(x)?'✓ ':''}{x}</button>)}</div>}<button className="dom-primary" onClick={()=>save({...profile,name:username.trim()||profile.name,username:username.trim()||profile.name,year,semester,courses:selected})}>Enter DOMiNANCE →</button></article></div>}
+export function Onboarding({profile,save}){
+ const initial=academicPolicy.normalizeProfile(profile),lock=useRef(false);
+ const [username,setUsername]=useState(profile.name||''),[year,setYear]=useState(initial.year),[semester,setSemester]=useState(initial.semester),[busy,setBusy]=useState(false),[error,setError]=useState('');
+ const submit=async()=>{if(lock.current)return;const name=username.trim();if(name.length<2||name.length>80){setError('Use a display name between 2 and 80 characters.');return}lock.current=true;setBusy(true);setError('');try{await save({...profile,name,username:name,year:year.replace('HB','HB '),semester:year==='HB1'?semester:'Annual',courses:initial.courses})}catch{setError('Your profile could not be saved. Please try again.')}finally{lock.current=false;setBusy(false)}};
+ return <div className="dom-modal"><article><p className="dom-kicker">WELCOME TO DOMiNANCE</p><h2>Build your study space</h2><p>Choose your academic level. Your eligible courses are available in My Courses; previous years remain available for revision.</p><label>Display name<input autoComplete="nickname" disabled={busy} maxLength={80} value={username} onChange={e=>setUsername(e.target.value)}/></label><label>Current level<WorkspaceSelect value={year} disabled={busy} onChange={e=>{setYear(e.target.value);setSemester(e.target.value==='HB1'?'First':'Annual')}}>{Object.keys(academicPolicy.curriculum).map(y=><option key={y}>{y}</option>)}</WorkspaceSelect></label>{year==='HB1'?<label>Current semester<WorkspaceSelect value={semester} disabled={busy} onChange={e=>setSemester(e.target.value)}><option value="First">First semester</option><option value="Second">Second semester</option></WorkspaceSelect></label>:<p>{year} courses cover the whole year.</p>}{error&&<p role="alert">{error}</p>}<button className="dom-primary" disabled={busy} onClick={submit}>{busy?'Saving…':'Enter DOMiNANCE →'}</button></article></div>
+}

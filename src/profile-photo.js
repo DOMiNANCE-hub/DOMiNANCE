@@ -1,0 +1,4 @@
+export const PHOTO_LIMIT=5*1024*1024;
+export function validatePhoto(file){if(!file||!['image/jpeg','image/png','image/webp'].includes(file.type))throw Error('Choose a JPEG, PNG or WebP image.');if(!Number.isFinite(file.size)||file.size<=0||file.size>PHOTO_LIMIT)throw Error('Choose an image smaller than 5 MB.');return true}
+export function cropRegion(width,height,zoom=1,x=0,y=0){if(![width,height,zoom,x,y].every(Number.isFinite)||Math.min(width,height)<64||Math.max(width,height)>8192)throw Error('Use an image between 64 and 8192 pixels on each side.');const size=Math.min(width,height)/Math.max(1,Math.min(3,zoom));return{size,x:(width-size)*(Math.max(-1,Math.min(1,x))+1)/2,y:(height-size)*(Math.max(-1,Math.min(1,y))+1)/2}}
+export function ownPhotoResult(currentUid,ownerUid,callback,value){if(currentUid!==ownerUid)throw Error('Your account changed. Select the photo again.');return callback(value)}
