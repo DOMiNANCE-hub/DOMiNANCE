@@ -208,7 +208,17 @@
         "BIOL157-U05-C11",
         "BIOL157-U05-C12",
         "BIOL157-U05-C13",
-        "BIOL157-U05-C14"
+        "BIOL157-U05-C14",
+        "BIOL157-U06-C01",
+        "BIOL157-U06-C02",
+        "BIOL157-U06-C03",
+        "BIOL157-U06-C04",
+        "BIOL157-U06-C05",
+        "BIOL157-U06-C06",
+        "BIOL157-U06-C07",
+        "BIOL157-U06-C08",
+        "BIOL157-U06-C09",
+        "BIOL157-U06-C10"
       ],
       "questions": [
         "BIOL157-U05-Q001",
@@ -268,7 +278,52 @@
         "BIOL157-U05-Q055",
         "BIOL157-U05-Q056",
         "BIOL157-U05-Q057",
-        "BIOL157-U05-Q058"
+        "BIOL157-U05-Q058",
+        "BIOL157-U06-Q001",
+        "BIOL157-U06-Q002",
+        "BIOL157-U06-Q003",
+        "BIOL157-U06-Q004",
+        "BIOL157-U06-Q005",
+        "BIOL157-U06-Q006",
+        "BIOL157-U06-Q007",
+        "BIOL157-U06-Q008",
+        "BIOL157-U06-Q009",
+        "BIOL157-U06-Q010",
+        "BIOL157-U06-Q011",
+        "BIOL157-U06-Q012",
+        "BIOL157-U06-Q013",
+        "BIOL157-U06-Q014",
+        "BIOL157-U06-Q015",
+        "BIOL157-U06-Q016",
+        "BIOL157-U06-Q017",
+        "BIOL157-U06-Q018",
+        "BIOL157-U06-Q019",
+        "BIOL157-U06-Q020",
+        "BIOL157-U06-Q021",
+        "BIOL157-U06-Q022",
+        "BIOL157-U06-Q023",
+        "BIOL157-U06-Q024",
+        "BIOL157-U06-Q025",
+        "BIOL157-U06-Q026",
+        "BIOL157-U06-Q027",
+        "BIOL157-U06-Q028",
+        "BIOL157-U06-Q029",
+        "BIOL157-U06-Q030",
+        "BIOL157-U06-Q031",
+        "BIOL157-U06-Q032",
+        "BIOL157-U06-Q033",
+        "BIOL157-U06-Q034",
+        "BIOL157-U06-Q035",
+        "BIOL157-U06-Q036",
+        "BIOL157-U06-Q037",
+        "BIOL157-U06-Q038",
+        "BIOL157-U06-Q039",
+        "BIOL157-U06-Q040",
+        "BIOL157-U06-Q041",
+        "BIOL157-U06-Q042",
+        "BIOL157-U06-Q043",
+        "BIOL157-U06-Q044",
+        "BIOL157-U06-Q045"
       ],
       "coverageStatus": "draft-partial-not-certified"
     }
@@ -1009,7 +1064,7 @@
           "id": "BIOL157-U06-T01",
           "unit": "U06",
           "title": "Purines and pyrimidines",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1021,15 +1076,23 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0601"
+          ],
+          "questions": [
+            "BIOL157-U06-Q001",
+            "BIOL157-U06-Q002",
+            "BIOL157-U06-Q003",
+            "BIOL157-U06-Q004",
+            "BIOL157-U06-Q005"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U06-T02",
           "unit": "U06",
           "title": "Nucleosides and nucleotides",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1041,15 +1104,33 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0602",
+            "BC0603",
+            "BC0610"
+          ],
+          "questions": [
+            "BIOL157-U06-Q006",
+            "BIOL157-U06-Q007",
+            "BIOL157-U06-Q008",
+            "BIOL157-U06-Q009",
+            "BIOL157-U06-Q010",
+            "BIOL157-U06-Q011",
+            "BIOL157-U06-Q012",
+            "BIOL157-U06-Q013",
+            "BIOL157-U06-Q014",
+            "BIOL157-U06-Q040",
+            "BIOL157-U06-Q041",
+            "BIOL157-U06-Q042",
+            "BIOL157-U06-Q043"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U06-T03",
           "unit": "U06",
           "title": "DNA",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1061,15 +1142,39 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0604",
+            "BC0605",
+            "BC0606",
+            "BC0607"
+          ],
+          "questions": [
+            "BIOL157-U06-Q015",
+            "BIOL157-U06-Q016",
+            "BIOL157-U06-Q017",
+            "BIOL157-U06-Q018",
+            "BIOL157-U06-Q019",
+            "BIOL157-U06-Q020",
+            "BIOL157-U06-Q021",
+            "BIOL157-U06-Q022",
+            "BIOL157-U06-Q023",
+            "BIOL157-U06-Q024",
+            "BIOL157-U06-Q025",
+            "BIOL157-U06-Q026",
+            "BIOL157-U06-Q027",
+            "BIOL157-U06-Q028",
+            "BIOL157-U06-Q029",
+            "BIOL157-U06-Q030",
+            "BIOL157-U06-Q031",
+            "BIOL157-U06-Q032"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U06-T04",
           "unit": "U06",
           "title": "RNA",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1081,9 +1186,22 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0608",
+            "BC0609"
+          ],
+          "questions": [
+            "BIOL157-U06-Q033",
+            "BIOL157-U06-Q034",
+            "BIOL157-U06-Q035",
+            "BIOL157-U06-Q036",
+            "BIOL157-U06-Q037",
+            "BIOL157-U06-Q038",
+            "BIOL157-U06-Q039",
+            "BIOL157-U06-Q044",
+            "BIOL157-U06-Q045"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         }
       ],
       "sourceRefs": [
@@ -1097,8 +1215,19 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0601",
+        "BC0602",
+        "BC0603",
+        "BC0604",
+        "BC0605",
+        "BC0606",
+        "BC0607",
+        "BC0608",
+        "BC0609",
+        "BC0610"
+      ]
     },
     {
       "id": "U07",
@@ -1460,8 +1589,8 @@
   "counts": {
     "units": 10,
     "topics": 34,
-    "concepts": 49,
-    "lessons": 49,
-    "questions": 177
+    "concepts": 59,
+    "lessons": 59,
+    "questions": 222
   }
 }

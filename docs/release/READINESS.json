@@ -9,8 +9,8 @@
     "16": "1b74f79517b1930ce7cc0e2e20c6eb438cb42a3d"
   },
   "verification": {
-    "scope": "Five-PR integration, BIOL157 Units 3–5 and Cell completion batch",
-    "summary": "200 combined offline checks and ordinary npm test pass; 40 real Auth/Firestore emulator checks pass with the expanded Bio 177-question bank. Lint/build pass with ten existing warnings and the existing large-entry warning. Chromium traverses all 49 Bio lessons/299 sections and 46 Cell lessons/277 sections at 390px, nine original figures without clipped labels, specific Unit 5 concept/source/exact-section practice, all eight newer Cell citations and all three full-bank submissions (178/114/177), resume/retry/reload and progress panels. Eleven Bio PDF hashes/page counts and 203 literal anchors verified, plus the Cell 410-page PDF and 123 selected text-page hashes/anchors. No production test or academic sign-off.",
+    "scope": "Five-PR integration, BIOL157 Units 3–6 and Cell completion batch",
+    "summary": "208 combined offline checks and ordinary npm test pass; 40 real Auth/Firestore emulator checks pass with the expanded Bio 222-question bank. Lint/build pass with ten existing warnings and the existing large-entry warning. Chromium traverses all 59 Bio lessons/361 sections and 46 Cell lessons/277 sections at 390px, twelve original figures without clipped labels, Unit 5/6 concept/source/exact-section practice, all eight newer Cell citations and all three full-bank submissions (178/114/222), resume/retry/reload and progress panels. Eleven Bio PDF hashes/page counts and 252 literal anchors verified, plus the Cell 410-page PDF and 123 selected text-page hashes/anchors. No production test or academic sign-off.",
     "productionTested": false
   },
   "deployment": {
@@ -20,12 +20,12 @@
   },
   "blockers": [
     "No formal academic sign-off for the final student-visible content.",
-    "BIOL157 Units 6–10 not authored; Units 1–5 have substantial source-checked teaching drafts pending academic review.",
+    "BIOL157 Units 7–10 not authored; Units 1–6 have substantial source-checked teaching drafts pending academic review.",
     "Cell: all 170 original rationales editorially improved and four review-only question revisions documented; remaining source figures, historical microscopy development, precise concept links, human approval and current-year official scope are unresolved.",
-    "Computer: four withheld questions, 15 unexecuted Microsoft Office desktop scenarios, payroll/grading/exactly-40 and version ambiguities; 342 package pages remain unmapped.",
+    "Computer: exact manual acceptance steps are prepared but all 15 Microsoft Office desktop scenarios remain unexecuted; four questions withheld; payroll/grading/exactly-40/version ambiguities and 342 unmapped package pages remain open.",
     "Protected preview requires verified existing Vercel project configuration and isolated test Firebase; production rules/auth domains/data separation/rollback not yet verified."
   ],
-  "nextCheckpoint": "Complete BIOL157 Unit 6 Nucleic Acids from all 52 actual Lecture 6 pages and four official outline subtopics; then Units 7–10 as separate tested batches. Retain Cell source/figure and exact-concept review, Office 15 manual acceptance and four withheld questions, and auditable publication/Firebase preview gates.",
+  "nextCheckpoint": "Complete BIOL157 Unit 7 Proteins from all 71 actual Lecture 7 pages and three official outline subtopics, including amino-acid ionisation/calculations, peptide chemistry and protein structure; then Units 8–10 as separate tested batches. Finish Cell source/figure and exact-concept review, Computer remaining supported objectives and Office/manual academic decisions, auditable publication and isolated Firebase/Vercel preview readiness.",
   "checklists": {
     "BIOL151": [
       {
@@ -391,29 +391,13 @@
     {
       "id": "BIOL157",
       "course": "Biological Chemistry",
-      "lessons": 49,
-      "questions": 177,
+      "lessons": 59,
+      "questions": 222,
       "reviewStatus": "pending-human-academic-review",
       "studentRelease": "blocked",
       "officialTopics": 34,
-      "draftTopics": 16,
+      "draftTopics": 20,
       "missingTopics": [
-        {
-          "id": "BIOL157-U06-T01",
-          "title": "Purines and pyrimidines"
-        },
-        {
-          "id": "BIOL157-U06-T02",
-          "title": "Nucleosides and nucleotides"
-        },
-        {
-          "id": "BIOL157-U06-T03",
-          "title": "DNA"
-        },
-        {
-          "id": "BIOL157-U06-T04",
-          "title": "RNA"
-        },
         {
           "id": "BIOL157-U07-T01",
           "title": "Amino acids"
@@ -505,8 +489,8 @@
         {
           "id": "U06",
           "title": "Nucleic Acids",
-          "status": "not-authored",
-          "lessons": 0
+          "status": "draft-review",
+          "lessons": 10
         },
         {
           "id": "U07",

@@ -442,8 +442,8 @@ See docs/FIREBASE_AUTHORIZATION.md for the permission matrix and provisioning as
 - [x] Integrate independent study, per-concept practice and exact feedback-to-notes links using existing views and owner-scoped state. Add honest not-authored unit states and retain blocked normal student content.
 - [x] Add a reusable content contract, separate notes/outcome/question coverage, evidence checks and Antigravity integration hooks; see docs/ACADEMIC_CONTENT_STANDARD.md and docs/HB1_FIRST_SEMESTER_COVERAGE.md.
 - [ ] Obtain qualified academic approval; no self-approval, release, merge or deployment.
-- [x] Author and integrate source-checked Units 3–5 in tested RC batches (49 Bio lessons / 177 questions through Unit 5); see docs/release/UNIT03.md, UNIT04.md and UNIT05.md.
-- [ ] Author Units 6–10 incrementally; next batch is all 52 actual Lecture 6 pages.
+- [x] Author and integrate source-checked Units 3–6 in tested RC batches (59 Bio lessons / 222 questions through Unit 6); see docs/release/UNIT03.md through UNIT06.md.
+- [ ] Author Units 7–10 incrementally; next batch is all 71 actual Lecture 7 pages.
 
 
 ## Three-course RC and Cell completion — 2026-10-20
@@ -462,3 +462,8 @@ Fourteen original carbohydrate lessons, 58 section-linked MCQs, 28 answered chec
 ### Microsoft Office manual acceptance preparation — 2026-10-20
 
 Exact steps, expected outcomes and evidence requirements prepared for all 15 required Excel/PowerPoint desktop scenarios in docs/csm177/MICROSOFT_OFFICE_ACCEPTANCE.md. Required software execution remains 0/15; earlier 22 headless alternatives are not reclassified. Policy/version ambiguities and four withheld questions remain open. Existing 21 Computer content/integration tests pass; no course data, IDs or release gates changed.
+
+
+### BIOL157 Unit 6 coherent batch — 2026-10-20
+
+Ten original nucleic-acid lessons, 45 MCQs, 20 answered checks, three diagrams and a readable standard-code fact table authored from all 52 actual Lecture 6 pages. Prior 49 notes/177 assessment objects retain hashes. Current Bio 59/222 with 20/34 topics drafted; no human academic approval. Verified 208 offline / 40 emulator checks, lint/build and combined Chromium flow/traversal, including Unit 6 exact feedback links and full 222 bank. See docs/release/UNIT06.md; continue Unit 7, preserving all gates and source uncertainties.

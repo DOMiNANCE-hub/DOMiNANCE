@@ -6096,5 +6096,1666 @@
         ]
       }
     ]
+  },
+  {
+    "id": "BIOL157-U06-Q001",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C01",
+    "lesson": "BC0601",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which pair contains the canonical purine bases?",
+    "options": [
+      "Adenine and guanine",
+      "Cytosine and thymine",
+      "Uracil and cytosine",
+      "Adenine and thymine"
+    ],
+    "letter": "A",
+    "explanation": "Adenine and guanine have the fused purine ring system. Cytosine, thymine and uracil are pyrimidines. Ring classification is distinct from whether a base is attached to sugar or phosphate.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            4,
+            9
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q002",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C01",
+    "lesson": "BC0601",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "A molecule contains adenine and ribose but no phosphate. Which description fits?",
+    "options": [
+      "dAMP, a deoxynucleotide",
+      "Adenosine, a nucleoside",
+      "AMP, a nucleotide",
+      "Adenine alone, a free base"
+    ],
+    "letter": "B",
+    "explanation": "Base plus ribose gives adenosine; phosphate is needed for AMP, and deoxy forms use a different sugar. Removing or adding phosphate does not by itself specify a change in base identity.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            4,
+            9
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q003",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C01",
+    "lesson": "BC0601",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which canonical linkage joins the sugar to a purine base?",
+    "options": [
+      "Sugar C3′ to base C6",
+      "Sugar C2′ to base N9",
+      "Sugar C1′ to base N9",
+      "Sugar C5′ to base N1"
+    ],
+    "letter": "C",
+    "explanation": "The canonical β N-glycosidic linkage uses sugar C1′ and purine N9; pyrimidines usually use N1 instead. Prime marks identify sugar positions and must not be confused with base-ring numbers.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            4,
+            9
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q004",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C01",
+    "lesson": "BC0601",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which structural description distinguishes thymine from uracil?",
+    "options": [
+      "Thymine is a two-ring purine whereas uracil is a pyrimidine",
+      "Thymine differs solely by replacement of ribose with deoxyribose in the free base",
+      "Thymine has one more phosphate in its base ring",
+      "Thymine is 5-methyluracil"
+    ],
+    "letter": "D",
+    "explanation": "The distinction is a methyl substitution at base C5, not a sugar or phosphate change. Both are pyrimidines. The usual DNA/RNA distribution is a separate biological context and has modified-RNA qualifications.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            4,
+            9
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q005",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C01",
+    "lesson": "BC0601",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which statement correctly uses prime numbering?",
+    "options": [
+      "C1′ identifies a sugar atom, while N1 identifies an unprimed base atom",
+      "C1′ and N1 must be the same atom in a pyrimidine nucleoside",
+      "All primed positions belong to the phosphate chain",
+      "The prime mark specifies the base’s optical rotation"
+    ],
+    "letter": "A",
+    "explanation": "Prime marks separate the pentose numbering from base-ring numbering. They do not identify charge or rotation. A sugar C1′–base N1 linkage connects two distinct atoms rather than giving one atom two interchangeable labels.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            4,
+            9
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q006",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C02",
+    "lesson": "BC0602",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which charge statement is appropriate for the ordinary internal phosphodiester backbone near physiological pH?",
+    "options": [
+      "Approximately one negative charge per internal phosphate, with context-dependent ionisation",
+      "Exactly two positive charges per phosphate at every pH",
+      "A mandatory minus-two per link identical to every free monoester",
+      "A completely uncharged backbone because each strand pairs with another"
+    ],
+    "letter": "A",
+    "explanation": "Phosphodiester and phosphate-monoester ionisation patterns differ. Pairing does not neutralise each backbone phosphate, and pH/counterion context must be retained. The source’s broad doubly-ionised statement cannot simply be multiplied across every polymer link.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            3,
+            6
+          ],
+          [
+            11,
+            11
+          ]
+        ]
+      },
+      {
+        "source": "L4",
+        "pages": [
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q007",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C02",
+    "lesson": "BC0602",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is isolated bond breaking insufficient to explain ATP hydrolysis free energy?",
+    "options": [
+      "ATP can drive any nearby reaction without a coupling mechanism",
+      "Bond cleavage requires energy; net favourability depends on the whole reaction and conditions",
+      "Breaking any chemical bond necessarily releases its entire formation energy",
+      "Product hydration and concentration cannot affect reaction free energy"
+    ],
+    "letter": "B",
+    "explanation": "The overall reaction includes bond changes, product stabilisation, solvation, ionisation and concentrations. Coupling requires a molecular connection, not proximity alone. Energy-rich bond is useful shorthand only if that whole-reaction context is preserved.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            3,
+            6
+          ],
+          [
+            11,
+            11
+          ]
+        ]
+      },
+      {
+        "source": "L4",
+        "pages": [
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q008",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C02",
+    "lesson": "BC0602",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which assignment separates nucleotide-derived cellular roles correctly?",
+    "options": [
+      "CoA as the redox cofactor in every pathway and NAD as the carrier of every acyl group",
+      "NAD and FAD as identical cofactors that cannot differ in their electron-transfer chemistry",
+      "cAMP signalling, NAD/FAD redox-related cofactors and CoA acyl transfer",
+      "cAMP as an acyl carrier, NAD/FAD as structural DNA sugars and CoA as a coding triplet"
+    ],
+    "letter": "C",
+    "explanation": "These derivatives support different functions and molecular structures. Sharing nucleotide-related chemistry does not make them identical or assign every role to ATP. The specific transported group or signal matters.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            3,
+            6
+          ],
+          [
+            11,
+            11
+          ]
+        ]
+      },
+      {
+        "source": "L4",
+        "pages": [
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q009",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C02",
+    "lesson": "BC0602",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Does one free nucleotide automatically have the catalytic function of a ribozyme containing that residue?",
+    "options": [
+      "Yes; every RNA monomer alone performs the complete ribozyme reaction",
+      "Yes; any phosphate-containing polymer has the same catalytic activity as every ribozyme",
+      "No; RNA can never catalyse a biological reaction",
+      "No; catalytic function depends on organised sequence, folding and chemical context"
+    ],
+    "letter": "D",
+    "explanation": "A building unit is not equivalent to the assembled catalyst. Ribozymes depend on molecular organisation and can involve ions and specific groups. Rejecting automatic monomer catalysis does not deny RNA catalysis itself.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            3,
+            6
+          ],
+          [
+            11,
+            11
+          ]
+        ]
+      },
+      {
+        "source": "L4",
+        "pages": [
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q010",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C03",
+    "lesson": "BC0603",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which connection is the ordinary covalent backbone link between successive nucleic-acid sugars?",
+    "options": [
+      "N9–N1 hydrogen bond",
+      "C1′–base glycosidic bond repeated between every sugar",
+      "A peptide bond between base amino groups",
+      "3′–5′ phosphodiester"
+    ],
+    "letter": "D",
+    "explanation": "The bridge connects sugar 3′ oxygen through phosphate to the next sugar’s 5′ oxygen. The sugar–base glycosidic bond and interstrand pairing are different structural connections. Ordinary nucleic-acid backbones are not peptide chains.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            15,
+            16
+          ],
+          [
+            38,
+            38
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q011",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C03",
+    "lesson": "BC0603",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "What is the complementary DNA strand to 5′-AGTC-3′ when also written 5′→3′?",
+    "options": [
+      "5′-GACT-3′",
+      "5′-TCAG-3′",
+      "5′-AGTC-3′",
+      "5′-CTGA-3′"
+    ],
+    "letter": "A",
+    "explanation": "Directly opposite is 3′-TCAG-5′; reverse its written order to report 5′-GACT-3′. Merely substituting complementary bases without reversing orientation gives the common TCAG error. The two backbones run antiparallel.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            15,
+            16
+          ],
+          [
+            38,
+            38
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q012",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C03",
+    "lesson": "BC0603",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "How many internal phosphodiester links occur in two separate linear five-nucleotide strands?",
+    "options": [
+      "Twenty",
+      "Eight",
+      "Ten",
+      "Five"
+    ],
+    "letter": "B",
+    "explanation": "Each linear five-residue strand has four internal links, so the two have eight. A covalently closed circle would change that count, while base-pair hydrogen bonds do not add internal backbone links. Terminal phosphorylation is another distinct feature.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            15,
+            16
+          ],
+          [
+            38,
+            38
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q013",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C03",
+    "lesson": "BC0603",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "For four independently chosen oriented DNA positions with four canonical letters, how many sequence strings are possible?",
+    "options": [
+      "64",
+      "512",
+      "256",
+      "16"
+    ],
+    "letter": "C",
+    "explanation": "The stated model gives 4⁴=256. Specifying a canonical complementary strand does not add another independent sequence choice for every paired position. This count concerns a defined orientation and length rather than literally infinite information.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            15,
+            16
+          ],
+          [
+            38,
+            38
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q014",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C03",
+    "lesson": "BC0603",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which group normally supports the next polymerase-mediated extension of a growing nucleic-acid strand?",
+    "options": [
+      "An arbitrary base methyl group",
+      "A required free 2′ OH on every DNA residue",
+      "The complete retention of each incoming triphosphate as three internal backbone links",
+      "The growing 3′ OH"
+    ],
+    "letter": "D",
+    "explanation": "Standard extension uses the growing strand’s 3′ OH with an incoming nucleotide triphosphate. DNA lacks 2′ OH but can still extend. Incorporation releases pyrophosphate rather than retaining three separate internal links per residue.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            15,
+            16
+          ],
+          [
+            38,
+            38
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q015",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C04",
+    "lesson": "BC0604",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "If adenine is 30% of all bases in a fully paired canonical DNA duplex, what is cytosine’s percentage?",
+    "options": [
+      "30%",
+      "40%",
+      "70%",
+      "20%"
+    ],
+    "letter": "D",
+    "explanation": "A=T gives 60% combined, leaving 40% G+C; equal G and C therefore contribute 20% each. The denominator includes both strands, and the result depends on the canonical duplex assumption.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            17,
+            20
+          ],
+          [
+            37,
+            38
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q016",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C04",
+    "lesson": "BC0604",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "A 1,000-base-pair canonical duplex has 40% GC pairs. How many total nucleotide residues does it contain?",
+    "options": [
+      "2,000",
+      "1,000",
+      "400",
+      "2,400"
+    ],
+    "letter": "A",
+    "explanation": "Each base pair contains two nucleotide residues, giving 2,000 in the duplex. The 400 value is its GC-pair count and 2,400 can be the ideal hydrogen-bond count for this particular composition, not the residue total.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            17,
+            20
+          ],
+          [
+            37,
+            38
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q017",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C04",
+    "lesson": "BC0604",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Using three hydrogen bonds per GC pair and two per AT pair, what ideal count follows for 400 GC and 600 AT pairs?",
+    "options": [
+      "3,000",
+      "2,400",
+      "2,000",
+      "1,000"
+    ],
+    "letter": "B",
+    "explanation": "Compute 400×3+600×2=2,400. This is an ideal interbase hydrogen-bond count under the supplied model, not a count of nucleotide residues, phosphodiester links or a complete free-energy calculation.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            17,
+            20
+          ],
+          [
+            37,
+            38
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q018",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C04",
+    "lesson": "BC0604",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "When can the whole-molecule A=T and G=C equalities be applied as taught here?",
+    "options": [
+      "To every single-stranded cellular RNA using T rather than U",
+      "Only if all four bases are present at exactly 25% each",
+      "To the complete ordinary canonically paired DNA duplex",
+      "To every isolated DNA strand regardless of its partner"
+    ],
+    "letter": "C",
+    "explanation": "Canonical pairing imposes the equality across both strands together. An individual strand need not satisfy it, and single-stranded RNA has no corresponding universal composition equality. Pairing assumptions and the counted molecule must be specified.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            17,
+            20
+          ],
+          [
+            37,
+            38
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q019",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C04",
+    "lesson": "BC0604",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Two fragments have the same GC percentage. What does that alone establish?",
+    "options": [
+      "Identical base order at every position",
+      "Identical melting temperature under all solvent and salt conditions",
+      "The absence of every possible mismatch",
+      "A shared aggregate composition measure, not an identical sequence or guaranteed identical Tm"
+    ],
+    "letter": "D",
+    "explanation": "Composition does not specify sequence order, and Tm also depends on length, context and solution conditions. Equal GC percentages therefore cannot certify molecular identity or every duplex property.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            17,
+            20
+          ],
+          [
+            37,
+            38
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q020",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C05",
+    "lesson": "BC0605",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which description correctly contrasts common DNA helix forms?",
+    "options": [
+      "All three are identical right-handed helices with different base alphabets",
+      "B is left-handed and Z right-handed",
+      "A/B/Z labels directly specify phosphate charge signs",
+      "A and B are right-handed; Z is left-handed in its characteristic context"
+    ],
+    "letter": "D",
+    "explanation": "The forms differ in geometry and conditions rather than base alphabet or a switch in backbone charge. Local conformation must be distinguished from global supercoiling. The labels do not imply that each form occurs equally in every sequence.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            24,
+            31
+          ]
+        ]
+      },
+      {
+        "source": "HISTONE147"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q021",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C05",
+    "lesson": "BC0605",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "What does supercoiling describe most directly?",
+    "options": [
+      "The path of the duplex axis in space",
+      "The pitch of one local helical turn considered independently of the larger-scale duplex axis",
+      "A change in sequence composition with no change to the duplex axis path",
+      "The 5′→3′ direction of a single strand rather than the spatial arrangement of the duplex axis"
+    ],
+    "letter": "A",
+    "explanation": "Supercoiling concerns larger-scale organisation of the duplex axis, distinct from local helix form or chemical degradation. Covalent topology constrains the possible configurations in closed DNA. A change in shape is not automatically a change in chemical alphabet.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            24,
+            31
+          ]
+        ]
+      },
+      {
+        "source": "HISTONE147"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q022",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C05",
+    "lesson": "BC0605",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which statement correctly describes the nucleosome core comparison?",
+    "options": [
+      "Exactly 147 nucleotides total across both strands including all linker DNA",
+      "A histone octamer with about 147 wrapped base pairs; H1 is a distinct linker-associated histone",
+      "A nine-member core octamer that includes H1",
+      "A core in which linker H1 replaces the H2A–H2B pairs of the ordinary octamer"
+    ],
+    "letter": "B",
+    "explanation": "The approximate core wrap is 147 base pairs, not 147 total residues or a universal linker-inclusive repeat. H1 is not part of the eight core histone copies. Packaging involves a DNA–protein assembly while its boundaries and context must be specified.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            24,
+            31
+          ]
+        ]
+      },
+      {
+        "source": "HISTONE147"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q023",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C05",
+    "lesson": "BC0605",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is one extra GC hydrogen bond not a complete explanation of duplex stability?",
+    "options": [
+      "Every AT-rich sequence is necessarily more stable under every condition",
+      "Solvent and ionic conditions are irrelevant once the canonical base pairs are specified",
+      "Base stacking, solvent, ions, sequence and conditions also contribute",
+      "Hydrogen bonds are the covalent bonds forming each sugar–phosphate link"
+    ],
+    "letter": "C",
+    "explanation": "Base pairing supports specificity, but stability is a whole-system property involving multiple interactions and conditions. A bond count alone does not provide the full free-energy comparison. This qualification does not deny canonical hydrogen bonding.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            24,
+            31
+          ]
+        ]
+      },
+      {
+        "source": "HISTONE147"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q024",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C06",
+    "lesson": "BC0606",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "A sample has A260=.90 and A280=.50. What ratio follows?",
+    "options": [
+      "1.4",
+      "4.5",
+      "1.8",
+      "0.56"
+    ],
+    "letter": "C",
+    "explanation": "Divide .90 by .50 to obtain 1.8. That value can be compared with the stated screening guide, but by itself does not establish integrity, complete purity or successful downstream function.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            10,
+            11
+          ],
+          [
+            32,
+            37
+          ]
+        ]
+      },
+      {
+        "source": "NAUV"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q025",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C06",
+    "lesson": "BC0606",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "A blank-corrected 1:20 sample has A260=.20. With an explicitly supplied factor of 50 µg/mL per unit at the calibration path length, what original concentration is calculated?",
+    "options": [
+      "10 µg/mL",
+      "0.5 µg/mL",
+      "1,000 µg/mL",
+      "200 µg/mL"
+    ],
+    "letter": "D",
+    "explanation": "The diluted concentration is .20×50=10 µg/mL; multiply by the twenty-fold dilution to recover 200 µg/mL. The factor applies to the stated molecule/path calibration, not all nucleic-acid samples. Dividing by dilution reverses the needed correction.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            10,
+            11
+          ],
+          [
+            32,
+            37
+          ]
+        ]
+      },
+      {
+        "source": "NAUV"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q026",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C06",
+    "lesson": "BC0606",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "A260 rises from .50 to .70 in an illustrative denaturation example. What is the relative increase?",
+    "options": [
+      "40%",
+      "20%",
+      "70%",
+      "140%"
+    ],
+    "letter": "A",
+    "explanation": "The change is .20 relative to the original .50: .20/.50×100=40%. The absolute absorbance difference is not itself the percent change, and the high plateau is not the denominator for this stated relative increase.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            10,
+            11
+          ],
+          [
+            32,
+            37
+          ]
+        ]
+      },
+      {
+        "source": "NAUV"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q027",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C06",
+    "lesson": "BC0606",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "An illustrative melting signal has plateaus .50 and .70 and reaches .60 at 70°C. Which operational Tm follows?",
+    "options": [
+      "40°C solely because the signal increases by 40%",
+      "70°C, at half of the baseline-corrected signal change",
+      "The temperature at A260=.35, half the high plateau",
+      "The first temperature at which any base pair opens"
+    ],
+    "letter": "B",
+    "explanation": "Half the .20 signal change lies .10 above the low plateau, at .60. The supplied curve reaches that signal at 70°C. Tm is not determined by half of the raw upper reading or by percent increase alone.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            10,
+            11
+          ],
+          [
+            32,
+            37
+          ]
+        ]
+      },
+      {
+        "source": "NAUV"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q028",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C06",
+    "lesson": "BC0606",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "What does an A260/A280 ratio near the DNA reference guide fail to prove on its own?",
+    "options": [
+      "That nucleic acids can absorb near 260 nm",
+      "That the measurement may contribute to a purity screen",
+      "That the DNA is intact and suitable for every downstream assay",
+      "That a ratio can be calculated from two absorbances"
+    ],
+    "letter": "C",
+    "explanation": "A suitable-looking ratio can coexist with fragmentation or other quality problems. Integrity and downstream performance need additional evidence, while blank, pH and concentration also affect interpretation. The ratio remains useful as a screen within those limits.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            10,
+            11
+          ],
+          [
+            32,
+            37
+          ]
+        ]
+      },
+      {
+        "source": "NAUV"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q029",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C07",
+    "lesson": "BC0607",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which RNA group enables the neighbouring-group alkaline cleavage pathway?",
+    "options": [
+      "A base amino group that replaces the leaving backbone oxygen at every RNA linkage",
+      "A terminal 5′ phosphate required to attack every internal linkage independently of the 2′ position",
+      "The 2′ OH after deprotonation",
+      "A required 2′ OH present in every DNA sugar"
+    ],
+    "letter": "C",
+    "explanation": "RNA’s 2′ oxygen can become nucleophilic and attack the neighbouring phosphate. DNA lacks that 2′ OH and therefore this particular mechanism. The comparison concerns a chemical pathway, not universal resistance of DNA to every kind of damage.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            12,
+            14
+          ],
+          [
+            21,
+            23
+          ]
+        ]
+      },
+      {
+        "source": "RNAALKALI"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q030",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C07",
+    "lesson": "BC0607",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which intermediate/product pattern fits the stated RNA cleavage mechanism?",
+    "options": [
+      "Two fragments each required to retain the original intact 3′–5′ link across the cleavage site",
+      "Only cleavage of the base–sugar bond, leaving every phosphodiester unchanged",
+      "Only loss of hydrogen bonds with no covalent change",
+      "A 2′,3′-cyclic phosphate on one fragment and a 5′ OH on the other"
+    ],
+    "letter": "D",
+    "explanation": "Intramolecular attack can cleave the backbone through a cyclic phosphate, with a departing 5′-OH fragment. Further hydrolysis opens that cyclic phosphate. This is covalent cleavage, unlike simple duplex denaturation.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            12,
+            14
+          ],
+          [
+            21,
+            23
+          ]
+        ]
+      },
+      {
+        "source": "RNAALKALI"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q031",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C07",
+    "lesson": "BC0607",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "What can initially result from depurination without immediate backbone scission?",
+    "options": [
+      "An abasic site after cleavage of the sugar–purine glycosidic bond",
+      "A phosphodiester break that leaves the purine–sugar bond unchanged",
+      "Only thermal strand separation, with no change in the sugar–base bond",
+      "Deamination of the base while its sugar linkage remains unchanged"
+    ],
+    "letter": "A",
+    "explanation": "Depurination removes the base through its sugar linkage and can leave the sugar–phosphate chain initially continuous. It differs from phosphodiester hydrolysis, translation or a universal sugar conversion. Subsequent damage processing is a separate issue.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            12,
+            14
+          ],
+          [
+            21,
+            23
+          ]
+        ]
+      },
+      {
+        "source": "RNAALKALI"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q032",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C07",
+    "lesson": "BC0607",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which conclusion correctly qualifies DNA’s resistance to RNA-type alkaline cleavage?",
+    "options": [
+      "Every RNA in every protected cellular complex must degrade faster than all DNA",
+      "It lacks that 2′-OH pathway but remains susceptible to other damage mechanisms",
+      "It cannot mutate under any chemical or biological conditions",
+      "It lacks all hydroxyl groups at every sugar position"
+    ],
+    "letter": "B",
+    "explanation": "A specific structural difference explains a specific relative susceptibility. DNA can still undergo acid-related, oxidative, enzymatic or other damage, while cellular RNA stability depends on its context. The source’s stable-archive comparison cannot establish absolute immunity.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            12,
+            14
+          ],
+          [
+            21,
+            23
+          ]
+        ]
+      },
+      {
+        "source": "RNAALKALI"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q033",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C08",
+    "lesson": "BC0608",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "For mRNA codon 5′-AUG-3′, which simple complementary anticodon is written 5′→3′?",
+    "options": [
+      "GUA",
+      "CAU",
+      "UAC",
+      "AUG"
+    ],
+    "letter": "B",
+    "explanation": "The aligned partner is 3′-UAC-5′; reversing its written direction gives 5′-CAU-3′. The orientation step is essential. Wobble can complicate real decoding, but this question explicitly uses simple Watson–Crick complementarity.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            39,
+            46
+          ]
+        ]
+      },
+      {
+        "source": "RRNAINVENTORY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q034",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C08",
+    "lesson": "BC0608",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which task is distinct from codon–anticodon pairing and is performed in charging tRNA?",
+    "options": [
+      "Replacing an anticodon with an amino-acid sequence during charging",
+      "Joining the amino acid to the tRNA’s 5′ end as the obligatory standard attachment site",
+      "Attaching the appropriate amino acid with an aminoacyl-tRNA synthetase",
+      "Attaching an amino acid solely through codon pairing, without a charging enzyme"
+    ],
+    "letter": "C",
+    "explanation": "A synthetase helps link the appropriate amino acid to tRNA, whereas pairing recognises the mRNA triplet at the ribosome. Decoding alone does not chemically charge the adaptor. The two activities connect but are not interchangeable.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            39,
+            46
+          ]
+        ]
+      },
+      {
+        "source": "RRNAINVENTORY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q035",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C08",
+    "lesson": "BC0608",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Which statement correctly describes the ribosomal catalytic example?",
+    "options": [
+      "The whole ribosome lacks proteins because rRNA has a catalytic role",
+      "Every rRNA molecule contains the same exact length in every organism",
+      "mRNA is the structural core that directly replaces all large-subunit rRNA",
+      "The peptidyl-transferase centre is RNA-based within a ribonucleoprotein assembly"
+    ],
+    "letter": "D",
+    "explanation": "RNA-based catalysis is compatible with important ribosomal proteins and organism-specific assembly. A catalytic-centre assignment does not imply a protein-free ribosome or universal inventory. Distinguish the catalytic component from the entire complex.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            39,
+            46
+          ]
+        ]
+      },
+      {
+        "source": "RRNAINVENTORY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q036",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C08",
+    "lesson": "BC0608",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "A 12-nucleotide segment starts at a defined coding-frame boundary. What can be said before inspecting whether any triplet is a stop?",
+    "options": [
+      "It contains four complete triplets, but not necessarily four encoded amino acids",
+      "It must encode twelve amino acids",
+      "It has only three complete triplets",
+      "Every triplet must be a start codon"
+    ],
+    "letter": "A",
+    "explanation": "Twelve divided by three gives four triplets. Stop codons and biological context determine how many amino acids are produced; triplet count alone is insufficient. The reading-frame boundary is explicitly specified to avoid an offset ambiguity.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            39,
+            46
+          ]
+        ]
+      },
+      {
+        "source": "RRNAINVENTORY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q037",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C09",
+    "lesson": "BC0609",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which comparison assigns snRNA and tRNA roles appropriately?",
+    "options": [
+      "snRNA-associated processing/splicing versus tRNA adaptor function in translation",
+      "snRNA carrying every amino acid while tRNA removes all introns",
+      "Both are obligatory protein-coding messages whose functions arise only after translation",
+      "Both must be protein-coding mRNAs because they have functions"
+    ],
+    "letter": "A",
+    "explanation": "snRNAs participate in RNA-processing assemblies; tRNA connects codon recognition with amino-acid delivery. Functional RNA need not be translated. The activities differ even though both can involve structured RNA and protein partners.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            47,
+            48
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q038",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C09",
+    "lesson": "BC0609",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Does classifying a transcript as noncoding establish that it is useless?",
+    "options": [
+      "Yes; only mRNA can contribute to gene expression",
+      "No; many essential RNAs function without translation, but a specific transcript’s role still needs evidence",
+      "Yes; all untranslatable RNA is necessarily nonfunctional",
+      "No; it proves every observed transcript has one identical regulatory role"
+    ],
+    "letter": "B",
+    "explanation": "Noncoding describes protein-coding status in the role considered, not absence of molecular activity. rRNA and tRNA are essential examples. However, a label alone does not experimentally establish the function of every particular transcript.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            47,
+            48
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q039",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C09",
+    "lesson": "BC0609",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Why should sRNA be interpreted using context rather than as one universal molecular class?",
+    "options": [
+      "It fixes a universal size boundary shared by every historical use of the term",
+      "It unambiguously identifies amino-acid-carrying tRNA in every modern small-RNA context",
+      "The abbreviation has been used for soluble tRNA and for small-RNA contexts with different roles",
+      "It always identifies one identical mechanism in bacterial small RNAs and historical soluble RNA"
+    ],
+    "letter": "C",
+    "explanation": "Historical soluble-RNA usage and modern small-RNA terminology are not identical definitions. Role, organism and evidence clarify the intended meaning. An abbreviation alone supplies neither a universal length nor a coding-status conclusion.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            47,
+            48
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q040",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C10",
+    "lesson": "BC0610",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which activation step is important to the zidovudine mechanism taught here?",
+    "options": [
+      "Oxidation into urate as the required active polymerase substrate",
+      "Addition of a normal 3′ OH that creates an ordinary thymidine substrate",
+      "Intracellular phosphorylation to the active triphosphate",
+      "Loss of its thymine ring before use as the ordinary deoxyribonucleotide substrate"
+    ],
+    "letter": "C",
+    "explanation": "The nucleoside analogue is phosphorylated intracellularly. Its active form can be incorporated in the reverse-transcriptase-related pathway and terminate extension because the ordinary 3′ OH is absent. Structural form and activation matter; this is not a dosing recommendation.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            49,
+            50
+          ]
+        ]
+      },
+      {
+        "source": "ZDV"
+      },
+      {
+        "source": "FIVEFU"
+      },
+      {
+        "source": "HUMANUOX"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q041",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C10",
+    "lesson": "BC0610",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Why should 5-fluorouracil not be described only as an ordinary 3′-deoxy chain terminator?",
+    "options": [
+      "Its parent base already contains the same 3′-azido sugar substitution as zidovudine",
+      "Its phosphate-free parent is directly incorporated unchanged as a complete DNA nucleotide",
+      "Every analogue necessarily has the same activation pathway and target",
+      "Its active metabolites have distinct actions, including FdUMP inhibition of thymidylate synthase"
+    ],
+    "letter": "D",
+    "explanation": "The fluoropyrimidine base analogue has multiple metabolic mechanisms, including altered nucleotide supply and RNA/DNA effects. It is not equivalent to every sugar-modified nucleoside analogue. Chemical similarity does not erase differences in active form or target.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            49,
+            50
+          ]
+        ]
+      },
+      {
+        "source": "ZDV"
+      },
+      {
+        "source": "FIVEFU"
+      },
+      {
+        "source": "HUMANUOX"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q042",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C10",
+    "lesson": "BC0610",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which sequence correctly follows the source-linked purine product comparison?",
+    "options": [
+      "Hypoxanthine can be oxidised to xanthine and then urate",
+      "Urate is normally converted by functional human uricase in every cell",
+      "Guanine deamination bypasses xanthine and directly yields hypoxanthine",
+      "Every elevated urate value by itself diagnoses gout"
+    ],
+    "letter": "A",
+    "explanation": "The linked oxidation sequence differs from guanine deamination entering at xanthine. Humans lack functional uricase, and a metabolite measurement alone is not the same as crystal-associated inflammatory disease. Biochemical pathways and diagnosis have different evidence requirements.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            49,
+            50
+          ]
+        ]
+      },
+      {
+        "source": "ZDV"
+      },
+      {
+        "source": "FIVEFU"
+      },
+      {
+        "source": "HUMANUOX"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q043",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C10",
+    "lesson": "BC0610",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "What can be concluded from finding a chemically modified base?",
+    "options": [
+      "Every modification has the same effect as a therapeutic chain terminator",
+      "Its effect depends on the modification and context; it is not automatically a mutation or harmful lesion",
+      "It must always indicate an irreversible DNA sequence substitution",
+      "It necessarily breaks the phosphodiester backbone at that base position"
+    ],
+    "letter": "B",
+    "explanation": "Regulated base modifications and damaged bases both exist, with different biological consequences. The chemical identity, location and functional evidence are needed. A modification label alone cannot assign mutation, pathology or a drug mechanism.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            49,
+            50
+          ]
+        ]
+      },
+      {
+        "source": "ZDV"
+      },
+      {
+        "source": "FIVEFU"
+      },
+      {
+        "source": "HUMANUOX"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q044",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C08",
+    "lesson": "BC0608",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Using the stated standard mRNA code table, which amino acid is specified by 5′-UGG-3′?",
+    "options": [
+      "Tryptophan (Trp)",
+      "Cysteine (Cys)",
+      "A stop signal",
+      "Tyrosine (Tyr)"
+    ],
+    "letter": "A",
+    "explanation": "Select first base U, second G and third G: UGG specifies tryptophan in the standard code. UGU/UGC specify cysteine, UGA is a stop and UAU/UAC specify tyrosine. The third position and stated code context matter.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            39,
+            46
+          ]
+        ]
+      },
+      {
+        "source": "RRNAINVENTORY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U06-Q045",
+    "unit": "U06",
+    "conceptId": "BIOL157-U06-C08",
+    "lesson": "BC0608",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "UUU and UUC both specify phenylalanine in the standard code. What does this illustrate?",
+    "options": [
+      "Ambiguity: one codon randomly specifies different amino acids",
+      "A requirement that all three bases be identical for translation",
+      "Evidence that the two codons are different reading directions of one triplet",
+      "Degeneracy: more than one codon can specify the same amino acid"
+    ],
+    "letter": "D",
+    "explanation": "Degeneracy describes multiple codons assigned to one amino acid. It does not make the assignment of a given standard codon random or remove reading direction. The distinct third bases preserve the same phenylalanine assignment in this comparison.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L6",
+        "pages": [
+          [
+            39,
+            46
+          ]
+        ]
+      },
+      {
+        "source": "RRNAINVENTORY"
+      }
+    ]
   }
 ]

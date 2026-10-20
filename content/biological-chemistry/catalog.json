@@ -72,7 +72,7 @@
       "pages": 52,
       "sha256": "3b039592f4d39cc721c95392ac4b47b4ab2613f926f8f2cf8f5219075136a234",
       "availability": "local-authorised-attachment",
-      "review": "heading-inventory-only"
+      "review": "all-52-actual-pages-read;16-selected-visual-pages-inspected;printed-numbering-diverges"
     },
     {
       "id": "L7",
@@ -217,6 +217,48 @@
       "label": "KNUST OER selected Molisch reagent description",
       "url": "https://websys.knust.edu.gh/oer/pages/index.php?cou=41&page=find_materials&siteid=knustoer",
       "review": "search-returned-alpha-naphthol-passage;direct-open-timeout;not-current-BIOL157-approval"
+    },
+    {
+      "id": "NAUV",
+      "label": "NEB: separate DNA purity-ratio and integrity evidence",
+      "url": "https://www.neb.com/en/faqs/how-can-i-assess-gdna-integrity-and-purity",
+      "review": "specific-FAQ-opened"
+    },
+    {
+      "id": "RNAALKALI",
+      "label": "RNA 2-prime OH and alkaline cleavage mechanism, PMC4893296",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4893296/",
+      "review": "search-returned-mechanism-and-figure-description;not-whole-paper-review"
+    },
+    {
+      "id": "HISTONE147",
+      "label": "NCBI HistoneDB nucleosome-core definition",
+      "url": "https://www.ncbi.nlm.nih.gov/research/histonedb/help/",
+      "review": "search-returned-specific-147-bp-octamer-description"
+    },
+    {
+      "id": "RRNAINVENTORY",
+      "label": "NCBI Genomes: bacterial/eukaryotic rRNA inventories",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21111/",
+      "review": "search-returned-specific-inventory-passages;not-whole-chapter-review"
+    },
+    {
+      "id": "ZDV",
+      "label": "DailyMed zidovudine mechanism: intracellular triphosphate and chain termination",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9a2c643d-5c5f-4427-804d-8b0eb9797157",
+      "review": "label-section-12.4-mechanism-paragraph-opened-and-checked;not-full-clinical-label-certification"
+    },
+    {
+      "id": "FIVEFU",
+      "label": "NCI fluorouracil: distinct active-metabolite mechanisms",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/fluorouracil",
+      "review": "specific-entry-opened;chemical-form-and-metabolite-distinction-retained"
+    },
+    {
+      "id": "HUMANUOX",
+      "label": "Primary molecular evidence for nonfunctional human urate oxidase",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2594778/",
+      "review": "reused-verified-Cell-primary-abstract-evidence;not-new-clinical-policy"
     }
   ],
   "objectives": [
@@ -487,8 +529,19 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0601",
+        "BC0602",
+        "BC0603",
+        "BC0604",
+        "BC0605",
+        "BC0606",
+        "BC0607",
+        "BC0608",
+        "BC0609",
+        "BC0610"
+      ]
     },
     {
       "id": "U07",
@@ -858,7 +911,7 @@
       "id": "BIOL157-U06-T01",
       "unit": "U06",
       "title": "Purines and pyrimidines",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -875,7 +928,7 @@
       "id": "BIOL157-U06-T02",
       "unit": "U06",
       "title": "Nucleosides and nucleotides",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -892,7 +945,7 @@
       "id": "BIOL157-U06-T03",
       "unit": "U06",
       "title": "DNA",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -909,7 +962,7 @@
       "id": "BIOL157-U06-T04",
       "unit": "U06",
       "title": "RNA",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -3803,6 +3856,574 @@
           "title": "Key takeaways"
         }
       ]
+    },
+    {
+      "id": "BIOL157-U06-C01",
+      "unit": "U06",
+      "topic": "BIOL157-U06-T01",
+      "title": "Bases, nucleosides and nucleotides",
+      "lesson": "BC0601",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Identify canonical purines and pyrimidines, distinguish bases from nucleosides and nucleotides, and use sugar/base numbering to locate their bonds.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              4,
+              9
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Build the molecule in three stages"
+        },
+        {
+          "id": "s3",
+          "title": "Ribose, deoxyribose and naming"
+        },
+        {
+          "id": "s4",
+          "title": "Read the base functional groups"
+        },
+        {
+          "id": "s5",
+          "title": "Worked structural diagnosis"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-C02",
+      "unit": "U06",
+      "topic": "BIOL157-U06-T02",
+      "title": "Phosphate charge and nucleotide functions",
+      "lesson": "BC0602",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain why phosphate-containing structures are charged and connect nucleotide chemistry with energy coupling, regulation, signalling and coenzymes without attributing every role to every nucleotide.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              3,
+              6
+            ],
+            [
+              11,
+              11
+            ]
+          ]
+        },
+        {
+          "source": "L4",
+          "pages": [
+            [
+              3,
+              6
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Charge depends on chemical environment"
+        },
+        {
+          "id": "s3",
+          "title": "Energy coupling is a whole-reaction comparison"
+        },
+        {
+          "id": "s4",
+          "title": "Signalling and coenzyme derivatives"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-C03",
+      "unit": "U06",
+      "topic": "BIOL157-U06-T02",
+      "title": "Polynucleotide backbone, directionality and sequence",
+      "lesson": "BC0603",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain the 3′–5′ phosphodiester linkage, read antiparallel sequences and calculate backbone links under stated topology assumptions.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              15,
+              16
+            ],
+            [
+              38,
+              38
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Direction comes from asymmetric sugar positions"
+        },
+        {
+          "id": "s3",
+          "title": "Worked reverse-complement method"
+        },
+        {
+          "id": "s4",
+          "title": "Worked bond and sequence counts"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-C04",
+      "unit": "U06",
+      "topic": "BIOL157-U06-T03",
+      "title": "Base composition, complementarity and Chargaff calculations",
+      "lesson": "BC0604",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Apply canonical duplex composition constraints, calculate base-pair and hydrogen-bond counts, and identify cases in which the simplified equalities do not apply.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              17,
+              20
+            ],
+            [
+              37,
+              38
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Why the equalities require a specified molecule"
+        },
+        {
+          "id": "s3",
+          "title": "Worked percentage and count examples"
+        },
+        {
+          "id": "s4",
+          "title": "Composition is not sequence or a universal stability formula"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-C05",
+      "unit": "U06",
+      "topic": "BIOL157-U06-T03",
+      "title": "DNA helix geometry, topology and packaging",
+      "lesson": "BC0605",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Connect duplex geometry with molecular recognition and distinguish local helix forms, global supercoiling and protein-associated packaging without treating terminology as a rigid universal classification.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              24,
+              31
+            ]
+          ]
+        },
+        {
+          "source": "HISTONE147"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "The duplex is more than a hydrogen-bonded ladder"
+        },
+        {
+          "id": "s3",
+          "title": "A, B and Z are alternative local helix forms"
+        },
+        {
+          "id": "s4",
+          "title": "Supercoiling and chromatin"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-C06",
+      "unit": "U06",
+      "topic": "BIOL157-U06-T03",
+      "title": "UV measurements, denaturation and melting temperature",
+      "lesson": "BC0606",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Interpret A260 measurements, purity ratios, hyperchromicity and melting curves. Perform explicitly calibrated examples while distinguishing calculated values from an executed experiment.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              10,
+              11
+            ],
+            [
+              32,
+              37
+            ]
+          ]
+        },
+        {
+          "source": "NAUV"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Absorbance is useful but not uniquely identifying"
+        },
+        {
+          "id": "s3",
+          "title": "Denaturation and the hyperchromic effect"
+        },
+        {
+          "id": "s4",
+          "title": "Worked melting-curve interpretation"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-C07",
+      "unit": "U06",
+      "topic": "BIOL157-U06-T03",
+      "title": "Base reactions and RNA backbone susceptibility",
+      "lesson": "BC0607",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain why RNA is particularly susceptible to base-catalysed cleavage and distinguish denaturation, backbone cleavage, glycosidic cleavage and base modification.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              12,
+              14
+            ],
+            [
+              21,
+              23
+            ]
+          ]
+        },
+        {
+          "source": "RNAALKALI"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "The neighbouring 2′ OH explains an important difference"
+        },
+        {
+          "id": "s3",
+          "title": "Four different meanings of a structural change"
+        },
+        {
+          "id": "s4",
+          "title": "Sequence and environment affect reactions"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-C08",
+      "unit": "U06",
+      "topic": "BIOL157-U06-T04",
+      "title": "RNA folding, mRNA, tRNA and rRNA",
+      "lesson": "BC0608",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Relate RNA sequence and folding to information transfer, adaptor function and ribosomal catalysis. Read codon/anticodon orientations without assuming that all RNAs encode proteins.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              39,
+              46
+            ]
+          ]
+        },
+        {
+          "source": "RRNAINVENTORY"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Single-stranded does not mean structureless"
+        },
+        {
+          "id": "s3",
+          "title": "Messenger and adaptor roles"
+        },
+        {
+          "id": "s4",
+          "title": "Using the standard codon table"
+        },
+        {
+          "id": "s5",
+          "title": "Ribosomal structure includes catalytic RNA"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-C09",
+      "unit": "U06",
+      "topic": "BIOL157-U06-T04",
+      "title": "Noncoding RNAs, processing and regulation",
+      "lesson": "BC0609",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Distinguish noncoding RNA functions, explain snRNA-associated splicing at an introductory level, and avoid treating noncoding as synonymous with useless or every transcript as proven functional.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              47,
+              48
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Coding potential and molecular function are separate"
+        },
+        {
+          "id": "s3",
+          "title": "snRNA and pre-mRNA processing"
+        },
+        {
+          "id": "s4",
+          "title": "Regulatory and modification examples"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-C10",
+      "unit": "U06",
+      "topic": "BIOL157-U06-T02",
+      "title": "Modified bases, purine products and therapeutic analogues",
+      "lesson": "BC0610",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Distinguish natural base modification, catabolism and structural analogues. Explain representative drug mechanisms through verified chemistry without assuming all analogues act identically or offering treatment recommendations.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              49,
+              50
+            ]
+          ]
+        },
+        {
+          "source": "ZDV"
+        },
+        {
+          "source": "FIVEFU"
+        },
+        {
+          "source": "HUMANUOX"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Modification is not automatically damage"
+        },
+        {
+          "id": "s3",
+          "title": "Purine breakdown and urate"
+        },
+        {
+          "id": "s4",
+          "title": "Two mechanisms show why analogues differ"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
     }
   ],
   "figures": [
@@ -5428,6 +6049,641 @@
             [
               13,
               14
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-ANTIPARALLEL",
+      "title": "Direction and canonical complementarity",
+      "description": "A schematic ladder has left strand five-prime at top and three-prime at bottom, sequence A G T C. The right has three-prime at top and five-prime at bottom, aligned T C A G. Writing the partner five-prime to three-prime gives G A C T.",
+      "caption": "Original direction schematic. Rails represent covalent backbones; dashed links represent pairing, not individual hydrogen-bond counts. Helical shape, atomic detail and stacking are omitted.",
+      "width": 400,
+      "height": 515,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 28,
+          "text": "Antiparallel complementary strands"
+        },
+        {
+          "kind": "text",
+          "x": 65,
+          "y": 65,
+          "text": "5′"
+        },
+        {
+          "kind": "text",
+          "x": 335,
+          "y": 65,
+          "text": "3′"
+        },
+        {
+          "kind": "line",
+          "x1": 65,
+          "y1": 85,
+          "x2": 65,
+          "y2": 370,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 335,
+          "y1": 85,
+          "x2": 335,
+          "y2": 370,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 65,
+          "y": 410,
+          "text": "3′"
+        },
+        {
+          "kind": "text",
+          "x": 335,
+          "y": 410,
+          "text": "5′"
+        },
+        {
+          "kind": "line",
+          "x1": 65,
+          "y1": 114,
+          "x2": 123,
+          "y2": 114,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 140,
+          "y": 120,
+          "text": "A"
+        },
+        {
+          "kind": "line",
+          "x1": 158,
+          "y1": 114,
+          "x2": 242,
+          "y2": 114,
+          "dashed": true
+        },
+        {
+          "kind": "text",
+          "x": 260,
+          "y": 120,
+          "text": "T"
+        },
+        {
+          "kind": "line",
+          "x1": 277,
+          "y1": 114,
+          "x2": 335,
+          "y2": 114,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 65,
+          "y1": 184,
+          "x2": 123,
+          "y2": 184,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 140,
+          "y": 190,
+          "text": "G"
+        },
+        {
+          "kind": "line",
+          "x1": 158,
+          "y1": 184,
+          "x2": 242,
+          "y2": 184,
+          "dashed": true
+        },
+        {
+          "kind": "text",
+          "x": 260,
+          "y": 190,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 277,
+          "y1": 184,
+          "x2": 335,
+          "y2": 184,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 65,
+          "y1": 254,
+          "x2": 123,
+          "y2": 254,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 140,
+          "y": 260,
+          "text": "T"
+        },
+        {
+          "kind": "line",
+          "x1": 158,
+          "y1": 254,
+          "x2": 242,
+          "y2": 254,
+          "dashed": true
+        },
+        {
+          "kind": "text",
+          "x": 260,
+          "y": 260,
+          "text": "A"
+        },
+        {
+          "kind": "line",
+          "x1": 277,
+          "y1": 254,
+          "x2": 335,
+          "y2": 254,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 65,
+          "y1": 324,
+          "x2": 123,
+          "y2": 324,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 140,
+          "y": 330,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 158,
+          "y1": 324,
+          "x2": 242,
+          "y2": 324,
+          "dashed": true
+        },
+        {
+          "kind": "text",
+          "x": 260,
+          "y": 330,
+          "text": "G"
+        },
+        {
+          "kind": "line",
+          "x1": 277,
+          "y1": 324,
+          "x2": 335,
+          "y2": 324,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 455,
+          "text": "Left: 5′-AGTC-3′"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 485,
+          "text": "Partner: 5′-GACT-3′"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              15,
+              19
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-MELTING",
+      "title": "Baseline-corrected midpoint of an illustrative DNA melting curve",
+      "description": "A rising A260 signal has low plateau 0.50 and high plateau 0.70. Half their difference gives 0.60, reached at the illustrated 70 degrees Celsius. Dashed guides connect that midpoint with both axes.",
+      "caption": "Original theoretical example, not measured data. Tm is at half the signal change after the low baseline is accounted for; real curves require appropriate baselines and conditions.",
+      "width": 400,
+      "height": 380,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 25,
+          "text": "Illustrative melting signal"
+        },
+        {
+          "kind": "text",
+          "x": 25,
+          "y": 68,
+          "text": "A₂₆₀"
+        },
+        {
+          "kind": "line",
+          "x1": 60,
+          "y1": 80,
+          "x2": 60,
+          "y2": 285,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 60,
+          "y1": 285,
+          "x2": 355,
+          "y2": 285,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 32,
+          "y": 266.0,
+          "text": "0.50"
+        },
+        {
+          "kind": "line",
+          "x1": 55,
+          "y1": 260.0,
+          "x2": 65,
+          "y2": 260.0,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 32,
+          "y": 186.0,
+          "text": "0.60"
+        },
+        {
+          "kind": "line",
+          "x1": 55,
+          "y1": 180.0,
+          "x2": 65,
+          "y2": 180.0,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 32,
+          "y": 106.00000000000003,
+          "text": "0.70"
+        },
+        {
+          "kind": "line",
+          "x1": 55,
+          "y1": 100.00000000000003,
+          "x2": 65,
+          "y2": 100.00000000000003,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 60.0,
+          "y1": 280,
+          "x2": 60.0,
+          "y2": 290,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 60.0,
+          "y": 315,
+          "text": "40"
+        },
+        {
+          "kind": "line",
+          "x1": 153.33333333333331,
+          "y1": 280,
+          "x2": 153.33333333333331,
+          "y2": 290,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 153.33333333333331,
+          "y": 315,
+          "text": "60"
+        },
+        {
+          "kind": "line",
+          "x1": 200.0,
+          "y1": 280,
+          "x2": 200.0,
+          "y2": 290,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200.0,
+          "y": 315,
+          "text": "70"
+        },
+        {
+          "kind": "line",
+          "x1": 246.66666666666666,
+          "y1": 280,
+          "x2": 246.66666666666666,
+          "y2": 290,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 246.66666666666666,
+          "y": 315,
+          "text": "80"
+        },
+        {
+          "kind": "line",
+          "x1": 340.0,
+          "y1": 280,
+          "x2": 340.0,
+          "y2": 290,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 340.0,
+          "y": 315,
+          "text": "100"
+        },
+        {
+          "kind": "text",
+          "x": 205,
+          "y": 350,
+          "text": "Temperature (°C)"
+        },
+        {
+          "kind": "line",
+          "x1": 60,
+          "y1": 180.0,
+          "x2": 200.0,
+          "y2": 180.0,
+          "dashed": true
+        },
+        {
+          "kind": "line",
+          "x1": 200.0,
+          "y1": 180.0,
+          "x2": 200.0,
+          "y2": 285,
+          "dashed": true
+        },
+        {
+          "kind": "text",
+          "x": 215,
+          "y": 75,
+          "text": "Midpoint: 0.60 at 70°C"
+        },
+        {
+          "kind": "line",
+          "x1": 60.0,
+          "y1": 260.0,
+          "x2": 106.66666666666666,
+          "y2": 260.0,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 106.66666666666666,
+          "y1": 260.0,
+          "x2": 153.33333333333331,
+          "y2": 235.99999999999997,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 153.33333333333331,
+          "y1": 235.99999999999997,
+          "x2": 200.0,
+          "y2": 180.0,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 200.0,
+          "y1": 180.0,
+          "x2": 246.66666666666666,
+          "y2": 123.99999999999997,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 246.66666666666666,
+          "y1": 123.99999999999997,
+          "x2": 293.33333333333337,
+          "y2": 100.00000000000003,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 293.33333333333337,
+          "y1": 100.00000000000003,
+          "x2": 340.0,
+          "y2": 100.00000000000003,
+          "dashed": false
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              34,
+              36
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-RNA-CLEAVAGE",
+      "title": "Neighbouring-group pathway of RNA alkaline cleavage",
+      "description": "A five-step flow moves from RNA two-prime hydroxyl through deprotonation and attack on the neighbouring backbone phosphorus to cleavage with a two-prime,three-prime cyclic phosphate and a five-prime hydroxyl fragment. Subsequent hydrolysis opens the cyclic phosphate.",
+      "caption": "Original mechanism flow, not a full electron-pushing structure or a laboratory record. DNA lacks the 2′ OH for this pathway, but remains susceptible to other damage mechanisms.",
+      "width": 400,
+      "height": 495,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 30,
+          "text": "RNA has a neighbouring 2′ OH"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 45,
+          "x2": 200,
+          "y2": 74,
+          "dashed": false
+        },
+        {
+          "kind": "wedge",
+          "points": [
+            [
+              194,
+              74
+            ],
+            [
+              206,
+              74
+            ],
+            [
+              200,
+              82
+            ]
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 110,
+          "text": "Base permits 2′ O⁻ formation"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 125,
+          "x2": 200,
+          "y2": 154,
+          "dashed": false
+        },
+        {
+          "kind": "wedge",
+          "points": [
+            [
+              194,
+              154
+            ],
+            [
+              206,
+              154
+            ],
+            [
+              200,
+              162
+            ]
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 190,
+          "text": "2′ oxygen attacks adjacent P"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 205,
+          "x2": 200,
+          "y2": 254,
+          "dashed": false
+        },
+        {
+          "kind": "wedge",
+          "points": [
+            [
+              194,
+              254
+            ],
+            [
+              206,
+              254
+            ],
+            [
+              200,
+              262
+            ]
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 290,
+          "text": "Chain cleavage yields a"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 318,
+          "text": "2′,3′-cyclic phosphate"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 346,
+          "text": "and a second fragment’s 5′ OH"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 361,
+          "x2": 200,
+          "y2": 389,
+          "dashed": false
+        },
+        {
+          "kind": "wedge",
+          "points": [
+            [
+              194,
+              389
+            ],
+            [
+              206,
+              389
+            ],
+            [
+              200,
+              397
+            ]
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 425,
+          "text": "Hydrolysis opens the cycle"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 453,
+          "text": "to 2′- or 3′-phosphate products"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L6",
+          "pages": [
+            [
+              23,
+              23
             ]
           ]
         }

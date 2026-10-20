@@ -1,5 +1,5 @@
 {
-  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages. Lecture 5 has 58 actual pages but printed numbering reaches 65, with gaps beginning at actual p.15; L5 references always use actual PDF pages.",
+  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages. Lecture 5 has 58 actual pages but printed numbering reaches 65, with gaps beginning at actual p.15; L5 references always use actual PDF pages. Lecture 6 has 52 actual pages and printed numbering reaches 56; all L6 citations use actual PDF pages.",
   "anchors": [
     {
       "source": "L1",
@@ -1218,6 +1218,300 @@
       "pdfPage": 57,
       "anchor": "– Principle: it is based on the reduction of copper (II) acetate to copper",
       "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 2,
+      "anchor": "− Identify some nucleic acid analogues for treating diseases",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 3,
+      "anchor": "– Most metabolic pathways are regulated, at least in part, by the levels",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 4,
+      "anchor": "– As components of the enzyme-like nucleic acids known as ribozymes,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 5,
+      "anchor": "• Nucleotide - composition and structure:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 6,
+      "anchor": "– If the phosphate group is absent, the compound is nucleoside. A 5’-",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 7,
+      "anchor": "cytosine, uracil (which occurs mainly in RNA), and thymine (5-methyl",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 8,
+      "anchor": "• Nitrogenous bases:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 9,
+      "anchor": "• Nitrogenous bases:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 10,
+      "anchor": "– This property is biologically significant because it induces mutations,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 11,
+      "anchor": "– If the pH of a solution containing double helical DNA is either lowered",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 12,
+      "anchor": "reaction at one site on the ring may enhance the reactivity at others",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 13,
+      "anchor": "− The reaction rates are influenced by the position in the polynucleotide",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 14,
+      "anchor": "− The 6 position is especially reactive toward additions, whereas the 2",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 15,
+      "anchor": "are acidic so that, at physiological pH’s, nucleic acids are polyanions",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 16,
+      "anchor": "Chemical Structures of DNA & RNA",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 17,
+      "anchor": "organism is characteristic of that organism; it is independent of the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 18,
+      "anchor": "to 75% G = C in different species of bacteria. It is, however, constant",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 19,
+      "anchor": "Chemical Structures of DNA & RNA",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 20,
+      "anchor": "hard to answer because of the strong interaction of the molecules with",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 21,
+      "anchor": "standard set; dA and dC in the DNAs of many organisms are partially",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 22,
+      "anchor": "Chemical Structures of DNA & RNA",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 23,
+      "anchor": "This is probably why DNA evolved to be the cellular genetic archive",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 24,
+      "anchor": "covalent phosphodiester bridges between the 3’ and 5’ hydroxyl",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 25,
+      "anchor": "– It is the steric relationship of bases which are close to each other in",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 26,
+      "anchor": "Levels of Organization of DNA Structure",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 27,
+      "anchor": "steric constraints. The DNA could be relaxed, looped, and superhelical",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 28,
+      "anchor": "Levels of Organization of DNA Structure",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 29,
+      "anchor": "– It relates to interactions of the nucleic acids with other molecules.",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 30,
+      "anchor": "Levels of Organization of DNA Structure",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 31,
+      "anchor": "Levels of Organization of DNA Structure",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 32,
+      "anchor": "temperature, its native structure collapses (denatures), and its",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 33,
+      "anchor": "the resistance to deformation of its rigid and rod-like duplex molecules,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 34,
+      "anchor": "− This indicates that the collapse of a part of the duplex DNA’s structure",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 35,
+      "anchor": "• Change in UV absorbance due denaturation:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 36,
+      "anchor": "Denaturation of DNA",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 37,
+      "anchor": "causing some bases to ionise, disrupting the base-pairing interactions",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 38,
+      "anchor": "− It is the repository of all the information the cell requires, with most",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 39,
+      "anchor": "proteins, constitute the three major macromolecules essential for life",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 40,
+      "anchor": "the pentose ring in the 2' position). These hydroxyl groups make RNA",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 41,
+      "anchor": "but rather collections of short helices packed together like proteins",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 42,
+      "anchor": "of nucleotides, arranged into codons consisting of three bases each",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 43,
+      "anchor": "Ribonucleic Acid (RNA)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 44,
+      "anchor": "molecule, typically 73 to 94 nucleotides in length, serving as a physical",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 45,
+      "anchor": "LSU (large subunit) and SSU (small subunit) rRNAs are found within",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 46,
+      "anchor": "Ribonucleic Acid (RNA)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 47,
+      "anchor": "III, and studies have shown that their primary function is in processing",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 48,
+      "anchor": "− ncRNA is a functional RNA molecule not translated into a protein. Less",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 49,
+      "anchor": "sodium salts, which deposit in soft tissues, giving rise to inflammation",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 50,
+      "anchor": "Other Nucleic Acids Analogues",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
     }
   ],
   "visuallyInspected": [
@@ -1289,6 +1583,28 @@
         57
       ],
       "result": "Fischer/Haworth/anomer, derivative, disaccharide, polymer/matrix, bacterial-envelope/proteoglycan and qualitative-test figures inspected. Selected stereochemical pages enlarged individually. No source images republished; diagram/prose issues recorded in U05 review."
+    },
+    {
+      "source": "L6",
+      "pdfPages": [
+        5,
+        8,
+        9,
+        16,
+        19,
+        22,
+        23,
+        26,
+        28,
+        30,
+        31,
+        35,
+        36,
+        43,
+        46,
+        50
+      ],
+      "result": "Base/nucleoside structures, directionality, duplex/modified-base figures, RNA cleavage, organisation, UV/melting graphs, codon table, ribosome and analogue comparisons inspected. No source images copied."
     }
   ]
 }
