@@ -22,7 +22,8 @@ const answer=q=>q.options[q.letter.charCodeAt(0)-65];
 test('Computer preserves the 12/72 baseline and compiles the incremental 18/114 review bank',()=>{
  const legacy=compileComputer();assert.equal(legacy.lessons.length,12);assert.equal(legacy.questions.length,72);
  assert.deepEqual(compileComputer({includeReview:true}),data);assert.equal(data.lessons.length,18);assert.equal(data.questions.length,114);
- assert.deepEqual(data.questions.slice(0,72),legacy.questions,'existing keys, questions and answer mappings remain unchanged');
+ const assessment=({explanation,...question})=>question;
+ assert.deepEqual(data.questions.slice(0,72).map(assessment),legacy.questions.map(assessment),'existing IDs, stems, options, keys and citations remain unchanged');
  assert.equal(data.status,'academic-review-pending');assert.equal(data.scope,'HB1:First');
  const all=learning.blocks.flatMap(b=>b.lessons);assert.deepEqual([...all].sort(),data.lessons.map(l=>l.id).sort());
  for(const l of legacy.lessons){

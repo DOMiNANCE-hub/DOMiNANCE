@@ -35,6 +35,14 @@ export function compileComputer({includeReview=false}={}){
   }
   for(const item of extension.additions){const lesson=lessons.find(l=>l.id===item.lesson);if(!lesson)throw Error('Unknown lesson addition');lesson.markdown+='\n\n'+item.markdown}
   questions.push(...read('review/questions.json'));
+  const rationales=read('instructional/rationales.json');
+  const audit=read('instructional/lesson-audit.json');
+  if(audit.length!==lessons.length||new Set(audit.map(row=>row.lesson)).size!==lessons.length||Object.keys(rationales).length!==questions.length)throw Error('Incomplete instructional review');
+  for(const lesson of lessons){
+   if(!audit.some(row=>row.lesson===lesson.id))throw Error('Missing lesson audit: '+lesson.id);
+   lesson.markdown+='\n\n'+readFileSync(path.join(source,'instructional/lessons',lesson.id+'.md'),'utf8').trim();
+  }
+  questions=questions.map(question=>{const explanation=rationales[question.id];if(typeof explanation!=='string'||!explanation.trim())throw Error('Missing instructional rationale: '+question.id);return {...question,explanation}});
  }
  const withheld=new Set(read('review/release-policy.json').withheldIds);
  if(questions.some(q=>withheld.has(q.id)||withheld.has(q.adaptedFrom)))throw Error('Withheld question in review bank');

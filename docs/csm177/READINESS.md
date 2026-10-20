@@ -1,5 +1,7 @@
 # Computer Appreciation integration and academic release — 20 October 2026
 
+Subsequent instructional checkpoint: [18 expanded lessons, 114 rewritten rationales and current verification](INSTRUCTIONAL_SPRINT.md). This supersedes the earlier section/check counts below while preserving the source crosswalk, practical register and academic release holds.
+
 PR #9 continues on `academic/hb1-computer-appreciation-20261019`. Development `3b5368f` (merged UI Sprints 02–05 and Cell reliability) was merged as `7a0c1eb`. The resolution preserves Antigravity's card-rendering optimization, refresh behavior and exact merged global styles. Firebase rules/configuration remain unchanged.
 
 ## Implementation and release decision

@@ -1,5 +1,7 @@
 # Computer Appreciation academic review
 
+20 October instructional continuation: all 18 internal lessons have original worked-step/troubleshooting additions, and all 114 rationales have been rewritten without changing IDs, options, keys or source mappings. [Current instructional evidence and holds](../../docs/csm177/INSTRUCTIONAL_SPRINT.md) supersedes the earlier 90-section/155-check verification: the expanded review has 146 sections and 159 offline checks.
+
 The preserved baseline contains 12 lessons and 72 explained MCQs. The incremental internal review contains **18 lessons and 114 MCQs**, including six new lessons and 18 additional PowerPoint questions. These are source-based practice candidates, not certified past examination questions or a verified complete syllabus.
 
 ## Release status

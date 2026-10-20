@@ -1,5 +1,9 @@
 # DOMiNANCE roadmap
 
+## Comprehensive academic sprint — Computer checkpoint, 2026-10-20
+
+All 18 Computer review lessons expanded with worked steps, examples, diagnostics and comparisons; all 114 rationales rewritten while preserving IDs/stems/options/keys/citations. Twelve further candidates inspected, none imported. 159 offline checks, lint/build and Chromium traversal of 18 lessons/146 sections pass. The existing source crosswalk, four withheld items, 15 unexecuted Office scenarios and student release gate remain unchanged. [Evidence and continuation](docs/csm177/INSTRUCTIONAL_SPRINT.md). This supersedes earlier instructional counts below; no final academic approval, merge or deployment.
+
 ## HB1 academic continuation — 2026-10-20
 
 Development `3b5368f` (Antigravity UI Sprints 02–05 and Cell reliability) is merged into the existing Computer branch as `7a0c1eb`, preserving the merged global styles. PR #9 remains draft. No Firebase rules/configuration change, main merge or deployment.
