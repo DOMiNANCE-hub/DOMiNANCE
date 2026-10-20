@@ -1,6 +1,6 @@
 import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import {compile as cell} from './import-cell-structure.mjs';
-import {compile as computer} from './import-computer-appreciation.mjs';
+import {compileComputer as computer} from './import-computer-appreciation.mjs';
 import {compile as biology} from './import-biological-chemistry.mjs';
 const root=new URL('../',import.meta.url),load=file=>JSON.parse(readFileSync(new URL(file,root))),status=load('docs/release/status.json');
 const courses=[['BIOL151',cell({includeReview:true})],['CSM177',computer({includeReview:true})],['BIOL157',biology()]].map(([id,data])=>({id,course:data.course,lessons:data.lessons.length,questions:data.questions.length,reviewStatus:'pending-human-academic-review',studentRelease:'blocked',...(id==='BIOL157'?{officialTopics:data.topics.length,draftTopics:data.topics.filter(t=>data.concepts.some(c=>c.topic===t.id)).length,missingTopics:data.topics.filter(t=>!data.concepts.some(c=>c.topic===t.id)).map(t=>({id:t.id,title:t.title})),units:data.units.map(u=>({id:u.id,title:u.title,status:u.status,lessons:u.lessons.length}))}:id==='BIOL151'?{officialTopicTotal:null,sourceObjectives:21,currentYearValidation:'not-established'}:{officialTopicTotal:null,sourceDerivedLessons:18,withheldQuestions:4,unexecutedMicrosoftOfficeChecks:15}),checklist:status.checklists[id]}));
