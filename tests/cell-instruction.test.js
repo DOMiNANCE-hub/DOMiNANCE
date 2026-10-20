@@ -51,6 +51,10 @@ test('new calculation and interpretation keys match independently recomputed exa
  for(const q of review.questions.slice(170)){assert.ok(q.conceptId);assert.ok(q.objective);assert.ok(q.pages.every(p=>p>=1&&p<=410));assert.equal(q.reviewer,null);assert.match(q.reviewStatus,/awaiting-academic-review/)}
 });
 test('new review questions run through the existing submit flow and retain legacy history',()=>{
+ const full={version:1,lessons:{},attempts:[],draft:{format:2,id:'full-review-pool',questions:review.questions.map(q=>q.id),index:0,responses:{},phase:'answer'}};
+ assert.equal(globalThis.DominanceCellState.state(full,review).draft.questions.length,178);
+ const fullResult={...full,draft:null,attempts:[{id:'full-review-pool',completedAt:'2026-10-20T12:00:00Z',answers:review.questions.map(q=>({question:q.id,option:null}))}]};
+ assert.equal(globalThis.DominanceCellState.state(fullResult,review).attempts[0].answers.length,178);
  const h=academicHarness({create:globalThis.DominanceCellStructure.create,data:review});
  h.pilot.lesson('lesson:lesson_06:0');h.buttons('studyOutput').find(b=>b.textContent==='Practise this lesson').onclick();
  h.buttons('quizArea').find(b=>b.className.startsWith('answer')).onclick();h.buttons('quizArea').find(b=>b.textContent==='Review responses').onclick();h.buttons('quizArea').find(b=>b.textContent.startsWith('Submit practice')).onclick();

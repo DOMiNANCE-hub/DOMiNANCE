@@ -40,3 +40,5 @@ No final academic approval, real student/production writes, security-rule change
 ## Exact continuation
 
 Review the 23 expansions/96 rationales/eight candidates academically; improve the remaining 74 short rationales and audited lesson gaps; complete the remaining figure/source review; verify current course outcomes. Reuse the stable concept-link contract when integrating future Study Area frontend work rather than renumbering existing sections or replacing progress records.
+
+Full-bank follow-up: reproduced the inherited 170-question state-validation ceiling, replaced it with the available question-ID pool size, and verified saving/reloading all 178 questions in real emulator transactions. Chromium started, reviewed and submitted All Available (178), then traversed all 263 sections at 390px. All 147 offline checks and 37 emulator checks pass; lint/build pass with existing warnings.
