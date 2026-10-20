@@ -1,4 +1,8 @@
 // Injectable account lifecycle; tests never contact Firebase.
+export function studentAccountProfile(user,profile,createdAt=new Date().toISOString()) {
+ if(!user?.uid||typeof user.email!=='string'||!user.email)throw Error('Sign in before creating a profile.');
+ return {name:profile.name,username:profile.username||profile.name,year:profile.year,semester:profile.semester,courses:Array.isArray(profile.courses)?[...profile.courses]:[],email:user.email,role:'student',createdAt};
+}
 export function observeAccount({subscribeAuth,subscribeProfile,publish,timeoutMs=15000,setTimer=setTimeout,clearTimer=clearTimeout}) {
  let active=true,generation=0,stopProfile=()=>{},stopAuth=()=>{},timer;
  const emit=state=>{if(active)publish(state)},clear=()=>{clearTimer(timer);timer=undefined};

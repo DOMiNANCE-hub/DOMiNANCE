@@ -17,7 +17,7 @@ npm run build
 
 ## Firebase
 
-Copy `.env.example` to `.env.local`, add the Firebase web application values, then enable Authentication, Firestore, and Storage in Firebase. Gemini and Google Cloud Text-to-Speech must be called through a secure server or Firebase Cloud Function; never put those credentials in browser code.
+Copy `.env.example` to an ignored `.env.local`, or supply the six required Web app variables through secure cloud environment settings. Auth and Firestore power the active account workflow; Storage, Realtime Database and Analytics are optional for these tests. Run `npm run firebase:check` for diagnostics that do not print values. See [Firebase development setup](docs/FIREBASE_DEVELOPMENT.md) for isolated tests and protected-preview prerequisites. Gemini and Google Cloud Text-to-Speech credentials belong on a secure server or Cloud Function, never in browser variables.
 
 ## Current foundation
 

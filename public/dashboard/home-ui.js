@@ -10,6 +10,7 @@
  el('homeToolClose').onclick=()=>el('homeToolDialog').close();el('homeToolDialog').onclose=()=>toolOrigin?.isConnected&&toolOrigin.focus();
  el('homeTools').querySelectorAll('[data-home-tool]').forEach(button=>button.onclick=()=>openTool(button.dataset.homeTool));
  const openPractice=()=>ctx.quickPractice?ctx.quickPractice():ctx.navigate('practice');
+ el('homePracticeAction').onclick=openPractice;
  function saveGoal(value){try{const next=model.validateGoal(value);if(!ctx.save('dailyGoal',JSON.stringify(next)))throw Error('Your goal could not be saved. Please retry.');refresh();return true}catch(error){el('goalError').textContent=error.message;return false}}
  function openGoal(){const g=prefs();goalOrigin=d.activeElement;el('goalType').value=g.type;el('goalTarget').value=g.target;el('goalTarget').max=g.type==='questions'?200:20;el('goalTimezone').value=g.timeZone;el('goalError').textContent='';el('dailyGoalDialog').showModal();el('goalType').focus()}
  const dialog=el('dailyGoalDialog');dialog.onclose=()=>{(goalOrigin?.isConnected?goalOrigin:el('goalOpen'))?.focus()};dialog.onkeydown=e=>{if(e.key!=='Tab')return;const controls=[...dialog.querySelectorAll('input,select,button')].filter(c=>!c.disabled);if(e.shiftKey&&d.activeElement===controls[0]){e.preventDefault();controls.at(-1).focus()}else if(!e.shiftKey&&d.activeElement===controls.at(-1)){e.preventDefault();controls[0].focus()}};
@@ -44,7 +45,7 @@
  el('homeSessions').textContent=metrics.sessions;el('homeQuestions').textContent=metrics.questions;el('homeAccuracy').textContent=metrics.accuracy===null?'—':metrics.accuracy+'%';el('momentumPeriod').textContent='Last 7 calendar days, including today · '+g.timeZone;el('momentumNote').textContent=metrics.sessions?(metrics.hasDemo?'Includes demo practice · accuracy is not mastery.':'Confirmed completed practice · accuracy is not mastery.'):'Complete a practice to start your weekly record.';
  renderGoal(metrics);renderSpotlight();playback();if(!el('homeRace').children.length)renderRace();
  }
- w.setInterval(()=>{if(!d.hidden&&el('home').classList.contains('active'))refresh()},60000);d.addEventListener('visibilitychange',()=>{if(!d.hidden)refresh()});
+ w.setInterval(()=>{if(!d.hidden&&el('home').classList.contains('active'))refresh()},60000);d.addEventListener('visibilitychange',()=>{if(!d.hidden&&el('home').classList.contains('active'))refresh()});
  return {refresh,renderRace,renderSlides,advance,openTool,openPractice};
  }
  root.DominanceHomeUI={create};

@@ -2,12 +2,16 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     function signedIn() { return request.auth != null; }
+    function hasVerifiedEmail() {
+      // Trust only Firebase's signed token claim, never a users/{uid} profile field.
+      return signedIn() && request.auth.token.get('email_verified', false) == true;
+    }
     function isSuperAdmin() {
-      // Fictional local administrative fixture; production identity remains unchanged.
-      return signedIn() && request.auth.token.email == 'emulator-superadmin@example.invalid';
+      // Fictional local administrative fixture; never an actual Firebase account.
+      return hasVerifiedEmail() && request.auth.token.email == 'emulator-superadmin@example.invalid';
     }
     function isAdmin() {
-      return isSuperAdmin() || (signedIn()
+      return isSuperAdmin() || (hasVerifiedEmail()
         && exists(/databases/$(database)/documents/users/$(request.auth.uid))
         && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin');
     }

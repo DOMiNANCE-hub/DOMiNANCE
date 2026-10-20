@@ -1,6 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {observeAccount,accountError} from '../src/account-session.js';
+import {observeAccount,accountError,studentAccountProfile} from '../src/account-session.js';
+test('new profiles are students and ignore supplied privilege, identity and sharing fields',()=>{
+ const profile={name:'Fictional Student',year:'HB 1',semester:'First',courses:['Cell Structure'],role:'superAdmin',email:'forged@example.invalid',communityVisible:true,claims:{admin:true}};
+ const result=studentAccountProfile({uid:'fictional-owner',email:'admin@example.invalid'},profile,'2026-10-19T00:00:00Z');
+ assert.deepEqual(result,{name:'Fictional Student',username:'Fictional Student',year:'HB 1',semester:'First',courses:['Cell Structure'],email:'admin@example.invalid',role:'student',createdAt:'2026-10-19T00:00:00Z'});
+ result.courses.push('Other');assert.deepEqual(profile.courses,['Cell Structure']);assert.equal(profile.role,'superAdmin');
+});
+test('profile creation needs an authenticated identity and sign-in email',()=>{
+ for(const user of [null,{uid:'fictional'},{email:'fixture@example.invalid'}])assert.throws(()=>studentAccountProfile(user,{}),/Sign in/);
+});
 function setup(){const states=[],profiles=new Map(),timers=new Map();let authNext,authFail,authStops=0,profileStops=0,id=0;
  const stop=observeAccount({publish:s=>states.push(s),subscribeAuth:(next,fail)=>{authNext=next;authFail=fail;return()=>authStops++},subscribeProfile:(uid,next,fail)=>{profiles.set(uid,{next,fail});return()=>profileStops++},setTimer:cb=>{timers.set(++id,cb);return id},clearTimer:key=>timers.delete(key)});
  return{states,profiles,timers,stop,login:u=>authNext(u),fail:()=>authFail(),last:()=>states.at(-1),counts:()=>({authStops,profileStops})};}
