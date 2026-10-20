@@ -442,8 +442,8 @@ See docs/FIREBASE_AUTHORIZATION.md for the permission matrix and provisioning as
 - [x] Integrate independent study, per-concept practice and exact feedback-to-notes links using existing views and owner-scoped state. Add honest not-authored unit states and retain blocked normal student content.
 - [x] Add a reusable content contract, separate notes/outcome/question coverage, evidence checks and Antigravity integration hooks; see docs/ACADEMIC_CONTENT_STANDARD.md and docs/HB1_FIRST_SEMESTER_COVERAGE.md.
 - [ ] Obtain qualified academic approval; no self-approval, release, merge or deployment.
-- [x] Author and integrate source-checked Units 3–4 in tested RC batches (35 Bio lessons / 119 questions through Unit 4); see docs/release/UNIT03.md and UNIT04.md.
-- [ ] Author Units 5–10 incrementally; next batch is all 58 actual Lecture 5 pages.
+- [x] Author and integrate source-checked Units 3–5 in tested RC batches (49 Bio lessons / 177 questions through Unit 5); see docs/release/UNIT03.md, UNIT04.md and UNIT05.md.
+- [ ] Author Units 6–10 incrementally; next batch is all 52 actual Lecture 6 pages.
 
 
 ## Three-course RC and Cell completion — 2026-10-20
@@ -453,3 +453,8 @@ See docs/FIREBASE_AUTHORIZATION.md for the permission matrix and provisioning as
 - [x] Verify combined 193 offline / 40 emulator checks, lint/build and Chromium flows including account isolation, all full banks and phone-width Cell/Bio sections. Exact limits in docs/release/CELL_COMPLETION.md and permanent docs/release/READINESS.md.
 - [ ] Complete Bio Units 5–10, remaining Cell source/figure/concept mapping and Computer desktop Office acceptance; obtain actual human academic approval.
 - [ ] Implement auditable publication process and establish isolated protected RC preview in existing do-mi-nance project; shared preview/production Firebase variables are not accepted as isolation. No deployment performed.
+
+
+### BIOL157 Unit 5 coherent batch — 2026-10-20
+
+Fourteen original carbohydrate lessons, 58 section-linked MCQs, 28 answered checks and two original diagrams authored from all 58 actual Lecture 5 pages. Prior 35 lesson files and 119 assessment objects retain hashes; source discrepancies and incomplete secondary-source access are recorded. Current Bio inventory 49/177 with 16/34 topics having draft notes; no human approval or student release. Verified 200 offline / 40 emulator checks, lint/build and combined Chromium traversal/flows, including the new Unit 5 concept-return journey. See docs/release/UNIT05.md and READINESS.md; continue Unit 6, not another audit.

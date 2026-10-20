@@ -194,9 +194,83 @@
     {
       "id": "BIOL157-CLO5",
       "text": "Understand the biological role of carbohydrates, proteins, nucleic acids, and lipids.",
-      "notesConcepts": [],
-      "questions": [],
-      "coverageStatus": "not-authored"
+      "notesConcepts": [
+        "BIOL157-U05-C01",
+        "BIOL157-U05-C02",
+        "BIOL157-U05-C03",
+        "BIOL157-U05-C04",
+        "BIOL157-U05-C05",
+        "BIOL157-U05-C06",
+        "BIOL157-U05-C07",
+        "BIOL157-U05-C08",
+        "BIOL157-U05-C09",
+        "BIOL157-U05-C10",
+        "BIOL157-U05-C11",
+        "BIOL157-U05-C12",
+        "BIOL157-U05-C13",
+        "BIOL157-U05-C14"
+      ],
+      "questions": [
+        "BIOL157-U05-Q001",
+        "BIOL157-U05-Q002",
+        "BIOL157-U05-Q003",
+        "BIOL157-U05-Q004",
+        "BIOL157-U05-Q005",
+        "BIOL157-U05-Q006",
+        "BIOL157-U05-Q007",
+        "BIOL157-U05-Q008",
+        "BIOL157-U05-Q009",
+        "BIOL157-U05-Q010",
+        "BIOL157-U05-Q011",
+        "BIOL157-U05-Q012",
+        "BIOL157-U05-Q013",
+        "BIOL157-U05-Q014",
+        "BIOL157-U05-Q015",
+        "BIOL157-U05-Q016",
+        "BIOL157-U05-Q017",
+        "BIOL157-U05-Q018",
+        "BIOL157-U05-Q019",
+        "BIOL157-U05-Q020",
+        "BIOL157-U05-Q021",
+        "BIOL157-U05-Q022",
+        "BIOL157-U05-Q023",
+        "BIOL157-U05-Q024",
+        "BIOL157-U05-Q025",
+        "BIOL157-U05-Q026",
+        "BIOL157-U05-Q027",
+        "BIOL157-U05-Q028",
+        "BIOL157-U05-Q029",
+        "BIOL157-U05-Q030",
+        "BIOL157-U05-Q031",
+        "BIOL157-U05-Q032",
+        "BIOL157-U05-Q033",
+        "BIOL157-U05-Q034",
+        "BIOL157-U05-Q035",
+        "BIOL157-U05-Q036",
+        "BIOL157-U05-Q037",
+        "BIOL157-U05-Q038",
+        "BIOL157-U05-Q039",
+        "BIOL157-U05-Q040",
+        "BIOL157-U05-Q041",
+        "BIOL157-U05-Q042",
+        "BIOL157-U05-Q043",
+        "BIOL157-U05-Q044",
+        "BIOL157-U05-Q045",
+        "BIOL157-U05-Q046",
+        "BIOL157-U05-Q047",
+        "BIOL157-U05-Q048",
+        "BIOL157-U05-Q049",
+        "BIOL157-U05-Q050",
+        "BIOL157-U05-Q051",
+        "BIOL157-U05-Q052",
+        "BIOL157-U05-Q053",
+        "BIOL157-U05-Q054",
+        "BIOL157-U05-Q055",
+        "BIOL157-U05-Q056",
+        "BIOL157-U05-Q057",
+        "BIOL157-U05-Q058"
+      ],
+      "coverageStatus": "draft-partial-not-certified"
     }
   ],
   "units": [
@@ -763,7 +837,7 @@
           "id": "BIOL157-U05-T01",
           "unit": "U05",
           "title": "Monosaccharide derivatives",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -775,15 +849,60 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0501",
+            "BC0502",
+            "BC0503",
+            "BC0504",
+            "BC0505",
+            "BC0506",
+            "BC0513",
+            "BC0514"
+          ],
+          "questions": [
+            "BIOL157-U05-Q001",
+            "BIOL157-U05-Q002",
+            "BIOL157-U05-Q003",
+            "BIOL157-U05-Q004",
+            "BIOL157-U05-Q005",
+            "BIOL157-U05-Q006",
+            "BIOL157-U05-Q007",
+            "BIOL157-U05-Q008",
+            "BIOL157-U05-Q009",
+            "BIOL157-U05-Q010",
+            "BIOL157-U05-Q011",
+            "BIOL157-U05-Q012",
+            "BIOL157-U05-Q013",
+            "BIOL157-U05-Q014",
+            "BIOL157-U05-Q015",
+            "BIOL157-U05-Q016",
+            "BIOL157-U05-Q017",
+            "BIOL157-U05-Q018",
+            "BIOL157-U05-Q019",
+            "BIOL157-U05-Q020",
+            "BIOL157-U05-Q021",
+            "BIOL157-U05-Q022",
+            "BIOL157-U05-Q023",
+            "BIOL157-U05-Q024",
+            "BIOL157-U05-Q025",
+            "BIOL157-U05-Q026",
+            "BIOL157-U05-Q050",
+            "BIOL157-U05-Q051",
+            "BIOL157-U05-Q052",
+            "BIOL157-U05-Q053",
+            "BIOL157-U05-Q054",
+            "BIOL157-U05-Q055",
+            "BIOL157-U05-Q056",
+            "BIOL157-U05-Q057",
+            "BIOL157-U05-Q058"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U05-T02",
           "unit": "U05",
           "title": "Oligosaccharides",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -795,15 +914,27 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0507",
+            "BC0508"
+          ],
+          "questions": [
+            "BIOL157-U05-Q027",
+            "BIOL157-U05-Q028",
+            "BIOL157-U05-Q029",
+            "BIOL157-U05-Q030",
+            "BIOL157-U05-Q031",
+            "BIOL157-U05-Q032",
+            "BIOL157-U05-Q033",
+            "BIOL157-U05-Q034"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U05-T03",
           "unit": "U05",
           "title": "Polysaccharides",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -815,9 +946,30 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0509",
+            "BC0510",
+            "BC0511",
+            "BC0512"
+          ],
+          "questions": [
+            "BIOL157-U05-Q035",
+            "BIOL157-U05-Q036",
+            "BIOL157-U05-Q037",
+            "BIOL157-U05-Q038",
+            "BIOL157-U05-Q039",
+            "BIOL157-U05-Q040",
+            "BIOL157-U05-Q041",
+            "BIOL157-U05-Q042",
+            "BIOL157-U05-Q043",
+            "BIOL157-U05-Q044",
+            "BIOL157-U05-Q045",
+            "BIOL157-U05-Q046",
+            "BIOL157-U05-Q047",
+            "BIOL157-U05-Q048",
+            "BIOL157-U05-Q049"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         }
       ],
       "sourceRefs": [
@@ -831,8 +983,23 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0501",
+        "BC0502",
+        "BC0503",
+        "BC0504",
+        "BC0505",
+        "BC0506",
+        "BC0507",
+        "BC0508",
+        "BC0509",
+        "BC0510",
+        "BC0511",
+        "BC0512",
+        "BC0513",
+        "BC0514"
+      ]
     },
     {
       "id": "U06",
@@ -1293,8 +1460,8 @@
   "counts": {
     "units": 10,
     "topics": 34,
-    "concepts": 35,
-    "lessons": 35,
-    "questions": 119
+    "concepts": 49,
+    "lessons": 49,
+    "questions": 177
   }
 }

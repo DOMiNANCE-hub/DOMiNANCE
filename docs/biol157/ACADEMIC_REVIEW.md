@@ -1,18 +1,20 @@
 # BIOL157 academic review and release boundaries
 
-Latest release-candidate continuation: Unit 3 adds nine lessons and 34 original questions (23 lessons/68 MCQs total). All three official Unit 3 topics have draft notes. See `content/biological-chemistry/unit-reviews/U03.json` and `docs/release/READINESS.md` for the current evidence and remaining Units 4–10. The Units 1–2 checkpoint below is historical.
+Current release-candidate branch: `release/hb1-three-course-rc-20261020`, draft PR #17. **49 draft lessons, 177 MCQs, 98 explicit-answer checks, 299 sections and seven original figures** cover Units 1–5. Sixteen of the official 34 topics have draft notes; Units 6–10 are explicitly not authored. Human academic approval remains null and normal student assets contain no draft teaching or question text. See [permanent three-course readiness](../release/READINESS.md).
 
-This is an original instructional development checkpoint, not academic approval. The official attached outline establishes ten units and 34 listed subtopics. Its five course outcomes are transcribed with actual PDF p.1 references. The outline is **three actual pages**, despite the starter blueprint's two-page description. Lecture text was read in full for Units 1–2; headings were inventoried for Lectures 3–10. Neither presence of a PDF nor question count proves teaching coverage.
+The available official outline has ten units, 34 subtopics, five outcomes and **three actual PDF pages**. All eleven source identities/page counts are recorded. Lecture text has been read in full for Units 1–5, with selected visual checks; Lectures 6–10 remain heading inventory until their own authoring batches. Presence of a source, a question count or passing software tests does not prove academic completeness.
 
-## Implemented review material
+| Unit | Lessons | MCQs | Review evidence |
+|---|---:|---:|---|
+| 1 — Elemental Composition | 6 | 18 adapted | Candidate-review ledger and source qualifications below |
+| 2 — Evolution | 8 | 16 original | Source/model distinctions below |
+| 3 — Atomic/Periodic Chemistry | 9 | 34 original | unit-reviews/U03.json; docs/release/UNIT03.md |
+| 4 — Bonding/Molecules | 12 | 51 original | unit-reviews/U04.json; docs/release/UNIT04.md |
+| 5 — Carbohydrates | 14 | 58 original | unit-reviews/U05.json; docs/release/UNIT05.md |
 
-- Unit 1: six independently readable concept lessons, 18 selectively adapted candidate MCQs, 12 explicit-answer concept checks. Atom/isotope/ion distinctions; nuclear origins; CHONPS/abundance/essentiality; carbon bonding; biological selection; mineral functions and toxic interference.
-- Unit 2: eight original concept lessons, 16 original MCQs, 16 explicit-answer concept checks. Open systems; habitability; origin hypotheses and experimental controls; precursor chemistry; polymer assembly; templates/RNA; compartments; metabolic-development models.
-- All 14 lessons contain goals, original explanatory teaching, a worked reasoning example, qualifications/misconceptions, concept checks and takeaways. Two original comparison tables clarify atomic changes and compartment models. No copied slide figures, lecturer PDFs or confidential kit files are included.
-- Unit 1 candidates retain their IDs and a provenance/change ledger. Misleadingly easy distractors were replaced, rationales expanded, and correct options redistributed while preserving the verified answer meaning. Q018 now assesses controlled functional evidence rather than repeating Q014's environmental-presence inference. None is an official past examination question.
-- Stable concept/section links connect notes and related practice in both directions. Notes and unit navigation work with zero questions. Units 3–10 are catalogue entries explicitly marked not authored, rather than empty “completed” lessons.
+Notes remain usable without questions; practice and precise feedback links use existing per-course owner transactions. Original Unit 1 candidate IDs/provenance remain intact. The Unit 5 regression ledger verifies byte-preservation of the prior 35 notes and 119 assessment objects. New material remains a draft and is not an official past paper. Course outcomes with authored notes remain labelled partial, never complete approval; the enzyme outcome still has no authored batch.
 
-## Source discrepancies and decisions
+## Source discrepancies and decisions from the foundation
 
 | Actual source page | Concern | Decision / remaining review |
 |---|---|---|
@@ -33,17 +35,15 @@ This is an original instructional development checkpoint, not academic approval.
 | L2 actual pp.41–45 | Printed page-number jump; protocell / metabolic sequence certainty | Use actual PDF numbering; distinguish droplets, micelles and vesicles, and models from historical proof. |
 | L10 pp.10,27 (kit flags) | Linolenic-acid and ganglioside/sulfatide concerns | Pending independent verification before Unit 10 authoring. No associated notes/questions imported. |
 
-The first two units' topics have draft teaching; they are **not certified complete syllabus coverage**. Four of the five official course outcomes have no authored teaching batch yet. Coverage JSON lists notes coverage and question coverage separately. Human academic review must inspect explanations, options, figure decisions and source differences; authoring and automated tests do not supply that approval.
 
-## Evidence and withheld material
+Subsequent source discrepancies are in the unit-specific ledgers. Unit 3 qualifies atomic models, transition-ion configuration, modern groups and conditional periodic trends. Unit 4 separates domain geometry, polarity, bonding models, E/Z/CIP, D/L/rotation and meso symmetry. Unit 5 qualifies clinical/diet ranges, galactosaemia guarantees, derivative/polymer chemistry, phosphorolysis products, GAG exceptions and assay timing/calibration. Unsupported statements are not turned into assessment keys.
 
-`content/biological-chemistry/catalog.json` records all eleven PDF page counts and SHA-256 values. `source-evidence.json` records 48 selected literal text anchors and six selected visual pages. `npm run content:biol157` checks structural bounds and writes a reproducible coverage report. Anchors were checked against local authorised extractions; CI cannot re-read PDFs that are deliberately absent from Git. These are selected evidence points, not verification of every figure in ten presentations.
+## Evidence and assessment limits
 
-No candidate question is currently in a separate BIOL157 withheld-question bank: all 34 adapted/original items are internal drafts, with reviewer null and student release blocked. Unsupported source statements above are excluded from assessed answers. This is independent of Computer Appreciation's **four withheld questions**, which this PR does not alter.
+All eleven private PDF hashes/page counts and **203 literal page anchors** match the authorised files. Thirty-nine selected visual pages across Lectures 1–5 were inspected (1+5+4+8+21), separately from text anchoring. New original diagrams do not copy source images. CI validates structure and regression fixtures but cannot re-read private PDFs absent from Git. Secondary-source CAPTCHA/timeouts and search-only evidence are explicitly recorded; no full-text certification is inferred.
+
+There is no separate BIOL157 withheld-question bank at this checkpoint: all 177 adapted/original items are protected drafts with reviewer null. Unsupported source statements are excluded from assessed answers. Computer Appreciation independently retains four withheld questions, unaffected by this batch. No physical carbohydrate bench test or clinical diagnostic performance was measured.
 
 ## Exact next batch
 
-1. Academic reviewer checks Units 1–2 and the discrepancy table, especially early-origin model scope and mineral-function wording.
-2. Author Unit 3 from actual Lecture 3 pp.3–51: atomic models, quantum numbers/configuration, Aufbau/Pauli/Hund, configurations and periodic trends. Verify exceptions, tables and worked examples before questions. Its official outline reference is actual p.1.
-3. Unit 4 follows actual Lecture 4: bonding/geometry, intermolecular forces, structural/stereoisomerism and functional groups; independently inspect diagrams and stereochemical notation.
-4. Continue Units 5–10 in meaningful reviewed batches. Inspect reaction/assay figures, carbohydrate tests, nucleic-acid distinctions, protein architecture, enzyme kinetics/regulation and lipid discrepancies. Do not import complete slide decks or mark outcomes covered by catalogue entries alone.
+Read all 52 actual pages of Lecture 6 and the official outline's four Nucleic Acids subtopics. Author foundations and mechanisms for purines/pyrimidines, nucleosides/nucleotides, DNA and RNA, with verified structural diagrams, applications, concept checks and original section-linked MCQs. Deliver and test that unit before Units 7–10. Retain human review, publication and isolated-preview gates; no current draft is academically approved by authoring or automated tests.

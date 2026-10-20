@@ -17,7 +17,7 @@ try{
  await frame.locator('.course').filter({hasText:'Biological Chemistry'}).click();
  await frame.getByRole('button',{name:'Open Study Blocks',exact:true}).click();
  assert.equal(await frame.locator('.cell-block-card').count(),10);
- await frame.getByRole('button',{name:'Open Carbohydrates',exact:true}).click();
+ await frame.getByRole('button',{name:'Open Nucleic Acids',exact:true}).click();
  await frame.getByText(/Teaching for this unit has not yet been authored/).waitFor();
  let dashboard=page.frames().find(f=>f.url().includes('/dashboard/index.html'));
  const bioCount=await dashboard.evaluate(()=>DominanceBiologicalContent.questions.length);
@@ -75,6 +75,19 @@ try{
  console.log('PASS:',seenFigures.size,'academic figures render without clipped labels.');
  await page.screenshot({path:'/tmp/biol157-mobile.png'});
  console.log('PASS:',routes.length,'lessons /',routes.reduce((n,l)=>n+l.parts,0),'sections at390px.');
+ // New carbohydrate content uses the same native concept-practice and precise feedback routes.
+ await dashboard.evaluate(()=>openTopic('lesson:BC0503:1'));
+ await frame.getByRole('button',{name:'Practise this concept',exact:true}).click();
+ await frame.locator('.answer').first().click();
+ await frame.getByRole('button',{name:'Review responses',exact:true}).click();
+ await frame.getByRole('button',{name:/^Submit practice/}).click();
+ const carbohydrateDetails=frame.locator('#quizArea details').first();await carbohydrateDetails.locator('summary').click();
+ await carbohydrateDetails.getByText(/^Source: BIOL 157_Lecture 5/).waitFor();
+ const carbohydrateStem=await carbohydrateDetails.locator('h3').textContent();
+ const expectedTitle=await dashboard.evaluate(stem=>{const q=DominanceBiologicalContent.questions.find(q=>q.question===stem),l=DominanceBiologicalContent.lessons.find(l=>l.id===q.lesson);return l.sections.find(s=>s.id===q.sectionId).title},carbohydrateStem);
+ await frame.getByRole('button',{name:'Study this concept',exact:true}).click();
+ await frame.getByRole('heading',{name:expectedTitle,exact:true}).waitFor();
+ console.log('PASS: Unit 5 concept practice, source feedback and exact note-section return.');
  // Combined app regression against the existing Cell bank.
  await dashboard.evaluate(()=>openCourse('Cell Structure','HB1 · Semester 1'));
  await dashboard.evaluate(()=>openTopic('lesson:CO01:0'));

@@ -3997,5 +3997,2104 @@
         ]
       }
     ]
+  },
+  {
+    "id": "BIOL157-U05-Q001",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C01",
+    "lesson": "BC0501",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which observation best shows why the (CH₂O)n pattern alone cannot define a carbohydrate?",
+    "options": [
+      "Acetic acid can fit the atom ratio without being a monosaccharide",
+      "The presence of one carbonyl group alone establishes carbohydrate identity",
+      "The six-carbon formula applies unchanged to every sugar derivative",
+      "Cyclisation removes a sugar from the carbohydrate class"
+    ],
+    "letter": "A",
+    "explanation": "Atom ratios do not establish the polyhydroxy carbonyl connectivity. Acetic acid supplies a counterexample to sufficiency, while deoxyribose illustrates that modified carbohydrates need not retain the ratio. Neither oxygen alone nor a six-carbon requirement defines the class.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            2,
+            8
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q002",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C01",
+    "lesson": "BC0501",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "An open-chain sugar has six carbons and a ketone at C2. Which combined classification fits?",
+    "options": [
+      "Ketotetrose",
+      "Aldopentose",
+      "Ketohexose",
+      "Aldotriose"
+    ],
+    "letter": "C",
+    "explanation": "Hexose counts six carbons and ketose identifies the open-chain ketone. Pentose, triose and tetrose give the wrong carbon counts. This classification does not by itself establish D/L or optical sign.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            2,
+            8
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q003",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C01",
+    "lesson": "BC0501",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Using 4 kcal/g for digestible carbohydrate, what energy estimate follows from 30 g?",
+    "options": [
+      "120 kcal",
+      "240 kcal",
+      "7.5 kcal",
+      "30 kcal"
+    ],
+    "letter": "A",
+    "explanation": "Multiply mass by the stated factor: 30 g×4 kcal/g=120 kcal. Dividing produces 7.5 with inappropriate reasoning; treating mass as energy or doubling the factor also fails. The assumption concerns digestible carbohydrate, not a universal direct energy yield from cellulose.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            2,
+            8
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q004",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C01",
+    "lesson": "BC0501",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which statement best compares a carbohydrate’s biological roles?",
+    "options": [
+      "Carbohydrates can contribute to fuel, storage, structure and recognition",
+      "Every carbohydrate derivative is a polysaccharide",
+      "Amino-sugar substitution prevents the residue from joining a structural glycan",
+      "All carbohydrate serves only as a free blood sugar"
+    ],
+    "letter": "A",
+    "explanation": "The class includes fuel molecules, storage glucans, structural glycans and recognition-related residues. Derivative describes chemical modification, whereas polymer size describes unit count; the two classifications are not interchangeable. Amino-sugar derivatives contribute to chitin and peptidoglycan.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            2,
+            8
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q005",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C02",
+    "lesson": "BC0502",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "In a conventional open-chain aldohexose Fischer projection, which centre determines the D/L family?",
+    "options": [
+      "C2, because it is the first OH-bearing carbon",
+      "C5, the stereocentre furthest from the carbonyl",
+      "C6, because every terminal CH₂OH is a stereocentre",
+      "C1, because it is the aldehyde carbon"
+    ],
+    "letter": "B",
+    "explanation": "For this aldohexose the reference stereocentre furthest from the carbonyl is C5. C1 is planar carbonyl carbon and C6 has two identical hydrogens. The position of one nearer OH does not replace the reference rule.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            8,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "SUGARRINGS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q006",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C02",
+    "lesson": "BC0502",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "D-glucose has OH positions right,left,right,right at C2–C5; another sugar has left,left,right,right. What is their relationship?",
+    "options": [
+      "C2 epimers",
+      "D/L enantiomers",
+      "C4 epimers",
+      "Constitutional isomers with different carbonyl positions"
+    ],
+    "letter": "A",
+    "explanation": "Only the C2 configuration changes while connectivity and the C5 D-reference remain the same. That is an epimer relationship, specifically glucose/mannose. Enantiomers would reverse all corresponding stereocentres; a carbonyl-connectivity change is a different isomer category.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            8,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "SUGARRINGS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q007",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C02",
+    "lesson": "BC0502",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "D-glucose and D-galactose differ at C4. Which description is correct?",
+    "options": [
+      "They are the α and β anomers of one pyranose",
+      "They are mirror-image D/L partners",
+      "They are C4 epimers and diastereomers",
+      "They differ only in carbon count"
+    ],
+    "letter": "C",
+    "explanation": "An epimer differs at one stereocentre with the same connectivity; these two are C4 epimers. Anomers differ at the anomeric centre, C1 for glucose-type aldoses, rather than C4. Shared D family does not make all stereocentres identical.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            8,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "SUGARRINGS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q008",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C02",
+    "lesson": "BC0502",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "An ordinary open-chain aldohexose has four stereocentres. What is its unconstrained maximum configuration count?",
+    "options": [
+      "16",
+      "32",
+      "4",
+      "8"
+    ],
+    "letter": "A",
+    "explanation": "The stated maximum is 2⁴=16, forming eight D/L pairs for this open-chain series. Counting only the D family gives eight rather than the requested total. Cyclisation creates an additional anomeric relationship that is outside this particular open-chain count.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            8,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "SUGARRINGS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q009",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C02",
+    "lesson": "BC0502",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which conclusion follows from a sugar being assigned D?",
+    "options": [
+      "Every OH in its Fischer projection lies on the right",
+      "Its reference configuration belongs to the D family; measured rotation is separate",
+      "Its anomeric centre must be β",
+      "Its optical rotation must be positive"
+    ],
+    "letter": "B",
+    "explanation": "D specifies a reference stereochemical relationship, not measured rotation, every OH position or anomeric configuration. Those properties require their own structural or experimental evidence. D-fructose demonstrates why the D descriptor is not a universal plus-sign rule.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            8,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "SUGARRINGS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q010",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C03",
+    "lesson": "BC0503",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Glucose closes through reaction of C5 OH with C1. How many atoms are in the resulting pyranose ring?",
+    "options": [
+      "Six: five carbons and one oxygen",
+      "Seven, because all six carbons and oxygen enter the ring",
+      "Six carbons with no ring oxygen",
+      "Five, because only carbons count as ring atoms"
+    ],
+    "letter": "A",
+    "explanation": "The ring contains C1–C5 plus the oxygen originally in the C5 hydroxyl, while C6 remains exocyclic. Pyranose counts ring atoms rather than total molecular carbons. Ignoring oxygen or putting every carbon into the ring gives a wrong count.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            13,
+            14
+          ],
+          [
+            20,
+            20
+          ]
+        ]
+      },
+      {
+        "source": "SUGARRINGS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q011",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C03",
+    "lesson": "BC0503",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which carbon becomes anomeric when the illustrated fructofuranose forms from open-chain fructose?",
+    "options": [
+      "C1, because it is terminal",
+      "C2, the original ketone carbon",
+      "C5, because it supplies the hydroxyl oxygen",
+      "C6, because it is outside the ring"
+    ],
+    "letter": "B",
+    "explanation": "The former carbonyl carbon becomes anomeric. Fructose is a ketose with carbonyl at C2, whereas glucose has anomeric C1. The carbon bearing the attacking OH supplies the ring-forming oxygen but is not thereby the new anomeric carbon.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            13,
+            14
+          ],
+          [
+            20,
+            20
+          ]
+        ]
+      },
+      {
+        "source": "SUGARRINGS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q012",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C03",
+    "lesson": "BC0503",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "In the stated D-glucopyranose Haworth view, CH₂OH is up and anomeric OH is down. Which assignment follows?",
+    "options": [
+      "No assignment unless optical rotation is measured",
+      "α, because OH is trans to the reference CH₂OH",
+      "β, because every D sugar has β configuration",
+      "L, because any down OH reverses the family"
+    ],
+    "letter": "B",
+    "explanation": "For this defined D-glucopyranose view the trans relationship is α. Measured rotation is unnecessary for a structural anomer assignment, and one down OH does not change the D/L reference centre. The shortcut must not be applied unchanged to arbitrary L-series drawings.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            13,
+            14
+          ],
+          [
+            20,
+            20
+          ]
+        ]
+      },
+      {
+        "source": "SUGARRINGS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q013",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C03",
+    "lesson": "BC0503",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "What molecular process explains ordinary glucose mutarotation?",
+    "options": [
+      "Conversion of all D-glucose to L-glucose",
+      "Loss of one water molecule on every ring opening",
+      "Rotation of every molecule through 180° in the liquid",
+      "Reversible ring opening and closure that interconvert anomers"
+    ],
+    "letter": "D",
+    "explanation": "The free hemiacetal can open to the carbonyl form and close with either anomeric configuration, changing the mixture and its optical rotation. The remote D/L reference remains intact. Physical tumbling and a compulsory dehydration step do not explain this equilibrium.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            13,
+            14
+          ],
+          [
+            20,
+            20
+          ]
+        ]
+      },
+      {
+        "source": "SUGARRINGS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q014",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C03",
+    "lesson": "BC0503",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "What is the net water loss in ordinary intramolecular glucose hemiacetal ring closure?",
+    "options": [
+      "Two H₂O per ring",
+      "No obligatory net water loss",
+      "Six H₂O because six carbons are present",
+      "One H₂O per ring"
+    ],
+    "letter": "B",
+    "explanation": "Hemiacetal formation is addition and proton rearrangement within the molecule, retaining the molecular formula. It differs from the ideal condensation accounting used to join two free sugar units through an O-glycosidic acetal bond. Carbon count does not determine a water-loss count.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            13,
+            14
+          ],
+          [
+            20,
+            20
+          ]
+        ]
+      },
+      {
+        "source": "SUGARRINGS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q015",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C03",
+    "lesson": "BC0503",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "For the stated Fischer-to-Haworth convention, D-glucose has its C3 OH on the Fischer left. Where does that OH point in the Haworth mapping?",
+    "options": [
+      "Up",
+      "Down",
+      "It becomes the ring oxygen at C3",
+      "Its position alone makes the sugar L"
+    ],
+    "letter": "A",
+    "explanation": "In this defined mapping, Fischer-left at C2–C4 maps up and Fischer-right maps down. The C5 hydroxyl oxygen forms the illustrated ring oxygen, not C3 OH. D/L is assessed at the designated reference centre rather than whichever substituent is being mapped.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            13,
+            14
+          ],
+          [
+            20,
+            20
+          ]
+        ]
+      },
+      {
+        "source": "SUGARRINGS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q016",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C04",
+    "lesson": "BC0504",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Oxidising glucose at terminal C6 while retaining the anomeric system produces which example?",
+    "options": [
+      "Gluconic acid",
+      "Glucuronic acid",
+      "Sorbitol",
+      "Glucose 1-phosphate"
+    ],
+    "letter": "B",
+    "explanation": "C6 oxidation yields the uronic-acid derivative glucuronic acid. C1 oxidation instead gives gluconic acid, carbonyl reduction gives sorbitol and phosphorylation is a different substitution. Position is the key discriminator, not the similar spelling of the acid names.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            15,
+            16
+          ],
+          [
+            32,
+            32
+          ]
+        ]
+      },
+      {
+        "source": "GALACTURONATE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q017",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C04",
+    "lesson": "BC0504",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Oxidation of both terminal positions of glucose gives which family?",
+    "options": [
+      "Unmodified ketose",
+      "Aldaric acid",
+      "Aldonic acid only",
+      "Alditol"
+    ],
+    "letter": "B",
+    "explanation": "Oxidation at both termini gives an aldaric acid such as glucaric acid. Aldonic identifies the aldehyde-end oxidation alone; an alditol results from reduction rather than this oxidation. The answer follows the sites changed, not a new carbon count.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            15,
+            16
+          ],
+          [
+            32,
+            32
+          ]
+        ]
+      },
+      {
+        "source": "GALACTURONATE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q018",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C04",
+    "lesson": "BC0504",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Why can reduction of fructose produce more than one alditol?",
+    "options": [
+      "Every product must have a glycosidic bond",
+      "Reduction necessarily changes all D centres into L centres",
+      "Reduction always deletes one carbon",
+      "The carbonyl carbon can become a new stereocentre with alternative configurations"
+    ],
+    "letter": "D",
+    "explanation": "Reduction at the ketone can create a stereocentre, allowing products such as sorbitol and mannitol. It does not require carbon deletion, glycoside formation or inversion of every existing stereocentre. This differs from reducing an aldehyde to a terminal CH₂OH.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            15,
+            16
+          ],
+          [
+            32,
+            32
+          ]
+        ]
+      },
+      {
+        "source": "GALACTURONATE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q019",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C04",
+    "lesson": "BC0504",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which functional description distinguishes a sugar lactone?",
+    "options": [
+      "Any ring containing one OH and one OR at an anomeric carbon",
+      "A sugar with all carbonyl groups reduced to alcohol",
+      "A phosphate attached at C6",
+      "A cyclic ester formed from a sugar-acid carboxyl group and an OH"
+    ],
+    "letter": "D",
+    "explanation": "A lactone is a cyclic ester, so its carbonyl and ester oxygen pattern differ from a hemiacetal. Alditol and phosphate describe other derivative changes. The presence of a ring by itself cannot select among these functional classes.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            15,
+            16
+          ],
+          [
+            32,
+            32
+          ]
+        ]
+      },
+      {
+        "source": "GALACTURONATE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q020",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C05",
+    "lesson": "BC0505",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "What does 2-deoxy mean in 2-deoxyribose?",
+    "options": [
+      "The C2 OH of ribose is replaced by H",
+      "Every OH group has been removed",
+      "A phosphate replaces the C2 carbon",
+      "C2 has been removed from a six-carbon sugar"
+    ],
+    "letter": "A",
+    "explanation": "The position-specific substitution removes one oxygen relative to ribose while keeping the five-carbon backbone. Deoxy does not mean no oxygen anywhere or removal of the named carbon. The distinction underlies the RNA/DNA sugar comparison.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            7,
+            7
+          ],
+          [
+            16,
+            18
+          ],
+          [
+            23,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q021",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C05",
+    "lesson": "BC0505",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which description fits fructose 1,6-bisphosphate?",
+    "options": [
+      "Two separate phosphate ester groups at C1 and C6",
+      "One obligatory P–O–P chain attached only at C1",
+      "A six-carbon molecule with phosphate replacing every OH",
+      "A diphosphate attached at C6 with the same connectivity as two separate phosphate esters"
+    ],
+    "letter": "A",
+    "explanation": "Bisphosphate specifies two phosphate groups at separate positions. Diphosphate connectivity instead includes linked phosphate units. Counting phosphorus atoms without inspecting their connections cannot distinguish these cases.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            7,
+            7
+          ],
+          [
+            16,
+            18
+          ],
+          [
+            23,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q022",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C05",
+    "lesson": "BC0505",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Why does methyl glucoside lack ordinary mutarotation at its glycosidic anomeric centre?",
+    "options": [
+      "Its C5 reference centre changes from D to L without ring opening",
+      "Its anomeric OH has become a full acetal linkage that does not ordinarily reopen without cleavage",
+      "Its methyl substituent reverses every original Fischer stereocentre",
+      "Its anomeric configuration changes only by rotation about the methyl C–O bond"
+    ],
+    "letter": "B",
+    "explanation": "The glycoside locks the anomeric centre as an acetal rather than a free hemiacetal. Appropriate hydrolysis can restore the free centre. A methyl group does not by itself eliminate stereochemistry or the sugar backbone; its actual attachment is what matters.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            7,
+            7
+          ],
+          [
+            16,
+            18
+          ],
+          [
+            23,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q023",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C05",
+    "lesson": "BC0505",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which repeating residue is characteristic of chitin?",
+    "options": [
+      "Only free galactose without links",
+      "Glucose 1-phosphate as an obligatory phosphate polymer",
+      "N-Acetylglucosamine",
+      "Unmodified fructose"
+    ],
+    "letter": "C",
+    "explanation": "Chitin uses an amino-sugar derivative, N-acetylglucosamine, in β(1→4) links. N-acetylation changes the amino substitution and does not make the residue unmodified glucose. Fructose and the phosphate option describe different chemistry.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            7,
+            7
+          ],
+          [
+            16,
+            18
+          ],
+          [
+            23,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q024",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C06",
+    "lesson": "BC0506",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which comparison correctly separates low lactase activity from classic galactosaemia?",
+    "options": [
+      "Galactosaemia proves an immune allergy to milk protein",
+      "Lactase deficiency specifically blocks fructose phosphorylation",
+      "Both are defined by identical failure to make intestinal lactase",
+      "Low lactase affects lactose cleavage; classic GALT deficiency impairs downstream galactose metabolism"
+    ],
+    "letter": "D",
+    "explanation": "The defects act at different pathway locations: intestinal disaccharide hydrolysis versus metabolic handling of galactose 1-phosphate in classic disease. Milk-protein allergy is an immunological issue rather than either enzyme defect. Other galactosaemia forms need their own enzyme-specific description.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            19,
+            24
+          ],
+          [
+            27,
+            28
+          ]
+        ]
+      },
+      {
+        "source": "GALACTOSEMIA"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q025",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C06",
+    "lesson": "BC0506",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is the slide’s claim that diet entirely prevents every effect of classic galactosaemia not adopted?",
+    "options": [
+      "Long-term complications can occur despite early appropriate dietary management",
+      "Every case is simply lactose intolerance",
+      "All galactose disorders are caused by one identical enzyme defect",
+      "Early management has no benefit at all"
+    ],
+    "letter": "A",
+    "explanation": "Early management helps prevent severe acute consequences, but available clinical evidence records long-term complications despite appropriate restriction. Rejecting an absolute guarantee does not negate the benefit of treatment. This is a qualified disease-mechanism comparison rather than individual management advice.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            19,
+            24
+          ],
+          [
+            27,
+            28
+          ]
+        ]
+      },
+      {
+        "source": "GALACTOSEMIA"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q026",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C06",
+    "lesson": "BC0506",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which statement accurately compares glucose and fructose?",
+    "options": [
+      "They are C2 epimers with identical open-chain connectivity",
+      "They share a hexose formula but differ in aldehyde versus ketone connectivity",
+      "Both must have the same anomeric carbon number because both are hexoses",
+      "The aldose/ketose distinction changes to D/L when either sugar cyclises"
+    ],
+    "letter": "B",
+    "explanation": "Both are hexoses, but glucose is an aldose and fructose a ketose in their open-chain forms. A different carbonyl position is constitutional isomerism rather than inversion at one stereocentre. The classification remains useful when their common solution forms are cyclic.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            19,
+            24
+          ],
+          [
+            27,
+            28
+          ]
+        ]
+      },
+      {
+        "source": "GALACTOSEMIA"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q027",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C07",
+    "lesson": "BC0507",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "In Glcα(1→4)Glc, which feature does α specify?",
+    "options": [
+      "The configuration of the first glucose’s anomeric glycosidic donor",
+      "The obligatory current configuration of the second free anomeric OH",
+      "The optical sign of the entire sample",
+      "The fourth carbon being outside both rings"
+    ],
+    "letter": "A",
+    "explanation": "The α descriptor belongs to the donor C1 linkage. A free anomeric centre on the second residue can mutarotate without changing that donor linkage. Configuration, bond position and measured rotation must be interpreted separately.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            18,
+            18
+          ],
+          [
+            25,
+            30
+          ]
+        ]
+      },
+      {
+        "source": "DISACCHARIDES"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q028",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C07",
+    "lesson": "BC0507",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is intact sucrose nonreducing in the standard untreated comparison?",
+    "options": [
+      "Every fructose-containing compound is nonreducing",
+      "Both anomeric centres participate in the glycosidic linkage",
+      "Its glucose and fructose units have different carbon counts",
+      "Its glucose-to-fructose link leaves the fructose anomeric OH free"
+    ],
+    "letter": "B",
+    "explanation": "Glucose C1 and fructose C2 are both glycosidically engaged, leaving no free anomeric hemiacetal/hemiketal. Free fructose can respond in alkaline reducing tests, so its presence alone cannot explain the result. Hydrolysis changes the available chemistry.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            18,
+            18
+          ],
+          [
+            25,
+            30
+          ]
+        ]
+      },
+      {
+        "source": "DISACCHARIDES"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q029",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C07",
+    "lesson": "BC0507",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Two free hexoses form one ideal disaccharide link. Using 180 g/mol per hexose and 18 g/mol per water, what product molar mass follows?",
+    "options": [
+      "324 g/mol",
+      "180 g/mol",
+      "360 g/mol",
+      "342 g/mol"
+    ],
+    "letter": "D",
+    "explanation": "Add two 180-g/mol units and subtract one 18-g/mol water: 360−18=342 g/mol. Subtracting twice gives 324, while 360 omits the linking-water accounting. This is ideal stoichiometry, not a spontaneous synthetic procedure.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            18,
+            18
+          ],
+          [
+            25,
+            30
+          ]
+        ]
+      },
+      {
+        "source": "DISACCHARIDES"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q030",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C07",
+    "lesson": "BC0507",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "How many glycosidic links connect six sugar units in an acyclic connected tree?",
+    "options": [
+      "Six",
+      "Seven",
+      "Twelve",
+      "Five"
+    ],
+    "letter": "D",
+    "explanation": "A connected tree with n units has n−1 links, giving five. Branching does not change that count without an added cycle or cross-link. The assumptions must be stated; a cyclic six-unit ring would instead require six links.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            18,
+            18
+          ],
+          [
+            25,
+            30
+          ]
+        ]
+      },
+      {
+        "source": "DISACCHARIDES"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q031",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C07",
+    "lesson": "BC0507",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "What formula follows for five connected glucose units with four ideal glycosidic links formed from free C₆H₁₂O₆ units?",
+    "options": [
+      "C₃₀H₆₀O₃₀",
+      "C₃₀H₅₂O₂₆",
+      "C₃₀H₅₀O₂₅",
+      "C₂₄H₄₂O₂₁"
+    ],
+    "letter": "B",
+    "explanation": "Five monomers contribute C₃₀H₆₀O₃₀; losing four H₂O subtracts H₈O₄ to give C₃₀H₅₂O₂₆. Five waters would imply a different link count, while the C24 formula has the wrong number of glucose-derived carbons.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            18,
+            18
+          ],
+          [
+            25,
+            30
+          ]
+        ]
+      },
+      {
+        "source": "DISACCHARIDES"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q032",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C08",
+    "lesson": "BC0508",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which pair has the same glucose units and 1→4 position but differs in the donor’s α/β linkage?",
+    "options": [
+      "Maltose and cellobiose",
+      "Maltose and sucrose",
+      "Lactose and sucrose",
+      "Isomaltose and fructose"
+    ],
+    "letter": "A",
+    "explanation": "Maltose is Glcα(1→4)Glc and cellobiose Glcβ(1→4)Glc. Sucrose changes unit identity and anomeric linkage participation; isomaltose uses 1→6. Enzyme recognition can distinguish the α and β geometries despite shared glucose composition.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            25,
+            30
+          ],
+          [
+            36,
+            36
+          ]
+        ]
+      },
+      {
+        "source": "DISACCHARIDES"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q033",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C08",
+    "lesson": "BC0508",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which products follow ordinary lactose hydrolysis?",
+    "options": [
+      "Glucose and ribose",
+      "Glucose and fructose",
+      "Two fructose units",
+      "Glucose and galactose"
+    ],
+    "letter": "D",
+    "explanation": "Lactase cleaves lactose into glucose and galactose. Glucose plus fructose describes sucrose hydrolysis, not lactose; ribose has a different carbon count. Correct product identification links disaccharide structure to the pathway that receives each sugar.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            25,
+            30
+          ],
+          [
+            36,
+            36
+          ]
+        ]
+      },
+      {
+        "source": "DISACCHARIDES"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q034",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C08",
+    "lesson": "BC0508",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "An untreated sucrose sample is reducing-test negative but becomes positive after suitable hydrolysis. What is the most defensible interpretation?",
+    "options": [
+      "The positive result proves the mixture is pure glucose",
+      "Hydrolysis removed every carbohydrate from the sample",
+      "Intact sucrose was necessarily a reducing sugar all along",
+      "Cleavage released reducing monosaccharides"
+    ],
+    "letter": "D",
+    "explanation": "Hydrolysis releases glucose and fructose with reducing chemistry under the relevant conditions. The paired result does not prove the intact linkage was reducing or identify one pure product. Controls are needed to distinguish genuine chemical change from reagent or handling problems.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            25,
+            30
+          ],
+          [
+            36,
+            36
+          ]
+        ]
+      },
+      {
+        "source": "DISACCHARIDES"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q035",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C09",
+    "lesson": "BC0509",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which comparison distinguishes amylopectin from predominantly unbranched amylose?",
+    "options": [
+      "Amylopectin contains only β(1→4) cellulose chains",
+      "Amylose has no covalent glycosidic bonds",
+      "Amylopectin has α(1→6) branch points in addition to α(1→4) chains",
+      "Amylose is a fructose polymer"
+    ],
+    "letter": "C",
+    "explanation": "Both are glucose storage polymers in the introductory comparison, but amylopectin has branch points. Cellulose’s β(1→4) structure is a different glucan. The difference concerns topology and linkage, not loss of the underlying glycosidic chemistry.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            32,
+            34
+          ],
+          [
+            37,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q036",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C09",
+    "lesson": "BC0509",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why can more frequent branching support rapid glucan mobilisation?",
+    "options": [
+      "It converts every internal sugar into a free monosaccharide",
+      "It creates a free reducing anomeric OH at each branch junction",
+      "It removes the need for any branch-handling enzymes",
+      "It creates more nonreducing ends for simultaneous enzyme action"
+    ],
+    "letter": "D",
+    "explanation": "Branches increase terminal sites accessible to end-acting enzymes. They do not instantly free the residues or eliminate the distinct α(1→6) chemistry. The additional ends are normally nonreducing rather than a new free anomeric carbon at every junction.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            32,
+            34
+          ],
+          [
+            37,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q037",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C09",
+    "lesson": "BC0509",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "A linear glucan tree gains two side chains without forming cycles. How many nonreducing ends are present under the lesson’s model?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Six"
+    ],
+    "letter": "C",
+    "explanation": "The starting chain has one nonreducing end, and each added side chain adds one, yielding three. The ordinary reducing-root region remains one; molecular attachment may affect its accessibility. Counting all terminal sites as reducing would confuse which carbon is free.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            32,
+            34
+          ],
+          [
+            37,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q038",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C09",
+    "lesson": "BC0509",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Does one potential reducing-root region guarantee a strong Benedict response from a long polysaccharide?",
+    "options": [
+      "No, because every polymer anomeric carbon must be a permanently free aldehyde",
+      "Yes, independent of polymer size or attachment",
+      "No; terminal-site concentration and accessibility can be low relative to residue mass",
+      "Yes, because every glucose residue is a free reducing end"
+    ],
+    "letter": "C",
+    "explanation": "A long polymer has few terminal reducing sites relative to its many residues, and biological attachment can further affect accessibility. Internal anomeric carbons still exist but are glycosidically engaged. Structural end accounting and an obvious bulk colour response are distinct levels of evidence.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            32,
+            34
+          ],
+          [
+            37,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q039",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C10",
+    "lesson": "BC0510",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which product does the source starch-phosphorylase diagram identify?",
+    "options": [
+      "Cellobiose as the only possible product",
+      "Free glucose only, with no phosphate",
+      "Glucose 1-phosphate",
+      "Fructose 1,6-bisphosphate"
+    ],
+    "letter": "C",
+    "explanation": "Phosphorolysis uses inorganic phosphate and releases glucose 1-phosphate from a suitable chain end. This is not the same as hydrolysis yielding a free sugar. The slide’s accompanying broad phrase must be interpreted with its explicitly labelled sugar-phosphate product.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            34,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q040",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C10",
+    "lesson": "BC0510",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which statement correctly describes α-amylase in the stated comparison?",
+    "options": [
+      "It can only release one free glucose at a time from a nonreducing end",
+      "Its endo action means it cleaves only from an exposed nonreducing terminus",
+      "It cleaves every α(1→6) branch and every β(1→4) cellulose link identically",
+      "It acts internally on suitable α(1→4) chains and leaves further processing necessary"
+    ],
+    "letter": "D",
+    "explanation": "Endo action on α(1→4) links produces shorter chains and products such as maltose/maltotriose. Branches and other linkages require appropriate additional activities. Endo/exo mode, linkage recognition and final absorbable products must be kept separate.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            34,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q041",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C10",
+    "lesson": "BC0510",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Why does iodine give a characteristic colour with suitable amylose preparations?",
+    "options": [
+      "Any free glucose molecule gives the same iodine complex as an amylose helix",
+      "Iodine necessarily reduces copper(II) to copper(I)",
+      "All carbohydrate-containing samples have the same response",
+      "An amylose helix accommodates iodine/polyiodide species"
+    ],
+    "letter": "D",
+    "explanation": "The signal involves organisation of iodine-related species with a helical glucan structure. It is not a copper-reduction assay or a universal colour of individual glucose units. Chain conformation and assay conditions affect the response.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            34,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q042",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C10",
+    "lesson": "BC0510",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "A starch–iodine colour disappears on heating. Why is a cooling comparison useful before claiming hydrolysis?",
+    "options": [
+      "Heating can alter complex organisation without proving bond cleavage",
+      "Cooling automatically recreates all broken glycosidic bonds",
+      "Every heat-induced colour change proves conversion to pure glucose",
+      "A negative iodine colour proves absence of every carbohydrate"
+    ],
+    "letter": "A",
+    "explanation": "Temperature can change organisation of the colour complex, so colour loss alone does not establish cleavage. A cooling comparison and controlled digestion reference help distinguish mechanisms. Cooling is not assumed to reverse glycosidic hydrolysis or uniquely identify a product.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            34,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q043",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C11",
+    "lesson": "BC0511",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which structural comparison explains why human α-amylase does not normally cleave cellulose?",
+    "options": [
+      "Cellulose has β(1→4) glucose links rather than suitable α(1→4) links",
+      "Cellulose must contain a different monosaccharide because its digestibility differs",
+      "Cellulose differs from amylose only in chain length, not glycosidic configuration",
+      "All plant carbohydrate contains the same α linkage"
+    ],
+    "letter": "A",
+    "explanation": "Enzyme recognition depends on linkage geometry, not merely monomer identity. Cellulose and starch can both be glucose polymers while requiring different enzymes. Hydrogen bonding organises cellulose chains but does not replace their covalent glycosidic backbone.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            38,
+            45
+          ]
+        ]
+      },
+      {
+        "source": "GALACTURONATE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q044",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C11",
+    "lesson": "BC0511",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which pair correctly identifies the repeating sugars in bacterial peptidoglycan?",
+    "options": [
+      "N-Acetylglucosamine and galactose with phosphate cross-links instead of peptides",
+      "Glucose and galactose without amino-sugar modification",
+      "N-Acetylglucosamine and N-acetylmuramic acid",
+      "N-Acetylglucosamine alone, with no second alternating sugar or peptide connections"
+    ],
+    "letter": "C",
+    "explanation": "Peptidoglycan combines alternating modified sugars with peptide-associated cross-connections. It is neither an unmodified glucose storage glucan nor a nucleic-acid polymer. Exact peptide details vary among organisms, so the sugar pair is a more stable defining comparison.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            38,
+            45
+          ]
+        ]
+      },
+      {
+        "source": "GALACTURONATE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q045",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C11",
+    "lesson": "BC0511",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Where is lipopolysaccharide located in the standard Gram-negative envelope comparison?",
+    "options": [
+      "As an obligatory part of every Gram-positive plasma membrane",
+      "As an alternative name for the entire peptidoglycan layer",
+      "In the outer membrane as a lipid-associated glycoconjugate",
+      "As a free carbohydrate store in the bacterial cytosol"
+    ],
+    "letter": "C",
+    "explanation": "LPS is a distinct outer-membrane glycoconjugate with lipid A and carbohydrate regions. Peptidoglycan is a separate glycan–peptide network. The organism/envelope context matters; the comparison cannot be generalised to all bacteria or all cells.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            38,
+            45
+          ]
+        ]
+      },
+      {
+        "source": "GALACTURONATE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q046",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C11",
+    "lesson": "BC0511",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which residue name corrects the slide’s abbreviated galacturonan composition label?",
+    "options": [
+      "Unmodified galactose only",
+      "Glycerol",
+      "Fructose 1-phosphate",
+      "Galacturonic acid/galacturonate"
+    ],
+    "letter": "D",
+    "explanation": "The uronan name identifies uronic-acid chemistry, including a carboxyl group. Galactan and galacturonan are therefore not interchangeable polymer names. Glycerol and fructose phosphate have different functional groups and backbones from the requested residue.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            38,
+            45
+          ]
+        ]
+      },
+      {
+        "source": "GALACTURONATE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q047",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C12",
+    "lesson": "BC0512",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "In the common N-linked protein-glycan context, which protein group participates?",
+    "options": [
+      "Any arbitrary nitrogen in every peptide bond",
+      "Only a serine hydroxyl oxygen",
+      "A phosphate oxygen attached to glycogen",
+      "Asparagine side-chain amide nitrogen"
+    ],
+    "letter": "D",
+    "explanation": "N-linked glycosylation in this context specifies the asparagine side-chain amide attachment, whereas common O-linked attachment involves hydroxyl-bearing side chains. The labels identify a specific bond context rather than any occurrence of the element nitrogen.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            46,
+            48
+          ]
+        ]
+      },
+      {
+        "source": "GAGEXCEPTIONS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q048",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C12",
+    "lesson": "BC0512",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why do many GAG-rich extracellular matrices retain substantial water?",
+    "options": [
+      "Their charged groups associate with counterions and water within an organised matrix",
+      "Their negative charge comes exclusively from the core protein rather than their sugar substituents",
+      "Their water retention follows solely from the total number of sugar carbons, regardless of charge",
+      "Every glycan retains the same amount of water regardless of charge and matrix organisation"
+    ],
+    "letter": "A",
+    "explanation": "Carboxylate and sulfate groups often confer negative charge and support hydration. Protein organisation and network interactions still contribute to mechanical behaviour. Hydration is not conversion of water into sugar or a property of nonpolar chains.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            46,
+            48
+          ]
+        ]
+      },
+      {
+        "source": "GAGEXCEPTIONS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q049",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C12",
+    "lesson": "BC0512",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which qualification prevents treating all GAGs as identically O-linked to core-protein serine?",
+    "options": [
+      "Every visible association in a proteoglycan aggregate is a covalent bond",
+      "Hyaluronan lacks that ordinary covalent core attachment, and keratan sulfate has linkage variants",
+      "An N-linked keratan sulfate chain would contradict every possible proteoglycan structure",
+      "Hyaluronan must be covalently linked to core protein through the same serine linker as every sulfated GAG"
+    ],
+    "letter": "B",
+    "explanation": "Common linkage patterns have exceptions. Hyaluronan associates noncovalently with some proteoglycan systems, while keratan sulfate can have different N/O-linked contexts. A source generalisation should not erase those distinct architectures.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            46,
+            48
+          ]
+        ]
+      },
+      {
+        "source": "GAGEXCEPTIONS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q050",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C13",
+    "lesson": "BC0513",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "What is the defensible meaning of a positive Molisch carbohydrate screen?",
+    "options": [
+      "Its exact glucose concentration is established",
+      "The sample is uniquely pure glucose",
+      "A carbohydrate-associated dehydration/condensation response is present under the test conditions",
+      "The sample contains no glycosidic bonds"
+    ],
+    "letter": "C",
+    "explanation": "Molisch is broad, involving furfural-related products and α-naphthol colour chemistry. A response does not uniquely identify a monosaccharide, establish purity or provide a calibrated concentration. The appropriate controls determine whether the observed interface can be interpreted.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            49,
+            52
+          ]
+        ]
+      },
+      {
+        "source": "MOLISCHOER"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q051",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C13",
+    "lesson": "BC0513",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which test comparison uses orcinol and a pentose-derived furfural response?",
+    "options": [
+      "A copper-specific Benedict reaction",
+      "The iodine–amylose helix test",
+      "Bial’s test",
+      "Seliwanoff’s test with resorcinol"
+    ],
+    "letter": "C",
+    "explanation": "Bial uses orcinol in acidic ferric-ion conditions to support a pentose comparison. Seliwanoff has a different aromatic reagent and kinetic ketose comparison, while Benedict and iodine detect different chemistry. Reagent and mechanism should be matched rather than memorising colour alone.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            49,
+            52
+          ]
+        ]
+      },
+      {
+        "source": "MOLISCHOER"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q052",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C13",
+    "lesson": "BC0513",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why can prolonged Seliwanoff heating weaken a simple ketose-versus-aldose interpretation?",
+    "options": [
+      "Ketoses cannot ever form coloured products",
+      "Colour formation measures only the initial carbonyl identity, independent of later reactions",
+      "A delayed colour uniquely identifies the original sample as free fructose",
+      "The discrimination depends on reaction rate and can be confounded by rearrangement or hydrolysis"
+    ],
+    "letter": "D",
+    "explanation": "The intended contrast is faster ketose colour under controlled conditions, not an absolute permanent colour prohibition for all other samples. Hydrolysable sucrose can supply fructose, and extended reactions can blur categories. A standardised comparison is needed.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            49,
+            52
+          ]
+        ]
+      },
+      {
+        "source": "MOLISCHOER"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q053",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C13",
+    "lesson": "BC0513",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "A reagent blank develops the same unexpected colour as the unknown. What should happen to the interpretation?",
+    "options": [
+      "Accept the unknown as definitively positive regardless",
+      "Investigate background/reagent validity before accepting the sample classification",
+      "Record a quantitative glucose concentration from colour alone",
+      "Conclude the unknown contains no carbohydrate with certainty"
+    ],
+    "letter": "B",
+    "explanation": "The blank reveals signal that does not depend on the unknown, so the run cannot support the intended sample conclusion without investigation. Neither an automatic positive nor an automatic negative follows. Controls establish interpretability rather than acting as optional decoration.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            49,
+            52
+          ]
+        ]
+      },
+      {
+        "source": "MOLISCHOER"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q054",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C14",
+    "lesson": "BC0514",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "During a positive Benedict reducing-sugar reaction, which redox description is correct?",
+    "options": [
+      "The sugar is oxidised while Cu²⁺ is reduced toward Cu⁺",
+      "The sugar and Cu²⁺ are both reduced",
+      "Cu⁺ is oxidised to Cu²⁺ to create the stated precipitate",
+      "The brick-red solid must be elemental copper"
+    ],
+    "letter": "A",
+    "explanation": "The sugar acts as the reducing agent and is itself oxidised; copper(II) is reduced to copper(I), commonly observed as Cu₂O. Oxidation of copper in the opposite direction or equating the precipitate with metallic copper misidentifies the reaction.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            53,
+            57
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q055",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C14",
+    "lesson": "BC0514",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why can fructose give a positive alkaline Benedict reaction despite being a ketose?",
+    "options": [
+      "Benedict reagent is glucose-specific and cannot detect products arising from ketose rearrangement",
+      "Alkaline rearrangement can generate reactive aldose forms through enediol chemistry",
+      "Every ketose is permanently nonreducing",
+      "A ketose must contain a free aldehyde in its original structure to react under any conditions"
+    ],
+    "letter": "B",
+    "explanation": "The alkaline chemistry permits rearrangement, so the drawn ketone alone is not sufficient to predict a negative result. This is distinct from claiming all ketones under all conditions reduce copper. Structure must be considered with the actual assay environment.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            53,
+            57
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q056",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C14",
+    "lesson": "BC0514",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "A Barfoed precipitate appears only after prolonged heating. Which conclusion is justified?",
+    "options": [
+      "The mono/disaccharide distinction is independent of heating duration and acid hydrolysis",
+      "The observation establishes an exact blood-glucose concentration",
+      "The original sample was certainly a pure monosaccharide",
+      "Slow disaccharide reaction or hydrolysis can confound the timed classification"
+    ],
+    "letter": "D",
+    "explanation": "Barfoed relies on a controlled rate contrast; the source itself allows slower disaccharide responses. A late positive cannot uniquely classify the starting sample. Concentration, conditions and references must be checked rather than applying an unlimited-time rule.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            53,
+            57
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q057",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C14",
+    "lesson": "BC0514",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is an uncalibrated Benedict colour ladder insufficient for an exact glucose concentration?",
+    "options": [
+      "The test directly distinguishes glucose from every other reducing substance",
+      "Colour intensity is independent of heating and sample composition",
+      "The illustrative colour categories alone provide a matrix-independent concentration",
+      "Colour depends on conditions, matrix and reducing substances, and the assay is not uniquely glucose-specific"
+    ],
+    "letter": "D",
+    "explanation": "The signal is influenced by preparation and multiple reducing components. A validated calibration and appropriate sample context are required for quantitative interpretation; the lecture illustration alone is not a measurement made on the unknown.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            53,
+            57
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U05-Q058",
+    "unit": "U05",
+    "conceptId": "BIOL157-U05-C14",
+    "lesson": "BC0514",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "The unknown is negative but the known positive control also fails to react. Which result should be recorded?",
+    "options": [
+      "A certified absence of every carbohydrate",
+      "An inconclusive run requiring investigation or repeat under valid conditions",
+      "A valid negative classification because reagent performance does not affect negative samples",
+      "A conclusive negative because matching the failed positive control validates the unknown"
+    ],
+    "letter": "B",
+    "explanation": "A failed positive control does not demonstrate that the reagent/procedure could detect the intended target. The unknown’s negative response is therefore not reliable evidence of absence. Matching colours cannot replace proof of assay performance.",
+    "difficulty": "moderate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L5",
+        "pages": [
+          [
+            53,
+            57
+          ]
+        ]
+      }
+    ]
   }
 ]

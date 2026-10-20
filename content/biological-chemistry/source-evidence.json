@@ -1,5 +1,5 @@
 {
-  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages.",
+  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages. Lecture 5 has 58 actual pages but printed numbering reaches 65, with gaps beginning at actual p.15; L5 references always use actual PDF pages.",
   "anchors": [
     {
       "source": "L1",
@@ -882,6 +882,342 @@
       "pdfPage": 68,
       "anchor": "− These compounds are soluble in water and more reactive than ethane",
       "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 2,
+      "anchor": "• By the end of this lecture, students will be able to:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 3,
+      "anchor": "minimised; large amounts in the diet promote obesity and tooth decay",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 4,
+      "anchor": "– In addition, complex carbohydrates, such as cellulose, provide us with",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 5,
+      "anchor": "their derivatives (hemiacetals/hemiketals/acetals/ketals)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 6,
+      "anchor": "– Several blood group antigens and bacterial cell wall monosaccharides",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 7,
+      "anchor": "sometimes called polyhydroxy aldehydes or polyhydroxy ketones",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 8,
+      "anchor": "in several isomeric forms, it is essential to provide their unique name",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 9,
+      "anchor": "Aldose                                     Ketose",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 10,
+      "anchor": "Monosaccharides – Aldoses",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 11,
+      "anchor": "Aldohexoses                                                 Aldotetrose",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 12,
+      "anchor": "Keto***ose   :   *** ulose",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 13,
+      "anchor": "• Monosaccharides exist in cyclic and anomeric forms:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 14,
+      "anchor": "• Monosaccharides exist in cyclic and anomeric forms:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 15,
+      "anchor": "Derivative Forms of Monosaccharides",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 16,
+      "anchor": "Derivative Forms of Monosaccharides",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 17,
+      "anchor": "of cell membranes",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 18,
+      "anchor": "Derivative Forms of Monosaccharides",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 19,
+      "anchor": "energy. Blood glucose concentration is critical to normal body function.",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 20,
+      "anchor": "– Fructose, or levulose and fruit sugar, is the sweetest simple sugar. It",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 21,
+      "anchor": "– Galactose is a crucial hexose found in biological systems, serving as a",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 22,
+      "anchor": "galactosaemia. If the condition is not treated, galactosaemia leads to",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 23,
+      "anchor": "including RNA and various coenzymes that are required by many of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 24,
+      "anchor": "– Deoxyribonucleic acid (DNA), the molecule that carries the genetic",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 25,
+      "anchor": "(galactose-β-1,4-glucose)     (glucose-α-1,4-glucose)               Free anomeric carbon",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 26,
+      "anchor": "starch to maltose. Fermented by yeast, crucial in the brewing of beer",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 27,
+      "anchor": "– It cannot be absorbed directly into the bloodstream; lactose must first",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 28,
+      "anchor": "and diarrhoea that can eventually lead to dehydration. Also, intestinal",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 29,
+      "anchor": "– It cannot be absorbed directly (like lactose) and is hydrolysed by the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 30,
+      "anchor": "– It is a crucial carbohydrate in plants, is water-soluble, and is easily",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 31,
+      "anchor": "• Oligosaccharides occur widely as components of drugs:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 32,
+      "anchor": "Homoglycan                      Galacturonans: galactose",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 33,
+      "anchor": "α1→ 6 (every 12~30 residues)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 34,
+      "anchor": "Functions of Polysaccharides",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 35,
+      "anchor": "Glycolytic pathways: produce energy (ATP)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 36,
+      "anchor": "α(1→4) glycosidic linkages only; inactivated in the stomach: low pH",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 37,
+      "anchor": "– Mainly in the liver (10% of liver mass) and skeletal muscle (1-2% of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 38,
+      "anchor": "Polysaccharide of D-Glc                                   Cross-link with",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 39,
+      "anchor": "Glc flips: H-bonds, stable",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 40,
+      "anchor": "• Cellulose: hydrolysed by cellulase, β-glucosidase",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 41,
+      "anchor": "organic molecule in the world. Cellulose is a polymer of β-D-glucose",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 42,
+      "anchor": "• Peptidoglycan: a strong, protective peptide-polysaccharide",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 43,
+      "anchor": "Functions of Polysaccharides",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 44,
+      "anchor": "• Lipopolysaccharides: in Gram-negative bacteria",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 45,
+      "anchor": "• Chitin: in the cell walls of fungi, exoskeletons of crustaceans,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 46,
+      "anchor": "– O-linked saccharides: -OH of Ser, Thr, or hydroxylysine",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 47,
+      "anchor": "– Proteoglycans function by interacting with a variety of other molecules",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 48,
+      "anchor": "Glycoproteins & Proteoglycans",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 49,
+      "anchor": "removed in the form of water; furfural is formed from pentose sugar,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 50,
+      "anchor": "• Molisch’s test: a general test for carbohydrates",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 51,
+      "anchor": "medium, which condenses with orcinol in the presence of ferric ion to",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 52,
+      "anchor": "to give furfural derivatives and, on condensation with resorcinol, give",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 53,
+      "anchor": "– This test is carried out in a solution containing cupric sulphate, sodium",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 54,
+      "anchor": "• Benedict’s test: a test for reducing sugars",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 55,
+      "anchor": "solution B is alkaline sodium potassium tartrate. These two solutions",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 56,
+      "anchor": "• Fehling’s test: a sensitive test for detection of reducing sugars",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 57,
+      "anchor": "– Principle: it is based on the reduction of copper (II) acetate to copper",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
     }
   ],
   "visuallyInspected": [
@@ -926,6 +1262,33 @@
         69
       ],
       "result": "Geometry/polarity, CIP examples, lactic Fischer/sign contradiction, multicentre/meso figures and functional-group chart inspected. Original replacement figures authored; source images not republished."
+    },
+    {
+      "source": "L5",
+      "pdfPages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        25,
+        32,
+        35,
+        38,
+        42,
+        44,
+        48,
+        50,
+        54,
+        56,
+        57
+      ],
+      "result": "Fischer/Haworth/anomer, derivative, disaccharide, polymer/matrix, bacterial-envelope/proteoglycan and qualitative-test figures inspected. Selected stereochemical pages enlarged individually. No source images republished; diagram/prose issues recorded in U05 review."
     }
   ]
 }

@@ -16,7 +16,7 @@
       "pages": 3,
       "sha256": "f7a6fc1c811d440c0e552a7f7f293f9b1df7d9224e5f41a7a1ed69d37617e59d",
       "availability": "local-authorised-attachment",
-      "review": "outline-and-L1-L2-read;L3-L10-inventory-only"
+      "review": "three-actual-outline-pages-checked;lecture-review-scope-recorded-per-source"
     },
     {
       "id": "L1",
@@ -64,7 +64,7 @@
       "pages": 58,
       "sha256": "3dbe6d439a1b8af8e4f1b07c02bfdee272c6bf71a5f57a127b4bdd91558437f7",
       "availability": "local-authorised-attachment",
-      "review": "heading-inventory-only"
+      "review": "all-58-actual-pages-read;21-selected-visual-pages-inspected;actual-printed-numbering-reconciled"
     },
     {
       "id": "L6",
@@ -181,6 +181,42 @@
       "label": "OpenStax Organic Chemistry: meso symmetry qualification",
       "url": "https://openstax.org/books/organic-chemistry/pages/5-7-meso-compounds",
       "review": "specific-stereochemical-corrections-checked"
+    },
+    {
+      "id": "SUGARRINGS",
+      "label": "OpenStax Organic Chemistry: selected ring/anomer/mutarotation comparison",
+      "url": "https://openstax.org/books/organic-chemistry/pages/25-5-cyclic-structures-of-monosaccharides-anomers",
+      "review": "selected-mechanism-paragraphs-opened"
+    },
+    {
+      "id": "DISACCHARIDES",
+      "label": "OpenStax Organic Chemistry: free anomeric centres and disaccharides",
+      "url": "https://openstax.org/books/organic-chemistry/pages/25-8-disaccharides",
+      "review": "selected-paragraphs-opened"
+    },
+    {
+      "id": "GALACTOSEMIA",
+      "label": "Classic galactosaemia long-term complications: PMID 37866059",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37866059/",
+      "review": "search-returned-abstract-checked;full-PMC-open-CAPTCHA-not-full-text-review"
+    },
+    {
+      "id": "GAGEXCEPTIONS",
+      "label": "Essentials of Glycobiology: GAG linkage and hyaluronan exceptions",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK579925/",
+      "review": "specific-search-returned-passages-checked;no-whole-chapter-certification"
+    },
+    {
+      "id": "GALACTURONATE",
+      "label": "ChEBI pectin/galacturonate residue definition",
+      "url": "https://www.ebi.ac.uk/chebi/chebiOntology.do?chebiId=CHEBI:17309",
+      "review": "search-returned-definition-check"
+    },
+    {
+      "id": "MOLISCHOER",
+      "label": "KNUST OER selected Molisch reagent description",
+      "url": "https://websys.knust.edu.gh/oer/pages/index.php?cou=41&page=find_materials&siteid=knustoer",
+      "review": "search-returned-alpha-naphthol-passage;direct-open-timeout;not-current-BIOL157-approval"
     }
   ],
   "objectives": [
@@ -413,8 +449,23 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0501",
+        "BC0502",
+        "BC0503",
+        "BC0504",
+        "BC0505",
+        "BC0506",
+        "BC0507",
+        "BC0508",
+        "BC0509",
+        "BC0510",
+        "BC0511",
+        "BC0512",
+        "BC0513",
+        "BC0514"
+      ]
     },
     {
       "id": "U06",
@@ -756,7 +807,7 @@
       "id": "BIOL157-U05-T01",
       "unit": "U05",
       "title": "Monosaccharide derivatives",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -773,7 +824,7 @@
       "id": "BIOL157-U05-T02",
       "unit": "U05",
       "title": "Oligosaccharides",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -790,7 +841,7 @@
       "id": "BIOL157-U05-T03",
       "unit": "U05",
       "title": "Polysaccharides",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -2971,6 +3022,787 @@
           "title": "Key takeaways"
         }
       ]
+    },
+    {
+      "id": "BIOL157-U05-C01",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T01",
+      "title": "Carbohydrate chemistry, classification and biological roles",
+      "lesson": "BC0501",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Classify a carbohydrate by its functional groups and number of sugar units. Relate carbohydrate structure to energy supply, storage, support and recognition, while distinguishing molecular chemistry from dietary generalisations.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              2,
+              8
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "What counts as a carbohydrate"
+        },
+        {
+          "id": "s3",
+          "title": "Complementary naming systems"
+        },
+        {
+          "id": "s4",
+          "title": "Roles and a worked energy calculation"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C02",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T01",
+      "title": "Fischer projections, D/L and sugar stereoisomers",
+      "lesson": "BC0502",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Read a Fischer projection, identify the D/L reference centre and distinguish enantiomers, diastereomers and epimers. Work out stereoisomer counts without conflating configuration with optical rotation.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              8,
+              12
+            ]
+          ]
+        },
+        {
+          "source": "SUGARRINGS"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "How to read a sugar Fischer projection"
+        },
+        {
+          "id": "s3",
+          "title": "Worked glucose, mannose and galactose comparison"
+        },
+        {
+          "id": "s4",
+          "title": "Worked counting and projection mistakes"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C03",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T01",
+      "title": "Ring formation, anomers and mutarotation",
+      "lesson": "BC0503",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain intramolecular hemiacetal/hemiketal formation, identify ring size and anomeric carbon, and translate the stated Fischer/Haworth convention. Explain why a free anomeric centre permits mutarotation and reducing behaviour.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              13,
+              14
+            ],
+            [
+              20,
+              20
+            ]
+          ]
+        },
+        {
+          "source": "SUGARRINGS"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Why a chain closes into a ring"
+        },
+        {
+          "id": "s3",
+          "title": "Anomeric carbon and α/β"
+        },
+        {
+          "id": "s4",
+          "title": "Worked Fischer-to-Haworth reasoning"
+        },
+        {
+          "id": "s5",
+          "title": "Mutarotation and carbonyl availability"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C04",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T01",
+      "title": "Oxidised and reduced monosaccharide derivatives",
+      "lesson": "BC0504",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Distinguish sugar acids by the carbon oxidised, explain carbonyl reduction to alditols and recognise the chemistry behind representative biological applications.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              15,
+              16
+            ],
+            [
+              32,
+              32
+            ]
+          ]
+        },
+        {
+          "source": "GALACTURONATE"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Oxidation depends on position"
+        },
+        {
+          "id": "s3",
+          "title": "Lactones are cyclic esters"
+        },
+        {
+          "id": "s4",
+          "title": "Carbonyl reduction gives sugar alcohols"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C05",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T01",
+      "title": "Deoxy, amino, phosphate and glycoside derivatives",
+      "lesson": "BC0505",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Identify important sugar substitutions and explain how they change charge, recognition or reactivity. Distinguish a phosphate ester, bisphosphate, diphosphate and an anomeric glycoside.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              7,
+              7
+            ],
+            [
+              16,
+              18
+            ],
+            [
+              23,
+              24
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Replacing an OH or adding an amino group"
+        },
+        {
+          "id": "s3",
+          "title": "Phosphate position and phosphate connectivity"
+        },
+        {
+          "id": "s4",
+          "title": "Turning a hemiacetal into a glycoside"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C06",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T01",
+      "title": "Important monosaccharides and biological applications",
+      "lesson": "BC0506",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Compare glucose, fructose, galactose, ribose and deoxyribose. Explain biological examples while distinguishing a biochemical defect from unsupported universal clinical claims.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              19,
+              24
+            ],
+            [
+              27,
+              28
+            ]
+          ]
+        },
+        {
+          "source": "GALACTOSEMIA"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Three familiar hexoses"
+        },
+        {
+          "id": "s3",
+          "title": "Lactose hydrolysis and galactose handling are different"
+        },
+        {
+          "id": "s4",
+          "title": "Five-carbon sugars in information chemistry"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C07",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T02",
+      "title": "Glycosidic notation, reducing ends and condensation arithmetic",
+      "lesson": "BC0507",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Read linkage notation, locate free anomeric centres and explain reducing behaviour. Calculate the bond and water counts for a specified connected carbohydrate structure.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              18,
+              18
+            ],
+            [
+              25,
+              30
+            ]
+          ]
+        },
+        {
+          "source": "DISACCHARIDES"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Read both carbon numbers and configuration"
+        },
+        {
+          "id": "s3",
+          "title": "Find the reducing centre by chemistry"
+        },
+        {
+          "id": "s4",
+          "title": "Worked mass and water accounting"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C08",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T02",
+      "title": "Disaccharides: structure, digestion and comparison",
+      "lesson": "BC0508",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Compare maltose, lactose, sucrose, cellobiose and isomaltose. Explain why linkage recognition changes digestibility and why lactose intolerance differs from milk allergy or galactosaemia.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              25,
+              30
+            ],
+            [
+              36,
+              36
+            ]
+          ]
+        },
+        {
+          "source": "DISACCHARIDES"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A structured comparison"
+        },
+        {
+          "id": "s3",
+          "title": "Digestion produces absorbable units"
+        },
+        {
+          "id": "s4",
+          "title": "Worked sucrose hydrolysis interpretation"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C09",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T03",
+      "title": "Polysaccharide architecture: starch, glycogen and branching",
+      "lesson": "BC0509",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Classify glycans by composition and topology. Explain the structures of amylose, amylopectin and glycogen and connect branching to mobilisation without confusing reducing and nonreducing ends.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              32,
+              34
+            ],
+            [
+              37,
+              37
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Composition and topology are independent"
+        },
+        {
+          "id": "s3",
+          "title": "Why branches support rapid mobilisation"
+        },
+        {
+          "id": "s4",
+          "title": "Worked branch counting with stated assumptions"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C10",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T03",
+      "title": "Storage-glucan cleavage and the iodine comparison",
+      "lesson": "BC0510",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Distinguish hydrolysis from phosphorolysis and explain endo/exo action. Interpret the iodine–starch result as a conformation-dependent signal rather than a universal carbohydrate test.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              34,
+              37
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Different reagents yield different products"
+        },
+        {
+          "id": "s3",
+          "title": "Glycogen mobilisation in context"
+        },
+        {
+          "id": "s4",
+          "title": "Why iodine produces a starch-associated colour"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C11",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T03",
+      "title": "Structural, microbial and other important glycans",
+      "lesson": "BC0511",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Relate glycosidic geometry to structural strength and compare cellulose, chitin, peptidoglycan, lipopolysaccharide and selected algal glycans. Preserve organism and matrix-specific qualifications.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              38,
+              45
+            ]
+          ]
+        },
+        {
+          "source": "GALACTURONATE"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Cellulose versus storage glucans"
+        },
+        {
+          "id": "s3",
+          "title": "Bacterial envelopes contain distinct glycoconjugates"
+        },
+        {
+          "id": "s4",
+          "title": "Other source examples and naming limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C12",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T03",
+      "title": "Glycoproteins, proteoglycans and extracellular function",
+      "lesson": "BC0512",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Distinguish carbohydrate attachment to proteins from the structure of a free polysaccharide. Explain N/O linkage, glycosaminoglycan-rich proteoglycans and how charged chains support hydrated matrices.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              46,
+              48
+            ]
+          ]
+        },
+        {
+          "source": "GAGEXCEPTIONS"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Protein plus specific carbohydrate attachment"
+        },
+        {
+          "id": "s3",
+          "title": "Proteoglycans and glycosaminoglycans"
+        },
+        {
+          "id": "s4",
+          "title": "Worked functional distinction"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C13",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T01",
+      "title": "Acid-dehydration carbohydrate tests and interpretation",
+      "lesson": "BC0513",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Compare Molisch, Bial and Seliwanoff principles and interpret controlled observations without treating a screening colour as unique identification. Distinguish chemical theory from an executed laboratory check.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              49,
+              52
+            ]
+          ]
+        },
+        {
+          "source": "MOLISCHOER"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Shared starting chemistry, different colour reagents"
+        },
+        {
+          "id": "s3",
+          "title": "Bial and Seliwanoff distinctions"
+        },
+        {
+          "id": "s4",
+          "title": "Worked sequence and controls"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-C14",
+      "unit": "U05",
+      "topic": "BIOL157-U05-T01",
+      "title": "Reducing-sugar tests: copper chemistry and timed discrimination",
+      "lesson": "BC0514",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain Benedict, Fehling and Barfoed reactions, predict reducing behaviour from structure and distinguish a timed screen from a definitive identification or clinical measurement.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              53,
+              57
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Who is oxidised and who is reduced?"
+        },
+        {
+          "id": "s3",
+          "title": "Structure predicts reactivity with qualifications"
+        },
+        {
+          "id": "s4",
+          "title": "Barfoed uses a controlled rate comparison"
+        },
+        {
+          "id": "s5",
+          "title": "Worked interpretation and troubleshooting"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
     }
   ],
   "figures": [
@@ -3811,6 +4643,791 @@
             [
               64,
               64
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-FISCHER",
+      "title": "Glucose, mannose and galactose Fischer comparison",
+      "description": "Three Fischer projections with CHO above and CH2OH below. D-glucose OH sequence at C2–C5 is right,left,right,right. D-mannose differs at C2 and D-galactose at C4. Horizontal bonds project toward the observer and vertical bonds away.",
+      "caption": "Original projections. Both epimer comparisons retain the D-reference at C5. OH position does not specify the sign of measured rotation.",
+      "width": 400,
+      "height": 940,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 25,
+          "text": "D-glucose"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 60,
+          "text": "CHO"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 275,
+          "text": "CH₂OH"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 100,
+          "text": "C2"
+        },
+        {
+          "kind": "line",
+          "x1": 185,
+          "y1": 94,
+          "x2": 135,
+          "y2": 94
+        },
+        {
+          "kind": "line",
+          "x1": 215,
+          "y1": 94,
+          "x2": 265,
+          "y2": 94
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 100,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 100,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 142,
+          "text": "C3"
+        },
+        {
+          "kind": "line",
+          "x1": 185,
+          "y1": 136,
+          "x2": 135,
+          "y2": 136
+        },
+        {
+          "kind": "line",
+          "x1": 215,
+          "y1": 136,
+          "x2": 265,
+          "y2": 136
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 142,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 142,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 184,
+          "text": "C4"
+        },
+        {
+          "kind": "line",
+          "x1": 185,
+          "y1": 178,
+          "x2": 135,
+          "y2": 178
+        },
+        {
+          "kind": "line",
+          "x1": 215,
+          "y1": 178,
+          "x2": 265,
+          "y2": 178
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 184,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 184,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 226,
+          "text": "C5"
+        },
+        {
+          "kind": "line",
+          "x1": 185,
+          "y1": 220,
+          "x2": 135,
+          "y2": 220
+        },
+        {
+          "kind": "line",
+          "x1": 215,
+          "y1": 220,
+          "x2": 265,
+          "y2": 220
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 226,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 226,
+          "text": "OH"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 240,
+          "x2": 200,
+          "y2": 255
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 345,
+          "text": "D-mannose: C2 epimer"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 380,
+          "text": "CHO"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 595,
+          "text": "CH₂OH"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 420,
+          "text": "C2"
+        },
+        {
+          "kind": "line",
+          "x1": 185,
+          "y1": 414,
+          "x2": 135,
+          "y2": 414
+        },
+        {
+          "kind": "line",
+          "x1": 215,
+          "y1": 414,
+          "x2": 265,
+          "y2": 414
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 420,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 420,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 462,
+          "text": "C3"
+        },
+        {
+          "kind": "line",
+          "x1": 185,
+          "y1": 456,
+          "x2": 135,
+          "y2": 456
+        },
+        {
+          "kind": "line",
+          "x1": 215,
+          "y1": 456,
+          "x2": 265,
+          "y2": 456
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 462,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 462,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 504,
+          "text": "C4"
+        },
+        {
+          "kind": "line",
+          "x1": 185,
+          "y1": 498,
+          "x2": 135,
+          "y2": 498
+        },
+        {
+          "kind": "line",
+          "x1": 215,
+          "y1": 498,
+          "x2": 265,
+          "y2": 498
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 504,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 504,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 546,
+          "text": "C5"
+        },
+        {
+          "kind": "line",
+          "x1": 185,
+          "y1": 540,
+          "x2": 135,
+          "y2": 540
+        },
+        {
+          "kind": "line",
+          "x1": 215,
+          "y1": 540,
+          "x2": 265,
+          "y2": 540
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 546,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 546,
+          "text": "OH"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 560,
+          "x2": 200,
+          "y2": 575
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 665,
+          "text": "D-galactose: C4 epimer"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 700,
+          "text": "CHO"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 915,
+          "text": "CH₂OH"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 740,
+          "text": "C2"
+        },
+        {
+          "kind": "line",
+          "x1": 185,
+          "y1": 734,
+          "x2": 135,
+          "y2": 734
+        },
+        {
+          "kind": "line",
+          "x1": 215,
+          "y1": 734,
+          "x2": 265,
+          "y2": 734
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 740,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 740,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 782,
+          "text": "C3"
+        },
+        {
+          "kind": "line",
+          "x1": 185,
+          "y1": 776,
+          "x2": 135,
+          "y2": 776
+        },
+        {
+          "kind": "line",
+          "x1": 215,
+          "y1": 776,
+          "x2": 265,
+          "y2": 776
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 782,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 782,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 824,
+          "text": "C4"
+        },
+        {
+          "kind": "line",
+          "x1": 185,
+          "y1": 818,
+          "x2": 135,
+          "y2": 818
+        },
+        {
+          "kind": "line",
+          "x1": 215,
+          "y1": 818,
+          "x2": 265,
+          "y2": 818
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 824,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 824,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 866,
+          "text": "C5"
+        },
+        {
+          "kind": "line",
+          "x1": 185,
+          "y1": 860,
+          "x2": 135,
+          "y2": 860
+        },
+        {
+          "kind": "line",
+          "x1": 215,
+          "y1": 860,
+          "x2": 265,
+          "y2": 860
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 866,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 866,
+          "text": "OH"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 880,
+          "x2": 200,
+          "y2": 895
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 70,
+          "x2": 200,
+          "y2": 82
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 112,
+          "x2": 200,
+          "y2": 124
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 154,
+          "x2": 200,
+          "y2": 166
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 196,
+          "x2": 200,
+          "y2": 208
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 390,
+          "x2": 200,
+          "y2": 402
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 432,
+          "x2": 200,
+          "y2": 444
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 474,
+          "x2": 200,
+          "y2": 486
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 516,
+          "x2": 200,
+          "y2": 528
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 710,
+          "x2": 200,
+          "y2": 722
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 752,
+          "x2": 200,
+          "y2": 764
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 794,
+          "x2": 200,
+          "y2": 806
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 836,
+          "x2": 200,
+          "y2": 848
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              10,
+              11
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-ANOMERS",
+      "title": "Selected substituents in D-glucopyranose anomers",
+      "description": "Two simplified pyranose-ring diagrams show the C5 CH2OH group above. The upper alpha anomer has its C1 OH below, while the lower beta anomer has C1 OH above. Ring oxygen is upper-right. Other OH and H substituents are deliberately omitted.",
+      "caption": "Original partial Haworth schematics: anomeric OH trans versus cis to the reference CH₂OH in the stated D view. These are not complete stereochemical structures or chair conformations.",
+      "width": 400,
+      "height": 645,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 25,
+          "text": "α-D: selected OH trans"
+        },
+        {
+          "kind": "line",
+          "x1": 280,
+          "y1": 126,
+          "x2": 300,
+          "y2": 160
+        },
+        {
+          "kind": "line",
+          "x1": 300,
+          "y1": 160,
+          "x2": 245,
+          "y2": 215
+        },
+        {
+          "kind": "line",
+          "x1": 245,
+          "y1": 215,
+          "x2": 145,
+          "y2": 215
+        },
+        {
+          "kind": "line",
+          "x1": 145,
+          "y1": 215,
+          "x2": 100,
+          "y2": 160
+        },
+        {
+          "kind": "line",
+          "x1": 100,
+          "y1": 160,
+          "x2": 145,
+          "y2": 110
+        },
+        {
+          "kind": "line",
+          "x1": 145,
+          "y1": 110,
+          "x2": 252,
+          "y2": 110
+        },
+        {
+          "kind": "text",
+          "x": 270,
+          "y": 116,
+          "text": "O"
+        },
+        {
+          "kind": "text",
+          "x": 325,
+          "y": 165,
+          "text": "C1"
+        },
+        {
+          "kind": "text",
+          "x": 127,
+          "y": 105,
+          "text": "C5"
+        },
+        {
+          "kind": "line",
+          "x1": 145,
+          "y1": 100,
+          "x2": 145,
+          "y2": 70
+        },
+        {
+          "kind": "text",
+          "x": 145,
+          "y": 55,
+          "text": "CH₂OH"
+        },
+        {
+          "kind": "line",
+          "x1": 300,
+          "y1": 168,
+          "x2": 300,
+          "y2": 245
+        },
+        {
+          "kind": "text",
+          "x": 300,
+          "y": 275,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 305,
+          "text": "Reference CH₂OH up; other OH omitted"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 345,
+          "text": "β-D: selected OH cis"
+        },
+        {
+          "kind": "line",
+          "x1": 280,
+          "y1": 446,
+          "x2": 300,
+          "y2": 480
+        },
+        {
+          "kind": "line",
+          "x1": 300,
+          "y1": 480,
+          "x2": 245,
+          "y2": 535
+        },
+        {
+          "kind": "line",
+          "x1": 245,
+          "y1": 535,
+          "x2": 145,
+          "y2": 535
+        },
+        {
+          "kind": "line",
+          "x1": 145,
+          "y1": 535,
+          "x2": 100,
+          "y2": 480
+        },
+        {
+          "kind": "line",
+          "x1": 100,
+          "y1": 480,
+          "x2": 145,
+          "y2": 430
+        },
+        {
+          "kind": "line",
+          "x1": 145,
+          "y1": 430,
+          "x2": 252,
+          "y2": 430
+        },
+        {
+          "kind": "text",
+          "x": 270,
+          "y": 436,
+          "text": "O"
+        },
+        {
+          "kind": "text",
+          "x": 325,
+          "y": 485,
+          "text": "C1"
+        },
+        {
+          "kind": "text",
+          "x": 127,
+          "y": 425,
+          "text": "C5"
+        },
+        {
+          "kind": "line",
+          "x1": 145,
+          "y1": 420,
+          "x2": 145,
+          "y2": 390
+        },
+        {
+          "kind": "text",
+          "x": 145,
+          "y": 375,
+          "text": "CH₂OH"
+        },
+        {
+          "kind": "line",
+          "x1": 300,
+          "y1": 472,
+          "x2": 300,
+          "y2": 395
+        },
+        {
+          "kind": "text",
+          "x": 300,
+          "y": 377,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 625,
+          "text": "Reference CH₂OH up; other OH omitted"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L5",
+          "pages": [
+            [
+              13,
+              14
             ]
           ]
         }
