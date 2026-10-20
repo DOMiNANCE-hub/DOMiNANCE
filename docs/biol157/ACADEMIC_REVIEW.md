@@ -1,5 +1,7 @@
 # BIOL157 academic review and release boundaries
 
+Latest release-candidate continuation: Unit 3 adds nine lessons and 34 original questions (23 lessons/68 MCQs total). All three official Unit 3 topics have draft notes. See `content/biological-chemistry/unit-reviews/U03.json` and `docs/release/READINESS.md` for the current evidence and remaining Units 4–10. The Units 1–2 checkpoint below is historical.
+
 This is an original instructional development checkpoint, not academic approval. The official attached outline establishes ten units and 34 listed subtopics. Its five course outcomes are transcribed with actual PDF p.1 references. The outline is **three actual pages**, despite the starter blueprint's two-page description. Lecture text was read in full for Units 1–2; headings were inventoried for Lectures 3–10. Neither presence of a PDF nor question count proves teaching coverage.
 
 ## Implemented review material

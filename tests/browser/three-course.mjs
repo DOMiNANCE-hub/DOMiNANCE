@@ -17,7 +17,7 @@ try{
  await frame.locator('.course').filter({hasText:'Biological Chemistry'}).click();
  await frame.getByRole('button',{name:'Open Study Blocks',exact:true}).click();
  assert.equal(await frame.locator('.cell-block-card').count(),10);
- await frame.getByRole('button',{name:'Open Atomic Structure and Periodic Chemistry',exact:true}).click();
+ await frame.getByRole('button',{name:'Open Bond Formation and Molecules',exact:true}).click();
  await frame.getByText(/Teaching for this unit has not yet been authored/).waitFor();
  let dashboard=page.frames().find(f=>f.url().includes('/dashboard/index.html'));
  const bioCount=await dashboard.evaluate(()=>DominanceBiologicalContent.questions.length);
@@ -60,7 +60,7 @@ try{
  await frame.getByRole('button',{name:'Review responses',exact:true}).click();
  await frame.getByRole('button',{name:'Submit practice ('+bioCount+' unanswered)',exact:true}).click();
  await frame.getByRole('button',{name:'Return to study',exact:true}).click();
- console.log('PASS: ten-unit catalogue, honest pending unit, independent study, concept practice, exit/resume, exact feedback link, all34/retry/reload.');
+ console.log('PASS: ten-unit catalogue, honest pending unit, independent study, concept practice, exit/resume, exact feedback link, all available Bio questions/retry/reload.');
  dashboard=page.frames().find(f=>f.url().includes('/dashboard/index.html'));
  const routes=await dashboard.evaluate(()=>DominanceBiologicalContent.lessons.map(l=>({id:l.id,parts:DominanceBiologicalLearning.sections(l).length})));
  await page.setViewportSize({width:390,height:844});
@@ -107,6 +107,6 @@ try{
  await frame.locator('#computerProgress').waitFor({state:'visible'});
  await frame.locator('#cellProgress').waitFor({state:'visible'});
  const counts=await dashboard.evaluate(()=>[DominanceCellContent.questions.length,DominanceComputerContent.questions.length,DominanceBiologicalContent.questions.length]);assert.deepEqual(counts,[178,114,bioCount]);
- assert.deepEqual(errors,[]);console.log('PASS: all three courses in one app; full178/114/34 submissions, source feedback and all three progress panels. No page errors.');
+ assert.deepEqual(errors,[]);console.log('PASS: all three courses in one app; full available course pools submissions, source feedback and all three progress panels. No page errors.');
 
 }finally{await browser.close()}

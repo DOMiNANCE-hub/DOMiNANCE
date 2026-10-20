@@ -1126,5 +1126,1167 @@
         ]
       }
     ]
+  },
+  {
+    "id": "BIOL157-U03-Q001",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C01",
+    "lesson": "BC0301",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "Which gold-foil observation most strongly challenged a model with diffuse positive charge?",
+    "options": [
+      "The foil could be made thin",
+      "The detector registered particles at more than one position",
+      "Most alpha particles passed nearly straight through",
+      "A small fraction of alpha particles underwent very large deflections"
+    ],
+    "letter": "D",
+    "explanation": "Rare large deflections require a concentrated source of strong repulsion, supporting a compact positive nucleus. Straight-through paths help explain the large volume outside the nucleus but are less specific evidence against diffuse charge. Foil thickness and detector placement describe the arrangement, not the key inference.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            3,
+            12
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q002",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C01",
+    "lesson": "BC0301",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "An atom emits a photon during a transition between permitted states. What happens to the atomic energy?",
+    "options": [
+      "It decreases by the photon energy",
+      "It stays fixed because photons carry no energy",
+      "Its nuclear charge must increase",
+      "It increases by the photon energy"
+    ],
+    "letter": "A",
+    "explanation": "Emission transfers energy from the atom to the photon, so the atom moves to a lower energy state. Absorption is the upward process. No change in proton number is required for an electronic transition.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            3,
+            12
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q003",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C01",
+    "lesson": "BC0301",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "Which observation requires qualification of Dalton's claim that all atoms of one element have identical masses?",
+    "options": [
+      "An element forms compounds in a definite ratio",
+      "Two isotopes share a proton number but differ in neutron number",
+      "A molecule contains more than one element",
+      "Chemical reactions can conserve the count of each element"
+    ],
+    "letter": "B",
+    "explanation": "Isotopes preserve element identity while differing in neutron number and mass. Definite proportions and conservation in chemical reactions are useful aspects of atomic theory, not evidence that every isotope has the same mass.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            3,
+            12
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q004",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C01",
+    "lesson": "BC0301",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "Which statement gives the most appropriate scope for the Bohr model?",
+    "options": [
+      "It eliminates the need for experimental spectra",
+      "Its fixed paths are the complete modern description of all atoms",
+      "It explains useful quantised energy relationships for one-electron systems",
+      "It predicts that every energy is continuously allowed"
+    ],
+    "letter": "C",
+    "explanation": "Bohr's quantised states are useful for hydrogen and hydrogen-like ions. Many-electron atoms require a fuller quantum treatment, and spectra supply evidence rather than becoming unnecessary. The model restricts energies instead of allowing a continuum.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            3,
+            12
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q005",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C02",
+    "lesson": "BC0302",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "An orbital drawing encloses 95% of an electron probability distribution. What does the boundary mean?",
+    "options": [
+      "The electron follows that surface as a circular track",
+      "Only 95% of the electron's charge exists",
+      "The electron is physically confined by a hard surface there",
+      "A conventional region contains most of the probability, with some outside"
+    ],
+    "letter": "D",
+    "explanation": "A probability boundary is a plotting convention. It is not a material wall, an orbit or a fraction of the electron's charge. The orbital state extends beyond the chosen enclosure.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            13,
+            15
+          ]
+        ]
+      },
+      {
+        "source": "QTHEORY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q006",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C02",
+    "lesson": "BC0302",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "A photon's wavelength doubles. How does its energy change?",
+    "options": [
+      "It halves",
+      "It remains unchanged",
+      "It doubles",
+      "It quadruples"
+    ],
+    "letter": "A",
+    "explanation": "For light, E = hc/λ. With h and c fixed, energy is inversely proportional to wavelength. Doubling λ therefore halves E, rather than doubling it.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            13,
+            15
+          ]
+        ]
+      },
+      {
+        "source": "QTHEORY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q007",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C02",
+    "lesson": "BC0302",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Using h = 6.626 × 10⁻³⁴ J s and c = 3.00 × 10⁸ m/s, what is the photon energy at 500 nm, approximately?",
+    "options": [
+      "1.51 × 10¹⁸ J",
+      "3.98 × 10⁻¹⁹ J",
+      "3.98 × 10⁻²⁸ J",
+      "9.94 × 10⁻³² J"
+    ],
+    "letter": "B",
+    "explanation": "Convert 500 nm to 5.00 × 10⁻⁷ m, then calculate hc/λ = 3.98 × 10⁻¹⁹ J. Using 500 as metres gives the first smaller distractor; multiplying by wavelength or reversing the relationship gives different quantities. This supplementary calculation provides all needed constants.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            13,
+            15
+          ]
+        ]
+      },
+      {
+        "source": "QTHEORY"
+      }
+    ],
+    "editorialScope": "Supplementary photon calculation with all constants supplied; not an official past question or claimed literal slide exercise."
+  },
+  {
+    "id": "BIOL157-U03-Q008",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C03",
+    "lesson": "BC0303",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Which set of quantum numbers is allowed?",
+    "options": [
+      "n=2, ℓ=2, mℓ=0, ms=+½",
+      "n=3, ℓ=1, mℓ=+2, ms=−½",
+      "n=3, ℓ=2, mℓ=−2, ms=−½",
+      "n=1, ℓ=0, mℓ=0, ms=0"
+    ],
+    "letter": "C",
+    "explanation": "For n=3, ℓ=2 is allowed; mℓ may run from −2 to +2 and ms is ±½. The other sets violate ℓ≤n−1, |mℓ|≤ℓ or the two allowed spin projections.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            16,
+            21
+          ]
+        ]
+      },
+      {
+        "source": "QTHEORY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q009",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C03",
+    "lesson": "BC0303",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "How many orbitals and electrons can a 4d subshell accommodate?",
+    "options": [
+      "Nine orbitals and eighteen electrons",
+      "Ten orbitals and twenty electrons",
+      "Four orbitals and eight electrons",
+      "Five orbitals and ten electrons"
+    ],
+    "letter": "D",
+    "explanation": "A d subshell has ℓ=2, so 2ℓ+1=5 orbitals and capacity 2×5=10 electrons. The leading 4 specifies n, not the number of orbitals. Nine orbitals refers to the complete n=3 shell, not a d subshell.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            16,
+            21
+          ]
+        ]
+      },
+      {
+        "source": "QTHEORY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q010",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C03",
+    "lesson": "BC0303",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Why is the maximum electron capacity of the n=3 shell eighteen?",
+    "options": [
+      "Its 3s, 3p and 3d subshells provide 1+3+5 orbitals, each holding two electrons",
+      "Each of its three subshells contains six orbitals",
+      "The third period always contains eighteen neutral elements",
+      "It contains nine s orbitals"
+    ],
+    "letter": "A",
+    "explanation": "Allowed ℓ values 0,1,2 provide one, three and five orbitals: nine in total, each with two opposite-spin electrons. Shell capacity is distinct from period length and the order in which neutral atoms fill these states.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            16,
+            21
+          ]
+        ]
+      },
+      {
+        "source": "QTHEORY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q011",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C03",
+    "lesson": "BC0303",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "Which statement about electron spin is accurate?",
+    "options": [
+      "Spin requires a literal rotating miniature charged sphere",
+      "There are two allowed spin projections, conventionally +½ and −½",
+      "Spin replaces the need to specify the occupied orbital",
+      "ms varies continuously between −½ and +½"
+    ],
+    "letter": "B",
+    "explanation": "Spin is intrinsic and has two allowed projections for an electron. The notation does not describe a continuous range or a classical rotating sphere, and it supplements rather than replaces orbital labels.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            16,
+            21
+          ]
+        ]
+      },
+      {
+        "source": "QTHEORY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q012",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C04",
+    "lesson": "BC0304",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Which 2p³ occupancy best represents Hund's ground-state arrangement?",
+    "options": [
+      "[↑↓] [ ] [↑]",
+      "[↑↓] [↑] [ ]",
+      "[↑] [↑] [↑]",
+      "[↑↑] [↑] [ ]"
+    ],
+    "letter": "C",
+    "explanation": "Degenerate p orbitals are singly occupied with parallel spins before pairing. A same-orbital ↑↑ pair also violates Pauli. The two diagrams with an early pair leave an equal-energy orbital empty and fail the ground-state Hund arrangement.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            22,
+            27
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q013",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C04",
+    "lesson": "BC0304",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "Two electrons in one orbital have identical spin projections. Which principle is directly violated?",
+    "options": [
+      "The definition of atomic number",
+      "The electron-addition energy sign convention",
+      "Hund's rule alone",
+      "Pauli's exclusion principle"
+    ],
+    "letter": "D",
+    "explanation": "Sharing an orbital fixes n, ℓ and mℓ; Pauli then requires opposite ms. Hund concerns distribution among degenerate orbitals. Nuclear charge and energy-sign conventions do not resolve an invalid same-orbital pair.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            22,
+            27
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q014",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C04",
+    "lesson": "BC0304",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Which subshell configuration has eleven electrons and represents neutral sodium?",
+    "options": [
+      "1s² 2s² 2p⁶ 3s¹",
+      "1s² 2s² 2p⁵ 3s¹",
+      "1s² 2s² 2p⁶ 3p¹",
+      "1s² 2s² 2p⁶ 3s²"
+    ],
+    "letter": "A",
+    "explanation": "The exponents sum to 11, and the next occupied lower-energy state is 3s. The second option sums to 10; 3p¹ skips available 3s in a ground-state construction; the last sums to 12.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            22,
+            27
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q015",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C04",
+    "lesson": "BC0304",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO2",
+    "question": "Argon has shell totals 2,8,8. Does this contradict a capacity of eighteen for the n=3 shell?",
+    "options": [
+      "Yes; every shell must fill completely before a higher shell is occupied",
+      "No; capacity includes 3d states that are unoccupied in ground-state argon",
+      "No; argon has eighteen electrons in its third shell",
+      "Yes; 2n² applies only to the first two shells"
+    ],
+    "letter": "B",
+    "explanation": "Capacity is the number of allowed states, not actual occupation. Argon ends at 3p⁶ with no 3d electrons. Subsequent filling involves 4s before 3d, so a strict complete-shell-first rule is unsuitable.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            22,
+            27
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q016",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C05",
+    "lesson": "BC0305",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Starting from neutral Fe = [Ar] 3d⁶ 4s², what is the configuration of Fe²+?",
+    "options": [
+      "[Ar] 3d⁸",
+      "[Ar] 3d⁴ 4s²",
+      "[Ar] 3d⁶",
+      "[Ar] 3d⁵ 4s¹"
+    ],
+    "letter": "C",
+    "explanation": "Remove the two outer 4s electrons first to obtain [Ar] 3d⁶. The ion has 26−2=24 electrons. Removing 3d first or moving electrons into 3d without subtracting the total gives the distractors.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            26,
+            28
+          ],
+          [
+            40,
+            40
+          ]
+        ]
+      },
+      {
+        "source": "NISTCONFIG"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q017",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C05",
+    "lesson": "BC0305",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "How many electrons remain in Fe³+, and what is its common ground-state configuration in this introductory treatment?",
+    "options": [
+      "26; [Ar] 3d⁶ 4s²",
+      "23; [Ar] 3d³ 4s²",
+      "29; [Ar] 3d¹⁰ 4s¹",
+      "23; [Ar] 3d⁵"
+    ],
+    "letter": "D",
+    "explanation": "Iron retains 26 protons but has 23 electrons after loss of three. Remove 4s² and then one 3d electron, giving [Ar] 3d⁵. Ionisation changes electron count rather than element identity.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            26,
+            28
+          ],
+          [
+            40,
+            40
+          ]
+        ]
+      },
+      {
+        "source": "NISTCONFIG"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q018",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C05",
+    "lesson": "BC0305",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "Which neutral chromium ground-state configuration is supported by reference data?",
+    "options": [
+      "[Ar] 3d⁵ 4s¹",
+      "[Ar] 3d⁶",
+      "[Ar] 3d⁵",
+      "[Ar] 3d⁴ 4s²"
+    ],
+    "letter": "A",
+    "explanation": "The verified configuration is [Ar] 3d⁵ 4s¹, totalling 24 electrons. The simple Aufbau prediction 3d⁴4s² is an exception here; omitting 4s¹ gives only 23 electrons. Half-filled-shell language is a useful pattern, not a universal promotion rule.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            26,
+            28
+          ],
+          [
+            40,
+            40
+          ]
+        ]
+      },
+      {
+        "source": "NISTCONFIG"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q019",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C05",
+    "lesson": "BC0305",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Neutral Cu is [Ar] 3d¹⁰ 4s¹. Which configuration is appropriate for Cu²+?",
+    "options": [
+      "[Ar] 3d¹⁰",
+      "[Ar] 3d⁹",
+      "[Ar] 3d⁸ 4s¹",
+      "[Ar] 3d¹⁰ 4s²"
+    ],
+    "letter": "B",
+    "explanation": "First remove 4s¹ and then one 3d electron to obtain 3d⁹. The 3d¹⁰ configuration describes Cu+, not Cu²+. A filled d shell is also not automatically a noble-gas configuration.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            26,
+            28
+          ],
+          [
+            40,
+            40
+          ]
+        ]
+      },
+      {
+        "source": "NISTCONFIG"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q020",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C06",
+    "lesson": "BC0306",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "An atom has [Ne] 3s² 3p⁵. Which placement and main-group valence count fit?",
+    "options": [
+      "Period 5, group 17, five valence electrons",
+      "Period 3, group 18, eight valence electrons",
+      "Period 3, group 17, seven valence electrons",
+      "Period 3, group 7, seventeen valence electrons"
+    ],
+    "letter": "C",
+    "explanation": "Highest occupied principal shell n=3 gives period 3 for this main-group atom. The outer 3s²3p⁵ population has seven electrons and corresponds to modern group 17, chlorine. Modern group numbers must not be read literally as valence counts.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            29,
+            36
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q021",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C06",
+    "lesson": "BC0306",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Why does helium require an explicit qualification when connecting group placement to blocks?",
+    "options": [
+      "It has eighteen electrons but only two valence electrons",
+      "It is outside all numbered periods",
+      "Its ground state is 2p²",
+      "It is placed with noble gases in group 18 although its configuration is 1s²"
+    ],
+    "letter": "D",
+    "explanation": "Helium has two electrons in 1s, an s-type configuration, but its chemistry places it in the noble-gas column. It does not have p electrons or eighteen electrons, and it belongs to period 1.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            29,
+            36
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q022",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C06",
+    "lesson": "BC0306",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "Carbon and silicon have different chemistry. What follows about their periodic classification?",
+    "options": [
+      "They still belong to group 14; group similarity does not mean identical chemistry",
+      "Silicon must belong to group 18",
+      "Group membership depends on the organism using the element",
+      "They cannot occupy the same group"
+    ],
+    "letter": "A",
+    "explanation": "Both belong to group 14 with related main-group valence patterns. Differences in size and bonding are compatible with group membership. Biological use and exact chemical identity are not criteria for moving an element to a different group.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            29,
+            36
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q023",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C07",
+    "lesson": "BC0307",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "A homonuclear bond has a stated internuclear distance of 244 pm. What covalent radius follows from the half-distance convention?",
+    "options": [
+      "244 pm",
+      "122 pm",
+      "0.122 pm",
+      "488 pm"
+    ],
+    "letter": "B",
+    "explanation": "The radius is half the bond distance: 244/2=122 pm=0.122 nm. This is a defined covalent radius, not automatically an ionic or nonbonded radius. The final option confuses picometres with nanometres.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            37,
+            41
+          ]
+        ]
+      },
+      {
+        "source": "PERIODIC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q024",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C07",
+    "lesson": "BC0307",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Which is expected to be smaller in the isoelectronic pair Na+ and Mg²+?",
+    "options": [
+      "Mg²+, because it has fewer than ten electrons",
+      "Na+, because it has fewer protons",
+      "Mg²+, because more protons attract the same ten electrons",
+      "They must be equal because electron count is equal"
+    ],
+    "letter": "C",
+    "explanation": "Both have ten electrons, but Mg²+ has twelve protons versus eleven for Na+. The stronger nuclear attraction contracts the comparable electron population. Equal electron count is what makes the nuclear-charge comparison informative, not evidence of equal size.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            37,
+            41
+          ]
+        ]
+      },
+      {
+        "source": "PERIODIC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q025",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C07",
+    "lesson": "BC0307",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Which radius trend is appropriate for the halide series F−, Cl−, Br− under comparable definitions?",
+    "options": [
+      "Radius generally decreases down the group",
+      "All have the same radius because their charge is −1",
+      "The trend depends only on their neutron counts",
+      "Radius generally increases down the group"
+    ],
+    "letter": "D",
+    "explanation": "Higher occupied principal shells generally extend the ions down the group. Equal charge does not imply equal radius, and isotope neutron count is not the primary explanation. This corrects the reversed anion trend in the lecturer text.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            37,
+            41
+          ]
+        ]
+      },
+      {
+        "source": "PERIODIC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q026",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C07",
+    "lesson": "BC0307",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO2",
+    "question": "Why should a bare-ion radius ranking not be treated as a complete prediction of channel selectivity?",
+    "options": [
+      "Hydration and protein-site interactions also contribute to the energetic comparison",
+      "The ion's proton number changes upon entering a channel",
+      "Bare ionic radii and hydrated sizes are always numerically identical",
+      "All ions have identical interactions with water"
+    ],
+    "letter": "A",
+    "explanation": "A channel must interact with the ion and often alter its hydration environment. Bare radius alone omits those interactions and energetic costs; it does not establish that the smaller bare ion always passes.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            37,
+            41
+          ]
+        ]
+      },
+      {
+        "source": "PERIODIC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q027",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C08",
+    "lesson": "BC0308",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "Why is the first ionisation energy of B lower than that of Be despite B having more protons?",
+    "options": [
+      "B loses an electron from n=3 while Be loses one from n=2",
+      "B loses a higher-energy, less penetrating 2p electron rather than a 2s electron",
+      "B has no core electrons",
+      "Be has a larger atomic number"
+    ],
+    "letter": "B",
+    "explanation": "The relevant distinction is 2p versus 2s, both with n=2. Subshell energy and penetration outweigh a naive monotonic trend. Boron does have core electrons and has greater, not smaller, Z than Be.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            42,
+            45
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q028",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C08",
+    "lesson": "BC0308",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "What contributes to the lower first ionisation energy of O compared with N?",
+    "options": [
+      "O and N occupy different principal valence shells",
+      "O has fewer protons",
+      "Repulsion in a paired 2p orbital makes one O electron easier to remove",
+      "N has no 2p electrons"
+    ],
+    "letter": "C",
+    "explanation": "N has 2p³ with singly occupied orbitals; O has 2p⁴ and one pair. Pairing repulsion contributes to easier removal from O. Both use the n=2 valence shell, and oxygen has the larger nuclear charge.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            42,
+            45
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q029",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C08",
+    "lesson": "BC0308",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Illustrative successive ionisation energies are 600, 1800 and 14000 kJ/mol. What is the strongest simple main-group inference?",
+    "options": [
+      "The element is uniquely identified without other data",
+      "The third removal releases energy",
+      "Three equally accessible valence electrons",
+      "A large change after two removals suggests reaching a tightly held inner population"
+    ],
+    "letter": "D",
+    "explanation": "The large jump after the second removal supports two relatively accessible valence electrons in a simple main-group interpretation. It does not uniquely identify the atom. All stated positive values represent energy input.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            42,
+            45
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q030",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C08",
+    "lesson": "BC0308",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "Which equation describes a second ionisation step?",
+    "options": [
+      "X+(g) → X²+(g) + e−",
+      "X(g) + e− → X−(g)",
+      "X²+(g) + e− → X+(g)",
+      "X(g) → X+(g) + e−"
+    ],
+    "letter": "A",
+    "explanation": "Second ionisation removes an electron from an already singly charged gaseous cation. The first equation is first ionisation; the last two add electrons rather than remove them. Species charge specifies the process.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            42,
+            45
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q031",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C09",
+    "lesson": "BC0309",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "With electron-addition ΔE values −141 and +798 kJ/mol for the two stated oxygen steps, what is their sum?",
+    "options": [
+      "−657 kJ/mol",
+      "+657 kJ/mol",
+      "+939 kJ/mol",
+      "−939 kJ/mol"
+    ],
+    "letter": "B",
+    "explanation": "Add the signed values: −141+798=+657 kJ/mol. In the given energy-change convention the net isolated-gas addition requires energy. A solid-formation pathway includes further energetic contributions and cannot be judged from this sum alone.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            46,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "PERIODIC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q032",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C09",
+    "lesson": "BC0309",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Why is adding a second electron to O−(g) opposed by an electrostatic contribution?",
+    "options": [
+      "The second electron must enter a new n=3 shell because all n=2 states were filled in O−",
+      "The second step is defined as removal of an electron from O−",
+      "The incoming negative electron is repelled by an already negative ion",
+      "The second step begins with neutral oxygen again and must repeat the first energy change"
+    ],
+    "letter": "C",
+    "explanation": "An incoming electron encounters repulsion from a negatively charged species. O− has 2p⁵, so a second addition can complete 2p⁶ without opening n=3. The process adds an electron to O−, rather than removing one or restarting from neutral O. Its unfavourable isolated-ion energy does not prevent oxide-containing solids being stabilised by their full formation energetics.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            46,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "PERIODIC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q033",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C09",
+    "lesson": "BC0309",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO2",
+    "question": "Fluorine is more electronegative than chlorine, but chlorine's first electron addition is more exothermic. Which explanation is appropriate?",
+    "options": [
+      "Chlorine must therefore be more electronegative on every scale",
+      "The sign of every measured ionisation energy must be negative",
+      "The statements must be contradictory because the properties are identical",
+      "Bonded-electron attraction and gaseous electron addition differ; compact-shell repulsion affects F addition"
+    ],
+    "letter": "D",
+    "explanation": "Electronegativity describes competition for shared electrons in a bond. Electron addition concerns an isolated gaseous species, with repulsion especially important in F's compact shell. The two properties cannot be equated by name.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            46,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "PERIODIC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U03-Q034",
+    "unit": "U03",
+    "conceptId": "BIOL157-U03-C09",
+    "lesson": "BC0309",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO2",
+    "question": "Which property is expressed as a comparative dimensionless scale in this unit?",
+    "options": [
+      "Pauling electronegativity",
+      "Covalent bond distance",
+      "Molar first ionisation energy",
+      "Signed molar electron-addition energy"
+    ],
+    "letter": "A",
+    "explanation": "Pauling electronegativity is comparative and dimensionless. The two energy quantities use energy units, often kJ/mol, and a distance uses length units. These measurements describe distinct processes or contexts.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L3",
+        "pages": [
+          [
+            46,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "PERIODIC"
+      }
+    ]
   }
 ]

@@ -63,9 +63,54 @@
     {
       "id": "BIOL157-CLO2",
       "text": "Appreciate the various atomic models and the periodic properties of elements.",
-      "notesConcepts": [],
-      "questions": [],
-      "coverageStatus": "not-authored"
+      "notesConcepts": [
+        "BIOL157-U03-C01",
+        "BIOL157-U03-C02",
+        "BIOL157-U03-C03",
+        "BIOL157-U03-C04",
+        "BIOL157-U03-C05",
+        "BIOL157-U03-C06",
+        "BIOL157-U03-C07",
+        "BIOL157-U03-C08",
+        "BIOL157-U03-C09"
+      ],
+      "questions": [
+        "BIOL157-U03-Q001",
+        "BIOL157-U03-Q002",
+        "BIOL157-U03-Q003",
+        "BIOL157-U03-Q004",
+        "BIOL157-U03-Q005",
+        "BIOL157-U03-Q006",
+        "BIOL157-U03-Q007",
+        "BIOL157-U03-Q008",
+        "BIOL157-U03-Q009",
+        "BIOL157-U03-Q010",
+        "BIOL157-U03-Q011",
+        "BIOL157-U03-Q012",
+        "BIOL157-U03-Q013",
+        "BIOL157-U03-Q014",
+        "BIOL157-U03-Q015",
+        "BIOL157-U03-Q016",
+        "BIOL157-U03-Q017",
+        "BIOL157-U03-Q018",
+        "BIOL157-U03-Q019",
+        "BIOL157-U03-Q020",
+        "BIOL157-U03-Q021",
+        "BIOL157-U03-Q022",
+        "BIOL157-U03-Q023",
+        "BIOL157-U03-Q024",
+        "BIOL157-U03-Q025",
+        "BIOL157-U03-Q026",
+        "BIOL157-U03-Q027",
+        "BIOL157-U03-Q028",
+        "BIOL157-U03-Q029",
+        "BIOL157-U03-Q030",
+        "BIOL157-U03-Q031",
+        "BIOL157-U03-Q032",
+        "BIOL157-U03-Q033",
+        "BIOL157-U03-Q034"
+      ],
+      "coverageStatus": "draft-partial-not-certified"
     },
     {
       "id": "BIOL157-CLO3",
@@ -332,7 +377,7 @@
           "id": "BIOL157-U03-T01",
           "unit": "U03",
           "title": "Early atomic theories",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -344,15 +389,26 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0301",
+            "BC0302"
+          ],
+          "questions": [
+            "BIOL157-U03-Q001",
+            "BIOL157-U03-Q002",
+            "BIOL157-U03-Q003",
+            "BIOL157-U03-Q004",
+            "BIOL157-U03-Q005",
+            "BIOL157-U03-Q006",
+            "BIOL157-U03-Q007"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U03-T02",
           "unit": "U03",
           "title": "Electronic configuration",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -364,15 +420,32 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0303",
+            "BC0304",
+            "BC0305"
+          ],
+          "questions": [
+            "BIOL157-U03-Q008",
+            "BIOL157-U03-Q009",
+            "BIOL157-U03-Q010",
+            "BIOL157-U03-Q011",
+            "BIOL157-U03-Q012",
+            "BIOL157-U03-Q013",
+            "BIOL157-U03-Q014",
+            "BIOL157-U03-Q015",
+            "BIOL157-U03-Q016",
+            "BIOL157-U03-Q017",
+            "BIOL157-U03-Q018",
+            "BIOL157-U03-Q019"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U03-T03",
           "unit": "U03",
           "title": "Periodic properties",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -384,9 +457,30 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0306",
+            "BC0307",
+            "BC0308",
+            "BC0309"
+          ],
+          "questions": [
+            "BIOL157-U03-Q020",
+            "BIOL157-U03-Q021",
+            "BIOL157-U03-Q022",
+            "BIOL157-U03-Q023",
+            "BIOL157-U03-Q024",
+            "BIOL157-U03-Q025",
+            "BIOL157-U03-Q026",
+            "BIOL157-U03-Q027",
+            "BIOL157-U03-Q028",
+            "BIOL157-U03-Q029",
+            "BIOL157-U03-Q030",
+            "BIOL157-U03-Q031",
+            "BIOL157-U03-Q032",
+            "BIOL157-U03-Q033",
+            "BIOL157-U03-Q034"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         }
       ],
       "sourceRefs": [
@@ -400,8 +494,18 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0301",
+        "BC0302",
+        "BC0303",
+        "BC0304",
+        "BC0305",
+        "BC0306",
+        "BC0307",
+        "BC0308",
+        "BC0309"
+      ]
     },
     {
       "id": "U04",
@@ -1040,8 +1144,8 @@
   "counts": {
     "units": 10,
     "topics": 34,
-    "concepts": 14,
-    "lessons": 14,
-    "questions": 34
+    "concepts": 23,
+    "lessons": 23,
+    "questions": 68
   }
 }

@@ -48,7 +48,7 @@
       "pages": 54,
       "sha256": "233e46ce2fef13020f96ec1c99cc58d9205d064bb8e45648b78f138031d79a1f",
       "availability": "local-authorised-attachment",
-      "review": "heading-inventory-only"
+      "review": "all-54-pages-text-read;figures-7-8-21-51-inspected"
     },
     {
       "id": "L4",
@@ -145,6 +145,24 @@
       "label": "NIH magnesium fact sheet",
       "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
       "review": "specific-enzyme-function-check"
+    },
+    {
+      "id": "QTHEORY",
+      "label": "OpenStax Chemistry 2e: specific quantum-theory corrections",
+      "url": "https://openstax.org/books/chemistry-2e/pages/6-3-development-of-quantum-theory",
+      "review": "specific-correction-checked;not-a-certification-of-all-derived-teaching"
+    },
+    {
+      "id": "PERIODIC",
+      "label": "OpenStax Chemistry 2e: ionic-radius and energy conventions",
+      "url": "https://openstax.org/books/chemistry-2e/pages/6-5-periodic-variations-in-element-properties",
+      "review": "specific-correction-checked;not-a-certification-of-all-derived-teaching"
+    },
+    {
+      "id": "NISTCONFIG",
+      "label": "NIST electronic ground-state configurations",
+      "url": "https://www.nist.gov/pml/atomic-reference-data-electronic-structure-calculations/atomic-reference-data-electronic-8",
+      "review": "specific-correction-checked;not-a-certification-of-all-derived-teaching"
     }
   ],
   "objectives": [
@@ -309,8 +327,18 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0301",
+        "BC0302",
+        "BC0303",
+        "BC0304",
+        "BC0305",
+        "BC0306",
+        "BC0307",
+        "BC0308",
+        "BC0309"
+      ]
     },
     {
       "id": "U04",
@@ -578,7 +606,7 @@
       "id": "BIOL157-U03-T01",
       "unit": "U03",
       "title": "Early atomic theories",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -595,7 +623,7 @@
       "id": "BIOL157-U03-T02",
       "unit": "U03",
       "title": "Electronic configuration",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -612,7 +640,7 @@
       "id": "BIOL157-U03-T03",
       "unit": "U03",
       "title": "Periodic properties",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -1783,6 +1811,484 @@
         {
           "id": "s4",
           "title": "Misconceptions and limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U03-C01",
+      "unit": "U03",
+      "topic": "BIOL157-U03-T01",
+      "title": "Atomic models: evidence, explanations and limits",
+      "lesson": "BC0301",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO2"
+      ],
+      "learningGoals": "Connect the Dalton, Thomson, Rutherford and Bohr models to the observations they explain. Distinguish a successful prediction from a claim that a historical model describes every feature of an atom.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L3",
+          "pages": [
+            [
+              3,
+              12
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "How experiments changed the model"
+        },
+        {
+          "id": "s3",
+          "title": "Worked evidence chain"
+        },
+        {
+          "id": "s4",
+          "title": "Misconceptions and scope"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U03-C02",
+      "unit": "U03",
+      "topic": "BIOL157-U03-T01",
+      "title": "Waves, orbitals and probability",
+      "lesson": "BC0302",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO2"
+      ],
+      "learningGoals": "Distinguish an orbital from an orbit. Interpret a probability-density representation and explain the uncertainty principle without treating it as merely an instrument defect.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L3",
+          "pages": [
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "source": "QTHEORY"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "The quantum description"
+        },
+        {
+          "id": "s3",
+          "title": "Worked photon calculation"
+        },
+        {
+          "id": "s4",
+          "title": "Comparing representations"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U03-C03",
+      "unit": "U03",
+      "topic": "BIOL157-U03-T02",
+      "title": "Quantum numbers and electron capacity",
+      "lesson": "BC0303",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO2"
+      ],
+      "learningGoals": "Apply the allowed values of n, ℓ, mℓ and ms. Calculate shell and subshell capacities and identify invalid sets of quantum numbers.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L3",
+          "pages": [
+            [
+              16,
+              21
+            ]
+          ]
+        },
+        {
+          "source": "QTHEORY"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Four labels with different roles"
+        },
+        {
+          "id": "s3",
+          "title": "Worked capacity and validity problems"
+        },
+        {
+          "id": "s4",
+          "title": "Misconceptions and scope"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U03-C04",
+      "unit": "U03",
+      "topic": "BIOL157-U03-T02",
+      "title": "Building electronic configurations",
+      "lesson": "BC0304",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO2"
+      ],
+      "learningGoals": "Use Aufbau, Pauli and Hund together. Translate between shell totals, subshell notation and orbital occupancy without confusing capacity with actual filling order.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L3",
+          "pages": [
+            [
+              22,
+              27
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Three rules answer three questions"
+        },
+        {
+          "id": "s3",
+          "title": "Worked nitrogen, oxygen and sodium"
+        },
+        {
+          "id": "s4",
+          "title": "Exceptions and applications"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U03-C05",
+      "unit": "U03",
+      "topic": "BIOL157-U03-T02",
+      "title": "Transition atoms, ions and configuration exceptions",
+      "lesson": "BC0305",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO2"
+      ],
+      "learningGoals": "Write the lecturer's chromium and copper exceptions accurately. Construct common ionic configurations and explain why “all cations have a noble-gas configuration” is false.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L3",
+          "pages": [
+            [
+              26,
+              28
+            ],
+            [
+              40,
+              40
+            ]
+          ]
+        },
+        {
+          "source": "NISTCONFIG"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Close energies require care"
+        },
+        {
+          "id": "s3",
+          "title": "Worked iron and copper ions"
+        },
+        {
+          "id": "s4",
+          "title": "Common traps"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U03-C06",
+      "unit": "U03",
+      "topic": "BIOL157-U03-T03",
+      "title": "Reading the periodic table from electronic structure",
+      "lesson": "BC0306",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO2"
+      ],
+      "learningGoals": "Relate periods, groups and blocks to electronic structure. Translate older main-group notation without assigning an incorrect valence count to modern group numbers.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L3",
+          "pages": [
+            [
+              29,
+              36
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Organisation and recurring chemistry"
+        },
+        {
+          "id": "s3",
+          "title": "Worked group and block interpretation"
+        },
+        {
+          "id": "s4",
+          "title": "Comparisons and limitations"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U03-C07",
+      "unit": "U03",
+      "topic": "BIOL157-U03-T03",
+      "title": "Atomic and ionic size: attraction, shielding and comparison",
+      "lesson": "BC0307",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO2"
+      ],
+      "learningGoals": "Explain broad radius trends using shell extent and effective nuclear attraction. Compare ions correctly, including isoelectronic series, and distinguish different operational radius definitions.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L3",
+          "pages": [
+            [
+              37,
+              41
+            ]
+          ]
+        },
+        {
+          "source": "PERIODIC"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Why radius is a defined measurement"
+        },
+        {
+          "id": "s3",
+          "title": "Worked radius and ranking"
+        },
+        {
+          "id": "s4",
+          "title": "Biological relevance and traps"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U03-C08",
+      "unit": "U03",
+      "topic": "BIOL157-U03-T03",
+      "title": "Ionisation energies and meaningful exceptions",
+      "lesson": "BC0308",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO2"
+      ],
+      "learningGoals": "Define successive ionisation energies with appropriate gaseous species. Explain broad trends and the Be/B and N/O exceptions, and interpret a large jump in a successive-energy series.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L3",
+          "pages": [
+            [
+              42,
+              45
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Removing electrons costs energy"
+        },
+        {
+          "id": "s3",
+          "title": "Worked successive-energy interpretation"
+        },
+        {
+          "id": "s4",
+          "title": "Distinctions and applications"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U03-C09",
+      "unit": "U03",
+      "topic": "BIOL157-U03-T03",
+      "title": "Electron addition, electronegativity and sign conventions",
+      "lesson": "BC0309",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO2"
+      ],
+      "learningGoals": "Distinguish electron affinity from electronegativity. Interpret an explicit electron-addition energy convention and explain why broad trends have exceptions.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L3",
+          "pages": [
+            [
+              46,
+              51
+            ]
+          ]
+        },
+        {
+          "source": "PERIODIC"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Two related but different questions"
+        },
+        {
+          "id": "s3",
+          "title": "Worked first and second addition"
+        },
+        {
+          "id": "s4",
+          "title": "Common traps and scope"
         },
         {
           "id": "s5",

@@ -9,7 +9,7 @@
  function relatedQuestions(conceptId,data){return data.questions.filter(q=>q.conceptId===conceptId)}
  function sectionConcept(lesson,section,data){return data.concepts?.find(c=>c.lesson===lesson.id&&lesson.sections?.some(s=>s.id===c.sectionId&&s.title===section.title))||null}
  function questionReferences(question,data){
-  if(question.sourceRefs)return question.sourceRefs.map(ref=>{const source=data.sources?.find(s=>s.id===ref.source);return (source?.label||ref.source)+' · PDF '+ref.pages.map(([a,b])=>'p. '+a+(a===b?'':'–'+b)).join(', ')}).join(' · ');
+  if(question.sourceRefs)return question.sourceRefs.map(ref=>{const source=data.sources?.find(s=>s.id===ref.source);return (source?.label||ref.source)+(ref.pages?.length?' · PDF '+ref.pages.map(([a,b])=>'p. '+a+(a===b?'':'–'+b)).join(', '):'')}).join(' · ');
   return question.pages?'CSM 177 lecturer PDF '+question.pages.map(([a,b])=>'p. '+a+(a===b?'':'–'+b)).join(', '):'';
  }
  root.DominanceAcademicContract={sectionRoute,questionRoute,relatedQuestions,sectionConcept,questionReferences};

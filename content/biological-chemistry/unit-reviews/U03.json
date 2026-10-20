@@ -1,0 +1,23 @@
+{
+  "unit": "U03",
+  "status": "author-verified-draft-awaiting-human-academic-review",
+  "reviewer": null,
+  "academicApproval": null,
+  "source": "L3",
+  "actualPdfPages": 54,
+  "readingScope": "All text pages read; selected visual pages 7, 8, 21 and 51 inspected. Closing and appendix pages are not additional teaching objectives.",
+  "officialTopics": ["BIOL157-U03-T01", "BIOL157-U03-T02", "BIOL157-U03-T03"],
+  "teaching": "Nine original lessons: evidence/models; orbitals/probability; quantum numbers; configurations; transition ions; periodic organisation; radius; ionisation energies; electron addition/electronegativity.",
+  "questions": "34 original candidates; independent numeric/key checks and stable question-to-actual-section links. Foundational, distinction, calculation and application cases; no official past-paper claim.",
+  "corrections": [
+    {"pages": [6, 7], "issue": "Thomson/Bohr names misspelt", "decision": "Use standard names; do not make spelling an assessment objective."},
+    {"pages": [14, 15], "issue": "Position conflated with wavelength; orbital defined as a sharp 95% volume", "decision": "Distinguish position/momentum/wavelength; use |psi| squared and conventional probability boundaries.", "independentSource": "QTHEORY"},
+    {"pages": [20, 21], "issue": "Spin described as literal rotation; range of ms could imply continuous values", "decision": "Intrinsic spin with two projections; apply ml range to the selected l.", "independentSource": "QTHEORY"},
+    {"pages": [28, 40], "issue": "All cations described as noble-gas-like; close 3d/4s energies oversimplified", "decision": "NIST Cr/Cu exceptions; remove 4s before 3d for common transition cations. Fe2+/Fe3+ retain d electrons.", "independentSource": "NISTCONFIG"},
+    {"pages": [29, 30, 31, 35, 36], "issue": "Historical 8-group numbering and group/family/block shortcuts", "decision": "Use modern 18 groups, older notation qualification, C/Si group 14, helium exception and strict d-block/transition distinction."},
+    {"pages": [38, 39, 41], "issue": "Effective charge described as one proton; radius conventions mixed; anion trends reversed", "decision": "Net attraction after shielding; comparable radius definitions; anions generally larger down a group and isoelectronic contraction with increasing Z.", "independentSource": "PERIODIC"},
+    {"pages": [42, 46, 47, 48, 49, 50, 51], "issue": "Single atom/molar energy language and affinity signs/trend arrows require scope", "decision": "Explicit gaseous species and energy-change sign convention; exceptions and distinct electronegativity scale. Exact francium minimum not assessed.", "independentSource": "PERIODIC"}
+  ],
+  "supplementaryExamples": ["500 nm photon calculation with supplied constants", "Illustrative successive-ionisation series; not a uniquely identifying measured dataset", "Oxygen energy sum uses explicitly supplied rounded lecturer values, not a precision claim"],
+  "limitations": ["No human academic sign-off", "Selected diagrams inspected, not every external visual/reference", "Isolated-atom configurations and radii do not alone predict protein-bound metal chemistry or hydrated channel selectivity", "Source topic representation is draft coverage, not certified examination completeness"]
+}
