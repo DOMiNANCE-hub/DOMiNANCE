@@ -1,0 +1,4 @@
+### Preparation as a causal sequence
+Fixation preserves the sampled state; dehydration and clearing establish solvent compatibility for an embedding workflow; embedding supports tissue; sectioning provides a suitable thickness; staining creates contrast. One stage does not substitute for another. A strong stain cannot make an excessively thick TEM section transmit electrons adequately, and a thin section alone does not guarantee that the original tissue was preserved.
+This flow is a conceptual model rather than an executable laboratory protocol. Specimen, reagent, instrument and supervision requirements determine actual processing conditions.
+**Optional check:** Why might a thin but badly preserved section still give a misleading image? **Answer:** Sectioning addresses thickness, but deterioration or preparation artefacts can already have changed the structures being interpreted.

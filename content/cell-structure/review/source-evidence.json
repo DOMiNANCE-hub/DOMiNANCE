@@ -1,0 +1,294 @@
+{
+  "sourceTitle": "BIOL 151 Cell Structure — 2025 lecturer slides",
+  "driveId": "1TTnMZoxSzibVX82e9rmT8fc_9pwY5T6E",
+  "sha256": "4b3cdc039ce72fde9b12529ab7bd8ab72d3c5dd37932226c77258fe775ca6211",
+  "pages": 410,
+  "pageConvention": "Actual PDF pages; printed slide numbering is not substituted or inferred",
+  "textPagesInspected": [
+    {
+      "page": 15,
+      "textSha256": "de288647989bbff51213098dd75d74f3b799ee6cfa7b4329f392547a6bd65e87",
+      "anchor": "BROAD COURSE OBJECTIVES At the end of the course, you will be"
+    },
+    {
+      "page": 16,
+      "textSha256": "1a6335229d7c009d75d2e7ff210797c4347a0b627912e5440314fe0ba94958f7",
+      "anchor": "BROAD COURSE OBJECTIVES CONT’D. ➢ Describe the advances made over the last"
+    },
+    {
+      "page": 17,
+      "textSha256": "73676e7bb50780932fa05187f0c148c1999bd1f506a3fb40e526154cbf4c45e2",
+      "anchor": "BROAD COURSE OBJECTIVES CONT’D. ➢ Discriminate between organisms on the basis of"
+    },
+    {
+      "page": 18,
+      "textSha256": "c6ce77582c72fe3f277c59e65b2ac6afa379b20a02d28a3890139f9648cbd683",
+      "anchor": "SPECIFIC COURSE OBJECTIVES ON MICROSCOPY  At the end of this chapter"
+    },
+    {
+      "page": 19,
+      "textSha256": "f219d346a40ec32b590ba49bf85390385af5fa6637e5b0daaca21ebf259702cb",
+      "anchor": "SPECIFIC COURSE OBJECTIVES ON MICROSCOPY CONT’D. ➢ Know how to overcome the"
+    },
+    {
+      "page": 20,
+      "textSha256": "02014d746a4854a280a2f20bca4f58e5a2a126eea428863072b3dc6ba390c4f9",
+      "anchor": "SPECIFIC COURSE OBJECTIVES ON MICROSCOPY CONT’D. ➢Contrast: ➢Identify a use for darkfield,"
+    },
+    {
+      "page": 21,
+      "textSha256": "c4cc43fe7a86db628ad36698f58cf7a6c513f3fed43e464e214dde3db9707226",
+      "anchor": "SPECIFIC COURSE OBJECTIVES ON MICROSCOPY CONT’D. ➢ Know what parfocal is. ➢"
+    },
+    {
+      "page": 23,
+      "textSha256": "be5456469999d83b9c8136774e87beedf7d2de3d8e0955949c35fc591640ba9f",
+      "anchor": "UNITS OF MEASUREMENT CON’T.  Because microorganisms and their components are very"
+    },
+    {
+      "page": 24,
+      "textSha256": "f8c0162375406246edab2fdc71dd9978c8a5c4d7a53323aaced9b7545d78fe97",
+      "anchor": "MICROSCOPY ➢ The unaided human eye can distinguish objects as small as"
+    },
+    {
+      "page": 76,
+      "textSha256": "d5e70e068e97a5e1677e40e97ce9f115900b0f9a31e1639907a3565dbdf36720",
+      "anchor": "Factors that determine resolution Cont’d wider the angle of rays collected, the"
+    },
+    {
+      "page": 78,
+      "textSha256": "b5e72f4c01122a3afcb3c2b380a52ce086bfcdc85374782bf6d5c9c56ae047fc",
+      "anchor": "Factors that determine resolution Cont’d In the conventional light microscope, the medium"
+    },
+    {
+      "page": 79,
+      "textSha256": "d06a9da85933a2d29ea5169b0caa9c8f7b8d57e30fba88056b8293a5a1b7e753",
+      "anchor": "Factors that determine resolution Cont’d glass-covered microscope slides is optimally about 1.55."
+    },
+    {
+      "page": 81,
+      "textSha256": "f75c30b39944b6315371b7150684038d8024c633413f8dd6a7a860447314fbcd",
+      "anchor": "Factors that determine resolution Numerical aperture: When light rays pass through a"
+    },
+    {
+      "page": 84,
+      "textSha256": "f379b3f3d3b5d4ceb134bbffaf256b41c5408c64607aaeccec54800a1aba64f8",
+      "anchor": "Numerical Aperture and Resolution In practice, however, it is difficult to achieve"
+    },
+    {
+      "page": 87,
+      "textSha256": "9054a607483248bc090ebe02804f78604e6d08d31645296b9ca1489491db6f3d",
+      "anchor": "Numerical Aperture and Resolution The numerical aperture of an objective is also"
+    },
+    {
+      "page": 89,
+      "textSha256": "25fa0b8d5c12e7831460b068f816cfc0cfe09c325127c6411cf2f1a21feab198",
+      "anchor": "Numerical Aperture and Resolution Plan Achromat Plan Fluorite Plan Apochromat Magnification (NA)"
+    },
+    {
+      "page": 91,
+      "textSha256": "d27891ba2d1c67b41065748a233014e145e185af843655f7556072791cdc089d",
+      "anchor": "Factors that determine resolution Cont’d 2. Wavelength: Resolution also depends upon the"
+    },
+    {
+      "page": 94,
+      "textSha256": "cf31412efbb0e2131c91e6573408d2f11b4940a112cf7e7b6b20e85576086728",
+      "anchor": "Factors that determine resolution Cont’d  Because sin(U) is always smaller than"
+    },
+    {
+      "page": 110,
+      "textSha256": "0af26ac9fb85c829e6dc6b24ec3209d69de88d38ce6090ad1481d739cacdee63",
+      "anchor": "PHASE-CONTRAST MICROSCOPY  Differences in light absorption are often negligible between living"
+    },
+    {
+      "page": 112,
+      "textSha256": "ae581f39ee269ada58970fbb7d182561145df2febf79cd17af9fa287b3c13aed",
+      "anchor": "PHASE-CONTRAST MICROSCOPY CONT’D. with various dyes but, as this usually results in"
+    },
+    {
+      "page": 113,
+      "textSha256": "408c2333e180273a1eba538900c1164c8553cb11b4efccfd38849e27ccd3288b",
+      "anchor": "PHASE-CONTRAST MICROSCOPY CONT’D. with a light microscope, the light passing through the"
+    },
+    {
+      "page": 159,
+      "textSha256": "ddff09edd1d5d98265ae2633a2080e3c8b263ba2841b2ea372667ce869b73777",
+      "anchor": "PREPARATION OF SPECIMENS FOR LIGHT AND ELECTRON MICROSCOPY There are problems in"
+    },
+    {
+      "page": 160,
+      "textSha256": "101c6b65abac3b1c0b3e81e2694f76f957d759fc93ca4a9c90c6d9fe260000cd",
+      "anchor": "Fixation Cont’d The tissue must be fixed to prevent autolysis, bacterial or"
+    },
+    {
+      "page": 166,
+      "textSha256": "df68b791c2c810d43c35e41c926257e6000d122e2accc480b0f14a4d00e37167",
+      "anchor": "PREPARATION OF SPECIMENS FOR LIGHT AND ELECTRON MICROSCOPY CONT’D replaces the water"
+    },
+    {
+      "page": 170,
+      "textSha256": "6dc81e51ef070c514259ea127469814d9eb201340c871d29476458e3e5078f4c",
+      "anchor": "PREPARATION OF SPECIMENS FOR LIGHT AND ELECTRON MICROSCOPY CONT’D Process Solution Time"
+    },
+    {
+      "page": 180,
+      "textSha256": "2bedc083e7fb178059e802faa4d2c0b546cf46d0b0ccf5981ea37325af8dd5cb",
+      "anchor": "STAINING contd Of these more specific stains, there are essentially two groups;"
+    },
+    {
+      "page": 183,
+      "textSha256": "3d9699e6ffb4d33b24fcbffaf09324056f27fa69f25d5c78f83e1864dcd5f8a8",
+      "anchor": "STAINING contd Haematoxylin is most frequently used in combination with a second"
+    },
+    {
+      "page": 188,
+      "textSha256": "a69ac57a15a09c840489b2801b7a7edad6ffb31db1a61883590d08ab455d2341",
+      "anchor": "STAINING contd Negative staining produces an electron –dense background against which the"
+    },
+    {
+      "page": 207,
+      "textSha256": "bed770c943d42409dcb957e8912e87f7a0aaf698a3c9d8c32a060c83c547313d",
+      "anchor": "PEROXISOMES These contain the enzymes urate oxidase, D-amino acid oxidase and catalase."
+    },
+    {
+      "page": 215,
+      "textSha256": "69e24c18d1a917a8be4c4f39849bc4346d1d00366f9877ff46c6e223e7fb36c3",
+      "anchor": "Lysosomes Cont’d. Lysosomes are vesicular structures, limited by a single smooth membrane,"
+    },
+    {
+      "page": 216,
+      "textSha256": "d33d064175b3d97bcf4dff6a65250e47385977b9325c676cc53b150e354818fc",
+      "anchor": "LYSOSOMES CONT’D: vesicle called an endosome. Fusion of an endosome with a"
+    },
+    {
+      "page": 220,
+      "textSha256": "d7811d1708b3774f1c53bb8b76bec1c80d15ee9e06435a45856b12a020626320",
+      "anchor": "Lysosomes Cont’d. the death of the phagocyte. The death of large numbers"
+    },
+    {
+      "page": 224,
+      "textSha256": "d20faaf39860753107852962b3cc4391afff439b93669a7d9f5ac246507bbc43",
+      "anchor": "Lysosomes Cont’d. Reactions between the silica and the lysosomal membranes lead to"
+    },
+    {
+      "page": 303,
+      "textSha256": "15c3e283c30849e5ed11b9173ad2c9fddd3049e0fda466535af5433a93c25f03",
+      "anchor": "The Fluidity of Membranes Fluid Viscous Unsaturated hydrocarbon Saturated hydro- tails with"
+    },
+    {
+      "page": 304,
+      "textSha256": "bbafc0362d0257b3c96d8cae0917177b8c88a66da2327492146d0dc0348d2546",
+      "anchor": "The Fluidity of Membranes  As temperatures cool, membranes switch from a"
+    },
+    {
+      "page": 318,
+      "textSha256": "54fc19e5909bf27991360390b522be9047e9fc78fcb3a68e3cbe2b5bf7233965",
+      "anchor": "Selective Permeability of Membrane • Lipid bilayer – permeable to non-polar, uncharged"
+    },
+    {
+      "page": 319,
+      "textSha256": "500668afaa4b63929208a5b5b723eb3f4cb38b96dac751bb799a2742e69dc454",
+      "anchor": "Gradients across the Plasma Membrane • Membrane can maintain difference in concentration"
+    },
+    {
+      "page": 342,
+      "textSha256": "03fa61845c99371db12aeac612f9605530dc6cf74bad4e484cd87a1538a6f05d",
+      "anchor": "Fractionation or Centrifugation Cont’d Once the homogenate has been prepared it is"
+    },
+    {
+      "page": 349,
+      "textSha256": "bae40a5eafbda393d3e8d03fe749f8b345bb1fa2144aabff6519f32f5d8c6ed2",
+      "anchor": "Differential centrifugation Cont’d. A cell homogenate can be centrifuged at a series"
+    },
+    {
+      "page": 359,
+      "textSha256": "6040219ae105f46c81bab1c37a907f28545dfe1dd37b23c1511a941fa7e75f48",
+      "anchor": "Density gradient centrifugation Cont’d. The cell fraction to be separated is placed"
+    },
+    {
+      "page": 362,
+      "textSha256": "8d88daa7e0cf20d36775a9ea6a30d94da8834c98c983b1c0e5a5d0815babdadf",
+      "anchor": "(b) Isopycnic separation In this type of separation, a particle of a"
+    },
+    {
+      "page": 363,
+      "textSha256": "ee0061ea02b78ba03e82408e757a67d8d78f39354b158471410ea303bff682e3",
+      "anchor": "Isopycnic separation Cont’d not have any influence on the migration of the"
+    },
+    {
+      "page": 366,
+      "textSha256": "d9bf65740685373ad488e30824796acda8fd97838f514897f06e1832b420062e",
+      "anchor": "Analytical Ultra-Centrifuge Analytical ultracentrifugation is a classical method of biochemistry and molecular"
+    },
+    {
+      "page": 375,
+      "textSha256": "b843a776b26c15a0ea451ffb951ca6a30d0e8c37e2a83dccb767e5e3a2b22876",
+      "anchor": "Spectrophotometry Cont’d The amount of light passing through the tube is measured"
+    },
+    {
+      "page": 385,
+      "textSha256": "705a6473f27561c912e470ccec41bc2512b54706ccbb63a8bf482136f0d1bb66",
+      "anchor": "Autoradiography Cont’d. The radioactive particles emitted from the isotope sensitizer react with"
+    },
+    {
+      "page": 398,
+      "textSha256": "5110a59686a96c29ea29effbfabc016634a3d0fcae92f2c44207647202ce0c46",
+      "anchor": "Paper chromatography Cont’d. As before, the value is calculated, and the two"
+    }
+  ],
+  "visualChecks": [
+    {
+      "page": 89,
+      "status": "checked-source-data",
+      "finding": "Full numerical-aperture table read visually; original factual reference table added to local review."
+    },
+    {
+      "page": 303,
+      "status": "checked-selected-figure",
+      "finding": "Cis-bent versus straight-tail packing illustration supports comparison; original figure not republished."
+    },
+    {
+      "page": 304,
+      "status": "checked-selected-page",
+      "finding": "Temperature/composition wording inspected with packing figure; not a universal fluidity constant."
+    },
+    {
+      "page": 358,
+      "status": "flagged-not-adopted",
+      "finding": "Blood fraction illustration labels white cells/platelets as 4%; percentages need independent/context review; no numeric question or normal-reference claim added."
+    },
+    {
+      "page": 407,
+      "status": "checked-selected-figure",
+      "finding": "TLC origin/spot/front diagram inspected; not claimed as pixel-exact measurement."
+    },
+    {
+      "page": 410,
+      "status": "checked-printed-solution",
+      "finding": "Printed ratios 1.4/7.7=0.18, 6.0/7.7=0.78, 4.1/7.7=0.53 inspected."
+    }
+  ],
+  "independentClarifications": [
+    {
+      "claim": "Human urate oxidase gene is nonfunctional",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2594778/",
+      "evidence": "Primary molecular study abstract; no claim of human peroxisomal uricase activity."
+    },
+    {
+      "claim": "HEXA deficiency impairs GM2 breakdown",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK22250/",
+      "evidence": "Publisher-hosted biochemical disease description; not patient-specific advice."
+    },
+    {
+      "claim": "Temperature-dependent membrane packing and cholesterol distinction",
+      "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+      "evidence": "Publisher textbook comparison, alongside supplied lecturer source."
+    }
+  ],
+  "remaining": [
+    "Not all 410 pages or figures independently reconciled.",
+    "Current-year official outline/assessment rules remain unverified.",
+    "The 2025 Cell pass-mark statement cannot resolve Computer grading rules.",
+    "Unidentified wall-digestion agent, analytical no-standards qualifier and unreviewed figures remain open."
+  ]
+}

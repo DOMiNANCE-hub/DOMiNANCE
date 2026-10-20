@@ -1,0 +1,4 @@
+### Decide where the heavy material is located
+In conventional positive TEM staining, electron-dense material enhances selected specimen structures. In negative staining, dense material surrounds a particle, making its outline comparatively light against a darker background. The image contrast follows differential electron interaction, not a red/blue colour code like H&E.
+The same word “dark” can therefore mean different spatial arrangements. Ask whether density lies within the structure or around it before interpreting a negative-stain image. A later digital colour overlay does not change the physical basis of the original electron signal.
+**Optional check:** A light particle outline lies in a dark electron-dense field. Which arrangement is consistent with this? **Answer:** Negative staining, with dense stain around the particle rather than a selectively darkened particle interior.

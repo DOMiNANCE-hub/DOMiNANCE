@@ -1,5 +1,9 @@
 # DOMiNANCE roadmap
 
+## Cell instructional checkpoint — 2026-10-20
+
+All 46 lessons audited; 23 receive gated instructional expansions, 96 rationales improved and eight interpretation/application candidates added (178 internal-review questions). Original files, IDs and answer mappings remain intact. The existing uricase caveats are consolidated, preserving all unique qualifications. Seven broad and fourteen microscopy-specific lecturer objectives mapped from the actual 410-page 2025 PDF; six selected visual pages checked, remaining source/figure/current-year coverage explicitly open. 147 offline and 37 real emulator checks, lint/build and all 263 reader sections at 390px pass. [Evidence and exact continuation](docs/cell-instruction/READINESS.md). Normal builds retain the 170-question bank; no academic approval, merge or deployment.
+
 ## HB1 academic development — 2026-10-19
 
 The current user authorized isolated academic branches, implementation, tests, commits, pushes and draft PRs based on the latest `dev/firebase-development-readiness`. Baseline `7274bb7` includes Antigravity Sprint 01 and CI. No merge, deployment, global styling/navigation redesign or Firebase security-rule changes.
