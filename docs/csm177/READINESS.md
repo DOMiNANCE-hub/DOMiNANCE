@@ -72,7 +72,7 @@ Feasible alternatives were actually executed: **22 headless engine/document chec
 | PP-03 grouping/object ordering | None | Unexecuted |
 | PP-04 layout/table/master/save | Headless table/text round-trip and PDF render | PowerPoint UI, positions and slide master unexecuted |
 
-[Required register](../../content/computer-appreciation/review/practical-checks.json) · [Actual engine results/version/fixture hash](office-alternative-results.json). The independent script preserves the source fixture, creates only fictional local variants and clearly identifies alternatives.
+[Exact 15-scenario manual acceptance steps and evidence requirements](MICROSOFT_OFFICE_ACCEPTANCE.md) · [Required register](../../content/computer-appreciation/review/practical-checks.json) · [Actual engine results/version/fixture hash](office-alternative-results.json). The independent script preserves the source fixture, creates only fictional local variants and clearly identifies alternatives.
 
 ## Academic ambiguities held open
 

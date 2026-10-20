@@ -28,4 +28,6 @@ Existing Vercel project: `do-mi-nance`. Read-only inspection confirms existing V
 
 Complete BIOL157 Unit 6 Nucleic Acids from all 52 actual Lecture 6 pages and four official outline subtopics; then Units 7–10 as separate tested batches. Retain Cell source/figure and exact-concept review, Office 15 manual acceptance and four withheld questions, and auditable publication/Firebase preview gates.
 
+Microsoft Office remains 0/15 executed: [exact manual acceptance checklist](../csm177/MICROSOFT_OFFICE_ACCEPTANCE.md).
+
 Detailed course checklists, source limitations, test evidence and original PR head SHAs: [READINESS.json](READINESS.json). Regenerate with `node scripts/report-three-course-release.mjs` after every content batch.

@@ -458,3 +458,7 @@ See docs/FIREBASE_AUTHORIZATION.md for the permission matrix and provisioning as
 ### BIOL157 Unit 5 coherent batch — 2026-10-20
 
 Fourteen original carbohydrate lessons, 58 section-linked MCQs, 28 answered checks and two original diagrams authored from all 58 actual Lecture 5 pages. Prior 35 lesson files and 119 assessment objects retain hashes; source discrepancies and incomplete secondary-source access are recorded. Current Bio inventory 49/177 with 16/34 topics having draft notes; no human approval or student release. Verified 200 offline / 40 emulator checks, lint/build and combined Chromium traversal/flows, including the new Unit 5 concept-return journey. See docs/release/UNIT05.md and READINESS.md; continue Unit 6, not another audit.
+
+### Microsoft Office manual acceptance preparation — 2026-10-20
+
+Exact steps, expected outcomes and evidence requirements prepared for all 15 required Excel/PowerPoint desktop scenarios in docs/csm177/MICROSOFT_OFFICE_ACCEPTANCE.md. Required software execution remains 0/15; earlier 22 headless alternatives are not reclassified. Policy/version ambiguities and four withheld questions remain open. Existing 21 Computer content/integration tests pass; no course data, IDs or release gates changed.
