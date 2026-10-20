@@ -1,0 +1,625 @@
+{
+  "course": "Computer Appreciation",
+  "status": "editorial-review-only",
+  "officialSyllabusVerified": false,
+  "academicApproval": null,
+  "studentPublication": false,
+  "lessons": [
+    {
+      "id": "CA01",
+      "title": "Spreadsheets and dependable data entry",
+      "words": 729,
+      "questions": 6,
+      "changes": "Annotated equipment register, changed-input prediction and edit cancellation",
+      "remainingReview": "Range/source identity and real-account privacy remain review concerns"
+    },
+    {
+      "id": "CA02",
+      "title": "Editing, AutoComplete and AutoFill",
+      "words": 698,
+      "questions": 6,
+      "changes": "Two-seed series, copy-versus-suggestion comparison and record-deletion experiment",
+      "remainingReview": "Target Excel shortcuts and legacy fill options unexecuted"
+    },
+    {
+      "id": "CA03",
+      "title": "Formulas, references and evaluation order",
+      "words": 654,
+      "questions": 6,
+      "changes": "Formula/value annotation, changed fixed input and mean-grouping error case",
+      "remainingReview": "Copy/F4 GUI acceptance remains pending"
+    },
+    {
+      "id": "CA04",
+      "title": "Functions, dates and common calculations",
+      "words": 742,
+      "questions": 6,
+      "changes": "Recalculation prediction, quotient/remainder contrast and display-versus-value date test",
+      "remainingReview": "TODAY/DATE source contradictions held open; TODAY candidate remains withheld"
+    },
+    {
+      "id": "CA05",
+      "title": "Describing and counting numeric data",
+      "words": 661,
+      "questions": 6,
+      "changes": "Hand-worked data table, missing-versus-zero and sample/population reasoning",
+      "remainingReview": "Source AVERAGE/AVERAGEA table remains unreliable for broader claims"
+    },
+    {
+      "id": "CA06",
+      "title": "Text, logical tests and financial arguments",
+      "words": 660,
+      "questions": 6,
+      "changes": "Boundary truth table, AND/OR distinction, original-preserving text task and rate/nper units",
+      "remainingReview": "No institutional grade thresholds or unspecified financial assumptions inferred"
+    },
+    {
+      "id": "CA07",
+      "title": "Formatting, printing and workbook care",
+      "words": 690,
+      "questions": 6,
+      "changes": "Percentage input diagnosis, multi-step preview and separate file/protection roles",
+      "remainingReview": "Target protection dialogs/physical printing unexecuted"
+    },
+    {
+      "id": "CA08",
+      "title": "Choosing and checking charts",
+      "words": 690,
+      "questions": 6,
+      "changes": "Department and unequal-day charts, one-point source trace and changed-input check",
+      "remainingReview": "F11 and Alt+F1 remain withheld; desktop chart acceptance pending"
+    },
+    {
+      "id": "CA09",
+      "title": "Sorting and filtering records",
+      "words": 670,
+      "questions": 6,
+      "changes": "Four-record exercise, boundary filter/intersection and damaged single-column-sort diagnosis",
+      "remainingReview": "Exactly-40 institutional policy unresolved"
+    },
+    {
+      "id": "CA10",
+      "title": "PowerPoint slides, layouts and saved files",
+      "words": 819,
+      "questions": 12,
+      "changes": "Three-slide workflow, text/container alignment and editable-file recovery",
+      "remainingReview": "No PowerPoint GUI acceptance or academic approval granted"
+    },
+    {
+      "id": "CA11",
+      "title": "Tables, pictures and presentation objects",
+      "words": 892,
+      "questions": 12,
+      "changes": "Table/picture steps and alignment/grouping/stacking comparison",
+      "remainingReview": "Audio playback and target-version contextual menus unexecuted"
+    },
+    {
+      "id": "CA12",
+      "title": "Presenting, printing and controlled effects",
+      "words": 896,
+      "questions": 12,
+      "changes": "Rehearsal roles, timing uncertainty, handout/notes/range decisions",
+      "remainingReview": "Timing and physical printing remain unexecuted"
+    },
+    {
+      "id": "CA13",
+      "title": "Custom fill lists",
+      "words": 649,
+      "questions": 4,
+      "changes": "Source-of-list table, cycle prediction and repeated-label diagnosis",
+      "remainingReview": "Legacy Options routes and Windows GUI acceptance pending"
+    },
+    {
+      "id": "CA14",
+      "title": "Named cells and ranges",
+      "words": 632,
+      "questions": 4,
+      "changes": "Named input example, Refers To investigation and naming-scope limits",
+      "remainingReview": "No exhaustive name specification invented"
+    },
+    {
+      "id": "CA15",
+      "title": "Cross-sheet and three-dimensional references",
+      "words": 584,
+      "questions": 4,
+      "changes": "Cross-sheet input change, annotated four-sheet 220 total and omitted-source diagnosis",
+      "remainingReview": "Alternative arithmetic is not Excel tab/copy acceptance"
+    },
+    {
+      "id": "CA16",
+      "title": "Lookup and reference glossary",
+      "words": 680,
+      "questions": 4,
+      "changes": "Direction/output-type table and MATCH position-versus-value worked clarification",
+      "remainingReview": "Detailed lookup syntax/defaults remain missing; clarification labelled"
+    },
+    {
+      "id": "CA17",
+      "title": "Consolidating worksheet data",
+      "words": 642,
+      "questions": 4,
+      "changes": "Monthly 50 total, omitted-source case and category-selection check",
+      "remainingReview": "No official payroll rules or target dialog certification inferred"
+    },
+    {
+      "id": "CA18",
+      "title": "Print titles, headers and manual page breaks",
+      "words": 663,
+      "questions": 4,
+      "changes": "Requirements table, boundary placement and blank-row workaround diagnosis",
+      "remainingReview": "Excel preview, manual-break UI and physical output unexecuted"
+    }
+  ],
+  "questionCount": 114,
+  "rewrittenRationales": 114,
+  "rationaleWordCounts": [
+    {
+      "id": "CA-Q001",
+      "words": 48
+    },
+    {
+      "id": "CA-Q002",
+      "words": 46
+    },
+    {
+      "id": "CA-Q003",
+      "words": 52
+    },
+    {
+      "id": "CA-Q004",
+      "words": 56
+    },
+    {
+      "id": "CA-Q005",
+      "words": 57
+    },
+    {
+      "id": "CA-Q006",
+      "words": 57
+    },
+    {
+      "id": "CA-Q007",
+      "words": 51
+    },
+    {
+      "id": "CA-Q008",
+      "words": 55
+    },
+    {
+      "id": "CA-Q009",
+      "words": 50
+    },
+    {
+      "id": "CA-Q010",
+      "words": 52
+    },
+    {
+      "id": "CA-Q011",
+      "words": 53
+    },
+    {
+      "id": "CA-Q012",
+      "words": 52
+    },
+    {
+      "id": "CA-Q013",
+      "words": 51
+    },
+    {
+      "id": "CA-Q014",
+      "words": 50
+    },
+    {
+      "id": "CA-Q015",
+      "words": 53
+    },
+    {
+      "id": "CA-Q016",
+      "words": 48
+    },
+    {
+      "id": "CA-Q017",
+      "words": 52
+    },
+    {
+      "id": "CA-Q018",
+      "words": 50
+    },
+    {
+      "id": "CA-Q019",
+      "words": 53
+    },
+    {
+      "id": "CA-Q020",
+      "words": 55
+    },
+    {
+      "id": "CA-Q021",
+      "words": 54
+    },
+    {
+      "id": "CA-Q022",
+      "words": 47
+    },
+    {
+      "id": "CA-Q023",
+      "words": 47
+    },
+    {
+      "id": "CA-Q024",
+      "words": 54
+    },
+    {
+      "id": "CA-Q025",
+      "words": 55
+    },
+    {
+      "id": "CA-Q026",
+      "words": 60
+    },
+    {
+      "id": "CA-Q027",
+      "words": 57
+    },
+    {
+      "id": "CA-Q028",
+      "words": 54
+    },
+    {
+      "id": "CA-Q029",
+      "words": 55
+    },
+    {
+      "id": "CA-Q030",
+      "words": 54
+    },
+    {
+      "id": "CA-Q031",
+      "words": 49
+    },
+    {
+      "id": "CA-Q032",
+      "words": 55
+    },
+    {
+      "id": "CA-Q033",
+      "words": 50
+    },
+    {
+      "id": "CA-Q034",
+      "words": 54
+    },
+    {
+      "id": "CA-Q035",
+      "words": 54
+    },
+    {
+      "id": "CA-Q036",
+      "words": 53
+    },
+    {
+      "id": "CA-Q037",
+      "words": 51
+    },
+    {
+      "id": "CA-Q038",
+      "words": 53
+    },
+    {
+      "id": "CA-Q039",
+      "words": 51
+    },
+    {
+      "id": "CA-Q040",
+      "words": 49
+    },
+    {
+      "id": "CA-Q041",
+      "words": 55
+    },
+    {
+      "id": "CA-Q042",
+      "words": 58
+    },
+    {
+      "id": "CA-Q043",
+      "words": 56
+    },
+    {
+      "id": "CA-Q044",
+      "words": 56
+    },
+    {
+      "id": "CA-Q045",
+      "words": 56
+    },
+    {
+      "id": "CA-Q046",
+      "words": 52
+    },
+    {
+      "id": "CA-Q047",
+      "words": 53
+    },
+    {
+      "id": "CA-Q048",
+      "words": 55
+    },
+    {
+      "id": "CA-Q049",
+      "words": 53
+    },
+    {
+      "id": "CA-Q050",
+      "words": 49
+    },
+    {
+      "id": "CA-Q051",
+      "words": 58
+    },
+    {
+      "id": "CA-Q052",
+      "words": 54
+    },
+    {
+      "id": "CA-Q053",
+      "words": 53
+    },
+    {
+      "id": "CA-Q054",
+      "words": 53
+    },
+    {
+      "id": "CA-Q055",
+      "words": 49
+    },
+    {
+      "id": "CA-Q056",
+      "words": 49
+    },
+    {
+      "id": "CA-Q057",
+      "words": 51
+    },
+    {
+      "id": "CA-Q058",
+      "words": 48
+    },
+    {
+      "id": "CA-Q059",
+      "words": 52
+    },
+    {
+      "id": "CA-Q060",
+      "words": 54
+    },
+    {
+      "id": "CA-Q061",
+      "words": 53
+    },
+    {
+      "id": "CA-Q062",
+      "words": 49
+    },
+    {
+      "id": "CA-Q063",
+      "words": 52
+    },
+    {
+      "id": "CA-Q064",
+      "words": 50
+    },
+    {
+      "id": "CA-Q065",
+      "words": 51
+    },
+    {
+      "id": "CA-Q066",
+      "words": 53
+    },
+    {
+      "id": "CA-Q067",
+      "words": 49
+    },
+    {
+      "id": "CA-Q068",
+      "words": 48
+    },
+    {
+      "id": "CA-Q069",
+      "words": 55
+    },
+    {
+      "id": "CA-Q070",
+      "words": 49
+    },
+    {
+      "id": "CA-Q071",
+      "words": 50
+    },
+    {
+      "id": "CA-Q072",
+      "words": 53
+    },
+    {
+      "id": "CA-Q073",
+      "words": 56
+    },
+    {
+      "id": "CA-Q074",
+      "words": 52
+    },
+    {
+      "id": "CA-Q075",
+      "words": 51
+    },
+    {
+      "id": "CA-Q076",
+      "words": 49
+    },
+    {
+      "id": "CA-Q077",
+      "words": 51
+    },
+    {
+      "id": "CA-Q078",
+      "words": 49
+    },
+    {
+      "id": "CA-Q079",
+      "words": 54
+    },
+    {
+      "id": "CA-Q080",
+      "words": 51
+    },
+    {
+      "id": "CA-Q081",
+      "words": 51
+    },
+    {
+      "id": "CA-Q082",
+      "words": 48
+    },
+    {
+      "id": "CA-Q083",
+      "words": 49
+    },
+    {
+      "id": "CA-Q084",
+      "words": 50
+    },
+    {
+      "id": "CA-Q085",
+      "words": 51
+    },
+    {
+      "id": "CA-Q086",
+      "words": 52
+    },
+    {
+      "id": "CA-Q087",
+      "words": 59
+    },
+    {
+      "id": "CA-Q088",
+      "words": 49
+    },
+    {
+      "id": "CA-Q089",
+      "words": 49
+    },
+    {
+      "id": "CA-Q090",
+      "words": 56
+    },
+    {
+      "id": "CA-Q091",
+      "words": 52
+    },
+    {
+      "id": "CA-Q092",
+      "words": 49
+    },
+    {
+      "id": "CA-Q093",
+      "words": 56
+    },
+    {
+      "id": "CA-Q094",
+      "words": 54
+    },
+    {
+      "id": "CA-Q095",
+      "words": 52
+    },
+    {
+      "id": "CA-Q096",
+      "words": 55
+    },
+    {
+      "id": "CA-Q097",
+      "words": 52
+    },
+    {
+      "id": "CA-Q098",
+      "words": 53
+    },
+    {
+      "id": "CA-Q099",
+      "words": 53
+    },
+    {
+      "id": "CA-Q100",
+      "words": 50
+    },
+    {
+      "id": "CA-Q101",
+      "words": 52
+    },
+    {
+      "id": "CA-Q102",
+      "words": 53
+    },
+    {
+      "id": "CA-Q103",
+      "words": 55
+    },
+    {
+      "id": "CA-Q104",
+      "words": 52
+    },
+    {
+      "id": "CA-Q105",
+      "words": 53
+    },
+    {
+      "id": "CA-Q106",
+      "words": 50
+    },
+    {
+      "id": "CA-Q107",
+      "words": 53
+    },
+    {
+      "id": "CA-Q108",
+      "words": 52
+    },
+    {
+      "id": "CA-Q109",
+      "words": 51
+    },
+    {
+      "id": "CA-Q110",
+      "words": 55
+    },
+    {
+      "id": "CA-Q111",
+      "words": 53
+    },
+    {
+      "id": "CA-Q112",
+      "words": 52
+    },
+    {
+      "id": "CA-Q113",
+      "words": 53
+    },
+    {
+      "id": "CA-Q114",
+      "words": 55
+    }
+  ],
+  "candidateReview": {
+    "additionalInspected": 12,
+    "newlyImported": 0,
+    "remainingNotImported": 242
+  },
+  "limitations": [
+    "Word counts are descriptive, not quality scores or acceptance thresholds.",
+    "Official course objectives are unavailable; lesson goals are source-derived editorial goals.",
+    "The 199-page crosswalk is unchanged; it is not a complete source-version reconciliation.",
+    "All 15 required Microsoft Office scenarios remain unexecuted in Microsoft Office.",
+    "Full function catalogues, detailed lookup arguments and target-version desktop acceptance remain incomplete."
+  ]
+}

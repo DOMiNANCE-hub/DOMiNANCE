@@ -1,0 +1,2950 @@
+{
+  "source": "uploaded CP5/CP6 candidate; source original unavailable",
+  "lessonCount": 58,
+  "candidateQuestions": 270,
+  "withheldQuestions": 4,
+  "lessons": [
+    {
+      "packageBlock": 1,
+      "packageLesson": 1,
+      "title": "CSM 177 | Block 01 | Refined Lesson 01 | Getting Started with Excel: Spreadsheets and Their Uses",
+      "sha256": "9b921770bd753d4e1eba61dacbed0f71c128f18a6e7ae8af28a2ab85fb6cc87b",
+      "baselineRelatedLessons": [
+        "CA01",
+        "CA02"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 1,
+      "packageLesson": 2,
+      "title": "CSM 177 | Block 01 | Refined Lesson 02 | Starting and Quitting Excel; Editing, Text, Numbers and Fractions",
+      "sha256": "b694faf9ee0ab427a8b7df237c4d2a60f2e4f02cd06725a830ac4504c2988680",
+      "baselineRelatedLessons": [
+        "CA01",
+        "CA02"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 1,
+      "packageLesson": 3,
+      "title": "CSM 177 | Block 01 | Refined Lesson 03 | Entering Dates and Times; AutoComplete Introduction",
+      "sha256": "9ea0be5e695053667e5e31dfdb66397b924804a7cc93dd988b62f25b8c43bd3d",
+      "baselineRelatedLessons": [
+        "CA01",
+        "CA02"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 1,
+      "packageLesson": 4,
+      "title": "CSM 177 | Block 01 | Refined Lesson 04 | Clearing, Deleting and Inserting Cells, Rows and Columns",
+      "sha256": "12e971afc5b33f9096f95af540b001ea01f72442e624b8e6435541c0f88d73cc",
+      "baselineRelatedLessons": [
+        "CA01",
+        "CA02"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 1,
+      "packageLesson": 5,
+      "title": "CSM 177 | Block 01 | Refined Lesson 05 | AutoComplete Versus Fill Handle",
+      "sha256": "c79c8dce6fdb88e7a15d8475c1a956f309a105d187d9d2feb572b2a3e5bed865",
+      "baselineRelatedLessons": [
+        "CA01",
+        "CA02"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 1,
+      "packageLesson": 6,
+      "title": "CSM 177 | Block 01 | Refined Lesson 06 | Auto Fill Options, Fill Directions and Formula Filling",
+      "sha256": "f81b910ec74b1a2338eccd41f83cfa8aa85d7109125dafd8eb7b5b3d395dee50",
+      "baselineRelatedLessons": [
+        "CA01",
+        "CA02"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 1,
+      "packageLesson": 7,
+      "title": "CSM 177 | Block 01 | Refined Lesson 07 | Built-in Series, Series Dialog and Control-Dragging",
+      "sha256": "39d2a1f0a18d86fbb7e34db5bd6908b003a596903152fbef46fe56fa59faf461",
+      "baselineRelatedLessons": [
+        "CA01",
+        "CA02"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 1,
+      "packageLesson": 8,
+      "title": "CSM 177 | Block 01 | Refined Lesson 08 | Custom Fill Lists: Import, Create, Edit and Delete",
+      "sha256": "82dbb1cf8b61f6427670ec0760f3cc1e0dd7145b2080615c7fa1b9cc8c64c4d0",
+      "baselineRelatedLessons": [
+        "CA01",
+        "CA02"
+      ],
+      "reviewAdaptation": "CA13",
+      "assessment": "targeted-depth-added-for-local-review"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 1,
+      "title": "Lesson 01 — Formulas and entering formulas | What formulas do",
+      "sha256": "abb98dd37bcef249c54ee090ff787688c1e5d1d150cf2d1877b8055ce97d7500",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 2,
+      "title": "Lesson 02 — Cell references and pointing | Cell references",
+      "sha256": "f88bb69556572320dc6e2b2b939d9c3aabb8ecf62a7d87b34628a4a0f3ac8cac",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 3,
+      "title": "Lesson 03 — Relative, absolute and mixed references | Why reference types matter",
+      "sha256": "8782a84f390f5be055381f3509a10ae490bcd4ccd43a9c2a0d0dbc63ca2a2d5c",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 4,
+      "title": "Lesson 04 — Circular, cross-sheet and 3-D references | Circular references (p. 101)",
+      "sha256": "36232479776249b4598c29dcda946885f6a3e94495e4f550937f67ab2ee993e5",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": "CA15",
+      "assessment": "targeted-depth-added-for-local-review"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 5,
+      "title": "Lesson 05 — Excel calculation operators and precedence | Four classes of operators (pp. 105–110)",
+      "sha256": "33cea90a93af43c469cbb5b89e1cbc42861071a1ef316c2af88d55fe6e07d91e",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 6,
+      "title": "Lesson 06 — Naming cells and ranges | Named ranges (p. 118)",
+      "sha256": "5799c82b18026189a2df90a9dfd6128ed453d25c269afcc8441a5139c711a08e",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": "CA14",
+      "assessment": "targeted-depth-added-for-local-review"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 7,
+      "title": "Lesson 07 — Built-in functions and arguments | Built-in functions (pp. 127–132)",
+      "sha256": "6ff0a851b9ebba2d81f4792d982416bc6650f27316bc3f7c05423ed637df9d8d",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 8,
+      "title": "Lesson 08 — Entering functions and AutoSum | Entering a function (pp. 141–146)",
+      "sha256": "3a5eb9146c3e3a9ae13736160b4f0be8aa9ba85717eadc195dbc9197b046fc2f",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 9,
+      "title": "Lesson 09 — Function categories and date/time functions | Categories (pp. 150–151)",
+      "sha256": "fdd48086c681ba1df3a8b2a7bf300b89f4048697d0c9707f27430ec361bc7b80",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 10,
+      "title": "Lesson 10 — Mathematical and statistical functions | Math and trigonometry (pp. 161–167)",
+      "sha256": "7fce791bc6eb4ccc3a7e643a76419a9de3da2ad30f751bb3a4938dc6791ec4de",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 11,
+      "title": "Lesson 11 — Text and financial functions | Text functions (pp. 177–179)",
+      "sha256": "bbe9e6c60783526391722305f259ccec918741edb329f2761b2b85e7014ec4fa",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 12,
+      "title": "Lesson 12 — Logical functions and nested IF | TRUE, FALSE and NOT (pp. 187–189)",
+      "sha256": "9254e475f6b442282f3a1b7d403209f9ccc404e337b22680da1489e5b5b8d36a",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 13,
+      "title": "Lesson 13 — Practical payroll and grading exercises | Exercise 1: KNUST Computer Company payroll (pp. 197–200)",
+      "sha256": "ba47de084cc7e19b2a855b9d3d8d4ee8b2d113d2a800165f6822e271f33c7875",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 2,
+      "packageLesson": 14,
+      "title": "Lesson 14 — Lookup and reference function glossary | Lookup and reference functions (p. 203)",
+      "sha256": "5171edf4f0b5b65e916d95cbd40b923ada5be2a8ec2ffbc3ae2b510886b1d02b",
+      "baselineRelatedLessons": [
+        "CA03",
+        "CA04",
+        "CA05",
+        "CA06"
+      ],
+      "reviewAdaptation": "CA16",
+      "assessment": "targeted-depth-added-for-local-review"
+    },
+    {
+      "packageBlock": 3,
+      "packageLesson": 1,
+      "title": "Block 03 · Lesson 01 — Automatic table formatting and Format Painter | Outcome",
+      "sha256": "a0558421b25000730bf00fa880b54bf9eb38a1e3a0adfdf3c3c2dd8e5ecd2a3a",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 3,
+      "packageLesson": 2,
+      "title": "Block 03 · Lesson 02 — Font, partial formatting, alignment, wrapping, merging and concatenation | Outcome",
+      "sha256": "7cd19a027d5de68b381424a13427cae257b2f23bad9bfad46dc675d9c614cf08",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 3,
+      "packageLesson": 3,
+      "title": "Block 03 · Lesson 03 — Automatic formatting, number categories and format shortcuts | Outcome",
+      "sha256": "be09517dc39b1ea11bfa2fcf5a0d5daf383c560e917cfdf8208f0d23fb097ed7",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 3,
+      "packageLesson": 4,
+      "title": "Block 03 · Lesson 04 — Column width, AutoFit, hiding and unhiding columns | Outcome",
+      "sha256": "d215a83507f9dd3d43a32a2ca36227f103c2d0c10e75379ae62dadb0fd501259",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 3,
+      "packageLesson": 5,
+      "title": "Block 03 · Lesson 05 — Formatting multiple worksheets as a group | Outcome",
+      "sha256": "ac39b79a58add2aafd0c87e4786effe225a011258cdf1a6090ee43a6881074a7",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 4,
+      "packageLesson": 1,
+      "title": "Block 04 · Lesson 01 — Printing workflow and four Page Setup tabs | Outcome",
+      "sha256": "d58e131e85925a0986b1fbd1b1c3343e2da2238ecf416e24414c3b0181fadaa5",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 4,
+      "packageLesson": 2,
+      "title": "Block 04 · Lesson 02 — Margins, paper orientation, print gridlines and page order | Outcome",
+      "sha256": "59ae1b854b6eba44fbd31f569d9f91793e84f02a1fb627694816f8648ec63dde",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 4,
+      "packageLesson": 3,
+      "title": "Block 04 · Lesson 03 — Scaling, headers and footers | Outcome",
+      "sha256": "f39d704510b7b8473b4bfbefbfb90489d81c63574b7c834801e39ded4c7a4c28",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 4,
+      "packageLesson": 4,
+      "title": "Block 04 · Lesson 04 — Print ranges, manual page breaks and preview | Outcome",
+      "sha256": "dba65bcfa13de5289ebda8a9475d13f7767cd9e527da767a58693cd0f30854d9",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": "CA18",
+      "assessment": "targeted-depth-added-for-local-review"
+    },
+    {
+      "packageBlock": 5,
+      "packageLesson": 1,
+      "title": "B05L01 — Workbook basics and opening files | Learning outcomes",
+      "sha256": "26e5b6fa0c8a5c2bba1f8b7818198a42acde7cfbeb9569b999f24a00ae408418",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 5,
+      "packageLesson": 2,
+      "title": "B05L02 — Importing, saving and naming workbooks | Learning outcomes",
+      "sha256": "19bd5cd8a86532e81f6939767f268ccdb66bdd4e3bcb3c02b02e8a06139617f2",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 5,
+      "packageLesson": 3,
+      "title": "B05L03 — Workbook protection and file operations | Learning outcomes",
+      "sha256": "548ca00647e8bc373687008c843e5c2bf5a8943292040118c94bdececf9ff47a",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 5,
+      "packageLesson": 4,
+      "title": "B05L04 — Worksheet management and data consolidation | Learning outcomes",
+      "sha256": "ae6fbe3452050896e83750c908cf0d7e7d4b23ee57e8bd02161652f791322213",
+      "baselineRelatedLessons": [
+        "CA07"
+      ],
+      "reviewAdaptation": "CA17",
+      "assessment": "targeted-depth-added-for-local-review"
+    },
+    {
+      "packageBlock": 6,
+      "packageLesson": 1,
+      "title": "B06L01 — Chart foundations and terminology | Learning outcomes",
+      "sha256": "5d17f9e11e475bd32816c71573486b9ae273b10afb81d49c72e28f7d18fa5151",
+      "baselineRelatedLessons": [
+        "CA08",
+        "CA09"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 6,
+      "packageLesson": 2,
+      "title": "B06L02 — Column and line charts | Learning outcomes",
+      "sha256": "99629d28f8672228229e6b431c6e4de426af6d506836c2cee860502bef7df3db",
+      "baselineRelatedLessons": [
+        "CA08",
+        "CA09"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 6,
+      "packageLesson": 3,
+      "title": "B06L03 — Pie, bar, area and XY scatter charts | Learning outcomes",
+      "sha256": "1552628624aaeb685ab58922ca6ae0b96ceda9371cd9fe748f1e962bbd1efbd6",
+      "baselineRelatedLessons": [
+        "CA08",
+        "CA09"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 6,
+      "packageLesson": 4,
+      "title": "B06L04 — Other chart types and creating charts | Learning outcomes",
+      "sha256": "b821ef3f6da17b2ecdfe657e48bf9cc0d9adace28dd2aedc7861f5dd942a2ec1",
+      "baselineRelatedLessons": [
+        "CA08",
+        "CA09"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 6,
+      "packageLesson": 5,
+      "title": "B06L05 — Updating, saving and printing charts | Learning outcomes",
+      "sha256": "0c869cc215ff2f0e84146d55083c84cdd0d154b6650e624ce9d39a4549d8914e",
+      "baselineRelatedLessons": [
+        "CA08",
+        "CA09"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 6,
+      "packageLesson": 6,
+      "title": "B06L06 — Sorting by one or multiple columns | Learning outcomes",
+      "sha256": "6334eae5cd9cd5b24f80e3954d0b134f076e73ee4595512da73bf35cfd807bb2",
+      "baselineRelatedLessons": [
+        "CA08",
+        "CA09"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 6,
+      "packageLesson": 7,
+      "title": "B06L07 — Filtering and the lecturer’s failed-students exercise | Learning outcomes",
+      "sha256": "5c4e845459a34155a754e7cdb1f9978ab3e7d7d79f4b560506ed9cd5e67d5093",
+      "baselineRelatedLessons": [
+        "CA08",
+        "CA09"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 7,
+      "packageLesson": 1,
+      "title": "Block 07 · Lesson 01 — PowerPoint introduction, interface and starting a presentation | Understand it",
+      "sha256": "9094dda00998b0252dfd80457eb6c917efaca079cb4979de124477320f0b569a",
+      "baselineRelatedLessons": [
+        "CA10"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 7,
+      "packageLesson": 2,
+      "title": "Block 07 · Lesson 02 — Slide basics: placeholders and layouts | Understand it",
+      "sha256": "580cdb05b8b5315e42e789f071cc676444f919f23e9e329b0c6ba98255833da7",
+      "baselineRelatedLessons": [
+        "CA10"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 7,
+      "packageLesson": 3,
+      "title": "Block 07 · Lesson 03 — Managing slides, views and saving presentations | Understand it",
+      "sha256": "d07abae43a3dce6fcfb38d336db66574df5e96627ae92516152327e606bb7b5d",
+      "baselineRelatedLessons": [
+        "CA10"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 7,
+      "packageLesson": 4,
+      "title": "Block 07 · Lesson 04 — Text entry, editing, font formatting and alignment | Understand it",
+      "sha256": "aa05af91f9e9278230bb808e7ed053135b83d06d1fd86bf72abbc9a1bc683a6d",
+      "baselineRelatedLessons": [
+        "CA10"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 7,
+      "packageLesson": 5,
+      "title": "Block 07 · Lesson 05 — Themes, backgrounds, text boxes and moving text | Understand it",
+      "sha256": "0e816d4a2c0b2a8200d8e196551af2802ae01ba442b68ce004252d1e25c19630",
+      "baselineRelatedLessons": [
+        "CA10"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 7,
+      "packageLesson": 6,
+      "title": "Block 07 · Lesson 06 — Bulleted and numbered lists | Understand it",
+      "sha256": "1dcd7acc830eab149cd829550caea151ebd9c249bdc79889f03805934885bbed",
+      "baselineRelatedLessons": [
+        "CA10"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 7,
+      "packageLesson": 7,
+      "title": "Block 07 · Lesson 07 — Create and edit tables | Understand it",
+      "sha256": "897970855bd1622b712e0f2f7a9811ffc437cec35e99d1352ef45e3241736662",
+      "baselineRelatedLessons": [
+        "CA10"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 8,
+      "packageLesson": 1,
+      "title": "Block 08 · Lesson 01 — Insert, move and resize pictures | Understand it",
+      "sha256": "36e2341f5767282507939788075d51eff42c213dd3401db8e0c05102c965e150",
+      "baselineRelatedLessons": [
+        "CA11"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 8,
+      "packageLesson": 2,
+      "title": "Block 08 · Lesson 02 — Picture styles, shapes, borders and corrections | Understand it",
+      "sha256": "dba6e835b55bd3e6940ff0b9d9bfcb9a864ad35f6a1fef40b2f1a2dd00772189",
+      "baselineRelatedLessons": [
+        "CA11"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 8,
+      "packageLesson": 3,
+      "title": "Block 08 · Lesson 03 — SmartArt graphics | Understand it",
+      "sha256": "799b5fc01995f6f8f8248c7dad1f9ea26db3dab96983b85d35597f9e4d27d190",
+      "baselineRelatedLessons": [
+        "CA11"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 8,
+      "packageLesson": 4,
+      "title": "Block 08 · Lesson 04 — Align, group, ungroup and rotate objects | Understand it",
+      "sha256": "ae9096969aab5c2894084cffd5488cd8f7072e43e6933365336ef5287e5a34be",
+      "baselineRelatedLessons": [
+        "CA11"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 8,
+      "packageLesson": 5,
+      "title": "Block 08 · Lesson 05 — Stacking order and video insertion | Understand it",
+      "sha256": "27672d5e45057045027dddd728c71fd7910cc01344b02136d05eec0de1fa310f",
+      "baselineRelatedLessons": [
+        "CA11"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 8,
+      "packageLesson": 6,
+      "title": "Block 08 · Lesson 06 — Inserting audio and controlling playback | Understand it",
+      "sha256": "50a4db640bc20f904234f9c7d74cc1fc832964759590ae99d90a1292e51550b9",
+      "baselineRelatedLessons": [
+        "CA11"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 9,
+      "packageLesson": 1,
+      "title": "Block 09 · Lesson 01 — Slide views and printing presentations | Understand it",
+      "sha256": "654456412ae22d0dbe5784bba1426cdbe882e3165729c732393e08663a2553fe",
+      "baselineRelatedLessons": [
+        "CA12"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 9,
+      "packageLesson": 2,
+      "title": "Block 09 · Lesson 02 — Animating text and slide objects | Understand it",
+      "sha256": "89fbc0db7d9dc121207062e0e448b64e7472b36cd85e11f8346d32824d49a29f",
+      "baselineRelatedLessons": [
+        "CA12"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    },
+    {
+      "packageBlock": 9,
+      "packageLesson": 3,
+      "title": "Block 09 · Lesson 03 — Slide transitions and automatic advance timing | Understand it",
+      "sha256": "a5185bdcf4cac4684962d53425fb50705ad5a33b57bd2921ba53b1fd5c74e876",
+      "baselineRelatedLessons": [
+        "CA12"
+      ],
+      "reviewAdaptation": null,
+      "assessment": "not-fully-adapted; baseline covers related foundations only"
+    }
+  ],
+  "questions": [
+    {
+      "id": "CSM177-B01-L01-Q01",
+      "packagePages": [
+        4
+      ],
+      "questionSha256": "4f5de2f74f3cb67bcb3b37885a4a42c67445eebfb95840ac572c95800e73b4ae",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L01-Q02",
+      "packagePages": [
+        3
+      ],
+      "questionSha256": "14bc8b0f0b50d98fcf0a887dc3f8e31ad522a7104781626039736d2c1125f47d",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L01-Q03",
+      "packagePages": [
+        7
+      ],
+      "questionSha256": "1bddbdc33fe6e8c9022a1257fdf31e26b3ba7de8167777691daa013890fa856a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L01-Q04",
+      "packagePages": [
+        8
+      ],
+      "questionSha256": "2ef53d1be5351afb018cf6f180cfb0d57e5286bec95bb8f63ad1bb5e3aed2c6c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L01-Q05",
+      "packagePages": [
+        9
+      ],
+      "questionSha256": "8ae778ca373b6bad3bb7c177607a8e1783f791f0881ee46366021723f666ff2e",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L01-Q06",
+      "packagePages": [
+        9
+      ],
+      "questionSha256": "afca410338e042903b2f25bbb6821912ee2c56c62402bc531a2ee3e003222b83",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L01-Q07",
+      "packagePages": [
+        10
+      ],
+      "questionSha256": "10262dbc2d361276cbbececf3ac298e1be82d907c7dc934879b8f86547601ce6",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L01-Q08",
+      "packagePages": [
+        11
+      ],
+      "questionSha256": "07c455bef3f0e2880ce07b734a77f562965737486eed331da36124ea1166a79b",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L01-Q09",
+      "packagePages": [
+        12
+      ],
+      "questionSha256": "eef796b1a7b5c2b6b66c531578a7eb29929594f721aed672c676a61ccd20f152",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L01-Q10",
+      "packagePages": [
+        13
+      ],
+      "questionSha256": "ba794e3368c84c197e75fa482c0bb2e57fb598ce3e81583d256ee1239b7a3d65",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L01-Q11",
+      "packagePages": [
+        14
+      ],
+      "questionSha256": "7b0e4121683da53719fc880cf8adfdb7ef3c43148e1b2e3a29f3964596c8f45c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L01-Q12",
+      "packagePages": [
+        15
+      ],
+      "questionSha256": "57dc842074e0987acf73d7a1a9dc66f264d1e47b5f84910ae3da732b38229f60",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L02-Q01",
+      "packagePages": [
+        20
+      ],
+      "questionSha256": "f5fece494f3fb595f3cbe2d8956fd15a3f5d20fe10151227220550dd499ef4e2",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L02-Q02",
+      "packagePages": [
+        18
+      ],
+      "questionSha256": "07623bb2d67b363da3d7e7c74aede93506e11904f9c29db1a20501e35ba7bef8",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L02-Q03",
+      "packagePages": [
+        21
+      ],
+      "questionSha256": "dfd450602d5fa70ef06e242e04d3a9376c2fdc125d21095cdbab04cdac5b588c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L02-Q04",
+      "packagePages": [
+        22
+      ],
+      "questionSha256": "56489d65df6ce35a7c67304d2f03cfee1f879dacd4bb9a2a1b71eb93d912227c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L02-Q05",
+      "packagePages": [
+        27
+      ],
+      "questionSha256": "ecd47ed5917883683dbbeedf6e6e2bdda7b85894bcfc0131177d2615cd7a6563",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L02-Q06",
+      "packagePages": [
+        24
+      ],
+      "questionSha256": "6b20d0ef3b9b7107fe6fe642f6d0408d8136f44666f105297441641ad38d37ca",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L03-Q01",
+      "packagePages": [
+        28
+      ],
+      "questionSha256": "6a2e67a81a4e73d93f0362397e8cff13c69c8d6e66c997dc717d0619fec3952e",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L03-Q02",
+      "packagePages": [
+        30
+      ],
+      "questionSha256": "d4ac5b25b476aebac497149c0693eddd9e4a33ee336ec274fdd82be589865920",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L03-Q03",
+      "packagePages": [
+        30
+      ],
+      "questionSha256": "a4a0fbe74549830f6cf35eb985c109638cd6d8224c187c71111e14d630a1218c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L03-Q04",
+      "packagePages": [
+        31
+      ],
+      "questionSha256": "8b157cbc6524c41008c48c67fa0717bc97048365e83162bddce4614c19d3f052",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L03-Q05",
+      "packagePages": [
+        33
+      ],
+      "questionSha256": "da6ab7d264062c42c1aa718f144aecfb615c38f4b3e844694e015e73688f2650",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L03-Q06",
+      "packagePages": [
+        36
+      ],
+      "questionSha256": "ea203ead9e32027165c63dc217e85d0b5a4d48ec9788e4eb6b91cfcd1f834bdc",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L04-Q01",
+      "packagePages": [
+        37
+      ],
+      "questionSha256": "ae1adb07d3c973cffba19c0bd1f8035b610118ea3ed860b297e75828af2278d8",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L04-Q02",
+      "packagePages": [
+        39
+      ],
+      "questionSha256": "3d8b2366e6e8893d495b05a37efa1032a635098507386f8af90ac3e1c7c76056",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L04-Q03",
+      "packagePages": [
+        38
+      ],
+      "questionSha256": "115e1c7c07ce658c60ebd2252c79725960fdb6837715963709f7e12cfa651fc9",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L04-Q04",
+      "packagePages": [
+        41
+      ],
+      "questionSha256": "0457889ab3101b20fda70e0c4d4407c8fa4438b0de909a81a6467a55eb07bdc7",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L04-Q05",
+      "packagePages": [
+        42
+      ],
+      "questionSha256": "924368c661dab456d5eda7dc8c20ae577d7bbf008144886f8ac80f316b198571",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L04-Q06",
+      "packagePages": [
+        44
+      ],
+      "questionSha256": "896bf6386f53815fc6eda0c5d8a71b76fe5189492087199119e57783b4d50c0c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L05-Q01",
+      "packagePages": [
+        48
+      ],
+      "questionSha256": "17ac5e3337e85f508c6c285efd9d86342eb51b86e03831983ed071dd7c671e24",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L05-Q02",
+      "packagePages": [
+        46
+      ],
+      "questionSha256": "a0120456815609f731042630a202b5d8fd9d409f64ed6df6fbec25402e3d5148",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L05-Q03",
+      "packagePages": [
+        47
+      ],
+      "questionSha256": "bc21f84a82783acd22a4170033586042682d87d1c33c68fa8c8d99691331aeff",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L05-Q04",
+      "packagePages": [
+        48
+      ],
+      "questionSha256": "4228066d627e57629168aafd92ea29010a58c136c249d9a1b7bb8dc13014171b",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L05-Q05",
+      "packagePages": [
+        49
+      ],
+      "questionSha256": "e16c040a3f8144ba17791619947adf2b5b9fe42efb0e596d9ab5a34cdf01fb1f",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L05-Q06",
+      "packagePages": [
+        51
+      ],
+      "questionSha256": "1b32dd19e58275cfc7df0cccbb2a5e8e4004ad60b1c5c26aeb627d74db63892a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L06-Q01",
+      "packagePages": [
+        52
+      ],
+      "questionSha256": "8f970db5c0836e26eaf9dab0cb4671a1706c4a3184f19fea42df6681ddff44a5",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L06-Q02",
+      "packagePages": [
+        52
+      ],
+      "questionSha256": "065059f7c8304f8484eae4a08558c8fd741ceab2bdf656aaf14e0ef0db3bc1eb",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L06-Q03",
+      "packagePages": [
+        55
+      ],
+      "questionSha256": "047a10c8a653056b8197e5ef68d29f9d935b43b6e9a08bbd2907f5861605c9a8",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L06-Q04",
+      "packagePages": [
+        56
+      ],
+      "questionSha256": "964a26f03578cd4cbeab1b6ae6356f95c6bb3711bddea39063ba2c8f515a6e71",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L06-Q05",
+      "packagePages": [
+        56
+      ],
+      "questionSha256": "4bff7254b9518af3d57ef3ef05af2abba2f6d94a3596a505a8575d705c9688bd",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L06-Q06",
+      "packagePages": [
+        58
+      ],
+      "questionSha256": "34b97b82c6b338976a34bc25865099c39eea831895d291469f9a893ef387c196",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L07-Q01",
+      "packagePages": [
+        61
+      ],
+      "questionSha256": "37097d04c3794a3fa8c43bbfb8ff9b4d6c5b0bcc8f40d44cf87d51f63142dce1",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L07-Q02",
+      "packagePages": [
+        60
+      ],
+      "questionSha256": "ec79dced828f867b4a2ddd2c949a0519c3fa2f0b1e43bab9f4703d879f799aad",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L07-Q03",
+      "packagePages": [
+        64
+      ],
+      "questionSha256": "2bd5747aec2d0364a6c4833fd553494fcb59d34d7643ec73f8a08d00d9920882",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L07-Q04",
+      "packagePages": [
+        64
+      ],
+      "questionSha256": "7e24ebe501058576e692d3af00196cd25bfe778c1d264d9baf554476e0066b6c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L07-Q05",
+      "packagePages": [
+        64
+      ],
+      "questionSha256": "9ab4a70cd884fbdb28f3272721ff3e22c9e113cb5cc92047c709181ab42a6349",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L07-Q06",
+      "packagePages": [
+        66
+      ],
+      "questionSha256": "fd904e0c648889bfe37c60d96700dd745b2b720fe40edec33c4c05713b966fdf",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L08-Q01",
+      "packagePages": [
+        67
+      ],
+      "questionSha256": "512aca45f5e49bb8bf6759edf2531f3bc9efd70a86452012f41e2663b429fb14",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q073",
+      "candidateCorrectIndex": 2,
+      "candidateCorrectOption": "Text or text mixed with numbers"
+    },
+    {
+      "id": "CSM177-B01-L08-Q02",
+      "packagePages": [
+        69
+      ],
+      "questionSha256": "d3e8420ba1442c242fcf66e45d60a93f64380c1b70a04993ce8cb5579115e86a",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q074",
+      "candidateCorrectIndex": 1,
+      "candidateCorrectOption": "Import"
+    },
+    {
+      "id": "CSM177-B01-L08-Q03",
+      "packagePages": [
+        72
+      ],
+      "questionSha256": "a3d35247e390008eac4d58b70350cf0569a63d3b9ceea54d2be9c7c1ac7cafd2",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q075",
+      "candidateCorrectIndex": 3,
+      "candidateCorrectOption": "NEW LIST"
+    },
+    {
+      "id": "CSM177-B01-L08-Q04",
+      "packagePages": [
+        73
+      ],
+      "questionSha256": "5f70d064fb93aa6c9eb73d37884eb9ab0369bebd563e4ed554e8edf91f25a148",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q076",
+      "candidateCorrectIndex": 0,
+      "candidateCorrectOption": "Add"
+    },
+    {
+      "id": "CSM177-B01-L08-Q05",
+      "packagePages": [
+        74
+      ],
+      "questionSha256": "8458850eca01422191f79c46d42d1e785ac353c24af9a66449e50e8724b025f1",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B01-L08-Q06",
+      "packagePages": [
+        74
+      ],
+      "questionSha256": "ae7990b218c42cea4d429f2309ffb5cf895b0560f04ec43f3081eebb1eb10399",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q01",
+      "packagePages": [
+        76
+      ],
+      "questionSha256": "9e1d54d204c3656f2c40cfc9dfc6dcaa63da282c1a07652b09bebe41b47f7110",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q02",
+      "packagePages": [
+        77
+      ],
+      "questionSha256": "14a8cde6b8770207c938315eea7ad4a39c5b34e5746158928b559a0037b8e15d",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q03",
+      "packagePages": [
+        79
+      ],
+      "questionSha256": "4c857ec9a56be264a8f5e170a888fab7494ce2191ef1654fd48025bba5f761f6",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q04",
+      "packagePages": [
+        80
+      ],
+      "questionSha256": "bb50e721537b35f97de5bc90dc4eda50dd6308166253edecf452f5e3f2022cfc",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q05",
+      "packagePages": [
+        82
+      ],
+      "questionSha256": "f6733dedf4cf90f7e29d795c0a5a3678b357df31f967f3d9b21a64687c3a4cfa",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q06",
+      "packagePages": [
+        83
+      ],
+      "questionSha256": "c0a00772a1fb47c73a5cd9f01fc4aab7fe59c7a4366048b677558104dd5a6465",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q07",
+      "packagePages": [
+        85
+      ],
+      "questionSha256": "f67a17f617caaa9ccf3113d177eb1b6c20b9be96fb04d9176d1831db070f7569",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q08",
+      "packagePages": [
+        85
+      ],
+      "questionSha256": "5d07a6a4e774edbaa63feea83d9882367dfc7a75148d7d52148a343002d5430a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q09",
+      "packagePages": [
+        86
+      ],
+      "questionSha256": "01ade931b59c0c25780f9a60f9fbd3daafc03ffd1849c86cc2fbf185bb28ac9f",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q10",
+      "packagePages": [
+        87
+      ],
+      "questionSha256": "339f42e1dcd75472f9763b045605ecc6a1d1461d31bd19780d44f6e7d70e14ef",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q11",
+      "packagePages": [
+        87
+      ],
+      "questionSha256": "eba62ac130e26f55980dd6bffbdbc9bf88a814a5496c13f83edd5b684fc6985e",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q12",
+      "packagePages": [
+        87
+      ],
+      "questionSha256": "56cfa6af26dd5a3c54c4d860e0c14bd0c89a512294c7336f981e7b4adde9aaae",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q13",
+      "packagePages": [
+        91
+      ],
+      "questionSha256": "753d7329182d9e6c019b44c214ffd57ea8269f3b038fb27b0e5111d0e64624d0",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q14",
+      "packagePages": [
+        94
+      ],
+      "questionSha256": "f1c88505177294d25b0f47715bcf383584cb144b7679fe14b700131817630acf",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q15",
+      "packagePages": [
+        97
+      ],
+      "questionSha256": "a8e4ef84b62d37f9c5fa8f9a708b3bbb41c902b58b174c7cda15dfa28abe2dc3",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q16",
+      "packagePages": [
+        99
+      ],
+      "questionSha256": "c1a6f892f0ad9a6b96563b8da9b84a7bf622c706e1a6e519061f30f946528ad7",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q17",
+      "packagePages": [
+        99
+      ],
+      "questionSha256": "fc582e37a8de4baf78b016f00442d108bc20880dc52e07cf45601214b4d971ab",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-Q18",
+      "packagePages": [
+        98
+      ],
+      "questionSha256": "c7f762de2fb76bdf55cc8c56022f8a7c697f4d4c1937c13bcb8bdfca155d8e6a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L04-Q01",
+      "packagePages": [
+        101
+      ],
+      "questionSha256": "dbdf6448c3473a89407a79129816e21f13c455167d3b19356b6002b0305f58be",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L04-Q02",
+      "packagePages": [
+        102
+      ],
+      "questionSha256": "9f711a0354d3df8894453a2ec71e20aafc05ffe1644810d371792c64b7f74e60",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q081",
+      "candidateCorrectIndex": 1,
+      "candidateCorrectOption": "'CSM 1'!A10"
+    },
+    {
+      "id": "CSM177-B02-L04-Q03",
+      "packagePages": [
+        102
+      ],
+      "questionSha256": "7ced4ec843beac8a69561f12855e18483bf0fa38dfe38af6b75c1c73e1afde18",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q082",
+      "candidateCorrectIndex": 3,
+      "candidateCorrectOption": "Exclamation mark"
+    },
+    {
+      "id": "CSM177-B02-L04-Q04",
+      "packagePages": [
+        104
+      ],
+      "questionSha256": "1bcb0ea8bb816ef26ffda54f93edd7cb2e848a8492f72699f2928ce444807994",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q083",
+      "candidateCorrectIndex": 3,
+      "candidateCorrectOption": "Sheets 1 through 4"
+    },
+    {
+      "id": "CSM177-B02-L04-Q05",
+      "packagePages": [
+        104
+      ],
+      "questionSha256": "8de24e067fe05a9f7e429c4c7d094adca86631d15bfffd1b47bfbc7fe6bd1d49",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q084",
+      "candidateCorrectIndex": 0,
+      "candidateCorrectOption": "=SUM(Sheet1:Sheet4!D1:D10)"
+    },
+    {
+      "id": "CSM177-B02-L04-Q06",
+      "packagePages": [
+        101
+      ],
+      "questionSha256": "8921cba87daac7c3260c5e9ae2af260579938d962c97962e3d2a127e4041dff4",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L05-Q01",
+      "packagePages": [
+        107
+      ],
+      "questionSha256": "15f00aad46c6bc66209603ceeb856d37a23de87efc86d443f879e7806f0cda53",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L05-Q02",
+      "packagePages": [
+        108
+      ],
+      "questionSha256": "9a01b65d7725c7885f3b1dfd8b11279f88f68e1f0f37261b3e979760060a9797",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L05-Q03",
+      "packagePages": [
+        109
+      ],
+      "questionSha256": "70bb98a4ea6a5d0a8a2908870d327163821a034ede56627cf3f13b9184b069d8",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L05-Q04",
+      "packagePages": [
+        110
+      ],
+      "questionSha256": "e249426a85cb55a954ffe7ee0a1daabb30f036c287dab404c07c3838caf6c4be",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L05-Q05",
+      "packagePages": [
+        112
+      ],
+      "questionSha256": "c46a2e72f1a0a18b82d4c0418d3abcd8cdf01dff41732bc68770bbed53c4c937",
+      "disposition": "excluded-overlapping-objective",
+      "existingQuestion": "CA-Q016",
+      "reason": "Identical calculation =6+27/3; retain original stable item."
+    },
+    {
+      "id": "CSM177-B02-L05-Q06",
+      "packagePages": [
+        116
+      ],
+      "questionSha256": "a56a76b32789fb1896d8bc37891c5b104b384d0db4d91ed54dc62e59648277a5",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L06-Q01",
+      "packagePages": [
+        118
+      ],
+      "questionSha256": "32edb3fe43f9094e16f3d7678bb0bbb83c46b21d36651472c1103522924d4aa9",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q077",
+      "candidateCorrectIndex": 1,
+      "candidateCorrectOption": "They make references more readable"
+    },
+    {
+      "id": "CSM177-B02-L06-Q02",
+      "packagePages": [
+        119
+      ],
+      "questionSha256": "31289dbd8d4d4aee7b69bb07848397b006518737cc9d8d86cfa32b7136b68d62",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q078",
+      "candidateCorrectIndex": 1,
+      "candidateCorrectOption": "_Price"
+    },
+    {
+      "id": "CSM177-B02-L06-Q03",
+      "packagePages": [
+        120
+      ],
+      "questionSha256": "d280fd4fb7269d0d00c83114bade3a480ddc4bb3b0c10aa5132197db5b492267",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L06-Q04",
+      "packagePages": [
+        121
+      ],
+      "questionSha256": "a6a9771b39b4fe5db9c555f16c0c5cc4a4808d8ee6721ae0a11513c7bc7fc130",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q079",
+      "candidateCorrectIndex": 1,
+      "candidateCorrectOption": "At the left end of the Formula Bar"
+    },
+    {
+      "id": "CSM177-B02-L06-Q05",
+      "packagePages": [
+        124
+      ],
+      "questionSha256": "82c1850adf251d31ee9e220059c793980afa971300282c5bc75741ef40fc47ac",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L06-Q06",
+      "packagePages": [
+        126
+      ],
+      "questionSha256": "5eba4eeb5a06d149192c168041d4e35599ea4da58ddcdc0b64842c84b1cf760d",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q080",
+      "candidateCorrectIndex": 2,
+      "candidateCorrectOption": "Name Manager"
+    },
+    {
+      "id": "CSM177-B02-L07-Q01",
+      "packagePages": [
+        129
+      ],
+      "questionSha256": "fcdd791f9c87f359cf6bd580ea230dca954e0547adec21594953b8c9ac243ad6",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L07-Q02",
+      "packagePages": [
+        130
+      ],
+      "questionSha256": "b563031fe3db0e698322c0e37ccda9b50f972d133f84939e9205bbf97d6a40e6",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L07-Q03",
+      "packagePages": [
+        133
+      ],
+      "questionSha256": "4b9fe00cbaeaf4a28ab672159580a45088f01dacdb20432541789466ffb84a6b",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L07-Q04",
+      "packagePages": [
+        136
+      ],
+      "questionSha256": "c34d97d2e826f071b2b6215e0b05e6fbed2acafaf4f870eeec9859791d47999c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L07-Q05",
+      "packagePages": [
+        138
+      ],
+      "questionSha256": "1882d9e783cb1ebe84c8c0616ba0b634e79a2ae1d2cf6d9e41626eb8ae9af21e",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L07-Q06",
+      "packagePages": [
+        139
+      ],
+      "questionSha256": "cb58a885a9deccf69e6519bd33e7b65c5c13925014684e519dc96e8cceae3701",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L08-Q01",
+      "packagePages": [
+        142
+      ],
+      "questionSha256": "ca6af04a1c3dc6e2ebed4e4ca8370b927b654096f9d54abec25c95c7dada4c06",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L08-Q02",
+      "packagePages": [
+        147
+      ],
+      "questionSha256": "ea11a2e31b6e453fa9b9426d53dd8f662fcb8b014afbe9b338d87ed037de2eff",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L08-Q03",
+      "packagePages": [
+        148
+      ],
+      "questionSha256": "6ceeab7e4fde5e2948a1d81f1e3f8c4074b53c26696f4196d7998589a197803a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L08-Q04",
+      "packagePages": [
+        145
+      ],
+      "questionSha256": "a1ea2235321a2a02a58136e390cd63c64d31aeaaa0b8ea85e766581e98a9ba72",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L08-Q05",
+      "packagePages": [
+        146
+      ],
+      "questionSha256": "bd9e9e883e84d61e04e0ed29cca50503a142be07f74c7e76aba233f75a6d9f70",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L08-Q06",
+      "packagePages": [
+        147
+      ],
+      "questionSha256": "5991efc4731bdabf038d80226a65f5e6f6184870c0dc755b7992835dc1f16ccb",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L09-Q01",
+      "packagePages": [
+        153
+      ],
+      "questionSha256": "1197a059c4fe9b762b7e3f432b2bfad0de5be05436d5d51afafafdeb3277b0c3",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L09-Q03",
+      "packagePages": [
+        156
+      ],
+      "questionSha256": "7e8739eab3b041f1757656907c0dd82509601e1918318333df0dccd0ee402d21",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L09-Q04",
+      "packagePages": [
+        159
+      ],
+      "questionSha256": "a97542f742fd437299d66465e7e2e41e81cc902f2aacfca72c4187d0a9c07aca",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L09-Q05",
+      "packagePages": [
+        159
+      ],
+      "questionSha256": "822898836529da42288ea35bffcbf39581d882657ad9365fed5b411837bdbfb7",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L09-Q06",
+      "packagePages": [
+        158
+      ],
+      "questionSha256": "091c2eed9d1db026c3bac79176f6d471af21502f1525d68cca5250d51658d0e7",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L10-Q01",
+      "packagePages": [
+        162
+      ],
+      "questionSha256": "2e4fb47e5fa0900cd9ce6dbb8e14fbd2e22de85ed875d040c6814c46dfbf557f",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L10-Q02",
+      "packagePages": [
+        171
+      ],
+      "questionSha256": "eda9f5066f26dc73804c618f16d04b199d0e8388d5032c78b1f67f3292640453",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L10-Q03",
+      "packagePages": [
+        173
+      ],
+      "questionSha256": "8a8e1e3fc25c42d607f501b4caa521e94c2a19473c6e5905699282c15ad64d13",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L10-Q04",
+      "packagePages": [
+        170
+      ],
+      "questionSha256": "34fefd421ef6d971a1f02ee7f287ef25df0576b3787946eda023aae48c266e60",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L10-Q05",
+      "packagePages": [
+        164
+      ],
+      "questionSha256": "643fa072fa978449f51c8a1fa76cea8c203a6c01570bdd1712aab17843837bb1",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L10-Q06",
+      "packagePages": [
+        167
+      ],
+      "questionSha256": "e533006c02206cefa2acacdc44259122fce1c661eaef1bbafb3c5c8a9b171675",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L11-Q01",
+      "packagePages": [
+        178
+      ],
+      "questionSha256": "0d018e5f7dbf016a3fca7f7f07624c1a6f70d0ff8b942abaf14d094d6baec5fc",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L11-Q02",
+      "packagePages": [
+        179
+      ],
+      "questionSha256": "4d48e66da7ed76190f7099a927251ff65fa51050a81656497d68a006e784bbbd",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L11-Q03",
+      "packagePages": [
+        185
+      ],
+      "questionSha256": "52ac2bbd677de8ac258d4cb63a60a63efa2d7c8fb52f4560de5b4e9a96d23e01",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L11-Q04",
+      "packagePages": [
+        185
+      ],
+      "questionSha256": "32948517321d6db2b0ad2ca34d6d3c69aef5e5064735356c040b38564ac5ae7f",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L11-Q05",
+      "packagePages": [
+        183
+      ],
+      "questionSha256": "cfd5d31232727777efed65900dcb549d8c2bc4ef8009e90f98c512d1e00ad17d",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L11-Q06",
+      "packagePages": [
+        181
+      ],
+      "questionSha256": "cc593a0c6204eb92a89d5a9b0663d27e813429d490847384502f1c250af10b3d",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L12-Q01",
+      "packagePages": [
+        190
+      ],
+      "questionSha256": "10d68426c717fc3e8f0f731d748b537f718fc85903c34cef91601e0175ae40e7",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L12-Q02",
+      "packagePages": [
+        191
+      ],
+      "questionSha256": "de379058c94641fb3d126a2b6ba5f1e6bd957127f6e3cf702678821852862d67",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L12-Q03",
+      "packagePages": [
+        189
+      ],
+      "questionSha256": "63709e5d8af9acb54802edf798541485b47caf2ecc85f8a4e5901940695a3c7b",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L12-Q04",
+      "packagePages": [
+        192
+      ],
+      "questionSha256": "01ac9c5281b3785311e3a2f1057fa459d78dc5cf002064db10299c3f662bb911",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L12-Q05",
+      "packagePages": [
+        194
+      ],
+      "questionSha256": "23cf2a80187fb8147c24001eb23a749477b8fa49e9b0576a01069ef068282952",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L12-Q06",
+      "packagePages": [
+        195
+      ],
+      "questionSha256": "cc899f70d686751ffc06599639e467f0291a1598facc3887c5f11882dc120e31",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L13-Q01",
+      "packagePages": [
+        197
+      ],
+      "questionSha256": "d92c8bd5a6fb8aa7824650d9ea0bc720900719934223fe4e247752021fd7a3ce",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L13-Q02",
+      "packagePages": [
+        197
+      ],
+      "questionSha256": "a32ae292fe04e4822fe005a27942ce4604f7fedc1717e94cd9d28f2a4c0909d1",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L13-Q03",
+      "packagePages": [
+        199
+      ],
+      "questionSha256": "03ca7aeab6ddcf44a246018c80e9c9a182968d96997c7a8167fce8e259c627b5",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L13-Q04",
+      "packagePages": [
+        97,
+        99,
+        199
+      ],
+      "questionSha256": "14a7c337cf12ba258338783ad3e10d3c57989fe371a50c9716dbfe38a7dff364",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L13-Q05",
+      "packagePages": [
+        200
+      ],
+      "questionSha256": "ccf18babf22cc88da2671efc15615a7b9fc74f040df09d3d461116c61b2ee50a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L13-Q06",
+      "packagePages": [
+        171,
+        200,
+        201,
+        202
+      ],
+      "questionSha256": "7363cc4023cd949fe961217f47bb7fc3d9febf1f38ee9f9972942691fdd5141b",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L14-Q01",
+      "packagePages": [
+        203
+      ],
+      "questionSha256": "05f47aa10d5e62a683a113a056bbe2746aada0489dcddbdd86920cfca4292ca7",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q085",
+      "candidateCorrectIndex": 1,
+      "candidateCorrectOption": "VLOOKUP"
+    },
+    {
+      "id": "CSM177-B02-L14-Q02",
+      "packagePages": [
+        203
+      ],
+      "questionSha256": "53c6ab57c01e944dabb02f235a1b29a39c9c3ee6a278b3368a665f195a463064",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q086",
+      "candidateCorrectIndex": 2,
+      "candidateCorrectOption": "HLOOKUP"
+    },
+    {
+      "id": "CSM177-B02-L14-Q03",
+      "packagePages": [
+        203
+      ],
+      "questionSha256": "9bae894928357efaebb12d8c966c59b1894343d8454c1ab41e2f6999a4991792",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q087",
+      "candidateCorrectIndex": 2,
+      "candidateCorrectOption": "MATCH"
+    },
+    {
+      "id": "CSM177-B02-L14-Q04",
+      "packagePages": [
+        203
+      ],
+      "questionSha256": "efbbec537eaa4da7aedd31260bccf65e07d5b2d61bccca133729d8d84fbb1135",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q088",
+      "candidateCorrectIndex": 0,
+      "candidateCorrectOption": "TRANSPOSE"
+    },
+    {
+      "id": "CSM177-B02-L14-Q05",
+      "packagePages": [
+        203
+      ],
+      "questionSha256": "4e6897b8f63dd329e9ef1d6e8a87ff1e197f0e16945334a9708262b80c89c3af",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B02-L14-Q06",
+      "packagePages": [
+        203
+      ],
+      "questionSha256": "d92acfd14a94132a2e90147ccb8221e9005a87aec0b3c177f22a1e60775a0eb6",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L01-Q01",
+      "packagePages": [
+        205
+      ],
+      "questionSha256": "38498d93cbaab7801569b728f1709e1f11f3ee50942a28f99e9a242ada6e3249",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L01-Q02",
+      "packagePages": [
+        206
+      ],
+      "questionSha256": "7f25f09476cdbb959841ce36340b96e7e03aa582b6c6a2f469f7273c7e5e002a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L01-Q03",
+      "packagePages": [
+        207
+      ],
+      "questionSha256": "4aba5e37792e425e1e66ab4b7bb8032ec0ac08178113f0ee1a078aa1604773fe",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L01-Q04",
+      "packagePages": [
+        209
+      ],
+      "questionSha256": "3305883c9218a9fe980d0af3aa94fe4b679cffc6d6ae1d4e60e507c32dbe6181",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L01-Q05",
+      "packagePages": [
+        210
+      ],
+      "questionSha256": "11c2986587eae17b87af5d7756bbb2ceba63fab8c858bc320ad899d111f6f198",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L01-Q06",
+      "packagePages": [
+        210
+      ],
+      "questionSha256": "818ac70442add4c1fc374a90486c7ad63b1f2a10b7cbda0e6aeaf8d462648628",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L02-Q01",
+      "packagePages": [
+        214
+      ],
+      "questionSha256": "4c4c3d9110e2c296bd2dbb6636669d1aa5316b364387ca4edab6bf4b916a2e63",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L02-Q02",
+      "packagePages": [
+        215
+      ],
+      "questionSha256": "3b89d08d93ef43994374a5d14d16a10bbe4dc07e6cc7bda111007e9870ffa8fa",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L02-Q03",
+      "packagePages": [
+        218
+      ],
+      "questionSha256": "eb1732f9b420859962fa184c91209d49c65fa0c608bdcb80d9005652555ab2fc",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L02-Q04",
+      "packagePages": [
+        220
+      ],
+      "questionSha256": "df52b85e22d730912983db9e9b0399ddb069f6191a14a333bc6516fb7ebc37e6",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L02-Q05",
+      "packagePages": [
+        222
+      ],
+      "questionSha256": "ec6765ab488c5db897747c18b2641cb67cc4daa3b982ae53c9e98669827ea5f2",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L02-Q06",
+      "packagePages": [
+        223
+      ],
+      "questionSha256": "7e1bb96781cbc8b395fb04a339a51ec19c17f92499881df05335935ee9216d16",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L03-Q01",
+      "packagePages": [
+        229
+      ],
+      "questionSha256": "8f0c4e57fcdac964b7822d26659e849ad053f375f7d8e408efe331d5fd6c86ad",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L03-Q02",
+      "packagePages": [
+        230
+      ],
+      "questionSha256": "95b0fac4a7941ea0ee42f03e6ee9bc7e776ef79681160a4b187bbf68ea2be6a1",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L03-Q03",
+      "packagePages": [
+        233
+      ],
+      "questionSha256": "06489d1213da060463f4b4db087997538bd91c913845e7424f36eeaee68afa84",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L03-Q04",
+      "packagePages": [
+        235
+      ],
+      "questionSha256": "ecea727d0a607623c0c8126aeb199cc25183ffd7c09a7356df4363a556cf6d60",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L03-Q05",
+      "packagePages": [
+        228
+      ],
+      "questionSha256": "6eb62cb2224a74431dd5de8239607c7b72acebc3e6e4bc0307cbac7bacd6a281",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L03-Q06",
+      "packagePages": [
+        237
+      ],
+      "questionSha256": "16a43b8f1470d4085bde79470d96e984d0d313d6848653cb5aff467d9b0a8bb0",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L04-Q01",
+      "packagePages": [
+        240
+      ],
+      "questionSha256": "3a5e84769641fa873bc291a5ac6fbcc33e74f957e68c39db17035bb796d1da42",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L04-Q02",
+      "packagePages": [
+        240
+      ],
+      "questionSha256": "a1b24925655d1f7c474b3c240a4b12949dc90fb284b29237aa867019746c517a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L04-Q03",
+      "packagePages": [
+        241
+      ],
+      "questionSha256": "a7468da68862740614fc44bedbf896a7ee9831802c9df0bccdbf3bf37f4bd80b",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L04-Q04",
+      "packagePages": [
+        243
+      ],
+      "questionSha256": "a48815a16bf5a30757ece5bdc1761a497fddfba36e5cd7484b77920d24990681",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L04-Q05",
+      "packagePages": [
+        245
+      ],
+      "questionSha256": "0acc7716ad0ef94ae9967dd84664c0a19d77729edc898999e93f65c79a70809f",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L04-Q06",
+      "packagePages": [
+        241
+      ],
+      "questionSha256": "1b0d786218448cefa6ef46c45a2ca5f654c204e8393cf915eb18eb028df4fee5",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L05-Q01",
+      "packagePages": [
+        246
+      ],
+      "questionSha256": "6c5f4612ee8e03d89ad2f2198832bc25300e934368e112a66951bc33cf4601ec",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L05-Q02",
+      "packagePages": [
+        247
+      ],
+      "questionSha256": "756cd292731ce9d5a63c1ff98040a6b703c207760bcc1f42be25b30770fed8e0",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L05-Q03",
+      "packagePages": [
+        247
+      ],
+      "questionSha256": "f72aee5846616589d820e231a894986d4b8a1899e02174ecbac4ccf52bbc12fe",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L05-Q04",
+      "packagePages": [
+        247
+      ],
+      "questionSha256": "c7d0632b416cc8bbd8143ed4f08f89d703a875172582771d8f501158a04ed92c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L05-Q05",
+      "packagePages": [
+        247
+      ],
+      "questionSha256": "d0753d23ce31740dbf4adc11948bd848b9bfaa61a9b6732baa4d711221f52aff",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "CSM177-B03-L05-Q06",
+      "packagePages": [
+        247
+      ],
+      "questionSha256": "1671e3086ff36ca46fe08ecdbb182c849d7fbe3db70ccb9043a5a20c8a9465f3",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L01-Q01",
+      "packagePages": [
+        249
+      ],
+      "questionSha256": "d4047fa583e15aaa3392783a403089e686e9b8c7ccbca4d29592bcf5c866b834",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L01-Q02",
+      "packagePages": [
+        254
+      ],
+      "questionSha256": "b27f0e03d5314c3ba1e44ff59895b3e01bc053169eae95f84220d7711027d621",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L01-Q03",
+      "packagePages": [
+        254
+      ],
+      "questionSha256": "33f0be0354dd00d2f56414d8679d0d363928571b54a9a2a1931520749e3afbde",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L01-Q04",
+      "packagePages": [
+        255
+      ],
+      "questionSha256": "c16d42a8e884022b0c4526b5853bc9d955238ed0ab068036605c57300fe2d4ba",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L01-Q05",
+      "packagePages": [
+        255
+      ],
+      "questionSha256": "664d04a99b9bd812faa5e294f65934feb98f1113629f0b5f4ad11d894eb4027f",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L01-Q06",
+      "packagePages": [
+        251
+      ],
+      "questionSha256": "ac8f03745df3bf58411fb1614b355c4f5c3f026e171435996a00758cf66aa907",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L02-Q01",
+      "packagePages": [
+        258
+      ],
+      "questionSha256": "9901b5e5bd4d84a2109f63c7054adc0e2f75004160a3ee2cd6dfad40e0d8ae9c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L02-Q02",
+      "packagePages": [
+        256
+      ],
+      "questionSha256": "d8c24b0631b49b510729c12dbab4c08b3c84b7ba3373af85df3a8e754dacc488",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L02-Q03",
+      "packagePages": [
+        259
+      ],
+      "questionSha256": "de13491245a517fdfa9ccd3a6f144aecc346bd955875a7d3560acf035cd2af33",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L02-Q04",
+      "packagePages": [
+        261
+      ],
+      "questionSha256": "517550c653f1b45f4d85e774ed517ad4ed44c848c8aa871f91cef084aad0d8c8",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L02-Q05",
+      "packagePages": [
+        261
+      ],
+      "questionSha256": "b74e8ad97ee674460ea517d03a900db201ebf7d4af45b913b0156c6d9d1b1392",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L02-Q06",
+      "packagePages": [
+        259
+      ],
+      "questionSha256": "6031eac7f24f0bd060a854f0d0cfd557db7d4e9662cdfa137f173468dfa6da1a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L03-Q01",
+      "packagePages": [
+        262
+      ],
+      "questionSha256": "7ae957a50538ffb13640667bf011f79b76262f332dc21a3a63d0b631bce3e13f",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L03-Q02",
+      "packagePages": [
+        263
+      ],
+      "questionSha256": "6d7c6ee0b498449bb6d5576896702e0143e5a4fc4c909abdb204ab8951754504",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L03-Q03",
+      "packagePages": [
+        264
+      ],
+      "questionSha256": "e90a5e8cc7b56c997c7a25f7d2447e8de9f53f0d0568683c736b76210677958e",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L03-Q04",
+      "packagePages": [
+        266
+      ],
+      "questionSha256": "1c0ebffa8d00ceb6403acd7ea45dce5b79a532247aa3339fc3df6d28b5bf9fdc",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L03-Q05",
+      "packagePages": [
+        266
+      ],
+      "questionSha256": "33d7d1350492b8ed73b611f6b3433583345ed6b3c9aad4c25b02d6e22640ade0",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L03-Q06",
+      "packagePages": [
+        268
+      ],
+      "questionSha256": "d98b7aba3f4bba7c29f0f1862ff291e4aa3d891d02ea3298dfbfcedb5b1be7ca",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L04-Q01",
+      "packagePages": [
+        269
+      ],
+      "questionSha256": "27a229653e053455e7621c35089e4a97afdb3ae8562306726cb373fd5c694434",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L04-Q02",
+      "packagePages": [
+        270
+      ],
+      "questionSha256": "fa21f2380a7642416e6bad13c6912e7a0da7b0e3be8515c14cbd10f2e98afc54",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L04-Q03",
+      "packagePages": [
+        271
+      ],
+      "questionSha256": "7949dea0395fbf7295ed2254dce45a696d4efec7efbfa20a55fedc5db5761395",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B04-L04-Q04",
+      "packagePages": [
+        272
+      ],
+      "questionSha256": "5b4dfaf5fddff24a302357dcfd7bc1f609d6d9624ada2d0afeaefa6c9457be75",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q093",
+      "candidateCorrectIndex": 2,
+      "candidateCorrectOption": "Below the intended break"
+    },
+    {
+      "id": "B04-L04-Q05",
+      "packagePages": [
+        272
+      ],
+      "questionSha256": "8220748e8b7534ecdd6d5385a1bd3cf0f94bc1136acc31bb14356b648fa7bcfe",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q094",
+      "candidateCorrectIndex": 0,
+      "candidateCorrectOption": "Override and reposition them"
+    },
+    {
+      "id": "B04-L04-Q06",
+      "packagePages": [
+        274
+      ],
+      "questionSha256": "bb4600dd0b746d8dd17c2660d059c7f60ab8fa92bbdea6107e19470f0bde8436",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L01Q01",
+      "packagePages": [
+        277
+      ],
+      "questionSha256": "8c28e2a3876491bdf3d4895346dce12198954754f8d452e1b0c459a033903e65",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L01Q02",
+      "packagePages": [
+        278
+      ],
+      "questionSha256": "aa7a15d3b3980baabe0305ff75f71a973dda3b31b2f2cf1760f603a041970b60",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L01Q03",
+      "packagePages": [
+        281
+      ],
+      "questionSha256": "380d0257d0f09a98d34c96fcd197497191787d434e904f76f3c23de9563dd136",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L01Q04",
+      "packagePages": [
+        281
+      ],
+      "questionSha256": "31cc0e4fc7ca7443b6b16c675e01260bd1cde39c70fd30074d61de3375a3f664",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L01Q05",
+      "packagePages": [
+        277
+      ],
+      "questionSha256": "1e34f625694d6a1351af2ecee1837cc54607441d3cbbe2958ab2274b3c605085",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L01Q06",
+      "packagePages": [
+        282
+      ],
+      "questionSha256": "8b6b6c49789304813a3a1644ffb9fb81e057f685f25d5b16f5aa04da9179cc71",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L02Q01",
+      "packagePages": [
+        283
+      ],
+      "questionSha256": "9022196855b504d249a2e0ec808b319ceebf7440ceb2a01f949b06faf0d888e0",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L02Q02",
+      "packagePages": [
+        285
+      ],
+      "questionSha256": "7dc72ad432f2471834a5719f428078732898c23ea027595478f8b43437953d4a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L02Q03",
+      "packagePages": [
+        286
+      ],
+      "questionSha256": "e123595e337c1f931729dc24a14a3f7ff6bbe17043c6e5c33b501feda813541d",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L02Q04",
+      "packagePages": [
+        287
+      ],
+      "questionSha256": "19286358faafb731e5927082979c25d2c1d30c91bdb0bcbd349d0afddcbbf56e",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L02Q05",
+      "packagePages": [
+        289
+      ],
+      "questionSha256": "377421c4c5f0c9bfbf09cb161a81924426afd0abd17e7d64c8bd1d0db6863aaf",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L02Q06",
+      "packagePages": [
+        285
+      ],
+      "questionSha256": "05dd12c6cf0650fef640c2507dff6041ae88196c42dd84e5dda1d1a901de2408",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L03Q01",
+      "packagePages": [
+        291
+      ],
+      "questionSha256": "bd903c28b69c90b42e6f0422e8b930bf0832498bc0c342896d179ac7242e7585",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L03Q02",
+      "packagePages": [
+        293
+      ],
+      "questionSha256": "ae6ae6b43744e6486fed40375a54a0e5635e953b951b7bc3f86018e67dc6fecf",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L03Q03",
+      "packagePages": [
+        295
+      ],
+      "questionSha256": "643024335105dc2311d82c21ad856fb27fec25f7f12baec86a06c331210a23f3",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L03Q04",
+      "packagePages": [
+        296
+      ],
+      "questionSha256": "527e3e88f58ab9515b7277a2e4db802f9ff353258f6b0c13e5cc3641c4195882",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L03Q05",
+      "packagePages": [
+        296
+      ],
+      "questionSha256": "bb278b257fe06d43bc46a23b620bcc9e4d29c7e5b1ecd98a6b878fe005e2140f",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L03Q06",
+      "packagePages": [
+        297
+      ],
+      "questionSha256": "558d81f8d445e4de8e4c327664057aa6835729f3eeda530bd66fd16eb53255c7",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L04Q01",
+      "packagePages": [
+        298
+      ],
+      "questionSha256": "5207d68a223a90b84a4bba7d26b547108c1d58b7097bd4e0af4fdeb18e49003b",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L04Q02",
+      "packagePages": [
+        302
+      ],
+      "questionSha256": "8e7f0705379db547a22f8acab605971393ac2e0c8abd3bb0c0059a91184b4c33",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L04Q03",
+      "packagePages": [
+        304
+      ],
+      "questionSha256": "02b3b85333dd42b8e2ac74ef67725cb948e3cba713119db720b8a7ecc60e2966",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B05L04Q04",
+      "packagePages": [
+        305
+      ],
+      "questionSha256": "49ceacbfe56cab791438c09a847e4aa4d3656050b3dd6dc9003b43c8309aaca5",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q089",
+      "candidateCorrectIndex": 3,
+      "candidateCorrectOption": "Master worksheet"
+    },
+    {
+      "id": "B05L04Q05",
+      "packagePages": [
+        306
+      ],
+      "questionSha256": "771996d84d531efd8d76b4776ce04c4c9d7dd652872ac2baee6b63209e5002c3",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q090",
+      "candidateCorrectIndex": 1,
+      "candidateCorrectOption": "Location where the combined results appear"
+    },
+    {
+      "id": "B05L04Q06",
+      "packagePages": [
+        309
+      ],
+      "questionSha256": "5c5e516df22807273e4c5aa926e26f6464cd7d9f44e7b85eaeeb82ff96057b3a",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q091",
+      "candidateCorrectIndex": 3,
+      "candidateCorrectOption": "Linked results may update"
+    },
+    {
+      "id": "B06L01Q01",
+      "packagePages": [
+        315
+      ],
+      "questionSha256": "837629e65f8cc34cde648b6ad26b54f5d3413caf31e8aef6abe34c2fc9f3c95c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L01Q02",
+      "packagePages": [
+        315
+      ],
+      "questionSha256": "0578ce2282563bbd5981ece9303b4829eb7b65cde0404494aa1ad1585c13c02e",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L01Q03",
+      "packagePages": [
+        318
+      ],
+      "questionSha256": "d574e6b6f7d4ae36c039b266e06f9f0a5e0dfd5642f22bd6d686af76e2b37c43",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L01Q04",
+      "packagePages": [
+        319
+      ],
+      "questionSha256": "c0ab47079fd79c0186cb9e55a1c2d6caa9f1ec153ea592fea0a3003fde3170b8",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L01Q05",
+      "packagePages": [
+        314
+      ],
+      "questionSha256": "2ab49e9ace9d4994d3e1ab513ed03ee51920be952c3c1798227eaa1639eba21c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L01Q06",
+      "packagePages": [
+        311
+      ],
+      "questionSha256": "89b5859125def58c6bfbf6746a41366c2db7da508333a80260130745fdcf70df",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L02Q01",
+      "packagePages": [
+        323
+      ],
+      "questionSha256": "3e6ff3fea73ba851b0b2b248434c364d76c7a1778b430584c41b349f5f9a54f4",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L02Q02",
+      "packagePages": [
+        326
+      ],
+      "questionSha256": "aceb38c55be083eee4ff6613d0831c8b5ef7753f7c273c84db284be202f4999d",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L02Q03",
+      "packagePages": [
+        329
+      ],
+      "questionSha256": "b53ef0f9f5b4eb33c9598322088a839faf906bc589dcf599548cad516c132052",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L02Q04",
+      "packagePages": [
+        331
+      ],
+      "questionSha256": "acb905a99182ac59577d022fe5b49ae62f788bcaccf056655abbb7922ab1438a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L02Q05",
+      "packagePages": [
+        334
+      ],
+      "questionSha256": "c7844933dcff664b1d5d7ae0ca4883a9fa59aa2560c0c83e6433061df6393a11",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L02Q06",
+      "packagePages": [
+        338
+      ],
+      "questionSha256": "4720b1fe03a2b0b7049ed4d23996c97524d22c9991cbb410b15260c978927704",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L03Q01",
+      "packagePages": [
+        339
+      ],
+      "questionSha256": "cc54d0cdf53f9ab9765b18217c36e01e0f8cfc85eef0ea8c79e4885558d9ddbf",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L03Q02",
+      "packagePages": [
+        343
+      ],
+      "questionSha256": "bc869ede33a2588ee043a30dc8702deed7b3c9d7b9286eb2f6af33046ad94f7c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L03Q03",
+      "packagePages": [
+        346
+      ],
+      "questionSha256": "6d28e068825ac23a79bc2802c7d7ff7c774d8c19009f585262ad62be4d3c7376",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L03Q04",
+      "packagePages": [
+        349
+      ],
+      "questionSha256": "9e2a6fcef4bdacd746dc972ddc7c0825a82343b8c4002bad27c25793a3834e0d",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L03Q05",
+      "packagePages": [
+        353
+      ],
+      "questionSha256": "76dd6443d33a5a05fdb99a55d76634d64fd733d208317335e3348336967b7042",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L03Q06",
+      "packagePages": [
+        354
+      ],
+      "questionSha256": "1cf1b3ab6f746e23a0144819bb21e5d15240af5c05272f9d99c4babe0f831ca6",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L04Q01",
+      "packagePages": [
+        359
+      ],
+      "questionSha256": "c86583e858caea27d7cb26455334d2ec59ba4e2690892f8385a9bcb5a902cd5c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L04Q02",
+      "packagePages": [
+        360
+      ],
+      "questionSha256": "cfbf9b388d2cd4a301aa82b618d14e0bcc61f3c0765c0bada6bbdc241175bcb8",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L04Q03",
+      "packagePages": [
+        362
+      ],
+      "questionSha256": "938a95239af72a9b798eadabb22b64d7ef84ffeda1983968bf93590551b0e447",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L04Q06",
+      "packagePages": [
+        362
+      ],
+      "questionSha256": "2e2553484a5a5903b0607a9dddf7c9052365069726f1ec2d25ea1ad904ac2371",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L05Q01",
+      "packagePages": [
+        369
+      ],
+      "questionSha256": "fcc172b9eaeeb285ed9d2ebcb24484ebdc6c99969d3309b2ceaa532eb8e54db9",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L05Q02",
+      "packagePages": [
+        371
+      ],
+      "questionSha256": "25024ba6df46c6e64df7078f07ac17af21970634d26ee4d84ab5e3ee25fa2e07",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L05Q03",
+      "packagePages": [
+        375
+      ],
+      "questionSha256": "97e5d434a5c36c25f9c50295ab9e9871e896fff14bfa52ec818355dd940653cf",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L05Q04",
+      "packagePages": [
+        373
+      ],
+      "questionSha256": "13b050b797a52169f351bde234333320228fc7ca0ffafabbe6575cd3618d4c8a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L05Q05",
+      "packagePages": [
+        372
+      ],
+      "questionSha256": "3529eb5235a2a1a4890257c49de4fb306e40688e44b9d89ba845b3c5e9c0dfc0",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L05Q06",
+      "packagePages": [
+        370
+      ],
+      "questionSha256": "c14218ee6c2266c69f69ef5ff57d2fce580882cd154981c342bc4d66ae747f37",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L06Q01",
+      "packagePages": [
+        376
+      ],
+      "questionSha256": "79651968eaac2adaa706d05c00aa5701b1396673d9dc3f0a095da381b9453d0b",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L06Q02",
+      "packagePages": [
+        377
+      ],
+      "questionSha256": "5a1dc15b345afb810d9ade0071d1de3f98ef5f64414afe2f85cc34570ed1b47c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L06Q03",
+      "packagePages": [
+        377
+      ],
+      "questionSha256": "b094543d93cfb66966afff1ffdc8acf5d22039689da50ccbc334b57f64064fa4",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L06Q04",
+      "packagePages": [
+        379
+      ],
+      "questionSha256": "dd83f6c29d3b3e6d4115b532e0e286474e4dab4ed438f3ffae3d9f18d0d10223",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L06Q05",
+      "packagePages": [
+        384
+      ],
+      "questionSha256": "19a7ee70120435cc2d8521f598174baf08648b54636ed49e412ffdca79a73734",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L06Q06",
+      "packagePages": [
+        387
+      ],
+      "questionSha256": "3430f9eacf809ad1821773656b428aa2aa080e969a8b687ee1c1e8dd60bcd007",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L07Q01",
+      "packagePages": [
+        391
+      ],
+      "questionSha256": "07bb9c4ce6f023de5ae1e5e86e1948f67813e2ccaf2c2df686993cb0a32a62ef",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L07Q02",
+      "packagePages": [
+        391
+      ],
+      "questionSha256": "cc08b4a7dd5f82bc909a8fc9e44c17806c84ab08557d2ba759c8978616079fa3",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L07Q03",
+      "packagePages": [
+        392
+      ],
+      "questionSha256": "0e77da49c5f5e18a104b48ac2e4ded7813dd12566ac863e891e4715e419241e7",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L07Q04",
+      "packagePages": [
+        393
+      ],
+      "questionSha256": "69200841bb4398b801f743919761737e68879db61a6893a07b7cfff03a4a738e",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B06L07Q06",
+      "packagePages": [
+        396
+      ],
+      "questionSha256": "ed6a5cf356e4a40ea13a7803b1eb47746e5f187044737e2867fc050b98620f1a",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B7L1Q1",
+      "packagePages": [
+        401
+      ],
+      "questionSha256": "135464e0a20361a2cd346c15d6de0e67718e5fb6dbc6417a695016da453e9537",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B7L2Q1",
+      "packagePages": [
+        411
+      ],
+      "questionSha256": "dda5eb3105cd19a320fc8f99b5ed740f034d7911bddd18d45ac913dceec9d602",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B7L3Q1",
+      "packagePages": [
+        422
+      ],
+      "questionSha256": "af1057fb271b3f8bbffa8d0d59101d5250b89a5b48f9379d081f703b221c885c",
+      "disposition": "excluded-overlapping-objective",
+      "existingQuestion": "CA-Q070",
+      "reason": "Same Slide Sorter selection objective; retain original item."
+    },
+    {
+      "id": "B7L4Q1",
+      "packagePages": [
+        435
+      ],
+      "questionSha256": "079729c71cf307126f361a4b11f99632e2e2a81a6b8053ecd0e5b5c732711e89",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B7L5Q1",
+      "packagePages": [
+        437
+      ],
+      "questionSha256": "b1fea96d8423f2e2b73219981857ac0a3429b0f26164fd60d3b335b3d7268e97",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B7L6Q1",
+      "packagePages": [
+        453
+      ],
+      "questionSha256": "06cc032959bc9fa0c84b443524293935ebb67ea5edc4b13bed2e3eea811edcea",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q100",
+      "candidateCorrectIndex": 1,
+      "candidateCorrectOption": "Numbered list"
+    },
+    {
+      "id": "B7L7Q1",
+      "packagePages": [
+        459
+      ],
+      "questionSha256": "059e6523d38ecd68fc0094374f30a2bf384bc780e241f807281d0787f8908f3f",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q104",
+      "candidateCorrectIndex": 1,
+      "candidateCorrectOption": "Table Tools → Layout → Insert Above"
+    },
+    {
+      "id": "B8L1Q1",
+      "packagePages": [
+        472
+      ],
+      "questionSha256": "9e6ca5c585a1e355a5f46a19aea15d41ab5557bcd10c903f4e766071764ebb36",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B8L2Q1",
+      "packagePages": [
+        478
+      ],
+      "questionSha256": "13a951e6cd8c456e4c7e1f0f6f4b11daf77695fe9983637b720f984f73c78aaa",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B8L3Q1",
+      "packagePages": [
+        482
+      ],
+      "questionSha256": "169e90f464ee93baa96cf26c55dfce526d573ce68140b880e03c29a17081e5a0",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B8L4Q1",
+      "packagePages": [
+        490
+      ],
+      "questionSha256": "28600c253f7e182dcb3e8dd19fdfe7c1db7670e4c9422a334c604c94638dce3e",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B8L5Q1",
+      "packagePages": [
+        498
+      ],
+      "questionSha256": "f791eb26b5b536fcf3fcbea59bdcf3fb58ec8c4f52b77608c2801bd701188e5c",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B8L6Q1",
+      "packagePages": [
+        510
+      ],
+      "questionSha256": "f549c4d798369b321b022fcf7a4ea72b5b6a38dcfed9c9f896f26fd28ac6a346",
+      "disposition": "adapted-to-local-review",
+      "reviewQuestion": "CA-Q108",
+      "candidateCorrectIndex": 1,
+      "candidateCorrectOption": "Volume"
+    },
+    {
+      "id": "B9L1Q1",
+      "packagePages": [
+        514
+      ],
+      "questionSha256": "d2bf318740fc50fdc145276a1fce75234a86f9160a0ae04c4821755708560065",
+      "disposition": "not-imported-review-pending"
+    },
+    {
+      "id": "B9L2Q1",
+      "packagePages": [
+        519
+      ],
+      "questionSha256": "b25b556f084526ae40c9c132ef033ae253d4e3294981a6fd3524b7b1307b47f1",
+      "disposition": "excluded-overlapping-objective",
+      "existingQuestion": "CA-Q071",
+      "reason": "Same within-slide object animation objective; retain original item."
+    },
+    {
+      "id": "B9L3Q1",
+      "packagePages": [
+        530
+      ],
+      "questionSha256": "b487a9c510d2d59c2b246bd6fd67134369b816faec9f2e6ff5410a63273f2b9e",
+      "disposition": "excluded-overlapping-objective",
+      "existingQuestion": "CA-Q068",
+      "reason": "Same transition-versus-animation distinction; no extra item needed."
+    }
+  ]
+}

@@ -1,10 +1,31 @@
 # DOMiNANCE roadmap
 
+## Comprehensive academic sprint — Computer checkpoint, 2026-10-20
+
+All 18 Computer review lessons expanded with worked steps, examples, diagnostics and comparisons; all 114 rationales rewritten while preserving IDs/stems/options/keys/citations. Twelve further candidates inspected, none imported. 159 offline checks, lint/build and Chromium traversal of 18 lessons/146 sections pass. The existing source crosswalk, four withheld items, 15 unexecuted Office scenarios and student release gate remain unchanged. [Evidence and continuation](docs/csm177/INSTRUCTIONAL_SPRINT.md). This supersedes earlier instructional counts below; no final academic approval, merge or deployment.
+
+## HB1 academic continuation — 2026-10-20
+
+Development `3b5368f` (Antigravity UI Sprints 02–05 and Cell reliability) is merged into the existing Computer branch as `7a0c1eb`, preserving the merged global styles. PR #9 remains draft. No Firebase rules/configuration change, main merge or deployment.
+
+Computer Appreciation now has **18 lessons / 114 MCQs only in the local emulator review**, preserving the original 12/72 and adding six lessons plus 42 questions. PowerPoint has 36 questions. Normal builds hold all pending Computer text out of the student asset while preserving private history and confirmed Home totals. Of 270 candidates, 24 are selectively adapted, four overlapping objectives excluded and 242 unimported. All four withheld items remain outside the compiled banks/index.
+
+Source evidence establishes 199 unique 541-to-542 page-text matches and leaves 342 unresolved; the original 541-page PDF is unavailable. Thirty-two directly inspected actual-PDF anchors support incremental questions. Twenty-two actual LibreOffice/document alternatives pass, but all 15 Microsoft Office desktop scenarios remain unexecuted in their required software. Payroll/grade policy and source contradictions remain academic holds.
+
+Verification: 155 offline and 38 real loopback emulator checks pass; lint/build pass with existing warnings. Chromium checks the expanded 18-lesson/90-section review, saved progress/practice, release hold and existing Cell flow. Software is prepared for review with the release gate intact; student academic approval is still blocked. [Detailed evidence and limits](docs/csm177/READINESS.md), [current nine-course inventory](docs/HB1_CONTENT_COVERAGE_TABLE.md).
+
+The entries below are historical; the 20 October status above takes precedence.
+## Cell instructional checkpoint — 2026-10-20
+
+All 46 lessons audited; 23 receive gated instructional expansions, 96 rationales improved and eight interpretation/application candidates added (178 internal-review questions). Original files, IDs and answer mappings remain intact. The existing uricase caveats are consolidated, preserving all unique qualifications. Seven broad and fourteen microscopy-specific lecturer objectives mapped from the actual 410-page 2025 PDF; six selected visual pages checked, remaining source/figure/current-year coverage explicitly open. 147 offline and 37 real emulator checks, lint/build and all 263 reader sections at 390px pass. [Evidence and exact continuation](docs/cell-instruction/READINESS.md). Normal builds retain the 170-question bank; no academic approval, merge or deployment.
+
 ## HB1 academic development — 2026-10-19
 
 The current user authorized isolated academic branches, implementation, tests, commits, pushes and draft PRs based on the latest `dev/firebase-development-readiness`. Baseline `7274bb7` includes Antigravity Sprint 01 and CI. No merge, deployment, global styling/navigation redesign or Firebase security-rule changes.
 
 Cell Structure reliability: four reproduced defects fixed (lesson-specific resume, obsolete section links, draft resume availability, completed-draft transaction resurrection). All supplied 46 lessons/170 MCQs/51 checks preserved. 134 individual offline checks, lint/build and the added real emulator transaction pass; Chromium desktop/390px covers reader, exit/resume, submission and explanations with no page errors or narrow overflow. See [evidence and remaining academic gaps](docs/HB1_CELL_RELIABILITY.md).
+
+Computer Appreciation: 12 lessons/72 explained MCQs in four blocks, grounded in the connected CSM 177 Excel/PowerPoint lecturer notes with lesson and individual-question PDF citations. Reuses the existing reader/practice engine and authenticated Firebase transaction path with independent course drafts/history. Confirmed results contribute to Home/goals; skipped questions remain excluded. Current official syllabus and final academic approval remain unverified. All 143 individual offline and 37 emulator checks pass; lint/build pass with existing warnings. [Readiness report and remaining gaps](docs/HB1_CONTENT_READINESS.md), [generated nine-course inventory](docs/HB1_CONTENT_COVERAGE_TABLE.md). The seven other configured first-semester courses still have no implemented academic lessons/MCQs. Draft review only; no deployment/merge.
 
 Updated 2026-10-15. Current status below supersedes historical milestone entries. Phase 1 is checkpointed at 89d982a; Phase 2 is on codex/hb1-cell-structure-content in Draft PR #1, based on pj/student-experience-foundation. No merge or deployment.
 
@@ -413,3 +434,12 @@ Regression evidence: the expanded permission suite reproduced unverified-owner e
 Final checks: 35 full emulator integration tests and 129 offline tests passed, zero failures/skips; lint passed with eight existing dormant-code warnings; production build passed with its existing large-entry warning; Git diff checks pass. One combined attempt was interrupted after Firebase CLI's automatic file-change reload failed and its Auth process exited. The launcher left its Firestore child on 8080; only this task's identified orphan and waiting tests were stopped. Restarting with the final files resolved the interruption and the complete suite passed. Tests used fixed demo-dominance loopback endpoints, mock administrative claims and fictional Auth accounts only.
 
 See docs/FIREBASE_AUTHORIZATION.md for the permission matrix and provisioning assessment. No student migration or new claims are required. Before a separately authorized live rollout, confirm intended administrators own verified email addresses, refresh their ID tokens and audit existing grants if the old rules were deployed. Trusted server-managed UID claims are preferred long term, with a protected grant/revoke workflow and token-revocation/cutover plan; this compatible fix does not silently initiate that migration. No live accounts, data or deployed rules were inspected or modified, no merge or application deployment occurred. Keep PR #3 draft for review.
+
+## HB1 academic foundation — BIOL157 review checkpoint, 2026-10-20
+
+- [x] Verify the attached official outline's ten units, 34 subtopics and five outcomes against actual PDF pages; record all eleven private PDF hashes/page counts.
+- [x] Author original Unit 1 (six concept lessons / 18 adapted candidate MCQs) and Unit 2 (eight concept lessons / 16 original MCQs); 28 explicit-answer checks, source evidence and scientific discrepancy decisions.
+- [x] Integrate independent study, per-concept practice and exact feedback-to-notes links using existing views and owner-scoped state. Add honest not-authored unit states and retain blocked normal student content.
+- [x] Add a reusable content contract, separate notes/outcome/question coverage, evidence checks and Antigravity integration hooks; see docs/ACADEMIC_CONTENT_STANDARD.md and docs/HB1_FIRST_SEMESTER_COVERAGE.md.
+- [ ] Obtain qualified academic approval; no self-approval, release, merge or deployment.
+- [ ] Author Units 3–10 incrementally; exact next source/teaching scope in docs/biol157/ACADEMIC_REVIEW.md.

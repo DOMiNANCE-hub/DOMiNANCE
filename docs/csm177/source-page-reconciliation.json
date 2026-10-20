@@ -1,0 +1,6217 @@
+{
+  "packageSha256": "21de6437b504379d84edd98ebe14980baca6d4de168df06a4dc3a15b3fb9ebea",
+  "packageSourceSha256Claim": "ac0ca56a22876fee8420ef36ef2b7d5df3ec1b1e96887f2764bb3eddeeaec4d0",
+  "packageOriginalPdfAvailable": false,
+  "actualPdfSha256": "524055ed4568892581fb7a5fe8f545f155901d3101d28b420d6f4b331e47d17c",
+  "packagePageCount": 541,
+  "actualPageCount": 542,
+  "fileIntegrityChecks": 152,
+  "method": "Unique 4-token source excerpt overlap >= 0.85; lead >= 0.10 over every other actual PDF page. No inferred offset; unresolved pages remain unmapped.",
+  "summary": {
+    "unresolved-no-unique-text-anchor": 342,
+    "text-anchored": 199
+  },
+  "pages": [
+    {
+      "packagePage": 1,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 2,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 3,
+      "actualPage": 3,
+      "status": "text-anchored",
+      "actualTextSha256": "fa135c75f9ca8d822d1583d68d2e8d6d9c342db433266c1cb7fba354bc9bff5e",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L01-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 3,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "getting started with excel applications that form the microsoft office suite are microsoft word a word processor for"
+        }
+      ]
+    },
+    {
+      "packagePage": 4,
+      "actualPage": 4,
+      "status": "text-anchored",
+      "actualTextSha256": "aeb073bc256885a184bc4b4eed57567573e8fcb1173cffce198415a333f33219",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L01-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 4,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "microsoft powerpoint presentation software microsoft outlook microsoft publisher and microsoft excel the excel is a spreadsheet application 4"
+        }
+      ]
+    },
+    {
+      "packagePage": 5,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 6,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 7,
+      "actualPage": 7,
+      "status": "text-anchored",
+      "actualTextSha256": "453ff6909fb0a9c0faff2ae4aa43f4a39523d4390feed538fbf821c6a0086310",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L01-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 7,
+          "match": 0.9688,
+          "runnerUp": 0.0,
+          "anchor": "i preparation of budgets balance sheet trial balance analysis of cash flows costing projects managing inventory payroll and"
+        }
+      ]
+    },
+    {
+      "packagePage": 8,
+      "actualPage": 8,
+      "status": "text-anchored",
+      "actualTextSha256": "0db1e001aa05e82eb4ddc7c5f22a4b8c336d7e52b5cafe097ff53aa6bfc89212",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L01-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 8,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "2 scientific environment scientist such as mathematicians engineers physicists chemists meteorologists statisticians biologist etc use spreadsheets to perform"
+        }
+      ]
+    },
+    {
+      "packagePage": 9,
+      "actualPage": 9,
+      "status": "text-anchored",
+      "actualTextSha256": "2a4ae450c781fe37c30bdae0ee2451821b97b79346b4af3613bd1ed2487aca82",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L01-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 9,
+          "match": 0.9697,
+          "runnerUp": 0.0303,
+          "anchor": "3 graphical representation spreadsheets are used in many disciplines to represent data graphically for easy analysis such as"
+        },
+        {
+          "question": "CSM177-B01-L01-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 9,
+          "match": 0.9697,
+          "runnerUp": 0.0303,
+          "anchor": "3 graphical representation spreadsheets are used in many disciplines to represent data graphically for easy analysis such as"
+        }
+      ]
+    },
+    {
+      "packagePage": 10,
+      "actualPage": 10,
+      "status": "text-anchored",
+      "actualTextSha256": "e05808c417d04557a9064992b1d72f1cfd24f5a1e9b52a911dcce11fe094cfdc",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L01-Q07",
+          "status": "unique-text-anchor",
+          "actualPage": 10,
+          "match": 1.0,
+          "runnerUp": 0.0294,
+          "anchor": "4 forex bureau and other multi national companies use spreadsheets for their currency conversions for example using a"
+        }
+      ]
+    },
+    {
+      "packagePage": 11,
+      "actualPage": 11,
+      "status": "text-anchored",
+      "actualTextSha256": "f60b66685afb7bb31c0cdf3e10991b3d18ca8c317029ef712ee356f3ba6c4ad2",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L01-Q08",
+          "status": "unique-text-anchor",
+          "actualPage": 11,
+          "match": 0.9714,
+          "runnerUp": 0.0,
+          "anchor": "5 database management businesses and individuals can use spreadsheets for maintaining their data base it allows them to"
+        }
+      ]
+    },
+    {
+      "packagePage": 12,
+      "actualPage": 12,
+      "status": "text-anchored",
+      "actualTextSha256": "a70746b6969bc4b44465fd3f111df985db5d93ce68e5d55c85e4f6d621253524",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L01-Q09",
+          "status": "unique-text-anchor",
+          "actualPage": 12,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "spreadsheets are particularly good at providing answers to the what if type of questions which occur very frequently"
+        }
+      ]
+    },
+    {
+      "packagePage": 13,
+      "actualPage": 13,
+      "status": "text-anchored",
+      "actualTextSha256": "6b27e882b142f5013b671a62defe2899d8c7c11e06487d923fe76c15ae9484de",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L01-Q10",
+          "status": "unique-text-anchor",
+          "actualPage": 13,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "also a business may want to know what will happen to profit if income and expenditure values over"
+        }
+      ]
+    },
+    {
+      "packagePage": 14,
+      "actualPage": 14,
+      "status": "text-anchored",
+      "actualTextSha256": "910072e6da55261dc68a20d960a4347925114c8d3cdbb358b5337a9af7d8abaf",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L01-Q11",
+          "status": "unique-text-anchor",
+          "actualPage": 14,
+          "match": 1.0,
+          "runnerUp": 0.0435,
+          "anchor": "there are a number of spreadsheets packages one can choose from as easy as supercalc lotus 1 2"
+        }
+      ]
+    },
+    {
+      "packagePage": 15,
+      "actualPage": 15,
+      "status": "text-anchored",
+      "actualTextSha256": "34debc551dbf337ac5c04b5e864dff35270d8ae5b8d9e8535cb60b73a629a932",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L01-Q12",
+          "status": "unique-text-anchor",
+          "actualPage": 15,
+          "match": 1.0,
+          "runnerUp": 0.0294,
+          "anchor": "the term spreadsheet is often used to refer to the computer program sometimes the same term is used"
+        }
+      ]
+    },
+    {
+      "packagePage": 16,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 17,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 18,
+      "actualPage": 18,
+      "status": "text-anchored",
+      "actualTextSha256": "c8c83e8608893a50ae19ca7fdda696e818c0496942bc44889aff09b7e0c3b554",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L02-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 18,
+          "match": 1.0,
+          "runnerUp": 0.0645,
+          "anchor": "another way you can start excel is from a shortcut icon on the desktop double click the excel"
+        }
+      ]
+    },
+    {
+      "packagePage": 19,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 20,
+      "actualPage": 20,
+      "status": "text-anchored",
+      "actualTextSha256": "9cd3ad93ec074a96e784caa120e6ff39836bd1d1ee27d31c2dca75bcb548e384",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L02-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 20,
+          "match": 0.925,
+          "runnerUp": 0.05,
+          "anchor": "to close or quit excel in order to free memory for other applications or at the end of"
+        }
+      ]
+    },
+    {
+      "packagePage": 21,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B01-L02-Q03",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.52,
+          "runnerUp": 0.04,
+          "anchor": "editing in the formular bar to edit in the formula bar follow these steps select cell position pointer"
+        }
+      ]
+    },
+    {
+      "packagePage": 22,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B01-L02-Q04",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.4722,
+          "runnerUp": 0.0556,
+          "anchor": "to edit directly in a cell follow these steps double click the cell i using arrow keys move"
+        }
+      ]
+    },
+    {
+      "packagePage": 23,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 24,
+      "actualPage": 24,
+      "status": "text-anchored",
+      "actualTextSha256": "e4e3212c2a868b050712b8013f194123724be717655fa7d52952e9bc731691d6",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L02-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 24,
+          "match": 1.0,
+          "runnerUp": 0.0435,
+          "anchor": "you can make excel accept a number as text by typing an apostrophe followed by the number e"
+        }
+      ]
+    },
+    {
+      "packagePage": 25,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 26,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 27,
+      "actualPage": 27,
+      "status": "text-anchored",
+      "actualTextSha256": "6405c093b8b8d5696a0b7887fcb4791aebfe2a07922c6d9dbb701e29774828ca",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L02-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 27,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "to enter a fraction such as 71 2 type the integer 7 a space and then the fraction"
+        }
+      ]
+    },
+    {
+      "packagePage": 28,
+      "actualPage": 28,
+      "status": "text-anchored",
+      "actualTextSha256": "9ba1fd696c603f78bdd98f77cfcb6181b0e7dd7ba728bd9fc4314d42b297ca24",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L03-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 28,
+          "match": 0.9773,
+          "runnerUp": 0.0227,
+          "anchor": "entering dates and times excel recognizes dates and times typed in most common ways when you type a"
+        }
+      ]
+    },
+    {
+      "packagePage": 29,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 30,
+      "actualPage": 30,
+      "status": "text-anchored",
+      "actualTextSha256": "8c367ff2e2e82d2fcf15560dca4e91d01c22127c8519bb52c9cca6b6fc8aeeb5",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L03-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 30,
+          "match": 1.0,
+          "runnerUp": 0.0488,
+          "anchor": "to format a date in the default date format select the cell containing the date and press ctrl"
+        },
+        {
+          "question": "CSM177-B01-L03-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 30,
+          "match": 1.0,
+          "runnerUp": 0.0488,
+          "anchor": "to format a date in the default date format select the cell containing the date and press ctrl"
+        }
+      ]
+    },
+    {
+      "packagePage": 31,
+      "actualPage": 31,
+      "status": "text-anchored",
+      "actualTextSha256": "6e96e073281008744a123f785d9956b4ff9bd40169dd2eda9bed6ee1f76bc0b6",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L03-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 31,
+          "match": 1.0,
+          "runnerUp": 0.0323,
+          "anchor": "a valid date entry in an unformatted cell is aligned as a number to the right if the"
+        }
+      ]
+    },
+    {
+      "packagePage": 32,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 33,
+      "actualPage": 33,
+      "status": "text-anchored",
+      "actualTextSha256": "68e59952c37aca8bea3ff072b770e4dc9c6008eca3439ffb3a28d5d753c62e9e",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L03-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 33,
+          "match": 1.0,
+          "runnerUp": 0.0962,
+          "anchor": "times may be entered in the following formats format example h mm 13 32 h mm ss 13"
+        }
+      ]
+    },
+    {
+      "packagePage": 34,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 35,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 36,
+      "actualPage": 36,
+      "status": "text-anchored",
+      "actualTextSha256": "c0ba826e85f8b68e4c2f84d8ae50ab9ae3d889303706e6c5ae743e51a428066e",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L03-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 36,
+          "match": 0.98,
+          "runnerUp": 0.04,
+          "anchor": "the next time you want to type the same text in or at the bottom of the column"
+        }
+      ]
+    },
+    {
+      "packagePage": 37,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B01-L04-Q01",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.8286,
+          "runnerUp": 0.0,
+          "anchor": "clearing inserting or deleting in a worksheet shortcut keys for changing the worksheet layout keys action del clears"
+        }
+      ]
+    },
+    {
+      "packagePage": 38,
+      "actualPage": 38,
+      "status": "text-anchored",
+      "actualTextSha256": "58c0c85838beef92a5b578bae0db94036bc1f1ed26530dc30710262b25f522be",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L04-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 38,
+          "match": 0.8889,
+          "runnerUp": 0.0833,
+          "anchor": "erasing the contents of a cell 38 to erase the contents of a cell refrain from typing a"
+        }
+      ]
+    },
+    {
+      "packagePage": 39,
+      "actualPage": 39,
+      "status": "text-anchored",
+      "actualTextSha256": "ad799c959bc5400a858101d83c3e94ff490bf6fd3cfb2899b7d76f98d7f2d615",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L04-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 39,
+          "match": 0.9762,
+          "runnerUp": 0.0714,
+          "anchor": "erasing the contents of a cell you may also press del key after selecting the cell to delete"
+        }
+      ]
+    },
+    {
+      "packagePage": 40,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 41,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B01-L04-Q04",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.8333,
+          "runnerUp": 0.2381,
+          "anchor": "to remove cells rows or columns perform the following steps select the cell range cells in the rows"
+        }
+      ]
+    },
+    {
+      "packagePage": 42,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B01-L04-Q05",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.8372,
+          "runnerUp": 0.0465,
+          "anchor": "the delete dialog box if you selected a whole row or column the dialogue box does not appear"
+        }
+      ]
+    },
+    {
+      "packagePage": 43,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 44,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B01-L04-Q06",
+          "status": "insufficient-text-anchor"
+        }
+      ]
+    },
+    {
+      "packagePage": 45,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 46,
+      "actualPage": 46,
+      "status": "text-anchored",
+      "actualTextSha256": "6cb8cade5f1e4df868f1963102823c7a2501d0a82c1ff5711ae73c96b4a93991",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L05-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 46,
+          "match": 0.973,
+          "runnerUp": 0.0,
+          "anchor": "automatically repeat items already entered in the column if the first few characters that you type in a"
+        }
+      ]
+    },
+    {
+      "packagePage": 47,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B01-L05-Q03",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.8108,
+          "runnerUp": 0.027,
+          "anchor": "to automatically repeat items either of the following can be used to accept a proposed entry press enter"
+        }
+      ]
+    },
+    {
+      "packagePage": 48,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B01-L05-Q01",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.814,
+          "runnerUp": 0.2558,
+          "anchor": "if you do not want entries that you type to be completed automatically you can turn this option"
+        },
+        {
+          "question": "CSM177-B01-L05-Q04",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.814,
+          "runnerUp": 0.2558,
+          "anchor": "if you do not want entries that you type to be completed automatically you can turn this option"
+        }
+      ]
+    },
+    {
+      "packagePage": 49,
+      "actualPage": 49,
+      "status": "text-anchored",
+      "actualTextSha256": "5a45ef35e68219a3bc73563b8ed76457cc7a8e94faac655e787922bff994e1ba",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L05-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 49,
+          "match": 0.9767,
+          "runnerUp": 0.1163,
+          "anchor": "using the fill handle to fill data you can use the fill handle command to fill data into"
+        }
+      ]
+    },
+    {
+      "packagePage": 50,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 51,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B01-L05-Q06",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.8049,
+          "runnerUp": 0.0488,
+          "anchor": "fill handle i to avoid replacing existing data when you drag the fill handle make sure that the"
+        }
+      ]
+    },
+    {
+      "packagePage": 52,
+      "actualPage": 52,
+      "status": "text-anchored",
+      "actualTextSha256": "074cc8c15d4d74cbeffa31ca530038080c70e35d1a8bdc816fb342fa70addf17",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L06-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 52,
+          "match": 1.0,
+          "runnerUp": 0.1,
+          "anchor": "autofill options after you drag the fill handle the auto fill options button appears so that you can"
+        },
+        {
+          "question": "CSM177-B01-L06-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 52,
+          "match": 1.0,
+          "runnerUp": 0.1,
+          "anchor": "autofill options after you drag the fill handle the auto fill options button appears so that you can"
+        }
+      ]
+    },
+    {
+      "packagePage": 53,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 54,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 55,
+      "actualPage": 55,
+      "status": "text-anchored",
+      "actualTextSha256": "f4867eb16d30fa0506ec4828116bbdd0199114d8194b0dcb050f473a31344cf1",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L06-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 55,
+          "match": 1.0,
+          "runnerUp": 0.2449,
+          "anchor": "filling the active cell with the contents of an adjacent cell i select an empty cell either below"
+        }
+      ]
+    },
+    {
+      "packagePage": 56,
+      "actualPage": 56,
+      "status": "text-anchored",
+      "actualTextSha256": "0421325f70a8d642ee37cbd3feeaa6967006eae645756cee2bb660af6e6ed63b",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L06-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 56,
+          "match": 0.8667,
+          "runnerUp": 0.0667,
+          "anchor": "filling a cell shortcuts 56 you can also quickly fill a cell with the contents of the cell"
+        },
+        {
+          "question": "CSM177-B01-L06-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 56,
+          "match": 0.8667,
+          "runnerUp": 0.0667,
+          "anchor": "filling a cell shortcuts 56 you can also quickly fill a cell with the contents of the cell"
+        }
+      ]
+    },
+    {
+      "packagePage": 57,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 58,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B01-L06-Q06",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.7561,
+          "runnerUp": 0.5366,
+          "anchor": "filling formulas into adjacent cells select the cell that contains the formula that you want to fill into"
+        }
+      ]
+    },
+    {
+      "packagePage": 59,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 60,
+      "actualPage": 60,
+      "status": "text-anchored",
+      "actualTextSha256": "d534abf7f831ebb00406962aa1ac4699b0a315bcf5df0629160a0b97ef0ff9de",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L07-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 60,
+          "match": 1.0,
+          "runnerUp": 0.2,
+          "anchor": "filling in a series numbers dates or other built in series items it is also possible to use"
+        }
+      ]
+    },
+    {
+      "packagePage": 61,
+      "actualPage": 61,
+      "status": "text-anchored",
+      "actualTextSha256": "7d5c18b45b98d5c7d9d007fc21cf5f8e2915786fe296a0f90781ccb9793f42ad",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L07-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 61,
+          "match": 0.98,
+          "runnerUp": 0.18,
+          "anchor": "filling in a series numbers dates or other built in series items to fill a series you will"
+        }
+      ]
+    },
+    {
+      "packagePage": 62,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 63,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 64,
+      "actualPage": 64,
+      "status": "text-anchored",
+      "actualTextSha256": "1ca538247d4e2f42657bbd320bf4b4f587fbee34b1d6a1ad1d401d2af603809f",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L07-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 64,
+          "match": 1.0,
+          "runnerUp": 0.1778,
+          "anchor": "if the selection contains numbers you can control the type of series that you want to create i"
+        },
+        {
+          "question": "CSM177-B01-L07-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 64,
+          "match": 1.0,
+          "runnerUp": 0.1778,
+          "anchor": "if the selection contains numbers you can control the type of series that you want to create i"
+        },
+        {
+          "question": "CSM177-B01-L07-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 64,
+          "match": 1.0,
+          "runnerUp": 0.1778,
+          "anchor": "if the selection contains numbers you can control the type of series that you want to create i"
+        }
+      ]
+    },
+    {
+      "packagePage": 65,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 66,
+      "actualPage": 66,
+      "status": "text-anchored",
+      "actualTextSha256": "f32bd3bad16b8405ba14693c2b3aba0a9c2bfd8e1e1adb13dc85241812df15f9",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L07-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 66,
+          "match": 1.0,
+          "runnerUp": 0.0541,
+          "anchor": "you can suppress autofill by holding down ctrl while you drag the fill handle of a selection of"
+        }
+      ]
+    },
+    {
+      "packagePage": 67,
+      "actualPage": 67,
+      "status": "text-anchored",
+      "actualTextSha256": "f284b05576438bb3499dbeddf49ed3eef67d1867c905cc790941c5a96ba8e217",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L08-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 67,
+          "match": 0.9778,
+          "runnerUp": 0.0444,
+          "anchor": "filling data by using a custom fill series you can make the entering of a particular sequence of"
+        }
+      ]
+    },
+    {
+      "packagePage": 68,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 69,
+      "actualPage": 69,
+      "status": "text-anchored",
+      "actualTextSha256": "2998ae85db12f03696536dbc79256ca1a23934d29949edc77c8d48285f98df11",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L08-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 69,
+          "match": 1.0,
+          "runnerUp": 0.1364,
+          "anchor": "under the general section click the edit custom lists ensure that the cell reference of the list of"
+        }
+      ]
+    },
+    {
+      "packagePage": 70,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 71,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 72,
+      "actualPage": 72,
+      "status": "text-anchored",
+      "actualTextSha256": "9a555bc78aed1ebf50c08f886350d76278f61c824440b1b1ca227e3167249608",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L08-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 72,
+          "match": 1.0,
+          "runnerUp": 0.1538,
+          "anchor": "in the custom lists box click new list and then type the entries in the list entries box"
+        }
+      ]
+    },
+    {
+      "packagePage": 73,
+      "actualPage": 73,
+      "status": "text-anchored",
+      "actualTextSha256": "56049880276569ee89dd2829cdf30fe746039e1a46fed671129caa146ab7b807",
+      "evidence": [
+        {
+          "question": "CSM177-B01-L08-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 73,
+          "match": 1.0,
+          "runnerUp": 0.7674,
+          "anchor": "when the list is complete click add and then click ok twice click a cell and then type"
+        }
+      ]
+    },
+    {
+      "packagePage": 74,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B01-L08-Q05",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.75,
+          "runnerUp": 0.2045,
+          "anchor": "editing or deleting a custom fill series click the file tab and then click excel options click the"
+        },
+        {
+          "question": "CSM177-B01-L08-Q06",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.75,
+          "runnerUp": 0.2045,
+          "anchor": "editing or deleting a custom fill series click the file tab and then click excel options click the"
+        }
+      ]
+    },
+    {
+      "packagePage": 75,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 76,
+      "actualPage": 76,
+      "status": "text-anchored",
+      "actualTextSha256": "e5f1682a62fac7c09afe725c5102c8135aef2441aacbbe47b4abf7eb979adafe",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 76,
+          "match": 0.9783,
+          "runnerUp": 0.0217,
+          "anchor": "formulas formulas are the core of an excel worksheet a formula may be defined as any data that"
+        }
+      ]
+    },
+    {
+      "packagePage": 77,
+      "actualPage": 77,
+      "status": "text-anchored",
+      "actualTextSha256": "d986e35d05617a0e982af14bdd31e975aaf9f89c0dfb081692f129fceb95992b",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 77,
+          "match": 1.0,
+          "runnerUp": 0.0571,
+          "anchor": "formulas formulas may be used to do simple calculations involving addition subtraction multiplication and division as well as"
+        }
+      ]
+    },
+    {
+      "packagePage": 78,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 79,
+      "actualPage": 79,
+      "status": "text-anchored",
+      "actualTextSha256": "60fe30c76991d37114829cadf7f7e15d877e01853e27b31cfcb293f9fca7912c",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 79,
+          "match": 1.0,
+          "runnerUp": 0.0227,
+          "anchor": "a formula in excel must start with either of the following symbols or note that starting a formula"
+        }
+      ]
+    },
+    {
+      "packagePage": 80,
+      "actualPage": 80,
+      "status": "text-anchored",
+      "actualTextSha256": "acb4c60f82e2bc08c75fa507c27195a11b81ef8be11a21e012ef16b6bcdb1cea",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 80,
+          "match": 0.9688,
+          "runnerUp": 0.0312,
+          "anchor": "allows the use of mathematical operators such as addition subtraction multiplication and exponentiation etc allows the use of"
+        }
+      ]
+    },
+    {
+      "packagePage": 81,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 82,
+      "actualPage": 82,
+      "status": "text-anchored",
+      "actualTextSha256": "8f53d2fa5308ebe78804ca25542e1300cec45a1f1915db0214ca6011972fca09",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 82,
+          "match": 0.9773,
+          "runnerUp": 0.0682,
+          "anchor": "formulas make reference to or include the contents of a cell by the cell s reference such as"
+        }
+      ]
+    },
+    {
+      "packagePage": 83,
+      "actualPage": 83,
+      "status": "text-anchored",
+      "actualTextSha256": "3ec772d4ece2126661af129b41bcd0530885e219878cca1f89a04830f25d2f40",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 83,
+          "match": 1.0,
+          "runnerUp": 0.0556,
+          "anchor": "why use formulas one of the advantages of using formulas in a worksheet is that cell entries can"
+        }
+      ]
+    },
+    {
+      "packagePage": 84,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 85,
+      "actualPage": 85,
+      "status": "text-anchored",
+      "actualTextSha256": "39f23c73694dcc8a55913eeb260ae74273533f6a63323a5209161fc9299776ff",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q07",
+          "status": "unique-text-anchor",
+          "actualPage": 85,
+          "match": 0.9796,
+          "runnerUp": 0.0612,
+          "anchor": "name box a cell is always referred to by using the row and column heading for example the"
+        },
+        {
+          "question": "CSM177-B02-Q08",
+          "status": "unique-text-anchor",
+          "actualPage": 85,
+          "match": 0.9796,
+          "runnerUp": 0.0612,
+          "anchor": "name box a cell is always referred to by using the row and column heading for example the"
+        }
+      ]
+    },
+    {
+      "packagePage": 86,
+      "actualPage": 86,
+      "status": "text-anchored",
+      "actualTextSha256": "cc27fa6112523448aab7b175fa8328486b1eb3446fab2bf85dad16367c2310d9",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q09",
+          "status": "unique-text-anchor",
+          "actualPage": 86,
+          "match": 0.9778,
+          "runnerUp": 0.0444,
+          "anchor": "entering cell references by pointing the least error prone method of entering cell references in a formula is"
+        }
+      ]
+    },
+    {
+      "packagePage": 87,
+      "actualPage": 87,
+      "status": "text-anchored",
+      "actualTextSha256": "2a4ed3b09f270fb8bd3773277cdce411400e2b2d14d9e12467840896758311ce",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q10",
+          "status": "unique-text-anchor",
+          "actualPage": 87,
+          "match": 0.9767,
+          "runnerUp": 0.0465,
+          "anchor": "entering cell references by pointing this inserts a moving border dashed marquee around the cell and also changes"
+        },
+        {
+          "question": "CSM177-B02-Q11",
+          "status": "unique-text-anchor",
+          "actualPage": 87,
+          "match": 0.9767,
+          "runnerUp": 0.0465,
+          "anchor": "entering cell references by pointing this inserts a moving border dashed marquee around the cell and also changes"
+        },
+        {
+          "question": "CSM177-B02-Q12",
+          "status": "unique-text-anchor",
+          "actualPage": 87,
+          "match": 0.9767,
+          "runnerUp": 0.0465,
+          "anchor": "entering cell references by pointing this inserts a moving border dashed marquee around the cell and also changes"
+        }
+      ]
+    },
+    {
+      "packagePage": 88,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 89,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 90,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 91,
+      "actualPage": 91,
+      "status": "text-anchored",
+      "actualTextSha256": "affafec027b743498909d6c5976a1c2d3bcda2b239ed08b3858fe40f3d7580ba",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q13",
+          "status": "unique-text-anchor",
+          "actualPage": 91,
+          "match": 1.0,
+          "runnerUp": 0.1,
+          "anchor": "relative references this is a cell or range address in a formula that excel interprets by virtue of"
+        }
+      ]
+    },
+    {
+      "packagePage": 92,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 93,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 94,
+      "actualPage": 94,
+      "status": "text-anchored",
+      "actualTextSha256": "254229e4441115270432de6f4d331b4bed4fa951633670f312daed98c58276b1",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q14",
+          "status": "unique-text-anchor",
+          "actualPage": 94,
+          "match": 0.98,
+          "runnerUp": 0.04,
+          "anchor": "also if you enter the formula sum b4 d4 in cell f4 and then copy it relatively to"
+        }
+      ]
+    },
+    {
+      "packagePage": 95,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 96,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 97,
+      "actualPage": 97,
+      "status": "text-anchored",
+      "actualTextSha256": "0b886bd425b9293d6f6dc511ed812f7a3aece98261e1969b06f9e3686a8bb00b",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q15",
+          "status": "unique-text-anchor",
+          "actualPage": 97,
+          "match": 1.0,
+          "runnerUp": 0.0392,
+          "anchor": "absolute referencing e g a 5 indicates a permanent link to the cell a5 i e a permanent"
+        },
+        {
+          "question": "CSM177-B02-L13-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 97,
+          "match": 1.0,
+          "runnerUp": 0.0392,
+          "anchor": "absolute referencing e g a 5 indicates a permanent link to the cell a5 i e a permanent"
+        }
+      ]
+    },
+    {
+      "packagePage": 98,
+      "actualPage": 98,
+      "status": "text-anchored",
+      "actualTextSha256": "c27687d12d0c5683bcc9f1768302f8a10dd08651af7243fcf367f40aef52153a",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q18",
+          "status": "unique-text-anchor",
+          "actualPage": 98,
+          "match": 0.9783,
+          "runnerUp": 0.0435,
+          "anchor": "absolute reference you enter an absolute reference by typing the dollar sign in front of the row or"
+        }
+      ]
+    },
+    {
+      "packagePage": 99,
+      "actualPage": 99,
+      "status": "text-anchored",
+      "actualTextSha256": "d726413794315b7c2183e399370a96911c8470d70a3d8b13fe7d168f00bbbfea",
+      "evidence": [
+        {
+          "question": "CSM177-B02-Q16",
+          "status": "unique-text-anchor",
+          "actualPage": 99,
+          "match": 0.9762,
+          "runnerUp": 0.0,
+          "anchor": "mixed references on some occasions you want only the row to stay fixed or only the column to"
+        },
+        {
+          "question": "CSM177-B02-Q17",
+          "status": "unique-text-anchor",
+          "actualPage": 99,
+          "match": 0.9762,
+          "runnerUp": 0.0,
+          "anchor": "mixed references on some occasions you want only the row to stay fixed or only the column to"
+        }
+      ]
+    },
+    {
+      "packagePage": 100,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 101,
+      "actualPage": 101,
+      "status": "text-anchored",
+      "actualTextSha256": "7a5aacd6a7933c3200e1f4b003528652a481d659de4e58e973b6e6d83a3e04ff",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L04-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 101,
+          "match": 0.9737,
+          "runnerUp": 0.0263,
+          "anchor": "circular references circular addressing involves the use of the current cell s address in the formula for the"
+        },
+        {
+          "question": "CSM177-B02-L04-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 101,
+          "match": 0.9737,
+          "runnerUp": 0.0263,
+          "anchor": "circular references circular addressing involves the use of the current cell s address in the formula for the"
+        }
+      ]
+    },
+    {
+      "packagePage": 102,
+      "actualPage": 102,
+      "status": "text-anchored",
+      "actualTextSha256": "598395a9a4408f1565188d62e80c0eeb8b3ca358247a130975f188cbb9633256",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L04-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 102,
+          "match": 0.9778,
+          "runnerUp": 0.0222,
+          "anchor": "referring to other sheets in a workbook by including a sheet reference as well as a cell reference"
+        },
+        {
+          "question": "CSM177-B02-L04-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 102,
+          "match": 0.9778,
+          "runnerUp": 0.0222,
+          "anchor": "referring to other sheets in a workbook by including a sheet reference as well as a cell reference"
+        }
+      ]
+    },
+    {
+      "packagePage": 103,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 104,
+      "actualPage": 104,
+      "status": "text-anchored",
+      "actualTextSha256": "66f41cb2b07aec05a6fcf199fb7599518fafa071d77576343857930a05cf74d3",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L04-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 104,
+          "match": 1.0,
+          "runnerUp": 0.0217,
+          "anchor": "3 d references you can use 3 d references to refer to a cell range that includes two"
+        },
+        {
+          "question": "CSM177-B02-L04-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 104,
+          "match": 1.0,
+          "runnerUp": 0.0217,
+          "anchor": "3 d references you can use 3 d references to refer to a cell range that includes two"
+        }
+      ]
+    },
+    {
+      "packagePage": 105,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 106,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 107,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B02-L05-Q01",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.7059,
+          "runnerUp": 0.0,
+          "anchor": "arithmetic operator meaning example plus sign addition a2 3 minus sign subtraction negation c3 a3 b4 asterisk multiplication"
+        }
+      ]
+    },
+    {
+      "packagePage": 108,
+      "actualPage": 108,
+      "status": "text-anchored",
+      "actualTextSha256": "2c20ee7d20bc2f3e500e36301d2887cdacedb7005e3f433b39d6a320655487a6",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L05-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 108,
+          "match": 0.95,
+          "runnerUp": 0.025,
+          "anchor": "comparison operators these are operators that make it possible for you to compare two values when two values"
+        }
+      ]
+    },
+    {
+      "packagePage": 109,
+      "actualPage": 109,
+      "status": "text-anchored",
+      "actualTextSha256": "1b484d3e4cdf48620fea3233bec30547a37905a005aab0bd16e41a999031c1d5",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L05-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 109,
+          "match": 1.0,
+          "runnerUp": 0.025,
+          "anchor": "text concatenation operator there is only one text concatenation operator and this is the ampersand sign which is"
+        }
+      ]
+    },
+    {
+      "packagePage": 110,
+      "actualPage": 110,
+      "status": "text-anchored",
+      "actualTextSha256": "93e299ff3ca190c5457f872a6fd21c05acd244dc563c619826848f70786e7c70",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L05-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 110,
+          "match": 0.973,
+          "runnerUp": 0.027,
+          "anchor": "reference operators these operators make it possible to combine cells or range of cells for calculations the three"
+        }
+      ]
+    },
+    {
+      "packagePage": 111,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 112,
+      "actualPage": 112,
+      "status": "text-anchored",
+      "actualTextSha256": "117b524634fb4af052beb49d16f23bcfdde4e6745c1145dba3cb01b8c1312c1e",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L05-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 112,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "order of evaluation formula result e g 6 27 3 15 6 27 3 11 112"
+        }
+      ]
+    },
+    {
+      "packagePage": 113,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 114,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 115,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 116,
+      "actualPage": 116,
+      "status": "text-anchored",
+      "actualTextSha256": "d7a00bed6ba1f71ff27439a6b0383a2b9635e06910b2b582cdfb94f8264634df",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L05-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 116,
+          "match": 0.8837,
+          "runnerUp": 0.2093,
+          "anchor": "rules governing the evaluation of the operators 1 for any two operators of the same precedence the order"
+        }
+      ]
+    },
+    {
+      "packagePage": 117,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 118,
+      "actualPage": 118,
+      "status": "text-anchored",
+      "actualTextSha256": "6e1cf698b52e5f7cdf1bbfb682f06628e6bfcbf3dc1787f550cf29c139b4d9c2",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L06-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 118,
+          "match": 1.0,
+          "runnerUp": 0.04,
+          "anchor": "naming cells and ranges a selected group of cell is referred to as a range a range of"
+        }
+      ]
+    },
+    {
+      "packagePage": 119,
+      "actualPage": 119,
+      "status": "text-anchored",
+      "actualTextSha256": "1184f05f6fbbbf333617eb1d7289fb1cd4f084c4ca9b404c721228a988a77635",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L06-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 119,
+          "match": 1.0,
+          "runnerUp": 0.0263,
+          "anchor": "naming cells and ranges rules for creating names names must start with a letter or an underscore but"
+        }
+      ]
+    },
+    {
+      "packagePage": 120,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B02-L06-Q03",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.7879,
+          "runnerUp": 0.0303,
+          "anchor": "a maximum of 255 characters are allowed for range name but is advisable to make them it as"
+        }
+      ]
+    },
+    {
+      "packagePage": 121,
+      "actualPage": 121,
+      "status": "text-anchored",
+      "actualTextSha256": "c310310468bd1fe730dda4b1a178514f9bf2bd4f657fc37ad470ad5cac8a7c3b",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L06-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 121,
+          "match": 1.0,
+          "runnerUp": 0.0444,
+          "anchor": "defining range names using the name box the name box appears at the left end of the formula"
+        }
+      ]
+    },
+    {
+      "packagePage": 122,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 123,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 124,
+      "actualPage": 124,
+      "status": "text-anchored",
+      "actualTextSha256": "de15b4be0f20a0cb620812c2d6a2531813544105b2b84187d566b3e5f8012f0b",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L06-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 124,
+          "match": 0.9302,
+          "runnerUp": 0.0,
+          "anchor": "if needed enter a comment in the comment box you can enter a comment for example to provide"
+        }
+      ]
+    },
+    {
+      "packagePage": 125,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 126,
+      "actualPage": 126,
+      "status": "text-anchored",
+      "actualTextSha256": "e04a1b670a74e642622cf07f1e5ab0813a44539e1022d411fe13daee06ecf610",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L06-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 126,
+          "match": 0.9792,
+          "runnerUp": 0.0208,
+          "anchor": "if you want to create several names in one go use the name manager instead of the define"
+        }
+      ]
+    },
+    {
+      "packagePage": 127,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 128,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 129,
+      "actualPage": 129,
+      "status": "text-anchored",
+      "actualTextSha256": "dca5bed0b39b93b28112abb2c1c64cba724adc2bf45b8b4d58a469217af47a59",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L07-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 129,
+          "match": 1.0,
+          "runnerUp": 0.0213,
+          "anchor": "a built in function may be defined as a function that has already been defined by the excel"
+        }
+      ]
+    },
+    {
+      "packagePage": 130,
+      "actualPage": 130,
+      "status": "text-anchored",
+      "actualTextSha256": "7c8b3257724746b0db817bd4b76f7dd8a56cd6253d69dc86c22537b9e11d95e9",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L07-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 130,
+          "match": 0.975,
+          "runnerUp": 0.025,
+          "anchor": "if you want to write an equation to determine a mortgage or loan payment for example you need"
+        }
+      ]
+    },
+    {
+      "packagePage": 131,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 132,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 133,
+      "actualPage": 133,
+      "status": "text-anchored",
+      "actualTextSha256": "f3267ec9e6131fed8e8b205993ba9701db6f8a73821e427d5fdee8be9f4d4191",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L07-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 133,
+          "match": 0.9744,
+          "runnerUp": 0.0256,
+          "anchor": "a function operates on what are referred to as arguments these are values or references for the information"
+        }
+      ]
+    },
+    {
+      "packagePage": 134,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 135,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 136,
+      "actualPage": 136,
+      "status": "text-anchored",
+      "actualTextSha256": "3d1f435c77781a38308f0201cc55999b78e5b670af842f2c8f7647b16aff7a5f",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L07-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 136,
+          "match": 0.9744,
+          "runnerUp": 0.0256,
+          "anchor": "there are three main classes of functions this classification is based on the number of arguments required by"
+        }
+      ]
+    },
+    {
+      "packagePage": 137,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 138,
+      "actualPage": 138,
+      "status": "text-anchored",
+      "actualTextSha256": "007aa8d6abee8fdee9697534cc02f8e5be5fda66d360d50f135f8626b733d23e",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L07-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 138,
+          "match": 0.9167,
+          "runnerUp": 0.0417,
+          "anchor": "functions that accept variable number of arguments that is the number of arguments can be one two or"
+        }
+      ]
+    },
+    {
+      "packagePage": 139,
+      "actualPage": 139,
+      "status": "text-anchored",
+      "actualTextSha256": "ca519b6fee81d18fffd1e807fe6966e813e697d63ad718564b4fd5402fb6eebc",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L07-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 139,
+          "match": 0.9773,
+          "runnerUp": 0.0227,
+          "anchor": "note that functions that tend to take variable number of arguments have some of the arguments as optional"
+        }
+      ]
+    },
+    {
+      "packagePage": 140,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 141,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 142,
+      "actualPage": 142,
+      "status": "text-anchored",
+      "actualTextSha256": "73c109fe3bf48e836e90cc105aa1e257c5dcd34712cafd2c6cb8ad61e06ab66d",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L08-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 142,
+          "match": 0.8837,
+          "runnerUp": 0.0465,
+          "anchor": "to insert a function and its arguments into the worksheet follow these steps select the cell where you"
+        }
+      ]
+    },
+    {
+      "packagePage": 143,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 144,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 145,
+      "actualPage": 145,
+      "status": "text-anchored",
+      "actualTextSha256": "19e01a06ea26eeb7c5f9daee291c98c851167d2e71fca29e728c54cdeaed47cc",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L08-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 145,
+          "match": 0.9787,
+          "runnerUp": 0.0426,
+          "anchor": "v verify that this is the function you want and choose ok vi the function arguments dialog box"
+        }
+      ]
+    },
+    {
+      "packagePage": 146,
+      "actualPage": 146,
+      "status": "text-anchored",
+      "actualTextSha256": "195c13e383f7f4bf90b3f0a412d89016eec92554c8c120e7ef3e3fe72c719b76",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L08-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 146,
+          "match": 1.0,
+          "runnerUp": 0.0435,
+          "anchor": "choose ok to complete the function and insert it in a cell you may choose cancel if you"
+        }
+      ]
+    },
+    {
+      "packagePage": 147,
+      "actualPage": 147,
+      "status": "text-anchored",
+      "actualTextSha256": "8dc590491657983f2630e301e718ffe08a61c80178bc4e3f360860fb38257852",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L08-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 147,
+          "match": 0.9778,
+          "runnerUp": 0.0222,
+          "anchor": "auto sum button the most frequently used function is sum this function totals the numeric value of all"
+        },
+        {
+          "question": "CSM177-B02-L08-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 147,
+          "match": 0.9778,
+          "runnerUp": 0.0222,
+          "anchor": "auto sum button the most frequently used function is sum this function totals the numeric value of all"
+        }
+      ]
+    },
+    {
+      "packagePage": 148,
+      "actualPage": 148,
+      "status": "text-anchored",
+      "actualTextSha256": "23964b916eaab410c4a41eb19e66fcbc508605b494c2f6278aa3df4e8b1a0539",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L08-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 148,
+          "match": 1.0,
+          "runnerUp": 0.0244,
+          "anchor": "in addition to entering the sum function the autosum button when clicked selects the cells in the column"
+        }
+      ]
+    },
+    {
+      "packagePage": 149,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 150,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 151,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 152,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 153,
+      "actualPage": 153,
+      "status": "text-anchored",
+      "actualTextSha256": "1a99d758958c8962a3b7cd57772d71fc7a1ef33d1d204021f9dfa35b51d6df95",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L09-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 153,
+          "match": 1.0,
+          "runnerUp": 0.0698,
+          "anchor": "the now function the now function calculates the serial number of the date and time in the computer"
+        }
+      ]
+    },
+    {
+      "packagePage": 154,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 155,
+      "actualPage": 155,
+      "status": "text-anchored",
+      "actualTextSha256": "5c921cb84606040f7c7f96ed2bbda219677caa62e9994cac5c79770295af7186",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L09-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 155,
+          "match": 0.9778,
+          "runnerUp": 0.0889,
+          "anchor": "the today function the today function calculates the date serial number for the current date which is the"
+        }
+      ]
+    },
+    {
+      "packagePage": 156,
+      "actualPage": 156,
+      "status": "text-anchored",
+      "actualTextSha256": "07f849e46422d5b1bacb802d787a29e219c185a0842c0f34b73a498becd99f25",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L09-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 156,
+          "match": 0.9767,
+          "runnerUp": 0.093,
+          "anchor": "the date function the date function calculates the date serial number for a specific date if the cell"
+        }
+      ]
+    },
+    {
+      "packagePage": 157,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 158,
+      "actualPage": 158,
+      "status": "text-anchored",
+      "actualTextSha256": "ef4ed4d634fc428134ae1f79f6ed1a2cd35beddf2281f388fcb2a5fb56002009",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L09-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 158,
+          "match": 1.0,
+          "runnerUp": 0.2381,
+          "anchor": "the table below gives the full list of date and time functions function description date returns the serial"
+        }
+      ]
+    },
+    {
+      "packagePage": 159,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B02-L09-Q04",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.7778,
+          "runnerUp": 0.1667,
+          "anchor": "hour converts a serial number to an hour minute converts a serial number to a minute month converts"
+        },
+        {
+          "question": "CSM177-B02-L09-Q05",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.7778,
+          "runnerUp": 0.1667,
+          "anchor": "hour converts a serial number to an hour minute converts a serial number to a minute month converts"
+        }
+      ]
+    },
+    {
+      "packagePage": 160,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 161,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 162,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B02-L10-Q01",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.814,
+          "runnerUp": 0.0465,
+          "anchor": "function description example abs returns the absolute value of a number abs 4 50 acos returns the arccosine"
+        }
+      ]
+    },
+    {
+      "packagePage": 163,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 164,
+      "actualPage": 164,
+      "status": "text-anchored",
+      "actualTextSha256": "9b1b3d525c0212cb226827813892ed5ed7e075e25c4a9c10945050c5f6d7eef2",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L10-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 164,
+          "match": 1.0,
+          "runnerUp": 0.0417,
+          "anchor": "gcd returns the greatest common divisor gcd 12 15 24 36 int rounds a number down to the"
+        }
+      ]
+    },
+    {
+      "packagePage": 165,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 166,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 167,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B02-L10-Q06",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.7778,
+          "runnerUp": 0.1389,
+          "anchor": "sumifs adds the cells in a range that meet multiple criteria sumproduct returns the sum of the products"
+        }
+      ]
+    },
+    {
+      "packagePage": 168,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 169,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 170,
+      "actualPage": 170,
+      "status": "text-anchored",
+      "actualTextSha256": "1e81d93a5fe078c864be2ea739b19ca6d7e2e899dc325c020cf3f90025fd411b",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L10-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 170,
+          "match": 1.0,
+          "runnerUp": 0.0667,
+          "anchor": "function description chidist returns the one tailed probability of the chi squared distribution chiinv returns the inverse of"
+        }
+      ]
+    },
+    {
+      "packagePage": 171,
+      "actualPage": 171,
+      "status": "text-anchored",
+      "actualTextSha256": "94e95a6e403e57478c0763e3b613437e2eeff63342d0af2011e4c9b3a6a62511",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L10-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 171,
+          "match": 0.9677,
+          "runnerUp": 0.129,
+          "anchor": "function description countif counts the number of cells within a range that meet the given criteria countifs counts"
+        },
+        {
+          "question": "CSM177-B02-L13-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 171,
+          "match": 0.9677,
+          "runnerUp": 0.129,
+          "anchor": "function description countif counts the number of cells within a range that meet the given criteria countifs counts"
+        }
+      ]
+    },
+    {
+      "packagePage": 172,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 173,
+      "actualPage": 173,
+      "status": "text-anchored",
+      "actualTextSha256": "d87b982bdf4b2b0830c527592d103a8ab580659d9be79f1892341210c10ac93d",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L10-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 173,
+          "match": 0.9756,
+          "runnerUp": 0.1463,
+          "anchor": "function description intercept returns the intercept of the linear regression line kurt returns the kurtosis of a data"
+        }
+      ]
+    },
+    {
+      "packagePage": 174,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 175,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 176,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 177,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 178,
+      "actualPage": 178,
+      "status": "text-anchored",
+      "actualTextSha256": "812889ab0c91a12897be908bf00b638578ecbf41253a664f1b8f51b47f5210f1",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L11-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 178,
+          "match": 1.0,
+          "runnerUp": 0.0263,
+          "anchor": "function description char returns the character specified by the code number clean removes all nonprintable characters from text"
+        }
+      ]
+    },
+    {
+      "packagePage": 179,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B02-L11-Q02",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.8158,
+          "runnerUp": 0.0526,
+          "anchor": "function description proper capitalizes the first letter in each word of a text value replace replaceb replaces characters"
+        }
+      ]
+    },
+    {
+      "packagePage": 180,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 181,
+      "actualPage": 181,
+      "status": "text-anchored",
+      "actualTextSha256": "7ce9d1071b93fb4905c86f2b9d6381b646dbb199256a753aca845ab9a0acdbe8",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L11-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 181,
+          "match": 0.8537,
+          "runnerUp": 0.0,
+          "anchor": "the common arguments used in excel s financial function are as follows argument argument name description present value"
+        }
+      ]
+    },
+    {
+      "packagePage": 182,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 183,
+      "actualPage": 183,
+      "status": "text-anchored",
+      "actualTextSha256": "285afff8608d217e87ca4ead5f98a2f41ad937b2e03cbd6b453588ae7d57a02a",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L11-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 183,
+          "match": 0.9756,
+          "runnerUp": 0.2195,
+          "anchor": "function description fv returns the future value of an investment intrate returns the interest rate for a fully"
+        }
+      ]
+    },
+    {
+      "packagePage": 184,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 185,
+      "actualPage": 185,
+      "status": "text-anchored",
+      "actualTextSha256": "15e13b194dab24e6035ff7792c9131e781d569f47bfdb3fe59df6f436df1ca6f",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L11-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 185,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "examples if one borrows 1 000 000 00 at an interest rate of 12 per annum and you"
+        },
+        {
+          "question": "CSM177-B02-L11-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 185,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "examples if one borrows 1 000 000 00 at an interest rate of 12 per annum and you"
+        }
+      ]
+    },
+    {
+      "packagePage": 186,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 187,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 188,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 189,
+      "actualPage": 189,
+      "status": "text-anchored",
+      "actualTextSha256": "69280a69ef5d4b026c9548da6c4fce4ef8d41ceb9e6a5d753bde6688b1949238",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L12-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 189,
+          "match": 1.0,
+          "runnerUp": 0.0233,
+          "anchor": "the true function the function is similar to the false function but does the opposite it always returns"
+        }
+      ]
+    },
+    {
+      "packagePage": 190,
+      "actualPage": 190,
+      "status": "text-anchored",
+      "actualTextSha256": "5b1d41d67d31ef207a4ccd28cebf9c78795606ca6aa026c42984fcb8186c3e53",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L12-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 190,
+          "match": 1.0,
+          "runnerUp": 0.0238,
+          "anchor": "the and function this joins test conditions it returns true if all logical argument are true and false"
+        }
+      ]
+    },
+    {
+      "packagePage": 191,
+      "actualPage": 191,
+      "status": "text-anchored",
+      "actualTextSha256": "aecc5490e32b3b0d232e81705571a0e64b216c49b866c0c73bcac95c0d237897",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L12-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 191,
+          "match": 0.9787,
+          "runnerUp": 0.1489,
+          "anchor": "the or function the function joins test conditions like the and function but returns true if one or"
+        }
+      ]
+    },
+    {
+      "packagePage": 192,
+      "actualPage": 192,
+      "status": "text-anchored",
+      "actualTextSha256": "385efc187fd4a0fa89f54851d7460a3ee9944ef4aab913dbf8e5976cd035040a",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L12-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 192,
+          "match": 0.9762,
+          "runnerUp": 0.0,
+          "anchor": "the if function this function permits you to test a logical condition to determine the appropriate value for"
+        }
+      ]
+    },
+    {
+      "packagePage": 193,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 194,
+      "actualPage": 194,
+      "status": "text-anchored",
+      "actualTextSha256": "c5c0250c277953aa24b195eb16f65e0ff4d0f4056ae7be3f07512b6710893187",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L12-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 194,
+          "match": 0.9787,
+          "runnerUp": 0.0,
+          "anchor": "example suppose cell b10 contain the logical function below if f1 40 f1 40 1 5 0 and"
+        }
+      ]
+    },
+    {
+      "packagePage": 195,
+      "actualPage": 195,
+      "status": "text-anchored",
+      "actualTextSha256": "1126c76a51c5aa4a70fdd6a538ebbd2a9cc3b9afdff245553953489adbbb13d4",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L12-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 195,
+          "match": 0.98,
+          "runnerUp": 0.0,
+          "anchor": "one can also have nested conditions such as if type 1 if sale 1000000 0 08 0 05"
+        }
+      ]
+    },
+    {
+      "packagePage": 196,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 197,
+      "actualPage": 197,
+      "status": "text-anchored",
+      "actualTextSha256": "774961040ee25e5607f126f8c8a0f3056258807ee4ec57861bd4f4b8b71e942d",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L13-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 197,
+          "match": 0.9787,
+          "runnerUp": 0.0213,
+          "anchor": "exercise 1 employees of knust computer company are paid on hourly basis at the end of every month"
+        },
+        {
+          "question": "CSM177-B02-L13-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 197,
+          "match": 0.9787,
+          "runnerUp": 0.0213,
+          "anchor": "exercise 1 employees of knust computer company are paid on hourly basis at the end of every month"
+        }
+      ]
+    },
+    {
+      "packagePage": 198,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 199,
+      "actualPage": 199,
+      "status": "text-anchored",
+      "actualTextSha256": "82a9765456aaffcfe5e949062f7c91a4843e37c7fea5ccc0fe34d2ed3d5da39d",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L13-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 199,
+          "match": 0.9767,
+          "runnerUp": 0.0233,
+          "anchor": "what formulas will be needed in the following cells such that they can later be copied into other"
+        }
+      ]
+    },
+    {
+      "packagePage": 200,
+      "actualPage": 200,
+      "status": "text-anchored",
+      "actualTextSha256": "e90dd3e3e8440c4ecce392f32fd6810d4baf360f3bb169815fb910724094c801",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L13-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 200,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "i e7 ii f7 iii g7 iv h7 v i7 vi j7 vii c23 through to j23 exercise"
+        }
+      ]
+    },
+    {
+      "packagePage": 201,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 202,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 203,
+      "actualPage": 203,
+      "status": "text-anchored",
+      "actualTextSha256": "5c0102568b0dbd6a37cf5d897b3fb220914984c5844efad6826c87a057d9ac7e",
+      "evidence": [
+        {
+          "question": "CSM177-B02-L14-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 203,
+          "match": 0.9762,
+          "runnerUp": 0.0238,
+          "anchor": "lookup and reference functions function description address returns a reference as text to a single cell in a"
+        },
+        {
+          "question": "CSM177-B02-L14-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 203,
+          "match": 0.9762,
+          "runnerUp": 0.0238,
+          "anchor": "lookup and reference functions function description address returns a reference as text to a single cell in a"
+        },
+        {
+          "question": "CSM177-B02-L14-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 203,
+          "match": 0.9762,
+          "runnerUp": 0.0238,
+          "anchor": "lookup and reference functions function description address returns a reference as text to a single cell in a"
+        },
+        {
+          "question": "CSM177-B02-L14-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 203,
+          "match": 0.9762,
+          "runnerUp": 0.0238,
+          "anchor": "lookup and reference functions function description address returns a reference as text to a single cell in a"
+        },
+        {
+          "question": "CSM177-B02-L14-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 203,
+          "match": 0.9762,
+          "runnerUp": 0.0238,
+          "anchor": "lookup and reference functions function description address returns a reference as text to a single cell in a"
+        },
+        {
+          "question": "CSM177-B02-L14-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 203,
+          "match": 0.9762,
+          "runnerUp": 0.0238,
+          "anchor": "lookup and reference functions function description address returns a reference as text to a single cell in a"
+        }
+      ]
+    },
+    {
+      "packagePage": 204,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 205,
+      "actualPage": 205,
+      "status": "text-anchored",
+      "actualTextSha256": "6e180cc94f320a5ec146a237fdaf55c08381bad6bebc60c136880d066b0be5ea",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L01-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 205,
+          "match": 0.975,
+          "runnerUp": 0.1,
+          "anchor": "formatting a table automatically autoformatting is designed to apply to tables of information in which labels run down"
+        }
+      ]
+    },
+    {
+      "packagePage": 206,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B03-L01-Q02",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.75,
+          "runnerUp": 0.1042,
+          "anchor": "to apply an autoformat to a table follow these steps select the range you will like to format"
+        }
+      ]
+    },
+    {
+      "packagePage": 207,
+      "actualPage": 207,
+      "status": "text-anchored",
+      "actualTextSha256": "dab7619fd96ebe47c0be40fd04c8629e54606cb4984edc15e998778ee0e8e855",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L01-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 207,
+          "match": 0.9149,
+          "runnerUp": 0.0213,
+          "anchor": "just click ok since the range you selected in step 1 will used to create the table you"
+        }
+      ]
+    },
+    {
+      "packagePage": 208,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 209,
+      "actualPage": 209,
+      "status": "text-anchored",
+      "actualTextSha256": "8c31ece80d96fe446a36ea5169e845244e50330c82a268ec7370c3dac008529d",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L01-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 209,
+          "match": 0.975,
+          "runnerUp": 0.075,
+          "anchor": "choosing and pasting formats with the format painter button you can copy formats from one cell to another"
+        }
+      ]
+    },
+    {
+      "packagePage": 210,
+      "actualPage": 210,
+      "status": "text-anchored",
+      "actualTextSha256": "91c70a1d6d479b318074d4f5c7bba47b800c0efab446780a8fc2402ce9cd94ac",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L01-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 210,
+          "match": 0.9048,
+          "runnerUp": 0.119,
+          "anchor": "to copy to more than one cell or range double click the format painter button in step 2"
+        },
+        {
+          "question": "CSM177-B03-L01-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 210,
+          "match": 0.9048,
+          "runnerUp": 0.119,
+          "anchor": "to copy to more than one cell or range double click the format painter button in step 2"
+        }
+      ]
+    },
+    {
+      "packagePage": 211,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 212,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 213,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 214,
+      "actualPage": 214,
+      "status": "text-anchored",
+      "actualTextSha256": "059d0c4745413c5c641c9e03815ab86ba6326151c70105cd8ce7c57d8b21ad6a",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L02-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 214,
+          "match": 0.975,
+          "runnerUp": 0.0,
+          "anchor": "formatting cells or characters with toolbars most of the cell formats are found on the formatting toolbar when"
+        }
+      ]
+    },
+    {
+      "packagePage": 215,
+      "actualPage": 215,
+      "status": "text-anchored",
+      "actualTextSha256": "39153081f6d9b5be23146161a8ff7d5962449eece13357dceac1188f00795555",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L02-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 215,
+          "match": 0.8919,
+          "runnerUp": 0.0811,
+          "anchor": "changing character fonts sizes styles and colors fonts are the various typefaces used in printed materials font heights"
+        }
+      ]
+    },
+    {
+      "packagePage": 216,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 217,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 218,
+      "actualPage": 218,
+      "status": "text-anchored",
+      "actualTextSha256": "a81e8a7bd4297298f337072f429228409370abf527ecb19741bd4ec8de3e5878",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L02-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 218,
+          "match": 0.9778,
+          "runnerUp": 0.0222,
+          "anchor": "centering text across cells to center a title using the merge and center button from the formatting toolbar"
+        }
+      ]
+    },
+    {
+      "packagePage": 219,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 220,
+      "actualPage": 220,
+      "status": "text-anchored",
+      "actualTextSha256": "af20ea7f3e488491b917573d97b85d625fab7a5e20e9a49c79c7532e5f0bbe0d",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L02-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 220,
+          "match": 0.9792,
+          "runnerUp": 0.0417,
+          "anchor": "wrapping text to fit a cell if you make a lengthy text entry in a cell you can"
+        }
+      ]
+    },
+    {
+      "packagePage": 221,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 222,
+      "actualPage": 222,
+      "status": "text-anchored",
+      "actualTextSha256": "ebe58d43374ff483838af47340df3899b02a2f71b01ea57e0d60b227385f03ed",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L02-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 222,
+          "match": 0.9737,
+          "runnerUp": 0.0,
+          "anchor": "joining together text or text and numbers concatenation the symbol is a concatenation operator that join text numbers"
+        }
+      ]
+    },
+    {
+      "packagePage": 223,
+      "actualPage": 223,
+      "status": "text-anchored",
+      "actualTextSha256": "38bff9ce9354bcd571ae211289681985e3f154fcff8903a689215da92bb59ca9",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L02-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 223,
+          "match": 1.0,
+          "runnerUp": 0.0667,
+          "anchor": "concatenation is used to join items e g text numbers etc and to indicate a string or text"
+        }
+      ]
+    },
+    {
+      "packagePage": 224,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 225,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 226,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 227,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 228,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B03-L03-Q05",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.7941,
+          "runnerUp": 0.0294,
+          "anchor": "using short cut keys select cell or range i press one of the following keystroke combinations format shortcut"
+        }
+      ]
+    },
+    {
+      "packagePage": 229,
+      "actualPage": 229,
+      "status": "text-anchored",
+      "actualTextSha256": "59196ec34bbfa58eea998d69516e1f2e5442822a198a39fa879c069f119322b8",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L03-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 229,
+          "match": 0.9737,
+          "runnerUp": 0.0263,
+          "anchor": "available number formats i generally by applying different number formats you can change the appearance of numbers without"
+        }
+      ]
+    },
+    {
+      "packagePage": 230,
+      "actualPage": 230,
+      "status": "text-anchored",
+      "actualTextSha256": "b2c8e8a5eaebefc4e86711cff7d652a57792b72f82dd84af9e4c296f2b51c4ef",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L03-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 230,
+          "match": 0.975,
+          "runnerUp": 0.075,
+          "anchor": "format description general this is the default number format that excel applies to numbers when entered generally numbers"
+        }
+      ]
+    },
+    {
+      "packagePage": 231,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 232,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 233,
+      "actualPage": 233,
+      "status": "text-anchored",
+      "actualTextSha256": "e6c193ffe1f87e7032f8ef5831cb64449717eec7b09a593633084eb4f1fc7dc4",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L03-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 233,
+          "match": 0.975,
+          "runnerUp": 0.475,
+          "anchor": "format description accounting this format is also used for monetary values but it aligns the currency symbols and"
+        }
+      ]
+    },
+    {
+      "packagePage": 234,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 235,
+      "actualPage": 235,
+      "status": "text-anchored",
+      "actualTextSha256": "c9c17c5c33603b0cb26966e1290f79ddef56b2a07d5a42cf1bbeff8393fda43d",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L03-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 235,
+          "match": 1.0,
+          "runnerUp": 0.1136,
+          "anchor": "format description percentage this format multiplies the cell value by 100 and displays the result with a percent"
+        }
+      ]
+    },
+    {
+      "packagePage": 236,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 237,
+      "actualPage": 237,
+      "status": "text-anchored",
+      "actualTextSha256": "3d1e79f41d2d50c8af122740fc6cb1277e15101af06b1e0f7ce4f503cde2ec82",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L03-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 237,
+          "match": 0.9756,
+          "runnerUp": 0.0488,
+          "anchor": "format description scientific this format displays a number in exponential notation by replacing part of the number with"
+        }
+      ]
+    },
+    {
+      "packagePage": 238,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 239,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 240,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B03-L04-Q01",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.8095,
+          "runnerUp": 0.0714,
+          "anchor": "adjusting column width if a column is not wide enough to display a number date or time excel"
+        },
+        {
+          "question": "CSM177-B03-L04-Q02",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.8095,
+          "runnerUp": 0.0714,
+          "anchor": "adjusting column width if a column is not wide enough to display a number date or time excel"
+        }
+      ]
+    },
+    {
+      "packagePage": 241,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "CSM177-B03-L04-Q03",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.7619,
+          "runnerUp": 0.0714,
+          "anchor": "to change one or more column width using the menu follow these steps select cells in columns you"
+        },
+        {
+          "question": "CSM177-B03-L04-Q06",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.7619,
+          "runnerUp": 0.0714,
+          "anchor": "to change one or more column width using the menu follow these steps select cells in columns you"
+        }
+      ]
+    },
+    {
+      "packagePage": 242,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 243,
+      "actualPage": 243,
+      "status": "text-anchored",
+      "actualTextSha256": "e3e94b8a70b9ae621c7342f456b0350801dbb5fb88b6773379c1afdcf8c94ddb",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L04-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 243,
+          "match": 1.0,
+          "runnerUp": 0.0833,
+          "anchor": "hiding columns columns can be hidden so that they do not print or appear on screen to hide"
+        }
+      ]
+    },
+    {
+      "packagePage": 244,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 245,
+      "actualPage": 245,
+      "status": "text-anchored",
+      "actualTextSha256": "4aae8d61eecb8aff9f5cca38fab72bf3d6db92fc3cb5ef8914db9c30635af2f9",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L04-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 245,
+          "match": 0.9762,
+          "runnerUp": 0.119,
+          "anchor": "to hide selected columns using the keyboard follow these steps i select cells in the column you want"
+        }
+      ]
+    },
+    {
+      "packagePage": 246,
+      "actualPage": 246,
+      "status": "text-anchored",
+      "actualTextSha256": "0535fff54a474bbac845b89a04bc18f9c0b694b9d2eede3fc846863aabd6afd6",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L05-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 246,
+          "match": 1.0,
+          "runnerUp": 0.0465,
+          "anchor": "formatting a group of sheets in a workbook you can save time by formatting a group of sheets"
+        }
+      ]
+    },
+    {
+      "packagePage": 247,
+      "actualPage": 247,
+      "status": "text-anchored",
+      "actualTextSha256": "f565bcb5305386523704451e2f13cad7f0d3f038b404e53cc9d99e26682dc75e",
+      "evidence": [
+        {
+          "question": "CSM177-B03-L05-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 247,
+          "match": 0.9744,
+          "runnerUp": 0.0,
+          "anchor": "to group sheets that are adjacent in a workbook click the first sheet tab and then scroll to"
+        },
+        {
+          "question": "CSM177-B03-L05-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 247,
+          "match": 0.9744,
+          "runnerUp": 0.0,
+          "anchor": "to group sheets that are adjacent in a workbook click the first sheet tab and then scroll to"
+        },
+        {
+          "question": "CSM177-B03-L05-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 247,
+          "match": 0.9744,
+          "runnerUp": 0.0,
+          "anchor": "to group sheets that are adjacent in a workbook click the first sheet tab and then scroll to"
+        },
+        {
+          "question": "CSM177-B03-L05-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 247,
+          "match": 0.9744,
+          "runnerUp": 0.0,
+          "anchor": "to group sheets that are adjacent in a workbook click the first sheet tab and then scroll to"
+        },
+        {
+          "question": "CSM177-B03-L05-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 247,
+          "match": 0.9744,
+          "runnerUp": 0.0,
+          "anchor": "to group sheets that are adjacent in a workbook click the first sheet tab and then scroll to"
+        }
+      ]
+    },
+    {
+      "packagePage": 248,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 249,
+      "actualPage": 249,
+      "status": "text-anchored",
+      "actualTextSha256": "c13415c9bced4c1021b3c82453d3078731a774f3671d8e6f6c2a1c5a82a00d01",
+      "evidence": [
+        {
+          "question": "B04-L01-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 249,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "excel enables one to use the full capabilities of one s printer before you print a worksheet you"
+        }
+      ]
+    },
+    {
+      "packagePage": 250,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 251,
+      "actualPage": 251,
+      "status": "text-anchored",
+      "actualTextSha256": "8cb509507f80d6885c3823dd9acc59544235045fead2d0de009f579d0933f7bd",
+      "evidence": [
+        {
+          "question": "B04-L01-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 251,
+          "match": 0.875,
+          "runnerUp": 0.05,
+          "anchor": "display the printer drop down list and select your printers you only need to do this once unless"
+        }
+      ]
+    },
+    {
+      "packagePage": 252,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 253,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 254,
+      "actualPage": 254,
+      "status": "text-anchored",
+      "actualTextSha256": "3cb4f136eb06378c5e545cc3a10e7d6bf4d75d31693ac88acae31b8ff58ccf6d",
+      "evidence": [
+        {
+          "question": "B04-L01-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 254,
+          "match": 1.0,
+          "runnerUp": 0.0889,
+          "anchor": "the page setup dialog box has a number of tabs these are the page margins header footer and"
+        },
+        {
+          "question": "B04-L01-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 254,
+          "match": 1.0,
+          "runnerUp": 0.0889,
+          "anchor": "the page setup dialog box has a number of tabs these are the page margins header footer and"
+        }
+      ]
+    },
+    {
+      "packagePage": 255,
+      "actualPage": 255,
+      "status": "text-anchored",
+      "actualTextSha256": "ed0703c9ffcd05f3a0f93003a74591bcdbf149e0109c19432707169a0ed859d1",
+      "evidence": [
+        {
+          "question": "B04-L01-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 255,
+          "match": 0.98,
+          "runnerUp": 0.1,
+          "anchor": "the margins tab it enables you to set the top bottom left and right margins for the page"
+        },
+        {
+          "question": "B04-L01-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 255,
+          "match": 0.98,
+          "runnerUp": 0.1,
+          "anchor": "the margins tab it enables you to set the top bottom left and right margins for the page"
+        }
+      ]
+    },
+    {
+      "packagePage": 256,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "B04-L02-Q02",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.7561,
+          "runnerUp": 0.0976,
+          "anchor": "setting page margins to set or change margins select the margins tab in the page setup dialog box"
+        }
+      ]
+    },
+    {
+      "packagePage": 257,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 258,
+      "actualPage": 258,
+      "status": "text-anchored",
+      "actualTextSha256": "4d3b67f07fbc50b9f6fb5d1a7d314631e2353b9d5ba48be024f0032d14ad1ee0",
+      "evidence": [
+        {
+          "question": "B04-L02-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 258,
+          "match": 1.0,
+          "runnerUp": 0.0244,
+          "anchor": "setting page orientation and paper size if the spreadsheet document is wider than tall you may want to"
+        }
+      ]
+    },
+    {
+      "packagePage": 259,
+      "actualPage": 259,
+      "status": "text-anchored",
+      "actualTextSha256": "c3b4342ea5c313f1fccf1d21f4a673c01805142b0c7a9f67fee1ed1a733bc2d4",
+      "evidence": [
+        {
+          "question": "B04-L02-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 259,
+          "match": 0.9778,
+          "runnerUp": 0.0,
+          "anchor": "turning gridlines and rows or columns headings on or off gridlines in the worksheet may be turned off"
+        },
+        {
+          "question": "B04-L02-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 259,
+          "match": 0.9778,
+          "runnerUp": 0.0,
+          "anchor": "turning gridlines and rows or columns headings on or off gridlines in the worksheet may be turned off"
+        }
+      ]
+    },
+    {
+      "packagePage": 260,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 261,
+      "actualPage": 261,
+      "status": "text-anchored",
+      "actualTextSha256": "bb3c92486c94ac22c91c6088a4e269857505a5198b05c555cad2a9943b0b2cd2",
+      "evidence": [
+        {
+          "question": "B04-L02-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 261,
+          "match": 1.0,
+          "runnerUp": 0.0426,
+          "anchor": "page layout order when excel print a range that is too large to fit on one sheet of"
+        },
+        {
+          "question": "B04-L02-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 261,
+          "match": 1.0,
+          "runnerUp": 0.0426,
+          "anchor": "page layout order when excel print a range that is too large to fit on one sheet of"
+        }
+      ]
+    },
+    {
+      "packagePage": 262,
+      "actualPage": 262,
+      "status": "text-anchored",
+      "actualTextSha256": "439a3f9e834cd5dcbe047590b05d79cb617b34462a9d8b18c76c1f5a02115bda",
+      "evidence": [
+        {
+          "question": "B04-L03-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 262,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "reducing and enlarging prints if your printer supports scalable type or if you use true type fonts you"
+        }
+      ]
+    },
+    {
+      "packagePage": 263,
+      "actualPage": 263,
+      "status": "text-anchored",
+      "actualTextSha256": "e9a7f374abe3eceefcab41bcc195d6f4e093c8923d24c13fa7519a9f54714c9e",
+      "evidence": [
+        {
+          "question": "B04-L03-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 263,
+          "match": 0.9167,
+          "runnerUp": 0.0625,
+          "anchor": "use the fit to option to tell excel to scale the document to fit a specified number of"
+        }
+      ]
+    },
+    {
+      "packagePage": 264,
+      "actualPage": 264,
+      "status": "text-anchored",
+      "actualTextSha256": "4dcf642c8178717deb37d718c876aaeb40dfb501942a1afefd0635c444ac59ad",
+      "evidence": [
+        {
+          "question": "B04-L03-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 264,
+          "match": 0.9778,
+          "runnerUp": 0.0222,
+          "anchor": "creating headers and footers you can create headers and or footers that place a title date page numbers"
+        }
+      ]
+    },
+    {
+      "packagePage": 265,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 266,
+      "actualPage": 266,
+      "status": "text-anchored",
+      "actualTextSha256": "2696c18021ec23fdc62c0dffc2f41b3905c8dfcd7b5b011418fc8ec25c048f94",
+      "evidence": [
+        {
+          "question": "B04-L03-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 266,
+          "match": 0.9767,
+          "runnerUp": 0.1628,
+          "anchor": "to create a custom header or footer follow these steps i select the header footer tab in the"
+        },
+        {
+          "question": "B04-L03-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 266,
+          "match": 0.9767,
+          "runnerUp": 0.1628,
+          "anchor": "to create a custom header or footer follow these steps i select the header footer tab in the"
+        }
+      ]
+    },
+    {
+      "packagePage": 267,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 268,
+      "actualPage": 268,
+      "status": "text-anchored",
+      "actualTextSha256": "4fb9b2f9e634b42556f7330ab4983944bb2828161e16f07a584e93ac24fbb90d",
+      "evidence": [
+        {
+          "question": "B04-L03-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 268,
+          "match": 0.9583,
+          "runnerUp": 0.0417,
+          "anchor": "i you can now enter text and code you want for each section of the header or footer"
+        }
+      ]
+    },
+    {
+      "packagePage": 269,
+      "actualPage": 269,
+      "status": "text-anchored",
+      "actualTextSha256": "496ae0c1afc5bf6dd2eeec69897053a0c426b61b5625d5ceb8bf5e1ffac8e507",
+      "evidence": [
+        {
+          "question": "B04-L04-Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 269,
+          "match": 1.0,
+          "runnerUp": 0.0476,
+          "anchor": "setting the print range by default excel prints the entire worksheet unless you specify otherwise when you need"
+        }
+      ]
+    },
+    {
+      "packagePage": 270,
+      "actualPage": 270,
+      "status": "text-anchored",
+      "actualTextSha256": "dba88d2472723c986847ae770567b3cda96a24c7ae8b5f95a93786a0059058b6",
+      "evidence": [
+        {
+          "question": "B04-L04-Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 270,
+          "match": 1.0,
+          "runnerUp": 0.1667,
+          "anchor": "select the range of cells you want to print click the collapse dialog box button to collapse the"
+        }
+      ]
+    },
+    {
+      "packagePage": 271,
+      "actualPage": 271,
+      "status": "text-anchored",
+      "actualTextSha256": "18bdf3223288968f86f9cfb61ae86a174eeb83979600fce9a0870becc60952b3",
+      "evidence": [
+        {
+          "question": "B04-L04-Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 271,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "after you set the print area excel marks the edges of the print area with dashed lines dashed"
+        }
+      ]
+    },
+    {
+      "packagePage": 272,
+      "actualPage": 272,
+      "status": "text-anchored",
+      "actualTextSha256": "9eec7b1e1e8a65d268007ad3b17da90da8a665d7e56f42c8568ad485fc34a520",
+      "evidence": [
+        {
+          "question": "B04-L04-Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 272,
+          "match": 0.9744,
+          "runnerUp": 0.0513,
+          "anchor": "setting manual page breaks when you set manual page breaks they override automatic page breaks and the automatic"
+        },
+        {
+          "question": "B04-L04-Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 272,
+          "match": 0.9744,
+          "runnerUp": 0.0513,
+          "anchor": "setting manual page breaks when you set manual page breaks they override automatic page breaks and the automatic"
+        }
+      ]
+    },
+    {
+      "packagePage": 273,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 274,
+      "actualPage": 274,
+      "status": "text-anchored",
+      "actualTextSha256": "92a3f233c45e276d62467eeeb12cb3976e9baa308716a91c57d3e4b6f2140caf",
+      "evidence": [
+        {
+          "question": "B04-L04-Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 274,
+          "match": 1.0,
+          "runnerUp": 0.0233,
+          "anchor": "previewing the document instead of printing out your worksheet to check its appearance you can view a display"
+        }
+      ]
+    },
+    {
+      "packagePage": 275,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 276,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 277,
+      "actualPage": 277,
+      "status": "text-anchored",
+      "actualTextSha256": "115d05fb2b394c920a33cce5b3dd91d268317ec1bd65b35af04101fc906b0577",
+      "evidence": [
+        {
+          "question": "B05L01Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 277,
+          "match": 0.9744,
+          "runnerUp": 0.0256,
+          "anchor": "when you start excel the program opens with a blank workbook titled book1 workbooks can contain one or"
+        },
+        {
+          "question": "B05L01Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 277,
+          "match": 0.9744,
+          "runnerUp": 0.0256,
+          "anchor": "when you start excel the program opens with a blank workbook titled book1 workbooks can contain one or"
+        }
+      ]
+    },
+    {
+      "packagePage": 278,
+      "actualPage": 278,
+      "status": "text-anchored",
+      "actualTextSha256": "d46c5d3baabd56856260461ea3b40237e54e7f2aca31899ee64810dcf3170df3",
+      "evidence": [
+        {
+          "question": "B05L01Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 278,
+          "match": 0.9048,
+          "runnerUp": 0.1667,
+          "anchor": "opening an existing workbook to open an existing workbook in order to continue working on a previously saved"
+        }
+      ]
+    },
+    {
+      "packagePage": 279,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 280,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 281,
+      "actualPage": 281,
+      "status": "text-anchored",
+      "actualTextSha256": "3ef26c65cf6250830030ccba4caf25e62d44b2ff21959968c5fdf7499dd43e67",
+      "evidence": [
+        {
+          "question": "B05L01Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 281,
+          "match": 0.9024,
+          "runnerUp": 0.0244,
+          "anchor": "selecting multiple workbooks simultaneously to select files whose names are adjust select the first file name and then"
+        },
+        {
+          "question": "B05L01Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 281,
+          "match": 0.9024,
+          "runnerUp": 0.0244,
+          "anchor": "selecting multiple workbooks simultaneously to select files whose names are adjust select the first file name and then"
+        }
+      ]
+    },
+    {
+      "packagePage": 282,
+      "actualPage": 282,
+      "status": "text-anchored",
+      "actualTextSha256": "476a09156db83bd7f23c1fc8d969abf24ea3d2e960660bade3ce02ca1c81c7f9",
+      "evidence": [
+        {
+          "question": "B05L01Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 282,
+          "match": 0.9744,
+          "runnerUp": 0.0769,
+          "anchor": "opening a protected workbook workbooks can have two types of protection the password can protect the workbook against"
+        }
+      ]
+    },
+    {
+      "packagePage": 283,
+      "actualPage": 283,
+      "status": "text-anchored",
+      "actualTextSha256": "e22a1bea042e7e3ab72f20171cd1b4642cfdde2559dac02f6d1b2a591e244d8e",
+      "evidence": [
+        {
+          "question": "B05L02Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 283,
+          "match": 1.0,
+          "runnerUp": 0.0714,
+          "anchor": "importing files by default excel files are listed in the open dialog box you can limit the type"
+        }
+      ]
+    },
+    {
+      "packagePage": 284,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 285,
+      "actualPage": 285,
+      "status": "text-anchored",
+      "actualTextSha256": "439b8daa434f784728620c0a1ca03d01a2e217044a0210659596d3514151b10c",
+      "evidence": [
+        {
+          "question": "B05L02Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 285,
+          "match": 1.0,
+          "runnerUp": 0.0682,
+          "anchor": "also you can limit the types of files that are displayed by typing the file extension in the"
+        },
+        {
+          "question": "B05L02Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 285,
+          "match": 1.0,
+          "runnerUp": 0.0682,
+          "anchor": "also you can limit the types of files that are displayed by typing the file extension in the"
+        }
+      ]
+    },
+    {
+      "packagePage": 286,
+      "actualPage": 286,
+      "status": "text-anchored",
+      "actualTextSha256": "bfd9579eb4f2117c2a80308c8ffbb4d5d7f97f7b6f338101a9c22e50f88de8bb",
+      "evidence": [
+        {
+          "question": "B05L02Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 286,
+          "match": 0.9778,
+          "runnerUp": 0.0,
+          "anchor": "saving workbooks you should get into the habit of saving your workbook every 10 to 15 minutes so"
+        }
+      ]
+    },
+    {
+      "packagePage": 287,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "B05L02Q04",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.7955,
+          "runnerUp": 0.0227,
+          "anchor": "saving for the first time make the worksheet to be saved the active worksheet click file tab and"
+        }
+      ]
+    },
+    {
+      "packagePage": 288,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 289,
+      "actualPage": 289,
+      "status": "text-anchored",
+      "actualTextSha256": "3dd299dc06db7905690baefb20888cac41c730e88f54cc207e283353f70287d3",
+      "evidence": [
+        {
+          "question": "B05L02Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 289,
+          "match": 1.0,
+          "runnerUp": 0.0233,
+          "anchor": "saving an already saved file a worksheet that has been saved before need not necessary be saved again"
+        }
+      ]
+    },
+    {
+      "packagePage": 290,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 291,
+      "actualPage": 291,
+      "status": "text-anchored",
+      "actualTextSha256": "8b39b5c7716fb6271e9ddd8e2ea058e5cca65a54f141e84e34194a1d8ee2661c",
+      "evidence": [
+        {
+          "question": "B05L03Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 291,
+          "match": 0.9167,
+          "runnerUp": 0.0278,
+          "anchor": "protecting your workbooks with a password by saving workbooks with passwords you can protect your workbook against unauthorized"
+        }
+      ]
+    },
+    {
+      "packagePage": 292,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 293,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "B05L03Q02",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.8056,
+          "runnerUp": 0.0,
+          "anchor": "protect current sheet this controls what types of changes people can make to the current sheet protect workbook"
+        }
+      ]
+    },
+    {
+      "packagePage": 294,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 295,
+      "actualPage": 295,
+      "status": "text-anchored",
+      "actualTextSha256": "588a662e4faa7ba1ea3daeccb045c2b7d088bb7f301f41966300f81d65e37795",
+      "evidence": [
+        {
+          "question": "B05L03Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 295,
+          "match": 0.9773,
+          "runnerUp": 0.0227,
+          "anchor": "closing workbooks to close the active workbook window choose file close or click the document close button at"
+        }
+      ]
+    },
+    {
+      "packagePage": 296,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "B05L03Q04",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.766,
+          "runnerUp": 0.1702,
+          "anchor": "coping and moving files using the open dialog box to copy or move files follow these steps in"
+        },
+        {
+          "question": "B05L03Q05",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.766,
+          "runnerUp": 0.1702,
+          "anchor": "coping and moving files using the open dialog box to copy or move files follow these steps in"
+        }
+      ]
+    },
+    {
+      "packagePage": 297,
+      "actualPage": 297,
+      "status": "text-anchored",
+      "actualTextSha256": "289610b0a0d599278e6b1adf3b86148d2ad5fa1a8b990a4fb484bdb946cfeb45",
+      "evidence": [
+        {
+          "question": "B05L03Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 297,
+          "match": 1.0,
+          "runnerUp": 0.2889,
+          "anchor": "deleting files using the open dialog box to delete files follow these steps i in the open dialog"
+        }
+      ]
+    },
+    {
+      "packagePage": 298,
+      "actualPage": 298,
+      "status": "text-anchored",
+      "actualTextSha256": "86db0a99dc67dd15c93f7a6adbb7cadcdb4263383c7b208af7e2e03466470323",
+      "evidence": [
+        {
+          "question": "B05L04Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 298,
+          "match": 0.975,
+          "runnerUp": 0.0,
+          "anchor": "inserting and deleting worksheets by default microsoft excel provides three worksheets a worksheet consists of cells that are"
+        }
+      ]
+    },
+    {
+      "packagePage": 299,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 300,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 301,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 302,
+      "actualPage": 302,
+      "status": "text-anchored",
+      "actualTextSha256": "e9b8483cf7de99d4f1a955996ef09e8da5949f16f7db7a75881698fd5e969072",
+      "evidence": [
+        {
+          "question": "B05L04Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 302,
+          "match": 0.8605,
+          "runnerUp": 0.093,
+          "anchor": "rename a worksheet on the sheet tab bar right click the sheet tab that you want to rename"
+        }
+      ]
+    },
+    {
+      "packagePage": 303,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 304,
+      "actualPage": 304,
+      "status": "text-anchored",
+      "actualTextSha256": "d01da353c76f93154297de71fecb1ae11cb9e76ccf613898023a13b863e4f490",
+      "evidence": [
+        {
+          "question": "B05L04Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 304,
+          "match": 1.0,
+          "runnerUp": 0.2703,
+          "anchor": "delete a worksheet on the home tab in the cells group click the arrow next to delete and"
+        }
+      ]
+    },
+    {
+      "packagePage": 305,
+      "actualPage": 305,
+      "status": "text-anchored",
+      "actualTextSha256": "8745024160cd2876a26adbc41ff83b9d5c1c054becc817a82a8a62ec36f6c45c",
+      "evidence": [
+        {
+          "question": "B05L04Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 305,
+          "match": 0.9714,
+          "runnerUp": 0.0,
+          "anchor": "consolidating or combining data from several worksheets data from several worksheets in one workbook or from different workbooks"
+        }
+      ]
+    },
+    {
+      "packagePage": 306,
+      "actualPage": 306,
+      "status": "text-anchored",
+      "actualTextSha256": "d032dfd96b4af6c1ee2ba038494cc6d3fc76bb88a6e4352ea622d7fa7fd2cf8e",
+      "evidence": [
+        {
+          "question": "B05L04Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 306,
+          "match": 0.9,
+          "runnerUp": 0.05,
+          "anchor": "to consolidate the data follow these steps i select a destination range you may just click and select"
+        }
+      ]
+    },
+    {
+      "packagePage": 307,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 308,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 309,
+      "actualPage": 309,
+      "status": "text-anchored",
+      "actualTextSha256": "5c47b73cffcb22fbcc1133255c77f35330175456523b41a110fd5836249875cc",
+      "evidence": [
+        {
+          "question": "B05L04Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 309,
+          "match": 1.0,
+          "runnerUp": 0.0,
+          "anchor": "select what you want the destination area to contain fixed values that do not change or links that"
+        }
+      ]
+    },
+    {
+      "packagePage": 310,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 311,
+      "actualPage": 312,
+      "status": "text-anchored",
+      "actualTextSha256": "e046fcb65567580ecf910a1d1e6a73324c42e2b89a933a1cff44193e00994f4b",
+      "evidence": [
+        {
+          "question": "B06L01Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 312,
+          "match": 1.0,
+          "runnerUp": 0.0238,
+          "anchor": "creating charts the graphic feature of excel allows you to display your workbook information in a format that"
+        }
+      ]
+    },
+    {
+      "packagePage": 312,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 313,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 314,
+      "actualPage": 315,
+      "status": "text-anchored",
+      "actualTextSha256": "6f8e43ebac1c7e9e70f192c8fb78084112ff81d305c00ea7c21118ecdedb93ed",
+      "evidence": [
+        {
+          "question": "B06L01Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 315,
+          "match": 0.975,
+          "runnerUp": 0.025,
+          "anchor": "creating charts charts may be embedded in a worksheet or its own chart sheet in either case the"
+        }
+      ]
+    },
+    {
+      "packagePage": 315,
+      "actualPage": 316,
+      "status": "text-anchored",
+      "actualTextSha256": "a802919619559841f0ddae7a0a1ca2c846a7c940d3c5eb5576f2c24dc52efef4",
+      "evidence": [
+        {
+          "question": "B06L01Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 316,
+          "match": 0.9756,
+          "runnerUp": 0.0244,
+          "anchor": "creating charts data series a collection of data points legend a guide that explains the symbols patterns or"
+        },
+        {
+          "question": "B06L01Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 316,
+          "match": 0.9756,
+          "runnerUp": 0.0244,
+          "anchor": "creating charts data series a collection of data points legend a guide that explains the symbols patterns or"
+        }
+      ]
+    },
+    {
+      "packagePage": 316,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 317,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 318,
+      "actualPage": 319,
+      "status": "text-anchored",
+      "actualTextSha256": "ea2c4d6418f6df8999cbfae6cc9a20904350d5335b985ff66f7b3002b27f6fee",
+      "evidence": [
+        {
+          "question": "B06L01Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 319,
+          "match": 0.9767,
+          "runnerUp": 0.0465,
+          "anchor": "chart terms and or objects plot area the rectangular area bounded by the two axes series formula an"
+        }
+      ]
+    },
+    {
+      "packagePage": 319,
+      "actualPage": 320,
+      "status": "text-anchored",
+      "actualTextSha256": "02a847a4729b45007008c1d405433ae0d6a4fea9eb0e7d54b43d937d62067fbc",
+      "evidence": [
+        {
+          "question": "B06L01Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 320,
+          "match": 0.9756,
+          "runnerUp": 0.0488,
+          "anchor": "chart terms and or objects tick mark a division mark along the category x and value y and"
+        }
+      ]
+    },
+    {
+      "packagePage": 320,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 321,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 322,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 323,
+      "actualPage": 324,
+      "status": "text-anchored",
+      "actualTextSha256": "958719a6255f5774c1895cb7e19e563af0339b6b3e0a7d1f5644675b03983e2d",
+      "evidence": [
+        {
+          "question": "B06L02Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 324,
+          "match": 0.9583,
+          "runnerUp": 0.125,
+          "anchor": "column charts in column charts categories are typically organized along the horizontal axis and values along the vertical"
+        }
+      ]
+    },
+    {
+      "packagePage": 324,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 325,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 326,
+      "actualPage": 327,
+      "status": "text-anchored",
+      "actualTextSha256": "09d1617b7e3e8e49e4b6eaa392d0ed452610e15d1c6ea2a0428fd0120a2a9610",
+      "evidence": [
+        {
+          "question": "B06L02Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 327,
+          "match": 0.9756,
+          "runnerUp": 0.122,
+          "anchor": "column chart stacked column and stacked column in 3 d stacked column charts show the relationship of individual"
+        }
+      ]
+    },
+    {
+      "packagePage": 327,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 328,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 329,
+      "actualPage": 330,
+      "status": "text-anchored",
+      "actualTextSha256": "ea8d219f2c29a0e8a4c47e45d8769e686099a714e4a2f203478297f4f2981b19",
+      "evidence": [
+        {
+          "question": "B06L02Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 330,
+          "match": 1.0,
+          "runnerUp": 0.093,
+          "anchor": "column chart 100 stacked column and 100 stacked column in 3 d these types of column charts compare"
+        }
+      ]
+    },
+    {
+      "packagePage": 330,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 331,
+      "actualPage": 332,
+      "status": "text-anchored",
+      "actualTextSha256": "65b3011efd32f4a21f9893e65a248f3a6060ddcebb9fe4464227dbd9ca49dfe9",
+      "evidence": [
+        {
+          "question": "B06L02Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 332,
+          "match": 1.0,
+          "runnerUp": 0.2791,
+          "anchor": "line charts data arranged in columns or rows on a worksheet can be plotted in a line chart"
+        }
+      ]
+    },
+    {
+      "packagePage": 332,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 333,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 334,
+      "actualPage": 335,
+      "status": "text-anchored",
+      "actualTextSha256": "d7febc3656b8c7e4699ea73f75ea577308ea28c226f6f5f4cd7b6d9478f20338",
+      "evidence": [
+        {
+          "question": "B06L02Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 335,
+          "match": 0.9767,
+          "runnerUp": 0.1628,
+          "anchor": "line charts line and line with markers line charts can be displayed with or without markers to indicate"
+        }
+      ]
+    },
+    {
+      "packagePage": 335,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 336,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 337,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 338,
+      "actualPage": 339,
+      "status": "text-anchored",
+      "actualTextSha256": "43b7701b7e766de701fab90b7779aa444cc7a1aa6803ba5ee141e4a6009cc910",
+      "evidence": [
+        {
+          "question": "B06L02Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 339,
+          "match": 0.95,
+          "runnerUp": 0.0,
+          "anchor": "line charts 3 d line the 3 d line charts show each row or column of data as"
+        }
+      ]
+    },
+    {
+      "packagePage": 339,
+      "actualPage": 340,
+      "status": "text-anchored",
+      "actualTextSha256": "e2e2272a0d4a167965f213085975b34532aee4bdf1991234fa8f754804f15629",
+      "evidence": [
+        {
+          "question": "B06L03Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 340,
+          "match": 0.9792,
+          "runnerUp": 0.125,
+          "anchor": "pie charts data arranged in only one column or row on a worksheet can be plotted in a"
+        }
+      ]
+    },
+    {
+      "packagePage": 340,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 341,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 342,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 343,
+      "actualPage": 344,
+      "status": "text-anchored",
+      "actualTextSha256": "aee3841bf031ab54787effe1890819dbd0624174c55272618f1139cb9d117e9c",
+      "evidence": [
+        {
+          "question": "B06L03Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 344,
+          "match": 1.0,
+          "runnerUp": 0.0213,
+          "anchor": "pie charts exploded pie and exploded pie in 3 d wedges in pie charts can be pulled out"
+        }
+      ]
+    },
+    {
+      "packagePage": 344,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 345,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 346,
+      "actualPage": 347,
+      "status": "text-anchored",
+      "actualTextSha256": "5246c4099ac268e27ab75c7b9f265c5bda31fc26aac3d1f7deb0a12872fbb7b7",
+      "evidence": [
+        {
+          "question": "B06L03Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 347,
+          "match": 0.9565,
+          "runnerUp": 0.5217,
+          "anchor": "bar charts data arranged in columns or rows on a worksheet can be plotted in a bar chart"
+        }
+      ]
+    },
+    {
+      "packagePage": 347,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 348,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 349,
+      "actualPage": 350,
+      "status": "text-anchored",
+      "actualTextSha256": "3324ad4de326cb018ef44b1b6ccf4c18d0eec303e8665a96fbb49b407db10f2e",
+      "evidence": [
+        {
+          "question": "B06L03Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 350,
+          "match": 0.9714,
+          "runnerUp": 0.3143,
+          "anchor": "area charts data arranged in columns or rows on a worksheet can be plotted in an area chart"
+        }
+      ]
+    },
+    {
+      "packagePage": 350,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 351,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 352,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 353,
+      "actualPage": 354,
+      "status": "text-anchored",
+      "actualTextSha256": "f9873bd922144357ff85a2d15d6e3f1f48e4b74fc3ce9a0353c6e513c35262b6",
+      "evidence": [
+        {
+          "question": "B06L03Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 354,
+          "match": 1.0,
+          "runnerUp": 0.0513,
+          "anchor": "xy scatter charts generally a scatter chart has two value axes one shows numerical data along the horizontal"
+        }
+      ]
+    },
+    {
+      "packagePage": 354,
+      "actualPage": 355,
+      "status": "text-anchored",
+      "actualTextSha256": "8c7793ab05c2d4b5ed168faad5d0a37c3111e2011728df4d639eeb8809c9decd",
+      "evidence": [
+        {
+          "question": "B06L03Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 355,
+          "match": 0.9744,
+          "runnerUp": 0.0513,
+          "anchor": "xy scatter charts consider using a scatter chart when values for horizontal axis are not evenly spaced there"
+        }
+      ]
+    },
+    {
+      "packagePage": 355,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 356,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 357,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 358,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 359,
+      "actualPage": 360,
+      "status": "text-anchored",
+      "actualTextSha256": "1dc7cca2b35872400d8a708c8f21924b146e3a3519ef0266150a4701f9db637b",
+      "evidence": [
+        {
+          "question": "B06L04Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 360,
+          "match": 0.9375,
+          "runnerUp": 0.125,
+          "anchor": "doughnut charts this is similar to pie charts it enables you to show more than one data series"
+        }
+      ]
+    },
+    {
+      "packagePage": 360,
+      "actualPage": 361,
+      "status": "text-anchored",
+      "actualTextSha256": "f193932d26146a68d18b66495e4d89eb1bd6d7109a65ee85db6a36a320b9b301",
+      "evidence": [
+        {
+          "question": "B06L04Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 361,
+          "match": 0.8571,
+          "runnerUp": 0.0,
+          "anchor": "charts other chart types are radar charts surface charts 360"
+        }
+      ]
+    },
+    {
+      "packagePage": 361,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 362,
+      "actualPage": 363,
+      "status": "text-anchored",
+      "actualTextSha256": "15a0de933fc8df7bc5779659944e99ff5fbcc62c9a9f08aafb423b6d0ea5fe0e",
+      "evidence": [
+        {
+          "question": "B06L04Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 363,
+          "match": 0.9792,
+          "runnerUp": 0.0208,
+          "anchor": "creating a chart i select the data you want to chart include the row and column headings if"
+        },
+        {
+          "question": "B06L04Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 363,
+          "match": 0.9792,
+          "runnerUp": 0.0208,
+          "anchor": "creating a chart i select the data you want to chart include the row and column headings if"
+        }
+      ]
+    },
+    {
+      "packagePage": 363,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 364,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 365,
+      "actualPage": 366,
+      "status": "text-anchored",
+      "actualTextSha256": "f392e758cbdca495adb209dc5b762ca2ae581eb41968d550e9dd07a290efedb3",
+      "evidence": [
+        {
+          "question": "B06L04Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 366,
+          "match": 0.98,
+          "runnerUp": 0.02,
+          "anchor": "creating a chart automatically if data is in a layout that excel can interpret you need only select"
+        },
+        {
+          "question": "B06L04Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 366,
+          "match": 0.98,
+          "runnerUp": 0.02,
+          "anchor": "creating a chart automatically if data is in a layout that excel can interpret you need only select"
+        }
+      ]
+    },
+    {
+      "packagePage": 366,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 367,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 368,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 369,
+      "actualPage": 370,
+      "status": "text-anchored",
+      "actualTextSha256": "34a553991219aa795be9bf8d363da33853212044f5a56b43be7edcadd7f008e7",
+      "evidence": [
+        {
+          "question": "B06L05Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 370,
+          "match": 0.9762,
+          "runnerUp": 0.119,
+          "anchor": "what happens to graph when worksheet values change when a worksheet value is changed the corresponding graph is"
+        }
+      ]
+    },
+    {
+      "packagePage": 370,
+      "actualPage": 371,
+      "status": "text-anchored",
+      "actualTextSha256": "f46bd3597f2c35031eedf05c183473958dd74726a34887828c2b69b4500988b4",
+      "evidence": [
+        {
+          "question": "B06L05Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 371,
+          "match": 1.0,
+          "runnerUp": 0.1064,
+          "anchor": "what happens to graph when worksheet values change the only time you may have to change your graph"
+        }
+      ]
+    },
+    {
+      "packagePage": 371,
+      "actualPage": 372,
+      "status": "text-anchored",
+      "actualTextSha256": "c2c438ae4bd381938f9fa5f5f960fab711a5b15ff3bb633a60374af68a4ac4c8",
+      "evidence": [
+        {
+          "question": "B06L05Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 372,
+          "match": 0.9677,
+          "runnerUp": 0.0323,
+          "anchor": "saving charts a chart that you embedded in a worksheet is saved when you save the workbook that"
+        }
+      ]
+    },
+    {
+      "packagePage": 372,
+      "actualPage": 373,
+      "status": "text-anchored",
+      "actualTextSha256": "495677b7356c100f3fef95bb00d406b80767f351503111aaacef0b8e627c412b",
+      "evidence": [
+        {
+          "question": "B06L05Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 373,
+          "match": 0.975,
+          "runnerUp": 0.05,
+          "anchor": "printing charts size charts before printing by using file page setup or choose the setup button on the"
+        }
+      ]
+    },
+    {
+      "packagePage": 373,
+      "actualPage": 374,
+      "status": "text-anchored",
+      "actualTextSha256": "ed63c29e58aff0c04784c1dcf0f80d7c6e347461ffb5faafdcf665c68a6d34a9",
+      "evidence": [
+        {
+          "question": "B06L05Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 374,
+          "match": 0.9778,
+          "runnerUp": 0.0222,
+          "anchor": "printing charts i choose file print preview ii examine detail and positioning on the chart by zooming in"
+        }
+      ]
+    },
+    {
+      "packagePage": 374,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 375,
+      "actualPage": 376,
+      "status": "text-anchored",
+      "actualTextSha256": "9f2c246e6f0f406772e7193491d51ff00441fc71dc3d0cfbe51db8259a7114c6",
+      "evidence": [
+        {
+          "question": "B06L05Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 376,
+          "match": 0.9286,
+          "runnerUp": 0.0238,
+          "anchor": "printing charts i to display the print dialog box choose print to return to the chart document choose"
+        }
+      ]
+    },
+    {
+      "packagePage": 376,
+      "actualPage": 377,
+      "status": "text-anchored",
+      "actualTextSha256": "13f2408797b37291e091181bfb0811435e2e05be784ce45385c04fa9d98b2839",
+      "evidence": [
+        {
+          "question": "B06L06Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 377,
+          "match": 0.973,
+          "runnerUp": 0.0,
+          "anchor": "sorting one of the common data processing operations that is performed by the computer is sorting sorting is"
+        }
+      ]
+    },
+    {
+      "packagePage": 377,
+      "actualPage": 378,
+      "status": "text-anchored",
+      "actualTextSha256": "dbcbf450a9b53de71a29d2f1f82b324c4b86cc1063f25e1fca53e5b4097faa36",
+      "evidence": [
+        {
+          "question": "B06L06Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 378,
+          "match": 0.9655,
+          "runnerUp": 0.0345,
+          "anchor": "sorting to sort each row of a worksheet form a record information about a particular person city products"
+        },
+        {
+          "question": "B06L06Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 378,
+          "match": 0.9655,
+          "runnerUp": 0.0345,
+          "anchor": "sorting to sort each row of a worksheet form a record information about a particular person city products"
+        }
+      ]
+    },
+    {
+      "packagePage": 378,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 379,
+      "actualPage": 380,
+      "status": "text-anchored",
+      "actualTextSha256": "76e861d36984667c3ebd988a9c08198fdaa8896693bca8060c27531890d73189",
+      "evidence": [
+        {
+          "question": "B06L06Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 380,
+          "match": 1.0,
+          "runnerUp": 0.3636,
+          "anchor": "sorting let us sort the records into ascending number of index numbers the needed steps will be as"
+        }
+      ]
+    },
+    {
+      "packagePage": 380,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 381,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 382,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 383,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 384,
+      "actualPage": 385,
+      "status": "text-anchored",
+      "actualTextSha256": "bffbb3d079aba005f43a2d2951c7cadf1407aad4a258c59163349e6d10e6d3d8",
+      "evidence": [
+        {
+          "question": "B06L06Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 385,
+          "match": 0.8723,
+          "runnerUp": 0.0426,
+          "anchor": "sorting i pull down the sort by and select column m the swa column ii pull down the"
+        }
+      ]
+    },
+    {
+      "packagePage": 385,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 386,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 387,
+      "actualPage": 388,
+      "status": "text-anchored",
+      "actualTextSha256": "c70011e24efc3861bcf17e5513068b87a046fefa7f645de1d490a83addd750b8",
+      "evidence": [
+        {
+          "question": "B06L06Q06",
+          "status": "unique-text-anchor",
+          "actualPage": 388,
+          "match": 0.98,
+          "runnerUp": 0.18,
+          "anchor": "sorting data based on more than one column this means we want to first sort the data into"
+        }
+      ]
+    },
+    {
+      "packagePage": 388,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 389,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 390,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 391,
+      "actualPage": 392,
+      "status": "text-anchored",
+      "actualTextSha256": "55b6e193a68938d1dc904bf9eedb03465472a7a6278ed325ada3eb1a245c5c48",
+      "evidence": [
+        {
+          "question": "B06L07Q01",
+          "status": "unique-text-anchor",
+          "actualPage": 392,
+          "match": 0.9091,
+          "runnerUp": 0.0,
+          "anchor": "filtering filtering is a process of displaying only the rows of data that meet a specified criteria it"
+        },
+        {
+          "question": "B06L07Q02",
+          "status": "unique-text-anchor",
+          "actualPage": 392,
+          "match": 0.9091,
+          "runnerUp": 0.0,
+          "anchor": "filtering filtering is a process of displaying only the rows of data that meet a specified criteria it"
+        }
+      ]
+    },
+    {
+      "packagePage": 392,
+      "actualPage": 393,
+      "status": "text-anchored",
+      "actualTextSha256": "775d9fe0d0a8b67bdc325996c2e5933b6a3ed40a6dc03f991dec46b0556f9f55",
+      "evidence": [
+        {
+          "question": "B06L07Q03",
+          "status": "unique-text-anchor",
+          "actualPage": 393,
+          "match": 0.8958,
+          "runnerUp": 0.0417,
+          "anchor": "filtering you can also filter by more than one column using the autofilter you can create three types"
+        }
+      ]
+    },
+    {
+      "packagePage": 393,
+      "actualPage": 394,
+      "status": "text-anchored",
+      "actualTextSha256": "c04785e1c6542864405ed6365ef85fbfcc1cee8d8ea956dff6006a0e48d2d180",
+      "evidence": [
+        {
+          "question": "B06L07Q04",
+          "status": "unique-text-anchor",
+          "actualPage": 394,
+          "match": 0.9756,
+          "runnerUp": 0.0732,
+          "anchor": "filtering example 1 let us assume that we want the records of only students who failed csm 203"
+        }
+      ]
+    },
+    {
+      "packagePage": 394,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 395,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 396,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "B06L07Q06",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.825,
+          "runnerUp": 0.05,
+          "anchor": "filtering i since we want to filter those who failed at least a course pull down the down"
+        }
+      ]
+    },
+    {
+      "packagePage": 397,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 398,
+      "actualPage": 399,
+      "status": "text-anchored",
+      "actualTextSha256": "d727ab5b63a7cb1237232109419e8f740bc1b37df613efe4891cbc8f84d420e6",
+      "evidence": [
+        {
+          "question": "B06L07Q05",
+          "status": "unique-text-anchor",
+          "actualPage": 399,
+          "match": 0.9608,
+          "runnerUp": 0.0196,
+          "anchor": "filtering i since a mark of 40 is failed enter 40 as shown in the above figure and"
+        }
+      ]
+    },
+    {
+      "packagePage": 399,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 400,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 401,
+      "actualPage": 402,
+      "status": "text-anchored",
+      "actualTextSha256": "e66a16da0d53dd4bcf4d279e92b2025e8037f5b66380becfb17435da2263ab8f",
+      "evidence": [
+        {
+          "question": "B7L1Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 402,
+          "match": 0.9706,
+          "runnerUp": 0.0,
+          "anchor": "microsoft powerpoint microsoft powerpoint is a presentation program that helps you transform your ideas into professional convincing presentations"
+        }
+      ]
+    },
+    {
+      "packagePage": 402,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 403,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 404,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 405,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 406,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 407,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 408,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 409,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 410,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 411,
+      "actualPage": 412,
+      "status": "text-anchored",
+      "actualTextSha256": "9da1645d3ecb38f45949bd9a6418dac33b7f6436535ee1715c333ea6e2e6c0c9",
+      "evidence": [
+        {
+          "question": "B7L2Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 412,
+          "match": 0.9231,
+          "runnerUp": 0.0,
+          "anchor": "slides basics placeholder text placeholder placeholder text placeholder icons to insert various types of information 411"
+        }
+      ]
+    },
+    {
+      "packagePage": 412,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 413,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 414,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 415,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 416,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 417,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 418,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 419,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 420,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 421,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 422,
+      "actualPage": 423,
+      "status": "text-anchored",
+      "actualTextSha256": "e7563befe17c3038185d8982a39bda726f3d794377a887c86ab5805510fc1797",
+      "evidence": [
+        {
+          "question": "B7L3Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 423,
+          "match": 0.9787,
+          "runnerUp": 0.1277,
+          "anchor": "working with slides normal is the default view and where you will create and edit your slides in"
+        }
+      ]
+    },
+    {
+      "packagePage": 423,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 424,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 425,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 426,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 427,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 428,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 429,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 430,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 431,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 432,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 433,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 434,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 435,
+      "actualPage": 436,
+      "status": "text-anchored",
+      "actualTextSha256": "1c1a6167077b43c64ae8bfaa0746c989a21c9601460489ec914434d7ee050a79",
+      "evidence": [
+        {
+          "question": "B7L4Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 436,
+          "match": 0.9762,
+          "runnerUp": 0.1429,
+          "anchor": "text alignment to change text alignment select the text you wish to modify select one of the four"
+        }
+      ]
+    },
+    {
+      "packagePage": 436,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 437,
+      "actualPage": 438,
+      "status": "text-anchored",
+      "actualTextSha256": "1bd1c4760ce750d61e8b3a6c7f43b1b5962945efc3c3c1a7e6bc6cf6f3a92e77",
+      "evidence": [
+        {
+          "question": "B7L5Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 438,
+          "match": 0.9792,
+          "runnerUp": 0.0833,
+          "anchor": "themes to apply a theme 1 select the design tab 2 locate the themes group each image represents"
+        }
+      ]
+    },
+    {
+      "packagePage": 438,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 439,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 440,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 441,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 442,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 443,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 444,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 445,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 446,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 447,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 448,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 449,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 450,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 451,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 452,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 453,
+      "actualPage": 454,
+      "status": "text-anchored",
+      "actualTextSha256": "91ebf293624472b5c9c4bcb90327995042dac3d967c7ec46b4548d6acdc032bd",
+      "evidence": [
+        {
+          "question": "B7L6Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 454,
+          "match": 0.9783,
+          "runnerUp": 0.6957,
+          "anchor": "numbered list to select an alternate numbering style or switch to a numbered list i select all the"
+        }
+      ]
+    },
+    {
+      "packagePage": 454,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 455,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 456,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 457,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 458,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 459,
+      "actualPage": 460,
+      "status": "text-anchored",
+      "actualTextSha256": "3c321ecee36d31beb1eaac3e88f462ed5ea5b470f454ff0df168752dc5553975",
+      "evidence": [
+        {
+          "question": "B7L7Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 460,
+          "match": 0.9778,
+          "runnerUp": 0.5778,
+          "anchor": "tables to insert a row i select the table ii click on layout from table tools iii place"
+        }
+      ]
+    },
+    {
+      "packagePage": 460,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 461,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 462,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 463,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 464,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 465,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 466,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 467,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 468,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 469,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 470,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 471,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 472,
+      "actualPage": 473,
+      "status": "text-anchored",
+      "actualTextSha256": "3a94a2455b0c92cc15f4da6263fb181d9f6085e4b16287fc05508260e3edd3ab",
+      "evidence": [
+        {
+          "question": "B8L1Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 473,
+          "match": 0.9302,
+          "runnerUp": 0.2558,
+          "anchor": "resizing and moving pictures i select the picture ii click one of the corner sizing handles the cursor"
+        }
+      ]
+    },
+    {
+      "packagePage": 473,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 474,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 475,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 476,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 477,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 478,
+      "actualPage": 479,
+      "status": "text-anchored",
+      "actualTextSha256": "93fc5b4e95fb73164b2305c9822614697250f2d7e12835472c664c728e478e6d",
+      "evidence": [
+        {
+          "question": "B8L2Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 479,
+          "match": 0.9762,
+          "runnerUp": 0.2857,
+          "anchor": "to add a border to a picture i select the picture ii select the format tab iii click"
+        }
+      ]
+    },
+    {
+      "packagePage": 479,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 480,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 481,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 482,
+      "actualPage": 483,
+      "status": "text-anchored",
+      "actualTextSha256": "ab4961e51284a354a444189e7762edc7923077b44240d696fbfe3d06f1c1b44f",
+      "evidence": [
+        {
+          "question": "B8L3Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 483,
+          "match": 0.9767,
+          "runnerUp": 0.2791,
+          "anchor": "to insert a smartart from the ribbon i select the insert tab ii click the smartart command in"
+        }
+      ]
+    },
+    {
+      "packagePage": 483,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 484,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 485,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 486,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 487,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 488,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 489,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 490,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": [
+        {
+          "question": "B8L4Q1",
+          "status": "ambiguous-or-unmatched",
+          "actualPage": null,
+          "match": 0.6047,
+          "runnerUp": 0.4651,
+          "anchor": "to group objects select the objects you wish to group sizing handles will appear around each selected object"
+        }
+      ]
+    },
+    {
+      "packagePage": 491,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 492,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 493,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 494,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 495,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 496,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 497,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 498,
+      "actualPage": 499,
+      "status": "text-anchored",
+      "actualTextSha256": "bd0bf1a9a16adc3d916e031884c0ce9507d1510dc40ca5510120a380a4c60854",
+      "evidence": [
+        {
+          "question": "B8L5Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 499,
+          "match": 0.98,
+          "runnerUp": 0.24,
+          "anchor": "to order objects using the send to back command i select the object you want to arrange in"
+        }
+      ]
+    },
+    {
+      "packagePage": 499,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 500,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 501,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 502,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 503,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 504,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 505,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 506,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 507,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 508,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 509,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 510,
+      "actualPage": 511,
+      "status": "text-anchored",
+      "actualTextSha256": "0091888d8c505083f9a3a840042ba3ede85eb286ca5d170ed01435e6f61b475d",
+      "evidence": [
+        {
+          "question": "B8L6Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 511,
+          "match": 0.9778,
+          "runnerUp": 0.0222,
+          "anchor": "audio tools options in the play and setup groups you can preview listen to the sound that will"
+        }
+      ]
+    },
+    {
+      "packagePage": 511,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 512,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 513,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 514,
+      "actualPage": 515,
+      "status": "text-anchored",
+      "actualTextSha256": "e0c860ad3feb10cad29ed2729df6db0c8bad466566fe8754b0426a517b781167",
+      "evidence": [
+        {
+          "question": "B9L1Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 515,
+          "match": 0.9792,
+          "runnerUp": 0.0208,
+          "anchor": "slide sorter view miniature slides are arranged on the screen in this view you can drag and drop"
+        }
+      ]
+    },
+    {
+      "packagePage": 515,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 516,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 517,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 518,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 519,
+      "actualPage": 520,
+      "status": "text-anchored",
+      "actualTextSha256": "ee097673588d921c38146fd758369773964874a5f4c3c953eff153aedb5e81b8",
+      "evidence": [
+        {
+          "question": "B9L2Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 520,
+          "match": 1.0,
+          "runnerUp": 0.0455,
+          "anchor": "animating text and objects in powerpoint you can animate text and objects such as clip art shapes and"
+        }
+      ]
+    },
+    {
+      "packagePage": 520,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 521,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 522,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 523,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 524,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 525,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 526,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 527,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 528,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 529,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 530,
+      "actualPage": 531,
+      "status": "text-anchored",
+      "actualTextSha256": "fb065539adee233880da57c91746d576071edd4aeeacf516d18f2abfa858235b",
+      "evidence": [
+        {
+          "question": "B9L3Q1",
+          "status": "unique-text-anchor",
+          "actualPage": 531,
+          "match": 1.0,
+          "runnerUp": 0.027,
+          "anchor": "using transitions transition effects or transitions as they are often called are the movements you see when one"
+        }
+      ]
+    },
+    {
+      "packagePage": 531,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 532,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 533,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 534,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 535,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 536,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 537,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 538,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 539,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 540,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    },
+    {
+      "packagePage": 541,
+      "actualPage": null,
+      "status": "unresolved-no-unique-text-anchor",
+      "actualTextSha256": null,
+      "evidence": []
+    }
+  ]
+}
