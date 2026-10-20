@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "CA-Q073",
+    "lesson": "CA13",
+    "kind": "foundation",
+    "question": "Which kind of entries may a custom fill list contain directly according to the lecture?",
+    "options": [
+      "Text or text mixed with numbers",
+      "Only cell references",
+      "Only calculated formulas",
+      "Only numeric dates"
+    ],
+    "letter": "A",
+    "explanation": "The lecture permits custom list entries made from text, including labels combining letters and digits. Numeric-only lists are not entered by the same manual custom-list workflow. Reconciled citation: actual 542-page lecturer PDF p.67. Check whether entries already exist in cells before choosing the workflow.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        67,
+        67
+      ]
+    ],
+    "verification": "PDF542-P67",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B01-L08-Q01",
+    "packagePages": [
+      67
+    ]
+  },
+  {
+    "id": "CA-Q074",
+    "lesson": "CA13",
+    "kind": "application",
+    "question": "A fictional ward-name list already exists in worksheet cells. Which button brings the selected cell range into Custom Lists?",
+    "options": [
+      "NEW LIST",
+      "Import",
+      "Add",
+      "Delete"
+    ],
+    "letter": "B",
+    "explanation": "Import reads list items from the referenced worksheet cell range into the Custom Lists dialog. Add is used for manually typed entries; Delete removes a selected custom list. Reconciled citation: actual 542-page lecturer PDF p.69. Check whether entries already exist in cells before choosing the workflow.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        69,
+        69
+      ]
+    ],
+    "verification": "PDF542-P69",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B01-L08-Q02",
+    "packagePages": [
+      69
+    ]
+  },
+  {
+    "id": "CA-Q075",
+    "lesson": "CA13",
+    "kind": "foundation",
+    "question": "Which choice begins creating a list by typing its entries?",
+    "options": [
+      "Import list from cells",
+      "Delete",
+      "NEW LIST",
+      "Add"
+    ],
+    "letter": "C",
+    "explanation": "The NEW LIST choice opens an empty custom-list entry area. After entering items in their desired order, the lecturer instructs users to choose Add. Reconciled citation: actual 542-page lecturer PDF p.72. Check whether entries already exist in cells before choosing the workflow.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        72,
+        72
+      ]
+    ],
+    "verification": "PDF542-P72",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B01-L08-Q03",
+    "packagePages": [
+      72
+    ]
+  },
+  {
+    "id": "CA-Q076",
+    "lesson": "CA13",
+    "kind": "application",
+    "question": "You have finished typing a new custom list in its intended order. Which action stores those typed entries?",
+    "options": [
+      "Import",
+      "Delete",
+      "NEW LIST",
+      "Add"
+    ],
+    "letter": "D",
+    "explanation": "Add saves the text entered in the List entries box as a new custom list. Import is used when the items are already present in worksheet cells. Reconciled citation: actual 542-page lecturer PDF p.73. Check whether entries already exist in cells before choosing the workflow.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        73,
+        73
+      ]
+    ],
+    "verification": "PDF542-P73",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B01-L08-Q04",
+    "packagePages": [
+      73
+    ]
+  },
+  {
+    "id": "CA-Q077",
+    "lesson": "CA14",
+    "kind": "application",
+    "question": "A formula using cell addresses is difficult to interpret. What benefit does replacing suitable references with descriptive range names provide?",
+    "options": [
+      "They make references more readable",
+      "They prevent all calculation errors",
+      "They automatically sort rows",
+      "They replace worksheet tabs"
+    ],
+    "letter": "A",
+    "explanation": "A meaningful range name can express the purpose of the referenced cells, making complex formulas easier to read and maintain. Reconciled citation: actual 542-page lecturer PDF p.118. A readable name still needs to refer to the intended cells.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        118,
+        118
+      ]
+    ],
+    "verification": "PDF542-P118",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B02-L06-Q01",
+    "packagePages": [
+      118
+    ]
+  },
+  {
+    "id": "CA-Q078",
+    "lesson": "CA14",
+    "kind": "foundation",
+    "question": "Which name meets the slide’s stated starting-character rule?",
+    "options": [
+      "-Price",
+      "_Price",
+      " Price",
+      "5Price"
+    ],
+    "letter": "B",
+    "explanation": "The slide permits a name to start with an underscore. A leading digit or space does not meet its stated range-naming rule. Reconciled citation: actual 542-page lecturer PDF p.119. A readable name still needs to refer to the intended cells.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        119,
+        119
+      ]
+    ],
+    "verification": "PDF542-P119",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B02-L06-Q02",
+    "packagePages": [
+      119
+    ]
+  },
+  {
+    "id": "CA-Q079",
+    "lesson": "CA14",
+    "kind": "foundation",
+    "question": "Where is the Name Box located?",
+    "options": [
+      "Beside the sheet tabs",
+      "Below the status bar",
+      "At the left end of the Formula Bar",
+      "Inside the worksheet grid"
+    ],
+    "letter": "C",
+    "explanation": "The Name Box appears to the left of the Formula bar and displays the active reference or assigned range name. Reconciled citation: actual 542-page lecturer PDF p.121. A readable name still needs to refer to the intended cells.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        121,
+        121
+      ]
+    ],
+    "verification": "PDF542-P121",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B02-L06-Q04",
+    "packagePages": [
+      121
+    ]
+  },
+  {
+    "id": "CA-Q080",
+    "lesson": "CA14",
+    "kind": "application",
+    "question": "A worksheet needs several descriptive range names. Which tool does the lecturer recommend instead of repeatedly using Define Name?",
+    "options": [
+      "Print Preview",
+      "Page Layout",
+      "Chart Wizard",
+      "Name Manager"
+    ],
+    "letter": "D",
+    "explanation": "Name Manager is used to inspect and manage named ranges. It is useful when a workbook contains several defined names. Reconciled citation: actual 542-page lecturer PDF p.126. A readable name still needs to refer to the intended cells.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        126,
+        126
+      ]
+    ],
+    "verification": "PDF542-P126",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B02-L06-Q06",
+    "packagePages": [
+      126
+    ]
+  },
+  {
+    "id": "CA-Q081",
+    "lesson": "CA15",
+    "kind": "application",
+    "question": "A fictional worksheet is named CSM 1 and its required value is in A10. Which reference correctly addresses that cell?",
+    "options": [
+      "'CSM 1'!A10",
+      "CSM 1:A10",
+      "CSM 1!A10",
+      "A10!CSM 1"
+    ],
+    "letter": "A",
+    "explanation": "The sheet name contains a space, so it is enclosed in single quotes. An exclamation point separates 'CSM 1' from the A10 address. Reconciled citation: actual 542-page lecturer PDF p.102. Distinguish a worksheet span from a cell-address range.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        102,
+        102
+      ]
+    ],
+    "verification": "PDF542-P102",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B02-L04-Q02",
+    "packagePages": [
+      102
+    ]
+  },
+  {
+    "id": "CA-Q082",
+    "lesson": "CA15",
+    "kind": "foundation",
+    "question": "Which symbol separates a worksheet name from its cell reference?",
+    "options": [
+      "Ampersand",
+      "Exclamation mark",
+      "Colon",
+      "Dollar sign"
+    ],
+    "letter": "B",
+    "explanation": "An exclamation mark joins a worksheet name to the referenced cell or range, for example Sheet2!A1 or a quoted sheet name followed by !A1. Reconciled citation: actual 542-page lecturer PDF p.102. Distinguish a worksheet span from a cell-address range.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        102,
+        102
+      ]
+    ],
+    "verification": "PDF542-P102",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B02-L04-Q03",
+    "packagePages": [
+      102
+    ]
+  },
+  {
+    "id": "CA-Q083",
+    "lesson": "CA15",
+    "kind": "foundation",
+    "question": "What does the sheet range in Sheet1:Sheet4!D1 specify?",
+    "options": [
+      "Only Sheet1 and Sheet4",
+      "An absolute address",
+      "Sheets 1 through 4",
+      "Columns D through 1"
+    ],
+    "letter": "C",
+    "explanation": "The colon connects the first and last worksheet in a three-dimensional reference, covering Sheet1, Sheet2, Sheet3 and Sheet4 in order. Reconciled citation: actual 542-page lecturer PDF p.104. Distinguish a worksheet span from a cell-address range.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        104,
+        104
+      ]
+    ],
+    "verification": "PDF542-P104",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B02-L04-Q04",
+    "packagePages": [
+      104
+    ]
+  },
+  {
+    "id": "CA-Q084",
+    "lesson": "CA15",
+    "kind": "application",
+    "question": "Four worksheets, Sheet1 through Sheet4, each contain monthly amounts in D1:D10. Which formula totals that range across the worksheet span?",
+    "options": [
+      "=SUM(Sheet1!Sheet4!D1:D10)",
+      "=SUM(Sheet1,Sheet4:D1:D10)",
+      "=SUM(D1:D10!Sheet1:Sheet4)",
+      "=SUM(Sheet1:Sheet4!D1:D10)"
+    ],
+    "letter": "D",
+    "explanation": "SUM(Sheet1:Sheet4!D1:D10) adds matching D1:D10 cells across every worksheet from Sheet1 through Sheet4, which is a 3-D reference. Reconciled citation: actual 542-page lecturer PDF p.104. Distinguish a worksheet span from a cell-address range.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        104,
+        104
+      ]
+    ],
+    "verification": "PDF542-P104",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B02-L04-Q05",
+    "packagePages": [
+      104
+    ]
+  },
+  {
+    "id": "CA-Q085",
+    "lesson": "CA16",
+    "kind": "application",
+    "question": "A fictional register stores identifiers down the first column and related values across each row. Which function matches that search direction?",
+    "options": [
+      "VLOOKUP",
+      "MATCH",
+      "ROWS",
+      "HLOOKUP"
+    ],
+    "letter": "A",
+    "explanation": "VLOOKUP looks for its lookup value in the first column of the referenced table and returns a result from a specified column. Reconciled citation: actual 542-page lecturer PDF p.203. This glossary does not supply a complete lookup-argument tutorial.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        203,
+        203
+      ]
+    ],
+    "verification": "PDF542-P203",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B02-L14-Q01",
+    "packagePages": [
+      203
+    ]
+  },
+  {
+    "id": "CA-Q086",
+    "lesson": "CA16",
+    "kind": "application",
+    "question": "A fictional table stores lookup keys across its top row. Which function matches that search direction?",
+    "options": [
+      "COLUMN",
+      "HLOOKUP",
+      "INDEX",
+      "OFFSET"
+    ],
+    "letter": "B",
+    "explanation": "HLOOKUP examines the top row of a table and returns a value from a specified row in the matching column. Reconciled citation: actual 542-page lecturer PDF p.203. This glossary does not supply a complete lookup-argument tutorial.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        203,
+        203
+      ]
+    ],
+    "verification": "PDF542-P203",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B02-L14-Q02",
+    "packagePages": [
+      203
+    ]
+  },
+  {
+    "id": "CA-Q087",
+    "lesson": "CA16",
+    "kind": "foundation",
+    "question": "Which function returns a matching item's relative position?",
+    "options": [
+      "INDIRECT",
+      "TRANSPOSE",
+      "MATCH",
+      "LOOKUP"
+    ],
+    "letter": "C",
+    "explanation": "MATCH reports the relative position at which a lookup value is found, rather than returning the value from a different column. Reconciled citation: actual 542-page lecturer PDF p.203. This glossary does not supply a complete lookup-argument tutorial.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        203,
+        203
+      ]
+    ],
+    "verification": "PDF542-P203",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B02-L14-Q03",
+    "packagePages": [
+      203
+    ]
+  },
+  {
+    "id": "CA-Q088",
+    "lesson": "CA16",
+    "kind": "foundation",
+    "question": "Which function switches rows and columns?",
+    "options": [
+      "COLUMN",
+      "ROW",
+      "CHOOSE",
+      "TRANSPOSE"
+    ],
+    "letter": "D",
+    "explanation": "TRANSPOSE swaps the orientation of rows and columns, allowing a horizontal arrangement to become vertical or vice versa. Reconciled citation: actual 542-page lecturer PDF p.203. This glossary does not supply a complete lookup-argument tutorial.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        203,
+        203
+      ]
+    ],
+    "verification": "PDF542-P203",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "CSM177-B02-L14-Q04",
+    "packagePages": [
+      203
+    ]
+  },
+  {
+    "id": "CA-Q089",
+    "lesson": "CA17",
+    "kind": "foundation",
+    "question": "Several regional sales sheets must be combined onto one summary sheet. What is the destination called in the lecture?",
+    "options": [
+      "Master worksheet",
+      "Hidden worksheet",
+      "Protected worksheet",
+      "Chart worksheet"
+    ],
+    "letter": "A",
+    "explanation": "Consolidation collects data from multiple source ranges on one master or summary worksheet. (PDF p.305) Reconciled citation: actual 542-page lecturer PDF p.305. The destination, inputs and fixed/linked choice have distinct roles.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        305,
+        305
+      ]
+    ],
+    "verification": "PDF542-P305",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "B05L04Q04",
+    "packagePages": [
+      305
+    ]
+  },
+  {
+    "id": "CA-Q090",
+    "lesson": "CA17",
+    "kind": "foundation",
+    "question": "When using Excel Consolidate, what is the role of the destination range?",
+    "options": [
+      "Cells containing chart legends",
+      "Location where the combined results appear",
+      "Range containing each original data source",
+      "List of worksheets to protect"
+    ],
+    "letter": "B",
+    "explanation": "The destination is where the consolidated output is placed. Source references identify the contributing data. (PDF p.306) Reconciled citation: actual 542-page lecturer PDF p.306. The destination, inputs and fixed/linked choice have distinct roles.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        306,
+        306
+      ]
+    ],
+    "verification": "PDF542-P306",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "B05L04Q05",
+    "packagePages": [
+      306
+    ]
+  },
+  {
+    "id": "CA-Q091",
+    "lesson": "CA17",
+    "kind": "application",
+    "question": "Linked consolidation results use several source worksheets. A source value subsequently changes. What may happen to the linked results?",
+    "options": [
+      "Source ranges become text",
+      "All original worksheets are deleted",
+      "Linked results may update",
+      "Workbook protection is removed"
+    ],
+    "letter": "C",
+    "explanation": "Create Links to Source Data can allow updated consolidated results as source data changes. (PDF p.309) Reconciled citation: actual 542-page lecturer PDF p.309. The destination, inputs and fixed/linked choice have distinct roles.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        309,
+        309
+      ]
+    ],
+    "verification": "PDF542-P309",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "B05L04Q06",
+    "packagePages": [
+      309
+    ]
+  },
+  {
+    "id": "CA-Q092",
+    "lesson": "CA17",
+    "kind": "application",
+    "question": "A fictional SUM consolidation combines monthly totals of 12, 15 and 23. What is the result?",
+    "options": [
+      "23",
+      "38",
+      "45",
+      "50"
+    ],
+    "letter": "D",
+    "explanation": "SUM adds the matching values: 12+15+23 = 50. This created arithmetic illustration does not choose any official payroll rates.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        305,
+        305
+      ]
+    ],
+    "verification": "PDF542-P305",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q093",
+    "lesson": "CA18",
+    "kind": "application",
+    "question": "A printed worksheet needs a horizontal page break after a particular row. Where should the active cell be before inserting it?",
+    "options": [
+      "Below the intended break",
+      "Above the intended break",
+      "On the row header of the printed title",
+      "At the last column of the worksheet"
+    ],
+    "letter": "A",
+    "explanation": "Place the active cell in the row immediately below the desired horizontal split, then insert a manual page break. Reconciled citation: actual 542-page lecturer PDF p.272. The active cell is below a horizontal boundary; the values themselves are not moved.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        272,
+        272
+      ]
+    ],
+    "verification": "PDF542-P272",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "B04-L04-Q04",
+    "packagePages": [
+      272
+    ]
+  },
+  {
+    "id": "CA-Q094",
+    "lesson": "CA18",
+    "kind": "foundation",
+    "question": "What do manual page breaks do relative to automatic breaks?",
+    "options": [
+      "Delete cells at the break positions",
+      "Override and reposition them",
+      "Permanently insert empty rows",
+      "Remove the need for a print area"
+    ],
+    "letter": "B",
+    "explanation": "Manual breaks influence pagination and cause Excel to reposition its automatically determined breaks. Reconciled citation: actual 542-page lecturer PDF p.272. Changing pagination changes printed boundaries, not the source records.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        272,
+        272
+      ]
+    ],
+    "verification": "PDF542-P272",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "B04-L04-Q05",
+    "packagePages": [
+      272
+    ]
+  },
+  {
+    "id": "CA-Q095",
+    "lesson": "CA18",
+    "kind": "foundation",
+    "question": "Which Page Setup tab does the source associate with print titles and page order?",
+    "options": [
+      "Margins",
+      "Page",
+      "Sheet",
+      "Header/Footer"
+    ],
+    "letter": "C",
+    "explanation": "The source lists print area, print titles and page order under Sheet. Page concerns orientation/size, while margins and headers have other roles.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        254,
+        254
+      ]
+    ],
+    "verification": "PDF542-P254",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q096",
+    "lesson": "CA18",
+    "kind": "application",
+    "question": "A worksheet needs its title and page number at the top of every printed page. Which feature fits?",
+    "options": [
+      "A new data row on every page",
+      "A worksheet tab rename",
+      "A chart legend",
+      "A header"
+    ],
+    "letter": "D",
+    "explanation": "A header can place repeated information at the top of printed pages without inserting false observations into the data table.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        264,
+        264
+      ]
+    ],
+    "verification": "PDF542-P264",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q097",
+    "lesson": "CA10",
+    "kind": "application",
+    "question": "A title is in a placeholder and another label is in a text box. What does the source say about text formatting?",
+    "options": [
+      "Both can use the same text-formatting commands",
+      "Only placeholders support font formatting",
+      "Text boxes must be converted into tables first",
+      "Formatting a text box always changes every slide"
+    ],
+    "letter": "A",
+    "explanation": "The source explicitly says text in placeholders and text boxes can be formatted using the same commands. Container type does not require converting text to a table.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        428,
+        428
+      ]
+    ],
+    "verification": "PDF542-P428",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q098",
+    "lesson": "CA10",
+    "kind": "application",
+    "question": "Center alignment is applied to text in a small box near the slide edge. What is centred?",
+    "options": [
+      "The box itself across the whole slide",
+      "The text within its container",
+      "All objects on the slide",
+      "The presentation within the application window"
+    ],
+    "letter": "B",
+    "explanation": "Text alignment acts within the placeholder or text box. It does not reposition the container itself on the slide.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        436,
+        436
+      ]
+    ],
+    "verification": "PDF542-P436",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q099",
+    "lesson": "CA10",
+    "kind": "application",
+    "question": "Why can the available background styles change after applying a different theme?",
+    "options": [
+      "They are fixed to the file name",
+      "Every theme deletes all existing pictures",
+      "They are fill variations based on theme colours",
+      "The slide count determines background colours"
+    ],
+    "letter": "C",
+    "explanation": "The source links background styles to theme colours. A new theme can therefore change their available colour variations.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        441,
+        441
+      ]
+    ],
+    "verification": "PDF542-P441",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q100",
+    "lesson": "CA10",
+    "kind": "foundation",
+    "question": "A slide lists seven procedures that must be followed in order. Which list format best conveys their sequence?",
+    "options": [
+      "Unnumbered text paragraphs",
+      "Picture bullets",
+      "Bulleted list",
+      "Numbered list"
+    ],
+    "letter": "D",
+    "explanation": "Numbering conveys an ordered sequence; bullet symbols identify items without necessarily implying order. (PDF p.453) Reconciled citation: actual 542-page lecturer PDF p.454. Numbered points show sequence; an unordered bullet list does not explicitly number the steps.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        454,
+        454
+      ]
+    ],
+    "verification": "PDF542-P454",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "B7L6Q1",
+    "packagePages": [
+      453
+    ]
+  },
+  {
+    "id": "CA-Q101",
+    "lesson": "CA10",
+    "kind": "foundation",
+    "question": "A continued procedure list should begin at 4. Which field in the described numbering dialog sets that value?",
+    "options": [
+      "Start at",
+      "Font size",
+      "Slide number",
+      "Line spacing"
+    ],
+    "letter": "A",
+    "explanation": "The lecturer identifies the Start at field for a numbered list. Font size and line spacing change appearance rather than its initial number.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        455,
+        455
+      ]
+    ],
+    "verification": "PDF542-P455",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q102",
+    "lesson": "CA10",
+    "kind": "foundation",
+    "question": "Which text-alignment option lines up text with both the left and right container margins?",
+    "options": [
+      "Align Left",
+      "Justify",
+      "Center",
+      "Align Right"
+    ],
+    "letter": "B",
+    "explanation": "The source describes Justify as lining text up equally to both margins. This differs from centring lines or aligning only one side.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        436,
+        436
+      ]
+    ],
+    "verification": "PDF542-P436",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q103",
+    "lesson": "CA11",
+    "kind": "foundation",
+    "question": "Which key does the source name for moving the insertion point between table cells?",
+    "options": [
+      "Escape",
+      "Caps Lock",
+      "Tab",
+      "Print Screen"
+    ],
+    "letter": "C",
+    "explanation": "The table navigation slide names Tab, with the mouse and arrow keys as other ways to move. This is a source-described behavior, not a newly executed PowerPoint keyboard check.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        458,
+        458
+      ]
+    ],
+    "verification": "PDF542-P458",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q104",
+    "lesson": "CA11",
+    "kind": "foundation",
+    "question": "An existing PowerPoint table needs one additional row immediately above the selected row. Where does the lecturer direct you?",
+    "options": [
+      "Home → Paragraph → Indent",
+      "Insert → Table → Draw Table",
+      "Table Tools → Design → Borders",
+      "Table Tools → Layout → Insert Above"
+    ],
+    "letter": "D",
+    "explanation": "The lecture places Insert Above in the Rows & Columns group of the contextual Table Tools Layout tab. (PDF p.459) Reconciled citation: actual 542-page lecturer PDF p.460. Insert Above is relative to the insertion-point row; it is different from a slide insertion.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        460,
+        460
+      ]
+    ],
+    "verification": "PDF542-P460",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "B7L7Q1",
+    "packagePages": [
+      459
+    ]
+  },
+  {
+    "id": "CA-Q105",
+    "lesson": "CA11",
+    "kind": "application",
+    "question": "A PowerPoint table needs a new column immediately to the right of the current one. Which command fits?",
+    "options": [
+      "Insert Right",
+      "Insert Above",
+      "Insert Below",
+      "Merge Cells"
+    ],
+    "letter": "A",
+    "explanation": "The source distinguishes left/right column insertion from above/below row insertion. Merging cells does not add the requested column.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        462,
+        462
+      ]
+    ],
+    "verification": "PDF542-P462",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q106",
+    "lesson": "CA11",
+    "kind": "application",
+    "question": "The colour of a picture border is correct but its line is too thin. Which setting changes its width?",
+    "options": [
+      "Volume",
+      "Weight",
+      "Transition duration",
+      "Paragraph spacing"
+    ],
+    "letter": "B",
+    "explanation": "Picture Border includes a Weight setting for line width. The other settings affect audio, slide changes or text spacing.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        479,
+        479
+      ]
+    ],
+    "verification": "PDF542-P479",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q107",
+    "lesson": "CA11",
+    "kind": "application",
+    "question": "A picture became stretched after resizing. Which source-described action can change its proportions?",
+    "options": [
+      "Moving the whole picture without resizing it",
+      "Changing the border colour",
+      "Dragging a side sizing handle",
+      "Changing the slide order"
+    ],
+    "letter": "C",
+    "explanation": "The source warns that side sizing handles do not keep the same proportions. Moving the picture or changing unrelated settings does not itself explain this distortion.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        473,
+        473
+      ]
+    ],
+    "verification": "PDF542-P473",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q108",
+    "lesson": "CA11",
+    "kind": "foundation",
+    "question": "During a slide show, an inserted sound is too loud. Which Audio Tools option directly changes playback loudness?",
+    "options": [
+      "Loop Until Stopped",
+      "Hide During Show",
+      "Trim Audio",
+      "Volume"
+    ],
+    "letter": "D",
+    "explanation": "The Audio Tools options in the slides identify Volume as the loudness control; loop, hiding and timing affect other aspects of playback. (PDF p.510) Reconciled citation: actual 542-page lecturer PDF p.511. Volume changes loudness; looping and icon visibility concern different playback options.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        511,
+        511
+      ]
+    ],
+    "verification": "PDF542-P511",
+    "reviewStatus": "source-verified-awaiting-academic-approval",
+    "adaptedFrom": "B8L6Q1",
+    "packagePages": [
+      510
+    ]
+  },
+  {
+    "id": "CA-Q109",
+    "lesson": "CA12",
+    "kind": "foundation",
+    "question": "Which print-output choice is intended to put several slides on one sheet?",
+    "options": [
+      "Handouts",
+      "Notes Pages only",
+      "Normal editing view",
+      "Slide Sorter view"
+    ],
+    "letter": "A",
+    "explanation": "The source distinguishes handouts with multiple slides per page from notes pages and on-screen editing views. The number of slides per page is a separate choice.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        519,
+        519
+      ]
+    ],
+    "verification": "PDF542-P519",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q110",
+    "lesson": "CA12",
+    "kind": "application",
+    "question": "A presenter wants printed speaker notes with the relevant slide. Which output fits?",
+    "options": [
+      "Handouts without notes",
+      "Notes Pages",
+      "A custom file name",
+      "A slide transition"
+    ],
+    "letter": "B",
+    "explanation": "The source names Notes Pages for typed speaker notes. A handout layout or file name does not by itself include those notes.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        519,
+        519
+      ]
+    ],
+    "verification": "PDF542-P519",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q111",
+    "lesson": "CA12",
+    "kind": "application",
+    "question": "Only specified slides should be printed. Which print-range choice fits?",
+    "options": [
+      "Print All Slides",
+      "Change theme colours",
+      "Custom Range",
+      "Increase the number of copies"
+    ],
+    "letter": "C",
+    "explanation": "Custom Range selects the intended subset. Copy count changes repetitions of the output, not which slides belong in it.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        519,
+        519
+      ]
+    ],
+    "verification": "PDF542-P519",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q112",
+    "lesson": "CA12",
+    "kind": "application",
+    "question": "The transition on a slide should be removed. Which option does the later source example choose?",
+    "options": [
+      "Apply a new theme",
+      "Insert a blank slide",
+      "Increase sound volume",
+      "None"
+    ],
+    "letter": "D",
+    "explanation": "The later transition example selects None. Theme changes and extra slides are unrelated to removing the between-slide effect.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        537,
+        537
+      ]
+    ],
+    "verification": "PDF542-P537",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q113",
+    "lesson": "CA12",
+    "kind": "application",
+    "question": "Two effects on the same slide play in the wrong sequence. What should be reordered?",
+    "options": [
+      "The animation effects for that slide",
+      "The worksheet rows",
+      "The presentation file names",
+      "The slides rather than their effects"
+    ],
+    "letter": "A",
+    "explanation": "The source describes reordering effects in the animation list. Slide order and effect order are different; changing slides does not directly fix two effects on one slide.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        529,
+        529
+      ]
+    ],
+    "verification": "PDF542-P529",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  },
+  {
+    "id": "CA-Q114",
+    "lesson": "CA12",
+    "kind": "application",
+    "question": "Which source-described field controls automatic advancement to the next slide after an interval?",
+    "options": [
+      "Picture Border Weight",
+      "Automatically After",
+      "Font size",
+      "Page margins"
+    ],
+    "letter": "B",
+    "explanation": "The timing example uses Automatically After for advancing slides. Legacy tab names differ in the notes, and actual target-version timing still requires the pending desktop test.",
+    "source": "CSM177-LECTURER",
+    "pages": [
+      [
+        540,
+        540
+      ]
+    ],
+    "verification": "PDF542-P540",
+    "reviewStatus": "source-verified-awaiting-academic-approval"
+  }
+]

@@ -1,0 +1,498 @@
+[
+  {
+    "lesson": "CA01",
+    "topic": "Data types, entry and editing",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        3,
+        15
+      ],
+      [
+        21,
+        39
+      ],
+      [
+        102,
+        102
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "A real input/formula distinction; earlier exercise lacks explicit cell setup",
+    "implemented": "Annotated equipment register, changed-input prediction and edit cancellation",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "Range/source identity and real-account privacy remain review concerns",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA02",
+    "topic": "Fill patterns and grid integrity",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        37,
+        74
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Useful AutoComplete/AutoFill contrast; pattern and recovery need a controlled comparison",
+    "implemented": "Two-seed series, copy-versus-suggestion comparison and record-deletion experiment",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "Target Excel shortcuts and legacy fill options unexecuted",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA03",
+    "topic": "References and evaluation",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        75,
+        117
+      ],
+      [
+        118,
+        126
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct reference table; lacks a complete copy-down diagnosis",
+    "implemented": "Formula/value annotation, changed fixed input and mean-grouping error case",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "Copy/F4 GUI acceptance remains pending",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA04",
+    "topic": "Functions and date/time",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        127,
+        167
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct basic functions; live values need comparison with event dates",
+    "implemented": "Recalculation prediction, quotient/remainder contrast and display-versus-value date test",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "TODAY/DATE source contradictions held open; TODAY candidate remains withheld",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA05",
+    "topic": "Statistics and data quality",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        168,
+        177
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct mean/median/count contrast; missing data and interpretation need more reasoning",
+    "implemented": "Hand-worked data table, missing-versus-zero and sample/population reasoning",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "Source AVERAGE/AVERAGEA table remains unreliable for broader claims",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA06",
+    "topic": "Logic, text and financial units",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        178,
+        203
+      ],
+      [
+        222,
+        223
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Sound logic and period rules; needs row-by-row traces and model-error recovery",
+    "implemented": "Boundary truth table, AND/OR distinction, original-preserving text task and rate/nper units",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "No institutional grade thresholds or unspecified financial assumptions inferred",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA07",
+    "topic": "Formats, print and file care",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        204,
+        221
+      ],
+      [
+        224,
+        309
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct appearance/value distinction; needs a linked output workflow",
+    "implemented": "Percentage input diagnosis, multi-step preview and separate file/protection roles",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "Target protection dialogs/physical printing unexecuted",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA08",
+    "topic": "Chart relationships",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        312,
+        376
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct chart comparisons; lacks traced source/axis examples",
+    "implemented": "Department and unequal-day charts, one-point source trace and changed-input check",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "F11 and Alt+F1 remain withheld; desktop chart acceptance pending",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA09",
+    "topic": "Sort/filter record integrity",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        377,
+        400
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct order/visibility contrast; needs an inspectable multi-field table",
+    "implemented": "Four-record exercise, boundary filter/intersection and damaged single-column-sort diagnosis",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "Exactly-40 institutional policy unresolved",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA10",
+    "topic": "Presentation structure",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        401,
+        456
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct layout/theme/files distinction; practical sequence and misalignment need depth",
+    "implemented": "Three-slide workflow, text/container alignment and editable-file recovery",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "No PowerPoint GUI acceptance or academic approval granted",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA11",
+    "topic": "Objects and media",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        457,
+        511
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct grouping/stacking contrasts; operation selection needs a worked slide",
+    "implemented": "Table/picture steps and alignment/grouping/stacking comparison",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "Audio playback and target-version contextual menus unexecuted",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA12",
+    "topic": "Views, effects and delivery",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        512,
+        542
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct animation/transition distinction; delivery/print workflow needs explicit checks",
+    "implemented": "Rehearsal roles, timing uncertainty, handout/notes/range decisions",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "Timing and physical printing remain unexecuted",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA13",
+    "topic": "Custom lists",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        67,
+        74
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Verified narrow workflow; needs complete import/create/use distinction",
+    "implemented": "Source-of-list table, cycle prediction and repeated-label diagnosis",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "Legacy Options routes and Windows GUI acceptance pending",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA14",
+    "topic": "Defined names",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        118,
+        126
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct readable formula idea; needs referent inspection and failure diagnosis",
+    "implemented": "Named input example, Refers To investigation and naming-scope limits",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "No exhaustive name specification invented",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA15",
+    "topic": "Cross-sheet and 3-D references",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        102,
+        104
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct notation; needs source selection separated from arithmetic",
+    "implemented": "Cross-sheet input change, annotated four-sheet 220 total and omitted-source diagnosis",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "Alternative arithmetic is not Excel tab/copy acceptance",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA16",
+    "topic": "Lookup/reference families",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        203,
+        203
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Useful glossary but not a full lookup tutorial",
+    "implemented": "Direction/output-type table and MATCH position-versus-value worked clarification",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "Detailed lookup syntax/defaults remain missing; clarification labelled",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA17",
+    "topic": "Consolidation",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        305,
+        309
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct source/destination distinction; needs a fixed/linked worked comparison",
+    "implemented": "Monthly 50 total, omitted-source case and category-selection check",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "No official payroll rules or target dialog certification inferred",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  },
+  {
+    "lesson": "CA18",
+    "topic": "Printing boundaries",
+    "source": "CSM177-LECTURER",
+    "actualPdfPages": [
+      [
+        254,
+        254
+      ],
+      [
+        264,
+        264
+      ],
+      [
+        270,
+        272
+      ]
+    ],
+    "objectiveBasis": "Source-derived editorial objectives; current official syllabus unavailable",
+    "priorAssessment": "Correct print-title/header distinction; needs a coherent multi-page plan",
+    "implemented": "Requirements table, boundary placement and blank-row workaround diagnosis",
+    "dimensionsReviewed": [
+      "foundations",
+      "mechanism-or-operation",
+      "comparison",
+      "worked-example",
+      "misconception",
+      "self-check",
+      "source-limits"
+    ],
+    "remainingReview": "Excel preview, manual-break UI and physical output unexecuted",
+    "status": "editorially-expanded-awaiting-academic-review",
+    "studentPublication": false
+  }
+]

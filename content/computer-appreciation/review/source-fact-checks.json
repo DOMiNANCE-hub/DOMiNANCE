@@ -1,0 +1,226 @@
+[
+  {
+    "id": "PDF542-P67",
+    "page": 67,
+    "anchor": "a custom list can only contain text or text mixed with numbers",
+    "normalizedPageSha256": "71c80ff2baba04992bcaeafdb9f4a343ea359b49e667ffb06ca78d5ed016da9a",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P69",
+    "page": 69,
+    "anchor": "then click Import",
+    "normalizedPageSha256": "7b44cb7295aa398de35fbfdfbdc3c6cc7d39ac48c300eaf0ecc63114d25d7eed",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P72",
+    "page": 72,
+    "anchor": "click NEW LIST",
+    "normalizedPageSha256": "36d171b3703928f8389987dd7c5e80014bb5e98ec1ebb14303c1452ae4199008",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P73",
+    "page": 73,
+    "anchor": "When the list is complete click Add",
+    "normalizedPageSha256": "69bbf0787550f4629b5c15068c81662a45cc4be15f7ada46a2dd4bb386a351a5",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P102",
+    "page": 102,
+    "anchor": "If the sheet name includes spaces",
+    "normalizedPageSha256": "bb496ee35bf15cc31437fc4cf442c4b2bc9a420e13d332343f0789d392379acf",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P104",
+    "page": 104,
+    "anchor": "SUMS up the values in the range of cells",
+    "normalizedPageSha256": "acb6aad1699b042a46295cc0c7307fd4f7559aa21cab57760a9b2a0ee7c32d9d",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P118",
+    "page": 118,
+    "anchor": "It is easier to understand an expression such as Price",
+    "normalizedPageSha256": "eedbca00a7f81ffc61f76eced8c5712b3565296263512c9dc9e121348a298176",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P119",
+    "page": 119,
+    "anchor": "Names must start with a letter or an underscore",
+    "normalizedPageSha256": "8e2b01bcb91fcd7f6a7e3a51069c10182d947d1bd82507fbd961ee525b6369ac",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P121",
+    "page": 121,
+    "anchor": "the name box appears at the left end",
+    "normalizedPageSha256": "8bb717dc91582a374930999061ecec6f0a77a1236aeb55a371761f6032124ea2",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P126",
+    "page": 126,
+    "anchor": "use the Name Manager instead of the Define Name",
+    "normalizedPageSha256": "979c30fb1b0770108e4d981d4867112573c541be8c259109e2e8ecf8cf702165",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P203",
+    "page": 203,
+    "anchor": "VLOOKUP Looks in the first column",
+    "normalizedPageSha256": "0bc92f400f2101a06f543808eeb7974ba3cfabf050bc303dc9a32a65b420896d",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P254",
+    "page": 254,
+    "anchor": "The print area print titles and the order",
+    "normalizedPageSha256": "c37211a26f38e89a910c30468c7bb06ef1ffe651aff17ef9d81aa801bc4f81b0",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P264",
+    "page": 264,
+    "anchor": "place a title date page numbers or text",
+    "normalizedPageSha256": "601484329026cb700be15b0ae30c18c021973257c1edbe38f7c2a796b166b759",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P272",
+    "page": 272,
+    "anchor": "manual page breaks they override automatic page breaks",
+    "normalizedPageSha256": "90c132e946ac89850f7b6c2ddf98784eb27bda8e2408024a6cbf772a7105364c",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P305",
+    "page": 305,
+    "anchor": "consolidated on a separate master worksheet",
+    "normalizedPageSha256": "0912ac8daa7526d2767f3c3e636cc740ace8745ff8b9ee5f4a1f3e7d157ae52b",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P306",
+    "page": 306,
+    "anchor": "Select a destination range",
+    "normalizedPageSha256": "943fc7065890577d61c6789746f8b1f127bbf0c00da7ab2cbaefea93b16a24fa",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P309",
+    "page": 309,
+    "anchor": "fixed values that do not change or links",
+    "normalizedPageSha256": "27cdacc30843ee9023974a91cceb9ca908b2fcb077a6e800d363735f420d3de9",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P428",
+    "page": 428,
+    "anchor": "Text in both can be formatted using the same commands",
+    "normalizedPageSha256": "10d0331f12d3fe38f3988d6133ef16b38602967f88314f87af5024b560a43c96",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P436",
+    "page": 436,
+    "anchor": "align the text within the placeholder or text box",
+    "normalizedPageSha256": "2ab3c7d4606630ad6888b9856d4f5be4c1427a3e726ae0e9a287c7f52d0f0559",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P441",
+    "page": 441,
+    "anchor": "fill variations based on theme colours",
+    "normalizedPageSha256": "1c02734d16e6bcec56afe701ce234f4a3469f8821946331c55afcc21fcc00b48",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P454",
+    "page": 454,
+    "anchor": "Switch to a Numbered List",
+    "normalizedPageSha256": "0c9fee7f13ecd084d344e35d930cea80664bcc8953ee33310e6a4c3cc05133ca",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P455",
+    "page": 455,
+    "anchor": "Enter the number to start the list in the Start at",
+    "normalizedPageSha256": "35bfa6025c2cd2cc92c96931b118a8dc9cb34ecc17afea892244159c0bee8998",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P458",
+    "page": 458,
+    "anchor": "pressing the tab key on your keyboard",
+    "normalizedPageSha256": "61f3ad4853d5ed7dcf9472d406349b65901711623664f5ebfc1be7769e9e20de",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P460",
+    "page": 460,
+    "anchor": "click Insert Above to insert a row above",
+    "normalizedPageSha256": "4c12e220c1ce1d0a5fc0d608ce6a6b14e0ac7d3117169f4aafb2695a35f83b14",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P462",
+    "page": 462,
+    "anchor": "Insert Right to insert a column to the right",
+    "normalizedPageSha256": "fcec6689dc96f69543236e33ac5eae1a4c7b158a142828d5f1b663072cdeb2be",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P473",
+    "page": 473,
+    "anchor": "side sizing handles change the picture",
+    "normalizedPageSha256": "6ea07c33b1cbd63b16335d59bf1224cda5ac3f85a288c75ff8d38b24f072a518",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P479",
+    "page": 479,
+    "anchor": "Select Weight from the menu and choose a line weight",
+    "normalizedPageSha256": "e33db5fe25c33715e028d9d9ad17c81348042780a5fcc375e689c4f067eeced7",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P511",
+    "page": 511,
+    "anchor": "Volume Change the volume to low medium high or mute",
+    "normalizedPageSha256": "fe75c5d00f8d4ff0cc1071a1ee87e86ebdf6fbb5e86182a38682ea913997ea25",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P519",
+    "page": 519,
+    "anchor": "Handouts print many slides per page",
+    "normalizedPageSha256": "4c9003fd0913507ee391ec26954b04ff7dc981875fff8559d9c7bc89a44530b9",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P529",
+    "page": 529,
+    "anchor": "To Reorder Animation Effects",
+    "normalizedPageSha256": "0f649370f9c8cee9ab33080cebe19725cc5cec0ba18b197dd9717e4cd3678168",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P537",
+    "page": 537,
+    "anchor": "Click None in the Transition",
+    "normalizedPageSha256": "7c8bc478527c0bd82af722155dfda894b0a0dae742ddc077b5af4f356f9fa85a",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  },
+  {
+    "id": "PDF542-P540",
+    "page": 540,
+    "anchor": "Enter the time in the Automatically After field",
+    "normalizedPageSha256": "552050b71018151c420550fc6ca845d84d759b53457272ac1fbc7464a1578dcc",
+    "verification": "direct actual-PDF text anchor inspected; not Office GUI acceptance"
+  }
+]

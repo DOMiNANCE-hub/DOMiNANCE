@@ -1,0 +1,102 @@
+{
+  "lessons": [
+    {
+      "id": "CA13",
+      "title": "Custom fill lists",
+      "block": "spreadsheet-foundations",
+      "pages": [
+        [
+          67,
+          74
+        ]
+      ],
+      "reviewStatus": "source-verified-awaiting-academic-approval"
+    },
+    {
+      "id": "CA14",
+      "title": "Named cells and ranges",
+      "block": "spreadsheet-foundations",
+      "pages": [
+        [
+          118,
+          126
+        ]
+      ],
+      "reviewStatus": "source-verified-awaiting-academic-approval"
+    },
+    {
+      "id": "CA15",
+      "title": "Cross-sheet and three-dimensional references",
+      "block": "spreadsheet-foundations",
+      "pages": [
+        [
+          102,
+          104
+        ]
+      ],
+      "reviewStatus": "source-verified-awaiting-academic-approval"
+    },
+    {
+      "id": "CA16",
+      "title": "Lookup and reference glossary",
+      "block": "spreadsheet-functions",
+      "pages": [
+        [
+          203,
+          203
+        ]
+      ],
+      "reviewStatus": "source-verified-awaiting-academic-approval"
+    },
+    {
+      "id": "CA17",
+      "title": "Consolidating worksheet data",
+      "block": "data-and-charts",
+      "pages": [
+        [
+          305,
+          309
+        ]
+      ],
+      "reviewStatus": "source-verified-awaiting-academic-approval"
+    },
+    {
+      "id": "CA18",
+      "title": "Print titles, headers and manual page breaks",
+      "block": "data-and-charts",
+      "pages": [
+        [
+          254,
+          254
+        ],
+        [
+          264,
+          264
+        ],
+        [
+          270,
+          272
+        ]
+      ],
+      "reviewStatus": "source-verified-awaiting-academic-approval"
+    }
+  ],
+  "additions": [
+    {
+      "lesson": "CA10",
+      "markdown": "## Review extension: text containers and lists\nThe lecturer's PDF p.428 says that placeholders and text boxes use the same text-formatting commands. Their placement differs, but using a separate text box does not require a different font-formatting language.\nOn p.436, text alignment acts within its text container, not across the entire slide. Centering text inside a small box does not move that box to the slide centre. Justify aligns text with both container margins; it is different from moving the object.\nBackground styles are fill variations based on theme colours (p.441). A different theme can therefore change the available background styles. A numbered list communicates sequence (p.454), and the source's Start at field changes its initial number (p.455). These are content-formatting concepts; version-specific dialog operation remains unexecuted.\nTry continuing a fictional procedure list at step 4. State the intended starting number, then distinguish changing list numbering from rearranging slides."
+    },
+    {
+      "lesson": "CA11",
+      "markdown": "## Review extension: table, picture and audio choices\nThe table example allows moving the insertion point with Tab (PDF p.458). Insert Above adds a row relative to the selected row (p.460); Insert Right adds a column relative to the selected column (p.462). These operations change table structure, whereas alignment or a slide transition does not add cells.\nThe picture example warns that side sizing handles change proportions (p.473). If an image becomes stretched, inspect how it was resized rather than assuming the source file changed. Picture Border controls the surrounding line; Weight changes its width (p.479). A border adjustment does not crop or recolour the underlying picture.\nThe legacy audio controls include Volume for loudness (p.511). Loop and Hide During Show have other purposes. This identifies the control's intended role, not proof of working audio playback on a presentation computer. Practice by explaining the appropriate operation before using any command; desktop execution remains a separate check."
+    },
+    {
+      "lesson": "CA12",
+      "markdown": "## Review extension: print output and effect order\nThe lecturer's PDF p.519 distinguishes handouts, which can show several slides per page, from Notes Pages containing speaker notes. Custom Range selects an intended subset of slides. These output choices are separate from the number of copies.\nReordering animation effects changes the sequence of effects within a slide (p.529); Slide Sorter changes the sequence of slides. The source uses some older pane names, so exact controls need version-aware checking. To remove a transition, its later example chooses None (p.537).\nThe source's Automatically After field controls advancing to the next slide (p.540). Earlier pages mix Animations and Transitions tab wording; this is a source-version ambiguity. The exercise asks what automatic advance means, not that an unexecuted timing setting has been demonstrated in PowerPoint. Changing slide-advance timing should always be checked in the target presentation software before delivery."
+    },
+    {
+      "lesson": "CA04",
+      "markdown": "## Source clarification for review\nPDF p.155 describes TODAY as returning the current date but also contains the contradictory phrase that it does return a time portion. The technically correct distinction used here is date-only TODAY versus date-and-time NOW. The package explicitly withholds its TODAY assessment item pending source/academic review. This correction remains identified separately from the lecturer's contradictory wording; that withheld item is not added to the bank."
+    }
+  ]
+}

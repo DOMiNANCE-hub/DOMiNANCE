@@ -1,0 +1,74 @@
+[
+  {
+    "id": "CSM177-B02-L09-Q02",
+    "question": "In Excel, which no-argument function returns the current date without the current clock time?",
+    "options": [
+      "TODAY",
+      "NOW",
+      "DATE",
+      "TIME"
+    ],
+    "correct_index": 0,
+    "correct_answer": "TODAY",
+    "explanation": "TODAY() returns today’s date; NOW() includes the current time. The lecture states this function’s purpose but inadvertently says it “does return the time portion” (p.155), which is a source contradiction. The technically correct answer is TODAY().",
+    "source_pages": [
+      155
+    ],
+    "qa_issue": "SOURCE_CONTRADICTION",
+    "qa_note": "Slide p.155 says TODAY returns the date, but also incorrectly says it “does return the time portion”; hold for discrepancy-note review. Correct answer follows actual Excel functionality; this is explicitly not an unambiguous statement of the lecturer’s slide."
+  },
+  {
+    "id": "B06L04Q04",
+    "question": "On desktop Excel, what is the normal result of selecting data and pressing F11?",
+    "options": [
+      "A chart on a new chart sheet",
+      "An embedded chart on the same sheet",
+      "A chart copied into the clipboard",
+      "The chart-data selection dialog"
+    ],
+    "correct_index": 0,
+    "correct_answer": "A chart on a new chart sheet",
+    "explanation": "In desktop Excel, F11 normally creates a chart sheet. The lecturer gives F11 on p.365 but does not explain the destination; this distinction is an external Excel clarification and remains held until technical verification.",
+    "source_pages": [
+      365
+    ],
+    "qa_issue": null,
+    "qa_note": null
+  },
+  {
+    "id": "B06L04Q05",
+    "question": "On desktop Excel, what does Alt+F1 normally create from a selected worksheet range?",
+    "options": [
+      "An embedded chart",
+      "A separate chart sheet",
+      "A chart exported as a picture",
+      "A slide in PowerPoint"
+    ],
+    "correct_index": 0,
+    "correct_answer": "An embedded chart",
+    "explanation": "Alt+F1 normally creates an embedded chart. The lecturer lists the shortcut on p.365 without distinguishing it from F11; the destination distinction needs separate technical verification.",
+    "source_pages": [
+      365
+    ],
+    "qa_issue": null,
+    "qa_note": null
+  },
+  {
+    "id": "B06L07Q05",
+    "question": "The lecturer’s filter example selects “Less Than 40.” Which scores does that exact operator display?",
+    "options": [
+      "Scores strictly below 40",
+      "Scores of 40 or less",
+      "Scores of 40 or more",
+      "Only scores equal to 40"
+    ],
+    "correct_index": 0,
+    "correct_answer": "Scores strictly below 40",
+    "explanation": "The selected operator is strictly <40. The same slide describes 40 as failed, so the source conflicts on whether exactly 40 should appear. This question asks about the operator, not an assumed pass/fail policy. (PDF p.398)",
+    "source_pages": [
+      398
+    ],
+    "qa_issue": null,
+    "qa_note": null
+  }
+]

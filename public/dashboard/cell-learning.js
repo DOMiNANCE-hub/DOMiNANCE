@@ -10,6 +10,7 @@
   {id:'fractionation',title:'Cell Disruption & Fractionation',lessons:sequence('CE',4)},
   {id:'analysis',title:'Biochemical Analysis',lessons:sequence('BI',5)}
  ];
+ function createLearning(blocks){
  function splitCheck(text,line){
   const cleaned=text.replace(/^\s*(?:\d+\.|[-*])\s+/,'').replace(/^\*\*Optional checks?:\*\*\s*/i,'');
   const explicit=cleaned.match(/^(.*?)\s*\*\*Answer:\*\*\s*(.+)$/i);
@@ -35,5 +36,7 @@
  function resumePart(saved,lesson){return Math.min(saved.part||0,sections(lesson).length-1)}
  function countOptions(total){return [...new Set([...(total>=5?[5]:[]),...(total>=10?[10]:[]),...(total>0?[total]:[])])]}
  function location(value){if(!value||typeof value!=='object'||Array.isArray(value))throw Error('Invalid reading positions');const result={};for(const [id,p] of Object.entries(value)){const block=blocks.find(b=>b.id===id);if(!block||!block.lessons.includes(p?.section)||(p.part!==undefined&&(!Number.isInteger(p.part)||p.part<0||p.part>100))||typeof p.offset!=='number'||!Number.isFinite(p.offset)||p.offset<0||p.offset>1||typeof p.updatedAt!=='string'||!Number.isFinite(Date.parse(p.updatedAt)))throw Error('Invalid reading position');result[id]={section:p.section,offset:p.offset,updatedAt:p.updatedAt,...(p.part!==undefined?{part:p.part}:{})}}return result}
- root.DominanceCellLearning={blocks,parts,resolveBlock,questionsFor,practiceLabel,lessonTitle,lessonLabel,sections,route,resumePart,countOptions,location};
+ return {blocks,parts,resolveBlock,questionsFor,practiceLabel,lessonTitle,lessonLabel,sections,route,resumePart,countOptions,location};
+ }
+ root.DominanceCellLearning={...createLearning(blocks),create:createLearning};
 })(globalThis);

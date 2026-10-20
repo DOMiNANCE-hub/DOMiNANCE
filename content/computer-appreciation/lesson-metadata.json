@@ -1,0 +1,142 @@
+[
+  {
+    "id": "CA01",
+    "title": "Spreadsheets and dependable data entry",
+    "pages": [
+      [
+        3,
+        15
+      ],
+      [
+        21,
+        39
+      ],
+      [
+        102,
+        102
+      ]
+    ]
+  },
+  {
+    "id": "CA02",
+    "title": "Editing, AutoComplete and AutoFill",
+    "pages": [
+      [
+        37,
+        74
+      ]
+    ]
+  },
+  {
+    "id": "CA03",
+    "title": "Formulas, references and evaluation order",
+    "pages": [
+      [
+        75,
+        117
+      ],
+      [
+        118,
+        126
+      ]
+    ]
+  },
+  {
+    "id": "CA04",
+    "title": "Functions, dates and common calculations",
+    "pages": [
+      [
+        127,
+        167
+      ]
+    ]
+  },
+  {
+    "id": "CA05",
+    "title": "Describing and counting numeric data",
+    "pages": [
+      [
+        168,
+        177
+      ]
+    ]
+  },
+  {
+    "id": "CA06",
+    "title": "Text, logical tests and financial arguments",
+    "pages": [
+      [
+        178,
+        203
+      ],
+      [
+        222,
+        223
+      ]
+    ]
+  },
+  {
+    "id": "CA07",
+    "title": "Formatting, printing and workbook care",
+    "pages": [
+      [
+        204,
+        221
+      ],
+      [
+        224,
+        309
+      ]
+    ]
+  },
+  {
+    "id": "CA08",
+    "title": "Choosing and checking charts",
+    "pages": [
+      [
+        312,
+        376
+      ]
+    ]
+  },
+  {
+    "id": "CA09",
+    "title": "Sorting and filtering records",
+    "pages": [
+      [
+        377,
+        400
+      ]
+    ]
+  },
+  {
+    "id": "CA10",
+    "title": "PowerPoint slides, layouts and saved files",
+    "pages": [
+      [
+        401,
+        456
+      ]
+    ]
+  },
+  {
+    "id": "CA11",
+    "title": "Tables, pictures and presentation objects",
+    "pages": [
+      [
+        457,
+        511
+      ]
+    ]
+  },
+  {
+    "id": "CA12",
+    "title": "Presenting, printing and controlled effects",
+    "pages": [
+      [
+        512,
+        542
+      ]
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "studentPublication": false,
+  "academicApproval": null,
+  "reason": "Subject review and required Office practical checks remain open. Computer content is available only in fixed local emulator review mode.",
+  "withheldIds": [
+    "CSM177-B02-L09-Q02",
+    "B06L04Q04",
+    "B06L04Q05",
+    "B06L07Q05"
+  ]
+}
