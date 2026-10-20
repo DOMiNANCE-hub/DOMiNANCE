@@ -51,4 +51,15 @@ test('Sprint 05 fixes concept-check answer background, hides orphan reader hr wr
  assert.match(uiCss,/html\.authenticated-dashboard\[data-mode=dark\] \.shell \.side \.nav button\.active\{background:#1d3557!important/);
  assert.match(uiCss,/\.authenticated-dashboard \.community-person\{min-height:196px/);
 });
+test('Integrated QA preserves hidden file inputs in account dialogs, suppresses programmatic heading focus outlines, prevents mobile table header word-splitting, and aligns AuthGate focus and action buttons',()=>{
+ const authCss=readFileSync('src/auth.css','utf8'),accountCss=readFileSync('src/account.css','utf8'),uiCss=readFileSync('public/dashboard/workspace-ui.css','utf8');
+ assert.match(accountCss,/\.account-dialog \[hidden\],\.account-dialog input\[hidden\]\{display:none!important\}/);
+ assert.match(uiCss,/\.account-dialog \[hidden\],\.account-dialog input\[hidden\]\{display:none!important\}/);
+ assert.match(uiCss,/html h3\[tabindex='-1'\]:focus,html h3\[tabindex='-1'\]:focus-visible\{outline:none!important\}/);
+ assert.match(uiCss,/\.authenticated-dashboard \.cell-table th\{white-space:nowrap\}/);
+ assert.match(uiCss,/html\.authenticated-dashboard\[data-mode=dark\] \.shell \.side \.nav button\.active\{box-shadow:none!important\}/);
+ assert.match(authCss,/\.dom-auth\{--app-focus:#f6c75b;/);
+ assert.match(authCss,/\.dom-auth>section>\.account-secondary,\.dom-auth form \.account-secondary\{width:100%;/);
+});
+
 

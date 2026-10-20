@@ -259,3 +259,14 @@ html.authenticated-dashboard[data-mode=dark] .shell .side .nav button.active{bac
 .authenticated-dashboard .community-person:hover{border-color:var(--app-accent)!important;transform:translateY(-1px)}
 .authenticated-dashboard .community-person small{font-weight:700;padding-top:6px}
 
+/* Integrated Student Experience QA: hidden file input guard, programmatic heading focus suppression, table header readability, active tab border clarity, and mobile dark-mode nav polish. */
+.account-dialog [hidden],.account-dialog input[hidden]{display:none!important}
+html h1[tabindex='-1']:focus-visible,html h2[tabindex='-1']:focus-visible,html h3[tabindex='-1']:focus,html h3[tabindex='-1']:focus-visible{outline:none!important}
+.account-shell .account-panel .account-sections button[aria-pressed=true]{border-color:var(--panel-line)!important}
+.authenticated-dashboard .cell-table th,.authenticated-dashboard .cell-table td{overflow-wrap:normal;word-break:normal}
+.authenticated-dashboard .cell-table th{white-space:nowrap}
+@media(max-width:680px){
+ html.authenticated-dashboard[data-mode=dark] .shell .side .nav button.active{box-shadow:none!important}
+}
+
+
