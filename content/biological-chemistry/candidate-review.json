@@ -1,0 +1,222 @@
+{
+  "sourceFile": "BIOL157_UNIT01_QUESTIONS.json",
+  "sha256": "cf0e0f6e982d9450c8e46b7e76e54f1d78bf448e88cb01f8fe145a366efb2623",
+  "reviewer": null,
+  "academicApproval": null,
+  "items": [
+    {
+      "id": "BIOL157-U01-Q001",
+      "originalCorrectIndex": 0,
+      "originalCorrectText": "Number of protons in its nucleus",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q002",
+      "originalCorrectIndex": 1,
+      "originalCorrectText": "They are isotopes of the same element",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q003",
+      "originalCorrectIndex": 1,
+      "originalCorrectText": "Element → molecule → cell → tissue",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q004",
+      "originalCorrectIndex": 1,
+      "originalCorrectText": "Early-universe processes, stellar reactions and laboratory synthesis",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q005",
+      "originalCorrectIndex": 1,
+      "originalCorrectText": "Laboratory synthesis of elements",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q006",
+      "originalCorrectIndex": 0,
+      "originalCorrectText": "Stellar nucleosynthesis",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q007",
+      "originalCorrectIndex": 0,
+      "originalCorrectText": "C, H, O, N, P, S",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q008",
+      "originalCorrectIndex": 2,
+      "originalCorrectText": "Its small concentration does not rule out an essential role",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q009",
+      "originalCorrectIndex": 1,
+      "originalCorrectText": "CHONPS concerns bulk composition, whereas cofactors can involve lower-abundance ions",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q010",
+      "originalCorrectIndex": 1,
+      "originalCorrectText": "Linking carbon atoms to other carbon atoms in chains or rings",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q011",
+      "originalCorrectIndex": 0,
+      "originalCorrectText": "Carbon tetravalency and its ability to form stable carbon–carbon bonds",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q012",
+      "originalCorrectIndex": 1,
+      "originalCorrectText": "Incorrect: bond strength, atomic size and interactions with water also matter",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q013",
+      "originalCorrectIndex": 0,
+      "originalCorrectText": "Typically small, bond-forming elements with useful covalent chemistry",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q014",
+      "originalCorrectIndex": 0,
+      "originalCorrectText": "Environmental abundance and biological usefulness are separate criteria",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q015",
+      "originalCorrectIndex": 1,
+      "originalCorrectText": "A broad diversity of elements occurs in biological systems",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q016",
+      "originalCorrectIndex": 0,
+      "originalCorrectText": "Haem synthesis",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q017",
+      "originalCorrectIndex": 2,
+      "originalCorrectText": "They may support signalling, enzyme activity or hormone function despite low abundance",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced"
+      ],
+      "decision": "adapted-internal-review-only"
+    },
+    {
+      "id": "BIOL157-U01-Q018",
+      "originalCorrectIndex": 0,
+      "originalCorrectText": "Evidence for physiological function and safe concentration",
+      "changes": [
+        "source-checked",
+        "rationale-expanded",
+        "options-reordered",
+        "distractors-replaced",
+        "scenario-rewritten-to-assess-functional-evidence-rather-than-repeat-Q014"
+      ],
+      "decision": "adapted-internal-review-only"
+    }
+  ]
+}

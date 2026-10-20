@@ -1,0 +1,1047 @@
+{
+  "course": "BIOL157",
+  "status": "academic-review-pending",
+  "academicApproval": null,
+  "officialObjectives": [
+    {
+      "id": "BIOL157-CLO1",
+      "text": "Understand the origin of elements and the chemical evolution of living systems.",
+      "notesConcepts": [
+        "BIOL157-U01-C01",
+        "BIOL157-U01-C02",
+        "BIOL157-U01-C03",
+        "BIOL157-U01-C04",
+        "BIOL157-U01-C05",
+        "BIOL157-U01-C06",
+        "BIOL157-U02-C01",
+        "BIOL157-U02-C02",
+        "BIOL157-U02-C03",
+        "BIOL157-U02-C04",
+        "BIOL157-U02-C05",
+        "BIOL157-U02-C06",
+        "BIOL157-U02-C07",
+        "BIOL157-U02-C08"
+      ],
+      "questions": [
+        "BIOL157-U01-Q001",
+        "BIOL157-U01-Q002",
+        "BIOL157-U01-Q003",
+        "BIOL157-U01-Q004",
+        "BIOL157-U01-Q005",
+        "BIOL157-U01-Q006",
+        "BIOL157-U01-Q007",
+        "BIOL157-U01-Q008",
+        "BIOL157-U01-Q009",
+        "BIOL157-U01-Q010",
+        "BIOL157-U01-Q011",
+        "BIOL157-U01-Q012",
+        "BIOL157-U01-Q013",
+        "BIOL157-U01-Q014",
+        "BIOL157-U01-Q015",
+        "BIOL157-U01-Q016",
+        "BIOL157-U01-Q017",
+        "BIOL157-U01-Q018",
+        "BIOL157-U02-Q001",
+        "BIOL157-U02-Q002",
+        "BIOL157-U02-Q003",
+        "BIOL157-U02-Q004",
+        "BIOL157-U02-Q005",
+        "BIOL157-U02-Q006",
+        "BIOL157-U02-Q007",
+        "BIOL157-U02-Q008",
+        "BIOL157-U02-Q009",
+        "BIOL157-U02-Q010",
+        "BIOL157-U02-Q011",
+        "BIOL157-U02-Q012",
+        "BIOL157-U02-Q013",
+        "BIOL157-U02-Q014",
+        "BIOL157-U02-Q015",
+        "BIOL157-U02-Q016"
+      ],
+      "coverageStatus": "draft-partial-not-certified"
+    },
+    {
+      "id": "BIOL157-CLO2",
+      "text": "Appreciate the various atomic models and the periodic properties of elements.",
+      "notesConcepts": [],
+      "questions": [],
+      "coverageStatus": "not-authored"
+    },
+    {
+      "id": "BIOL157-CLO3",
+      "text": "Explain the types and importance of chemical bonds in biomolecule formation.",
+      "notesConcepts": [],
+      "questions": [],
+      "coverageStatus": "not-authored"
+    },
+    {
+      "id": "BIOL157-CLO4",
+      "text": "Explain enzyme function, classification, and factors affecting enzyme function.",
+      "notesConcepts": [],
+      "questions": [],
+      "coverageStatus": "not-authored"
+    },
+    {
+      "id": "BIOL157-CLO5",
+      "text": "Understand the biological role of carbohydrates, proteins, nucleic acids, and lipids.",
+      "notesConcepts": [],
+      "questions": [],
+      "coverageStatus": "not-authored"
+    }
+  ],
+  "units": [
+    {
+      "id": "U01",
+      "title": "Elemental Composition of Cells",
+      "topics": [
+        {
+          "id": "BIOL157-U01-T01",
+          "unit": "U01",
+          "title": "Origin of elements",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0102"
+          ],
+          "questions": [
+            "BIOL157-U01-Q004",
+            "BIOL157-U01-Q005",
+            "BIOL157-U01-Q006"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U01-T02",
+          "unit": "U01",
+          "title": "Elements in cells",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0101",
+            "BC0103",
+            "BC0106"
+          ],
+          "questions": [
+            "BIOL157-U01-Q001",
+            "BIOL157-U01-Q002",
+            "BIOL157-U01-Q003",
+            "BIOL157-U01-Q007",
+            "BIOL157-U01-Q008",
+            "BIOL157-U01-Q009",
+            "BIOL157-U01-Q016",
+            "BIOL157-U01-Q017",
+            "BIOL157-U01-Q018"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U01-T03",
+          "unit": "U01",
+          "title": "Features of major elements",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0104",
+            "BC0105"
+          ],
+          "questions": [
+            "BIOL157-U01-Q010",
+            "BIOL157-U01-Q011",
+            "BIOL157-U01-Q012",
+            "BIOL157-U01-Q013",
+            "BIOL157-U01-Q014",
+            "BIOL157-U01-Q015"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0101",
+        "BC0102",
+        "BC0103",
+        "BC0104",
+        "BC0105",
+        "BC0106"
+      ]
+    },
+    {
+      "id": "U02",
+      "title": "Evolution of Living Organisms",
+      "topics": [
+        {
+          "id": "BIOL157-U02-T01",
+          "unit": "U02",
+          "title": "Origin of life",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0201",
+            "BC0202",
+            "BC0203",
+            "BC0204"
+          ],
+          "questions": [
+            "BIOL157-U02-Q001",
+            "BIOL157-U02-Q002",
+            "BIOL157-U02-Q003",
+            "BIOL157-U02-Q004",
+            "BIOL157-U02-Q005",
+            "BIOL157-U02-Q006",
+            "BIOL157-U02-Q007",
+            "BIOL157-U02-Q008"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U02-T02",
+          "unit": "U02",
+          "title": "Formation of cells",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0205",
+            "BC0206",
+            "BC0207"
+          ],
+          "questions": [
+            "BIOL157-U02-Q009",
+            "BIOL157-U02-Q010",
+            "BIOL157-U02-Q011",
+            "BIOL157-U02-Q012",
+            "BIOL157-U02-Q013",
+            "BIOL157-U02-Q014"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U02-T03",
+          "unit": "U02",
+          "title": "Development of metabolic pathways",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0208"
+          ],
+          "questions": [
+            "BIOL157-U02-Q015",
+            "BIOL157-U02-Q016"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0201",
+        "BC0202",
+        "BC0203",
+        "BC0204",
+        "BC0205",
+        "BC0206",
+        "BC0207",
+        "BC0208"
+      ]
+    },
+    {
+      "id": "U03",
+      "title": "Atomic Structure and Periodic Chemistry",
+      "topics": [
+        {
+          "id": "BIOL157-U03-T01",
+          "unit": "U03",
+          "title": "Early atomic theories",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U03-T02",
+          "unit": "U03",
+          "title": "Electronic configuration",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U03-T03",
+          "unit": "U03",
+          "title": "Periodic properties",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U04",
+      "title": "Bond Formation and Molecules",
+      "topics": [
+        {
+          "id": "BIOL157-U04-T01",
+          "unit": "U04",
+          "title": "Chemical bonds",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U04-T02",
+          "unit": "U04",
+          "title": "Molecular forces",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U04-T03",
+          "unit": "U04",
+          "title": "Isomerism",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U04-T04",
+          "unit": "U04",
+          "title": "Functional groups",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U05",
+      "title": "Carbohydrates",
+      "topics": [
+        {
+          "id": "BIOL157-U05-T01",
+          "unit": "U05",
+          "title": "Monosaccharide derivatives",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U05-T02",
+          "unit": "U05",
+          "title": "Oligosaccharides",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U05-T03",
+          "unit": "U05",
+          "title": "Polysaccharides",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U06",
+      "title": "Nucleic Acids",
+      "topics": [
+        {
+          "id": "BIOL157-U06-T01",
+          "unit": "U06",
+          "title": "Purines and pyrimidines",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U06-T02",
+          "unit": "U06",
+          "title": "Nucleosides and nucleotides",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U06-T03",
+          "unit": "U06",
+          "title": "DNA",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U06-T04",
+          "unit": "U06",
+          "title": "RNA",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U07",
+      "title": "Proteins",
+      "topics": [
+        {
+          "id": "BIOL157-U07-T01",
+          "unit": "U07",
+          "title": "Amino acids",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U07-T02",
+          "unit": "U07",
+          "title": "Peptide and polypeptide formation",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U07-T03",
+          "unit": "U07",
+          "title": "Protein structure",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U08",
+      "title": "Enzymes",
+      "topics": [
+        {
+          "id": "BIOL157-U08-T01",
+          "unit": "U08",
+          "title": "Enzyme function",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U08-T02",
+          "unit": "U08",
+          "title": "Enzyme classification",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U08-T03",
+          "unit": "U08",
+          "title": "Enzyme kinetics",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U08-T04",
+          "unit": "U08",
+          "title": "Enzyme regulation",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U09",
+      "title": "Metabolic Pathways",
+      "topics": [
+        {
+          "id": "BIOL157-U09-T01",
+          "unit": "U09",
+          "title": "Principles of metabolic pathways",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U09-T02",
+          "unit": "U09",
+          "title": "Control mechanisms",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U10",
+      "title": "Lipids",
+      "topics": [
+        {
+          "id": "BIOL157-U10-T01",
+          "unit": "U10",
+          "title": "Functions of lipids",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U10-T02",
+          "unit": "U10",
+          "title": "Lipid classification",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U10-T03",
+          "unit": "U10",
+          "title": "Lipid reactions",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U10-T04",
+          "unit": "U10",
+          "title": "Structural features",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        },
+        {
+          "id": "BIOL157-U10-T05",
+          "unit": "U10",
+          "title": "Lipid properties",
+          "status": "not-authored",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [],
+          "questions": [],
+          "coverageStatus": "not-authored"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    }
+  ],
+  "counts": {
+    "units": 10,
+    "topics": 34,
+    "concepts": 14,
+    "lessons": 14,
+    "questions": 34
+  }
+}

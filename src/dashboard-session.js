@@ -1,8 +1,12 @@
 import '../public/dashboard/cell-learning.js'
 import '../public/dashboard/cell-index.js'
 import '../public/dashboard/cell-state.js'
+import '../public/dashboard/biological-catalog.js'
+import '../public/dashboard/biological-learning.js'
+import '../public/dashboard/biological-index.js'
+import '../public/dashboard/biological-state.js'
 import {validAvatar} from './avatars.js'
-const keys=new Set(['scores','lamlaScores','lastPlace','theme','mode','intensity','motion','dailyGoal','avatar','cellStructure']);
+const keys=new Set(['scores','lamlaScores','lastPlace','theme','mode','intensity','motion','dailyGoal','avatar','cellStructure','biologicalChemistry']);
 // UI/demo state only. Never a source of permissions, official scores or mastery.
 export function createDashboardStorage({auth,uid,initial={},initialConfirmed=true,write,onStatus}){
  const cache={};for(const key of keys)if(typeof initial[key]==='string'&&initial[key].length<=100000)cache[key]=initial[key];
@@ -21,3 +25,5 @@ export function mergeDemoHistory(existing,incoming){
 }
 
 export function mergeCellHistory(existing,incoming){return globalThis.DominanceCellState.merge(existing,incoming,globalThis.DominanceCellIndex)}
+
+export function mergeBiologicalHistory(existing,incoming){return globalThis.DominanceBiologicalState.merge(existing,incoming,globalThis.DominanceBiologicalIndex)}

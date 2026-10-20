@@ -1,0 +1,313 @@
+{
+  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40.",
+  "anchors": [
+    {
+      "source": "L1",
+      "pdfPage": 3,
+      "anchor": "January 19, 2026                BIOL 157: Biological Chemistry           3",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 4,
+      "anchor": "January 19, 2026             BIOL 157: Biological Chemistry     4",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 5,
+      "anchor": "January 19, 2026                   BIOL 157: Biological Chemistry   5",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 6,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry       6",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 8,
+      "anchor": "January 19, 2026             BIOL 157: Biological Chemistry           8",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 10,
+      "anchor": "January 19, 2026            BIOL 157: Biological Chemistry      10",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 11,
+      "anchor": "January 19, 2026                 BIOL 157: Biological Chemistry             11",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 13,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry   13",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 14,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry   14",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 16,
+      "anchor": "January 19, 2026                    BIOL 157: Biological Chemistry               16",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 17,
+      "anchor": "January 19, 2026                  BIOL 157: Biological Chemistry   17",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 19,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry          19",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 20,
+      "anchor": "January 19, 2026                BIOL 157: Biological Chemistry           20",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 21,
+      "anchor": "January 19, 2026             BIOL 157: Biological Chemistry        21",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 22,
+      "anchor": "January 19, 2026                 BIOL 157: Biological Chemistry            22",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 23,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry   23",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 24,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry      24",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 25,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry     25",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 3,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry            3",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 4,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry                  4",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 5,
+      "anchor": "22 January 2026               BIOL 157: Biological Chemistry           5",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 6,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry               6",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 8,
+      "anchor": "22 January 2026                  BIOL 157: Biological Chemistry          8",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 12,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry            12",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 13,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry            13",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 16,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry              16",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 17,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry              17",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 18,
+      "anchor": "22 January 2026                  BIOL 157: Biological Chemistry           18",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 19,
+      "anchor": "22 January 2026                BIOL 157: Biological Chemistry      19",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 20,
+      "anchor": "22 January 2026                 BIOL 157: Biological Chemistry              20",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 21,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry              21",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 22,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry             22",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 23,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry               23",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 24,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry        24",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 25,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry                25",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 26,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry           26",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 27,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry             27",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 33,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry         33",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 34,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry          34",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 35,
+      "anchor": "22 January 2026                  BIOL 157: Biological Chemistry         35",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 36,
+      "anchor": "22 January 2026                  BIOL 157: Biological Chemistry              36",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 37,
+      "anchor": "22 January 2026                 BIOL 157: Biological Chemistry         37",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 38,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry         38",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 39,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry              39",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 40,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry      40",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 43,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry         44",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 44,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry                45",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 45,
+      "anchor": "22 January 2026            BIOL 157: Biological Chemistry   46",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    }
+  ],
+  "visuallyInspected": [
+    {
+      "source": "L1",
+      "pdfPages": [
+        18
+      ],
+      "result": "Mineral figure inspected; broad health claims excluded."
+    },
+    {
+      "source": "L2",
+      "pdfPages": [
+        28,
+        29,
+        30,
+        31,
+        41
+      ],
+      "result": "Apparatus, formose/Strecker schemes, base diagram and compartment scheme inspected. Images not republished; nucleotide label qualified."
+    }
+  ]
+}
