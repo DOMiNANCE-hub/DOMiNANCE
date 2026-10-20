@@ -2288,5 +2288,1714 @@
         "source": "PERIODIC"
       }
     ]
+  },
+  {
+    "id": "BIOL157-U04-Q001",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C01",
+    "lesson": "BC0401",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "Which formula gives charge balance for Mg²+ and Cl− in a simple ionic solid?",
+    "options": [
+      "Mg₂Cl₃",
+      "MgCl",
+      "MgCl₂",
+      "Mg₂Cl"
+    ],
+    "letter": "C",
+    "explanation": "One Mg²+ contributes +2 and two Cl− ions contribute −2, giving MgCl₂. Formula ratios balance charge; they do not simply copy the count of different element names.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q002",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C01",
+    "lesson": "BC0401",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "An illustrative cycle has contributions +100,+120,+500,−350 and −750 kJ/mol. What is the net change?",
+    "options": [
+      "+380 kJ/mol",
+      "−1120 kJ/mol",
+      "+1120 kJ/mol",
+      "−380 kJ/mol"
+    ],
+    "letter": "D",
+    "explanation": "Add the signed process changes: 100+120+500−350−750=−380 kJ/mol. The values are explicitly supplied, not measured NaCl data. Reversing energy signs or omitting necessary steps changes the balance.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q003",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C01",
+    "lesson": "BC0401",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "A table reports lattice dissociation as +750 kJ/mol. Which value belongs to its exact reverse, lattice formation?",
+    "options": [
+      "−750 kJ/mol",
+      "0 kJ/mol",
+      "The ionisation energy of the metal",
+      "+750 kJ/mol"
+    ],
+    "letter": "A",
+    "explanation": "Reversing a specified thermochemical process reverses its enthalpy sign. Dissociation and formation are opposite directions, not two separate favourable contributions to add together.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q004",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C01",
+    "lesson": "BC0401",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO3",
+    "question": "What is the appropriate use of an electronegativity-difference cutoff such as 1.7?",
+    "options": [
+      "A universal sharp boundary proving complete electron transfer",
+      "An introductory heuristic for bonding character, with important qualifications",
+      "A replacement for an entire lattice-energy calculation",
+      "A condition that guarantees every salt dissolves in water"
+    ],
+    "letter": "B",
+    "explanation": "Electronegativity differences can suggest bonding character, but real electron distributions are not switched abruptly by a threshold. Lattice structure and dissolution energetics require additional reasoning.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q005",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C02",
+    "lesson": "BC0402",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "How many valence electrons are counted for NH₄+?",
+    "options": [
+      "Ten",
+      "Twelve",
+      "Eight",
+      "Nine"
+    ],
+    "letter": "C",
+    "explanation": "Count 5 from N plus 4 from H, then subtract one for the positive charge: 8. Forgetting the charge gives nine; adding rather than subtracting gives ten. These are valence electrons, not all core electrons.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            3,
+            7
+          ],
+          [
+            24,
+            25
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q006",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C02",
+    "lesson": "BC0402",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "What formal charge is assigned to nitrogen with four single bonds and no lone pair in NH₄+?",
+    "options": [
+      "+2",
+      "−1",
+      "0",
+      "+1"
+    ],
+    "letter": "D",
+    "explanation": "Formal charge is 5−0−4=+1. The four bonds count one assigned electron each for the nitrogen bookkeeping. This formal charge is not a complete experimental map of partial electron density.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            3,
+            7
+          ],
+          [
+            24,
+            25
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q007",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C02",
+    "lesson": "BC0402",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "Which comparison correctly distinguishes resonance contributors from tautomers?",
+    "options": [
+      "Resonance keeps nuclear connectivity fixed; tautomerism changes proton attachment and bond placement",
+      "Resonance changes the molecular formula; tautomerism cannot change any bond placement",
+      "Both are necessarily equal-population mixtures",
+      "Both always require moving nuclei to new attachments"
+    ],
+    "letter": "A",
+    "explanation": "Resonance contributors describe a delocalised electronic state with fixed nuclear connectivity. Tautomers are distinct interconverting connectivities. Neither concept implies equal abundance of all drawings.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            3,
+            7
+          ],
+          [
+            24,
+            25
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q008",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C02",
+    "lesson": "BC0402",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "Which statement about BF₃ is appropriate in the simple Lewis description?",
+    "options": [
+      "It must be drawn with an invented negative charge to force an octet",
+      "Boron can have an electron-deficient valence shell",
+      "Every atom in BF₃ has eight total electrons including core electrons",
+      "A Lewis octet proves large d-orbital participation"
+    ],
+    "letter": "B",
+    "explanation": "The simple BF₃ Lewis structure leaves boron electron deficient. The octet rule is useful but not universal; adding nonexistent electrons or invoking d orbitals merely to enforce a drawing is not a valid electron count.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            3,
+            7
+          ],
+          [
+            24,
+            25
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q009",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C03",
+    "lesson": "BC0403",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "How many sigma and pi bonds occur in ethene, CH₂=CH₂?",
+    "options": [
+      "One sigma and five pi",
+      "Four sigma and two pi",
+      "Five sigma and one pi",
+      "Six sigma and zero pi"
+    ],
+    "letter": "C",
+    "explanation": "Four C–H sigma bonds plus one C–C sigma give five; the double bond also contains one pi component. A double bond is not two sigma bonds or only a pi bond.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            7,
+            19
+          ],
+          [
+            24,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q010",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C03",
+    "lesson": "BC0403",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "How many sigma and pi bonds occur in ethyne, HC≡CH?",
+    "options": [
+      "Four sigma and one pi",
+      "Five sigma and zero pi",
+      "Two sigma and three pi",
+      "Three sigma and two pi"
+    ],
+    "letter": "D",
+    "explanation": "Two C–H sigma bonds and one C–C sigma give three. The triple bond adds two pi components. Count bonded atom pairs first, then pi contributions.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            7,
+            19
+          ],
+          [
+            24,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q011",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C03",
+    "lesson": "BC0403",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "Which local orbital description is appropriate for an ordinary alkene carbon?",
+    "options": [
+      "Three sp² orbitals and one unhybridised p orbital",
+      "Two sp orbitals and no unhybridised p orbitals",
+      "One sp² orbital containing all four bonding pairs",
+      "Four sp³ orbitals plus two unused p orbitals"
+    ],
+    "letter": "A",
+    "explanation": "An sp² model supplies three planar sigma directions and leaves one p orbital for pi overlap. The other options miscount the available functions or confuse one orbital with an entire bonding framework.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            7,
+            19
+          ],
+          [
+            24,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q012",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C03",
+    "lesson": "BC0403",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO3",
+    "question": "Why does a pi bond help preserve distinct alkene configurations?",
+    "options": [
+      "Rotation preserves pi overlap equally at every dihedral angle",
+      "Rotation disrupts the p-orbital overlap, producing a substantial barrier",
+      "Pi bonding removes the sigma component of a double bond",
+      "Changing a dihedral angle must always change atom connectivity"
+    ],
+    "letter": "B",
+    "explanation": "Rotation disrupts lateral p-orbital overlap and encounters a substantial barrier. The sigma component remains present, and changing a dihedral angle does not by itself change which atoms are connected. Pi bonding therefore helps determine molecular shape rather than allowing energy-free rotation.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            7,
+            19
+          ],
+          [
+            24,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q013",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C04",
+    "lesson": "BC0404",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "What are the broad electron-domain geometry and molecular shape of H₂O?",
+    "options": [
+      "Tetrahedral domains and trigonal-pyramidal molecular shape",
+      "Linear domains and linear molecular shape",
+      "Tetrahedral domains and bent molecular shape",
+      "Trigonal-planar domains and tetrahedral molecular shape"
+    ],
+    "letter": "C",
+    "explanation": "Two bonding regions and two lone pairs give four domains, broadly tetrahedral. Molecular shape counts nuclei and is bent. Trigonal pyramidal applies to a common three-bond/one-lone-pair example such as NH₃.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            26,
+            35
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q014",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C04",
+    "lesson": "BC0404",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "Why can CO₂ have polar C=O bonds but no net dipole?",
+    "options": [
+      "Every double bond is nonpolar",
+      "The molecule contains a hidden ionic lattice",
+      "The oxygen atoms have no electronegativity",
+      "Equivalent bond dipoles oppose and cancel in its linear geometry"
+    ],
+    "letter": "D",
+    "explanation": "The two equivalent C=O dipoles cancel by symmetry in linear CO₂. Bond polarity and molecular net dipole are different questions; double bonding does not make every bond nonpolar.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            26,
+            35
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q015",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C04",
+    "lesson": "BC0404",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "How many VSEPR electron domains does a C=O double bond count as at the carbon?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "letter": "A",
+    "explanation": "A multiple bond counts as one region for the introductory electron-domain geometry analysis. Its sigma and pi components remain chemically distinct, but they are not separate domain directions.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            26,
+            35
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q016",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C04",
+    "lesson": "BC0404",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "Which statement correctly distinguishes NH₃ from CH₄ in the simple geometry model?",
+    "options": [
+      "A nitrogen lone pair must be counted as an additional atom",
+      "Both have four domains, but NH₃ has one lone pair and a trigonal-pyramidal molecular shape",
+      "Both necessarily have identical 109.5° bond angles",
+      "NH₃ has only three valence electron domains"
+    ],
+    "letter": "B",
+    "explanation": "NH₃ has three bonds and one lone pair, while CH₄ has four bonds. Domain count is four in each, but molecular shape and typical angles differ. Lone pairs are electron regions rather than nuclei.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            26,
+            35
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q017",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C05",
+    "lesson": "BC0405",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "In NH₃ binding BF₃, which participant donates the shared electron pair in the Lewis description?",
+    "options": [
+      "Nitrogen and boron must each contribute one electron instead of a pre-existing pair",
+      "Boron donates an available lone pair to electron-deficient nitrogen",
+      "Nitrogen in NH₃ donates its available lone pair to boron",
+      "Fluorine in BF₃ donates the pair while the nitrogen lone pair remains uninvolved"
+    ],
+    "letter": "C",
+    "explanation": "Nitrogen has the available lone pair and electron-deficient boron accepts it. This is not donation from a boron lone pair or a fluorine-centred process. The coordinate formation description specifically follows a pre-existing pair from one donor rather than requiring each partner to supply one electron.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            20,
+            23
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q018",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C05",
+    "lesson": "BC0405",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "After NH₄+ forms, which statement about its four N–H bonds is appropriate?",
+    "options": [
+      "The donated pair leaves one nitrogen lone pair unbound",
+      "The ion must retain a planar NH₃ geometry",
+      "One equivalent bond remains permanently identifiable as a uniquely weak dative bond",
+      "The formation description does not make one equivalent bond intrinsically distinct"
+    ],
+    "letter": "D",
+    "explanation": "The origin of a shared pair does not distinguish otherwise equivalent N–H bonds in the final ion. Its simple Lewis structure has four bonds and no nitrogen lone pair; the structure is not unchanged planar ammonia.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            20,
+            23
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q019",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C05",
+    "lesson": "BC0405",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "Why is NH₄+ not equivalent to NH₃ as an electron-pair donor in the simple Lewis model?",
+    "options": [
+      "NH₄+ has no nitrogen lone pair available in that structure",
+      "NH₄+ retains the same nitrogen lone pair as NH₃",
+      "The four bonding pairs in NH₄+ are all unshared nitrogen lone pairs",
+      "A positive charge means every bond is permanently ionic"
+    ],
+    "letter": "A",
+    "explanation": "Ammonium uses its nitrogen valence-electron count in four N–H bonds, leaving no nitrogen lone pair in the simple structure. The four shared pairs are not four unshared lone pairs. Positive charge alone also does not make every bond purely ionic.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            20,
+            23
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q020",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C06",
+    "lesson": "BC0406",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "Which hydrogen-bonding description fits a common neutral ether?",
+    "options": [
+      "It has the same donor pattern as an alcohol",
+      "It can accept through oxygen but lacks an O–H donor",
+      "It must donate an O–H bond because it contains oxygen",
+      "It cannot interact with water by any force"
+    ],
+    "letter": "B",
+    "explanation": "An ether oxygen can accept from water; an ether lacks the alcohol O–H donor. Polar and dispersion interactions also exist, so the absence of O–H does not mean zero interaction.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            36,
+            47
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q021",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C06",
+    "lesson": "BC0406",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "Why does favourable hydration not alone establish that an ionic solid is highly water-soluble?",
+    "options": [
+      "Hydration necessarily breaks the ions into neutral atoms",
+      "Solubility is determined only by the number of element names",
+      "The lattice and solvent reorganisation costs and entropy also contribute",
+      "All ionic solids have identical lattice energies"
+    ],
+    "letter": "C",
+    "explanation": "Dissolution depends on a complete free-energy balance. Hydration is one contribution, while lattice separation, solvent changes and entropy can offset it. Some ionic compounds remain sparingly soluble.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            36,
+            47
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q022",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C06",
+    "lesson": "BC0406",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "Which statement about London dispersion is accurate?",
+    "options": [
+      "It is another name for a covalent O–H bond",
+      "It requires a net ionic charge on every molecule",
+      "It occurs only in molecules with permanent dipoles",
+      "It occurs in polar as well as nonpolar species"
+    ],
+    "letter": "D",
+    "explanation": "Fluctuating electron distributions can produce dispersion interactions in all relevant molecular species, including polar ones. Permanent dipoles, ionic charge and covalent O–H bonds describe different features.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            36,
+            47
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q023",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C06",
+    "lesson": "BC0406",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO3",
+    "question": "What additional information is needed before accepting a blanket statement that HF is a liquid?",
+    "options": [
+      "The stated temperature and pressure",
+      "Only the number of letters in its formula",
+      "Only whether the H–F bond is covalent",
+      "A guarantee that intermolecular forces never affect phases"
+    ],
+    "letter": "A",
+    "explanation": "Phase depends on temperature and pressure. HF association explains its elevated boiling point relative to the other hydrogen halides, but does not make its phase independent of conditions.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            36,
+            47
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q024",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C07",
+    "lesson": "BC0407",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "Ethanol and dimethyl ether are both C₂H₆O. What distinguishes them?",
+    "options": [
+      "Only a rotation around the same unchanged bond network",
+      "Different oxygen connectivity and functional-group arrangement",
+      "Different total numbers of oxygen atoms",
+      "Opposite configurations at an identical stereocentre"
+    ],
+    "letter": "B",
+    "explanation": "Ethanol contains C–O–H while dimethyl ether contains C–O–C. Their formula matches but connectivity differs, making them constitutional functional isomers rather than conformers or a chiral pair.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            48,
+            52
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q025",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C07",
+    "lesson": "BC0407",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "What relationship connects propan-1-ol and propan-2-ol?",
+    "options": [
+      "Resonance contributors with fixed atom positions",
+      "Identical structures requiring only a page rotation",
+      "Positional constitutional isomerism",
+      "An enantiomer pair formed by mirroring a stereocentre"
+    ],
+    "letter": "C",
+    "explanation": "Both have the same broad carbon framework and alcohol group, but OH attaches at an end versus the middle. Reversing a drawing does not move that attachment to a different carbon.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            48,
+            52
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q026",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C07",
+    "lesson": "BC0407",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO3",
+    "question": "Which change occurs in keto–enol tautomerism rather than simple resonance?",
+    "options": [
+      "The molecular formula necessarily gains an oxygen atom",
+      "All tautomers must become equally abundant",
+      "Only electron bookkeeping changes with fixed nuclei",
+      "Proton attachment and double-bond placement change between distinct species"
+    ],
+    "letter": "D",
+    "explanation": "Tautomerisation involves chemical interconversion with proton movement and bond relocation. Resonance contributors retain nuclear connectivity. Relative tautomer abundance depends on structure and conditions, not drawing count.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            48,
+            52
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q027",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C07",
+    "lesson": "BC0407",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO3",
+    "question": "How should CH₃C(=O)CH₃ and CH₂=C(OH)CH₃ be compared in this unit?",
+    "options": [
+      "They are keto and enol tautomers with formula C₃H₆O",
+      "They are the same resonance contributor rotated in space",
+      "They necessarily occur in a 50:50 equilibrium mixture",
+      "They have different molecular formulas"
+    ],
+    "letter": "A",
+    "explanation": "Counting atoms gives C₃H₆O for each, while proton attachment and bonding differ. They are distinct tautomers; a drawn pair does not establish equal equilibrium amounts.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            48,
+            52
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q028",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C08",
+    "lesson": "BC0408",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "Anti and gauche butane differ primarily in which way?",
+    "options": [
+      "Carbon connectivity",
+      "Dihedral arrangement about the same central C–C bond",
+      "Molecular formula",
+      "Configuration at a newly created tetrahedral stereocentre"
+    ],
+    "letter": "B",
+    "explanation": "They are conformers of the same bond network. Rotation changes the dihedral angle and energy, without producing a branched constitutional isomer.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            53,
+            53
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q029",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C08",
+    "lesson": "BC0408",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "What does the phrase “free rotation about a single bond” fail to capture?",
+    "options": [
+      "The preservation of the same carbon connectivity",
+      "The existence of sigma bonding",
+      "Torsional energy barriers and possible constraints",
+      "The possibility of different conformations"
+    ],
+    "letter": "C",
+    "explanation": "Rotation can encounter energy barriers even without breaking the sigma bond. Rings and conjugation add constraints, so free rotation is an approximation rather than a flat energy surface.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            53,
+            53
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q030",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C08",
+    "lesson": "BC0408",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO3",
+    "question": "Why is the peptide C–N bond not treated as an ordinary freely rotating alkane-like bond?",
+    "options": [
+      "Nitrogen has no valence electrons",
+      "The C–N link is always purely ionic",
+      "Its connectivity changes during every small backbone motion",
+      "Amide resonance gives it partial double-bond character"
+    ],
+    "letter": "D",
+    "explanation": "Resonance within the amide group constrains rotation and supports approximate planarity. This does not imply that every protein-backbone bond is rigid or that small conformational changes alter connectivity.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            53,
+            53
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q031",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C09",
+    "lesson": "BC0409",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "Which alkene fails the requirement for E/Z isomerism?",
+    "options": [
+      "CH₂=C(Cl)Br",
+      "An alkene with H/CH₃ on each double-bond carbon",
+      "An alkene with Br/I on one carbon and Cl/F on the other",
+      "CH₃CH=CHCH₃"
+    ],
+    "letter": "A",
+    "explanation": "CH₂ has two identical hydrogen substituents on one alkene carbon. Both carbons must each have two different substituents. The pairs need not all be different across the entire molecule.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            54,
+            59
+          ]
+        ]
+      },
+      {
+        "source": "STEREOEZ"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q032",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C09",
+    "lesson": "BC0409",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "An alkene has Br above/I below on the left carbon and Cl above/F below on the right. What is its E/Z assignment?",
+    "options": [
+      "No assignment because all four substituents differ",
+      "E, because I and Cl are the higher-priority groups and lie opposite",
+      "Z, because Br and Cl both lie above",
+      "E, because total atomic mass replaces local priority rules"
+    ],
+    "letter": "B",
+    "explanation": "Compare independently on each carbon: I outranks Br, and Cl outranks F. I below-left and Cl above-right are opposite, giving E. Comparing only visually corresponding top labels or global mass gives the wrong rule.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            54,
+            59
+          ]
+        ]
+      },
+      {
+        "source": "STEREOEZ"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q033",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C09",
+    "lesson": "BC0409",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "When ethyl and methyl are the two substituents on one alkene carbon, how is their CIP tie resolved?",
+    "options": [
+      "The larger total group mass always decides without examining connectivity",
+      "Methyl ranks higher because its name comes later alphabetically",
+      "Ethyl ranks higher at the next layer: C,H,H outranks H,H,H",
+      "They remain tied permanently because both begin with carbon"
+    ],
+    "letter": "C",
+    "explanation": "The directly attached carbons tie, so compare attached-atom lists at the next point of difference. Ethyl presents carbon where methyl presents only hydrogen. Alphabetical order is not the priority rule.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            54,
+            59
+          ]
+        ]
+      },
+      {
+        "source": "STEREOEZ"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q034",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C09",
+    "lesson": "BC0409",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO3",
+    "question": "Does an E descriptor by itself prove that an isomer is more thermodynamically stable?",
+    "options": [
+      "Yes, because E means energy-free",
+      "No, because E/Z says nothing about spatial arrangement",
+      "Yes, for every alkene without exception",
+      "No; the descriptor specifies priority geometry, while stability needs the actual interaction/energy comparison"
+    ],
+    "letter": "D",
+    "explanation": "E/Z labels describe the relative sides of selected substituents. Steric trends are useful in simple cases, but other interactions can alter stability. A structural descriptor is not an energy measurement.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            54,
+            59
+          ]
+        ]
+      },
+      {
+        "source": "STEREOEZ"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q035",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C09",
+    "lesson": "BC0409",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "How many independent substituent-pair rankings are needed for an E/Z assignment?",
+    "options": [
+      "Two, one on each double-bond carbon",
+      "Four, one for every bond including the pi component",
+      "None if the groups look large enough",
+      "One ranking of all four groups followed by selection of only the highest"
+    ],
+    "letter": "A",
+    "explanation": "Select the higher-priority group independently at each alkene carbon, then compare their sides. A single global highest group cannot determine their relative geometry.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            54,
+            59
+          ]
+        ]
+      },
+      {
+        "source": "STEREOEZ"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q036",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C10",
+    "lesson": "BC0410",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "Which structural feature gives the central carbon of butan-2-ol a conventional tetrahedral stereocentre?",
+    "options": [
+      "Four identical substituents arranged tetrahedrally",
+      "Four different groups: OH,H,CH₃ and CH₂CH₃",
+      "Two identical methyl groups",
+      "A carbonyl with trigonal-planar carbon"
+    ],
+    "letter": "B",
+    "explanation": "The four attached groups differ, including the two carbon-based groups after examining their full connectivity. Two identical substituents or a planar carbonyl carbon do not give this conventional tetrahedral stereocentre.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            60,
+            62
+          ]
+        ]
+      },
+      {
+        "source": "STEREOCIP"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q037",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C10",
+    "lesson": "BC0410",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "With priority 4 pointing away, a clockwise 1→2→3 sequence gives which configuration?",
+    "options": [
+      "Automatically (+)",
+      "Automatically D",
+      "R",
+      "S"
+    ],
+    "letter": "C",
+    "explanation": "The oriented CIP sequence gives R. It does not assign optical rotation or a D/L reference relationship, which are different descriptors.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            60,
+            62
+          ]
+        ]
+      },
+      {
+        "source": "STEREOCIP"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q038",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C10",
+    "lesson": "BC0410",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "Priority 4 points toward the observer and the apparent 1→2→3 sequence is clockwise. What is the configuration?",
+    "options": [
+      "Necessarily a racemate",
+      "Unassignable for every possible reorientation",
+      "R without any correction",
+      "S after reversing the apparent result"
+    ],
+    "letter": "D",
+    "explanation": "The direct clockwise rule assumes priority 4 away. With 4 toward, reverse the apparent result to obtain S, or reorient consistently before applying the rule.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            60,
+            62
+          ]
+        ]
+      },
+      {
+        "source": "STEREOCIP"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q039",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C10",
+    "lesson": "BC0410",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO3",
+    "question": "Which statement correctly relates R/S, D/L and optical rotation?",
+    "options": [
+      "The configuration labels alone do not determine measured (+)/(−) rotation",
+      "Every L molecule is achiral",
+      "The OH position in any arbitrary drawing directly measures rotation",
+      "R always means (+), and D always means (+)"
+    ],
+    "letter": "A",
+    "explanation": "Configuration systems and measured rotation are distinct. Optical rotation requires specified experimental evidence; a projection position or descriptor alone does not supply its sign.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            60,
+            62
+          ]
+        ]
+      },
+      {
+        "source": "STEREOCIP"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q040",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C10",
+    "lesson": "BC0410",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO3",
+    "question": "In a conventional Fischer projection, which bonds point toward the observer?",
+    "options": [
+      "Only the bond to the highest-priority atom",
+      "The horizontal bonds",
+      "The vertical bonds",
+      "All bonds equally in the page plane"
+    ],
+    "letter": "B",
+    "explanation": "Horizontal Fischer bonds project toward the observer and vertical bonds away. This convention is needed before assigning configuration; line position alone without a projection rule is insufficient.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            60,
+            62
+          ]
+        ]
+      },
+      {
+        "source": "STEREOCIP"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q041",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C11",
+    "lesson": "BC0411",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "Why does tartaric acid have three familiar stereoisomers rather than the naive 2²=4 count?",
+    "options": [
+      "Every molecule with two centres has exactly three stereoisomers",
+      "One stereocentre disappears merely because both OH groups are drawn on one side",
+      "Internal symmetry makes the two meso-labelled representations identical",
+      "All four configurations must always occur in a racemic mixture"
+    ],
+    "letter": "C",
+    "explanation": "2ⁿ is a maximum before symmetry equivalences. Tartaric acid has one meso form plus an enantiomeric pair. The reduction is specific to its symmetry, not a universal count for two centres.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            63,
+            67
+          ]
+        ]
+      },
+      {
+        "source": "MESO"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q042",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C11",
+    "lesson": "BC0411",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "Which comparison between a racemate and a meso compound is correct?",
+    "options": [
+      "A meso compound is defined as a 50:50 mixture",
+      "A zero-rotation reading uniquely proves a racemate",
+      "Both must contain only achiral molecules",
+      "A racemate contains equal enantiomers; a meso compound is a single achiral structure with stereocentres"
+    ],
+    "letter": "D",
+    "explanation": "Bulk cancellation in a racemate differs from whole-molecule achirality in a meso compound. Either can give zero ordinary rotation, so that reading alone cannot identify which is present.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            63,
+            67
+          ]
+        ]
+      },
+      {
+        "source": "MESO"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q043",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C11",
+    "lesson": "BC0411",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "What is the enantiomeric excess of a 75:25 two-enantiomer mixture?",
+    "options": [
+      "50%",
+      "75%",
+      "100%",
+      "25%"
+    ],
+    "letter": "A",
+    "explanation": "The excess is the difference between enantiomer percentages: 75−25=50%. It is not the major percentage alone or the minor percentage.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            63,
+            67
+          ]
+        ]
+      },
+      {
+        "source": "MESO"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q044",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C11",
+    "lesson": "BC0411",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "Assuming linear additive rotations, pure major enantiomer +10° and an equal/opposite minor enantiomer, what is the rotation of a 75:25 mixture?",
+    "options": [
+      "+2.5°",
+      "+5°",
+      "+7.5°",
+      "0°"
+    ],
+    "letter": "B",
+    "explanation": "Calculate 0.75×10 + 0.25×(−10) = +5°. The result depends on the stated equal/opposite and linear conditions; it does not independently establish R/S configuration.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            63,
+            67
+          ]
+        ]
+      },
+      {
+        "source": "MESO"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q045",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C11",
+    "lesson": "BC0411",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO3",
+    "question": "Why can a suitable single-enantiomer resolving agent help separate a racemic pair?",
+    "options": [
+      "It guarantees ordinary achiral solvents always separate the original enantiomers",
+      "It changes every stereocentre into an isotope",
+      "It can form diastereomeric derivatives with differing physical properties",
+      "It makes every enantiomer into the same meso compound"
+    ],
+    "letter": "C",
+    "explanation": "A chiral partner can convert enantiomeric relationships into diastereomeric products or interactions that differ measurably. Separation and recovery require an appropriate process, not an assumption of universal achiral-solvent discrimination.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            63,
+            67
+          ]
+        ]
+      },
+      {
+        "source": "MESO"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q046",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C12",
+    "lesson": "BC0412",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "What distinguishes CH₃C(=O)NH₂ from a simple amine?",
+    "options": [
+      "Every carbon-bound nitrogen is an ordinary amine even when a carbonyl is adjacent",
+      "An adjacent carbonyl makes the nitrogen an ammonium ion at every pH",
+      "The carbonyl makes the C–N bond behave exactly like a freely rotating alkane bond",
+      "Its nitrogen is directly attached to a carbonyl carbon, giving an amide"
+    ],
+    "letter": "D",
+    "explanation": "Nitrogen directly attached to the carbonyl carbon defines an amide. Lone-pair resonance changes its basicity and restricts C–N rotation relative to a simple amine. An adjacent carbonyl does not force ammonium protonation at every pH or make the bond freely rotating.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            68,
+            69
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q047",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C12",
+    "lesson": "BC0412",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO3",
+    "question": "Which change converts the illustrated acid CH₃C(=O)OH into the ester CH₃C(=O)OCH₃?",
+    "options": [
+      "Replace the acidic O–H attachment with O–CH₃",
+      "Remove the acidic hydrogen without adding a carbon group",
+      "Replace the acid O–H group with NH₂",
+      "Only rotate a bond without changing connectivity"
+    ],
+    "letter": "A",
+    "explanation": "Replacing O–H with O–CH₃ gives the stated ester. Removing H alone produces a carboxylate in the acid–base description, while replacing the OH group with NH₂ gives an amide. Rotation changes conformation without making this new connectivity.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            68,
+            69
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q048",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C12",
+    "lesson": "BC0412",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "Does detection of a carbonyl group alone establish that a molecule is a ketone?",
+    "options": [
+      "Yes; aldehydes and amides have no carbonyls",
+      "No; the atoms attached to the carbonyl carbon distinguish several functional groups",
+      "Yes if the molecule also contains hydrogen",
+      "No, because ketones contain no carbon"
+    ],
+    "letter": "B",
+    "explanation": "Aldehydes, acids, esters, amides and ketones can all contain carbonyls. Examine the attachments and complete connectivity to classify the group correctly.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            68,
+            69
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q049",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C12",
+    "lesson": "BC0412",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO3",
+    "question": "What is needed to predict whether an amine group is substantially protonated in a given environment?",
+    "options": [
+      "Only the molecular formula without connectivity",
+      "Only the presence of an N atom, independent of conditions",
+      "The relevant acid–base equilibrium, pH and molecular environment",
+      "A claim that every amine is always positively charged"
+    ],
+    "letter": "C",
+    "explanation": "Charge state depends on pH and the group's acid–base properties, which are influenced by its surroundings. Amide and amine nitrogens also differ; no universal charge follows merely from detecting N.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            68,
+            69
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q050",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C04",
+    "lesson": "BC0404",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "In a simple VSEPR treatment, SF₄ has five electron domains including one lone pair. Which molecular shape follows?",
+    "options": [
+      "Tetrahedral",
+      "Seesaw",
+      "Square planar",
+      "Octahedral"
+    ],
+    "letter": "B",
+    "explanation": "Five domains give a trigonal-bipyramidal arrangement, with an equatorial lone pair leaving a seesaw molecular shape. Four bonded atoms do not by themselves establish tetrahedral geometry; lone pairs also count.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            26,
+            35
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U04-Q051",
+    "unit": "U04",
+    "conceptId": "BIOL157-U04-C04",
+    "lesson": "BC0404",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO3",
+    "question": "Which electron-domain/molecular-shape pairing fits the introductory XeF₄ example?",
+    "options": [
+      "Tetrahedral domains; tetrahedral shape",
+      "Octahedral domains with two opposite lone pairs; square-planar shape",
+      "Trigonal-bipyramidal domains; trigonal-planar shape",
+      "Two domains; linear shape"
+    ],
+    "letter": "B",
+    "explanation": "Four bonding regions plus two lone pairs give six domains. Opposite lone pairs leave four coplanar bonded atoms, giving square-planar molecular shape. Domain geometry and the arrangement of nuclei are distinct.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L4",
+        "pages": [
+          [
+            26,
+            35
+          ]
+        ]
+      }
+    ]
   }
 ]

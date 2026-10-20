@@ -1,5 +1,5 @@
 {
-  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40.",
+  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages.",
   "anchors": [
     {
       "source": "L1",
@@ -552,6 +552,336 @@
       "pdfPage": 50,
       "anchor": "January 26, 2026                    BIOL 157: Biological Chemistry          50",
       "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 3,
+      "anchor": "• A chemical bond is the force of attraction between two atoms;",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 4,
+      "anchor": "− Read: Born Haber Cycle and Hess Law of Constant Heat Summation",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 5,
+      "anchor": "− Electronegativity difference (high positive value)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 6,
+      "anchor": "Na, O                      2.5                           Most ionic compound",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 7,
+      "anchor": "• The bond formation due to the sharing of electrons between",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 8,
+      "anchor": "orbitals along their internuclear lines. The internuclear line is the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 10,
+      "anchor": "− This involves a side-to-side or lateral overlap of atomic orbitals",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 11,
+      "anchor": "− Note: π bonds are weaker and more reactive than σ bonds because π",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 12,
+      "anchor": "Has an impact on the shape of               Has no role in determining the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 13,
+      "anchor": "be divalent because of 2 unpair electrons, but C is tetravalent because",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 14,
+      "anchor": "− sp hybridization: BeF2, BeH2, BeCl2, C2H2",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 16,
+      "anchor": "↑↓      ↑   ↑                              ↑             ↑   ↑     ↑",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 18,
+      "anchor": "− Note: there are 2 hybridized orbitals and 2 unhybridized orbitals;",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 20,
+      "anchor": "− Note: some essential body’s organic molecules contain coordinate",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 23,
+      "anchor": "− The donor atom, N, in NH3, can donate a lone pair of electrons and the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 24,
+      "anchor": "− For a double bond, one is a sigma bond, and the other is a pi bond",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 25,
+      "anchor": "− The rule holds for some period 2 elements, such as C, N, O, and F, but",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 26,
+      "anchor": "– The valence shell of the central nitrogen atom in a molecule contains",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 27,
+      "anchor": "Lone pair: lone pair > lone pair: bonded pair > bonded pair: bonded pair",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 28,
+      "anchor": "• Ionic bonds are extended in all directions. Covalent bonds are",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 29,
+      "anchor": "• In NH3, the central atom (nitrogen) has four valence electron",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 30,
+      "anchor": "• In H2O, the central atom is oxygen, with four valence electron",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 31,
+      "anchor": "− The enzyme is supposed to be a lock with a speciﬁc shape, so it has",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 33,
+      "anchor": "− For similar atoms, there is no tendency for one of the atoms to attract",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 35,
+      "anchor": "− Since both sides are polar, it cancels out; hence no polarity",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 36,
+      "anchor": "− Intermolecular forces can account for the differences in the physical",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 37,
+      "anchor": "− At a point, the electron cloud associated with the non-polar molecules",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 38,
+      "anchor": "− Note: The increased molecular size accounts for the increased Van",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 39,
+      "anchor": "• A unique permanent dipole-dipole attraction is Hydrogen",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 40,
+      "anchor": "− Note: the intermolecular forces directly affect the physical properties",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 41,
+      "anchor": "• Such properties include physical states, solubility, boiling point,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 42,
+      "anchor": "• In the same way, water behaves differently from other hydrides.",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 43,
+      "anchor": "• For a solute to dissolve in a solvent, the attraction between the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 44,
+      "anchor": "• On the other hand, NaCl does not dissolve in ether as the Na+",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 45,
+      "anchor": "Also, the helical structure of DNA is possible because of this bonding",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 48,
+      "anchor": "chain        positional       functional    tautomerism          conformational        configurational",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 49,
+      "anchor": "• Structural isomers differ in the way the constituent atoms are",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 50,
+      "anchor": "• Positional isomerism: this form differs in the placement of the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 51,
+      "anchor": "• Functional isomerism: this differs in the functional group",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 52,
+      "anchor": "2-propanone                                       Propen-2-ol",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 53,
+      "anchor": "− The individual structures constitute conformers; there are two types",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 54,
+      "anchor": "• It is the arrangement resulting from the placement of different",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 55,
+      "anchor": "Cis-butenedioic acid                         Trans-butenedioic acid",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 56,
+      "anchor": "• Ring compounds: ring compounds can make a molecule rigid",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 57,
+      "anchor": "− The E and Z system is based on the assignment of priorities; that is,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 58,
+      "anchor": "− In naming, we consider the atom with the highest priority. Therefore,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 60,
+      "anchor": "− When white light passes through calcite crystals or a Nicol prism, the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 61,
+      "anchor": "attached to the central atom qualifies as optically active (chiral). For",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 62,
+      "anchor": "− Note: to label it, you need to consider the position of the OH group. If",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 63,
+      "anchor": "− The A and B, as well as the C and D, are enantiomers. However, A and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 64,
+      "anchor": "− G is a meso compound (mesotartaric acid), which is optically inactive",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 65,
+      "anchor": "− Chemical properties are identical for reactions with optically inactive",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 66,
+      "anchor": "− The mixtures are optically inactive because the rotation from the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 67,
+      "anchor": "− A racemic mixture combines with an optically active compound, which",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 68,
+      "anchor": "− These compounds are soluble in water and more reactive than ethane",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
     }
   ],
   "visuallyInspected": [
@@ -582,6 +912,20 @@
         51
       ],
       "result": "Cathode-ray deflection, rare large-angle scattering, quantum table and periodic arrows inspected. No copied images. Spin/quantum ranges and simplified trend chart are qualified in original teaching."
+    },
+    {
+      "source": "L4",
+      "pdfPages": [
+        32,
+        35,
+        58,
+        59,
+        62,
+        63,
+        64,
+        69
+      ],
+      "result": "Geometry/polarity, CIP examples, lactic Fischer/sign contradiction, multicentre/meso figures and functional-group chart inspected. Original replacement figures authored; source images not republished."
     }
   ]
 }

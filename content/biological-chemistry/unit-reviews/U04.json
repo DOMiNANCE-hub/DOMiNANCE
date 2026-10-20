@@ -1,0 +1,105 @@
+{
+  "unit": "U04",
+  "status": "author-verified-draft-awaiting-human-academic-review",
+  "reviewer": null,
+  "academicApproval": null,
+  "source": "L4",
+  "actualPdfPages": 71,
+  "readingScope": "All actual pages read; actual/printed mapping inspected individually. Eight selected visual pages checked.",
+  "officialTopics": [
+    "BIOL157-U04-T01",
+    "BIOL157-U04-T02",
+    "BIOL157-U04-T03",
+    "BIOL157-U04-T04"
+  ],
+  "lessons": 12,
+  "questions": 51,
+  "originalFigures": 5,
+  "corrections": [
+    {
+      "pages": [
+        5,
+        6
+      ],
+      "issue": "Electronegativity threshold and O\u2013F nonpolar classification",
+      "decision": "Treat cutoff as heuristic; distinguish bond polarity from molecular dipole."
+    },
+    {
+      "pages": [
+        12,
+        13,
+        14,
+        25
+      ],
+      "issue": "Pi bonds said not to determine shape; hybrid directions and expanded-octet d-orbital mechanism oversimplified",
+      "decision": "Teach restricted rotation and model scope; include traditional geometry labels without asserting large d-orbital causation."
+    },
+    {
+      "pages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        32,
+        35
+      ],
+      "issue": "Electron-domain geometry versus molecular shape",
+      "decision": "Distinguish domains, lone pairs, 2\u20136-domain arrangements and vector cancellation; eight-coordinate chart alternatives are not claimed as fully developed coordination chemistry."
+    },
+    {
+      "pages": [
+        36,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "issue": "Interaction categories incomplete; phase unqualified; ether called nonpolar; dissolution and DNA association reduced to one force",
+      "decision": "Separate dispersion/dipole/H-bond/ion-dipole interactions, state phase conditions and free-energy context; qualify stacking and solvent effects."
+    },
+    {
+      "pages": [
+        53,
+        54,
+        55,
+        57,
+        58,
+        59
+      ],
+      "issue": "Free rotation, trans stability and CIP/naming rules overgeneralised",
+      "decision": "Explain barriers and eligibility; priorities local to each alkene carbon; numbering/alphabetisation do not determine CIP geometry."
+    },
+    {
+      "pages": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "issue": "D/L conflated with rotation; 2^n exact rather than maximum; meso/racemate and biological examples need scope",
+      "decision": "Separate R/S, D/L and measured sign. Correct contradiction between lactic figure and prose; teach symmetry and chiral discrimination without universal toxicity/microbial claims."
+    }
+  ],
+  "visualPages": [
+    32,
+    35,
+    58,
+    59,
+    62,
+    63,
+    64,
+    69
+  ],
+  "limitations": [
+    "No human academic approval",
+    "Original vector figures and answer keys author-checked; not a claim of official examination status",
+    "Selected source figures checked; not all external images/references certified",
+    "IUPAC D01512 web fetch was forbidden; independent stereochemical checks use accessible OpenStax pages and the internal source contradiction",
+    "Detailed transition-metal coordination and systematic nomenclature beyond this introductory unit remain outside claimed coverage"
+  ]
+}

@@ -56,7 +56,7 @@
       "pages": 71,
       "sha256": "d6b083129eba1ef52b14b6c17d3d1fa57af2a8d20f7d62c6ffc4492572389168",
       "availability": "local-authorised-attachment",
-      "review": "heading-inventory-only"
+      "review": "all-71-actual-pages-read;selected-figures-inspected;printed-numbering-diverges"
     },
     {
       "id": "L5",
@@ -163,6 +163,24 @@
       "label": "NIST electronic ground-state configurations",
       "url": "https://www.nist.gov/pml/atomic-reference-data-electronic-structure-calculations/atomic-reference-data-electronic-8",
       "review": "specific-correction-checked;not-a-certification-of-all-derived-teaching"
+    },
+    {
+      "id": "STEREOCIP",
+      "label": "OpenStax Organic Chemistry: CIP and absolute configuration checks",
+      "url": "https://openstax.org/books/organic-chemistry/pages/5-5-sequence-rules-for-specifying-configuration",
+      "review": "specific-stereochemical-corrections-checked"
+    },
+    {
+      "id": "STEREOEZ",
+      "label": "OpenStax Organic Chemistry: E/Z eligibility and priorities",
+      "url": "https://openstax.org/books/organic-chemistry/pages/7-5-alkene-stereochemistry-and-the-e-z-designation",
+      "review": "specific-stereochemical-corrections-checked"
+    },
+    {
+      "id": "MESO",
+      "label": "OpenStax Organic Chemistry: meso symmetry qualification",
+      "url": "https://openstax.org/books/organic-chemistry/pages/5-7-meso-compounds",
+      "review": "specific-stereochemical-corrections-checked"
     }
   ],
   "objectives": [
@@ -360,8 +378,21 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0401",
+        "BC0402",
+        "BC0403",
+        "BC0404",
+        "BC0405",
+        "BC0406",
+        "BC0407",
+        "BC0408",
+        "BC0409",
+        "BC0410",
+        "BC0411",
+        "BC0412"
+      ]
     },
     {
       "id": "U05",
@@ -657,7 +688,7 @@
       "id": "BIOL157-U04-T01",
       "unit": "U04",
       "title": "Chemical bonds",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -674,7 +705,7 @@
       "id": "BIOL157-U04-T02",
       "unit": "U04",
       "title": "Molecular forces",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -691,7 +722,7 @@
       "id": "BIOL157-U04-T03",
       "unit": "U04",
       "title": "Isomerism",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -708,7 +739,7 @@
       "id": "BIOL157-U04-T04",
       "unit": "U04",
       "title": "Functional groups",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -2297,6 +2328,1491 @@
         {
           "id": "s6",
           "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-C01",
+      "unit": "U04",
+      "topic": "BIOL157-U04-T01",
+      "title": "Ionic bonding and the whole energy balance",
+      "lesson": "BC0401",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO3"
+      ],
+      "learningGoals": "Explain ionic attraction and charge balance. Use a simple Born–Haber-style energy account without treating electron transfer or an electronegativity cutoff as a complete explanation.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              3,
+              6
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "From atoms to an extended ionic structure"
+        },
+        {
+          "id": "s3",
+          "title": "Worked illustrative cycle"
+        },
+        {
+          "id": "s4",
+          "title": "Predictive limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-C02",
+      "unit": "U04",
+      "topic": "BIOL157-U04-T01",
+      "title": "Covalent structures, octets and formal charge",
+      "lesson": "BC0402",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO3"
+      ],
+      "learningGoals": "Build and check simple Lewis structures. Distinguish electron ownership bookkeeping from the actual distribution of electron density, and recognise octet exceptions without inventing unsupported orbital mechanisms.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              3,
+              7
+            ],
+            [
+              24,
+              25
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Sharing and counting electrons"
+        },
+        {
+          "id": "s3",
+          "title": "Worked carbon dioxide and ammonium"
+        },
+        {
+          "id": "s4",
+          "title": "Misconceptions and application"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-C03",
+      "unit": "U04",
+      "topic": "BIOL157-U04-T01",
+      "title": "Sigma and pi bonds, hybridisation and restricted rotation",
+      "lesson": "BC0403",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO3"
+      ],
+      "learningGoals": "Count sigma and pi bonds in simple molecules. Relate sp, sp² and sp³ models to local geometry and explain why a pi bond constrains molecular shape.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              7,
+              19
+            ],
+            [
+              24,
+              24
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Overlap and local bonding models"
+        },
+        {
+          "id": "s3",
+          "title": "Worked bond counts"
+        },
+        {
+          "id": "s4",
+          "title": "Why rotation matters"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-C04",
+      "unit": "U04",
+      "topic": "BIOL157-U04-T01",
+      "title": "Electron domains, molecular shape and polarity",
+      "lesson": "BC0404",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO3"
+      ],
+      "learningGoals": "Use electron-domain counting to predict simple shapes. Distinguish electron-domain geometry, molecular shape and net dipole, including molecules with polar bonds but no net molecular dipole.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              26,
+              35
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "From Lewis structure to shape"
+        },
+        {
+          "id": "s3",
+          "title": "Worked polarity comparison"
+        },
+        {
+          "id": "s4",
+          "title": "Biological application and scope"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-C05",
+      "unit": "U04",
+      "topic": "BIOL157-U04-T01",
+      "title": "Coordinate bonding and Lewis donor–acceptor chemistry",
+      "lesson": "BC0405",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO3"
+      ],
+      "learningGoals": "Identify the donor and acceptor of an electron pair. Explain NH₄+, H₃O+ and the NH₃–BF₃ adduct without treating a coordinate bond as permanently distinguishable by its origin.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              20,
+              23
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "An electron-pair description"
+        },
+        {
+          "id": "s3",
+          "title": "Worked ammonia–boron trifluoride example"
+        },
+        {
+          "id": "s4",
+          "title": "Biological coordination"
+        },
+        {
+          "id": "s5",
+          "title": "Common traps"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-C06",
+      "unit": "U04",
+      "topic": "BIOL157-U04-T02",
+      "title": "Molecular forces, hydrogen bonds and dissolution",
+      "lesson": "BC0406",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO3"
+      ],
+      "learningGoals": "Compare dispersion, dipole interactions, hydrogen bonding and ion–dipole interactions. Explain solubility and phase behaviour without replacing a full energetic argument with “like dissolves like”.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              36,
+              47
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Several interactions can coexist"
+        },
+        {
+          "id": "s3",
+          "title": "Worked boiling and solubility comparisons"
+        },
+        {
+          "id": "s4",
+          "title": "Biological consequences and source qualifications"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-C07",
+      "unit": "U04",
+      "topic": "BIOL157-U04-T03",
+      "title": "Constitutional isomers, tautomers and representation",
+      "lesson": "BC0407",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO3"
+      ],
+      "learningGoals": "Distinguish different connectivity from a different drawing of the same molecule. Classify chain, positional and functional isomerism, and explain why tautomerism differs from resonance.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              48,
+              52
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Same formula does not determine structure"
+        },
+        {
+          "id": "s3",
+          "title": "Worked formula and connectivity check"
+        },
+        {
+          "id": "s4",
+          "title": "Tautomers are distinct interconverting species"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-C08",
+      "unit": "U04",
+      "topic": "BIOL157-U04-T03",
+      "title": "Conformations and rotational energy barriers",
+      "lesson": "BC0408",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO3"
+      ],
+      "learningGoals": "Distinguish conformation from configuration. Use a viewing direction to compare staggered, eclipsed and anti/gauche arrangements without implying that rotation costs no energy.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              53,
+              53
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Same connectivity, different spatial arrangement"
+        },
+        {
+          "id": "s3",
+          "title": "Worked butane comparison"
+        },
+        {
+          "id": "s4",
+          "title": "Constraints in biological molecules"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-C09",
+      "unit": "U04",
+      "topic": "BIOL157-U04-T03",
+      "title": "Geometric isomerism and E/Z assignment",
+      "lesson": "BC0409",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO3"
+      ],
+      "learningGoals": "Recognise when alkene E/Z isomerism is possible. Apply Cahn–Ingold–Prelog priorities independently at each double-bond carbon and distinguish geometric labels from predictions of stability.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              54,
+              59
+            ]
+          ]
+        },
+        {
+          "source": "STEREOEZ"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Restricted rotation plus different substituents"
+        },
+        {
+          "id": "s3",
+          "title": "Worked priority method"
+        },
+        {
+          "id": "s4",
+          "title": "Stability, rings and naming scope"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-C10",
+      "unit": "U04",
+      "topic": "BIOL157-U04-T03",
+      "title": "Chirality, R/S configuration and optical rotation",
+      "lesson": "BC0410",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO3"
+      ],
+      "learningGoals": "Recognise nonsuperimposable mirror images. Apply introductory R/S priorities with an explicit viewing direction and distinguish absolute configuration, D/L notation and measured optical rotation.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              60,
+              62
+            ]
+          ]
+        },
+        {
+          "source": "STEREOCIP"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A molecule can have handedness"
+        },
+        {
+          "id": "s3",
+          "title": "Worked R/S assignment"
+        },
+        {
+          "id": "s4",
+          "title": "Three labels that must remain separate"
+        },
+        {
+          "id": "s5",
+          "title": "Fischer projections and source correction"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-C11",
+      "unit": "U04",
+      "topic": "BIOL157-U04-T03",
+      "title": "Multiple stereocentres, meso compounds and racemates",
+      "lesson": "BC0411",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO3"
+      ],
+      "learningGoals": "Classify enantiomeric and diastereomeric relationships. Explain the 2ⁿ maximum, internal symmetry and the difference between an achiral meso compound and an optically inactive racemic mixture.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              63,
+              67
+            ]
+          ]
+        },
+        {
+          "source": "MESO"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Local centres and whole-molecule symmetry"
+        },
+        {
+          "id": "s3",
+          "title": "Worked racemate versus meso comparison"
+        },
+        {
+          "id": "s4",
+          "title": "Why resolution can work"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-C12",
+      "unit": "U04",
+      "topic": "BIOL157-U04-T04",
+      "title": "Functional groups and biochemical behaviour",
+      "lesson": "BC0412",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO3"
+      ],
+      "learningGoals": "Recognise common functional groups in condensed structures. Connect electron distribution, hydrogen bonding, acid–base behaviour and bond context to biological properties without assuming one group determines an entire molecule's behaviour.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              68,
+              69
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Recognise the local arrangement"
+        },
+        {
+          "id": "s3",
+          "title": "Worked amine versus amide"
+        },
+        {
+          "id": "s4",
+          "title": "Charge, water and combined effects"
+        },
+        {
+          "id": "s5",
+          "title": "Connections to later units"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "BIOL157-U04-POLARITY",
+      "title": "Geometry and molecular dipoles",
+      "description": "A linear O=C=O structure above a bent H–O–H structure. Equivalent carbon dioxide dipoles oppose, while water bond dipoles do not cancel.",
+      "caption": "Original schematic. Equivalent polar bonds can cancel by symmetry; the water angle is represented as 104.5° in this idealised comparison.",
+      "width": 400,
+      "height": 440,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 30,
+          "text": "CO₂: linear"
+        },
+        {
+          "kind": "text",
+          "x": 85,
+          "y": 110,
+          "text": "O"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 110,
+          "text": "C"
+        },
+        {
+          "kind": "text",
+          "x": 315,
+          "y": 110,
+          "text": "O"
+        },
+        {
+          "kind": "line",
+          "x1": 105,
+          "y1": 100,
+          "x2": 180,
+          "y2": 100,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 105,
+          "y1": 107,
+          "x2": 180,
+          "y2": 107,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 220,
+          "y1": 100,
+          "x2": 295,
+          "y2": 100,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 220,
+          "y1": 107,
+          "x2": 295,
+          "y2": 107,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 165,
+          "text": "Equal opposing dipoles cancel"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 235,
+          "text": "H₂O: bent"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 300,
+          "text": "O"
+        },
+        {
+          "kind": "line",
+          "x1": 188,
+          "y1": 303,
+          "x2": 135.8379383630541,
+          "y2": 342.0995552031004,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 128.8379383630541,
+          "y": 365.0995552031004,
+          "text": "H"
+        },
+        {
+          "kind": "line",
+          "x1": 212,
+          "y1": 303,
+          "x2": 264.1620616369459,
+          "y2": 342.0995552031004,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 271.1620616369459,
+          "y": 365.0995552031004,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 405,
+          "text": "Bond dipoles do not cancel"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              35,
+              35
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-EZ",
+      "title": "E and Z but-2-ene",
+      "description": "Two but-2-ene drawings. In the upper structure both higher-priority methyl groups are above the double bond (Z). In the lower structure the methyl groups lie on opposite sides (E).",
+      "caption": "Original schematic. CH₃ outranks H independently at each alkene carbon; the descriptor does not by itself establish relative stability.",
+      "width": 400,
+      "height": 510,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 28,
+          "text": "Z: selected groups together"
+        },
+        {
+          "kind": "text",
+          "x": 150,
+          "y": 130,
+          "text": "C"
+        },
+        {
+          "kind": "text",
+          "x": 250,
+          "y": 130,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 165,
+          "y1": 120,
+          "x2": 235,
+          "y2": 120,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 165,
+          "y1": 128,
+          "x2": 235,
+          "y2": 128,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 140,
+          "y1": 112,
+          "x2": 95,
+          "y2": 73,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 140,
+          "y1": 138,
+          "x2": 95,
+          "y2": 185,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 95,
+          "y": 60,
+          "text": "CH₃"
+        },
+        {
+          "kind": "text",
+          "x": 95,
+          "y": 215,
+          "text": "H"
+        },
+        {
+          "kind": "line",
+          "x1": 260,
+          "y1": 112,
+          "x2": 305,
+          "y2": 73,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 260,
+          "y1": 138,
+          "x2": 305,
+          "y2": 185,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 305,
+          "y": 60,
+          "text": "CH₃"
+        },
+        {
+          "kind": "text",
+          "x": 305,
+          "y": 215,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 288,
+          "text": "E: selected groups opposite"
+        },
+        {
+          "kind": "text",
+          "x": 150,
+          "y": 390,
+          "text": "C"
+        },
+        {
+          "kind": "text",
+          "x": 250,
+          "y": 390,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 165,
+          "y1": 380,
+          "x2": 235,
+          "y2": 380,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 165,
+          "y1": 388,
+          "x2": 235,
+          "y2": 388,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 140,
+          "y1": 372,
+          "x2": 95,
+          "y2": 333,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 140,
+          "y1": 398,
+          "x2": 95,
+          "y2": 445,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 95,
+          "y": 320,
+          "text": "CH₃"
+        },
+        {
+          "kind": "text",
+          "x": 95,
+          "y": 475,
+          "text": "H"
+        },
+        {
+          "kind": "line",
+          "x1": 260,
+          "y1": 372,
+          "x2": 305,
+          "y2": 333,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 260,
+          "y1": 398,
+          "x2": 305,
+          "y2": 445,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 305,
+          "y": 320,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 305,
+          "y": 475,
+          "text": "CH₃"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              57,
+              57
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-CHIRAL",
+      "title": "A tetrahedral configuration with hydrogen away",
+      "description": "Central carbon bears Br upwards, Cl lower-right, F on a solid wedge lower-left and H on a dashed bond upper-left. Hydrogen is away; the projected priority order 1 to 2 to 3 is clockwise, giving R.",
+      "caption": "Original projection schematic, not a bond-angle scale model. Solid wedge points toward the observer; dashed bond away. Reverse the apparent rotation assignment when priority 4 points toward the observer.",
+      "width": 400,
+      "height": 335,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 210,
+          "y": 150,
+          "text": "C"
+        },
+        {
+          "kind": "text",
+          "x": 210,
+          "y": 42,
+          "text": "Br (1)"
+        },
+        {
+          "kind": "text",
+          "x": 350,
+          "y": 218,
+          "text": "Cl (2)"
+        },
+        {
+          "kind": "text",
+          "x": 65,
+          "y": 218,
+          "text": "F (3)"
+        },
+        {
+          "kind": "text",
+          "x": 75,
+          "y": 60,
+          "text": "H (4)"
+        },
+        {
+          "kind": "line",
+          "x1": 210,
+          "y1": 130,
+          "x2": 210,
+          "y2": 60,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 225,
+          "y1": 157,
+          "x2": 325,
+          "y2": 198,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 195,
+          "y1": 137,
+          "x2": 98,
+          "y2": 75,
+          "dashed": true
+        },
+        {
+          "kind": "wedge",
+          "points": [
+            [
+              195,
+              157
+            ],
+            [
+              90,
+              195
+            ],
+            [
+              105,
+              212
+            ]
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 275,
+          "text": "H away: 1 → 2 → 3 clockwise"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 305,
+          "text": "R configuration"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              61,
+              61
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-FISCHER",
+      "title": "Lactic-acid Fischer mirror images",
+      "description": "Two lactic-acid Fischer projections have COOH above and CH3 below. The upper has H left and OH right; the lower has OH left and H right. Horizontal bonds point toward the observer, vertical bonds away.",
+      "caption": "Original mirror comparison. OH right versus left specifies the depicted configuration relationship; neither location alone establishes the sign of measured optical rotation.",
+      "width": 400,
+      "height": 490,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 25,
+          "text": "Fischer projection: one enantiomer"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 125,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 105,
+          "x2": 200,
+          "y2": 60,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 45,
+          "text": "COOH"
+        },
+        {
+          "kind": "line",
+          "x1": 188,
+          "y1": 119,
+          "x2": 135,
+          "y2": 119,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 212,
+          "y1": 119,
+          "x2": 265,
+          "y2": 119,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 125,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 125,
+          "text": "OH"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 137,
+          "x2": 200,
+          "y2": 180,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 210,
+          "text": "CH₃"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 280,
+          "text": "Its nonsuperimposable mirror"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 380,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 360,
+          "x2": 200,
+          "y2": 315,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 300,
+          "text": "COOH"
+        },
+        {
+          "kind": "line",
+          "x1": 188,
+          "y1": 374,
+          "x2": 135,
+          "y2": 374,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 212,
+          "y1": 374,
+          "x2": 265,
+          "y2": 374,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 380,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 380,
+          "text": "H"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 392,
+          "x2": 200,
+          "y2": 435,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 465,
+          "text": "CH₃"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              62,
+              62
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-MESO",
+      "title": "Meso and chiral tartaric-acid structures",
+      "description": "Two Fischer projections of tartaric acid. The upper has both OH groups on the right, representing meso 2R,3S with internal symmetry. The lower has upper OH right and lower OH left, representing 2R,3R; its 2S,3S mirror is a distinct enantiomer.",
+      "caption": "Original schematic. Two stereocentres permit up to four configurations, but tartaric-acid symmetry leaves three distinct stereoisomers. The meso form is not a racemic mixture.",
+      "width": 400,
+      "height": 640,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 25,
+          "text": "Meso tartaric acid: whole molecule achiral"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 125,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 105,
+          "x2": 200,
+          "y2": 60,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 45,
+          "text": "COOH"
+        },
+        {
+          "kind": "line",
+          "x1": 188,
+          "y1": 119,
+          "x2": 135,
+          "y2": 119,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 212,
+          "y1": 119,
+          "x2": 265,
+          "y2": 119,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 125,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 125,
+          "text": "OH"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 137,
+          "x2": 200,
+          "y2": 190,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 210,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 188,
+          "y1": 204,
+          "x2": 135,
+          "y2": 204,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 212,
+          "y1": 204,
+          "x2": 265,
+          "y2": 204,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 210,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 210,
+          "text": "OH"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 223,
+          "x2": 200,
+          "y2": 260,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 290,
+          "text": "COOH"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 355,
+          "text": "One chiral form; its mirror is distinct"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 455,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 435,
+          "x2": 200,
+          "y2": 390,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 375,
+          "text": "COOH"
+        },
+        {
+          "kind": "line",
+          "x1": 188,
+          "y1": 449,
+          "x2": 135,
+          "y2": 449,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 212,
+          "y1": 449,
+          "x2": 265,
+          "y2": 449,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 455,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 455,
+          "text": "OH"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 467,
+          "x2": 200,
+          "y2": 520,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 540,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 188,
+          "y1": 534,
+          "x2": 135,
+          "y2": 534,
+          "dashed": false
+        },
+        {
+          "kind": "line",
+          "x1": 212,
+          "y1": 534,
+          "x2": 265,
+          "y2": 534,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 105,
+          "y": 540,
+          "text": "OH"
+        },
+        {
+          "kind": "text",
+          "x": 295,
+          "y": 540,
+          "text": "H"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 553,
+          "x2": 200,
+          "y2": 590,
+          "dashed": false
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 620,
+          "text": "COOH"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L4",
+          "pages": [
+            [
+              64,
+              64
+            ]
+          ]
         }
       ]
     }

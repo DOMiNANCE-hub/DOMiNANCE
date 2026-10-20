@@ -17,7 +17,7 @@ try{
  await frame.locator('.course').filter({hasText:'Biological Chemistry'}).click();
  await frame.getByRole('button',{name:'Open Study Blocks',exact:true}).click();
  assert.equal(await frame.locator('.cell-block-card').count(),10);
- await frame.getByRole('button',{name:'Open Bond Formation and Molecules',exact:true}).click();
+ await frame.getByRole('button',{name:'Open Carbohydrates',exact:true}).click();
  await frame.getByText(/Teaching for this unit has not yet been authored/).waitFor();
  let dashboard=page.frames().find(f=>f.url().includes('/dashboard/index.html'));
  const bioCount=await dashboard.evaluate(()=>DominanceBiologicalContent.questions.length);
@@ -63,12 +63,16 @@ try{
  console.log('PASS: ten-unit catalogue, honest pending unit, independent study, concept practice, exit/resume, exact feedback link, all available Bio questions/retry/reload.');
  dashboard=page.frames().find(f=>f.url().includes('/dashboard/index.html'));
  const routes=await dashboard.evaluate(()=>DominanceBiologicalContent.lessons.map(l=>({id:l.id,parts:DominanceBiologicalLearning.sections(l).length})));
+ const seenFigures=new Set();
  await page.setViewportSize({width:390,height:844});
  for(const route of routes)for(let part=0;part<route.parts;part++){
   await dashboard.evaluate(({id,part})=>openTopic('lesson:'+id+':'+part),{id:route.id,part});
   assert.equal(await dashboard.locator('#cellSection').isVisible(),true,route.id+':'+part);
+  for(const figure of await dashboard.locator('#cellSection .academic-figure').all()){const id=await figure.getAttribute('data-figure-id');seenFigures.add(id);const clipped=await figure.locator('svg').evaluate(svg=>{const v=svg.viewBox.baseVal;return [...svg.querySelectorAll('text')].filter(t=>{const b=t.getBBox();return b.x<0||b.y<0||b.x+b.width>v.width||b.y+b.height>v.height}).map(t=>t.textContent)});assert.deepEqual(clipped,[],id);await figure.screenshot({path:'/tmp/'+id+'.png'})}
   assert.equal(await dashboard.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth),true,route.id+':'+part);
  }
+ assert.equal(seenFigures.size,await dashboard.evaluate(()=>DominanceBiologicalContent.figures?.length||0));
+ console.log('PASS:',seenFigures.size,'academic figures render without clipped labels.');
  await page.screenshot({path:'/tmp/biol157-mobile.png'});
  console.log('PASS:',routes.length,'lessons /',routes.reduce((n,l)=>n+l.parts,0),'sections at390px.');
  // Combined app regression against the existing Cell bank.

@@ -115,9 +115,74 @@
     {
       "id": "BIOL157-CLO3",
       "text": "Explain the types and importance of chemical bonds in biomolecule formation.",
-      "notesConcepts": [],
-      "questions": [],
-      "coverageStatus": "not-authored"
+      "notesConcepts": [
+        "BIOL157-U04-C01",
+        "BIOL157-U04-C02",
+        "BIOL157-U04-C03",
+        "BIOL157-U04-C04",
+        "BIOL157-U04-C05",
+        "BIOL157-U04-C06",
+        "BIOL157-U04-C07",
+        "BIOL157-U04-C08",
+        "BIOL157-U04-C09",
+        "BIOL157-U04-C10",
+        "BIOL157-U04-C11",
+        "BIOL157-U04-C12"
+      ],
+      "questions": [
+        "BIOL157-U04-Q001",
+        "BIOL157-U04-Q002",
+        "BIOL157-U04-Q003",
+        "BIOL157-U04-Q004",
+        "BIOL157-U04-Q005",
+        "BIOL157-U04-Q006",
+        "BIOL157-U04-Q007",
+        "BIOL157-U04-Q008",
+        "BIOL157-U04-Q009",
+        "BIOL157-U04-Q010",
+        "BIOL157-U04-Q011",
+        "BIOL157-U04-Q012",
+        "BIOL157-U04-Q013",
+        "BIOL157-U04-Q014",
+        "BIOL157-U04-Q015",
+        "BIOL157-U04-Q016",
+        "BIOL157-U04-Q017",
+        "BIOL157-U04-Q018",
+        "BIOL157-U04-Q019",
+        "BIOL157-U04-Q020",
+        "BIOL157-U04-Q021",
+        "BIOL157-U04-Q022",
+        "BIOL157-U04-Q023",
+        "BIOL157-U04-Q024",
+        "BIOL157-U04-Q025",
+        "BIOL157-U04-Q026",
+        "BIOL157-U04-Q027",
+        "BIOL157-U04-Q028",
+        "BIOL157-U04-Q029",
+        "BIOL157-U04-Q030",
+        "BIOL157-U04-Q031",
+        "BIOL157-U04-Q032",
+        "BIOL157-U04-Q033",
+        "BIOL157-U04-Q034",
+        "BIOL157-U04-Q035",
+        "BIOL157-U04-Q036",
+        "BIOL157-U04-Q037",
+        "BIOL157-U04-Q038",
+        "BIOL157-U04-Q039",
+        "BIOL157-U04-Q040",
+        "BIOL157-U04-Q041",
+        "BIOL157-U04-Q042",
+        "BIOL157-U04-Q043",
+        "BIOL157-U04-Q044",
+        "BIOL157-U04-Q045",
+        "BIOL157-U04-Q046",
+        "BIOL157-U04-Q047",
+        "BIOL157-U04-Q048",
+        "BIOL157-U04-Q049",
+        "BIOL157-U04-Q050",
+        "BIOL157-U04-Q051"
+      ],
+      "coverageStatus": "draft-partial-not-certified"
     },
     {
       "id": "BIOL157-CLO4",
@@ -515,7 +580,7 @@
           "id": "BIOL157-U04-T01",
           "unit": "U04",
           "title": "Chemical bonds",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -527,15 +592,43 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0401",
+            "BC0402",
+            "BC0403",
+            "BC0404",
+            "BC0405"
+          ],
+          "questions": [
+            "BIOL157-U04-Q001",
+            "BIOL157-U04-Q002",
+            "BIOL157-U04-Q003",
+            "BIOL157-U04-Q004",
+            "BIOL157-U04-Q005",
+            "BIOL157-U04-Q006",
+            "BIOL157-U04-Q007",
+            "BIOL157-U04-Q008",
+            "BIOL157-U04-Q009",
+            "BIOL157-U04-Q010",
+            "BIOL157-U04-Q011",
+            "BIOL157-U04-Q012",
+            "BIOL157-U04-Q013",
+            "BIOL157-U04-Q014",
+            "BIOL157-U04-Q015",
+            "BIOL157-U04-Q016",
+            "BIOL157-U04-Q017",
+            "BIOL157-U04-Q018",
+            "BIOL157-U04-Q019",
+            "BIOL157-U04-Q050",
+            "BIOL157-U04-Q051"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U04-T02",
           "unit": "U04",
           "title": "Molecular forces",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -547,15 +640,22 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0406"
+          ],
+          "questions": [
+            "BIOL157-U04-Q020",
+            "BIOL157-U04-Q021",
+            "BIOL157-U04-Q022",
+            "BIOL157-U04-Q023"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U04-T03",
           "unit": "U04",
           "title": "Isomerism",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -567,15 +667,44 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0407",
+            "BC0408",
+            "BC0409",
+            "BC0410",
+            "BC0411"
+          ],
+          "questions": [
+            "BIOL157-U04-Q024",
+            "BIOL157-U04-Q025",
+            "BIOL157-U04-Q026",
+            "BIOL157-U04-Q027",
+            "BIOL157-U04-Q028",
+            "BIOL157-U04-Q029",
+            "BIOL157-U04-Q030",
+            "BIOL157-U04-Q031",
+            "BIOL157-U04-Q032",
+            "BIOL157-U04-Q033",
+            "BIOL157-U04-Q034",
+            "BIOL157-U04-Q035",
+            "BIOL157-U04-Q036",
+            "BIOL157-U04-Q037",
+            "BIOL157-U04-Q038",
+            "BIOL157-U04-Q039",
+            "BIOL157-U04-Q040",
+            "BIOL157-U04-Q041",
+            "BIOL157-U04-Q042",
+            "BIOL157-U04-Q043",
+            "BIOL157-U04-Q044",
+            "BIOL157-U04-Q045"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U04-T04",
           "unit": "U04",
           "title": "Functional groups",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -587,9 +716,16 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0412"
+          ],
+          "questions": [
+            "BIOL157-U04-Q046",
+            "BIOL157-U04-Q047",
+            "BIOL157-U04-Q048",
+            "BIOL157-U04-Q049"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         }
       ],
       "sourceRefs": [
@@ -603,8 +739,21 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0401",
+        "BC0402",
+        "BC0403",
+        "BC0404",
+        "BC0405",
+        "BC0406",
+        "BC0407",
+        "BC0408",
+        "BC0409",
+        "BC0410",
+        "BC0411",
+        "BC0412"
+      ]
     },
     {
       "id": "U05",
@@ -1144,8 +1293,8 @@
   "counts": {
     "units": 10,
     "topics": 34,
-    "concepts": 23,
-    "lessons": 23,
-    "questions": 68
+    "concepts": 35,
+    "lessons": 35,
+    "questions": 119
   }
 }

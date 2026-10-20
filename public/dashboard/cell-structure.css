@@ -13,3 +13,6 @@ html.section-reader .side{display:none!important}html.section-reader .shell{grid
 
 /* Keep long academic section labels inside their grid track on narrow readers. */
 .section-navigation{grid-template-columns:minmax(0,1fr)}.section-navigation label,.section-navigation .workspace-choice{min-width:0;max-width:100%}
+
+/* Academic figures inherit the existing reader palette and stay within its column. */
+.cell-reader .academic-figure{margin:1rem 0}.cell-reader .academic-figure svg{display:block;width:100%;height:auto}.cell-reader .academic-figure figcaption{font-size:.9em;line-height:1.6;margin-top:.6rem}
