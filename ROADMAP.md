@@ -434,3 +434,12 @@ Regression evidence: the expanded permission suite reproduced unverified-owner e
 Final checks: 35 full emulator integration tests and 129 offline tests passed, zero failures/skips; lint passed with eight existing dormant-code warnings; production build passed with its existing large-entry warning; Git diff checks pass. One combined attempt was interrupted after Firebase CLI's automatic file-change reload failed and its Auth process exited. The launcher left its Firestore child on 8080; only this task's identified orphan and waiting tests were stopped. Restarting with the final files resolved the interruption and the complete suite passed. Tests used fixed demo-dominance loopback endpoints, mock administrative claims and fictional Auth accounts only.
 
 See docs/FIREBASE_AUTHORIZATION.md for the permission matrix and provisioning assessment. No student migration or new claims are required. Before a separately authorized live rollout, confirm intended administrators own verified email addresses, refresh their ID tokens and audit existing grants if the old rules were deployed. Trusted server-managed UID claims are preferred long term, with a protected grant/revoke workflow and token-revocation/cutover plan; this compatible fix does not silently initiate that migration. No live accounts, data or deployed rules were inspected or modified, no merge or application deployment occurred. Keep PR #3 draft for review.
+
+## HB1 academic foundation — BIOL157 review checkpoint, 2026-10-20
+
+- [x] Verify the attached official outline's ten units, 34 subtopics and five outcomes against actual PDF pages; record all eleven private PDF hashes/page counts.
+- [x] Author original Unit 1 (six concept lessons / 18 adapted candidate MCQs) and Unit 2 (eight concept lessons / 16 original MCQs); 28 explicit-answer checks, source evidence and scientific discrepancy decisions.
+- [x] Integrate independent study, per-concept practice and exact feedback-to-notes links using existing views and owner-scoped state. Add honest not-authored unit states and retain blocked normal student content.
+- [x] Add a reusable content contract, separate notes/outcome/question coverage, evidence checks and Antigravity integration hooks; see docs/ACADEMIC_CONTENT_STANDARD.md and docs/HB1_FIRST_SEMESTER_COVERAGE.md.
+- [ ] Obtain qualified academic approval; no self-approval, release, merge or deployment.
+- [ ] Author Units 3–10 incrementally; exact next source/teaching scope in docs/biol157/ACADEMIC_REVIEW.md.

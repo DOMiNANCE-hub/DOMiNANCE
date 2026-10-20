@@ -1,6 +1,7 @@
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'vite'
+import {biologicalReviewPlugin} from './scripts/academic/biological-review-plugin.mjs'
 import {cellReviewPlugin} from './scripts/academic/cell-review-plugin.mjs'
 import {computerReviewPlugin} from './scripts/academic/computer-review-plugin.mjs'
 
@@ -9,7 +10,7 @@ export default defineConfig(({mode, command}) => {
     throw new Error('Emulator mode is development-only and cannot be built for deployment.')
   }
   return {
-    plugins: [react(), tailwindcss(),computerReviewPlugin(mode,command),cellReviewPlugin(mode,command)].filter(Boolean),
+    plugins: [react(), tailwindcss(),computerReviewPlugin(mode,command),cellReviewPlugin(mode,command),biologicalReviewPlugin(mode,command)].filter(Boolean),
     build: {manifest: true},
     server: mode === 'emulator' ? {
       host: '127.0.0.1', port: 5174, strictPort: true,

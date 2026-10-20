@@ -23,7 +23,7 @@
   lines.forEach((line,index)=>{if(/^(?:#{1,6}\s+(?:Quick checks|Short concept checks)|\*\*Optional checks:\*\*)\s*$/i.test(line)){flush();inChecks=true;return}if(/^\*\*Optional check:\*\*/i.test(line)){flush();result.push(splitCheck(line,index+1));inChecks=false;return}if(inChecks&&/^\s*(?:\d+\.|[-*])\s+/.test(line)){flush();result.push(splitCheck(line,index+1));return}if(inChecks&&line.trim()&&!/^\s*$/.test(line))inChecks=false;buffer.push(line)});flush();return result;
  }
  function resolveBlock(id){return blocks.find(b=>id==='block:'+b.id||b.lessons.includes(id))}
- function questionsFor(data,selector){const block=blocks.find(b=>selector==='block:'+b.id);return data.questions.filter(q=>!selector||(block?block.lessons.includes(q.lesson):q.lesson===selector))}
+ function questionsFor(data,selector){const block=blocks.find(b=>selector==='block:'+b.id);return data.questions.filter(q=>!selector||(selector.startsWith('concept:')?q.conceptId===selector.slice(8):block?block.lessons.includes(q.lesson):q.lesson===selector))}
  function practiceLabel(ids,data){const groups=new Set(ids.map(id=>resolveBlock(data.questions.find(q=>q.id===id)?.lesson)?.title).filter(Boolean));return groups.size===1?[...groups][0]:'Full course'}
 
  function lessonTitle(lesson){return lesson.title.replace(/^(?:Lesson\s+\d+|[A-Z]{2}\d{2})\s*[—:–-]\s*/i,'')}

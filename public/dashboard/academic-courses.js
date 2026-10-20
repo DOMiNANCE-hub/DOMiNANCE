@@ -3,18 +3,20 @@
  function create(ctx){
   if(!ctx.owner||!ctx.storage)return null;
   const definitions=[
-   {name:'Cell Structure',data:root.DominanceCellContent,learning:root.DominanceCellLearning,model:root.DominanceCellState,key:'cellStructure',progressId:'cellProgress'},
-   {name:'Computer Appreciation',data:root.DominanceComputerContent,learning:root.DominanceComputerLearning,model:root.DominanceComputerState,key:'computerAppreciation',progressId:'computerProgress'}
+   {name:'Cell Structure',data:root.DominanceCellContent,learning:root.DominanceCellLearning,model:root.DominanceCellState,key:'cellStructure',progressId:'cellProgress',index:root.DominanceCellIndex},
+   {name:'Computer Appreciation',data:root.DominanceComputerContent,learning:root.DominanceComputerLearning,model:root.DominanceComputerState,key:'computerAppreciation',progressId:'computerProgress',index:root.DominanceComputerIndex},
+   {name:'Biological Chemistry',data:root.DominanceBiologicalContent,learning:root.DominanceBiologicalLearning,model:root.DominanceBiologicalState,key:'biologicalChemistry',progressId:'biologicalProgress',index:root.DominanceBiologicalIndex}
   ].filter(c=>c.data&&c.learning&&c.model);
-  const available=definitions.filter(c=>c.data.lessons.length&&c.data.questions.length);
+  const available=definitions.filter(c=>c.data.lessons.length);
   const engines=new Map();let selected=available[0]?.name;
   const study=()=>available.some(c=>c.name===ctx.context().course)?engines.get(ctx.context().course):null;
   const practice=()=>[...engines.values()].find(e=>e.active)||engines.get(selected);
-  for(const c of definitions)engines.set(c.name,root.DominanceCellStructure.create({...ctx,data:c.data.lessons.length?c.data:{...c.data,...root.DominanceComputerIndex},historyOnly:!c.data.lessons.length,learning:c.learning,model:c.model,stateKey:c.key,progressId:c.progressId,courses:available.map(d=>d.name),selectCourse:name=>{
+  for(const c of definitions)engines.set(c.name,root.DominanceCellStructure.create({...ctx,data:c.data.lessons.length?c.data:{...c.data,...c.index},historyOnly:!c.data.lessons.length,learning:c.learning,model:c.model,stateKey:c.key,progressId:c.progressId,courses:available.map(d=>d.name),selectCourse:name=>{
    if(!available.some(c=>c.name===name)||practice()?.active)return;
    selected=name;engines.get(name).openTopics();
   },openCellCourse:()=>ctx.openAcademicCourse(c.name)}));
   return {
+   historyEntries:()=>definitions.filter(c=>c.key==='biologicalChemistry').map(c=>[ctx.storage.getConfirmedItem?.(c.key),c.data.lessons.length?c.data:c.index,c.model,'biological:',c.name]),
    supports:name=>available.some(c=>c.name===name),
    info:name=>{const c=available.find(c=>c.name===name);return c?{blocks:c.learning.blocks.length,questions:c.data.questions.length}:null},
    course(){if(study())selected=ctx.context().course;return study()?.course()||false},
