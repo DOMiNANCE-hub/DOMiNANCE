@@ -1,0 +1,118 @@
+{
+  "source": "BIOL151-LECTURER-2025",
+  "basis": "Paraphrases of objectives on actual PDF pp.15-21; current-year validity not established",
+  "official": [
+    {
+      "id": "BIOL151-LO01",
+      "page": 15,
+      "text": "Theory and uses of types of light microscopes"
+    },
+    {
+      "id": "BIOL151-LO02",
+      "page": 16,
+      "text": "Advances in studying cell structure/function over three centuries"
+    },
+    {
+      "id": "BIOL151-LO03",
+      "page": 16,
+      "text": "Theory and uses of electron microscopy in biology"
+    },
+    {
+      "id": "BIOL151-LO04",
+      "page": 16,
+      "text": "Advantages and disadvantages of electron microscopy"
+    },
+    {
+      "id": "BIOL151-LO05",
+      "page": 17,
+      "text": "Discriminate organisms using cellular structure"
+    },
+    {
+      "id": "BIOL151-LO06",
+      "page": 17,
+      "text": "Structure and functions of eukaryotic organelles"
+    },
+    {
+      "id": "BIOL151-LO07",
+      "page": 17,
+      "text": "Major disruption and fractionation methods"
+    },
+    {
+      "id": "BIOL151-SM01",
+      "page": 18,
+      "text": "Why more powerful microscopes are needed"
+    },
+    {
+      "id": "BIOL151-SM02",
+      "page": 18,
+      "text": "Simple microscope"
+    },
+    {
+      "id": "BIOL151-SM03",
+      "page": 18,
+      "text": "Defects of simple microscopes"
+    },
+    {
+      "id": "BIOL151-SM04",
+      "page": 19,
+      "text": "Correction of simple-microscope defects"
+    },
+    {
+      "id": "BIOL151-SM05",
+      "page": 19,
+      "text": "Classify modern light microscopes"
+    },
+    {
+      "id": "BIOL151-SM06",
+      "page": 19,
+      "text": "Compound and dissecting microscope uses"
+    },
+    {
+      "id": "BIOL151-SM07",
+      "page": 19,
+      "text": "Define magnification"
+    },
+    {
+      "id": "BIOL151-SM08",
+      "page": 19,
+      "text": "Useful versus empty magnification"
+    },
+    {
+      "id": "BIOL151-SM09",
+      "page": 20,
+      "text": "Contrast"
+    },
+    {
+      "id": "BIOL151-SM10",
+      "page": 20,
+      "text": "Uses of dark-field, phase-contrast, fluorescence and UV relative to bright-field"
+    },
+    {
+      "id": "BIOL151-SM11",
+      "page": 21,
+      "text": "Parfocality"
+    },
+    {
+      "id": "BIOL151-SM12",
+      "page": 21,
+      "text": "Define resolution"
+    },
+    {
+      "id": "BIOL151-SM13",
+      "page": 21,
+      "text": "Limit of resolution versus resolving ability"
+    },
+    {
+      "id": "BIOL151-SM14",
+      "page": 21,
+      "text": "Factors determining resolving ability"
+    }
+  ],
+  "editorial": [
+    {
+      "id": "BIOL151-ED-ANALYSIS",
+      "basis": "Biochemical analysis lecture chapter headings; no separate official objective text verified",
+      "text": "Interpret biochemical signals and separation evidence"
+    }
+  ]
+}

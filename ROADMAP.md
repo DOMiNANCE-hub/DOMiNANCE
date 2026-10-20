@@ -15,6 +15,9 @@ Source evidence establishes 199 unique 541-to-542 page-text matches and leaves 3
 Verification: 155 offline and 38 real loopback emulator checks pass; lint/build pass with existing warnings. Chromium checks the expanded 18-lesson/90-section review, saved progress/practice, release hold and existing Cell flow. Software is prepared for review with the release gate intact; student academic approval is still blocked. [Detailed evidence and limits](docs/csm177/READINESS.md), [current nine-course inventory](docs/HB1_CONTENT_COVERAGE_TABLE.md).
 
 The entries below are historical; the 20 October status above takes precedence.
+## Cell instructional checkpoint — 2026-10-20
+
+All 46 lessons audited; 23 receive gated instructional expansions, 96 rationales improved and eight interpretation/application candidates added (178 internal-review questions). Original files, IDs and answer mappings remain intact. The existing uricase caveats are consolidated, preserving all unique qualifications. Seven broad and fourteen microscopy-specific lecturer objectives mapped from the actual 410-page 2025 PDF; six selected visual pages checked, remaining source/figure/current-year coverage explicitly open. 147 offline and 37 real emulator checks, lint/build and all 263 reader sections at 390px pass. [Evidence and exact continuation](docs/cell-instruction/READINESS.md). Normal builds retain the 170-question bank; no academic approval, merge or deployment.
 
 ## HB1 academic development — 2026-10-19
 

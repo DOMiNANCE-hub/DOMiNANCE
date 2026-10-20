@@ -1,0 +1,5 @@
+### Explain each replacement before memorising a schedule
+Water-containing tissue cannot simply be treated as though its internal spaces already contain wax. In the source's paraffin sequence, graded alcohol removes water, clearing replaces alcohol with a wax-compatible solvent, and wax infiltration replaces that clearing medium. The order follows compatibility as well as support needs.
+If a learner calls clearing “washing away dirt”, ask what material is replaced and what must enter next. Xylene bridges the dehydrating medium and molten paraffin; embedding is the final provision of mechanical support, not another name for dehydration.
+The printed times are a specific teaching schedule, not universal treatment durations. Altering specimen size or medium can change appropriate conditions; do not apply the table as a clinical/laboratory protocol without local validation.
+**Optional check:** Which stage makes the dehydrated tissue compatible with paraffin infiltration? **Answer:** Clearing, which replaces the alcohol with a solvent compatible with the wax workflow.

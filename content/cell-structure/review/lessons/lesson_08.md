@@ -1,0 +1,4 @@
+### From optical delay to image contrast
+Transparent structures can delay light differently while absorbing little of it. The phase-contrast annulus and phase plate make interference translate those phase differences into observable brightness differences. The cell is not first made opaque; an otherwise hard-to-see optical difference is converted into a detectable signal.
+A useful comparison is a living-cell time series. Phase contrast can reveal shape changes without conventional fixation/staining, whereas an H&E section answers a structural question after preservation and sectioning. Avoid interpreting that comparison as a guarantee that every visible structure has been molecularly identified.
+**Optional check:** Why can phase contrast help with a transparent living cell without removing the visible-light resolution limit? **Answer:** It improves contrast by converting phase differences into brightness, while the wavelength and optics still constrain resolution.
