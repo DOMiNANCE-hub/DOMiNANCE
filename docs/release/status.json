@@ -229,5 +229,42 @@
       }
     ]
   },
-  "integrationPR": "https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17"
+  "integrationPR": "https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17",
+  "testedImplementationCommit": "4bb8a374060c677ea457e9feac68c18645050352",
+  "githubCI": {
+    "status": "success",
+    "commit": "4bb8a374060c677ea457e9feac68c18645050352",
+    "url": "https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39503719577"
+  },
+  "checkpoints": [
+    {
+      "batch": "Five-PR integration and validation",
+      "commit": "dacbb154b59b3be2beb973dd98e780a99e98f03e"
+    },
+    {
+      "batch": "Bio Unit 3",
+      "commit": "34cfa8379afe675fac486b349b9544d2fed3bf09"
+    },
+    {
+      "batch": "Bio Unit 4",
+      "commit": "5e3323d594b1ea4c0f03ce2a6ab54e14d4203314"
+    },
+    {
+      "batch": "Cell rationales and verified corrections",
+      "commit": "b637032d0c766b72de99c5043d0371ffeae7a258"
+    },
+    {
+      "batch": "Bio Unit 5",
+      "commit": "1bc3d8d3e635b203dc7070c0952004784e0848d8"
+    },
+    {
+      "batch": "Office manual acceptance preparation",
+      "commit": "f0272e6f4341c77bceb20ddcc56bcf80033bf34b"
+    },
+    {
+      "batch": "Bio Unit 6",
+      "commit": "4bb8a374060c677ea457e9feac68c18645050352"
+    }
+  ],
+  "continuation": "docs/release/CONTINUE.md"
 }

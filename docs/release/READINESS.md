@@ -2,6 +2,8 @@
 
 Branch: `release/hb1-three-course-rc-20261020`. This report separates draft teaching from academic approval. No student release is authorised.
 
+Draft integration PR: [#17](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17). Input PRs: [#9](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/9), [#13](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/13), [#14](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/14), [#15](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/15), [#16](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/16).
+
 | Course | Draft lessons | Review MCQs | Official coverage | Student release |
 |---|---:|---:|---|---|
 | Cell Structure | 46 | 178 | 31 available 2025 objectives; current-year scope unverified | Blocked |
@@ -27,6 +29,18 @@ Existing Vercel project: `do-mi-nance`. Read-only inspection confirms existing V
 ## Exact next checkpoint
 
 Complete BIOL157 Unit 7 Proteins from all 71 actual Lecture 7 pages and three official outline subtopics, including amino-acid ionisation/calculations, peptide chemistry and protein structure; then Units 8–10 as separate tested batches. Finish Cell source/figure and exact-concept review, Computer remaining supported objectives and Office/manual academic decisions, auditable publication and isolated Firebase/Vercel preview readiness.
+
+## Tested implementation checkpoints
+
+- Five-PR integration and validation: [`dacbb15`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/dacbb154b59b3be2beb973dd98e780a99e98f03e)
+- Bio Unit 3: [`34cfa83`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/34cfa8379afe675fac486b349b9544d2fed3bf09)
+- Bio Unit 4: [`5e3323d`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/5e3323d594b1ea4c0f03ce2a6ab54e14d4203314)
+- Cell rationales and verified corrections: [`b637032`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/b637032d0c766b72de99c5043d0371ffeae7a258)
+- Bio Unit 5: [`1bc3d8d`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/1bc3d8d3e635b203dc7070c0952004784e0848d8)
+- Office manual acceptance preparation: [`f0272e6`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/f0272e6f4341c77bceb20ddcc56bcf80033bf34b)
+- Bio Unit 6: [`4bb8a37`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/4bb8a374060c677ea457e9feac68c18645050352)
+
+Latest implementation CI: [success](https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39503719577). Exact continuation: [CONTINUE.md](CONTINUE.md).
 
 Microsoft Office remains 0/15 executed: [exact manual acceptance checklist](../csm177/MICROSOFT_OFFICE_ACCEPTANCE.md).
 
