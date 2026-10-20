@@ -23,3 +23,5 @@ Validation results and PR commit are recorded after the final verification run. 
 - Re-fetched development before commit: still `3b5368f`. No source/rules/production changes. The three-branch combination is a separate integration check, not implied by these isolated branch results.
 
 The first browser retries exposed shared Vite dependency-cache invalidation between concurrently running worktrees. A temporary configuration outside Git gave this test server its own cache; the final complete run passes. No application change was needed for that test-environment issue.
+
+The three academic drafts were subsequently combined in an isolated local test tree: **178 offline and 40 emulator checks**, lint/build, actual all-178/114/34 quiz submissions, all three progress panels and 390px Bio reading pass. The normal release gates remain blocked. Shared-file conflicts were resolved locally, not on a remote base. Exact inputs, resolutions and limitations: [combined integration evidence](COMBINED_INTEGRATION.md).
