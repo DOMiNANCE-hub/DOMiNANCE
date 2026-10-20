@@ -90,7 +90,22 @@ try{
  await frame.getByRole('button',{name:'Start practice',exact:true}).click();
  await frame.getByRole('button',{name:'Review responses',exact:true}).click();
  await frame.getByRole('button',{name:'Submit practice (178 unanswered)',exact:true}).click();
+ for(let index=170;index<178;index++){
+  const details=frame.locator('#quizArea details').nth(index);await details.locator('summary').click();await details.getByText(/^Source: BIOL 151 Cell Structure/).waitFor();
+ }
  await frame.getByRole('button',{name:'Return to study',exact:true}).click();
+ const cellRoutes=await dashboard.evaluate(()=>DominanceCellContent.lessons.map(l=>({id:l.id,parts:DominanceCellLearning.sections(l).length}))),cellFigures=new Set();
+ for(const route of cellRoutes)for(let part=0;part<route.parts;part++){
+  await dashboard.evaluate(({id,part})=>openTopic('lesson:'+id+':'+part),{id:route.id,part});
+  assert.equal(await dashboard.locator('#cellSection').isVisible(),true,route.id+':'+part);
+  for(const figure of await dashboard.locator('#cellSection .academic-figure').all()){
+   const id=await figure.getAttribute('data-figure-id');cellFigures.add(id);
+   const clipped=await figure.locator('svg').evaluate(svg=>{const v=svg.viewBox.baseVal;return [...svg.querySelectorAll('text')].filter(t=>{const b=t.getBBox();return b.x<0||b.y<0||b.x+b.width>v.width||b.y+b.height>v.height}).map(t=>t.textContent)});assert.deepEqual(clipped,[],id);await figure.screenshot({path:'/tmp/'+id+'.png'});
+  }
+  assert.equal(await dashboard.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth),true,route.id+':'+part);
+ }
+ assert.equal(cellFigures.size,await dashboard.evaluate(()=>DominanceCellContent.figures.length));
+ console.log('PASS:',cellRoutes.length,'Cell lessons /',cellRoutes.reduce((n,l)=>n+l.parts,0),'sections /',cellFigures.size,'figures at390px, plus all eight new-question citations.');
  await dashboard.evaluate(()=>openCourse('Computer Appreciation','HB1 · Semester 1'));
  await dashboard.evaluate(()=>openTopic('lesson:CA10:0'));
  await frame.getByRole('button',{name:'Practise this lesson',exact:true}).click();

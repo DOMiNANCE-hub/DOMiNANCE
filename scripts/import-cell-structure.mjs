@@ -1,9 +1,21 @@
 import '../public/dashboard/cell-learning.js';
+import '../public/dashboard/academic-figures.js';
 import {readFileSync,readdirSync,writeFileSync,mkdirSync} from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const source=path.join(root,'content/cell-structure');
+export function applyQuestionRevisions(questions,revisions){
+ const ids=new Set();
+ for(const revision of revisions){
+  const q=questions.find(q=>q.id===revision.id),fields=Object.keys(revision.changes||{});
+  if(!q||ids.has(revision.id)||!fields.length||fields.some(k=>!['question','options'].includes(k))||Object.keys(revision.original||{}).length!==fields.length||revision.answerLetter!==q.letter||revision.reviewer!==null||!revision.reason?.trim()||!revision.pages?.length||revision.pages.some(p=>!Number.isInteger(p)||p<1||p>410))throw Error('Invalid question revision '+revision.id);
+  for(const field of fields)if(JSON.stringify(q[field])!==JSON.stringify(revision.original[field]))throw Error('Stale question revision '+revision.id);
+  if(revision.changes.options&&revision.changes.options[q.letter.charCodeAt(0)-65]!==q.options[q.letter.charCodeAt(0)-65])throw Error('Revision changes keyed answer '+revision.id);
+  Object.assign(q,revision.changes);ids.add(revision.id);
+ }
+ return questions;
+}
 export function studentMarkdown(text){
  const lines=text.replace(/\r\n/g,'\n').split('\n');let skipping=false,depth=0;
  return lines.filter(line=>{const heading=line.match(/^(#{1,6})\s+(.+)/);if(heading){if(/internal|source and review note/i.test(heading[2])){skipping=true;depth=heading[1].length;return false}if(skipping&&heading[1].length<=depth)skipping=false}return !skipping&&!/^\*\*(Source|Status|Figure placements|Student-facing lessons):?\*\*/i.test(line)&&!/^#{1,6}\s+(?:DOMiNANCE.*Cell Structure|Milestone \d+.*Student-facing editorial draft)/.test(line)&&!/^\*\*Student-facing lessons/.test(line)}).join('\n').trim();
@@ -27,9 +39,18 @@ export function compile({includeReview=false}={}){
   const resolution=lessons.find(l=>l.id==='lesson_06');resolution.markdown=resolution.markdown.replace('The full slide table includes further objective magnifications and NA values; it should be provided as a verified reference figure rather than silently omitted.','The complete source table is included in the appended internal reference section after visual checking of actual PDF p.89.');
   questions=questions.map(q=>({...q,explanation:rationales[q.id]||q.explanation}));
   for(const id of Object.keys(rationales))if(!questions.some(q=>q.id===id))throw Error('Unknown rationale '+id);
+  applyQuestionRevisions(questions,JSON.parse(readFileSync(path.join(source,'review/question-revisions.json'),'utf8')));
   questions.push(...JSON.parse(readFileSync(path.join(source,'review/questions.json'),'utf8')));
+  const evidence=JSON.parse(readFileSync(path.join(source,'review/rationale-evidence.json'),'utf8'));
+  for(const q of questions){const pages=evidence.rationales.find(row=>row.id===q.id)?.pages||q.pages;if(pages)q.sourceRefs=[{source:'BIOL151-LECTURER-2025',pages:pages.map(p=>[p,p])}]}
  }
  const data=validateContent({version:1,status:'academic-review-pending',course:'Cell Structure',scope:'HB1:First',...(includeReview?{reviewOnly:true}:{}),lessons,questions},{review:includeReview});
+ if(includeReview){
+  data.sources=[{id:'BIOL151-LECTURER-2025',label:'BIOL 151 Cell Structure lecturer PDF (2025)',pages:410}];
+  data.figures=JSON.parse(readFileSync(path.join(source,'review/figures.json'),'utf8'));
+  const ids=new Set();for(const figure of data.figures){globalThis.DominanceAcademicFigures.validate(figure);if(ids.has(figure.id))throw Error('Duplicate Cell figure');ids.add(figure.id)}
+  for(const lesson of lessons)for(const match of lesson.markdown.matchAll(/\[Figure:([\w-]+)\]/g))if(!ids.has(match[1]))throw Error('Missing Cell figure');
+ }
  if(includeReview){const stems=data.questions.map(q=>q.question.toLowerCase().replace(/\s+/g,' ').trim());if(new Set(stems).size!==stems.length)throw Error('Duplicate Cell question stem')}
  return data;
 }

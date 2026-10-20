@@ -1,6 +1,6 @@
 {
   "source": "BIOL151-LECTURER-2025",
-  "basis": "Paraphrases of objectives on actual PDF pp.15-21; current-year validity not established",
+  "basis": "Paraphrases of objectives on actual PDF pp.15–21 and p.246; current-year validity not established",
   "official": [
     {
       "id": "BIOL151-LO01",
@@ -106,6 +106,114 @@
       "id": "BIOL151-SM14",
       "page": 21,
       "text": "Factors determining resolving ability"
+    },
+    {
+      "id": "BIOL151-CY01",
+      "page": 246,
+      "text": "Define the cytoskeleton",
+      "draftLessons": [
+        "CY01"
+      ],
+      "coverageStatus": "source-objective-with-review-draft;human-academic-approval-pending",
+      "evidence": "Lecturer objective verified on actual p.246. Mechanistic supplements are labelled in lessons and source evidence; not all details are developed in slides."
+    },
+    {
+      "id": "BIOL151-CY02",
+      "page": 246,
+      "text": "Explain cytoskeletal functions",
+      "draftLessons": [
+        "CY01",
+        "CY04"
+      ],
+      "coverageStatus": "source-objective-with-review-draft;human-academic-approval-pending",
+      "evidence": "Lecturer objective verified on actual p.246. Mechanistic supplements are labelled in lessons and source evidence; not all details are developed in slides."
+    },
+    {
+      "id": "BIOL151-CY03",
+      "page": 246,
+      "text": "Distinguish filament composition and associated proteins",
+      "draftLessons": [
+        "CY01",
+        "CY02"
+      ],
+      "coverageStatus": "source-objective-with-review-draft;human-academic-approval-pending",
+      "evidence": "Lecturer objective verified on actual p.246. Mechanistic supplements are labelled in lessons and source evidence; not all details are developed in slides."
+    },
+    {
+      "id": "BIOL151-CY04",
+      "page": 246,
+      "text": "Explain how the cytoskeleton brings about movement",
+      "draftLessons": [
+        "CY01",
+        "CY03",
+        "CY04"
+      ],
+      "coverageStatus": "source-objective-with-review-draft;human-academic-approval-pending",
+      "evidence": "Lecturer objective verified on actual p.246. Mechanistic supplements are labelled in lessons and source evidence; not all details are developed in slides."
+    },
+    {
+      "id": "BIOL151-CY05",
+      "page": 246,
+      "text": "Explain dynamic instability of microtubules",
+      "draftLessons": [
+        "CY02",
+        "CY03"
+      ],
+      "coverageStatus": "source-objective-with-review-draft;human-academic-approval-pending",
+      "evidence": "Lecturer objective verified on actual p.246. Mechanistic supplements are labelled in lessons and source evidence; not all details are developed in slides."
+    },
+    {
+      "id": "BIOL151-CY06",
+      "page": 246,
+      "text": "Distinguish centrosome, cilia and flagella",
+      "draftLessons": [
+        "OR07",
+        "CY01"
+      ],
+      "coverageStatus": "source-objective-with-review-draft;human-academic-approval-pending",
+      "evidence": "Lecturer objective verified on actual p.246. Mechanistic supplements are labelled in lessons and source evidence; not all details are developed in slides."
+    },
+    {
+      "id": "BIOL151-CY07",
+      "page": 246,
+      "text": "Relate microtubules to medicine and disease",
+      "draftLessons": [
+        "CY03",
+        "CY04"
+      ],
+      "coverageStatus": "source-objective-with-review-draft;human-academic-approval-pending",
+      "evidence": "Lecturer objective verified on actual p.246. Mechanistic supplements are labelled in lessons and source evidence; not all details are developed in slides."
+    },
+    {
+      "id": "BIOL151-CY08",
+      "page": 246,
+      "text": "Explain actin filaments and associated binding proteins",
+      "draftLessons": [
+        "CY01"
+      ],
+      "coverageStatus": "source-objective-with-review-draft;human-academic-approval-pending",
+      "evidence": "Lecturer objective verified on actual p.246. Mechanistic supplements are labelled in lessons and source evidence; not all details are developed in slides."
+    },
+    {
+      "id": "BIOL151-CY09",
+      "page": 246,
+      "text": "Relate actin to red-cell cytoskeletal architecture",
+      "draftLessons": [
+        "CY01",
+        "CY02"
+      ],
+      "coverageStatus": "source-objective-with-review-draft;human-academic-approval-pending",
+      "evidence": "Lecturer objective verified on actual p.246. Mechanistic supplements are labelled in lessons and source evidence; not all details are developed in slides."
+    },
+    {
+      "id": "BIOL151-CY10",
+      "page": 246,
+      "text": "Explain actin filaments in muscle contraction",
+      "draftLessons": [
+        "CY01"
+      ],
+      "coverageStatus": "source-objective-with-review-draft;human-academic-approval-pending",
+      "evidence": "Lecturer objective verified on actual p.246. Mechanistic supplements are labelled in lessons and source evidence; not all details are developed in slides."
     }
   ],
   "editorial": [

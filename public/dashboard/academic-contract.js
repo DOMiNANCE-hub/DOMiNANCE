@@ -10,7 +10,7 @@
  function sectionConcept(lesson,section,data){return data.concepts?.find(c=>c.lesson===lesson.id&&lesson.sections?.some(s=>s.id===c.sectionId&&s.title===section.title))||null}
  function questionReferences(question,data){
   if(question.sourceRefs)return question.sourceRefs.map(ref=>{const source=data.sources?.find(s=>s.id===ref.source);return (source?.label||ref.source)+(ref.pages?.length?' · PDF '+ref.pages.map(([a,b])=>'p. '+a+(a===b?'':'–'+b)).join(', '):'')}).join(' · ');
-  return question.pages?'CSM 177 lecturer PDF '+question.pages.map(([a,b])=>'p. '+a+(a===b?'':'–'+b)).join(', '):'';
+  return question.pages?(data.course==='Cell Structure'?'BIOL 151 lecturer PDF ':'CSM 177 lecturer PDF ')+question.pages.map(page=>{const [a,b]=Array.isArray(page)?page:[page,page];return 'p. '+a+(a===b?'':'–'+b)}).join(', '):'';
  }
  root.DominanceAcademicContract={sectionRoute,questionRoute,relatedQuestions,sectionConcept,questionReferences};
 })(globalThis);

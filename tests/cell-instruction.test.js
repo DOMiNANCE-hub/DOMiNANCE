@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
-import {compile} from '../scripts/import-cell-structure.mjs';
+import {compile,applyQuestionRevisions} from '../scripts/import-cell-structure.mjs';
+import '../public/dashboard/academic-contract.js';
 import {cellReviewPlugin} from '../scripts/academic/cell-review-plugin.mjs';
 import '../public/dashboard/cell-state.js';
 import '../public/dashboard/cell-structure.js';
@@ -18,21 +19,23 @@ test('instructional coverage separates delivered, retained and still-unverified 
 test('all 46 original lessons and 170 source questions retain original bytes and stable assessment fields',()=>{
  assert.equal(audit.length,46);assert.equal(new Set(audit.map(row=>row.lesson)).size,46);
  for(const row of audit){const bytes=readFileSync(new URL('../content/cell-structure/lessons/'+row.lesson+'.md',import.meta.url));assert.equal(createHash('sha256').update(bytes).digest('hex'),row.originalSha256)}
- const strip=({explanation,...q})=>q;assert.deepEqual(review.questions.slice(0,170).map(strip),original.questions.map(strip));
- assert.equal(audit.filter(row=>row.expansion).length,23);assert.equal(review.questions.length,178);
- assert.equal(review.questions.slice(0,170).filter((q,i)=>q.explanation!==original.questions[i].explanation).length,96);
+ const raw=readFileSync(new URL('../content/cell-structure/MCQ_170_REVIEW_READY.json',import.meta.url));assert.equal(createHash('sha256').update(raw).digest('hex'),read('content/cell-structure/review/source-evidence.json').sourceQuestionsSha256);
+ const revisions=read('content/cell-structure/review/question-revisions.json');
+ for(const [i,q] of review.questions.slice(0,170).entries()){const before=original.questions[i],revision=revisions.find(r=>r.id===q.id);for(const field of ['id','lesson','question','options','letter'])assert.deepEqual(q[field],revision?.changes[field]??before[field],q.id+':'+field);assert.equal(q.options[q.letter.charCodeAt(0)-65],before.options[before.letter.charCodeAt(0)-65])}
+ assert.equal(audit.filter(row=>row.expansion).length,34);assert.equal(review.questions.length,178);
+ assert.equal(review.questions.slice(0,170).filter((q,i)=>q.explanation!==original.questions[i].explanation).length,170);
 });
 test('one human uricase clarification retains the unique endpoint and organism qualifications',()=>{
  for(const data of [original,review]){const text=data.lessons.find(l=>l.id==='OR01').markdown;assert.equal((text.match(/Humans lack functional urate oxidase/gi)||[]).length,1);assert.match(text,/human purine catabolism generally ends with uric acid/);assert.match(text,/in organisms possessing the enzyme/)}
 });
-test('new study sections preserve earlier partitions and all 74 concept checks have explicit answers',()=>{
+test('new study sections preserve earlier partitions and all 88 concept checks have explicit answers',()=>{
  const learning=globalThis.DominanceCellLearning;let checks=0;
  for(const lesson of review.lessons){
   const before=learning.sections(original.lessons.find(l=>l.id===lesson.id)),after=learning.sections(lesson);
   assert.deepEqual(after.slice(0,before.length).map(s=>s.title),before.map(s=>s.title),lesson.id);
   const parts=after.flatMap(s=>learning.parts(s.text));assert.equal(parts.some(p=>p.kind==='unresolved-check'),false,lesson.id);checks+=parts.filter(p=>p.kind==='check').length;
  }
- assert.equal(checks,74);
+ assert.equal(checks,88);
 });
 test('normal student bank excludes instructional additions and every new assessment stem',()=>{
  const source=readFileSync(new URL('../public/dashboard/cell-content.js',import.meta.url),'utf8'),context={};runInNewContext(source,context);
@@ -63,6 +66,31 @@ test('new review questions run through the existing submit flow and retain legac
  const merged=JSON.parse(mergeCellHistory(legacy,JSON.stringify({...saved,attempts:[...saved.attempts,{id:'new',completedAt:'2026-10-20T12:00:00Z',answers:[{question:'CELL-RQ001',option:0}]}]})));assert.equal(merged.attempts.length,3);assert.equal(merged.lessons.CO01,'2026-10-20T12:00:00Z');
 });
 test('official-source objectives, editorial extensions and remaining figure concerns are distinct',()=>{
- const objectives=read('content/cell-structure/review/objectives.json'),evidence=read('content/cell-structure/review/source-evidence.json');assert.equal(objectives.official.length,21);assert.equal(objectives.editorial.length,1);assert.equal(evidence.pages,410);assert.equal(evidence.visualChecks.length,6);assert.ok(evidence.visualChecks.some(row=>row.page===358&&row.status==='flagged-not-adopted'));
+ const objectives=read('content/cell-structure/review/objectives.json'),evidence=read('content/cell-structure/review/source-evidence.json');assert.equal(objectives.official.length,31);assert.equal(objectives.editorial.length,1);assert.equal(evidence.pages,410);assert.equal(evidence.visualChecks.length,6);assert.ok(evidence.visualChecks.some(row=>row.page===358&&row.status==='flagged-not-adopted'));
  const ids=new Set([...objectives.official,...objectives.editorial].map(o=>o.id));for(const row of audit)for(const id of row.objectives)assert.ok(ids.has(id));for(const q of review.questions.slice(170))assert.ok(ids.has(q.objective));
+});
+test('ambiguous and repeated prompts are corrected only in the protected review bank without changing historical answer positions',()=>{
+ const by=(data,id)=>data.questions.find(q=>q.id===id),answer=q=>q.options[q.letter.charCodeAt(0)-65];
+ assert.match(by(original,'CYQ19').question,/used in cancer chemotherapy/);assert.doesNotMatch(by(original,'CYQ19').question,/inhibiting/);
+ const drug=by(review,'CYQ19');assert.match(drug.question,/inhibiting microtubule assembly/);assert.equal(answer(drug),'Vincristine');assert.match(drug.explanation,/Paclitaxel is also an anticancer drug/);
+ assert.match(by(original,'CO-Q003').options[2],/structure and organisation/);assert.match(by(review,'CO-Q003').options[2],/composition alone/);
+ assert.match(by(review,'CO-Q012').question,/compressed by adjacent cells/);assert.match(by(review,'CO-Q005').question,/framework/);
+ const revisions=read('content/cell-structure/review/question-revisions.json'),clone=()=>structuredClone(original.questions);
+ assert.throws(()=>applyQuestionRevisions(clone(),[...revisions,revisions[0]]),/Invalid question revision/);
+ const stale=structuredClone(revisions);stale[0].original.options[0]='stale';assert.throws(()=>applyQuestionRevisions(clone(),stale),/Stale/);
+ const changedKey=structuredClone(revisions);changedKey[0].changes.options[1]='different keyed answer';assert.throws(()=>applyQuestionRevisions(clone(),changedKey),/keyed answer/);
+});
+test('Cell review citations handle all eight new questions and flat legacy pages without borrowing a Computer source label',()=>{
+ const contract=globalThis.DominanceAcademicContract;
+ for(const q of review.questions.slice(170)){const citation=contract.questionReferences(q,review);assert.match(citation,/BIOL 151 Cell Structure/);assert.doesNotMatch(citation,/CSM/)}
+ assert.equal(contract.questionReferences({pages:[81,91]},{course:'Cell Structure'}),'BIOL 151 lecturer PDF p. 81, p. 91');
+ assert.equal(contract.questionReferences({pages:[[523,524]]},{course:'Computer Appreciation'}),'CSM 177 lecturer PDF p. 523–524');
+ const pages=read('content/cell-structure/review/rationale-evidence.json');assert.equal(pages.rationales.length,74);assert.deepEqual(pages.rationales.find(r=>r.id==='OR02-Q05').pages,[206]);assert.deepEqual(pages.rationales.find(r=>r.id==='CYQ09').pages,[274]);
+});
+test('Cell geometric examples and original figures are source-qualified and remain out of normal assets',()=>{
+ assert.equal(6*2**2,24);assert.equal(8*6*1**2,48);assert.equal(2**3,8*1**3);assert.equal((6*2**2)/(2**3),3);
+ assert.equal(review.figures.length,2);const publicAsset=readFileSync(new URL('../public/dashboard/cell-content.js',import.meta.url),'utf8');
+ for(const figure of review.figures){assert.ok(review.lessons.some(l=>l.markdown.includes('[Figure:'+figure.id+']')));assert.equal(publicAsset.includes(figure.id),false);assert.match(globalThis.DominanceAcademicFigures.html(figure),/role="img"/)}
+ const actin=review.lessons.find(l=>l.id==='CY01').markdown;assert.match(actin,/Calcium binds troponin/);assert.match(actin,/ATP binding allows myosin to detach/);assert.match(actin,/individual actin and myosin filaments do not have to become shorter/);
+ assert.match(review.lessons.find(l=>l.id==='OR07').markdown,/two central singlet microtubules/);
 });

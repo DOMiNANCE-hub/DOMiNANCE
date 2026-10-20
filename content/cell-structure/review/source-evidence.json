@@ -146,9 +146,111 @@
       "anchor": "STAINING contd Negative staining produces an electron –dense background against which the"
     },
     {
+      "page": 190,
+      "textSha256": "7538b12778713e377b9dc70141c7107419c6b2efc287c8d13b02c4a13d2532ee",
+      "anchor": "Fundamentals of the cell  Wide range of cell types but generally two kinds",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 192,
+      "textSha256": "0e2101173f634b364cfb1002e1c9692d2d9499b5274a23667a25c5bf20fb1dbd",
+      "anchor": "What is the cell Cont’d  We and other multi-cellular organisms contain billions and",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 193,
+      "textSha256": "4eefd6da568064d6dd90ce0ec88496fcf80aa8de53e7734a241e58ebcdf947fd",
+      "anchor": "What is the cell Cont’d  This indicates that the cell is the fundamental",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 194,
+      "textSha256": "1d43bf848508da67e1c6c679fac50dddc5c18762dfe5e58a724e6d670cfe4e77",
+      "anchor": "Cellular Level of Organization  The cell: • Basic, living, structural and functional unit",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 195,
+      "textSha256": "ac5d76ddc6527d0a08dff905dd26ba40ef75dad71bb0ead271cd238e0e016bf7",
+      "anchor": "General functions of the cell • Compartmentalization of chemical reactions within specialized structures •",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 197,
+      "textSha256": "79af5e0d6b7e0beea48619bc6db8743e274365f14f0ff7f097deed9526baf06f",
+      "anchor": "Cellular Diversity Cont’d. • 100 trillion cells in the body -- 200 different types",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 198,
+      "textSha256": "17aae9d3d1a1d818ea2b72b4b26bc7c1f9a7ff76d5fb6a61ad958a4ba12ddff5",
+      "anchor": "A typical cell 18/01/2025 205",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 200,
+      "textSha256": "71a8554477de6ae08471c4f75dcab7927a3ccaa5844a3d827ae3f24065e8c8f8",
+      "anchor": "Factors that determine cell size and shape The shape of the cell depends partly",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 201,
+      "textSha256": "ffda320e6754ad54a23e84f9136e768fa01f1d0e1814b9bd09070a472aa49fb7",
+      "anchor": "Cell Structure Cont’d  ASSIGNMENTS: ❑ Cell Theory.  Factors that determine cell size",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 202,
+      "textSha256": "6c747385b227521b093269636183940ac60ecc80cd1e560a63cba7fd7ccb937d",
+      "anchor": "Surface Area to Volume ratio No. Size Area Vol. Surface Surface area Area/Vol. 1",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 203,
+      "textSha256": "07de5bac1f10e20e9f476158d2dc553a855ddb350672c05c749738f986cb0936",
+      "anchor": "Use of Geometric relationships to explain why most cells are microscopic 18/01/2025 210",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 204,
+      "textSha256": "a45498e6b75115373ac4793b03dfea810419ff7515a959f805bf9b2f7e6ab572",
+      "anchor": "How are Prokaryotes Different from Eukaryotes? • The way their DNA is packaged –",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 205,
+      "textSha256": "cf3b9118edb4a137290a75d59a87397a7182adbb706f170c97503e54a3ec489c",
+      "anchor": "Prokaryotic Form and Function",
+      "scope": "Section title only; not evidence for the microbody list on actual p.206"
+    },
+    {
+      "page": 206,
+      "textSha256": "7519ddff6407e79803f84b8d3312afcf3328b83a7a9bb50925272d63ace55f4d",
+      "anchor": "Detailed Structure of some of the organelles  MICROBODIES: Microbodies are a heterogeneous group",
+      "scope": "Microbody list including glycosomes read directly"
+    },
+    {
       "page": 207,
       "textSha256": "bed770c943d42409dcb957e8912e87f7a0aaf698a3c9d8c32a060c83c547313d",
       "anchor": "PEROXISOMES These contain the enzymes urate oxidase, D-amino acid oxidase and catalase."
+    },
+    {
+      "page": 210,
+      "textSha256": "920b668b6eb521dd5781b15923cd5ff8c7e3d04a5aeb374cae40621ad9bd2d82",
+      "anchor": "MICROBODIES CONT’D  GLYOXYSOMES: These are microbodies of plant cells in which the enzymes",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 211,
+      "textSha256": "fadd68209069387d7e5aba52467f312f16508362a0858834f9ee7dc16e9c04f8",
+      "anchor": "MICROBODIES CONT’D Succinate is then transported to the mitochondria where it becomes a substrate",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 213,
+      "textSha256": "aba335faf2a1aa89d87781b721d23f674e3e9913a0777f54c7d52f3436713c6e",
+      "anchor": "Hydrogenosomes A membrane-enclosed organelle found in the cytoplasm of some anaerobic eukaryotic cells (ciliates,",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
     },
     {
       "page": 215,
@@ -171,6 +273,336 @@
       "anchor": "Lysosomes Cont’d. Reactions between the silica and the lysosomal membranes lead to"
     },
     {
+      "page": 227,
+      "textSha256": "9257301eb1c4b804674420cd9b20513fa56c3c53622fc51839e87b50ab088c5e",
+      "anchor": "Nucleus • Large organelle with double membrane nuclear envelope – outer membrane continuous with",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 228,
+      "textSha256": "b8008ca6005bef0ec807a3698e206e3c486bdec2025d2dab175692263465b8c8",
+      "anchor": "Function of Nucleus • 46 human DNA chromosomes – genes found on chromosomes –",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 229,
+      "textSha256": "1189ad48f46f5314898fc23a9e3b23386f3217bab69d87e29986e4b8eb918441",
+      "anchor": "Protein synthesis • Instructions for making specific proteins is found in the DNA (your",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 230,
+      "textSha256": "fb8af91e1cf358e0e53c2a835ace1746dcf1961c56a22d6b91e2984e26821174",
+      "anchor": "THE NUCLEUS: In eukaryotic organisms, the DNA is protected in the nucleus which has",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 231,
+      "textSha256": "f27b055f337b44417e415216e009993717f13761e5be494afd560b93958bb4a6",
+      "anchor": "THE NUCLEUS CONT’D: porosome has been applied to the nuclear pore and its associated",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 232,
+      "textSha256": "701d2ebef8933607896e3e240ccfc844adcae4c8fbd80f60d67098dd5189ac58",
+      "anchor": "THE NUCLEUS CONT’D: Glycoproteins present in the porosome appear to regulate the entry of",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 233,
+      "textSha256": "ce5bfe39d6f163528030ea8ac03779faeffbdb9ba3a6a6f4239f0f141a3f6208",
+      "anchor": "THE NUCLEUS CONT’D: chromatin is made up of repeating structural units called nucleosomes. The",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 234,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "anchor": "",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 235,
+      "textSha256": "209924dcf64d12ac6c71d8fb18d76293d090f2fb31a7f690ebe013e054d7da60",
+      "anchor": "THE NUCLEOLUS The nucleolus is a membrane-less organelle within the nucleus that manufactures ribosomes,",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 236,
+      "textSha256": "61cf7e67fd64e38cc09ea75da88b2d5b05d3a9bc8cbb0aac7a3a265e1b6b7842",
+      "anchor": "THE NUCLEOLUS CONT’D: Nucleoli are prominently staining regions of the nucleoplasm. They are composed",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 237,
+      "textSha256": "0c77b0c26c2677eec37c3fecca7934f998584e4ed49eb61591af4c0cabaaab8f",
+      "anchor": "THE NUCLEOLUS CONT’D: Some studies suggest that the nucleolus may be involved with cellular",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 238,
+      "textSha256": "660b483d603d7322a34f8871dd94a1d34cf70a2199a2642149b15495af1b2703",
+      "anchor": "Structure of the nucleus 18/01/2025 245",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 239,
+      "textSha256": "0c47f10bdb97f816025b6da93751deef9574b125f0bc190e92daf46b42d0c285",
+      "anchor": "Chromatin and Chromosomes 18/01/2025 246",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 240,
+      "textSha256": "7c1735c4541c349e978369a87df4063a950a811ffe1765855395bf65ceb9aa0a",
+      "anchor": "Chromatin and Chromosomes Cont’d 18/01/2025 247",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 241,
+      "textSha256": "b61f90c8b1bdfed3a4507d57da070cd409a907ced60da79e2e136e64089b4058",
+      "anchor": "Centrosome • Found near nucleus • Pericentriolar area – formation site for mitotic spindle",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 242,
+      "textSha256": "b8ea4f222b44da6be25d829f4c43d3201468bcc637c9752fda9d5c7935fe4420",
+      "anchor": "Centrosome  Centrosomes often lie close to the cell nucleus and microtubules radiate from",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 243,
+      "textSha256": "71f870c9ba81a4672c3461fdf77cf590a416423fa0ae54318a99a42f6e34774b",
+      "anchor": "• In animal cells, the centrosome has a pair of centrioles, each with nine",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 244,
+      "textSha256": "daa9a004c1798a13abaf2205df8b9eb81fceec241fbd01df3e79b2319b376564",
+      "anchor": "Centrosome 18/01/2025 251",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 245,
+      "textSha256": "0e19196a7764f61c218a582023d6a4d759664b8341cb6e84acbcec4eb6e115ef",
+      "anchor": "Cytoskeleton Eukaryotic cells have a wide variety of distinct shapes and internal organizations. Cells",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 246,
+      "textSha256": "3c5393d03a9934250b17264db829026cae46e4ab492b29892aa00a9b4f5e7409",
+      "anchor": "In this lecture, you will learn 1. What a cytoskeleton is? 2. Functions of",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 247,
+      "textSha256": "87e0507ffa5e66659ebb9926c8824683a35072e2f61b99b989eff34442029425",
+      "anchor": "Red Blood Cells Why aren't they spherical? They have an internal cytoskeleton 18/01/2025 254",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 250,
+      "textSha256": "efd487428dbbd8208deda2907be88bac522e48be2dacf3d3db0c0d072749c937",
+      "anchor": "What is the Cytoskeleton The cytoskeleton acts much like our own skeletons in supporting",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 251,
+      "textSha256": "287e29ca27ded95dd506d96b122c74798e073341c510985d00455482baf2058d",
+      "anchor": "The Cytoskeleton  With respect to structure, at some point in the life of",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 252,
+      "textSha256": "3d695bee2fff187396a6cf2b8785044ecbbdd79dab73595c1cda0742b5cac530",
+      "anchor": "Structure and Function ◼ Structure – also applies to the relative position of internal",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 253,
+      "textSha256": "c695c8967c5a4a367013b3cce966943ea75f119c670ad8cc662a19652fb88095",
+      "anchor": "Structural Support  Mechanical support – Maintains shape  Fibers act like a geodesic",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 254,
+      "textSha256": "b1a8e548c72ba91afe746914762a94b06e0ef3a98fbf77cda799d65f1bc1a5be",
+      "anchor": " Introduction  The cytoskeleton is a network of fibers extending throughout the cytoplasm.",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 255,
+      "textSha256": "272774b9119b3cd4532aa21be238b91cbcd3765ed62d6f13f9b33013727e3e86",
+      "anchor": "Cytoskeleton  This is the overall name given to protein filaments and motor proteins",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 257,
+      "textSha256": "bcf2209f06173eb93f756e316003f08aa5fd7d778455f505a976e54ae208ce4d",
+      "anchor": "Functions of the cytoskeleton  They help the cell remain rigid but also help",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 258,
+      "textSha256": "b41da8aa7174223daa5e02235855c8000e8caf453bb62f7c864c02847e7920c2",
+      "anchor": "Cytoskeleton forms the architecture and transport system of the cell  During the evolution",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 259,
+      "textSha256": "40fc2ef22a02a2dd23c9d6d3475631d90f382805338c0d391c664b7163cf0093",
+      "anchor": "Cytoskeleton: Movers and shapers  Three main groups of shapers, the protein filaments: microtubules,",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 260,
+      "textSha256": "073b4365b91cb73ee93d6ef3e6829225db993422c1530375f5ff5adbc45b8bc3",
+      "anchor": "Shapers (protein filaments) come in three sizes  The variable shape and rigidity of",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 261,
+      "textSha256": "a79e36a3f1cb2a5ab6b4e43fab571e2bd434915ca9b1d6a4ee7a078297c4a5bf",
+      "anchor": "There are three kinds of intracellular fibers  Microtubules - long tubes made from",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 262,
+      "textSha256": "bcadec502d9f14c736c5c944f767f8ee0eeffa9d4fb1659b75d813f40d18c668",
+      "anchor": "The Cell Cytoskeleton What are the 3 primary types of cytoskeletal proteins? Actin filaments",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 271,
+      "textSha256": "d698cabddc4264198359cc23894ee5aef8e6ac92b2b2c40bb92a96dc9b41675b",
+      "anchor": "Diseases caused by defects in the intermediate filaments ■ Epidermolysis bullosa simplex –Blisters form",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 273,
+      "textSha256": "4bb64be9ed080c4abed6e68f7a5054080639529595a3002b6fddd926d0eb5d8c",
+      "anchor": "Microtubules  Microtubules are hollow tubes of variable length and about 25nm diameter. ",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 274,
+      "textSha256": "52d80e20edd31dbc12b8dd0fcbf948b0e7a2dadb8225c8fe823749958bd158bc",
+      "anchor": "Microtubules The microtubule consist of thirteen (13) protofilaments lying in parallel are formed into",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 276,
+      "textSha256": "b896e4a250479833abf670f54398b2b3d568243a5ad4f975ec493bbcc53576cd",
+      "anchor": "What is the fundamental structure of microtubules? Alpha and beta tubulin subunits 13 member",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 277,
+      "textSha256": "f7d4da58efcd8e26ab569df63584be11f758a99f62bb90eed918a9c559954e3a",
+      "anchor": "Microtubules and Medicine Alzheimer’s disease Microtubules found in nerve cells are attached to microtubule",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 278,
+      "textSha256": "6ee1d9ecb56d04011d84d43f5474fe84f3e0121b2d3e024e574e78b69bf99d20",
+      "anchor": "Alzheimer’s disease Cont’d.  In Alzheimer’s disease and some other dementias microtubules are lost",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 279,
+      "textSha256": "d2ce7be35faeed81059b4eb48ebc05e887de19c27b51eb8c35d98637f138d409",
+      "anchor": "Alzheimer’s disease The loss of microtubules results in the loss of a transport service",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 280,
+      "textSha256": "09a079fb681a5358b08923ae6afe503bbf7804eaf5ce3e7ae754fc2e79316130",
+      "anchor": "Microtubules and cancer treatment Cancer is abnormal proliferation of cells or ‘uncontrolled cell division",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 281,
+      "textSha256": "f6b797323c0ee342f6abc74f2891401bd86be0c3368db78e3651518f5e7e351a",
+      "anchor": "Microtubules and cancer treatment To be worthy of consideration however the drug or procedure",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 282,
+      "textSha256": "9350bf89836f69a2ce37955d16c63e052d0dd7b20a73ce5d403558622815ba23",
+      "anchor": "Microtubules and cancer treatment Microtubules play such an important role during M-phase of the",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 283,
+      "textSha256": "b81b107583689a98d65ed2f9d61585f93711e6a70c011013971b708a0930ea63",
+      "anchor": "Microtubules and cancer treatment The cell biology indicates two possible options: Disrupting microtubule assembly.",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 284,
+      "textSha256": "079945aa9f126b7d0cfdca620c9240bd20f944ba5b19eaca7afdcb5272864037",
+      "anchor": "Microtubules and cancer treatment Taxol works by inhibiting microtubular disassembly. ◼The cell becomes ‘locked’",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 285,
+      "textSha256": "ca877f96543e17425ab247b77db184eca31dd4a13c68e37424c7f6f0d208f8bc",
+      "anchor": "Cytosol • 55% of cell volume • 75-90% water with other components – large",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 286,
+      "textSha256": "c16eb54f609df9ecc756ddb7af35b3af80ffba25dc5044708d5120e8ac6e6236",
+      "anchor": "Cytosol Cont’d. – inclusions (large aggregates of one material) • lipid droplets • glycogen",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 287,
+      "textSha256": "99d0dcc0e23bb80df74db9b6acd138295e29c5e72a24631625693ee80193cafe",
+      "anchor": "Plasma Membrane  The plasma membrane is the membrane surrounding a cell that separates",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 288,
+      "textSha256": "12b0c6fdd5a82aef16f487ea27d2cba5b65a53aaea9b0872032ff941517759ee",
+      "anchor": "Biomembranes  The cytoplasm is the part of the cell outside the largest organelle,",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 289,
+      "textSha256": "c40c845dab39fad5abb00bef9c9cbf6d5aed0c2b949bef24ba2df4127a9cda7c",
+      "anchor": "Cellular membranes are fluid mosaics of lipids and proteins  Phospholipids are the most",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 290,
+      "textSha256": "0492ee239b520313a66c239d6a0e52958b5fd72de7cda94d64ea0bd6f3a9d078",
+      "anchor": "Membrane is a collage of proteins & other molecules embedded in the fluid matrix",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 291,
+      "textSha256": "b706e5ba4c60661fce87cffd7e91fe08282825419901bd2f38ca7b2af59070f3",
+      "anchor": "Phospholipid bilayer polar hydrophilic heads nonpolar hydrophobic tails polar hydrophilic heads 18/01/2025 298",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 292,
+      "textSha256": "375ee46937cdb040afe9744fee0e152d5c4bd0634410e8ec08343b13e2fdab66",
+      "anchor": "Phosphate Phospholipids  Fatty acid tails hydrophobic Fatty acid  Phosphate group head hydrophilic",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 293,
+      "textSha256": "3590a05dd625671d23f7040ce354e25bebc052d232ed84f603d40eca90fb7eba",
+      "anchor": "WATER Hydrophilic head Hydrophobic tail WATER 18/01/2025 300",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 294,
+      "textSha256": "c90c79a86194f508c700007a23b9987a65073855a99d8a302df6e9f8d133074b",
+      "anchor": "Phospholipids Are the Main Lipid Constituents of Most Biomembranes •The most abundant lipid components",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
       "page": 303,
       "textSha256": "15c3e283c30849e5ed11b9173ad2c9fddd3049e0fda466535af5433a93c25f03",
       "anchor": "The Fluidity of Membranes Fluid Viscous Unsaturated hydrocarbon Saturated hydro- tails with"
@@ -179,6 +611,36 @@
       "page": 304,
       "textSha256": "bbafc0362d0257b3c96d8cae0917177b8c88a66da2327492146d0dc0348d2546",
       "anchor": "The Fluidity of Membranes  As temperatures cool, membranes switch from a"
+    },
+    {
+      "page": 308,
+      "textSha256": "1955a2ec7e32e46e7af836b0654a47c08f16b316f54c16f5d1a081f21ab257bd",
+      "anchor": "Plasma Membrane Components Cont’d. • Phospholipids • Comprises 75% of lipids • Phospholipid bilayer",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 311,
+      "textSha256": "4d79a470e57a4635e537ea849f31d6d0fe4a5097a2f9e33eb8763987dfe9e5bd",
+      "anchor": "Glycolipids within the Cell Membrane • Comprises 5% of the lipids of the cell",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 312,
+      "textSha256": "0e6fe81e26110aa6c0bc0909935587a6c312b779cf1ff3ec55d7e0d152fb5649",
+      "anchor": "Types of Membrane Proteins • Integral proteins • Extend into or completely across cell",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 313,
+      "textSha256": "5c88fecebecd2b880255725cccd516fc08ccf93536c345846ab15a33666902f7",
+      "anchor": "Types of Membrane Proteins Cont’d. • Glycoproteins have the sugar portion facing the extracellular",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
+    },
+    {
+      "page": 316,
+      "textSha256": "6cfe1f604b4e5d6f13dbc363f79cf9c8c250411b660ade0d41f7ab4798626825",
+      "anchor": "Summary of functions of membrane proteins (I) • Formation of Channel ◼ -passageway to",
+      "scope": "text extraction read; figure labels not independently verified unless listed in visualChecks"
     },
     {
       "page": 318,
@@ -283,6 +745,31 @@
       "claim": "Temperature-dependent membrane packing and cholesterol distinction",
       "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
       "evidence": "Publisher textbook comparison, alongside supplied lecturer source."
+    },
+    {
+      "claim": "Paclitaxel is antineoplastic and inhibits microtubule disassembly",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/paclitaxel",
+      "evidence": "NCI entry opened; source p.284 separately states vincristine assembly inhibition and chemotherapy use. Old CYQ19 broad stem admits both drugs."
+    },
+    {
+      "claim": "Red-cell membrane-skeleton architecture includes spectrin, short actin, ankyrin and protein 4.1",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9908/",
+      "evidence": "Search-returned textbook passages checked; full-page open encountered CAPTCHA, so no full-chapter review claimed. Corroborated by accessible abstract search record PMID 26537302."
+    },
+    {
+      "claim": "Spectrin-actin membrane skeleton and its anchoring complexes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26537302/",
+      "evidence": "Search-returned abstract supports meshwork and band-3 complexes; direct open returned an empty page. No independent figure or full-text review claimed."
+    },
+    {
+      "claim": "Skeletal-muscle sliding filaments, ATP detachment/hydrolysis and calcium-troponin regulation",
+      "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
+      "evidence": "Mechanism paragraphs opened. Do not adopt imprecise figure text saying calcium binds actin or that the A band disappears; calcium binds troponin and filament/A-band length does not shorten in the model."
+    },
+    {
+      "claim": "Actin/myosin versus microtubule architecture and cilia",
+      "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+      "evidence": "Relevant section opened. The central pair of a 9+2 axoneme are two singlets; do not adopt the page caption describing a central doublet."
     }
   ],
   "remaining": [
@@ -290,5 +777,58 @@
     "Current-year official outline/assessment rules remain unverified.",
     "The 2025 Cell pass-mark statement cannot resolve Computer grading rules.",
     "Unidentified wall-digestion agent, analytical no-standards qualifier and unreviewed figures remain open."
+  ],
+  "sourceQuestionsSha256": "498f4018b685dcae8dbd4f44d7f1c51a8e1afc28a7b99207229a989d357147e2",
+  "verifiedIssues": [
+    {
+      "pages": [
+        194
+      ],
+      "question": "CO-Q003",
+      "finding": "Two original options express the same structure-function principle. Review-only distractor replacement retains B key."
+    },
+    {
+      "pages": [
+        195
+      ],
+      "question": "CO-Q005",
+      "finding": "Universal every-cell wording ignores specialised exceptions. Review stem asks about lecturer general-function framework."
+    },
+    {
+      "pages": [
+        200
+      ],
+      "question": "CO-Q012",
+      "finding": "Near-duplicate of CO-Q008. Review stem becomes compression application with original C key."
+    },
+    {
+      "pages": [
+        283,
+        284
+      ],
+      "question": "CYQ19",
+      "finding": "Both paclitaxel and vincristine are anticancer drugs. Review stem specifies inhibition of assembly, retaining B."
+    },
+    {
+      "pages": [
+        271,
+        277,
+        278,
+        279
+      ],
+      "finding": "Source p.271 presents Alzheimer disease as caused by intermediate-filament changes; later slides emphasise tau/microtubules and uncertainty. Preserve existing multifactorial/tau qualification, do not assess a sole-cause claim."
+    },
+    {
+      "pages": [
+        287
+      ],
+      "finding": "Each organelle has a biomembrane is overbroad; review CM01 explicitly distinguishes membrane-bound organelles from ribosomes, nucleoli and centrioles."
+    },
+    {
+      "pages": [
+        246
+      ],
+      "finding": "Ten cytoskeleton objectives verified and added to map. Actin-binding, red-cell and muscle mechanisms require explicitly identified supplementary teaching."
+    }
   ]
 }

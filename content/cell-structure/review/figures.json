@@ -1,0 +1,824 @@
+[
+  {
+    "id": "CELL-SA-V",
+    "title": "Surface area at fixed total volume",
+    "description": "One two-centimetre cube and eight separate one-centimetre cubes have the same total volume of eight cubic centimetres. Exposing every small cube face increases total surface from 24 to 48 square centimetres.",
+    "caption": "Original geometric model derived from source p.202. Separate cubes are assumed to expose every face; tissue contacts and real cell dimensions are not represented.",
+    "width": 360,
+    "height": 570,
+    "elements": [
+      {
+        "kind": "text",
+        "x": 180,
+        "y": 25,
+        "text": "Same total volume: 8 cm³"
+      },
+      {
+        "kind": "text",
+        "x": 180,
+        "y": 65,
+        "text": "One 2 cm cube"
+      },
+      {
+        "kind": "line",
+        "x1": 130,
+        "y1": 110,
+        "x2": 210,
+        "y2": 110
+      },
+      {
+        "kind": "line",
+        "x1": 130,
+        "y1": 110,
+        "x2": 130,
+        "y2": 190
+      },
+      {
+        "kind": "line",
+        "x1": 210,
+        "y1": 110,
+        "x2": 210,
+        "y2": 190
+      },
+      {
+        "kind": "line",
+        "x1": 130,
+        "y1": 190,
+        "x2": 210,
+        "y2": 190
+      },
+      {
+        "kind": "line",
+        "x1": 130,
+        "y1": 110,
+        "x2": 154.0,
+        "y2": 86.0
+      },
+      {
+        "kind": "line",
+        "x1": 210,
+        "y1": 110,
+        "x2": 234.0,
+        "y2": 86.0
+      },
+      {
+        "kind": "line",
+        "x1": 154.0,
+        "y1": 86.0,
+        "x2": 234.0,
+        "y2": 86.0
+      },
+      {
+        "kind": "line",
+        "x1": 234.0,
+        "y1": 86.0,
+        "x2": 234.0,
+        "y2": 166.0
+      },
+      {
+        "kind": "line",
+        "x1": 210,
+        "y1": 190,
+        "x2": 234.0,
+        "y2": 166.0
+      },
+      {
+        "kind": "text",
+        "x": 180,
+        "y": 230,
+        "text": "Surface: 24 cm²"
+      },
+      {
+        "kind": "text",
+        "x": 180,
+        "y": 260,
+        "text": "SA/V = 3 cm⁻¹"
+      },
+      {
+        "kind": "text",
+        "x": 180,
+        "y": 310,
+        "text": "Eight separate 1 cm cubes"
+      },
+      {
+        "kind": "line",
+        "x1": 70,
+        "y1": 350,
+        "x2": 100,
+        "y2": 350
+      },
+      {
+        "kind": "line",
+        "x1": 70,
+        "y1": 350,
+        "x2": 70,
+        "y2": 380
+      },
+      {
+        "kind": "line",
+        "x1": 100,
+        "y1": 350,
+        "x2": 100,
+        "y2": 380
+      },
+      {
+        "kind": "line",
+        "x1": 70,
+        "y1": 380,
+        "x2": 100,
+        "y2": 380
+      },
+      {
+        "kind": "line",
+        "x1": 70,
+        "y1": 350,
+        "x2": 79.0,
+        "y2": 341.0
+      },
+      {
+        "kind": "line",
+        "x1": 100,
+        "y1": 350,
+        "x2": 109.0,
+        "y2": 341.0
+      },
+      {
+        "kind": "line",
+        "x1": 79.0,
+        "y1": 341.0,
+        "x2": 109.0,
+        "y2": 341.0
+      },
+      {
+        "kind": "line",
+        "x1": 109.0,
+        "y1": 341.0,
+        "x2": 109.0,
+        "y2": 371.0
+      },
+      {
+        "kind": "line",
+        "x1": 100,
+        "y1": 380,
+        "x2": 109.0,
+        "y2": 371.0
+      },
+      {
+        "kind": "line",
+        "x1": 125,
+        "y1": 350,
+        "x2": 155,
+        "y2": 350
+      },
+      {
+        "kind": "line",
+        "x1": 125,
+        "y1": 350,
+        "x2": 125,
+        "y2": 380
+      },
+      {
+        "kind": "line",
+        "x1": 155,
+        "y1": 350,
+        "x2": 155,
+        "y2": 380
+      },
+      {
+        "kind": "line",
+        "x1": 125,
+        "y1": 380,
+        "x2": 155,
+        "y2": 380
+      },
+      {
+        "kind": "line",
+        "x1": 125,
+        "y1": 350,
+        "x2": 134.0,
+        "y2": 341.0
+      },
+      {
+        "kind": "line",
+        "x1": 155,
+        "y1": 350,
+        "x2": 164.0,
+        "y2": 341.0
+      },
+      {
+        "kind": "line",
+        "x1": 134.0,
+        "y1": 341.0,
+        "x2": 164.0,
+        "y2": 341.0
+      },
+      {
+        "kind": "line",
+        "x1": 164.0,
+        "y1": 341.0,
+        "x2": 164.0,
+        "y2": 371.0
+      },
+      {
+        "kind": "line",
+        "x1": 155,
+        "y1": 380,
+        "x2": 164.0,
+        "y2": 371.0
+      },
+      {
+        "kind": "line",
+        "x1": 180,
+        "y1": 350,
+        "x2": 210,
+        "y2": 350
+      },
+      {
+        "kind": "line",
+        "x1": 180,
+        "y1": 350,
+        "x2": 180,
+        "y2": 380
+      },
+      {
+        "kind": "line",
+        "x1": 210,
+        "y1": 350,
+        "x2": 210,
+        "y2": 380
+      },
+      {
+        "kind": "line",
+        "x1": 180,
+        "y1": 380,
+        "x2": 210,
+        "y2": 380
+      },
+      {
+        "kind": "line",
+        "x1": 180,
+        "y1": 350,
+        "x2": 189.0,
+        "y2": 341.0
+      },
+      {
+        "kind": "line",
+        "x1": 210,
+        "y1": 350,
+        "x2": 219.0,
+        "y2": 341.0
+      },
+      {
+        "kind": "line",
+        "x1": 189.0,
+        "y1": 341.0,
+        "x2": 219.0,
+        "y2": 341.0
+      },
+      {
+        "kind": "line",
+        "x1": 219.0,
+        "y1": 341.0,
+        "x2": 219.0,
+        "y2": 371.0
+      },
+      {
+        "kind": "line",
+        "x1": 210,
+        "y1": 380,
+        "x2": 219.0,
+        "y2": 371.0
+      },
+      {
+        "kind": "line",
+        "x1": 235,
+        "y1": 350,
+        "x2": 265,
+        "y2": 350
+      },
+      {
+        "kind": "line",
+        "x1": 235,
+        "y1": 350,
+        "x2": 235,
+        "y2": 380
+      },
+      {
+        "kind": "line",
+        "x1": 265,
+        "y1": 350,
+        "x2": 265,
+        "y2": 380
+      },
+      {
+        "kind": "line",
+        "x1": 235,
+        "y1": 380,
+        "x2": 265,
+        "y2": 380
+      },
+      {
+        "kind": "line",
+        "x1": 235,
+        "y1": 350,
+        "x2": 244.0,
+        "y2": 341.0
+      },
+      {
+        "kind": "line",
+        "x1": 265,
+        "y1": 350,
+        "x2": 274.0,
+        "y2": 341.0
+      },
+      {
+        "kind": "line",
+        "x1": 244.0,
+        "y1": 341.0,
+        "x2": 274.0,
+        "y2": 341.0
+      },
+      {
+        "kind": "line",
+        "x1": 274.0,
+        "y1": 341.0,
+        "x2": 274.0,
+        "y2": 371.0
+      },
+      {
+        "kind": "line",
+        "x1": 265,
+        "y1": 380,
+        "x2": 274.0,
+        "y2": 371.0
+      },
+      {
+        "kind": "line",
+        "x1": 70,
+        "y1": 415,
+        "x2": 100,
+        "y2": 415
+      },
+      {
+        "kind": "line",
+        "x1": 70,
+        "y1": 415,
+        "x2": 70,
+        "y2": 445
+      },
+      {
+        "kind": "line",
+        "x1": 100,
+        "y1": 415,
+        "x2": 100,
+        "y2": 445
+      },
+      {
+        "kind": "line",
+        "x1": 70,
+        "y1": 445,
+        "x2": 100,
+        "y2": 445
+      },
+      {
+        "kind": "line",
+        "x1": 70,
+        "y1": 415,
+        "x2": 79.0,
+        "y2": 406.0
+      },
+      {
+        "kind": "line",
+        "x1": 100,
+        "y1": 415,
+        "x2": 109.0,
+        "y2": 406.0
+      },
+      {
+        "kind": "line",
+        "x1": 79.0,
+        "y1": 406.0,
+        "x2": 109.0,
+        "y2": 406.0
+      },
+      {
+        "kind": "line",
+        "x1": 109.0,
+        "y1": 406.0,
+        "x2": 109.0,
+        "y2": 436.0
+      },
+      {
+        "kind": "line",
+        "x1": 100,
+        "y1": 445,
+        "x2": 109.0,
+        "y2": 436.0
+      },
+      {
+        "kind": "line",
+        "x1": 125,
+        "y1": 415,
+        "x2": 155,
+        "y2": 415
+      },
+      {
+        "kind": "line",
+        "x1": 125,
+        "y1": 415,
+        "x2": 125,
+        "y2": 445
+      },
+      {
+        "kind": "line",
+        "x1": 155,
+        "y1": 415,
+        "x2": 155,
+        "y2": 445
+      },
+      {
+        "kind": "line",
+        "x1": 125,
+        "y1": 445,
+        "x2": 155,
+        "y2": 445
+      },
+      {
+        "kind": "line",
+        "x1": 125,
+        "y1": 415,
+        "x2": 134.0,
+        "y2": 406.0
+      },
+      {
+        "kind": "line",
+        "x1": 155,
+        "y1": 415,
+        "x2": 164.0,
+        "y2": 406.0
+      },
+      {
+        "kind": "line",
+        "x1": 134.0,
+        "y1": 406.0,
+        "x2": 164.0,
+        "y2": 406.0
+      },
+      {
+        "kind": "line",
+        "x1": 164.0,
+        "y1": 406.0,
+        "x2": 164.0,
+        "y2": 436.0
+      },
+      {
+        "kind": "line",
+        "x1": 155,
+        "y1": 445,
+        "x2": 164.0,
+        "y2": 436.0
+      },
+      {
+        "kind": "line",
+        "x1": 180,
+        "y1": 415,
+        "x2": 210,
+        "y2": 415
+      },
+      {
+        "kind": "line",
+        "x1": 180,
+        "y1": 415,
+        "x2": 180,
+        "y2": 445
+      },
+      {
+        "kind": "line",
+        "x1": 210,
+        "y1": 415,
+        "x2": 210,
+        "y2": 445
+      },
+      {
+        "kind": "line",
+        "x1": 180,
+        "y1": 445,
+        "x2": 210,
+        "y2": 445
+      },
+      {
+        "kind": "line",
+        "x1": 180,
+        "y1": 415,
+        "x2": 189.0,
+        "y2": 406.0
+      },
+      {
+        "kind": "line",
+        "x1": 210,
+        "y1": 415,
+        "x2": 219.0,
+        "y2": 406.0
+      },
+      {
+        "kind": "line",
+        "x1": 189.0,
+        "y1": 406.0,
+        "x2": 219.0,
+        "y2": 406.0
+      },
+      {
+        "kind": "line",
+        "x1": 219.0,
+        "y1": 406.0,
+        "x2": 219.0,
+        "y2": 436.0
+      },
+      {
+        "kind": "line",
+        "x1": 210,
+        "y1": 445,
+        "x2": 219.0,
+        "y2": 436.0
+      },
+      {
+        "kind": "line",
+        "x1": 235,
+        "y1": 415,
+        "x2": 265,
+        "y2": 415
+      },
+      {
+        "kind": "line",
+        "x1": 235,
+        "y1": 415,
+        "x2": 235,
+        "y2": 445
+      },
+      {
+        "kind": "line",
+        "x1": 265,
+        "y1": 415,
+        "x2": 265,
+        "y2": 445
+      },
+      {
+        "kind": "line",
+        "x1": 235,
+        "y1": 445,
+        "x2": 265,
+        "y2": 445
+      },
+      {
+        "kind": "line",
+        "x1": 235,
+        "y1": 415,
+        "x2": 244.0,
+        "y2": 406.0
+      },
+      {
+        "kind": "line",
+        "x1": 265,
+        "y1": 415,
+        "x2": 274.0,
+        "y2": 406.0
+      },
+      {
+        "kind": "line",
+        "x1": 244.0,
+        "y1": 406.0,
+        "x2": 274.0,
+        "y2": 406.0
+      },
+      {
+        "kind": "line",
+        "x1": 274.0,
+        "y1": 406.0,
+        "x2": 274.0,
+        "y2": 436.0
+      },
+      {
+        "kind": "line",
+        "x1": 265,
+        "y1": 445,
+        "x2": 274.0,
+        "y2": 436.0
+      },
+      {
+        "kind": "text",
+        "x": 180,
+        "y": 495,
+        "text": "Surface: 48 cm²"
+      },
+      {
+        "kind": "text",
+        "x": 180,
+        "y": 530,
+        "text": "SA/V = 6 cm⁻¹"
+      }
+    ],
+    "pages": [
+      202,
+      203
+    ]
+  },
+  {
+    "id": "CELL-MT-POLARITY",
+    "title": "Tubulin dimers and microtubule polarity",
+    "description": "Two schematic parallel protofilaments each contain three alpha-beta tubulin dimers oriented in the same direction, creating distinct minus and plus ends. A typical hollow wall contains thirteen protofilaments, not just the two drawn.",
+    "caption": "Original orientation schematic; not a complete tube, molecular structure or scale drawing. Repeated α/β orientation explains polarity, while growth and shrinkage remain dynamic.",
+    "width": 360,
+    "height": 360,
+    "elements": [
+      {
+        "kind": "text",
+        "x": 180,
+        "y": 25,
+        "text": "Head-to-tail tubulin dimers"
+      },
+      {
+        "kind": "text",
+        "x": 180,
+        "y": 52,
+        "text": "create structural polarity"
+      },
+      {
+        "kind": "text",
+        "x": 55,
+        "y": 90,
+        "text": "Minus end"
+      },
+      {
+        "kind": "text",
+        "x": 305,
+        "y": 90,
+        "text": "Plus end"
+      },
+      {
+        "kind": "text",
+        "x": 70,
+        "y": 130,
+        "text": "α"
+      },
+      {
+        "kind": "line",
+        "x1": 82,
+        "y1": 125,
+        "x2": 94,
+        "y2": 125
+      },
+      {
+        "kind": "text",
+        "x": 107,
+        "y": 130,
+        "text": "β"
+      },
+      {
+        "kind": "line",
+        "x1": 119,
+        "y1": 125,
+        "x2": 137,
+        "y2": 125
+      },
+      {
+        "kind": "text",
+        "x": 150,
+        "y": 130,
+        "text": "α"
+      },
+      {
+        "kind": "line",
+        "x1": 162,
+        "y1": 125,
+        "x2": 174,
+        "y2": 125
+      },
+      {
+        "kind": "text",
+        "x": 187,
+        "y": 130,
+        "text": "β"
+      },
+      {
+        "kind": "line",
+        "x1": 199,
+        "y1": 125,
+        "x2": 217,
+        "y2": 125
+      },
+      {
+        "kind": "text",
+        "x": 230,
+        "y": 130,
+        "text": "α"
+      },
+      {
+        "kind": "line",
+        "x1": 242,
+        "y1": 125,
+        "x2": 254,
+        "y2": 125
+      },
+      {
+        "kind": "text",
+        "x": 267,
+        "y": 130,
+        "text": "β"
+      },
+      {
+        "kind": "text",
+        "x": 70,
+        "y": 185,
+        "text": "α"
+      },
+      {
+        "kind": "line",
+        "x1": 82,
+        "y1": 180,
+        "x2": 94,
+        "y2": 180
+      },
+      {
+        "kind": "text",
+        "x": 107,
+        "y": 185,
+        "text": "β"
+      },
+      {
+        "kind": "line",
+        "x1": 119,
+        "y1": 180,
+        "x2": 137,
+        "y2": 180
+      },
+      {
+        "kind": "text",
+        "x": 150,
+        "y": 185,
+        "text": "α"
+      },
+      {
+        "kind": "line",
+        "x1": 162,
+        "y1": 180,
+        "x2": 174,
+        "y2": 180
+      },
+      {
+        "kind": "text",
+        "x": 187,
+        "y": 185,
+        "text": "β"
+      },
+      {
+        "kind": "line",
+        "x1": 199,
+        "y1": 180,
+        "x2": 217,
+        "y2": 180
+      },
+      {
+        "kind": "text",
+        "x": 230,
+        "y": 185,
+        "text": "α"
+      },
+      {
+        "kind": "line",
+        "x1": 242,
+        "y1": 180,
+        "x2": 254,
+        "y2": 180
+      },
+      {
+        "kind": "text",
+        "x": 267,
+        "y": 185,
+        "text": "β"
+      },
+      {
+        "kind": "text",
+        "x": 180,
+        "y": 235,
+        "text": "Two protofilaments shown"
+      },
+      {
+        "kind": "text",
+        "x": 180,
+        "y": 267,
+        "text": "Typical wall: 13 parallel chains"
+      },
+      {
+        "kind": "text",
+        "x": 180,
+        "y": 310,
+        "text": "Plus/minus ≠ electrical charge"
+      }
+    ],
+    "pages": [
+      273,
+      274,
+      276
+    ]
+  }
+]

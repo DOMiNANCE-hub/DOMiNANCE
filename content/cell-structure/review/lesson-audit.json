@@ -224,7 +224,7 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Original water-head-core-head-water spatial model added; original composition figures remain representative.",
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
     "expansion": true,
     "originalQuestions": 6,
     "academicApproval": null
@@ -270,8 +270,8 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Integral/peripheral/receptor/carrier distinctions retained; component-percentage figures remain source-specific.",
-    "expansion": false,
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
     "originalQuestions": 6,
     "academicApproval": null
   },
@@ -316,8 +316,8 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Fundamental-unit explanation and specialised-cell exception retained.",
-    "expansion": false,
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
     "originalQuestions": 6,
     "academicApproval": null
   },
@@ -339,8 +339,8 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Shape/function and estimate qualifiers retained; typical-cell figure labels still incomplete.",
-    "expansion": false,
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
     "originalQuestions": 6,
     "academicApproval": null
   },
@@ -362,8 +362,8 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Geometry calculations and inverse-length units retained; no unsupported universal cell-size rule.",
-    "expansion": false,
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
     "originalQuestions": 6,
     "academicApproval": null
   },
@@ -385,8 +385,8 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Bacteria/archaea and mature red-cell exceptions retained; cell theory stays supplementary.",
-    "expansion": false,
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
     "originalQuestions": 6,
     "academicApproval": null
   },
@@ -395,7 +395,15 @@
     "title": "CY01 — Cytoskeleton: architecture and movement",
     "originalSha256": "3574ca14bbd2a2afdf3011c635c864a9066b75d126c83dc4e79cc9c56dd66aee",
     "objectives": [
-      "BIOL151-LO06"
+      "BIOL151-LO06",
+      "BIOL151-CY01",
+      "BIOL151-CY02",
+      "BIOL151-CY03",
+      "BIOL151-CY04",
+      "BIOL151-CY06",
+      "BIOL151-CY08",
+      "BIOL151-CY09",
+      "BIOL151-CY10"
     ],
     "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
     "dimensionsReviewed": [
@@ -408,8 +416,8 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Dynamic support and movement examples retained; original stronger material preserved.",
-    "expansion": false,
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
     "originalQuestions": 6,
     "academicApproval": null
   },
@@ -418,7 +426,10 @@
     "title": "CY02 — Three filament systems and motor proteins",
     "originalSha256": "da68109d010cede93fbc5fed1bad4dcc10aad37037e87fecd776a7ab8a0111e0",
     "objectives": [
-      "BIOL151-LO06"
+      "BIOL151-LO06",
+      "BIOL151-CY03",
+      "BIOL151-CY05",
+      "BIOL151-CY09"
     ],
     "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
     "dimensionsReviewed": [
@@ -431,7 +442,7 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Track/motor/mechanical comparisons expanded; complex disease association caveats retained.",
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
     "expansion": true,
     "originalQuestions": 6,
     "academicApproval": null
@@ -441,7 +452,10 @@
     "title": "CY03 — Microtubule structure, polarity and dynamic instability",
     "originalSha256": "528d6538f66d5de34a70b37595888c3ee0cd7b62c57e14c0af6460d9c6265f2c",
     "objectives": [
-      "BIOL151-LO06"
+      "BIOL151-LO06",
+      "BIOL151-CY04",
+      "BIOL151-CY05",
+      "BIOL151-CY07"
     ],
     "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
     "dimensionsReviewed": [
@@ -464,7 +478,10 @@
     "title": "CY04 — Microtubules in mitosis and medicine",
     "originalSha256": "d436e6292a1282b083c1d36659c43983039fa410f93a5f6b40adbaa7b8fe7d84",
     "objectives": [
-      "BIOL151-LO06"
+      "BIOL151-LO06",
+      "BIOL151-CY02",
+      "BIOL151-CY04",
+      "BIOL151-CY07"
     ],
     "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
     "dimensionsReviewed": [
@@ -477,8 +494,8 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Drug stabilising/destabilising comparison retained; agent-specific clinical caveat preserved.",
-    "expansion": false,
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
     "originalQuestions": 6,
     "academicApproval": null
   },
@@ -523,8 +540,8 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Glyoxylate/hydrogenosome distinctions retained; detailed pathway/figures remain limited.",
-    "expansion": false,
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
     "originalQuestions": 5,
     "academicApproval": null
   },
@@ -592,8 +609,8 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Nuclear transport/chromosome qualification retained; diagram coverage pending.",
-    "expansion": false,
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
     "originalQuestions": 5,
     "academicApproval": null
   },
@@ -615,8 +632,8 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Membrane-less nucleolus and chromatin distinctions retained; variable-number caveat preserved.",
-    "expansion": false,
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
     "originalQuestions": 5,
     "academicApproval": null
   },
@@ -625,7 +642,8 @@
     "title": "OR07 — Centrosome and Centrioles",
     "originalSha256": "486a65a39402d97a42e9b0dfb3037a9f556795750319835ea4f87ce698dadfb1",
     "objectives": [
-      "BIOL151-LO06"
+      "BIOL151-LO06",
+      "BIOL151-CY06"
     ],
     "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
     "dimensionsReviewed": [
@@ -638,8 +656,8 @@
       "connections",
       "source-and-figure-limits"
     ],
-    "assessment": "Centriole triplets versus axoneme doublets retained; diagram review pending.",
-    "expansion": false,
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
     "originalQuestions": 5,
     "academicApproval": null
   },
