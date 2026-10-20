@@ -259,3 +259,24 @@ html.authenticated-dashboard[data-mode=dark] .shell .side .nav button.active{bac
 .authenticated-dashboard .community-person:hover{border-color:var(--app-accent)!important;transform:translateY(-1px)}
 .authenticated-dashboard .community-person small{font-weight:700;padding-top:6px}
 
+/* Integrated Student Experience QA: hidden file input guard, programmatic heading focus suppression, table header readability, active tab border clarity, and mobile dark-mode nav polish. */
+.account-dialog [hidden],.account-dialog input[hidden]{display:none!important}
+html h1[tabindex='-1']:focus-visible,html h2[tabindex='-1']:focus-visible,html h3[tabindex='-1']:focus,html h3[tabindex='-1']:focus-visible{outline:none!important}
+.account-shell .account-panel .account-sections button[aria-pressed=true]{border-color:var(--panel-line)!important}
+.authenticated-dashboard .cell-table th,.authenticated-dashboard .cell-table td{overflow-wrap:normal;word-break:normal}
+.authenticated-dashboard .cell-table th{white-space:nowrap}
+@media(max-width:680px){
+ html.authenticated-dashboard[data-mode=dark] .shell .side .nav button.active{box-shadow:none!important}
+}
+
+
+/* Final Study Area & Lesson-Question Navigation Polish: narrow-screen section picker containment, chapter grouping, read status badges, inline code pills, academic callouts, and related-lesson links. */
+.authenticated-dashboard .section-navigation{grid-template-columns:minmax(0,1fr)}
+.authenticated-dashboard .section-navigation label,.authenticated-dashboard .section-navigation .workspace-choice{min-width:0;max-width:100%}
+.authenticated-dashboard .lesson-list .cell-chapter-heading{font:700 12px/1.4 'DM Sans','Segoe UI',sans-serif;letter-spacing:.7px;text-transform:uppercase;color:var(--app-muted);margin:14px 4px 2px}
+.authenticated-dashboard .lesson-list .cell-chapter-heading:first-child{margin-top:2px}
+.authenticated-dashboard .lesson-list .topicrow[data-read=true]{border-color:color-mix(in srgb,var(--app-accent) 35%,var(--app-line))!important;background:color-mix(in srgb,var(--app-accent) 4%,var(--app-surface))!important}
+.authenticated-dashboard .lesson-list .topicrow[data-read=true]::after{content:'Read · →';font-size:12px}
+.authenticated-dashboard .cell-reader code{font:600 .9em/1.45 'JetBrains Mono',Consolas,monospace;padding:2px 6px;border-radius:6px;background:color-mix(in srgb,var(--app-accent) 9%,var(--app-bg));border:1px solid var(--app-line);color:var(--app-ink)}
+.authenticated-dashboard .cell-reader.academic-clarification{border-left:4px solid var(--app-secondary)!important}
+.authenticated-dashboard #quizArea .cell-related-lessons{margin-top:12px;padding-top:14px;border-top:1px solid var(--app-line)}
