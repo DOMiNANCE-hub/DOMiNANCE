@@ -63,3 +63,45 @@ test('practice results create explanations only when expanded and never duplicat
  const h=uiHarness();h.pilot.lesson('lesson:lesson_01:0');h.buttons('studyOutput').find(b=>b.textContent==='Practise this lesson').onclick();h.buttons('quizArea').find(b=>b.className.startsWith('answer')).onclick();h.buttons('quizArea').find(b=>b.textContent==='Review responses').onclick();h.buttons('quizArea').find(b=>b.textContent.startsWith('Submit practice')).onclick();
  const details=h.node('quizArea').children.find(node=>node.tag==='details');assert.ok(details);assert.equal(details.children.length,1);details.open=true;details.ontoggle();assert.equal(details.children.length,5);assert.match(details.children[4].textContent,/./);details.ontoggle();assert.equal(details.children.length,5);assert.equal(h.read().attempts.length,1);
 });
+
+test('legacy lesson links never borrow a different lesson’s saved section',()=>{
+ const h=uiHarness();
+ h.pilot.savePosition(learning.resolveBlock('CO01'),'CO01',.4,5);
+ h.pilot.lesson('CO02');
+ assert.match(h.node('cellSection').children[0].textContent,new RegExp('^'+learning.sections(data.lessons.find(l=>l.id==='CO02'))[0].title+'$'));
+ assert.equal(h.read().reading.organization.part,0);
+});
+
+test('saved section links clamp obsolete positions and reject invalid route inputs without throwing',()=>{
+ const h=uiHarness();h.pilot.savePosition(learning.resolveBlock('CO01'),'CO01',.4,99);
+ h.pilot.lesson('block:organization');
+ const resume=h.buttons('studyOutput').find(b=>b.textContent.startsWith('Resume '));
+ let target;h.ctx.openTopic=id=>{target=id};resume.onclick();
+ assert.equal(h.pilot.validTopic(target),true);
+ assert.equal(target,'lesson:CO01:'+(learning.sections(data.lessons.find(l=>l.id==='CO01')).length-1));
+ assert.equal(h.read().reading.organization.part,99,'viewing the list does not rewrite saved records');
+ for(const id of [null,undefined,{},1,'lesson:CO01:-1','lesson:CO01:9999'])assert.equal(h.pilot.validTopic(id),false);
+});
+
+test('practice setup exposes a saved draft even for an empty question selection',()=>{
+ const h=uiHarness({...data,questions:data.questions.filter(q=>!q.lesson.startsWith('BI'))});
+ h.pilot.practice(true);h.buttons('cellPractice').find(b=>b.textContent==='Open Topic Questions').onclick();
+ const draft={format:2,id:'saved',questions:[data.questions[0].id],index:0,responses:{},phase:'answer'};
+ h.cache.set('cellStructure',JSON.stringify({...api.state(null,data),draft}));h.pilot.practice();
+ assert.ok(h.buttons('cellPractice').some(b=>b.textContent==='Resume unfinished practice'));
+ const walk=n=>[n,...(n.children||[]).flatMap(walk)];
+ const block=walk(h.node('cellPractice')).find(n=>n.getAttribute?.('aria-label')==='Practice block');
+ block.value='analysis';block.onchange();
+ const resume=h.buttons('cellPractice').find(b=>b.textContent==='Resume unfinished practice');assert.ok(resume);
+ resume.onclick();assert.equal(h.focused,true);assert.equal(h.read().draft.id,'saved');
+});
+
+test('completed practice cannot be resurrected by a stale draft merge',()=>{
+ const draft={format:2,id:'completed-id',questions:[data.questions[0].id],index:0,responses:{},phase:'answer'};
+ const unfinished={...api.state(null,data),draft};
+ const completed={...api.state(null,data),attempts:[attempt(draft.id)]};
+ for(const [a,b] of [[completed,unfinished],[unfinished,completed]]){
+  const merged=JSON.parse(mergeCellHistory(JSON.stringify(a),JSON.stringify(b)));
+  assert.equal(merged.draft,null);assert.equal(merged.attempts.length,1);
+ }
+});

@@ -1,5 +1,11 @@
 # DOMiNANCE roadmap
 
+## HB1 academic development — 2026-10-19
+
+The current user authorized isolated academic branches, implementation, tests, commits, pushes and draft PRs based on the latest `dev/firebase-development-readiness`. Baseline `7274bb7` includes Antigravity Sprint 01 and CI. No merge, deployment, global styling/navigation redesign or Firebase security-rule changes.
+
+Cell Structure reliability: four reproduced defects fixed (lesson-specific resume, obsolete section links, draft resume availability, completed-draft transaction resurrection). All supplied 46 lessons/170 MCQs/51 checks preserved. 134 individual offline checks, lint/build and the added real emulator transaction pass; Chromium desktop/390px covers reader, exit/resume, submission and explanations with no page errors or narrow overflow. See [evidence and remaining academic gaps](docs/HB1_CELL_RELIABILITY.md).
+
 Updated 2026-10-15. Current status below supersedes historical milestone entries. Phase 1 is checkpointed at 89d982a; Phase 2 is on codex/hb1-cell-structure-content in Draft PR #1, based on pj/student-experience-foundation. No merge or deployment.
 
 ## Current verified state — stabilization and course/practice architecture
