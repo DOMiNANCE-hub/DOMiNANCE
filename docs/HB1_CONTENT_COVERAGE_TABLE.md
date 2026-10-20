@@ -6,6 +6,6 @@
 | Cell Structure | 46 | 170 | Source-based review candidate |
 | Ghanaian Sign Language | 0 | 0 | No implemented lessons or course MCQs |
 | Communication Skills | 0 | 0 | No implemented lessons or course MCQs |
-| Computer Appreciation | 12 | 72 | Source-based review candidate |
+| Computer Appreciation | 18 | 114 | Emulator review only; student release blocked |
 | Algebra | 0 | 0 | No implemented lessons or course MCQs |
 | Statistical Methods | 0 | 0 | No implemented lessons or course MCQs |

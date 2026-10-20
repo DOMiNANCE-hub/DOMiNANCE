@@ -1,39 +1,44 @@
-# Computer Appreciation review candidate
+# Computer Appreciation academic review
 
-Twelve authored learning lessons (3,743 words), 72 authored MCQs and answer explanations, organised into four study blocks. Every lesson has three foundational and three application questions. These are topic practice questions, not reproduced or certified past examination questions.
+The preserved baseline contains 12 lessons and 72 explained MCQs. The incremental internal review contains **18 lessons and 114 MCQs**, including six new lessons and 18 additional PowerPoint questions. These are source-based practice candidates, not certified past examination questions or a verified complete syllabus.
 
-## Source and approval status
+## Release status
 
-The teaching source is **Computer Appreciation — CSM 177 Lecturer Notes.pdf**, found in the user's connected Google Drive. Its title page identifies **CSM 177 HB1 — Microsoft Excel and PowerPoint 2016**. The 542-page source, Drive reference and SHA-256 are recorded in `manifest.json`. Page numbers refer to PDF pages, including the opening title pages. No original PDF, slide image, private source dump, assignment submission or past paper is copied into this public repository.
+**Student publication is blocked pending academic approval.** Normal development, preview and production builds receive an empty Computer content asset. The full internal review bank is supplied only by Vite middleware in fixed local emulator serve mode (`npm run dev:emulator`), with a visible review label. Emulator mode cannot be built for deployment. No URL/environment override approves a release.
 
-The lecturer notes establish a source for drafting; they do not establish a current official syllabus or academic approval of this adaptation. Status remains `academic-review-pending` for user/Ofobi review. Peer revision notes and labelled past-question documents were discovered but are not the authority for this answer key.
+A text-free ID/answer-letter index preserves validation of existing private drafts/history and confirmed Home totals without reopening held lessons or questions. Existing account records are not migrated or deleted. A future student release requires an explicitly reviewed approval/allowlist implementation; changing a flag alone cannot publish it.
 
-## Lessons and boundaries
+## Source and reconciliation
 
-| Block | Lessons | MCQs |
-|---|---|---:|
-| Spreadsheet Foundations | CA01 data entry; CA02 editing/fill; CA03 formulas/references | 18 |
-| Spreadsheet Functions | CA04 common/date functions; CA05 statistics/counting; CA06 text/logical/financial arguments | 18 |
-| Data Handling & Charts | CA07 formats/printing/files; CA08 charts; CA09 sorting/filtering | 18 |
-| Presentations | CA10 layouts/themes/files; CA11 objects/media; CA12 views/printing/effects | 18 |
+The available **Computer Appreciation — CSM 177 Lecturer Notes.pdf** identifies CSM 177 HB1, Microsoft Excel and PowerPoint 2016. Its 542-page identity/hash and Drive reference are in `manifest.json`. Citations use actual PDF page numbers including title pages. No original PDF, slide image, complete uploaded package, assignment submission or past paper is copied into the app.
 
-Lessons include goals, explanations, worked examples and fictional-data exercises. Lesson metadata gives the source ranges; every question has an individual source-page reference, displayed with its result explanation. The broad lesson ranges indicate relevant sections, not a claim that every detail on every page is taught or tested.
+The expanded package contains 58 lessons, 270 candidate MCQs and four withheld items. Its claimed original 541-page PDF is absent. Text-anchor matching establishes **199 package-to-actual page matches**, with 342 pages unresolved; 32 actual-PDF fact anchors support the incremental questions. These are overlapping evidence counts, not full source coverage. No blanket page offset is applied.
 
-Remaining depth: complete function catalogues (including lookup/reference, advanced statistical, trigonometric and financial functions), named-range workflows, 3-D references, custom lists, workbook consolidation, full print/protection settings, chart subtypes, media compatibility and assessed practical assignments. These require further source review and lecturer priorities. Hardware, operating systems and other possible course topics are not invented as official requirements.
+[Current evidence, exact coverage and academic holds](../../docs/csm177/READINESS.md) · [Page crosswalk](../../docs/csm177/source-page-reconciliation.json) · [58-lesson / 270-candidate dispositions](review/package-disposition.json).
 
-## Source issues handled explicitly
+## Internal lesson inventory
 
-- PDF p.23 states a 255-character cell limit. No cell-character-limit fact or MCQ is published from that statement; confirm current specifications before adding one.
-- PDF p.169 has apparently interchanged AVERAGE/AVERAGEA descriptions. Lessons use numeric-only mean examples and do not adopt its text/logical-value claims. COUNT/COUNTA uses p.170.
-- PDF p.163 labels COMBIN but shows COMB in an example. That example is not reused.
-- PDF pp.298 and 424 contain version-sensitive default-sheet/file-format wording. No fixed default worksheet count or “97–2016” format claim is taught.
-- PDF p.427's PDF sharing description is not treated as protection against editing. The lesson calls PDF a fixed-layout copy and retains the editable deck.
-- PDF pp.532–535 use a legacy Animations-tab transition workflow. The lesson teaches the object-animation/between-slide-transition distinction from p.531 and flags interface-version differences.
+| Block | Preserved baseline | Incremental lessons | Review MCQs |
+|---|---|---|---:|
+| Spreadsheet Foundations | CA01 data entry; CA02 editing/fill; CA03 formulas/references | CA13 custom lists; CA14 named ranges; CA15 cross-sheet/3-D references | 30 |
+| Spreadsheet Functions | CA04 common/date; CA05 statistics/counting; CA06 text/logical/financial arguments | CA16 lookup/reference glossary | 22 |
+| Data Handling & Charts | CA07 formats/printing/files; CA08 charts; CA09 sorting/filtering | CA17 consolidation; CA18 print titles/headers/page breaks | 26 |
+| Presentations | CA10 layouts/themes/files; CA11 objects/media; CA12 views/printing/effects | Source-linked extensions within CA10–12 | 36 |
 
-These editorial decisions avoid propagating questionable statements; software checks are not independent academic certification.
+The original lesson/question files and all 72 answer mappings remain unchanged. Review additions live separately in `review/`. Of the 42 incremental questions, 24 selectively adapt package candidates with preserved candidate correct-option mappings, and 18 are newly authored source-based questions. Four overlapping objectives are excluded; 242 candidates remain unimported and pending review. The four withheld items remain in `review/withheld-questions.json`, outside both compiled banks and the validation index.
 
-## Build and validation
+All six new lessons have four questions with foundational and application contexts. PowerPoint has 12 per lesson. Learning goals, examples, fictional-data exercises, answer explanations and actual-PDF citations are included. Broad cited ranges identify relevant source sections, not every taught detail.
 
-`npm run content:computer` deterministically generates the student asset and a text-free validation index. `npm run build` recompiles both courses. Validation checks IDs, lesson/block coverage, four distinct options, A–D keys, explanations, question types and page references within their lesson's cited source ranges. Tests also protect worked answer keys, actual reader/practice handlers, course isolation, persistence and Home totals.
+## Remaining academic work
 
-The existing authenticated parent saves additive private `dashboardState.computerAppreciation` state through the same Firestore transaction/acknowledgement path as Cell Structure. Each course has its own draft and bounded result history. No rules change, migration, deployment or official assessment system is introduced. Static lesson/question assets are public; they are not a secure exam bank.
+The full function catalogue, detailed lookup syntax, advanced statistics/trigonometry/finance, chart subtypes, protection dialogs, media compatibility and assessed practical assignments remain incomplete. A current lecturer outline and subject approval are still needed; hardware/operating-system topics are not invented as official requirements.
+
+Payroll screenshot/text tax rules, institutional grading cutoffs and exactly-40 policy remain unresolved. TODAY/DATE contradictions, terse MATCH wording, F11/Alt+F1 placement, legacy tab names, the cell-limit statement, AVERAGE/AVERAGEA and COMBIN table issues are recorded rather than silently treated as authoritative. No official payroll rate, grade boundary or target-version behavior is invented.
+
+All **15 Microsoft Office desktop scenarios remain unexecuted in Microsoft Office**. The environment completed 22 explicitly labelled LibreOffice/document alternatives; these do not certify Office dialogs, shortcuts, playback/timing or physical printing. See the [practical register](review/practical-checks.json) and [actual alternative-engine results](../../docs/csm177/office-alternative-results.json).
+
+## Build and verification
+
+`npm run content:computer` generates only the blocked student stub and text-free index. `compileComputer({includeReview:true})` supplies internal review data to the emulator-only middleware and tests. `npm run build` recompiles both courses. `npm run content:coverage` inventories review content and student availability separately.
+
+Validation checks stable IDs, unique stems/options, source/page containment, block coverage, candidate answer mappings, held-item exclusion and question explanations/types. Regression and real loopback Auth/Firestore tests cover reader/practice flows, old/new drafts, confirmed scoring, relogin, course isolation and account isolation. The existing Firebase transaction/acknowledgement path is reused; no security rules change is required. See the readiness report for exact results and limits.

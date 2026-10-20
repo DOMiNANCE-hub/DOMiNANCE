@@ -14,21 +14,24 @@ import '../public/dashboard/home-model.js';
 import {createDashboardStorage,mergeComputerHistory} from '../src/dashboard-session.js';
 import {academicHarness} from './support/academic-harness.js';
 import {hb1Coverage,coverageTable} from '../scripts/report-hb1-coverage.mjs';
-const data=globalThis.DominanceComputerContent,learning=globalThis.DominanceComputerLearning,model=globalThis.DominanceComputerState;
+const data=compileComputer({includeReview:true}),learning=globalThis.DominanceComputerLearning,model=globalThis.DominanceComputerState;
+globalThis.DominanceComputerContent={...data,reviewOnly:true};
 const harness=()=>academicHarness({create:globalThis.DominanceCellStructure.create,data,learning,model});
 const answer=q=>q.options[q.letter.charCodeAt(0)-65];
 
-test('Computer compiler preserves cited lessons and deterministic 72-question content',()=>{
- assert.deepEqual(compileComputer(),data);assert.equal(data.lessons.length,12);assert.equal(data.questions.length,72);
+test('Computer preserves the 12/72 baseline and compiles the incremental 18/114 review bank',()=>{
+ const legacy=compileComputer();assert.equal(legacy.lessons.length,12);assert.equal(legacy.questions.length,72);
+ assert.deepEqual(compileComputer({includeReview:true}),data);assert.equal(data.lessons.length,18);assert.equal(data.questions.length,114);
+ assert.deepEqual(data.questions.slice(0,72),legacy.questions,'existing keys, questions and answer mappings remain unchanged');
  assert.equal(data.status,'academic-review-pending');assert.equal(data.scope,'HB1:First');
- const all=learning.blocks.flatMap(b=>b.lessons);assert.deepEqual(all,data.lessons.map(l=>l.id));
- for(const l of data.lessons){
+ const all=learning.blocks.flatMap(b=>b.lessons);assert.deepEqual([...all].sort(),data.lessons.map(l=>l.id).sort());
+ for(const l of legacy.lessons){
   assert.equal(l.markdown,readFileSync(new URL('../content/computer-appreciation/lessons/'+l.id+'.md',import.meta.url),'utf8').trim());
-  const questions=data.questions.filter(q=>q.lesson===l.id);assert.equal(questions.length,6);
+  const questions=legacy.questions.filter(q=>q.lesson===l.id);assert.equal(questions.length,6);
   assert.equal(questions.filter(q=>q.kind==='foundation').length,3);assert.equal(questions.filter(q=>q.kind==='application').length,3);
   assert.ok(l.references.length);assert.ok(learning.sections(l).length>=3);
  }
- assert.equal(new Set(data.questions.map(q=>q.question)).size,72);
+ assert.equal(new Set(data.questions.map(q=>q.question)).size,114);
 });
 test('Computer validation rejects broken citations, mapping, ambiguous options and answer keys',()=>{
  for(const mutate of [d=>{d.questions[0].pages=[[0,1]]},d=>{d.lessons[0].pages=[[1,543]]},d=>{d.blocks[0].lessons.push('CA01')},d=>{d.questions[0].options[1]=d.questions[0].options[0].toUpperCase()},d=>{d.questions[0].letter='E'},d=>{d.questions[0].explanation=''},d=>{d.questions[0].lesson='CO01'}]){
@@ -58,7 +61,7 @@ test('Practice switches between real course pools and keeps independent unfinish
  const h=academicHarness({create:globalThis.DominanceAcademicCourses.create,data});
  h.pilot.openTopics();assert.equal(h.select('cellPractice','Practice course').children.length,2);
  const course=h.select('cellPractice','Practice course');course.value='Computer Appreciation';course.onchange();
- assert.match(h.text('cellPractice'),/72 available questions/);h.select('cellPractice','Question count').value='5';h.buttons('cellPractice').find(b=>b.textContent==='Start practice').onclick();
+ assert.match(h.text('cellPractice'),/114 available questions/);h.select('cellPractice','Question count').value='5';h.buttons('cellPractice').find(b=>b.textContent==='Start practice').onclick();
  const saved=model.state(h.cache.get('computerAppreciation'),data);assert.equal(saved.draft.questions.length,5);assert.ok(saved.draft.questions.every(id=>id.startsWith('CA-Q')));
  h.pilot.exit();h.pilot.openTopics();const switcher=h.select('cellPractice','Practice course');switcher.value='Cell Structure';switcher.onchange();
  assert.match(h.text('cellPractice'),/170 available questions/);assert.equal(h.cache.get('computerAppreciation'),JSON.stringify(saved));
@@ -86,7 +89,7 @@ test('Home counts confirmed Computer completions with skipped answers excluded',
 test('HB1 coverage report matches real modules and keeps empty courses explicit',()=>{
  const report=hb1Coverage();assert.equal(report.courses.length,9);
  assert.equal(report.courses.filter(c=>c.lessons===0&&c.questions===0).length,7);
- assert.equal(report.courses.reduce((n,c)=>n+c.lessons,0),58);assert.equal(report.courses.reduce((n,c)=>n+c.questions,0),242);
+ assert.equal(report.courses.reduce((n,c)=>n+c.lessons,0),64);assert.equal(report.courses.reduce((n,c)=>n+c.questions,0),284);
  assert.deepEqual(report,JSON.parse(readFileSync(new URL('../docs/HB1_CONTENT_COVERAGE.json',import.meta.url),'utf8')));
  assert.equal(coverageTable(report),readFileSync(new URL('../docs/HB1_CONTENT_COVERAGE_TABLE.md',import.meta.url),'utf8'));
  for(const course of report.courses)assert.equal(course.lessonCoverage.reduce((n,l)=>n+l.questions,0),course.questions);

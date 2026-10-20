@@ -5,7 +5,7 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const source=path.join(root,'content/computer-appreciation');
 const read=name=>JSON.parse(readFileSync(path.join(source,name),'utf8'));
 export function validateComputerContent(data){
- const ids=new Set(),questions=new Set(),sources=new Map(data.sources.map(s=>[s.id,s]));
+ const ids=new Set(),questions=new Set(),stems=new Set(),sources=new Map(data.sources.map(s=>[s.id,s]));
  const pagesValid=(pages,sourceId)=>Array.isArray(pages)&&pages.length>0&&pages.every(p=>Array.isArray(p)&&p.length===2&&p.every(Number.isInteger)&&p[0]>=1&&p[1]>=p[0]&&p[1]<=sources.get(sourceId)?.pages);
  for(const lesson of data.lessons){
   if(!lesson.id||ids.has(lesson.id)||!lesson.title?.trim()||!lesson.markdown?.trim()||!pagesValid(lesson.pages,lesson.source))throw Error('Invalid sourced lesson '+lesson.id);
@@ -13,22 +13,46 @@ export function validateComputerContent(data){
  }
  const mapped=data.blocks.flatMap(b=>b.lessons);
  if(new Set(data.blocks.map(b=>b.id)).size!==data.blocks.length||new Set(mapped).size!==mapped.length||mapped.length!==ids.size||mapped.some(id=>!ids.has(id)))throw Error('Invalid block coverage');
+ const held=new Set(read('review/release-policy.json').withheldIds);
  for(const q of data.questions){
+  if(held.has(q.id)||held.has(q.adaptedFrom))throw Error('Withheld question: '+q.id);
   if(!q.id||questions.has(q.id)||!ids.has(q.lesson)||!['foundation','application'].includes(q.kind)||!q.question?.trim()||!q.explanation?.trim()||!Array.isArray(q.options)||q.options.length!==4||q.options.some(o=>typeof o!=='string'||!o.trim())||new Set(q.options.map(o=>o.trim().toLowerCase())).size!==4||!/^[A-D]$/.test(q.letter)||!pagesValid(q.pages,q.source))throw Error('Invalid sourced question '+q.id);
   const lesson=data.lessons.find(l=>l.id===q.lesson);if(q.source!==lesson.source||q.pages.some(([a,b])=>!lesson.pages.some(([x,y])=>a>=x&&b<=y)))throw Error('Question citation outside its lesson: '+q.id);
-  questions.add(q.id);
+  const stem=q.question.trim().replace(/\s+/g,' ').toLowerCase();if(stems.has(stem))throw Error('Duplicate question stem: '+q.id);stems.add(stem);questions.add(q.id);
  }
  for(const id of ids)if(!data.questions.some(q=>q.lesson===id))throw Error('Lesson has no questions: '+id);
  return data;
 }
-export function compileComputer(){
+export function compileComputer({includeReview=false}={}){
  const manifest=read('manifest.json');
  const lessons=read('lesson-metadata.json').map(item=>({...item,source:'CSM177-LECTURER',markdown:readFileSync(path.join(source,'lessons',item.id+'.md'),'utf8').trim(),attribution:'CSM 177 HB1 — Microsoft Excel and PowerPoint 2016 lecturer notes. Adapted review candidate.',references:item.pages.map(([a,b])=>'PDF pp. '+a+(a===b?'':'–'+b))}));
- return validateComputerContent({...manifest,lessons,questions:read('questions.json')});
+ let questions=read('questions.json'),blocks=structuredClone(manifest.blocks);
+ if(includeReview){
+  const extension=read('review/extension.json');
+  for(const item of extension.lessons){
+   lessons.push({...item,source:'CSM177-LECTURER',markdown:readFileSync(path.join(source,'review/lessons',item.id+'.md'),'utf8').trim(),attribution:'CSM 177 lecturer source reconciled to the 542-page PDF; internal review only.',references:item.pages.map(([a,b])=>'PDF pp. '+a+(a===b?'':'–'+b))});
+   const block=blocks.find(b=>b.id===item.block);if(!block)throw Error('Unknown extension block');block.lessons.push(item.id);
+  }
+  for(const item of extension.additions){const lesson=lessons.find(l=>l.id===item.lesson);if(!lesson)throw Error('Unknown lesson addition');lesson.markdown+='\n\n'+item.markdown}
+  questions.push(...read('review/questions.json'));
+ }
+ const withheld=new Set(read('review/release-policy.json').withheldIds);
+ if(questions.some(q=>withheld.has(q.id)||withheld.has(q.adaptedFrom)))throw Error('Withheld question in review bank');
+ return validateComputerContent({...manifest,blocks,lessons,questions});
+}
+export function studentComputerContent(){
+ const policy=read('review/release-policy.json');
+ // Academic sign-off must be a reviewed source change; no env/URL override can release it.
+ if(policy.studentPublication!==true||!policy.academicApproval) return {version:1,course:'Computer Appreciation',scope:'HB1:First',status:'academic-release-blocked',lessons:[],questions:[]};
+ throw Error('No approved Computer release manifest exists; review and implement its explicit allowlist first.');
+}
+export function computerValidationIndex(){
+ const data=compileComputer({includeReview:true});
+ return {course:data.course,lessons:data.lessons.map(({id})=>({id})),questions:data.questions.map(({id,letter,lesson})=>({id,letter,lesson}))};
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
- const data=compileComputer(),encode=value=>JSON.stringify(value).replaceAll('<','\\u003c');
+ const data=studentComputerContent(),review=compileComputer({includeReview:true}),encode=value=>JSON.stringify(value).replaceAll('<','\\u003c');
  writeFileSync(path.join(root,'public/dashboard/computer-content.js'),'/* Generated by npm run content:computer; do not edit. */\nglobalThis.DominanceComputerContent='+encode(data)+';\n');
- writeFileSync(path.join(root,'public/dashboard/computer-index.js'),'/* Validation index only; no lesson or question text. */\nglobalThis.DominanceComputerIndex='+encode({lessons:data.lessons.map(({id})=>({id})),questions:data.questions.map(({id,letter})=>({id,letter}))})+';\n');
- console.log('Compiled '+data.lessons.length+' Computer Appreciation lessons and '+data.questions.length+' questions. Academic review pending.');
+ writeFileSync(path.join(root,'public/dashboard/computer-index.js'),'/* Validation index only; no lesson or question text. */\nglobalThis.DominanceComputerIndex='+encode(computerValidationIndex())+';\n');
+ console.log('Computer student release blocked; '+review.lessons.length+' lessons / '+review.questions.length+' questions available only through local emulator review.');
 }

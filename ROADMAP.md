@@ -1,5 +1,17 @@
 # DOMiNANCE roadmap
 
+## HB1 academic continuation — 2026-10-20
+
+Development `3b5368f` (Antigravity UI Sprints 02–05 and Cell reliability) is merged into the existing Computer branch as `7a0c1eb`, preserving the merged global styles. PR #9 remains draft. No Firebase rules/configuration change, main merge or deployment.
+
+Computer Appreciation now has **18 lessons / 114 MCQs only in the local emulator review**, preserving the original 12/72 and adding six lessons plus 42 questions. PowerPoint has 36 questions. Normal builds hold all pending Computer text out of the student asset while preserving private history and confirmed Home totals. Of 270 candidates, 24 are selectively adapted, four overlapping objectives excluded and 242 unimported. All four withheld items remain outside the compiled banks/index.
+
+Source evidence establishes 199 unique 541-to-542 page-text matches and leaves 342 unresolved; the original 541-page PDF is unavailable. Thirty-two directly inspected actual-PDF anchors support incremental questions. Twenty-two actual LibreOffice/document alternatives pass, but all 15 Microsoft Office desktop scenarios remain unexecuted in their required software. Payroll/grade policy and source contradictions remain academic holds.
+
+Verification: 155 offline and 38 real loopback emulator checks pass; lint/build pass with existing warnings. Chromium checks the expanded 18-lesson/90-section review, saved progress/practice, release hold and existing Cell flow. Software is prepared for review with the release gate intact; student academic approval is still blocked. [Detailed evidence and limits](docs/csm177/READINESS.md), [current nine-course inventory](docs/HB1_CONTENT_COVERAGE_TABLE.md).
+
+The entries below are historical; the 20 October status above takes precedence.
+
 ## HB1 academic development — 2026-10-19
 
 The current user authorized isolated academic branches, implementation, tests, commits, pushes and draft PRs based on the latest `dev/firebase-development-readiness`. Baseline `7274bb7` includes Antigravity Sprint 01 and CI. No merge, deployment, global styling/navigation redesign or Firebase security-rule changes.

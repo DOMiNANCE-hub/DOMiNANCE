@@ -7,6 +7,8 @@
       "lessons": 0,
       "questions": 0,
       "status": "no-implemented-content",
+      "studentLessons": 0,
+      "studentQuestions": 0,
       "lessonCoverage": []
     },
     {
@@ -14,6 +16,8 @@
       "lessons": 0,
       "questions": 0,
       "status": "no-implemented-content",
+      "studentLessons": 0,
+      "studentQuestions": 0,
       "lessonCoverage": []
     },
     {
@@ -21,6 +25,8 @@
       "lessons": 0,
       "questions": 0,
       "status": "no-implemented-content",
+      "studentLessons": 0,
+      "studentQuestions": 0,
       "lessonCoverage": []
     },
     {
@@ -28,6 +34,8 @@
       "lessons": 46,
       "questions": 170,
       "status": "academic-review-pending",
+      "studentLessons": 46,
+      "studentQuestions": 170,
       "lessonCoverage": [
         {
           "id": "lesson_01",
@@ -266,6 +274,8 @@
       "lessons": 0,
       "questions": 0,
       "status": "no-implemented-content",
+      "studentLessons": 0,
+      "studentQuestions": 0,
       "lessonCoverage": []
     },
     {
@@ -273,13 +283,17 @@
       "lessons": 0,
       "questions": 0,
       "status": "no-implemented-content",
+      "studentLessons": 0,
+      "studentQuestions": 0,
       "lessonCoverage": []
     },
     {
       "course": "Computer Appreciation",
-      "lessons": 12,
-      "questions": 72,
-      "status": "academic-review-pending",
+      "lessons": 18,
+      "questions": 114,
+      "status": "local-review-only",
+      "studentLessons": 0,
+      "studentQuestions": 0,
       "lessonCoverage": [
         {
           "id": "CA01",
@@ -329,17 +343,47 @@
         {
           "id": "CA10",
           "title": "PowerPoint slides, layouts and saved files",
-          "questions": 6
+          "questions": 12
         },
         {
           "id": "CA11",
           "title": "Tables, pictures and presentation objects",
-          "questions": 6
+          "questions": 12
         },
         {
           "id": "CA12",
           "title": "Presenting, printing and controlled effects",
-          "questions": 6
+          "questions": 12
+        },
+        {
+          "id": "CA13",
+          "title": "Custom fill lists",
+          "questions": 4
+        },
+        {
+          "id": "CA14",
+          "title": "Named cells and ranges",
+          "questions": 4
+        },
+        {
+          "id": "CA15",
+          "title": "Cross-sheet and three-dimensional references",
+          "questions": 4
+        },
+        {
+          "id": "CA16",
+          "title": "Lookup and reference glossary",
+          "questions": 4
+        },
+        {
+          "id": "CA17",
+          "title": "Consolidating worksheet data",
+          "questions": 4
+        },
+        {
+          "id": "CA18",
+          "title": "Print titles, headers and manual page breaks",
+          "questions": 4
         }
       ]
     },
@@ -348,6 +392,8 @@
       "lessons": 0,
       "questions": 0,
       "status": "no-implemented-content",
+      "studentLessons": 0,
+      "studentQuestions": 0,
       "lessonCoverage": []
     },
     {
@@ -355,6 +401,8 @@
       "lessons": 0,
       "questions": 0,
       "status": "no-implemented-content",
+      "studentLessons": 0,
+      "studentQuestions": 0,
       "lessonCoverage": []
     }
   ]

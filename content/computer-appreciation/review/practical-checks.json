@@ -1,0 +1,182 @@
+[
+  {
+    "test_id": "EX-01",
+    "software": "Excel Windows Desktop",
+    "action": "Open formula validation workbook; inspect Payroll Screenshot D7:I21 against exact original screenshot.",
+    "expected_result": "John I7 3138.75; total I23 30410.75",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "p.198",
+    "alternativeEvidence": [
+      "Payroll Screenshot!I7",
+      "Payroll Screenshot!I23"
+    ],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "EX-02",
+    "software": "Excel Windows Desktop",
+    "action": "Change Payroll Screenshot income tax I2 from .15 to .18 and watch E7/I7.",
+    "expected_result": "John E7 becomes 697.50 and I7 becomes 3022.50; then undo.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "pp.197–200",
+    "alternativeEvidence": [
+      "tax-variant-E7",
+      "tax-variant-I7"
+    ],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "EX-03",
+    "software": "Excel Windows Desktop",
+    "action": "Open Payroll Written; compare I7 and I23.",
+    "expected_result": "John I7=3158.125; total I23=30598.625 before displayed rounding.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "p.197",
+    "alternativeEvidence": [
+      "Payroll Written!I7",
+      "Payroll Written!I23"
+    ],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "EX-04",
+    "software": "Excel Windows Desktop",
+    "action": "Inspect Weighted Marks E6 and F6, then C23:C30.",
+    "expected_result": "E6=74.10; F6=UNSET with missing cutoff H3:H6; C28=74.1, C29=30, C30 about 55.173333.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "pp.200–202",
+    "alternativeEvidence": [
+      "Weighted Marks!E6",
+      "Weighted Marks!C28",
+      "Weighted Marks!C29",
+      "Weighted Marks!C30"
+    ],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "EX-05",
+    "software": "Excel Windows Desktop",
+    "action": "With H3:H6 left empty, verify no invented grade letters. Enter separately authorized descending grade thresholds only if available.",
+    "expected_result": "Grade cannot be assigned without authorized cutoffs.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "pp.200–202",
+    "alternativeEvidence": [
+      "Weighted Marks!F6"
+    ],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "EX-06",
+    "software": "Excel Windows Desktop",
+    "action": "In Filter and Functions compare <40 and <=40 for test mark 40.",
+    "expected_result": "For 40, <40=FALSE and <=40=TRUE.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "p.398",
+    "alternativeEvidence": [
+      "filter-boundary-40"
+    ],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "EX-07",
+    "software": "Excel Windows Desktop",
+    "action": "Recalculate NOW(), TODAY(), DATE(2010,9,28). Format serials as General to inspect fractional time.",
+    "expected_result": "TODAY date only; NOW date+time; DATE serial 40449.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "pp.153–157",
+    "alternativeEvidence": [
+      "Filter and Functions!B15",
+      "today-versus-now"
+    ],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "EX-08",
+    "software": "Excel Windows Desktop",
+    "action": "Select data range A1:B4, press F11; undo then press Alt+F1.",
+    "expected_result": "F11 creates separate chart sheet; Alt+F1 embeds chart in worksheet.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "p.365",
+    "alternativeEvidence": [],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "EX-09",
+    "software": "Excel Windows Desktop",
+    "action": "Copy relative and absolute formulas down; test Ctrl+D, Ctrl+R, F4 reference cycling.",
+    "expected_result": "Relative row changes; references with $ remain fixed.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "pp.75–104",
+    "alternativeEvidence": [
+      "reference-D2",
+      "reference-D3"
+    ],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "EX-10",
+    "software": "Excel Windows Desktop",
+    "action": "Test Workbook Protect vs Worksheet Protect vs Encrypt with Password.",
+    "expected_result": "Distinct permissions: workbook structure vs sheet edits vs opening file.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "pp.276–309",
+    "alternativeEvidence": [],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "PP-01",
+    "software": "PowerPoint Desktop",
+    "action": "Insert a sound file per p.507, compare version-aware Insert > Audio steps and playback options.",
+    "expected_result": "Inserts an audio object; section heading Movie is a typo.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "pp.506–508",
+    "alternativeEvidence": [],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "PP-02",
+    "software": "PowerPoint Desktop",
+    "action": "Set advance-after timing on slide then run Slide Show and observe automatic advancement.",
+    "expected_result": "Advances on configured after interval; UI location version dependent.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "pp.538–539",
+    "alternativeEvidence": [],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "PP-03",
+    "software": "PowerPoint Desktop",
+    "action": "Test Group/Ungroup SmartArt/picture objects and Bring Forward/Bring to Front.",
+    "expected_result": "Order and grouping change as expected, verify ribbon menu version.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "pp.482–500",
+    "alternativeEvidence": [],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "PP-04",
+    "software": "PowerPoint Desktop",
+    "action": "Test text placeholders, table inserts, slide layouts and slide master.",
+    "expected_result": "Object positions, layouts and saved edits persist; version-dependent commands.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "pp.400–468",
+    "alternativeEvidence": [
+      "presentation-table-roundtrip",
+      "presentation-text-render"
+    ],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  },
+  {
+    "test_id": "EX-11",
+    "software": "Excel Windows Desktop",
+    "action": "Preview print area, orientation, scaling, gridline printing and header/footer.",
+    "expected_result": "Preview matches explicitly set print options.",
+    "status": "NOT_EXECUTED_IN_MICROSOFT_OFFICE",
+    "pdf_source": "pp.248–275",
+    "alternativeEvidence": [
+      "headless-print-header",
+      "headless-landscape"
+    ],
+    "limitation": "Microsoft target-version desktop interaction not executed. Headless alternatives do not satisfy this acceptance scenario."
+  }
+]
