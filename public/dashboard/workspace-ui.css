@@ -177,3 +177,85 @@ html.section-reader .shell .content .panel,html.focused-quiz .shell .content .qu
  .account-panel .account-sections button{font-size:11px;line-height:1.25;padding:6px 4px}
 }
 @media(min-width:681px) and (max-width:1100px){#home.home-compact .home-tool-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#home.home-compact .home-actions{grid-template-columns:1fr}}
+
+/* Sprint 02: App-wide visual consistency across Community, account dialogs, feedback states, and dark mode. */
+.authenticated-dashboard .activity{border-bottom:1px solid var(--app-line);padding:12px 0;gap:14px}
+.authenticated-dashboard .activity:last-child{border-bottom:0;padding-bottom:4px}
+.authenticated-dashboard .actcopy strong{font-size:13px;line-height:1.4}
+.authenticated-dashboard .actcopy small{font-size:12px;line-height:1.5;color:var(--app-muted)}
+.authenticated-dashboard .score{display:inline-flex;align-items:center;padding:5px 10px;border-radius:999px;border:1px solid var(--app-line);background:var(--app-bg);color:var(--app-accent);font:700 12px/1.2 'DM Sans','Segoe UI',sans-serif;white-space:nowrap}
+html[data-mode=dark] .authenticated-dashboard .score{color:var(--app-secondary)}
+.authenticated-dashboard .bar{height:7px;background:var(--app-bg)!important;border:1px solid var(--app-line);border-radius:999px;overflow:hidden}
+.authenticated-dashboard .bar span{background:var(--app-accent)!important;border-radius:999px}
+html[data-mode=dark] .authenticated-dashboard .bar span{background:var(--app-secondary)!important}
+.authenticated-dashboard .toast{bottom:24px;background:var(--app-nav);color:#fff;border:1px solid color-mix(in srgb,var(--app-secondary) 55%,var(--app-nav));border-radius:12px;padding:12px 18px;font:600 13px/1.4 'DM Sans','Segoe UI',sans-serif;box-shadow:0 12px 32px #05132945;z-index:95;max-width:min(420px,calc(100vw - 32px));text-align:center}
+.authenticated-dashboard .community-card,.authenticated-dashboard .community-privacy,.authenticated-dashboard .community-person,.authenticated-dashboard .community-next{border-radius:var(--ui-card-radius)!important;box-shadow:0 3px 12px #102d5008}
+.authenticated-dashboard .community-privacy{justify-content:space-between;flex-wrap:wrap;gap:16px}
+.authenticated-dashboard .community-privacy>div:first-child{flex:1 1 280px}
+.authenticated-dashboard .community-privacy>div:last-child{display:flex;flex-wrap:wrap;gap:8px;flex:0 1 auto;align-items:center}
+.authenticated-dashboard .community-privacy>div:last-child>button,.authenticated-dashboard .community-list-heading>button{margin:0!important}
+.authenticated-dashboard .community-list-heading{flex-wrap:wrap;gap:12px}
+.account-shell .account-panel .account-sections{padding:4px;border:1px solid var(--panel-line);border-radius:12px;background:color-mix(in srgb,var(--panel-bg) 92%,var(--panel-ink) 8%);gap:4px}
+.account-shell .account-panel .account-sections button{min-height:42px;border-radius:9px;border:1px solid transparent;font-weight:700}
+.account-shell .account-panel .account-sections button[aria-pressed=true]{background:var(--panel-bg);box-shadow:0 2px 8px #071a3514}
+html.authenticated-dashboard[data-mode=dark] .shell .content .course,html.authenticated-dashboard[data-mode=dark] .shell .content .panel,html.authenticated-dashboard[data-mode=dark] .shell .content .choice,html.authenticated-dashboard[data-mode=dark] .shell .content .topicrow,html.authenticated-dashboard[data-mode=dark] .shell .content .quiz,html.authenticated-dashboard[data-mode=dark] .shell .content .soon,html.authenticated-dashboard[data-mode=dark] #home.home-compact .home-tool-card,html.authenticated-dashboard[data-mode=dark] #cellPractice:not(:has(.practice-destinations)),html.authenticated-dashboard[data-mode=dark] .community-card,html.authenticated-dashboard[data-mode=dark] .community-privacy,html.authenticated-dashboard[data-mode=dark] .community-person,html.authenticated-dashboard[data-mode=dark] .community-next{box-shadow:0 6px 20px #02081440!important}
+@media(max-width:680px){
+ .authenticated-dashboard .toast{bottom:calc(82px + env(safe-area-inset-bottom,0px))}
+}
+
+/* Sprint 03: Premium learning interactions for course/topic navigation, section reading, quizzes, explanations, and LAMLA. */
+.authenticated-dashboard .cell-block-card{display:flex;flex-direction:column;min-height:204px;padding:22px!important;border-radius:var(--ui-card-radius)!important}
+.authenticated-dashboard .cell-block-card .eyebrow{margin:0 0 2px}
+.authenticated-dashboard .cell-block-card h3{font:700 18px/1.35 Manrope,'Segoe UI',sans-serif;margin:0 0 4px}
+.authenticated-dashboard .cell-block-card p{font-size:13px;line-height:1.55;margin:0}
+.authenticated-dashboard .cell-block-card button.primary{margin-top:auto!important;align-self:flex-start}
+.authenticated-dashboard .lesson-list .topicrow{display:flex;align-items:center;justify-content:space-between;gap:12px;font:600 14px/1.5 'DM Sans','Segoe UI',sans-serif;padding:15px 18px!important}
+.authenticated-dashboard .lesson-list .topicrow::after{content:'→';color:var(--app-accent);font-weight:700;flex-shrink:0}
+html.authenticated-dashboard[data-mode=dark] .lesson-list .topicrow::after{color:var(--app-secondary)}
+.authenticated-dashboard .section-navigation{background:var(--app-surface);border:1px solid var(--app-line);border-radius:16px;padding:16px 20px;box-shadow:0 3px 12px #102d5008}
+.authenticated-dashboard .section-navigation p{margin:0;font-size:12px;font-weight:500}
+.authenticated-dashboard .cell-reader h2{font:800 clamp(20px,2.3vw,25px)/1.3 Manrope,'Segoe UI',sans-serif;margin:0 0 14px;padding-bottom:12px;border-bottom:1px solid var(--app-line)}
+.authenticated-dashboard .cell-reader h3{font:700 18px/1.35 Manrope,'Segoe UI',sans-serif;margin:22px 0 10px}
+.authenticated-dashboard .cell-reader hr{border:0;border-top:1px solid var(--app-line);margin:20px 0}
+.authenticated-dashboard .cell-table table{border-radius:10px;overflow:hidden}
+.authenticated-dashboard .cell-table th{background:var(--app-bg);font-weight:700;font-size:13px}
+.authenticated-dashboard .cell-table td{font-size:13px;line-height:1.6}
+.authenticated-dashboard .cell-concept-check{background:color-mix(in srgb,var(--app-secondary) 8%,var(--app-surface))!important;border:1px solid var(--app-line)!important;border-left:4px solid var(--app-secondary)!important;border-radius:14px;padding:18px 20px}
+.authenticated-dashboard .cell-concept-answer{border-top:1px solid var(--app-line);padding-top:12px;margin-top:14px}
+.authenticated-dashboard #studyOutput>details{max-width:850px;margin:16px 0;padding:12px 18px;border:1px solid var(--app-line);border-radius:14px;background:var(--app-surface)}
+.authenticated-dashboard #studyOutput>details summary{min-height:44px;display:flex;align-items:center;font-weight:700;cursor:pointer}
+.authenticated-dashboard #studyOutput>article.panel{max-width:850px;margin:12px 0;padding:18px 20px}
+.authenticated-dashboard .cell-question>p:first-child{font:700 12px/1.4 'DM Sans','Segoe UI',sans-serif;letter-spacing:.6px;text-transform:uppercase;color:var(--app-muted)!important;margin:0 0 8px}
+.authenticated-dashboard .shell .quiz .answer:not(.selected):hover{border-color:var(--app-accent)!important;background:color-mix(in srgb,var(--app-accent) 6%,var(--app-surface))!important}
+.authenticated-dashboard .question-review button{border:1px solid var(--app-line);border-radius:12px;background:var(--app-surface);color:var(--app-ink);padding:10px 14px;font:600 13px/1.4 'DM Sans','Segoe UI',sans-serif}
+.authenticated-dashboard .question-review button:hover{border-color:var(--app-accent)}
+.authenticated-dashboard #quizArea details{padding:16px 18px;border-radius:14px;box-shadow:0 2px 8px #102d5006}
+.authenticated-dashboard #quizArea details summary{display:flex;align-items:center;justify-content:space-between;list-style:none}
+.authenticated-dashboard #quizArea details summary::-webkit-details-marker{display:none}
+.authenticated-dashboard #quizArea details summary::after{content:'⌄';font-size:13px;color:var(--app-muted)}
+.authenticated-dashboard #quizArea details[open] summary{padding-bottom:10px;border-bottom:1px solid var(--app-line);margin-bottom:10px}
+.authenticated-dashboard #quizArea details h3{font:700 16px/1.4 Manrope,'Segoe UI',sans-serif;margin:10px 0 8px}
+.authenticated-dashboard #quizArea details p{font-size:13px;line-height:1.65;margin:8px 0}
+.authenticated-dashboard .shell .content .focus{border:1px solid var(--app-line)!important;border-left:4px solid var(--app-accent)!important;border-radius:14px!important;padding:16px 18px}
+.authenticated-dashboard .cramlist li{font-size:13px;line-height:1.6;padding:6px 0}
+.authenticated-dashboard .lamla-options button{min-height:44px;padding:8px 16px;border-radius:10px;font-size:13px}
+
+/* Sprint 04: Performance containment, touch responsiveness, keyboard focus-visible completeness, and reduced-motion guards. */
+.authenticated-dashboard .shell .content .course,.authenticated-dashboard .cell-block-card,.authenticated-dashboard .destination-card,.authenticated-dashboard .community-person{contain:layout style}
+.authenticated-dashboard .spotlight-track{overflow-anchor:none}
+.authenticated-dashboard .course[role=button],.authenticated-dashboard summary,.authenticated-dashboard #home.home-compact .home-tool-card,.authenticated-dashboard .community-person button,.authenticated-dashboard .question-review button,.account-shell .preset-grid button,.account-shell .account-panel .account-sections button{touch-action:manipulation}
+.authenticated-dashboard details summary:focus-visible,.authenticated-dashboard .course[role=button]:focus-visible,.authenticated-dashboard .spotlight-track:focus-visible,.authenticated-dashboard .question-review button:focus-visible,.account-shell .account-panel .account-sections button:focus-visible{outline:3px solid var(--ui-focus,var(--panel-focus,#c69214))!important;outline-offset:2px}
+[data-motion=reduced] .authenticated-dashboard .race-live-transition,[data-motion=reduced] .authenticated-dashboard .race-starting-transition,[data-motion=reduced] .authenticated-dashboard .nav button,[data-motion=reduced] .authenticated-dashboard .course,[data-motion=reduced] .authenticated-dashboard .choice,[data-motion=reduced] .authenticated-dashboard .topicrow{animation:none!important;transition:none!important;transform:none!important}
+@media(prefers-reduced-motion:reduce){
+ .authenticated-dashboard .race-live-transition,.authenticated-dashboard .race-starting-transition,.authenticated-dashboard .nav button,.authenticated-dashboard .course,.authenticated-dashboard .choice,.authenticated-dashboard .topicrow{animation:none!important;transition:none!important;transform:none!important}
+}
+
+/* Sprint 05: Visual QA defect fixes for concept-check answers, orphan reader dividers, breadcrumb spacing, dark-mode active nav, and Community cards. */
+.authenticated-dashboard .cell-concept-answer{background:transparent!important}
+.authenticated-dashboard .cell-reader>div:not(:has(p,ul,ol,table,h2,h3,h4)){display:none}
+.authenticated-dashboard #studyOutput>.back{margin:4px 8px 10px 0!important}
+html.authenticated-dashboard[data-mode=dark] .shell .side .nav button.active{background:#1d3557!important;color:#f8fafc!important;box-shadow:inset 3px 0 var(--app-secondary)!important}
+.authenticated-dashboard .community-person{min-height:196px;transition:border-color .18s ease,box-shadow .18s ease,transform .18s ease}
+.authenticated-dashboard .community-person:hover{border-color:var(--app-accent)!important;transform:translateY(-1px)}
+.authenticated-dashboard .community-person small{font-weight:700;padding-top:6px}
+

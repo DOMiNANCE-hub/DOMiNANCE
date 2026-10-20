@@ -45,7 +45,7 @@
  el('homeSessions').textContent=metrics.sessions;el('homeQuestions').textContent=metrics.questions;el('homeAccuracy').textContent=metrics.accuracy===null?'—':metrics.accuracy+'%';el('momentumPeriod').textContent='Last 7 calendar days, including today · '+g.timeZone;el('momentumNote').textContent=metrics.sessions?(metrics.hasDemo?'Includes demo practice · accuracy is not mastery.':'Confirmed completed practice · accuracy is not mastery.'):'Complete a practice to start your weekly record.';
  renderGoal(metrics);renderSpotlight();playback();if(!el('homeRace').children.length)renderRace();
  }
- w.setInterval(()=>{if(!d.hidden&&el('home').classList.contains('active'))refresh()},60000);d.addEventListener('visibilitychange',()=>{if(!d.hidden)refresh()});
+ w.setInterval(()=>{if(!d.hidden&&el('home').classList.contains('active'))refresh()},60000);d.addEventListener('visibilitychange',()=>{if(!d.hidden&&el('home').classList.contains('active'))refresh()});
  return {refresh,renderRace,renderSlides,advance,openTool,openPractice};
  }
  root.DominanceHomeUI={create};
