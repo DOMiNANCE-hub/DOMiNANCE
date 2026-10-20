@@ -1,0 +1,207 @@
+[
+  {
+    "id": "CELL-RQ001",
+    "lesson": "lesson_06",
+    "conceptId": "BIOL151-L06-RESOLUTION",
+    "objective": "BIOL151-SM14",
+    "cognitiveLevel": "apply",
+    "difficulty": "moderate",
+    "question": "Using r=0.61λ/NA, what resolving distance is predicted for λ=560 nm and NA=1.40?",
+    "options": [
+      "244 nm",
+      "488 nm",
+      "784 nm",
+      "0.244 nm"
+    ],
+    "letter": "A",
+    "explanation": "Substitute consistently: 0.61*560/1.40=244 nm, or 0.244 µm. The 488 nm result would use NA=0.70. A value of 0.244 nm confuses micrometres with nanometres. This is an optical estimate under the stated assumptions, not a universal instrument guarantee.",
+    "source": "BIOL151-LECTURER",
+    "pages": [
+      81,
+      91
+    ],
+    "reviewStatus": "source-checked-awaiting-academic-review",
+    "author": "DOMiNANCE editorial draft",
+    "reviewer": null
+  },
+  {
+    "id": "CELL-RQ002",
+    "lesson": "lesson_01",
+    "conceptId": "BIOL151-L01-IMAGE-QUALITY",
+    "objective": "BIOL151-SM13",
+    "cognitiveLevel": "analyse",
+    "difficulty": "moderate",
+    "question": "Two points are 150 nm apart. An assumed imaging system has a resolving-distance limit of 0.24 µm. What does simply enlarging its recorded image establish?",
+    "options": [
+      "The points must become separately resolved",
+      "The image becomes larger without necessarily resolving the points",
+      "Its illumination wavelength becomes shorter",
+      "The original point separation increases"
+    ],
+    "letter": "B",
+    "explanation": "Convert 0.24 µm to 240 nm. The 150 nm separation is below that assumed limit, so enlarging the recorded blur does not supply additional resolved information. It changes displayed image size, not the specimen separation or illumination wavelength. This distinguishes magnification from resolution.",
+    "source": "BIOL151-LECTURER",
+    "pages": [
+      21,
+      23,
+      24
+    ],
+    "reviewStatus": "source-checked-awaiting-academic-review",
+    "author": "DOMiNANCE editorial draft",
+    "reviewer": null
+  },
+  {
+    "id": "CELL-RQ003",
+    "lesson": "lesson_15",
+    "conceptId": "BIOL151-L15-REPLACEMENT",
+    "objective": "BIOL151-LO04",
+    "cognitiveLevel": "understand",
+    "difficulty": "foundational",
+    "question": "Which sequence best explains the source's paraffin-processing solvent replacements?",
+    "options": [
+      "Wax replaces tissue water directly, then alcohol replaces wax",
+      "Xylene fixes all tissue before water is added",
+      "Alcohol replaces water; xylene replaces alcohol; wax replaces xylene",
+      "Stain replaces every embedding medium before dehydration"
+    ],
+    "letter": "C",
+    "explanation": "The sequence follows compatibility: dehydration removes water through alcohol, clearing introduces a wax-compatible solvent, and infiltration introduces paraffin. It is not direct wax replacement of a water-filled specimen. Fixation and staining solve different problems. The source schedule is illustrative rather than a universal laboratory protocol.",
+    "source": "BIOL151-LECTURER",
+    "pages": [
+      165,
+      166,
+      170
+    ],
+    "reviewStatus": "source-checked-awaiting-academic-review",
+    "author": "DOMiNANCE editorial draft",
+    "reviewer": null
+  },
+  {
+    "id": "CELL-RQ004",
+    "lesson": "CM04",
+    "conceptId": "BIOL151-CM04-ELECTROCHEMICAL",
+    "objective": "BIOL151-LO06",
+    "cognitiveLevel": "analyse",
+    "difficulty": "challenging",
+    "question": "A permeant positive ion has an inward concentration tendency and an outward electrical tendency. What additional information is needed to predict its net passive direction?",
+    "options": [
+      "The concentration difference alone",
+      "The voltage difference alone",
+      "The number of channels alone",
+      "The relative magnitudes of the chemical and electrical influences"
+    ],
+    "letter": "D",
+    "explanation": "Opposing tendencies can balance or one can dominate, so their magnitudes are needed. Knowing charge or concentration direction alone is insufficient when voltage opposes it. Channel number alone does not specify the driving-force balance. The question already assumes a permeation route; a driving force and a membrane pathway are different requirements.",
+    "source": "BIOL151-LECTURER",
+    "pages": [
+      318,
+      319
+    ],
+    "reviewStatus": "source-checked-awaiting-academic-review",
+    "author": "DOMiNANCE editorial draft",
+    "reviewer": null
+  },
+  {
+    "id": "CELL-RQ005",
+    "lesson": "CE02",
+    "conceptId": "BIOL151-CE02-FRACTION-TRACE",
+    "objective": "BIOL151-LO07",
+    "cognitiveLevel": "apply",
+    "difficulty": "moderate",
+    "question": "In the lecture's differential-fractionation example, which material is taken forward after the first pellet is separated to obtain the subsequent organelle-enriched pellet?",
+    "options": [
+      "The first supernatant",
+      "The first pellet alone",
+      "The first pellet recombined with its supernatant",
+      "A separately retained aliquot of the original homogenate"
+    ],
+    "letter": "A",
+    "explanation": "The first supernatant contains components that have not yet sedimented and supplies the subsequent higher-force spin. The first pellet contains the earlier sedimented fraction. Mixing up the two loses the intended fractionation sequence. The later pellet is enriched, not automatically pure, and the cited conditions remain source-specific examples.",
+    "source": "BIOL151-LECTURER",
+    "pages": [
+      349,
+      350
+    ],
+    "reviewStatus": "source-checked-awaiting-academic-review",
+    "author": "DOMiNANCE editorial draft",
+    "reviewer": null
+  },
+  {
+    "id": "CELL-RQ006",
+    "lesson": "CE03",
+    "conceptId": "BIOL151-CE03-DENSITY-BAND",
+    "objective": "BIOL151-LO07",
+    "cognitiveLevel": "apply",
+    "difficulty": "moderate",
+    "question": "In an appropriate equilibrium gradient spanning 1.05–1.25 g/cm³, where should a particle of buoyant density 1.15 g/cm³ band in an isopycnic experiment?",
+    "options": [
+      "Always at the tube bottom",
+      "Where the medium density is 1.15 g/cm³",
+      "At the same position as every particle of equal size",
+      "Where the medium is least dense"
+    ],
+    "letter": "B",
+    "explanation": "At isopycnic equilibrium the particle bands where its buoyant density matches the medium, here 1.15 g/cm³. Neither the largest depth nor size alone defines that position. The numbers form an original interpretation example; they are not a new lecturer protocol or a claim that all gradients cover this range.",
+    "source": "BIOL151-LECTURER",
+    "pages": [
+      362,
+      363
+    ],
+    "reviewStatus": "source-checked-awaiting-academic-review",
+    "author": "DOMiNANCE editorial draft",
+    "reviewer": null
+  },
+  {
+    "id": "CELL-RQ007",
+    "lesson": "BI01",
+    "conceptId": "BIOL151-BI01-ABSORBANCE",
+    "objective": "BIOL151-ED-ANALYSIS",
+    "cognitiveLevel": "apply",
+    "difficulty": "moderate",
+    "question": "In the explicitly supplementary absorbance model A=log10(I0/I), incident intensity is 100 units and transmitted intensity is 10 units. What is A?",
+    "options": [
+      "0.1",
+      "10",
+      "1",
+      "90"
+    ],
+    "letter": "C",
+    "explanation": "The ratio is 100/10=10 and log10(10)=1. Ten is the intensity ratio before taking the logarithm; 90 is an intensity difference and 0.1 the transmitted fraction. This equation-based calculation is supplementary teaching, distinct from the lecturer's instrument-description pages and subject to measurement assumptions.",
+    "source": "BIOL151-LECTURER",
+    "pages": [
+      372,
+      375,
+      376
+    ],
+    "evidenceBasis": "Existing explicitly supplementary equation and original arithmetic; not attributed as an equation printed on these pages",
+    "reviewStatus": "supplementary-awaiting-academic-review",
+    "author": "DOMiNANCE editorial draft",
+    "reviewer": null
+  },
+  {
+    "id": "CELL-RQ008",
+    "lesson": "BI05",
+    "conceptId": "BIOL151-BI05-ORIGIN",
+    "objective": "BIOL151-ED-ANALYSIS",
+    "cognitiveLevel": "apply",
+    "difficulty": "moderate",
+    "question": "A chromatogram's ruler reads baseline 1 cm, spot centre 3 cm and solvent front 6 cm. What is the correct Rf?",
+    "options": [
+      "0.50",
+      "2.50",
+      "0.60",
+      "0.40"
+    ],
+    "letter": "D",
+    "explanation": "Measure both distances from the common baseline: spot travel=3−1=2 cm and front travel=6−1=5 cm, giving 2/5=0.40. Using 3/6 ignores the origin; reversing numerator and denominator gives 2.50. Matching units cancel, so Rf has no distance unit. These are original example values.",
+    "source": "BIOL151-LECTURER",
+    "pages": [
+      398,
+      404,
+      410
+    ],
+    "reviewStatus": "source-checked-awaiting-academic-review",
+    "author": "DOMiNANCE editorial draft",
+    "reviewer": null
+  }
+]
