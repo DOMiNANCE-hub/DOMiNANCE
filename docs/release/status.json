@@ -1,0 +1,232 @@
+{
+  "branch": "release/hb1-three-course-rc-20261020",
+  "phase": "integration-verified-academic-completion-in-progress",
+  "inputPRs": {
+    "9": "5992e99550295ad853912fd10830f75b006fa827",
+    "14": "b601602f06c97419f97a625ad8022d037e97cded",
+    "16": "1b74f79517b1930ce7cc0e2e20c6eb438cb42a3d",
+    "13": "5b5767d3a381e64c3b5446c7c88aa5b01b2850ef",
+    "15": "e61c7825efa10bee2f424928ea246e745fed7a90"
+  },
+  "verification": {
+    "scope": "Five-PR integration checkpoint before new teaching batches",
+    "summary": "181 individual offline checks (180 combined + strict-course regression), 40 real Auth/Firestore emulator checks, lint/build and actual Chromium all-178/114/34 submissions, feedback, progress panels and 14 Bio lessons/84 sections at 390px pass. Existing eight dormant React warnings and large-entry warning remain. Later content changes require their own batch verification.",
+    "productionTested": false
+  },
+  "deployment": {
+    "project": "do-mi-nance",
+    "status": "Not deployed in this task. Project configuration, preview protection and isolated test Firebase prerequisites still require inspection.",
+    "publicReleaseApproved": false
+  },
+  "blockers": [
+    "No formal academic sign-off for the final student-visible content.",
+    "BIOL157 Units 3\u201310 not authored; first two units remain review drafts.",
+    "Cell: 74 remaining rationales and underdeveloped lessons/figures need targeted completion; current-year official scope unverified.",
+    "Computer: four withheld questions, 15 unexecuted Microsoft Office desktop scenarios, payroll/grading/exactly-40 and version ambiguities; 342 package pages remain unmapped.",
+    "Protected preview requires verified existing Vercel project configuration and isolated test Firebase; production rules/auth domains/data separation/rollback not yet verified."
+  ],
+  "nextCheckpoint": "Complete BIOL157 Unit 3 from the fully read 54-page Lecture 3 in one coherent source-checked batch, including correction ledger and independent periodic-trend checks; test before proceeding to Unit 4. Cell/Computer completion batches remain explicitly pending.",
+  "checklists": {
+    "BIOL151": [
+      {
+        "item": "required-syllabus-topic-coverage",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "independent-complete-notes",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "scientific-technical-accuracy",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "examples-and-visuals",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "question-coverage",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "answer-keys",
+        "status": "locally-verified",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "explanation-quality",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "lesson-question-links",
+        "status": "locally-verified",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "source-evidence-exceptions",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "progress-quiz-persistence",
+        "status": "locally-verified",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "mobile-desktop-usability",
+        "status": "locally-verified",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "accessibility",
+        "status": "partial-local-checks-human-accessibility-review-pending",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "academic-signoff",
+        "status": "pending-human-signoff",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      }
+    ],
+    "CSM177": [
+      {
+        "item": "required-syllabus-topic-coverage",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "independent-complete-notes",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "scientific-technical-accuracy",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "examples-and-visuals",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "question-coverage",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "answer-keys",
+        "status": "locally-verified",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "explanation-quality",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "lesson-question-links",
+        "status": "locally-verified",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "source-evidence-exceptions",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "progress-quiz-persistence",
+        "status": "locally-verified",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "mobile-desktop-usability",
+        "status": "locally-verified",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "accessibility",
+        "status": "partial-local-checks-human-accessibility-review-pending",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "academic-signoff",
+        "status": "pending-human-signoff",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      }
+    ],
+    "BIOL157": [
+      {
+        "item": "required-syllabus-topic-coverage",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "independent-complete-notes",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "scientific-technical-accuracy",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "examples-and-visuals",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "question-coverage",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "answer-keys",
+        "status": "locally-verified",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "explanation-quality",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "lesson-question-links",
+        "status": "locally-verified",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "source-evidence-exceptions",
+        "status": "draft-reviewed-further-completion-required",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "progress-quiz-persistence",
+        "status": "locally-verified",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "mobile-desktop-usability",
+        "status": "locally-verified",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "accessibility",
+        "status": "partial-local-checks-human-accessibility-review-pending",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      },
+      {
+        "item": "academic-signoff",
+        "status": "pending-human-signoff",
+        "evidence": "See course academic/source reports and docs/release/INTEGRATION.md."
+      }
+    ]
+  }
+}
