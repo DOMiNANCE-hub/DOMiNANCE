@@ -1,0 +1,1798 @@
+{
+  "version": 1,
+  "id": "BIOL157",
+  "course": "Biological Chemistry",
+  "scope": "HB1:First",
+  "status": "academic-review-pending",
+  "release": {
+    "studentEnabled": false,
+    "academicApproval": null,
+    "mode": "local-emulator-review-only"
+  },
+  "sources": [
+    {
+      "id": "outline",
+      "label": "BIOL 157_Course Outline_20260116.pdf",
+      "pages": 3,
+      "sha256": "f7a6fc1c811d440c0e552a7f7f293f9b1df7d9224e5f41a7a1ed69d37617e59d",
+      "availability": "local-authorised-attachment",
+      "review": "outline-and-L1-L2-read;L3-L10-inventory-only"
+    },
+    {
+      "id": "L1",
+      "label": "BIOL 157_Lecture 1.pdf",
+      "pages": 26,
+      "sha256": "2e81bb2d1489a130d667ac027c50bbb53af59fcdbc0196451163e42acdcaaeda",
+      "availability": "local-authorised-attachment",
+      "review": "text-and-selected-figures-checked"
+    },
+    {
+      "id": "L10",
+      "label": "BIOL 157_Lecture 10.pdf",
+      "pages": 48,
+      "sha256": "778e119127f30f8b0942a4276d1050cb40e9089a7f0f6d15f6f4532f62a0b05e",
+      "availability": "local-authorised-attachment",
+      "review": "heading-inventory-only"
+    },
+    {
+      "id": "L2",
+      "label": "BIOL 157_Lecture 2.pdf",
+      "pages": 46,
+      "sha256": "11ab5a22edb291afe10ad06ef942401a0beb5427f1dae6467ab0c04d7649a639",
+      "availability": "local-authorised-attachment",
+      "review": "text-and-selected-figures-checked"
+    },
+    {
+      "id": "L3",
+      "label": "BIOL 157_Lecture 3.pdf",
+      "pages": 54,
+      "sha256": "233e46ce2fef13020f96ec1c99cc58d9205d064bb8e45648b78f138031d79a1f",
+      "availability": "local-authorised-attachment",
+      "review": "heading-inventory-only"
+    },
+    {
+      "id": "L4",
+      "label": "BIOL 157_Lecture 4.pdf",
+      "pages": 71,
+      "sha256": "d6b083129eba1ef52b14b6c17d3d1fa57af2a8d20f7d62c6ffc4492572389168",
+      "availability": "local-authorised-attachment",
+      "review": "heading-inventory-only"
+    },
+    {
+      "id": "L5",
+      "label": "BIOL 157_Lecture 5.pdf",
+      "pages": 58,
+      "sha256": "3dbe6d439a1b8af8e4f1b07c02bfdee272c6bf71a5f57a127b4bdd91558437f7",
+      "availability": "local-authorised-attachment",
+      "review": "heading-inventory-only"
+    },
+    {
+      "id": "L6",
+      "label": "BIOL 157_Lecture 6.pdf",
+      "pages": 52,
+      "sha256": "3b039592f4d39cc721c95392ac4b47b4ab2613f926f8f2cf8f5219075136a234",
+      "availability": "local-authorised-attachment",
+      "review": "heading-inventory-only"
+    },
+    {
+      "id": "L7",
+      "label": "BIOL 157_Lecture 7.pdf",
+      "pages": 71,
+      "sha256": "2e6ebbe8f18ce16035989a23abc63e4a18d0e3e896f13e0f432d9a67c153f4c3",
+      "availability": "local-authorised-attachment",
+      "review": "heading-inventory-only"
+    },
+    {
+      "id": "L8",
+      "label": "BIOL 157_Lecture 8.pdf",
+      "pages": 61,
+      "sha256": "cb6b71b5c13e3fe2494e47fbf66e53064841970d73804e52fa208d357069f964",
+      "availability": "local-authorised-attachment",
+      "review": "heading-inventory-only"
+    },
+    {
+      "id": "L9",
+      "label": "BIOL 157_Lecture 9.pdf",
+      "pages": 28,
+      "sha256": "f8d839ba23545249889ffe6a63dc2b04422a97a91627b2fcbae20278a8fceef6",
+      "availability": "local-authorised-attachment",
+      "review": "heading-inventory-only"
+    },
+    {
+      "id": "NASA",
+      "label": "NASA universe overview",
+      "url": "https://science.nasa.gov/universe/overview/",
+      "review": "independent-specific-fact-check"
+    },
+    {
+      "id": "CIAAW",
+      "label": "CIAAW standard atomic weights",
+      "url": "https://www.ciaaw.org/atomic-weights.htm",
+      "review": "independent-specific-fact-check"
+    },
+    {
+      "id": "MILLER",
+      "label": "Miller 1953 primary publication",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13056598/",
+      "review": "independent-specific-fact-check"
+    },
+    {
+      "id": "RNA",
+      "label": "Kruger et al. 1982 catalytic RNA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6297745/",
+      "review": "independent-specific-fact-check"
+    },
+    {
+      "id": "IODINE",
+      "label": "NIH iodine fact sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Iodine-Consumer/",
+      "review": "independent-specific-fact-check"
+    },
+    {
+      "id": "LEAD",
+      "label": "ATSDR lead physiological effects",
+      "url": "https://archive.cdc.gov/www_atsdr_cdc_gov/csem/leadtoxicity/physiological_effects.html",
+      "review": "independent-specific-fact-check"
+    },
+    {
+      "id": "LITHIUM",
+      "label": "MedlinePlus lithium information",
+      "url": "https://medlineplus.gov/druginfo/meds/a681039.html",
+      "review": "independent-specific-fact-check"
+    },
+    {
+      "id": "MAGNESIUM",
+      "label": "NIH magnesium fact sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "review": "specific-enzyme-function-check"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "BIOL157-CLO1",
+      "text": "Understand the origin of elements and the chemical evolution of living systems.",
+      "kind": "official-course-outcome",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-CLO2",
+      "text": "Appreciate the various atomic models and the periodic properties of elements.",
+      "kind": "official-course-outcome",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-CLO3",
+      "text": "Explain the types and importance of chemical bonds in biomolecule formation.",
+      "kind": "official-course-outcome",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-CLO4",
+      "text": "Explain enzyme function, classification, and factors affecting enzyme function.",
+      "kind": "official-course-outcome",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-CLO5",
+      "text": "Understand the biological role of carbohydrates, proteins, nucleic acids, and lipids.",
+      "kind": "official-course-outcome",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "U01",
+      "title": "Elemental Composition of Cells",
+      "topics": [
+        "BIOL157-U01-T01",
+        "BIOL157-U01-T02",
+        "BIOL157-U01-T03"
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0101",
+        "BC0102",
+        "BC0103",
+        "BC0104",
+        "BC0105",
+        "BC0106"
+      ]
+    },
+    {
+      "id": "U02",
+      "title": "Evolution of Living Organisms",
+      "topics": [
+        "BIOL157-U02-T01",
+        "BIOL157-U02-T02",
+        "BIOL157-U02-T03"
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0201",
+        "BC0202",
+        "BC0203",
+        "BC0204",
+        "BC0205",
+        "BC0206",
+        "BC0207",
+        "BC0208"
+      ]
+    },
+    {
+      "id": "U03",
+      "title": "Atomic Structure and Periodic Chemistry",
+      "topics": [
+        "BIOL157-U03-T01",
+        "BIOL157-U03-T02",
+        "BIOL157-U03-T03"
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U04",
+      "title": "Bond Formation and Molecules",
+      "topics": [
+        "BIOL157-U04-T01",
+        "BIOL157-U04-T02",
+        "BIOL157-U04-T03",
+        "BIOL157-U04-T04"
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U05",
+      "title": "Carbohydrates",
+      "topics": [
+        "BIOL157-U05-T01",
+        "BIOL157-U05-T02",
+        "BIOL157-U05-T03"
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U06",
+      "title": "Nucleic Acids",
+      "topics": [
+        "BIOL157-U06-T01",
+        "BIOL157-U06-T02",
+        "BIOL157-U06-T03",
+        "BIOL157-U06-T04"
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U07",
+      "title": "Proteins",
+      "topics": [
+        "BIOL157-U07-T01",
+        "BIOL157-U07-T02",
+        "BIOL157-U07-T03"
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U08",
+      "title": "Enzymes",
+      "topics": [
+        "BIOL157-U08-T01",
+        "BIOL157-U08-T02",
+        "BIOL157-U08-T03",
+        "BIOL157-U08-T04"
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U09",
+      "title": "Metabolic Pathways",
+      "topics": [
+        "BIOL157-U09-T01",
+        "BIOL157-U09-T02"
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    },
+    {
+      "id": "U10",
+      "title": "Lipids",
+      "topics": [
+        "BIOL157-U10-T01",
+        "BIOL157-U10-T02",
+        "BIOL157-U10-T03",
+        "BIOL157-U10-T04",
+        "BIOL157-U10-T05"
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "not-authored",
+      "lessons": []
+    }
+  ],
+  "topics": [
+    {
+      "id": "BIOL157-U01-T01",
+      "unit": "U01",
+      "title": "Origin of elements",
+      "status": "draft-review",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U01-T02",
+      "unit": "U01",
+      "title": "Elements in cells",
+      "status": "draft-review",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U01-T03",
+      "unit": "U01",
+      "title": "Features of major elements",
+      "status": "draft-review",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U02-T01",
+      "unit": "U02",
+      "title": "Origin of life",
+      "status": "draft-review",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U02-T02",
+      "unit": "U02",
+      "title": "Formation of cells",
+      "status": "draft-review",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U02-T03",
+      "unit": "U02",
+      "title": "Development of metabolic pathways",
+      "status": "draft-review",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U03-T01",
+      "unit": "U03",
+      "title": "Early atomic theories",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U03-T02",
+      "unit": "U03",
+      "title": "Electronic configuration",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U03-T03",
+      "unit": "U03",
+      "title": "Periodic properties",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-T01",
+      "unit": "U04",
+      "title": "Chemical bonds",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-T02",
+      "unit": "U04",
+      "title": "Molecular forces",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-T03",
+      "unit": "U04",
+      "title": "Isomerism",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U04-T04",
+      "unit": "U04",
+      "title": "Functional groups",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-T01",
+      "unit": "U05",
+      "title": "Monosaccharide derivatives",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-T02",
+      "unit": "U05",
+      "title": "Oligosaccharides",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U05-T03",
+      "unit": "U05",
+      "title": "Polysaccharides",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-T01",
+      "unit": "U06",
+      "title": "Purines and pyrimidines",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-T02",
+      "unit": "U06",
+      "title": "Nucleosides and nucleotides",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-T03",
+      "unit": "U06",
+      "title": "DNA",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U06-T04",
+      "unit": "U06",
+      "title": "RNA",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-T01",
+      "unit": "U07",
+      "title": "Amino acids",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-T02",
+      "unit": "U07",
+      "title": "Peptide and polypeptide formation",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-T03",
+      "unit": "U07",
+      "title": "Protein structure",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-T01",
+      "unit": "U08",
+      "title": "Enzyme function",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-T02",
+      "unit": "U08",
+      "title": "Enzyme classification",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-T03",
+      "unit": "U08",
+      "title": "Enzyme kinetics",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-T04",
+      "unit": "U08",
+      "title": "Enzyme regulation",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U09-T01",
+      "unit": "U09",
+      "title": "Principles of metabolic pathways",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U09-T02",
+      "unit": "U09",
+      "title": "Control mechanisms",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-T01",
+      "unit": "U10",
+      "title": "Functions of lipids",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-T02",
+      "unit": "U10",
+      "title": "Lipid classification",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-T03",
+      "unit": "U10",
+      "title": "Lipid reactions",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-T04",
+      "unit": "U10",
+      "title": "Structural features",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-T05",
+      "unit": "U10",
+      "title": "Lipid properties",
+      "status": "not-authored",
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "BIOL157-U01-C01",
+      "unit": "U01",
+      "topic": "BIOL157-U01-T02",
+      "title": "Elements, atoms and biological organisation",
+      "lesson": "BC0101",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Distinguish an element from an atom, ion and isotope. Use proton number to identify an element, and explain why knowing the elements in a cell does not yet explain how that cell works.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L1",
+          "pages": [
+            [
+              3,
+              4
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Element identity and organisation"
+        },
+        {
+          "id": "s3",
+          "title": "Worked example"
+        },
+        {
+          "id": "s4",
+          "title": "Misconceptions and limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U01-C02",
+      "unit": "U01",
+      "topic": "BIOL157-U01-T01",
+      "title": "Where biological elements came from",
+      "lesson": "BC0102",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Compare early-universe nucleosynthesis, stellar processes and laboratory synthesis. Separate the origin of nuclei from the later origin of chemical compounds and living cells.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L1",
+          "pages": [
+            [
+              5,
+              13
+            ]
+          ]
+        },
+        {
+          "source": "NASA"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Three settings for element formation"
+        },
+        {
+          "id": "s3",
+          "title": "Worked comparison"
+        },
+        {
+          "id": "s4",
+          "title": "Misconceptions and limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U01-C03",
+      "unit": "U01",
+      "topic": "BIOL157-U01-T02",
+      "title": "Major elements, trace elements and essentiality",
+      "lesson": "BC0103",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Recognise CHONPS as a useful biological grouping. Distinguish abundance, essentiality and chemical form, and interpret composition comparisons without turning them into dietary advice.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L1",
+          "pages": [
+            [
+              14,
+              19
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Reading elemental composition correctly"
+        },
+        {
+          "id": "s3",
+          "title": "Worked example"
+        },
+        {
+          "id": "s4",
+          "title": "Comparisons and traps"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U01-C04",
+      "unit": "U01",
+      "topic": "BIOL157-U01-T03",
+      "title": "Why carbon supports diverse biological structures",
+      "lesson": "BC0104",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Explain tetravalency and catenation. Compare carbon with silicon and boron without assuming that belonging to the same periodic-table region makes elements biologically interchangeable.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L1",
+          "pages": [
+            [
+              23,
+              25
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Bonding capacity and molecular diversity"
+        },
+        {
+          "id": "s3",
+          "title": "Worked structures"
+        },
+        {
+          "id": "s4",
+          "title": "Misconceptions and limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U01-C05",
+      "unit": "U01",
+      "topic": "BIOL157-U01-T03",
+      "title": "Biological selection from the periodic table",
+      "lesson": "BC0105",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Explain why environmental abundance is insufficient to predict cellular composition. Evaluate “chemical democracy” as a descriptive phrase and distinguish explanatory evidence from resemblance.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L1",
+          "pages": [
+            [
+              17,
+              21
+            ]
+          ]
+        },
+        {
+          "source": "CIAAW"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Availability, chemistry and regulated selection"
+        },
+        {
+          "id": "s3",
+          "title": "Worked interpretation"
+        },
+        {
+          "id": "s4",
+          "title": "Exceptions and source cautions"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U01-C06",
+      "unit": "U01",
+      "topic": "BIOL157-U01-T02",
+      "title": "Mineral roles, exposure and toxic interference",
+      "lesson": "BC0106",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Connect selected elements with specific biological roles. Distinguish normal function from toxic interference and recognise when a source statement needs qualification rather than a confident clinical answer.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L1",
+          "pages": [
+            [
+              16,
+              22
+            ]
+          ]
+        },
+        {
+          "source": "IODINE"
+        },
+        {
+          "source": "MAGNESIUM"
+        },
+        {
+          "source": "LEAD"
+        },
+        {
+          "source": "LITHIUM"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Functions depend on chemical context"
+        },
+        {
+          "id": "s3",
+          "title": "Worked reasoning"
+        },
+        {
+          "id": "s4",
+          "title": "Source review boundaries"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U02-C01",
+      "unit": "U02",
+      "topic": "BIOL157-U02-T01",
+      "title": "Living systems as organised open systems",
+      "lesson": "BC0201",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Explain why energy flow, organisation and inherited information must be considered together when describing life. Distinguish a useful characteristic from a complete definition.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L2",
+          "pages": [
+            [
+              3,
+              7
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Organisation, maintenance and change"
+        },
+        {
+          "id": "s3",
+          "title": "Worked systems example"
+        },
+        {
+          "id": "s4",
+          "title": "Distinctions and limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U02-C02",
+      "unit": "U02",
+      "topic": "BIOL157-U02-T01",
+      "title": "Habitability and evidence for origin models",
+      "lesson": "BC0202",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Separate conditions that permit chemistry from evidence that life exists. Distinguish modern atmospheric conditions from uncertain early-Earth models.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L2",
+          "pages": [
+            [
+              8,
+              11
+            ],
+            [
+              21,
+              23
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Conditions permit possibilities"
+        },
+        {
+          "id": "s3",
+          "title": "Worked claim evaluation"
+        },
+        {
+          "id": "s4",
+          "title": "Source cautions"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U02-C03",
+      "unit": "U02",
+      "topic": "BIOL157-U02-T01",
+      "title": "Origin hypotheses and controlled experiments",
+      "lesson": "BC0203",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Distinguish historical spontaneous generation, panspermia and chemical-origin hypotheses. Explain what a contamination-control experiment can establish.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L2",
+          "pages": [
+            [
+              12,
+              20
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Different questions require different tests"
+        },
+        {
+          "id": "s3",
+          "title": "Worked inference"
+        },
+        {
+          "id": "s4",
+          "title": "Misconceptions and limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U02-C04",
+      "unit": "U02",
+      "topic": "BIOL157-U02-T01",
+      "title": "From simple reactants to organic precursors",
+      "lesson": "BC0204",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Interpret the Miller experiment without claiming it created life. Distinguish synthesis of a base or amino acid from synthesis of a complete nucleotide, protein or cell.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L2",
+          "pages": [
+            [
+              21,
+              32
+            ]
+          ]
+        },
+        {
+          "source": "MILLER"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Precursor chemistry and experimental scope"
+        },
+        {
+          "id": "s3",
+          "title": "Worked identity check"
+        },
+        {
+          "id": "s4",
+          "title": "Misconceptions and limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U02-C05",
+      "unit": "U02",
+      "topic": "BIOL157-U02-T02",
+      "title": "Polymer formation, hydrolysis and activation",
+      "lesson": "BC0205",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Explain why assembling useful polymers requires more than a supply of monomers. Distinguish a simplified condensation representation from actual energy-coupled biosynthesis.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L2",
+          "pages": [
+            [
+              33,
+              38
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Connecting monomers is a chemical problem"
+        },
+        {
+          "id": "s3",
+          "title": "Worked sequence comparison"
+        },
+        {
+          "id": "s4",
+          "title": "Misconceptions and limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U02-C06",
+      "unit": "U02",
+      "topic": "BIOL157-U02-T02",
+      "title": "Templates, RNA and the information problem",
+      "lesson": "BC0206",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Distinguish information storage from catalysis. Explain the importance and limits of catalytic RNA in origin-of-life models.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L2",
+          "pages": [
+            [
+              39,
+              39
+            ]
+          ]
+        },
+        {
+          "source": "RNA"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Sequence, copying and function"
+        },
+        {
+          "id": "s3",
+          "title": "Worked inference"
+        },
+        {
+          "id": "s4",
+          "title": "Misconceptions and limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U02-C07",
+      "unit": "U02",
+      "topic": "BIOL157-U02-T02",
+      "title": "Compartments and protocell models",
+      "lesson": "BC0207",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Compare micelles, vesicles and coacervate droplets. Explain how compartmentalisation can help and constrain a developing chemical system.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L2",
+          "pages": [
+            [
+              40,
+              42
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Boundaries change reaction conditions"
+        },
+        {
+          "id": "s3",
+          "title": "Worked trade-off"
+        },
+        {
+          "id": "s4",
+          "title": "Misconceptions and limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U02-C08",
+      "unit": "U02",
+      "topic": "BIOL157-U02-T03",
+      "title": "Early metabolism and evolutionary pathways",
+      "lesson": "BC0208",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO1"
+      ],
+      "learningGoals": "Explain how connected reactions and environmental resources can support persistence. Distinguish plausible metabolic-development models from established historical sequences.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L2",
+          "pages": [
+            [
+              43,
+              45
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Networks, energy and environmental change"
+        },
+        {
+          "id": "s3",
+          "title": "Worked resource problem"
+        },
+        {
+          "id": "s4",
+          "title": "Misconceptions and limits"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    }
+  ]
+}

@@ -11,12 +11,13 @@
     "dev:emulator": "vite --mode emulator",
     "emulators": "node scripts/start-emulators.mjs",
     "test": "node --test tests/*.test.js tests/*.test.cjs",
-    "test:emulators": "node --test --test-concurrency=1 tests/auth.emulator.integration.js tests/emulator.integration.js tests/community.emulator.integration.js tests/permissions.emulator.integration.js",
+    "test:emulators": "node --test --test-concurrency=1 tests/auth.emulator.integration.js tests/emulator.integration.js tests/community.emulator.integration.js tests/permissions.emulator.integration.js tests/biological-chemistry.emulator.integration.js",
     "test:auth:emulator": "node --test tests/auth.emulator.integration.js",
     "firebase:check": "node scripts/check-firebase-env.mjs",
     "test:firebase:development": "node --use-env-proxy scripts/test-firebase-development.mjs",
     "content:cell": "node scripts/import-cell-structure.mjs",
-    "prebuild": "npm run content:cell"
+    "prebuild": "npm run content:cell && npm run content:biol157",
+    "content:biol157": "node scripts/import-biological-chemistry.mjs"
   },
   "dependencies": {
     "firebase": "^13.0.0",

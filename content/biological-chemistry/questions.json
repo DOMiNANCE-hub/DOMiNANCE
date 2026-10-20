@@ -1,0 +1,1130 @@
+[
+  {
+    "id": "BIOL157-U01-Q001",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C01",
+    "lesson": "BC0101",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Which property distinguishes the identity of a chemical element?",
+    "options": [
+      "Number of protons in its nucleus",
+      "Number of neutrons in its nucleus",
+      "Total mass of the atom",
+      "Number of chemical bonds it forms"
+    ],
+    "letter": "A",
+    "explanation": "Proton number defines element identity. Changing neutrons produces isotopes; changing electrons produces ions. Neither atomic mass alone nor a usual bond count uniquely defines the element.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "remember",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            3,
+            3
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q002",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C01",
+    "lesson": "BC0101",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Two neutral atoms each have six protons, but one has six neutrons and the other seven. Which statement is correct?",
+    "options": [
+      "They are two different elements",
+      "They are isotopes of the same element",
+      "They must have different chemical symbols",
+      "One is necessarily an ion"
+    ],
+    "letter": "B",
+    "explanation": "Both atoms have Z = 6 and are carbon. Six versus seven neutrons gives carbon-12 versus carbon-13. Neutrality specifies electron balance, so the isotope difference does not make either atom an ion.",
+    "difficulty": "understanding",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            3,
+            3
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q003",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C01",
+    "lesson": "BC0101",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Which sequence correctly moves from atomic constituents to higher biological organisation?",
+    "options": [
+      "Cell → molecule → tissue → atom",
+      "Atom → cell → molecule → tissue",
+      "Atom → molecule → cell → tissue",
+      "Molecule → atom → cell → tissue"
+    ],
+    "letter": "C",
+    "explanation": "Atoms combine into molecules; molecules contribute to cells, and cells can form tissues. Moving a cell before its molecular constituents reverses this organisational sequence. The sequence describes structural levels, not a claim that a molecule alone is alive.",
+    "difficulty": "transfer",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q004",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C02",
+    "lesson": "BC0102",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "The original BIOL 157 lecture groups element formation into which three broad sources?",
+    "options": [
+      "Stellar fusion, covalent bonding and laboratory synthesis",
+      "Early-universe processes, radioactive tracing and cellular respiration",
+      "Chemical combustion, stellar fusion and photosynthesis",
+      "Early-universe processes, stellar reactions and laboratory synthesis"
+    ],
+    "letter": "D",
+    "explanation": "The three settings concern nuclear formation. Covalent bonding, respiration and photosynthesis rearrange chemical species using existing nuclei, so they cannot replace one of the nuclear categories.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "remember",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            5,
+            5
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q005",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C02",
+    "lesson": "BC0102",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "A new nucleus is formed when an accelerator drives a projectile nucleus into a target. Which process does this illustrate?",
+    "options": [
+      "Laboratory-induced nuclear synthesis",
+      "Chemical precipitation of a compound",
+      "Ionisation without a nuclear change",
+      "Biological assembly of a carbon skeleton"
+    ],
+    "letter": "A",
+    "explanation": "The stated collision produces a new nucleus through an induced nuclear reaction. Precipitation and biological assembly form compounds from existing elements. Ionisation changes electrons and charge without necessarily changing the nucleus.",
+    "difficulty": "understanding",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            13,
+            13
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q006",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C02",
+    "lesson": "BC0102",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "A question asks about production of many chemical elements inside evolving stars. Which idea is most relevant?",
+    "options": [
+      "Assembly of organic molecules on mineral surfaces",
+      "Stellar nucleosynthesis",
+      "Formation of neutral atoms by electron capture without changing nuclei",
+      "Rearrangement of chemical bonds during combustion"
+    ],
+    "letter": "B",
+    "explanation": "Stellar nucleosynthesis concerns nuclear reactions in evolving stars. Electron arrangements and ordinary chemical reactions do not account for the production of new element nuclei. This does not imply every star makes every element.",
+    "difficulty": "transfer",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            8,
+            8
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            12,
+            12
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q007",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C03",
+    "lesson": "BC0103",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Which set contains the six bulk elements emphasised in Lecture 1?",
+    "options": [
+      "C, H, O, Na, Ca, Cl",
+      "Fe, Cu, Zn, I, Se, Co",
+      "C, H, O, N, P, S",
+      "Na, K, Mg, Ca, Fe, Zn"
+    ],
+    "letter": "C",
+    "explanation": "CHONPS denotes carbon, hydrogen, oxygen, nitrogen, phosphorus and sulfur. Other options contain important ions or trace elements but are different groupings. The mnemonic is not a universal quantitative composition for every sample or a claim that every biomolecule contains all six.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "remember",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            16,
+            16
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q008",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C03",
+    "lesson": "BC0103",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "A cell requires only minute quantities of a metal ion to enable an essential enzyme. How should its low abundance be interpreted?",
+    "options": [
+      "Every low-abundance metal must have the same enzyme role",
+      "A catalytic role requires the metal to be a bulk element",
+      "Low abundance rules out an essential requirement",
+      "Low abundance does not rule out an essential catalytic role"
+    ],
+    "letter": "D",
+    "explanation": "A small amount may support a specialised enzyme function, so low abundance cannot establish dispensability. It also does not prove that every low-abundance metal is essential. Essentiality requires evidence for the specified biological role.",
+    "difficulty": "understanding",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            16,
+            16
+          ],
+          [
+            18,
+            18
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q009",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C03",
+    "lesson": "BC0103",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Why would a question about CHONPS and a question about enzyme cofactors assess different ideas?",
+    "options": [
+      "CHONPS describes major composition, while cofactors can involve lower-abundance ions",
+      "Cofactor identity can be inferred solely from environmental concentration",
+      "A low-abundance cofactor necessarily contributes most cell mass",
+      "Both measure the mass fraction of the same six elements"
+    ],
+    "letter": "A",
+    "explanation": "These questions examine different dimensions: major composition versus a specific biochemical role. A lower-abundance ion can act at an enzyme site without contributing much mass. Environmental concentration alone cannot identify that cofactor.",
+    "difficulty": "transfer",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            16,
+            16
+          ],
+          [
+            18,
+            18
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q010",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C04",
+    "lesson": "BC0104",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "What is carbon catenation?",
+    "options": [
+      "Changing carbon into a heavier isotope",
+      "Linking carbon atoms into chains, branches or rings",
+      "Forming four bonds irrespective of bonding partner",
+      "Forming a bond specifically between carbon and oxygen"
+    ],
+    "letter": "B",
+    "explanation": "Catenation is self-linking: carbon bonded to carbon. Tetravalency describes bonding capacity, while bonding to oxygen is not itself catenation. Isotope change concerns nuclei rather than carbon-framework connectivity.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "remember",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            23,
+            23
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q011",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C04",
+    "lesson": "BC0104",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Which pair best explains the diversity of carbon-containing biomolecules?",
+    "options": [
+      "Atomic abundance alone, independent of bonding",
+      "Identical reactivity of every carbon-containing functional group",
+      "Tetravalency combined with stable carbon frameworks and varied functional groups",
+      "Tetravalency alone, independent of bond stability or connectivity"
+    ],
+    "letter": "C",
+    "explanation": "Carbon combines four bond-order units with catenation, multiple bonding and different functional groups. Valency alone leaves out connectivity and stability; environmental abundance cannot explain molecular structure. Different functional groups need not have identical reactivity.",
+    "difficulty": "understanding",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            23,
+            23
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q012",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C04",
+    "lesson": "BC0104",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "A student claims: “Silicon forms four bonds, so it must support exactly the same range of aqueous biomolecules as carbon.” What is the best reply?",
+    "options": [
+      "Only environmental abundance determines molecular compatibility",
+      "Isotope mass alone determines the same molecular structures",
+      "Equal valency is sufficient to predict identical aqueous chemistry",
+      "Atomic size, bond properties and interactions with water also matter"
+    ],
+    "letter": "D",
+    "explanation": "Silicon and carbon differ in size and bonding despite similar valence counts. Their frameworks and oxygen chemistry are therefore not interchangeable by assumption. Neither abundance nor isotope mass alone establishes equivalent aqueous chemistry.",
+    "difficulty": "transfer",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            24,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q013",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C05",
+    "lesson": "BC0105",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Which description best captures the chemical properties emphasised for common bulk biogenic elements?",
+    "options": [
+      "Many are small nonmetals with useful covalent bonding chemistry",
+      "All major biogenic elements occupy the same periodic-table group",
+      "Their biological importance means they never participate in chemical reactions",
+      "All major biogenic elements form only ionic structures"
+    ],
+    "letter": "A",
+    "explanation": "Many prominent biological elements are small nonmetals with useful covalent chemistry. They do not all share a group or form only ionic structures. Hydrogen is a relevant exception to a blanket p-block description.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "remember",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            17,
+            17
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q014",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C05",
+    "lesson": "BC0105",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Why does the occurrence of an element in Earth’s environment NOT prove that organisms require it?",
+    "options": [
+      "Any element absent from seawater is necessarily absent from cells",
+      "Environmental presence does not establish a necessary biological function",
+      "Environmental concentration alone establishes essentiality",
+      "Any element entering a cell must be a required nutrient"
+    ],
+    "letter": "B",
+    "explanation": "Availability and necessity are different claims. Uptake can reflect exposure or incidental accumulation, while essentiality requires functional evidence. Presence in an environmental sample cannot establish a nutrient requirement.",
+    "difficulty": "understanding",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            19,
+            19
+          ],
+          [
+            21,
+            21
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q015",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C05",
+    "lesson": "BC0105",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Which interpretation of the descriptive phrase “chemical democracy” is most defensible?",
+    "options": [
+      "Evidence that cellular composition exactly copies the environment",
+      "Equal abundance of all elements in cells",
+      "Representation of diverse elements, without proving all are essential",
+      "A mechanism that makes every chemical species equally useful"
+    ],
+    "letter": "C",
+    "explanation": "The phrase describes broad representation rather than equal concentrations or universal essentiality. It is not a transport mechanism, and cellular regulation can produce compositions different from the surrounding environment.",
+    "difficulty": "transfer",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            20,
+            20
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q016",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C06",
+    "lesson": "BC0106",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "The lecture identifies lead exposure as a cause of anaemia partly through interference with which process?",
+    "options": [
+      "Peptide bond hydrolysis during digestion",
+      "Thyroid hormone iodination as the sole mechanism",
+      "Glycogen branching as the sole mechanism",
+      "Haem synthesis"
+    ],
+    "letter": "D",
+    "explanation": "Lead can inhibit haem-synthesis steps, contributing to impaired blood formation among its multiple toxic effects. The other pathways do not describe the stated mechanism. The mechanism does not establish that every anaemia is caused by lead.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "remember",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            21,
+            21
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q017",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C06",
+    "lesson": "BC0106",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Which statement about trace mineral ions is most defensible?",
+    "options": [
+      "Low-abundance elements may support specific biochemical roles, depending on form and context",
+      "All low-abundance elements have an identical physiological function",
+      "Detectable tissue concentration alone proves a dietary requirement",
+      "A biochemical role makes toxicity impossible at higher exposure"
+    ],
+    "letter": "A",
+    "explanation": "Low-abundance elements can contribute to enzyme, hormone or other specialised functions. Role depends on chemical form and context; detection alone is insufficient. A normal biochemical role also does not remove toxicity at excessive exposure.",
+    "difficulty": "understanding",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            16,
+            16
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            21,
+            21
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U01-Q018",
+    "unit": "U01",
+    "conceptId": "BIOL157-U01-C06",
+    "lesson": "BC0106",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "An element is detected in tissue. Which further observation would most directly strengthen a claim that it has a necessary biological role under defined experimental conditions?",
+    "options": [
+      "Its concentration in seawater is measured more precisely",
+      "Removing its availability disrupts a defined function, and restoring it rescues that function while other conditions are controlled",
+      "It is detected again in the same tissue without any functional measurement",
+      "Its periodic-table position is reported with greater precision"
+    ],
+    "letter": "B",
+    "explanation": "A controlled loss-and-restoration comparison links availability to a defined function, providing evidence beyond mere presence. Repeated detection, environmental concentration and periodic position do not by themselves establish necessity. The result is limited to the tested biological conditions and does not establish a human supplement dose.",
+    "difficulty": "transfer",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L1",
+        "pages": [
+          [
+            19,
+            19
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q001",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C01",
+    "lesson": "BC0201",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Which observation best distinguishes a functioning cell from a simple ingredient list?",
+    "options": [
+      "Containment of liquid water alone",
+      "An increase in visible size alone",
+      "Regulated exchanges, transformations and information-linked reproduction",
+      "Presence of carbon atoms alone"
+    ],
+    "letter": "C",
+    "explanation": "A cell organises flows, reactions and information. Carbon and water also occur in nonliving systems, and growth alone can occur in crystals. These observations must be interpreted together rather than used as a single universal definition.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            3,
+            7
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q002",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C01",
+    "lesson": "BC0201",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "A population encounters a new nutrient shortage. Which account of mutation and selection is most appropriate?",
+    "options": [
+      "Every individual deliberately rewrites the same gene",
+      "Any mutation is necessarily beneficial",
+      "The shortage specifies the exact beneficial mutation",
+      "Heritable variants may differ in persistence and reproduction under the changed conditions"
+    ],
+    "letter": "D",
+    "explanation": "Need does not specify a mutation. Heritable variation can arise, and changed conditions can alter relative reproductive success. Selection need not make every variant useful or change every individual identically.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            3,
+            7
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q003",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C02",
+    "lesson": "BC0202",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "A planet is in a modelled habitable orbital region. What conclusion is justified from that fact alone?",
+    "options": [
+      "Its conditions may permit habitability under model assumptions",
+      "It must have a modern Earth atmosphere",
+      "It must use oxygen-dependent metabolism",
+      "Liquid surface water and cells have both been detected"
+    ],
+    "letter": "A",
+    "explanation": "An orbital region constrains possible conditions; actual atmosphere, pressure and water need further evidence. Habitability is not life detection, and oxygen-dependent metabolism is not universal.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            8,
+            11
+          ],
+          [
+            21,
+            23
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q004",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C02",
+    "lesson": "BC0202",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Why should the gas mixture be reported when interpreting an abiotic synthesis experiment?",
+    "options": [
+      "It makes controls unnecessary",
+      "Product formation depends on the chemical conditions being tested",
+      "It proves the whole early atmosphere had that composition",
+      "It determines whether all products must be living"
+    ],
+    "letter": "B",
+    "explanation": "The mixture specifies the tested scenario and affects chemistry. It does not reconstruct the entire early atmosphere, remove the need for controls or make organic products living.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            8,
+            11
+          ],
+          [
+            21,
+            23
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q005",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C03",
+    "lesson": "BC0203",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "In a swan-neck broth experiment, what does the curved neck help separate?",
+    "options": [
+      "Living cells from their hereditary material",
+      "Chemical evolution from all possible future experiments",
+      "Access by air from access by dust-associated microorganisms",
+      "Oxygen atoms from nitrogen atoms"
+    ],
+    "letter": "C",
+    "explanation": "The neck allows air exchange while trapping dust away from the broth. Growth after dust contact supports contamination under those conditions. The experiment does not test every proposed pathway to the first life.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            12,
+            20
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q006",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C03",
+    "lesson": "BC0203",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "A meteorite contains organic compounds. Which additional claim is unsupported by that observation alone?",
+    "options": [
+      "The detected compounds have a chemical composition",
+      "Delivery of precursors is a question worth investigating",
+      "Some organic matter can occur outside Earth",
+      "The meteorite necessarily carried living organisms"
+    ],
+    "letter": "D",
+    "explanation": "Organic compounds can arise without cells. Their presence can motivate delivery models, but viability, organisms and ultimate origins require separate evidence.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            12,
+            20
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q007",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C04",
+    "lesson": "BC0204",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "What did the classic Miller experiment establish?",
+    "options": [
+      "Certain organic products could form under the specified conditions",
+      "All later biosynthesis pathways were reproduced",
+      "A complete cell was assembled",
+      "The exact early-Earth atmosphere was measured"
+    ],
+    "letter": "A",
+    "explanation": "The experiment demonstrated abiotic organic-product formation in a defined scenario. It did not create life, measure the ancient atmosphere or reproduce all biochemical pathways. The classic publication was in 1953.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            21,
+            32
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q008",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C04",
+    "lesson": "BC0204",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "A synthesis experiment produces adenine without an attached sugar or phosphate. What has been demonstrated?",
+    "options": [
+      "A complete DNA polymer",
+      "A nitrogenous base, rather than a complete nucleotide",
+      "A complete nucleotide because adenine is sufficient",
+      "A living replicating cell"
+    ],
+    "letter": "B",
+    "explanation": "Adenine is a base. A nucleotide additionally contains a sugar and phosphate; DNA also requires linked nucleotide residues and sequence. A base product does not establish a cell.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            21,
+            32
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q009",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C05",
+    "lesson": "BC0205",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Why does producing a long random peptide not establish an enzyme?",
+    "options": [
+      "A long chain automatically contains a membrane",
+      "All peptide bonds prevent folding",
+      "A catalytic function requires appropriate sequence and structure, not length alone",
+      "Only free amino acids can catalyse reactions"
+    ],
+    "letter": "C",
+    "explanation": "Chain formation and catalytic function are distinct. Sequence and folded structure influence activity, which must be tested. Length alone neither guarantees nor rules out function.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            33,
+            38
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q010",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C05",
+    "lesson": "BC0205",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Which statement best compares simplified condensation diagrams with modern cellular polymer synthesis?",
+    "options": [
+      "A catalyst always changes the equilibrium constant",
+      "Every polymer is made by the same uncoupled dehydration reaction",
+      "Water makes all polymer formation impossible",
+      "Activated precursors and coupling can be required in actual pathways"
+    ],
+    "letter": "D",
+    "explanation": "Cells use specific activated substrates and coupled reactions. Water does not make polymer formation universally impossible. Catalysts change rates rather than the equilibrium of the uncoupled reaction.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            33,
+            38
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q011",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C06",
+    "lesson": "BC0206",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "What is a ribozyme?",
+    "options": [
+      "An RNA molecule with catalytic activity",
+      "Every RNA molecule regardless of function",
+      "Any free nucleotide that carries phosphate",
+      "Any protein bound to RNA"
+    ],
+    "letter": "A",
+    "explanation": "A ribozyme is catalytic RNA. It is not merely a nucleotide-containing cofactor, and not every RNA catalyses a reaction. The finding shows that catalysis is not restricted to proteins.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            39,
+            39
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q012",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C06",
+    "lesson": "BC0206",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "An RNA catalyses one cleavage reaction in a laboratory system. Which inference exceeds the evidence?",
+    "options": [
+      "Catalysis is not restricted to proteins",
+      "The RNA necessarily performs complete autonomous self-replication",
+      "RNA can have catalytic activity",
+      "The tested RNA affects that reaction under those conditions"
+    ],
+    "letter": "B",
+    "explanation": "A demonstrated cleavage reaction supports that specific catalytic function. Complete replication additionally requires suitable precursors, copying, separation and continuity of information; it cannot be inferred from one catalytic assay.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            39,
+            39
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q013",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C07",
+    "lesson": "BC0207",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "Which comparison between a coacervate droplet and a lipid-bilayer vesicle is accurate?",
+    "options": [
+      "Both necessarily contain DNA",
+      "Both necessarily have a modern cell membrane",
+      "They differ in boundary structure; a droplet is not automatically bilayer-bounded",
+      "Neither can concentrate any solute"
+    ],
+    "letter": "C",
+    "explanation": "A phase-separated droplet is structurally different from a lipid-bilayer vesicle. Both can influence solute distributions, but neither structure alone establishes DNA, metabolism or life.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            40,
+            42
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q014",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C07",
+    "lesson": "BC0207",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "A vesicle retains a catalyst but excludes its required substrate. What is the main limitation?",
+    "options": [
+      "The catalyst must become DNA",
+      "All vesicles are necessarily impermeable to water",
+      "Retention guarantees sustained catalysis",
+      "The boundary prevents the needed substrate supply"
+    ],
+    "letter": "D",
+    "explanation": "Retention is useful only if compatible with continuing substrate access and product handling. A boundary creates transport trade-offs; enclosure alone cannot guarantee a sustained reaction.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            40,
+            42
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q015",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C08",
+    "lesson": "BC0208",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "What does the classification “autotroph” specify most directly?",
+    "options": [
+      "Use of inorganic carbon as a carbon source",
+      "Obligatory use of light as the energy source",
+      "Obligatory dependence on oxygen",
+      "Absence of all chemical energy transformations"
+    ],
+    "letter": "A",
+    "explanation": "Autotrophy concerns carbon acquisition. Energy may come from light or chemical sources, and oxygen use is a separate classification. These dimensions should not be collapsed into one label.",
+    "difficulty": "foundation",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            43,
+            45
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U02-Q016",
+    "unit": "U02",
+    "conceptId": "BIOL157-U02-C08",
+    "lesson": "BC0208",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO1",
+    "question": "A proposed pathway is A → B → C. Only conversion of A to B has been demonstrated. What remains unverified?",
+    "options": [
+      "That any chemical change is possible",
+      "The B to C step and sustained operation of the whole pathway",
+      "The fact that B has a name",
+      "Whether the A to B step occurred"
+    ],
+    "letter": "B",
+    "explanation": "Demonstrating one step does not establish the next step, resource supply or overall energetics. Connected arrows represent a proposal until the relevant reactions and their compatibility are tested.",
+    "difficulty": "application",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L2",
+        "pages": [
+          [
+            43,
+            45
+          ]
+        ]
+      }
+    ]
+  }
+]
