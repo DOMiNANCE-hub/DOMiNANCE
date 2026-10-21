@@ -39,8 +39,9 @@ Complete BIOL157 Unit 8 Enzymes from all 61 actual Lecture 8 pages and four offi
 - Bio Unit 5: [`1bc3d8d`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/1bc3d8d3e635b203dc7070c0952004784e0848d8)
 - Office manual acceptance preparation: [`f0272e6`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/f0272e6f4341c77bceb20ddcc56bcf80033bf34b)
 - Bio Unit 6: [`4bb8a37`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/4bb8a374060c677ea457e9feac68c18645050352)
+- Bio Unit 7: [`5991d51`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/5991d514d2c1213b6744546e36c2a129e6a2252a)
 
-Latest implementation CI: not recorded. Exact continuation: [CONTINUE.md](CONTINUE.md).
+Latest implementation CI: [success](https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39540345453). Exact continuation: [CONTINUE.md](CONTINUE.md).
 
 Microsoft Office remains 0/15 executed: [exact manual acceptance checklist](../csm177/MICROSOFT_OFFICE_ACCEPTANCE.md).
 

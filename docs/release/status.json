@@ -230,8 +230,12 @@
     ]
   },
   "integrationPR": "https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17",
-  "testedImplementationCommit": null,
-  "githubCI": null,
+  "testedImplementationCommit": "5991d514d2c1213b6744546e36c2a129e6a2252a",
+  "githubCI": {
+    "status": "success",
+    "commit": "5991d514d2c1213b6744546e36c2a129e6a2252a",
+    "url": "https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39540345453"
+  },
   "checkpoints": [
     {
       "batch": "Five-PR integration and validation",
@@ -260,6 +264,10 @@
     {
       "batch": "Bio Unit 6",
       "commit": "4bb8a374060c677ea457e9feac68c18645050352"
+    },
+    {
+      "batch": "Bio Unit 7",
+      "commit": "5991d514d2c1213b6744546e36c2a129e6a2252a"
     }
   ],
   "continuation": "docs/release/CONTINUE.md"
