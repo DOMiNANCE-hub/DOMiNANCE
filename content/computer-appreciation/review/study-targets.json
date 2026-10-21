@@ -1,0 +1,223 @@
+{
+  "status": "author-reviewed-section-mapping-pending-human-academic-review",
+  "reviewer": null,
+  "scope": "36 existing PowerPoint questions; no question text or key changes; no Office execution or publication approval",
+  "targets": [
+    {
+      "id": "CA-Q055",
+      "lesson": "CA10",
+      "sectionTitle": "Build a presentation from slides",
+      "reason": "Layout and Title and Content placeholders are explicitly explained."
+    },
+    {
+      "id": "CA-Q056",
+      "lesson": "CA10",
+      "sectionTitle": "Separate arrangement from appearance",
+      "reason": "Theme coordinates colours, fonts and effects; distinguishes layout."
+    },
+    {
+      "id": "CA-Q057",
+      "lesson": "CA10",
+      "sectionTitle": "Save a usable file",
+      "reason": "Editable pptx versus show or fixed output is explicitly compared."
+    },
+    {
+      "id": "CA-Q058",
+      "lesson": "CA10",
+      "sectionTitle": "Build a presentation from slides",
+      "reason": "Layout and Title and Content placeholders are explicitly explained."
+    },
+    {
+      "id": "CA-Q059",
+      "lesson": "CA10",
+      "sectionTitle": "Separate arrangement from appearance",
+      "reason": "Theme coordinates colours, fonts and effects; distinguishes layout."
+    },
+    {
+      "id": "CA-Q060",
+      "lesson": "CA10",
+      "sectionTitle": "Save a usable file",
+      "reason": "Editable pptx versus show or fixed output is explicitly compared."
+    },
+    {
+      "id": "CA-Q061",
+      "lesson": "CA11",
+      "sectionTitle": "Position related objects",
+      "reason": "Grouping, relative alignment and one-layer versus whole-stack ordering are distinguished."
+    },
+    {
+      "id": "CA-Q062",
+      "lesson": "CA11",
+      "sectionTitle": "Use the right object",
+      "reason": "SmartArt is introduced as a structured diagram rather than an ordinary table/picture."
+    },
+    {
+      "id": "CA-Q063",
+      "lesson": "CA11",
+      "sectionTitle": "Position related objects",
+      "reason": "Grouping, relative alignment and one-layer versus whole-stack ordering are distinguished."
+    },
+    {
+      "id": "CA-Q064",
+      "lesson": "CA11",
+      "sectionTitle": "Position related objects",
+      "reason": "Grouping, relative alignment and one-layer versus whole-stack ordering are distinguished."
+    },
+    {
+      "id": "CA-Q065",
+      "lesson": "CA11",
+      "sectionTitle": "Position related objects",
+      "reason": "Grouping, relative alignment and one-layer versus whole-stack ordering are distinguished."
+    },
+    {
+      "id": "CA-Q066",
+      "lesson": "CA11",
+      "sectionTitle": "Check multimedia in context",
+      "reason": "Playback on the intended machine in Slide Show is required."
+    },
+    {
+      "id": "CA-Q067",
+      "lesson": "CA12",
+      "sectionTitle": "Choose a view for the task",
+      "reason": "Normal, Sorter and Show have distinct tasks; Escape ends the show."
+    },
+    {
+      "id": "CA-Q068",
+      "lesson": "CA12",
+      "sectionTitle": "Animation is within a slide; transition is between slides",
+      "reason": "Object effects are distinguished from slide changes, including one-at-a-time points."
+    },
+    {
+      "id": "CA-Q069",
+      "lesson": "CA12",
+      "sectionTitle": "Choose a view for the task",
+      "reason": "Normal, Sorter and Show have distinct tasks; Escape ends the show."
+    },
+    {
+      "id": "CA-Q070",
+      "lesson": "CA12",
+      "sectionTitle": "Choose a view for the task",
+      "reason": "Normal, Sorter and Show have distinct tasks; Escape ends the show."
+    },
+    {
+      "id": "CA-Q071",
+      "lesson": "CA12",
+      "sectionTitle": "Animation is within a slide; transition is between slides",
+      "reason": "Object effects are distinguished from slide changes, including one-at-a-time points."
+    },
+    {
+      "id": "CA-Q072",
+      "lesson": "CA12",
+      "sectionTitle": "Check delivery and printed output",
+      "reason": "Preview, output type and selected range are checked before audience printing."
+    },
+    {
+      "id": "CA-Q097",
+      "lesson": "CA10",
+      "sectionTitle": "Review extension: text containers and lists",
+      "reason": "Source-specific formatting, backgrounds, numbering and justification are explained together."
+    },
+    {
+      "id": "CA-Q098",
+      "lesson": "CA10",
+      "sectionTitle": "Text alignment is not object positioning",
+      "reason": "Centred text remains inside its box; Start at changes initial list number."
+    },
+    {
+      "id": "CA-Q099",
+      "lesson": "CA10",
+      "sectionTitle": "Review extension: text containers and lists",
+      "reason": "Source-specific formatting, backgrounds, numbering and justification are explained together."
+    },
+    {
+      "id": "CA-Q100",
+      "lesson": "CA10",
+      "sectionTitle": "Review extension: text containers and lists",
+      "reason": "Source-specific formatting, backgrounds, numbering and justification are explained together."
+    },
+    {
+      "id": "CA-Q101",
+      "lesson": "CA10",
+      "sectionTitle": "Text alignment is not object positioning",
+      "reason": "Centred text remains inside its box; Start at changes initial list number."
+    },
+    {
+      "id": "CA-Q102",
+      "lesson": "CA10",
+      "sectionTitle": "Review extension: text containers and lists",
+      "reason": "Source-specific formatting, backgrounds, numbering and justification are explained together."
+    },
+    {
+      "id": "CA-Q103",
+      "lesson": "CA11",
+      "sectionTitle": "Review extension: table, picture and audio choices",
+      "reason": "Tab, Insert Above/Right, side-handle distortion, border Weight and Volume are explicitly explained with PDF citations."
+    },
+    {
+      "id": "CA-Q104",
+      "lesson": "CA11",
+      "sectionTitle": "Review extension: table, picture and audio choices",
+      "reason": "Tab, Insert Above/Right, side-handle distortion, border Weight and Volume are explicitly explained with PDF citations."
+    },
+    {
+      "id": "CA-Q105",
+      "lesson": "CA11",
+      "sectionTitle": "Review extension: table, picture and audio choices",
+      "reason": "Tab, Insert Above/Right, side-handle distortion, border Weight and Volume are explicitly explained with PDF citations."
+    },
+    {
+      "id": "CA-Q106",
+      "lesson": "CA11",
+      "sectionTitle": "Review extension: table, picture and audio choices",
+      "reason": "Tab, Insert Above/Right, side-handle distortion, border Weight and Volume are explicitly explained with PDF citations."
+    },
+    {
+      "id": "CA-Q107",
+      "lesson": "CA11",
+      "sectionTitle": "Review extension: table, picture and audio choices",
+      "reason": "Tab, Insert Above/Right, side-handle distortion, border Weight and Volume are explicitly explained with PDF citations."
+    },
+    {
+      "id": "CA-Q108",
+      "lesson": "CA11",
+      "sectionTitle": "Review extension: table, picture and audio choices",
+      "reason": "Tab, Insert Above/Right, side-handle distortion, border Weight and Volume are explicitly explained with PDF citations."
+    },
+    {
+      "id": "CA-Q109",
+      "lesson": "CA12",
+      "sectionTitle": "Choose a printed output for the reader",
+      "reason": "Handouts, Notes Pages and Custom Range are distinguished from copy count."
+    },
+    {
+      "id": "CA-Q110",
+      "lesson": "CA12",
+      "sectionTitle": "Choose a printed output for the reader",
+      "reason": "Handouts, Notes Pages and Custom Range are distinguished from copy count."
+    },
+    {
+      "id": "CA-Q111",
+      "lesson": "CA12",
+      "sectionTitle": "Choose a printed output for the reader",
+      "reason": "Handouts, Notes Pages and Custom Range are distinguished from copy count."
+    },
+    {
+      "id": "CA-Q112",
+      "lesson": "CA12",
+      "sectionTitle": "Timing has a purpose and needs observation",
+      "reason": "None removes the source-described transition; Automatically After controls timed slide advance, with version caveats."
+    },
+    {
+      "id": "CA-Q113",
+      "lesson": "CA12",
+      "sectionTitle": "Rehearse the distinction between slides and objects",
+      "reason": "Two within-slide effects are reordered in the animation sequence rather than moving a whole slide."
+    },
+    {
+      "id": "CA-Q114",
+      "lesson": "CA12",
+      "sectionTitle": "Timing has a purpose and needs observation",
+      "reason": "None removes the source-described transition; Automatically After controls timed slide advance, with version caveats."
+    }
+  ]
+}

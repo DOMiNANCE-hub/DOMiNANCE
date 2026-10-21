@@ -483,3 +483,7 @@ Seven original lessons, 33 MCQs, 14 answered checks and two diagrams cover both 
 ## Unit 10 Lipids — 2026-10-21
 
 Fifteen original lessons, 53 section-linked MCQs, 30 answered checks, 114 sections and four original figures cover the five listed topics. All 48 actual source pages read, fifteen selected visuals inspected; kit flags and assay/nomenclature discrepancies recorded. Earlier 92 notes/378 questions/concepts/nineteen figures retain parent hashes. All 34/34 topics now have drafts: 107 lessons/431 questions, pending human approval. Combined QA: 238 offline/40 emulator checks, lint/build and Chromium full banks/mobile traversal/exact links. See docs/release/UNIT10.md. Publication and deployment gates remain open.
+
+## PowerPoint exact feedback links — 2026-10-21
+
+All 36 existing PowerPoint MCQs now open a reviewed, unique teaching heading within their original lesson. A reusable compiler validator rejects stale, duplicate, ambiguous and cross-lesson targets; runtime does not guess. No stems, options, keys, IDs, lesson ordering, history or Firebase writes changed. Three new behavioural checks cover mappings, failure cases and all 36 lazy feedback panels. Combined 241 offline/40 emulator checks, lint/build and Chromium pass. See docs/release/POWERPOINT_LINKS.md. The 78 Excel and 178 Cell targets remain unmapped; no academic/Office approval or publication follows from this navigation fix.

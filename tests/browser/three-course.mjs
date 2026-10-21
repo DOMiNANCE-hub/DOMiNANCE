@@ -132,7 +132,13 @@ try{
  await frame.getByRole('button',{name:/^Submit practice/}).click();
  await frame.locator('#quizArea summary').first().click();
  await frame.getByText(/^Source: CSM 177 lecturer PDF/).waitFor();
- await frame.getByRole('button',{name:'Return to Topic Questions',exact:true}).click();
+ const powerpointStem=await frame.locator('#quizArea h3').first().textContent(),powerpointTarget=await dashboard.evaluate(stem=>DominanceComputerContent.questions.find(q=>q.question===stem).studyTarget.sectionTitle,powerpointStem);
+ await frame.getByRole('button',{name:'Study this concept',exact:true}).click();
+ await frame.getByRole('heading',{name:powerpointTarget,exact:true}).waitFor();
+ console.log('PASS: PowerPoint result opens its reviewed exact teaching section.');
+ await frame.getByRole('button',{name:'← Computer Appreciation',exact:true}).click();
+ await frame.getByRole('button',{name:'Practice',exact:true}).first().click();
+ await frame.getByRole('button',{name:'Open Topic Questions',exact:true}).click();
  await frame.locator('select[aria-label="Practice block"]').selectOption('',{force:true});
  await frame.locator('select[aria-label="Question count"]').selectOption('114',{force:true});
  await frame.getByRole('button',{name:'Start practice',exact:true}).click();

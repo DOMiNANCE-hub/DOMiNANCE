@@ -1,3 +1,6 @@
+import '../public/dashboard/cell-learning.js';
+import '../public/dashboard/computer-learning.js';
+import {attachStudyTargets} from './academic/question-study-targets.mjs';
 import {readFileSync,writeFileSync} from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -46,7 +49,9 @@ export function compileComputer({includeReview=false}={}){
  }
  const withheld=new Set(read('review/release-policy.json').withheldIds);
  if(questions.some(q=>withheld.has(q.id)||withheld.has(q.adaptedFrom)))throw Error('Withheld question in review bank');
- return validateComputerContent({...manifest,blocks,lessons,questions});
+ const data=validateComputerContent({...manifest,blocks,lessons,questions});
+ if(includeReview)attachStudyTargets(data,globalThis.DominanceComputerLearning,read('review/study-targets.json').targets);
+ return data;
 }
 export function studentComputerContent(){
  const policy=read('review/release-policy.json');

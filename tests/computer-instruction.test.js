@@ -16,7 +16,7 @@ test('all 18 instructional additions retain original section prefixes and source
 });
 test('teaching rationales retain all 114 question IDs and answer mappings including adapted candidates',()=>{
  const original=[...read('content/computer-appreciation/questions.json'),...read('content/computer-appreciation/review/questions.json')];
- const withoutRationale=({explanation,...q})=>q;assert.deepEqual(data.questions.map(withoutRationale),original.map(withoutRationale));
+ const withoutRationale=({explanation,studyTarget:_studyTarget,...q})=>q;assert.deepEqual(data.questions.map(withoutRationale),original.map(withoutRationale));
  assert.ok(data.questions.every(q=>q.explanation!==original.find(item=>item.id===q.id).explanation));
  assert.match(data.questions.find(q=>q.id==='CA-Q009').explanation,/Ctrl\+V pastes/);
  assert.match(data.questions.find(q=>q.id==='CA-Q104').explanation,/p\.460/);

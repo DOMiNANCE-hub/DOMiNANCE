@@ -9,8 +9,8 @@
     "16": "1b74f79517b1930ce7cc0e2e20c6eb438cb42a3d"
   },
   "verification": {
-    "scope": "Five-PR integration, BIOL157 Units 3–10 and Cell completion batch",
-    "summary": "238 offline and 40 real local Auth/Firestore checks pass with the 431-question Bio bank, no skips/failures. Lint/build pass with ten existing warnings and the large-entry warning. Chromium traverses all ten authored Bio units, 107 lessons/713 sections and 46 Cell lessons/277 sections at 390px, twenty-five combined figures without clipped labels, Unit 5–10 exact feedback links, eight newer Cell citations and full banks (178/114/431), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 452 literal anchors verified; 131 selected visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified here. No production test or formal academic sign-off.",
+    "scope": "Five-PR integration, BIOL157 Units 3–10, Cell completion and PowerPoint feedback-section links",
+    "summary": "241 offline and 40 real local Auth/Firestore checks pass with the 431-question Bio bank, no skips/failures. Lint/build pass with ten existing warnings and the large-entry warning. Chromium traverses all ten authored Bio units, 107 lessons/713 sections and 46 Cell lessons/277 sections at 390px, twenty-five combined figures without clipped labels, Unit 5–10 exact feedback links and a real PowerPoint result-to-section return, eight newer Cell citations and full banks (178/114/431), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 452 literal anchors verified; 131 selected visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified here. No production test or formal academic sign-off.",
     "productionTested": false
   },
   "deployment": {
@@ -25,7 +25,7 @@
     "Computer: exact manual acceptance steps are prepared but all 15 Microsoft Office desktop scenarios remain unexecuted; four questions withheld; payroll/grading/exactly-40/version ambiguities and 342 unmapped package pages remain open.",
     "Protected preview requires verified existing Vercel project configuration and isolated test Firebase; production rules/auth domains/data separation/rollback not yet verified."
   ],
-  "nextCheckpoint": "Complete remaining Cell/Computer exact feedback-to-section links and supported source gaps, then an auditable human approval/publication process and isolated Firebase/Vercel preview readiness. Office desktop checks and academic decisions require documented human evidence.",
+  "nextCheckpoint": "Review and map the remaining 78 Excel and 178 Cell feedback targets against their teaching sections. Complete supported source/figure gaps, auditable human approval/publication and isolated Firebase/Vercel preview readiness. Office execution and academic decisions require documented human evidence.",
   "checklists": {
     "BIOL151": [
       {
@@ -231,7 +231,11 @@
   },
   "integrationPR": "https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17",
   "testedImplementationCommit": "d55b924160901706e04e8fded89624d145e3843d",
-  "githubCI": null,
+  "githubCI": {
+    "status": "success",
+    "commit": "6c84fa75400ec457e61a18acfd3f83512f0804e6",
+    "url": "https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39576614519"
+  },
   "checkpoints": [
     {
       "batch": "Five-PR integration and validation",
@@ -272,10 +276,14 @@
     {
       "batch": "Bio Unit 9",
       "commit": "d55b924160901706e04e8fded89624d145e3843d"
+    },
+    {
+      "batch": "Bio Unit 10",
+      "commit": "6c84fa75400ec457e61a18acfd3f83512f0804e6"
     }
   ],
   "continuation": "docs/release/CONTINUE.md",
-  "testedCommit": null,
+  "testedCommit": "6c84fa75400ec457e61a18acfd3f83512f0804e6",
   "courses": [
     {
       "id": "BIOL151",

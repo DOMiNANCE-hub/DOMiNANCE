@@ -20,7 +20,7 @@ Draft integration PR: [#17](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17).
 
 ## Verification
 
-238 offline and 40 real local Auth/Firestore checks pass with the 431-question Bio bank, no skips/failures. Lint/build pass with ten existing warnings and the large-entry warning. Chromium traverses all ten authored Bio units, 107 lessons/713 sections and 46 Cell lessons/277 sections at 390px, twenty-five combined figures without clipped labels, Unit 5–10 exact feedback links, eight newer Cell citations and full banks (178/114/431), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 452 literal anchors verified; 131 selected visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified here. No production test or formal academic sign-off.
+241 offline and 40 real local Auth/Firestore checks pass with the 431-question Bio bank, no skips/failures. Lint/build pass with ten existing warnings and the large-entry warning. Chromium traverses all ten authored Bio units, 107 lessons/713 sections and 46 Cell lessons/277 sections at 390px, twenty-five combined figures without clipped labels, Unit 5–10 exact feedback links and a real PowerPoint result-to-section return, eight newer Cell citations and full banks (178/114/431), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 452 literal anchors verified; 131 selected visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified here. No production test or formal academic sign-off.
 
 ## Deployment
 
@@ -28,7 +28,7 @@ Existing Vercel project: `do-mi-nance`. Read-only inspection confirms existing V
 
 ## Exact next checkpoint
 
-Complete remaining Cell/Computer exact feedback-to-section links and supported source gaps, then an auditable human approval/publication process and isolated Firebase/Vercel preview readiness. Office desktop checks and academic decisions require documented human evidence.
+Review and map the remaining 78 Excel and 178 Cell feedback targets against their teaching sections. Complete supported source/figure gaps, auditable human approval/publication and isolated Firebase/Vercel preview readiness. Office execution and academic decisions require documented human evidence.
 
 ## Tested implementation checkpoints
 
@@ -42,8 +42,9 @@ Complete remaining Cell/Computer exact feedback-to-section links and supported s
 - Bio Unit 7: [`5991d51`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/5991d514d2c1213b6744546e36c2a129e6a2252a)
 - Bio Unit 8: [`7c83ea5`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/7c83ea56b5006049e475f358f49eef2a8ccc18f0)
 - Bio Unit 9: [`d55b924`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/d55b924160901706e04e8fded89624d145e3843d)
+- Bio Unit 10: [`6c84fa7`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/6c84fa75400ec457e61a18acfd3f83512f0804e6)
 
-Latest implementation CI: not recorded. Exact continuation: [CONTINUE.md](CONTINUE.md).
+Latest implementation CI: [success](https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39576614519). Exact continuation: [CONTINUE.md](CONTINUE.md).
 
 Microsoft Office remains 0/15 executed: [exact manual acceptance checklist](../csm177/MICROSOFT_OFFICE_ACCEPTANCE.md).
 
