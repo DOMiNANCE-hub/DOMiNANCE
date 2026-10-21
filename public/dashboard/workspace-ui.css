@@ -284,3 +284,13 @@ html h1[tabindex='-1']:focus-visible,html h2[tabindex='-1']:focus-visible,html h
 .authenticated-dashboard .cell-actions button[data-read=true]{border-color:color-mix(in srgb,var(--app-accent) 45%,var(--app-line))!important;background:color-mix(in srgb,var(--app-accent) 8%,var(--app-surface))!important}
 .authenticated-dashboard #quizArea details button{margin-top:10px}
 .authenticated-dashboard #quizArea .cell-related-lessons{margin-top:12px;padding-top:14px;border-top:1px solid var(--app-line)}
+.authenticated-dashboard .quiz-setup-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:16px 0}
+@media(max-width:640px){.authenticated-dashboard .quiz-setup-grid{grid-template-columns:1fr}}
+.authenticated-dashboard .flag-btn{align-self:flex-start;font-size:13px;padding:6px 14px;min-height:36px;border-radius:8px;margin-bottom:10px;border:1px dashed var(--app-line);background:transparent;color:var(--app-muted)}
+.authenticated-dashboard .flag-btn.flagged{border-color:var(--app-accent)!important;color:var(--app-accent)!important;font-weight:700;background:color-mix(in srgb,var(--app-accent) 10%,var(--app-surface))!important}
+.authenticated-dashboard .cell-question .answer.correct{border-color:#10b981!important;background:color-mix(in srgb,#10b981 12%,var(--app-surface))!important}
+.authenticated-dashboard .cell-question .answer.incorrect{border-color:#ef4444!important;background:color-mix(in srgb,#ef4444 12%,var(--app-surface))!important}
+.authenticated-dashboard .cell-explanation-box{padding:16px;border-radius:12px;margin:16px 0;border:1px solid var(--app-line);border-left:4px solid var(--app-accent);background:color-mix(in srgb,var(--app-accent) 6%,var(--app-surface))}
+.authenticated-dashboard .cell-explanation-box h4{margin:0 0 8px;font-size:15px;font-weight:700}
+.authenticated-dashboard .check-answer-btn{margin:14px 0 6px}
+.authenticated-dashboard .review-filter-bar button.selected{background:var(--app-accent)!important;color:var(--app-on-accent)!important}
