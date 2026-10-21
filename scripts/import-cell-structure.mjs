@@ -1,3 +1,4 @@
+import {attachStudyTargets} from './academic/question-study-targets.mjs';
 import '../public/dashboard/cell-learning.js';
 import '../public/dashboard/academic-figures.js';
 import {readFileSync,readdirSync,writeFileSync,mkdirSync} from 'node:fs';
@@ -51,6 +52,7 @@ export function compile({includeReview=false}={}){
   const ids=new Set();for(const figure of data.figures){globalThis.DominanceAcademicFigures.validate(figure);if(ids.has(figure.id))throw Error('Duplicate Cell figure');ids.add(figure.id)}
   for(const lesson of lessons)for(const match of lesson.markdown.matchAll(/\[Figure:([\w-]+)\]/g))if(!ids.has(match[1]))throw Error('Missing Cell figure');
  }
+ if(includeReview){const mapping=JSON.parse(readFileSync(path.join(source,'review/study-targets.json'),'utf8'));attachStudyTargets(data,globalThis.DominanceCellLearning,mapping.targets,{corrections:mapping.corrections})}
  if(includeReview){const stems=data.questions.map(q=>q.question.toLowerCase().replace(/\s+/g,' ').trim());if(new Set(stems).size!==stems.length)throw Error('Duplicate Cell question stem')}
  return data;
 }

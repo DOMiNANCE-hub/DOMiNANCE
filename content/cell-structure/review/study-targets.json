@@ -1,0 +1,233 @@
+{
+  "status": "author-reviewed-teaching-mapping-pending-human-academic-review",
+  "reviewer": null,
+  "academicApproval": null,
+  "scope": "24 cytoskeleton questions only; preserve legacy lesson assignments and answer history",
+  "parentCommit": "30a3de0c580a4c2d7d29b6778cb0e09a12c26138",
+  "preservedQuestionsSha256": "5433bc2f487706d0e06ff6510de24961aa047c0f4a1dc5be9b82bedf2a060db2",
+  "targets": [
+    {
+      "id": "CYQ01",
+      "lesson": "CY02",
+      "sectionTitle": "Core lesson",
+      "reason": "The filament-size/subunit/strength table is taught here; the original CY01 assignment lacks this complete comparison."
+    },
+    {
+      "id": "CYQ02",
+      "lesson": "CY02",
+      "sectionTitle": "Core lesson",
+      "reason": "The filament-size/subunit/strength table is taught here; the original CY01 assignment lacks this complete comparison."
+    },
+    {
+      "id": "CYQ03",
+      "lesson": "CY01",
+      "sectionTitle": "Actin-associated proteins connect the network to a task",
+      "reason": "The existing actin-associated-protein explanation explicitly identifies myosin as an actin motor."
+    },
+    {
+      "id": "CYQ04",
+      "lesson": "CY02",
+      "sectionTitle": "Core lesson",
+      "reason": "The filament-size/subunit/strength table is taught here; the original CY01 assignment lacks this complete comparison."
+    },
+    {
+      "id": "CYQ05",
+      "lesson": "CY01",
+      "sectionTitle": "Why muscle shortens without shortening each filament",
+      "reason": "The existing movement-system comparison names myosin, kinesin and dynein."
+    },
+    {
+      "id": "CYQ06",
+      "lesson": "CY02",
+      "sectionTitle": "Core lesson",
+      "reason": "The filament-size/subunit/strength table is taught here; the original CY01 assignment lacks this complete comparison."
+    },
+    {
+      "id": "CYQ07",
+      "lesson": "CY01",
+      "sectionTitle": "Actin-associated proteins connect the network to a task",
+      "reason": "The red-cell actin/spectrin/ankyrin membrane architecture is taught here, rather than in its original CY02 assignment."
+    },
+    {
+      "id": "CYQ08",
+      "lesson": "CY02",
+      "sectionTitle": "Read the polymer at two different scales",
+      "reason": "The existing polymer-scale explanation teaches tubulin dimers, thirteen protofilaments, structural polarity and dynamic instability."
+    },
+    {
+      "id": "CYQ09",
+      "lesson": "CY02",
+      "sectionTitle": "Read the polymer at two different scales",
+      "reason": "The existing polymer-scale explanation teaches tubulin dimers, thirteen protofilaments, structural polarity and dynamic instability."
+    },
+    {
+      "id": "CYQ10",
+      "lesson": "CY02",
+      "sectionTitle": "Read the polymer at two different scales",
+      "reason": "The existing polymer-scale explanation teaches tubulin dimers, thirteen protofilaments, structural polarity and dynamic instability."
+    },
+    {
+      "id": "CYQ11",
+      "lesson": "CY02",
+      "sectionTitle": "Read the polymer at two different scales",
+      "reason": "The existing polymer-scale explanation teaches tubulin dimers, thirteen protofilaments, structural polarity and dynamic instability."
+    },
+    {
+      "id": "CYQ12",
+      "lesson": "CY02",
+      "sectionTitle": "Read the polymer at two different scales",
+      "reason": "The existing polymer-scale explanation teaches tubulin dimers, thirteen protofilaments, structural polarity and dynamic instability."
+    },
+    {
+      "id": "CYQ13",
+      "lesson": "CY03",
+      "sectionTitle": "Core lesson",
+      "reason": "The core lesson explicitly explains centrosomal organisation and tau-associated transport pathology."
+    },
+    {
+      "id": "CYQ14",
+      "lesson": "CY03",
+      "sectionTitle": "Core lesson",
+      "reason": "The core lesson explicitly explains centrosomal organisation and tau-associated transport pathology."
+    },
+    {
+      "id": "CYQ15",
+      "lesson": "CY03",
+      "sectionTitle": "Structural direction is not electrical charge",
+      "reason": "Structural direction and its distinction from electrical charge are explained explicitly."
+    },
+    {
+      "id": "CYQ16",
+      "lesson": "CY02",
+      "sectionTitle": "Core lesson",
+      "reason": "Keratin-network defects and epidermolysis bullosa are taught in this filament comparison, not the original CY03 microtubule lesson."
+    },
+    {
+      "id": "CYQ17",
+      "lesson": "CY04",
+      "sectionTitle": "Core lesson",
+      "reason": "Chromosome segregation and paclitaxel stabilisation are explicitly taught in this mitosis/drug lesson."
+    },
+    {
+      "id": "CYQ18",
+      "lesson": "CY04",
+      "sectionTitle": "Core lesson",
+      "reason": "Chromosome segregation and paclitaxel stabilisation are explicitly taught in this mitosis/drug lesson."
+    },
+    {
+      "id": "CYQ19",
+      "lesson": "CY04",
+      "sectionTitle": "Distinguish a drug's use from its action on a dynamic system",
+      "reason": "The reviewed drug-action comparison distinguishes assembly/disassembly and normal-cell requirements."
+    },
+    {
+      "id": "CYQ20",
+      "lesson": "CY04",
+      "sectionTitle": "Distinguish a drug's use from its action on a dynamic system",
+      "reason": "The reviewed drug-action comparison distinguishes assembly/disassembly and normal-cell requirements."
+    },
+    {
+      "id": "CYQ21",
+      "lesson": "CY02",
+      "sectionTitle": "Core lesson",
+      "reason": "Intermediate-filament size and kinesin/dynein tracks are explicitly taught in the filament/motor comparison."
+    },
+    {
+      "id": "CYQ22",
+      "lesson": "CY02",
+      "sectionTitle": "Core lesson",
+      "reason": "Intermediate-filament size and kinesin/dynein tracks are explicitly taught in the filament/motor comparison."
+    },
+    {
+      "id": "CYQ23",
+      "lesson": "CY01",
+      "sectionTitle": "Core lesson",
+      "reason": "The dynamic filament-network definition is taught in the introductory architecture lesson."
+    },
+    {
+      "id": "CYQ24",
+      "lesson": "CY04",
+      "sectionTitle": "Distinguish a drug's use from its action on a dynamic system",
+      "reason": "The reviewed drug-action comparison distinguishes assembly/disassembly and normal-cell requirements."
+    }
+  ],
+  "corrections": [
+    {
+      "id": "CYQ01",
+      "fromLesson": "CY01",
+      "toLesson": "CY02",
+      "reason": "The filament-size/subunit/strength table is taught here; the original CY01 assignment lacks this complete comparison.",
+      "questionSha256": "4f69b45d616a05e5b5b94f295d7df339d68d58918894edfef813935efdb448c4"
+    },
+    {
+      "id": "CYQ02",
+      "fromLesson": "CY01",
+      "toLesson": "CY02",
+      "reason": "The filament-size/subunit/strength table is taught here; the original CY01 assignment lacks this complete comparison.",
+      "questionSha256": "a1b0853f7345d5cd356292e621ce5623b1cad2031887f5c97a82f54e4066835e"
+    },
+    {
+      "id": "CYQ04",
+      "fromLesson": "CY01",
+      "toLesson": "CY02",
+      "reason": "The filament-size/subunit/strength table is taught here; the original CY01 assignment lacks this complete comparison.",
+      "questionSha256": "4f3e15ac2ccd553c2764c8b407f68fe3558f437fa90bcb046b3948104be0dc6a"
+    },
+    {
+      "id": "CYQ06",
+      "fromLesson": "CY01",
+      "toLesson": "CY02",
+      "reason": "The filament-size/subunit/strength table is taught here; the original CY01 assignment lacks this complete comparison.",
+      "questionSha256": "3e6e5a119131a846c4e98725850e1d0e6f6835a8498b0f7eae7feb8e77f97779"
+    },
+    {
+      "id": "CYQ07",
+      "fromLesson": "CY02",
+      "toLesson": "CY01",
+      "reason": "The red-cell actin/spectrin/ankyrin membrane architecture is taught here, rather than in its original CY02 assignment.",
+      "questionSha256": "de6d9391b8d0e62dfc5d464f4e5e359d41b618ccff0755dd50946d5aee727714"
+    },
+    {
+      "id": "CYQ16",
+      "fromLesson": "CY03",
+      "toLesson": "CY02",
+      "reason": "Keratin-network defects and epidermolysis bullosa are taught in this filament comparison, not the original CY03 microtubule lesson.",
+      "questionSha256": "a4326af8203b5b042d20445a6eca5f84df828ad59a6fe29d91260cd48da8f2f6"
+    },
+    {
+      "id": "CYQ17",
+      "fromLesson": "CY03",
+      "toLesson": "CY04",
+      "reason": "Chromosome segregation and paclitaxel stabilisation are explicitly taught in this mitosis/drug lesson.",
+      "questionSha256": "47a54af6fddf02e0f3be4487a188463eade163bb52c1274c0e1f22104832ce4f"
+    },
+    {
+      "id": "CYQ18",
+      "fromLesson": "CY03",
+      "toLesson": "CY04",
+      "reason": "Chromosome segregation and paclitaxel stabilisation are explicitly taught in this mitosis/drug lesson.",
+      "questionSha256": "c72c79e18f2b71bd816e3deb81685502741ef7ba547c356664f02925ee205844"
+    },
+    {
+      "id": "CYQ21",
+      "fromLesson": "CY04",
+      "toLesson": "CY02",
+      "reason": "Intermediate-filament size and kinesin/dynein tracks are explicitly taught in the filament/motor comparison.",
+      "questionSha256": "6607b6a23cbd7e76c56f5d30516a85bfd4df7c8985d58d5ffeca2b38415ac344"
+    },
+    {
+      "id": "CYQ22",
+      "fromLesson": "CY04",
+      "toLesson": "CY02",
+      "reason": "Intermediate-filament size and kinesin/dynein tracks are explicitly taught in the filament/motor comparison.",
+      "questionSha256": "87fda04de97ca517b42d0e4fcdbe08e1124e9292f1fb986b6dbe7fe5c3fc4f5b"
+    },
+    {
+      "id": "CYQ23",
+      "fromLesson": "CY04",
+      "toLesson": "CY01",
+      "reason": "The dynamic filament-network definition is taught in the introductory architecture lesson.",
+      "questionSha256": "ba4567a9d1044155ea569c0a37eb349270782bf2968c38048f55cbd90aa7f98f"
+    }
+  ]
+}

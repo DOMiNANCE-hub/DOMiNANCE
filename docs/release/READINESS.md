@@ -14,13 +14,13 @@ Draft integration PR: [#17](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17).
 
 - No formal academic sign-off for the final student-visible content.
 - BIOL157: all ten units and 34 listed topics have substantial source-checked drafts; independent human academic review and explicit publication approval remain outstanding.
-- Cell: 178-question instructional review is local-emulator-only, but the normal asset still retains the legacy 46-lesson/170-question bank. Its formal approval is not independently established here; the publication process must account for it before any RC deployment. Remaining source figures/history, 178 precise feedback targets and current-year scope remain unresolved.
+- Cell: 178-question instructional review is local-emulator-only, but the normal asset still retains the legacy 46-lesson/170-question bank. Its formal approval is not independently established here; the publication process must account for it before any RC deployment. Remaining source figures/history, 154 remaining feedback targets and current-year scope remain unresolved.
 - Computer: exact manual acceptance steps are prepared but all 15 Microsoft Office desktop scenarios remain unexecuted; four questions withheld; payroll/grading/exactly-40/version ambiguities and 342 unmapped package pages remain open.
 - Protected preview requires verified existing Vercel project configuration and isolated test Firebase; production rules/auth domains/data separation/rollback not yet verified.
 
 ## Verification
 
-241 offline and 40 real local Auth/Firestore checks pass with the 431-question Bio bank, no skips/failures. Lint/build pass with ten existing warnings and the large-entry warning. Chromium traverses all ten authored Bio units, 107 lessons/713 sections and 46 Cell lessons/277 sections at 390px, twenty-five combined figures without clipped labels, Unit 5–10 exact feedback links and real Excel/PowerPoint result-to-section returns, eight newer Cell citations and full banks (178/114/431), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 452 literal anchors verified; 131 selected visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified here. No production test or formal academic sign-off.
+245 offline and 40 real local Auth/Firestore checks pass with the 431-question Bio bank, no skips/failures. Lint/build pass with ten existing warnings and the large-entry warning. Chromium traverses all ten authored Bio units, 107 lessons/713 sections and 46 Cell lessons/277 sections at 390px, twenty-five combined figures without clipped labels, Unit 5–10 exact feedback links and real Excel/PowerPoint plus corrected Cell cytoskeleton result-to-section returns, eight newer Cell citations and full banks (178/114/431), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 452 literal anchors verified; 131 selected visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified here. No production test or formal academic sign-off.
 
 ## Deployment
 
@@ -28,7 +28,7 @@ Existing Vercel project: `do-mi-nance`. Read-only inspection confirms existing V
 
 ## Exact next checkpoint
 
-Map the remaining 178 Cell feedback targets against actual teaching sections; complete source/figure/history gaps and verified Computer lookup teaching, then auditable human approval/publication and isolated Firebase/Vercel preview readiness. Preserve all Computer mappings and earlier Bio units. Office execution and academic decisions require documented human evidence.
+Complete the remaining 154 Cell feedback mappings and verified microscopy/centrifugation teaching gaps; complete supported Computer lookup teaching; implement auditable human approval/publication and isolated Firebase/Vercel preview readiness. Preserve all 114 Computer mappings and 24 Cell cytoskeleton targets/corrections. Office execution and academic decisions require documented human evidence.
 
 ## Tested implementation checkpoints
 

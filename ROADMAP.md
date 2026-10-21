@@ -491,3 +491,7 @@ All 36 existing PowerPoint MCQs now open a reviewed, unique teaching heading wit
 ## Excel feedback targets — 2026-10-21
 
 The remaining 78 Excel questions have manually reviewed section targets; all 114 Computer feedback panels now link to explicit existing teaching. Review covered values/editing, fills, formulas/references, functions/dates/counting, logic/finance, printing/charts/records and six review-extension topics. Keys, stems, options, citations, lesson order, answer history and publication gates are unchanged. The existing three mapping tests now exercise all 114 lazy feedback panels across all 18 lessons. Detailed CA16 lookup syntax remains a teaching gap; the actual source only supplies its p.203 glossary. See docs/release/EXCEL_LINKS.md.
+
+## Cell cytoskeleton teaching alignment — 2026-10-21
+
+All 24 CY questions have reviewed exact teaching targets. Eleven are explicitly corrected within the cytoskeleton block, using existing prose; new practice follows the taught concept while original q.lesson, question IDs/keys, old drafts and historical scores remain unchanged. A same-block fingerprinted ledger is required, preserving the default rejection of unreviewed cross-lesson links. Review pools now contain 4/12/3/5 questions. No new assessment, source claims or publication approval. Remaining Cell targets: 154. See docs/release/CELL_CYTOSKELETON_LINKS.md.

@@ -8,8 +8,8 @@
  function questionRoute(question,data,learning){
   const concept=data.concepts?.find(c=>c.id===question.conceptId);
   if(concept)return sectionRoute(concept,data,learning,question.sectionId||concept.sectionId);
-  const target=question.studyTarget,lesson=data.lessons.find(l=>l.id===question.lesson);
-  if(!target||!lesson||target.lesson!==lesson.id)return null;
+  const target=question.studyTarget,lesson=data.lessons.find(l=>l.id===target?.lesson);
+  if(!target||!lesson||(target.lesson!==question.lesson&&target.fromLesson!==question.lesson))return null;
   const sections=learning.sections(lesson),matches=sections.map((s,i)=>s.title===target.sectionTitle?i:-1).filter(i=>i>=0);
   return matches.length===1?'lesson:'+lesson.id+':'+matches[0]:null;
  }
