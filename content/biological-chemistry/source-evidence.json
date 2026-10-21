@@ -1,5 +1,5 @@
 {
-  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages. Lecture 5 has 58 actual pages but printed numbering reaches 65, with gaps beginning at actual p.15; L5 references always use actual PDF pages. Lecture 6 has 52 actual pages and printed numbering reaches 56; all L6 citations use actual PDF pages.",
+  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages. Lecture 5 has 58 actual pages but printed numbering reaches 65, with gaps beginning at actual p.15; L5 references always use actual PDF pages. Lecture 6 has 52 actual pages and printed numbering reaches 56; all L6 citations use actual PDF pages. Lecture 7 has 71 actual pages and printed numbering reaches 81; every L7 reference uses actual PDF pages, never an inferred offset.",
   "anchors": [
     {
       "source": "L1",
@@ -1512,6 +1512,420 @@
       "pdfPage": 50,
       "anchor": "Other Nucleic Acids Analogues",
       "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 2,
+      "anchor": "• By the end of this lecture, students will be able to:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 3,
+      "anchor": "• Proteins are a diverse and abundant class of biomolecules,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 4,
+      "anchor": "• Several fundamental properties enable proteins to participate",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 5,
+      "anchor": "• Proteins are polymers of monomers: amino acids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 6,
+      "anchor": "• Proteins contain a wide range of functional groups",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 7,
+      "anchor": "• Some proteins are rigid, whereas others are flexible",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 8,
+      "anchor": "• The structure of a single typical amino acid:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 9,
+      "anchor": "• The structure of a single typical amino acid:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 10,
+      "anchor": "• There are 20 amino acids commonly found in proteins",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 11,
+      "anchor": "• Classifications based on the polarity of R group:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 12,
+      "anchor": "• Amino acid composition in proteins:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 13,
+      "anchor": "− Essential amino acids cannot be synthesised in the body of higher",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 14,
+      "anchor": "− Most proteins in the body contain the full complement of amino acids;",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 15,
+      "anchor": "• Several amino acids occur only rarely in proteins:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 16,
+      "anchor": "• Certain muscle proteins contain methylated amino acids;",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 17,
+      "anchor": "• Some amino acids and their derivatives, although not found in",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 18,
+      "anchor": "• All amino acids' α-carboxyl and α-amino groups exhibit similar",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 19,
+      "anchor": "• There are three reasons to consider these reactivities:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 20,
+      "anchor": "− The crucial feature of amino acids that allows them to polymerise to",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 21,
+      "anchor": "− The carboxyl groups of amino acids undergo all the simple reactions",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 22,
+      "anchor": "Reactions of Amino Acids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 23,
+      "anchor": "− Free amino groups may react with aldehydes to form Schiff bases",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 24,
+      "anchor": "− Amino acids can be readily detected and quantified by reaction with",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 25,
+      "anchor": "Reactions of Amino Acids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 26,
+      "anchor": "• Specific reactions of amino acid side chains:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 27,
+      "anchor": "• Specific reactions of amino acid side chains:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 28,
+      "anchor": "• Specific reactions of amino acid side chains:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 29,
+      "anchor": "− Many details of the structure and chemistry of the amino acids have",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 30,
+      "anchor": "− Aromatic amino acids phenylalanine, tyrosine, and tryptophan only",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 31,
+      "anchor": "• Absorption spectra of aromatic amino acids:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 32,
+      "anchor": "− The purification and analysis of individual amino acids from complex",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 33,
+      "anchor": "− In all the partition methods, the molecules of interest are allowed (or",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 34,
+      "anchor": "− Chromatography is applied to a wide variety of separation methods;",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 35,
+      "anchor": "− The separation of amino acids and other solutes is often achieved via",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 36,
+      "anchor": "Separation & Analysis of Amino Acid Mixtures",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 37,
+      "anchor": "Separation & Analysis of Amino Acid Mixtures",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 38,
+      "anchor": "• Peptides are short polymers of amino acids; they are classified",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 39,
+      "anchor": "• The terms polypeptide and protein are used interchangeably",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 40,
+      "anchor": "Polypeptide Chains in Proteins",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 41,
+      "anchor": "• Peptide bonds are hydrolysed by either a strong acid or base",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 42,
+      "anchor": "• Peptide bonds involving hydrophobic residues such as valine",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 43,
+      "anchor": "• The unique characteristic of each protein is the distinctive",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 44,
+      "anchor": "• Amino acid sequence from the N-terminal to C-terminal:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 45,
+      "anchor": "− Proteins can be assigned to one of the three global classes based on",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 46,
+      "anchor": "− Globular proteins are usually very soluble in aqueous solutions.",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 47,
+      "anchor": "Architecture of Protein Molecules",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 48,
+      "anchor": "Protein Structure",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 49,
+      "anchor": "Biological Functions of Proteins",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 50,
+      "anchor": "− The largest class of proteins is enzymes. Enzymes are catalysts that",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 51,
+      "anchor": "− Several proteins do not perform any apparent chemical transformation",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 52,
+      "anchor": "− They transport specific substances from one place to another: the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 53,
+      "anchor": "− Proteins whose biological function is to provide a reservoir of an",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 54,
+      "anchor": "− Seeds of higher plants often contain as much as 60% storage protein",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 55,
+      "anchor": "− Some proteins endow cells with unique capabilities for movement: cell",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 56,
+      "anchor": "− Structural proteins provide strength and protection to cells and tissues.",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 57,
+      "anchor": "• Scaffold proteins (adapter proteins):",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 58,
+      "anchor": "• Protective and exploitive proteins:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 59,
+      "anchor": "• Protective and exploitive proteins:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 60,
+      "anchor": "− Some proteins display exotic functions that do not fit the previous",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 61,
+      "anchor": "• Many proteins contain only amino acids and no other chemical",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 62,
+      "anchor": "Protein Conjugates",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 63,
+      "anchor": "− Glycoproteins contain carbohydrates; proteins destined for an",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 64,
+      "anchor": "− Blood plasma lipoproteins are examples of proteins conjugated with",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 65,
+      "anchor": "− They are either metal storage forms, ferritin, or enzymes in which the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 66,
+      "anchor": "Protein Conjugates",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 67,
+      "anchor": "− These proteins have phosphate groups esterified to the hydroxyls of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 68,
+      "anchor": "• Cells contain thousands of different proteins; hence, the main",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 69,
+      "anchor": "• R group ionisation is pH-dependent; hence, various procedures",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 70,
+      "anchor": "• Salting-in of proteins is attributed to diminishing electrostatic",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
     }
   ],
   "visuallyInspected": [
@@ -1605,6 +2019,33 @@
         50
       ],
       "result": "Base/nucleoside structures, directionality, duplex/modified-base figures, RNA cleavage, organisation, UV/melting graphs, codon table, ribosome and analogue comparisons inspected. No source images copied."
+    },
+    {
+      "source": "L7",
+      "pdfPages": [
+        8,
+        9,
+        11,
+        12,
+        13,
+        20,
+        22,
+        23,
+        25,
+        27,
+        28,
+        31,
+        36,
+        37,
+        40,
+        44,
+        47,
+        48,
+        49,
+        62,
+        66
+      ],
+      "result": "Selected structures, classifications, reaction schemes, normalised spectra, ion-exchange media/column, chain inventories, structural hierarchy, function and conjugate tables inspected. No source images republished. Normalised spectra do not establish equal absolute absorptivity."
     }
   ]
 }

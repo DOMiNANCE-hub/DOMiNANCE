@@ -259,6 +259,54 @@
       "label": "Primary molecular evidence for nonfunctional human urate oxidase",
       "url": "https://pubmed.ncbi.nlm.nih.gov/2594778/",
       "review": "reused-verified-Cell-primary-abstract-evidence;not-new-clinical-policy"
+    },
+    {
+      "id": "PROTEIN-NUTRITION",
+      "label": "Protein (nutrition review): nine indispensable human amino acids",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30060014/",
+      "review": "specific-abstract-search-returned;open-returned-only-footer;not-full-paper-review"
+    },
+    {
+      "id": "PROTEIN-IR",
+      "label": "IUPAC infrared terminology: vibrational modes",
+      "url": "https://goldbook.iupac.org/terms/view/IT07399",
+      "review": "specific-definition-search-returned;plain-endpoint-open-403"
+    },
+    {
+      "id": "PROTEIN-NINHYDRIN",
+      "label": "Roberts and Caserio: amino-acid analysis and proline exception",
+      "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Basic_Principles_of_Organic_Chemistry_(Roberts_and_Caserio)/25:_Amino_Acids_Peptides_and_Proteins/25.04:_Analysis_of_Amino_Acids",
+      "review": "specific-ninhydrin-and-ion-exchange-passages-opened;not-full-book-review"
+    },
+    {
+      "id": "PROTEIN-PLANAR",
+      "label": "IUPAC didactic peptide-bond planarity and rotation",
+      "url": "https://old.iupac.org/didac/Didac%20Eng/Didac04/Content/BP05.htm",
+      "review": "specific-search-returned-text;direct-open-403"
+    },
+    {
+      "id": "PROTEIN-PI",
+      "label": "OpenStax organic chemistry: amino-acid pKa and isoelectric methods",
+      "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_(OpenStax)/26:_Biomolecules-_Amino_Acids_Peptides_and_Proteins/26.02:_Amino_Acids_the_Henderson-Hasselbalch_Equation_and_Isoelectric_Points",
+      "review": "specific-pI-method-search-returned;illustrative-values-explicitly-supplied-not-measured"
+    },
+    {
+      "id": "PROTEIN-FOLD",
+      "label": "Alberts et al.: shape and structure of proteins",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26830/",
+      "review": "specific-hydrophobic-packing-and-collagen-Gly-X-Y-search-passages;direct-open-CAPTCHA"
+    },
+    {
+      "id": "PROTEIN-PURIFY",
+      "label": "Alberts et al.: fractionation and SDS-PAGE",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26936/",
+      "review": "specific-SDS-size-and-affinity-search-passages;not-full-chapter-review"
+    },
+    {
+      "id": "PROTEIN-IDENTITY",
+      "label": "Assay Guidance Manual: identity, mass purity and enzymatic purity",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK91995/",
+      "review": "specific-search-returned-assay-scope;not-full-chapter-review"
     }
   ],
   "objectives": [
@@ -562,8 +610,21 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0701",
+        "BC0702",
+        "BC0703",
+        "BC0704",
+        "BC0705",
+        "BC0706",
+        "BC0707",
+        "BC0708",
+        "BC0709",
+        "BC0710",
+        "BC0711",
+        "BC0712"
+      ]
     },
     {
       "id": "U08",
@@ -979,7 +1040,7 @@
       "id": "BIOL157-U07-T01",
       "unit": "U07",
       "title": "Amino acids",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -996,7 +1057,7 @@
       "id": "BIOL157-U07-T02",
       "unit": "U07",
       "title": "Peptide and polypeptide formation",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -1013,7 +1074,7 @@
       "id": "BIOL157-U07-T03",
       "unit": "U07",
       "title": "Protein structure",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -4424,6 +4485,748 @@
           "title": "Key takeaways"
         }
       ]
+    },
+    {
+      "id": "BIOL157-U07-C01",
+      "unit": "U07",
+      "topic": "BIOL157-U07-T01",
+      "title": "Amino-acid architecture and stereochemistry",
+      "lesson": "BC0701",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Identify the common backbone and side chain of an α-amino acid. Distinguish a free amino acid from a residue, explain glycine and proline exceptions, and interpret L/D notation without confusing it with optical rotation.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              8,
+              10
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "One backbone, different chemical possibilities"
+        },
+        {
+          "id": "s3",
+          "title": "Two important structural exceptions"
+        },
+        {
+          "id": "s4",
+          "title": "Reading configuration correctly"
+        },
+        {
+          "id": "s5",
+          "title": "Worked classification by connectivity"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-C02",
+      "unit": "U07",
+      "topic": "BIOL157-U07-T01",
+      "title": "The twenty common side chains and their chemical behaviour",
+      "lesson": "BC0702",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Recognise all twenty common residues and their codes. Use functional groups to predict charge, interactions and substitutions, while retaining pH and environment qualifications.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              6,
+              6
+            ],
+            [
+              10,
+              12
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A usable chemical inventory"
+        },
+        {
+          "id": "s3",
+          "title": "Predict interactions from groups"
+        },
+        {
+          "id": "s4",
+          "title": "Worked substitution reasoning"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-C03",
+      "unit": "U07",
+      "topic": "BIOL157-U07-T01",
+      "title": "Amino-acid ionisation, buffering and isoelectric calculations",
+      "lesson": "BC0703",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Track charge as pH changes, use supplied pKa values for simple calculations, distinguish pI from pKa and choose the two dissociations that bracket a net-zero state.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              18,
+              18
+            ],
+            [
+              32,
+              35
+            ],
+            [
+              69,
+              69
+            ]
+          ]
+        },
+        {
+          "source": "PROTEIN-PI"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Proton transfer changes charge without making a peptide"
+        },
+        {
+          "id": "s3",
+          "title": "Worked two-group example"
+        },
+        {
+          "id": "s4",
+          "title": "Worked side-chain examples"
+        },
+        {
+          "id": "s5",
+          "title": "Applying pI to proteins"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-C04",
+      "unit": "U07",
+      "topic": "BIOL157-U07-T01",
+      "title": "Dietary amino acids, modified residues and biological derivatives",
+      "lesson": "BC0704",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Distinguish dietary indispensability from side-chain classification, explain representative residue modifications and separate protein-incorporated residues from derived signalling molecules.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              13,
+              17
+            ]
+          ]
+        },
+        {
+          "source": "PROTEIN-NUTRITION"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Essential depends on organism and supply"
+        },
+        {
+          "id": "s3",
+          "title": "Complementarity without dietary absolutes"
+        },
+        {
+          "id": "s4",
+          "title": "Modifications extend the encoded chemistry"
+        },
+        {
+          "id": "s5",
+          "title": "Derivatives need not be protein residues"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-C05",
+      "unit": "U07",
+      "topic": "BIOL157-U07-T01",
+      "title": "Amino-acid reactions, detection and spectroscopy",
+      "lesson": "BC0705",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Relate analytical reactions to functional groups, recognise ninhydrin exceptions, distinguish electronic from vibrational absorption and interpret measurements without claiming an experiment was performed.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              18,
+              19
+            ],
+            [
+              21,
+              31
+            ]
+          ]
+        },
+        {
+          "source": "PROTEIN-NINHYDRIN"
+        },
+        {
+          "source": "PROTEIN-IR"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Different groups give different reactions"
+        },
+        {
+          "id": "s3",
+          "title": "Ninhydrin detects chemistry, not identity by itself"
+        },
+        {
+          "id": "s4",
+          "title": "UV and infrared answer different questions"
+        },
+        {
+          "id": "s5",
+          "title": "Worked theoretical concentration and interpretation"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-C06",
+      "unit": "U07",
+      "topic": "BIOL157-U07-T02",
+      "title": "Peptide formation, direction and backbone geometry",
+      "lesson": "BC0706",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Identify the peptide bond and termini, explain why activation is required in cells, and distinguish restricted amide rotation from the conformational freedom of adjacent backbone bonds.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              18,
+              23
+            ],
+            [
+              38,
+              39
+            ],
+            [
+              43,
+              44
+            ]
+          ]
+        },
+        {
+          "source": "PROTEIN-PLANAR"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A covalent amide creates a directional chain"
+        },
+        {
+          "id": "s3",
+          "title": "Resonance constrains the peptide unit"
+        },
+        {
+          "id": "s4",
+          "title": "Worked bond and terminus inventory"
+        },
+        {
+          "id": "s5",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s6",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-C07",
+      "unit": "U07",
+      "topic": "BIOL157-U07-T02",
+      "title": "Peptide counts, sequence information and hydrolysis limits",
+      "lesson": "BC0707",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Calculate backbone bonds, water balances and simple sequence spaces. Distinguish composition from sequence and interpret amino-acid analysis with its chemical limitations.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              38,
+              44
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Count connections before choosing a formula"
+        },
+        {
+          "id": "s3",
+          "title": "Worked mass and combinatorial examples"
+        },
+        {
+          "id": "s4",
+          "title": "Composition does not establish order"
+        },
+        {
+          "id": "s5",
+          "title": "What acid analysis loses"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-C08",
+      "unit": "U07",
+      "topic": "BIOL157-U07-T03",
+      "title": "Secondary structure: helices, sheets, turns and collagen",
+      "lesson": "BC0708",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain how backbone hydrogen bonds organise local structure, compare α helices and β sheets and distinguish the collagen triple helix from an α helix.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              45,
+              48
+            ],
+            [
+              56,
+              56
+            ]
+          ]
+        },
+        {
+          "source": "PROTEIN-FOLD"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Local organisation is more than an overall shape"
+        },
+        {
+          "id": "s3",
+          "title": "Worked helix geometry and hydrogen-bond counting"
+        },
+        {
+          "id": "s4",
+          "title": "β sheets connect neighbouring backbone strands"
+        },
+        {
+          "id": "s5",
+          "title": "Collagen uses a different hierarchy"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-C09",
+      "unit": "U07",
+      "topic": "BIOL157-U07-T03",
+      "title": "Tertiary folding, domains and denaturation",
+      "lesson": "BC0709",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain how a chain forms a functional fold, distinguish structural domains from subunits and compare denaturation, peptide hydrolysis and disulfide reduction.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              3,
+              7
+            ],
+            [
+              45,
+              48
+            ],
+            [
+              68,
+              70
+            ]
+          ]
+        },
+        {
+          "source": "PROTEIN-FOLD"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Tertiary structure integrates one chain"
+        },
+        {
+          "id": "s3",
+          "title": "Why a soluble chain often buries nonpolar groups"
+        },
+        {
+          "id": "s4",
+          "title": "Membrane and soluble proteins have different surroundings"
+        },
+        {
+          "id": "s5",
+          "title": "Denaturation is not the same as digestion"
+        },
+        {
+          "id": "s6",
+          "title": "Worked interpretation of a folding experiment"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-C10",
+      "unit": "U07",
+      "topic": "BIOL157-U07-T03",
+      "title": "Quaternary structure and cooperative protein assemblies",
+      "lesson": "BC0710",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Identify subunit composition, distinguish association from one-chain folding and explain how interactions between chains can produce capabilities absent from isolated components.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              4,
+              5
+            ],
+            [
+              39,
+              40
+            ],
+            [
+              48,
+              48
+            ],
+            [
+              52,
+              52
+            ],
+            [
+              65,
+              66
+            ]
+          ]
+        },
+        {
+          "source": "PROTEIN-FOLD"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "More than one chain creates another structural level"
+        },
+        {
+          "id": "s3",
+          "title": "Haemoglobin is a useful comparison with myoglobin"
+        },
+        {
+          "id": "s4",
+          "title": "Worked assembly inventory"
+        },
+        {
+          "id": "s5",
+          "title": "When sequence and assembly become biologically important"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-C11",
+      "unit": "U07",
+      "topic": "BIOL157-U07-T03",
+      "title": "Protein functions, conjugates and recognition",
+      "lesson": "BC0711",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Connect representative protein functions to structural features and distinguish chemical conjugate categories from physiological roles.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              49,
+              67
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "The same chemical toolkit supports many roles"
+        },
+        {
+          "id": "s3",
+          "title": "Recognition makes assemblies selective"
+        },
+        {
+          "id": "s4",
+          "title": "Conjugate classification asks what accompanies the protein"
+        },
+        {
+          "id": "s5",
+          "title": "Worked classification without overreach"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-C12",
+      "unit": "U07",
+      "topic": "BIOL157-U07-T03",
+      "title": "Choosing and interpreting protein-separation methods",
+      "lesson": "BC0712",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Match separation methods to size, charge or specific binding, predict simple elution behaviour, and distinguish a purified-looking sample from proven identity and activity.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              32,
+              37
+            ],
+            [
+              68,
+              70
+            ]
+          ]
+        },
+        {
+          "source": "PROTEIN-PURIFY"
+        },
+        {
+          "source": "PROTEIN-IDENTITY"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A purification workflow needs a property and a readout"
+        },
+        {
+          "id": "s3",
+          "title": "Ion exchange depends on the resin and buffer"
+        },
+        {
+          "id": "s4",
+          "title": "Affinity, electrophoresis and salt fractionation"
+        },
+        {
+          "id": "s5",
+          "title": "Worked recovery and activity example"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
     }
   ],
   "figures": [
@@ -6684,6 +7487,473 @@
             [
               23,
               23
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-CHARGE",
+      "title": "Charge ladder for a supplied two-group example",
+      "description": "As pH increases, an illustrative free amino acid changes from NH3+ and COOH, net plus one, to NH3+ and COO−, net zero, then NH2 and COO−, net minus one. The dissociations use supplied pKa 2.4 and 9.6.",
+      "caption": "Original schematic of predominant states, not a measured titration curve. Zwitterionic net zero retains formal charges; pI uses the two dissociations bracketing that state.",
+      "width": 400,
+      "height": 370,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 30,
+          "text": "Increasing pH ↓"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 80,
+          "text": "NH3+     CH(R)     COOH"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 108,
+          "text": "Net +1"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 120,
+          "x2": 200,
+          "y2": 155
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 180,
+          "text": "pKa 2.4: lose carboxyl H+"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 220,
+          "text": "NH3+     CH(R)     COO−"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 248,
+          "text": "Net 0: zwitterion"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 260,
+          "x2": 200,
+          "y2": 290
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 315,
+          "text": "pKa 9.6: lose ammonium H+"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 350,
+          "text": "NH2     CH(R)     COO−: −1"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              18,
+              18
+            ],
+            [
+              69,
+              69
+            ]
+          ]
+        },
+        {
+          "source": "PROTEIN-PI"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-PEPTIDE",
+      "title": "Planar amide and neighbouring single bonds",
+      "description": "A simplified backbone segment shows C alpha to carbonyl C to N to C alpha. The carbonyl oxygen and N–H identify the peptide amide unit; the central C–N connection has restricted rotation. Phi and psi refer to adjacent backbone single bonds, not free rotation of the amide.",
+      "caption": "Original connectivity schematic; all shown bonds are diagrammatic. Resonance gives partial C–N double-bond character without making the entire folded chain planar.",
+      "width": 400,
+      "height": 310,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 30,
+          "text": "Backbone segment"
+        },
+        {
+          "kind": "text",
+          "x": 50,
+          "y": 150,
+          "text": "Cα"
+        },
+        {
+          "kind": "text",
+          "x": 155,
+          "y": 150,
+          "text": "C"
+        },
+        {
+          "kind": "text",
+          "x": 250,
+          "y": 150,
+          "text": "N"
+        },
+        {
+          "kind": "text",
+          "x": 350,
+          "y": 150,
+          "text": "Cα"
+        },
+        {
+          "kind": "line",
+          "x1": 70,
+          "y1": 145,
+          "x2": 138,
+          "y2": 145
+        },
+        {
+          "kind": "line",
+          "x1": 170,
+          "y1": 145,
+          "x2": 232,
+          "y2": 145
+        },
+        {
+          "kind": "line",
+          "x1": 265,
+          "y1": 145,
+          "x2": 330,
+          "y2": 145
+        },
+        {
+          "kind": "text",
+          "x": 155,
+          "y": 65,
+          "text": "O"
+        },
+        {
+          "kind": "line",
+          "x1": 151,
+          "y1": 80,
+          "x2": 151,
+          "y2": 125
+        },
+        {
+          "kind": "line",
+          "x1": 159,
+          "y1": 80,
+          "x2": 159,
+          "y2": 125
+        },
+        {
+          "kind": "text",
+          "x": 250,
+          "y": 225,
+          "text": "H"
+        },
+        {
+          "kind": "line",
+          "x1": 250,
+          "y1": 163,
+          "x2": 250,
+          "y2": 200
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 270,
+          "text": "C–N amide: restricted rotation"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 298,
+          "text": "Adjacent Cα bonds permit φ / ψ"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              20,
+              23
+            ]
+          ]
+        },
+        {
+          "source": "PROTEIN-PLANAR"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-SECONDARY",
+      "title": "Helical versus sheet hydrogen-bond patterns",
+      "description": "The upper relationship labels a helix backbone carbonyl at i hydrogen-bonded to N–H at i+4. Below, two beta strands run in opposing N-to-C directions with schematic cross-strand hydrogen bonds. Dashed lines represent hydrogen bonds, not peptide links.",
+      "caption": "Original relationship diagram, not a molecular-coordinate drawing. The i+4 rule belongs to the alpha helix; the depicted sheet is antiparallel and not drawn to atomic scale.",
+      "width": 400,
+      "height": 330,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 28,
+          "text": "α helix relationship"
+        },
+        {
+          "kind": "text",
+          "x": 80,
+          "y": 75,
+          "text": "C=O at i"
+        },
+        {
+          "kind": "text",
+          "x": 305,
+          "y": 75,
+          "text": "H–N at i+4"
+        },
+        {
+          "kind": "line",
+          "x1": 135,
+          "y1": 70,
+          "x2": 239,
+          "y2": 70,
+          "dashed": true
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 115,
+          "text": "Backbone H bond"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 164,
+          "text": "Antiparallel β strands"
+        },
+        {
+          "kind": "text",
+          "x": 35,
+          "y": 205,
+          "text": "N"
+        },
+        {
+          "kind": "text",
+          "x": 365,
+          "y": 205,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 60,
+          "y1": 200,
+          "x2": 335,
+          "y2": 200
+        },
+        {
+          "kind": "line",
+          "x1": 335,
+          "y1": 200,
+          "x2": 325,
+          "y2": 193
+        },
+        {
+          "kind": "line",
+          "x1": 335,
+          "y1": 200,
+          "x2": 325,
+          "y2": 207
+        },
+        {
+          "kind": "text",
+          "x": 35,
+          "y": 280,
+          "text": "C"
+        },
+        {
+          "kind": "text",
+          "x": 365,
+          "y": 280,
+          "text": "N"
+        },
+        {
+          "kind": "line",
+          "x1": 60,
+          "y1": 275,
+          "x2": 335,
+          "y2": 275
+        },
+        {
+          "kind": "line",
+          "x1": 60,
+          "y1": 275,
+          "x2": 70,
+          "y2": 268
+        },
+        {
+          "kind": "line",
+          "x1": 60,
+          "y1": 275,
+          "x2": 70,
+          "y2": 282
+        },
+        {
+          "kind": "line",
+          "x1": 120,
+          "y1": 213,
+          "x2": 120,
+          "y2": 262,
+          "dashed": true
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 213,
+          "x2": 200,
+          "y2": 262,
+          "dashed": true
+        },
+        {
+          "kind": "line",
+          "x1": 280,
+          "y1": 213,
+          "x2": 280,
+          "y2": 262,
+          "dashed": true
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 320,
+          "text": "Opposing N → C directions"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              48,
+              48
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U07-LEVELS",
+      "title": "Four descriptions of protein organisation",
+      "description": "Primary is the residue sequence, secondary local backbone organisation, tertiary the complete fold of one chain, and quaternary the arrangement of multiple chains. A domain is not automatically a separate chain.",
+      "caption": "Original hierarchy guide, not a claim that all proteins have four levels or one rigid fold. A single polypeptide can have multiple domains without being a multimer.",
+      "width": 400,
+      "height": 390,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 32,
+          "text": "Primary: residue order"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 45,
+          "x2": 200,
+          "y2": 72
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 100,
+          "text": "Secondary: local backbone"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 128,
+          "text": "Helix / sheet / turns"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 145,
+          "x2": 200,
+          "y2": 175
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 205,
+          "text": "Tertiary: one chain’s fold"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 233,
+          "text": "May include several domains"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 249,
+          "x2": 200,
+          "y2": 280
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 310,
+          "text": "Quaternary: several chains"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 338,
+          "text": "Example: α2β2 = four subunits"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 375,
+          "text": "Chain type ≠ secondary structure"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L7",
+          "pages": [
+            [
+              39,
+              39
+            ],
+            [
+              48,
+              48
             ]
           ]
         }

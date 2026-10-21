@@ -9,8 +9,8 @@
     "15": "e61c7825efa10bee2f424928ea246e745fed7a90"
   },
   "verification": {
-    "scope": "Five-PR integration, BIOL157 Units 3\u20136 and Cell completion batch",
-    "summary": "208 combined offline checks and ordinary npm test pass; 40 real Auth/Firestore emulator checks pass with the expanded Bio 222-question bank. Lint/build pass with ten existing warnings and the existing large-entry warning. Chromium traverses all 59 Bio lessons/361 sections and 46 Cell lessons/277 sections at 390px, twelve original figures without clipped labels, Unit 5/6 concept/source/exact-section practice, all eight newer Cell citations and all three full-bank submissions (178/114/222), resume/retry/reload and progress panels. Eleven Bio PDF hashes/page counts and 252 literal anchors verified, plus the Cell 410-page PDF and 123 selected text-page hashes/anchors. No production test or academic sign-off.",
+    "scope": "Five-PR integration, BIOL157 Units 3–7 and Cell completion batch",
+    "summary": "216 offline checks and 40 real local Auth/Firestore checks pass with the expanded Bio 282-question bank. Lint/build pass with ten existing warnings and the existing large-entry warning. Chromium traverses all 71 Bio lessons/444 sections and 46 Cell lessons/277 sections at 390px, sixteen combined figures without clipped labels, Unit 5/6/7 exact source-feedback links, all eight newer Cell citations and full-bank submissions (178/114/282), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 321 literal anchors verified; 76 selected visual pages inspected. Previous Cell PDF/123-page evidence is retained, not newly recertified by this protein batch. No production test or formal academic sign-off.",
     "productionTested": false
   },
   "deployment": {
@@ -20,12 +20,12 @@
   },
   "blockers": [
     "No formal academic sign-off for the final student-visible content.",
-    "BIOL157 Units 7\u201310 not authored; Units 1\u20136 have substantial source-checked teaching drafts pending academic review.",
+    "BIOL157 Units 8–10 not authored; Units 1–7 have substantial source-checked teaching drafts pending academic review.",
     "Cell: all 170 original rationales editorially improved and four review-only question revisions documented; remaining source figures, historical microscopy development, precise concept links, human approval and current-year official scope are unresolved.",
     "Computer: exact manual acceptance steps are prepared but all 15 Microsoft Office desktop scenarios remain unexecuted; four questions withheld; payroll/grading/exactly-40/version ambiguities and 342 unmapped package pages remain open.",
     "Protected preview requires verified existing Vercel project configuration and isolated test Firebase; production rules/auth domains/data separation/rollback not yet verified."
   ],
-  "nextCheckpoint": "Complete BIOL157 Unit 7 Proteins from all 71 actual Lecture 7 pages and three official outline subtopics, including amino-acid ionisation/calculations, peptide chemistry and protein structure; then Units 8\u201310 as separate tested batches. Finish Cell source/figure and exact-concept review, Computer remaining supported objectives and Office/manual academic decisions, auditable publication and isolated Firebase/Vercel preview readiness.",
+  "nextCheckpoint": "Complete BIOL157 Unit 8 Enzymes from all 61 actual Lecture 8 pages and four official topics; verify current enzyme classification and develop substantial catalysis, kinetics, worked calculations and regulation. Then Units 9–10 as separate tested batches. Finish remaining Cell/Computer source and exact-concept gaps, human Office/academic decisions, auditable publication and isolated Firebase/Vercel preview readiness.",
   "checklists": {
     "BIOL151": [
       {
@@ -230,12 +230,8 @@
     ]
   },
   "integrationPR": "https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17",
-  "testedImplementationCommit": "4bb8a374060c677ea457e9feac68c18645050352",
-  "githubCI": {
-    "status": "success",
-    "commit": "4bb8a374060c677ea457e9feac68c18645050352",
-    "url": "https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39503719577"
-  },
+  "testedImplementationCommit": null,
+  "githubCI": null,
   "checkpoints": [
     {
       "batch": "Five-PR integration and validation",

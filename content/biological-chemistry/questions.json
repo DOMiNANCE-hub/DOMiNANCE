@@ -7757,5 +7757,2373 @@
         "source": "RRNAINVENTORY"
       }
     ]
+  },
+  {
+    "id": "BIOL157-U07-Q001",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C01",
+    "lesson": "BC0701",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which description correctly distinguishes an ordinary internal residue from its free amino acid?",
+    "options": [
+      "Its α-amino and α-carboxyl-derived groups usually participate in backbone amide linkages.",
+      "Its side chain must lose every ionisable group.",
+      "Its α carbon becomes a carbonyl carbon.",
+      "It retains an independent free α-amino and α-carboxyl pair at each position."
+    ],
+    "letter": "A",
+    "explanation": "Incorporation creates backbone amides, so internal residues are not independent free zwitterions. Side-chain ionisable groups can remain; the α carbon remains distinct from the carbonyl carbon. Free terminal groups must be counted at chain ends rather than assigned to every residue.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            8,
+            10
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q002",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C01",
+    "lesson": "BC0701",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is glycine achiral at its α carbon?",
+    "options": [
+      "Its side chain contains a second stereocentre.",
+      "The α carbon has two identical hydrogen substituents.",
+      "Its carboxyl group has no oxygen.",
+      "Its amino nitrogen is part of a ring."
+    ],
+    "letter": "B",
+    "explanation": "Glycine has R=H, giving two identical α-carbon substituents and no stereocentre there. It still has the ordinary carboxyl group. A ring joining the side chain to amino nitrogen describes proline, while a second side-chain stereocentre occurs in isoleucine and threonine.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            8,
+            10
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q003",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C01",
+    "lesson": "BC0701",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which description of free proline corrects a common structural misconception?",
+    "options": [
+      "It has an ordinary primary amino group and an achiral α carbon.",
+      "Its sulfur atom directly forms the side-chain ring.",
+      "It contains a secondary amino group within a ring and retains its carboxyl group.",
+      "It lacks both an amino nitrogen and a carboxyl group."
+    ],
+    "letter": "C",
+    "explanation": "Proline reconnects its side chain to the amino nitrogen, making a secondary amine and restricting geometry. The carboxyl remains present and its α carbon is chiral. Sulfur does not form this ring; cysteine and methionine are the common sulfur-containing residues.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            8,
+            10
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q004",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C01",
+    "lesson": "BC0701",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "What follows from assigning L configuration to a common chiral α-amino acid?",
+    "options": [
+      "The sample must rotate plane-polarised light to the left.",
+      "The absolute configuration must be S in every case.",
+      "The molecule must have only one stereocentre.",
+      "A reference configuration is specified; measured optical rotation still needs independent information."
+    ],
+    "letter": "D",
+    "explanation": "L/D is a configurational convention rather than a sign of optical rotation. L-cysteine illustrates why L does not universally equal S: sulfur changes the priority order. Isoleucine and threonine also show that an L amino acid can contain an additional stereocentre.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            8,
+            10
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q005",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C02",
+    "lesson": "BC0702",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which pair has side-chain carboxylates that are usually negatively charged near pH 7?",
+    "options": [
+      "Aspartate and glutamate",
+      "Asparagine and glutamine",
+      "Lysine and arginine",
+      "Serine and threonine"
+    ],
+    "letter": "A",
+    "explanation": "Aspartate and glutamate have side-chain acid groups commonly deprotonated at neutral pH. Asparagine/glutamine have uncharged amides, lysine/arginine are usually positively charged, and serine/threonine have ordinarily uncharged hydroxyl side chains.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            6,
+            6
+          ],
+          [
+            10,
+            12
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q006",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C02",
+    "lesson": "BC0702",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which common sulfur residue supplies a thiol that can form an ordinary protein disulfide?",
+    "options": [
+      "Asparagine",
+      "Cysteine",
+      "Methionine",
+      "Tyrosine"
+    ],
+    "letter": "B",
+    "explanation": "Two appropriate cysteine thiols can be oxidised into a disulfide. Methionine contains a thioether rather than that thiol. Tyrosine has a phenol and asparagine a carboxamide; neither provides the ordinary cysteine–cysteine disulfide chemistry.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            6,
+            6
+          ],
+          [
+            10,
+            12
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q007",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C02",
+    "lesson": "BC0702",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is a basic classification insufficient to claim every histidine side chain is positive at pH 7?",
+    "options": [
+      "Histidine has the same permanently charged group as arginine.",
+      "The side chain becomes a carboxylate at neutral pH.",
+      "Imidazole protonation depends on its pKa and environment; a substantial uncharged population can exist.",
+      "Basic residues cannot accept protons."
+    ],
+    "letter": "C",
+    "explanation": "Histidine can accept or donate a proton, but its charged fraction depends on pH relative to its environment-dependent pKa. It is not permanently charged and does not acquire a carboxylate by ionisation. This equilibrium flexibility helps explain catalytic roles.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            6,
+            6
+          ],
+          [
+            10,
+            12
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q008",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C02",
+    "lesson": "BC0702",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "A surface glutamate is replaced by glutamine. Which chemical change is most directly expected near neutral pH?",
+    "options": [
+      "A nonpolar hydrocarbon replaces the entire polar side chain.",
+      "A second positive guanidinium group is added.",
+      "A thiol becomes an interchain disulfide.",
+      "A similarly sized polar side chain loses the usual negative carboxylate charge."
+    ],
+    "letter": "D",
+    "explanation": "Glutamine has a side-chain amide instead of glutamate’s carboxylate, retaining polarity while removing the usual negative charge. Valine would provide a more hydrocarbon-rich replacement; arginine supplies guanidinium and cysteine supplies a thiol. The functional effect still depends on location.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            6,
+            6
+          ],
+          [
+            10,
+            12
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q009",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C02",
+    "lesson": "BC0702",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which residue-code pairing is correct?",
+    "options": [
+      "Tryptophan — Trp — W",
+      "Tyrosine — Trp — T",
+      "Threonine — Tyr — Y",
+      "Glutamine — Glu — E"
+    ],
+    "letter": "A",
+    "explanation": "Tryptophan is Trp/W. Tyrosine is Tyr/Y, threonine Thr/T and glutamine Gln/Q; Glu/E denotes glutamate. Correct code interpretation prevents reading a different chemical side chain into a sequence.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            6,
+            6
+          ],
+          [
+            10,
+            12
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q010",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C03",
+    "lesson": "BC0703",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "For one acid–base pair at pH equal to its pKa, what concentration relationship follows?",
+    "options": [
+      "The whole protein must be at its isoelectric point.",
+      "Deprotonated and protonated forms have equal concentrations.",
+      "Only the protonated form can be present.",
+      "The deprotonated form is ten times as abundant."
+    ],
+    "letter": "B",
+    "explanation": "Henderson–Hasselbalch gives log10(base/acid)=0, so the ratio is one. A 10:1 ratio requires pH one unit above pKa. Equality for one group does not establish zero net charge for a molecule with other ionisable groups.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            18
+          ],
+          [
+            32,
+            35
+          ],
+          [
+            69,
+            69
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PI"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q011",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C03",
+    "lesson": "BC0703",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "A supplied two-group example has pKa values 2.4 and 9.6, with the net-zero state between them. What pI follows in the ideal model?",
+    "options": [
+      "7.2",
+      "12.0",
+      "6.0",
+      "2.4"
+    ],
+    "letter": "C",
+    "explanation": "The two dissociations bracketing the zero-charge state give pI=(2.4+9.6)/2=6.0. The lower pKa alone is one group’s midpoint, the pKa difference 7.2 is not the pI, and the unaveraged sum 12.0 omits division by two.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            18
+          ],
+          [
+            32,
+            35
+          ],
+          [
+            69,
+            69
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PI"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q012",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C03",
+    "lesson": "BC0703",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "For a lysine-like example, successive supplied pKa values are 2.2, 9.0 and 10.5 and charges change +2→+1→0→−1. What pI follows?",
+    "options": [
+      "5.60",
+      "6.35",
+      "7.23",
+      "9.75"
+    ],
+    "letter": "D",
+    "explanation": "The zero state is between the dissociations at 9.0 and 10.5, giving (9.0+10.5)/2=9.75. Averaging the first two gives 5.60, the first and last 6.35 and all three about 7.23; none brackets the stated zero-charge state.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            18
+          ],
+          [
+            32,
+            35
+          ],
+          [
+            69,
+            69
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PI"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q013",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C03",
+    "lesson": "BC0703",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "An aspartate-like example has supplied pKa values 2.0, 3.9 and 9.9 and charges +1→0→−1→−2. What is its ideal pI?",
+    "options": [
+      "2.95",
+      "5.95",
+      "6.90",
+      "5.27"
+    ],
+    "letter": "A",
+    "explanation": "Here the neutral state lies between the first two dissociations, so pI=(2.0+3.9)/2=2.95. Using the first and last or last two averages the wrong states, while averaging all three ignores which forms bracket zero.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            18
+          ],
+          [
+            32,
+            35
+          ],
+          [
+            69,
+            69
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PI"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q014",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C03",
+    "lesson": "BC0703",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Using a supplied ammonium pKa of 9.6 at pH 8.6, approximately what fraction remains protonated in a simple single-group model?",
+    "options": [
+      "99%",
+      "91%",
+      "9%",
+      "50%"
+    ],
+    "letter": "B",
+    "explanation": "Deprotonated/protonated=10^(8.6−9.6)=0.1. The protonated fraction is 1/(1+0.1)=0.909, about 91%. Nine percent is approximately the opposite fraction; 50% belongs at pH=pKa and 99% would require about two pH units below pKa.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            18
+          ],
+          [
+            32,
+            35
+          ],
+          [
+            69,
+            69
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PI"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q015",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C03",
+    "lesson": "BC0703",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "With a supplied histidine side-chain pKa of 6.0 at pH 7.0, approximately what fraction is positively charged in the simple model?",
+    "options": [
+      "50%",
+      "1%",
+      "9.1%",
+      "90.9%"
+    ],
+    "letter": "C",
+    "explanation": "The neutral/protonated ratio is 10^(7−6)=10, so the protonated positive fraction is 1/(1+10)=1/11≈9.1%. The inverse fraction is 90.9%; 50% occurs at pKa, and 1% would be closer to two pH units above pKa.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            18
+          ],
+          [
+            32,
+            35
+          ],
+          [
+            69,
+            69
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PI"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q016",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C03",
+    "lesson": "BC0703",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "At a protein’s pI, which statement is justified?",
+    "options": [
+      "Every side chain has lost its formal charge.",
+      "Every protein must precipitate completely.",
+      "Its pI equals the mean of its free amino-acid pIs.",
+      "Its population has zero average net charge, although charged groups can remain."
+    ],
+    "letter": "D",
+    "explanation": "pI concerns the sum of charge contributions, not disappearance of all charged groups. Reduced repulsion can favour lower solubility, but precipitation depends on the protein and solution. Protein pI is not obtained by simply averaging the pIs of free amino acids.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            18
+          ],
+          [
+            32,
+            35
+          ],
+          [
+            69,
+            69
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PI"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q017",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C04",
+    "lesson": "BC0704",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which classification should replace a general adult-human claim that histidine is merely semi-essential?",
+    "options": [
+      "Histidine is one of the nine routinely indispensable amino acids.",
+      "Histidine is a dispensable carbohydrate.",
+      "Histidine is never used in proteins.",
+      "Histidine and arginine are permanently interchangeable dietary categories."
+    ],
+    "letter": "A",
+    "explanation": "Human indispensability includes histidine. Arginine may be conditionally indispensable, so the two should not be assigned an identical universal category. Histidine remains an amino acid with important structural and catalytic roles; dietary classification does not remove it from proteins.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            13,
+            17
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-NUTRITION"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q018",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C04",
+    "lesson": "BC0704",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why can abundant dietary amounts of other amino acids fail to compensate directly for one limiting indispensable amino acid during synthesis of a specified protein?",
+    "options": [
+      "Protein synthesis depends only on total amino-acid mass.",
+      "The required residue must occupy its specified sequence positions and cannot simply be replaced by any abundant residue.",
+      "Any side chain becomes the missing amino acid through peptide-bond formation.",
+      "Transamination creates every missing carbon skeleton without a pathway."
+    ],
+    "letter": "B",
+    "explanation": "A defined protein sequence requires particular residue identities. Total mass alone does not ensure a suitable amino-acid pattern. Transamination needs an appropriate skeleton and enzymes, and peptide formation does not transform arbitrary side chains into the required one. Overall nutrition remains more complex than this single limitation.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            13,
+            17
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-NUTRITION"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q019",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C04",
+    "lesson": "BC0704",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which statement correctly distinguishes two post-translational modifications?",
+    "options": [
+      "Every phosphorylation event activates every enzyme.",
+      "A hydroxyproline residue must be inserted by a separate ordinary hydroxyproline codon.",
+      "Lysine acetylation can neutralise its usual positive ε-amino charge, while phosphorylation adds a chemically different phosphate group.",
+      "Acetylation and phosphorylation are two names for the same group."
+    ],
+    "letter": "C",
+    "explanation": "Acetyl and phosphate additions have different structures and effects. Phosphorylation can activate, inhibit or change recognition depending on the protein. Collagen hydroxylation modifies incorporated residues rather than requiring the asserted separate ordinary codon assignment.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            13,
+            17
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-NUTRITION"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q020",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C04",
+    "lesson": "BC0704",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Which precursor-to-product description is correct?",
+    "options": [
+      "Histidine is a standard protein residue named adrenaline after folding.",
+      "Thyroglobulin is itself the free T3 hormone.",
+      "β-Alanine has its amino group on the same carbon as an α-amino acid.",
+      "Glutamate can be decarboxylated to GABA."
+    ],
+    "letter": "D",
+    "explanation": "Glutamate decarboxylation removes CO2 to form GABA. Adrenaline derives from tyrosine through a pathway, not from renaming histidine. T3 is released after modification and processing of thyroglobulin; β-alanine differs in amino-group position from an α-amino acid.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            13,
+            17
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-NUTRITION"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q021",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C05",
+    "lesson": "BC0705",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "What distinguishes an acid–base salt formation between amino-acid groups from a peptide-forming reaction?",
+    "options": [
+      "Proton transfer alone does not create the new covalent carbonyl C–N amide linkage.",
+      "Both processes necessarily cleave the same backbone bond.",
+      "Salt formation always consumes activated aminoacyl-tRNA.",
+      "Any aqueous amino-acid mixture spontaneously becomes a protein."
+    ],
+    "letter": "A",
+    "explanation": "Acid–base exchange changes protonation and ionic association, whereas peptide formation changes covalent connectivity and requires appropriate chemistry. Activated tRNA is part of cellular peptide synthesis, not a requirement for ordinary salt formation. Mixing free amino acids does not supply a complete spontaneous protein-synthesis pathway.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            19
+          ],
+          [
+            21,
+            31
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-NINHYDRIN"
+      },
+      {
+        "source": "PROTEIN-IR"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q022",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C05",
+    "lesson": "BC0705",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which outcome is expected for free proline in the ordinary ninhydrin test rather than assuming a uniform purple response?",
+    "options": [
+      "A specific red signal proving a peptide sequence",
+      "A different yellow product associated with its secondary amino group",
+      "The identical purple response of every primary α-amino acid at equal intensity",
+      "No possible reaction because proline has no nitrogen"
+    ],
+    "letter": "B",
+    "explanation": "Proline’s secondary amino chemistry gives a yellow product under ordinary test conditions. It does contain nitrogen. Neither its colour nor a purple response uniquely proves sequence, and equal molar response cannot be assumed across all analytes.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            19
+          ],
+          [
+            21,
+            31
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-NINHYDRIN"
+      },
+      {
+        "source": "PROTEIN-IR"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q023",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C05",
+    "lesson": "BC0705",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which statement correctly separates UV and ordinary mid-infrared absorption?",
+    "options": [
+      "Both are identical measurements of peptide sequence.",
+      "Infrared excites the same electronic transitions as UV in every amino acid.",
+      "UV commonly probes electronic transitions; mid-infrared commonly probes molecular vibrations.",
+      "Both necessarily involve only nuclear decay."
+    ],
+    "letter": "C",
+    "explanation": "UV and infrared have different energy regimes and common transition types. Mid-infrared stretching and bending differ from the electronic excitations relevant to UV absorption. Neither measurement alone reads the complete residue sequence, and ordinary absorption is not nuclear decay.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            19
+          ],
+          [
+            21,
+            31
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-NINHYDRIN"
+      },
+      {
+        "source": "PROTEIN-IR"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q024",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C05",
+    "lesson": "BC0705",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Aromatic amino-acid spectra have all been normalised to equal maximum height. What comparison is unsafe from that plot alone?",
+    "options": [
+      "Their peak wavelengths differ.",
+      "Their rescaled spectral shapes can be compared.",
+      "A curve extends over a different wavelength region.",
+      "Their absolute molar absorptivities are equal because the plotted peaks are equal."
+    ],
+    "letter": "D",
+    "explanation": "Normalisation removes the original absolute amplitude scale, so equal plotted peaks cannot establish equal molar absorptivity. Wavelength positions and normalised shapes remain interpretable. Concentration estimates require an appropriate absolute calibration rather than a rescaled drawing.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            19
+          ],
+          [
+            21,
+            31
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-NINHYDRIN"
+      },
+      {
+        "source": "PROTEIN-IR"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q025",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C05",
+    "lesson": "BC0705",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "For a theoretical protein, A280=0.50, ε=10,000 L mol−1 cm−1 and path length=1 cm. The measured solution is a tenfold dilution. What original concentration follows?",
+    "options": [
+      "500 µmol/L",
+      "50 µmol/L",
+      "5 µmol/L",
+      "5,000 µmol/L"
+    ],
+    "letter": "A",
+    "explanation": "A=εcl gives measured c=0.50/10,000=5×10−5 mol/L=50 µmol/L. Multiplying by ten gives the original 500 µmol/L. Fifty omits dilution correction, five reverses it and 5,000 adds an extra factor of ten. The supplied model assumes suitable blank correction and linearity.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            19
+          ],
+          [
+            21,
+            31
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-NINHYDRIN"
+      },
+      {
+        "source": "PROTEIN-IR"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q026",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C06",
+    "lesson": "BC0706",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "For an unmodified ordinary linear peptide, what establishes the written sequence direction?",
+    "options": [
+      "It runs from a β-sheet subunit to an α-helical subunit.",
+      "The sequence runs from its N terminus towards its C terminus.",
+      "It runs from the most hydrophobic residue towards the least hydrophobic.",
+      "It is determined by the left-to-right layout of any arbitrary sketch."
+    ],
+    "letter": "B",
+    "explanation": "The sequence convention is N→C, independent of how a drawing is rotated or how hydrophobic the ends are. Secondary structures and chain-type labels do not define sequence direction. Terminal modifications require explicit description but do not reverse the standard notation.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            23
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            43,
+            44
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PLANAR"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q027",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C06",
+    "lesson": "BC0706",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is formal loss of water from two free amino acids an incomplete account of ribosomal peptide synthesis?",
+    "options": [
+      "The ribosome directly joins adjacent α carbons.",
+      "Cellular synthesis occurs without chemical activation whenever free amino acids meet.",
+      "Cells use activated aminoacyl/peptidyl-tRNA chemistry and energy-dependent preparation.",
+      "Ribosomes join amino acids by a permanent salt interaction only."
+    ],
+    "letter": "C",
+    "explanation": "A condensation balance tracks net atoms, but cellular synthesis uses activated tRNA-linked substrates prepared with ATP-derived energy. The new linkage is an amide between carbonyl carbon and nitrogen, not an α-carbon bond or a mere ionic salt. Encounter in water alone is insufficient.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            23
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            43,
+            44
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PLANAR"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q028",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C06",
+    "lesson": "BC0706",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is rotation about the peptide C–N bond restricted relative to adjacent backbone single bonds?",
+    "options": [
+      "Each amino acid loses its carbonyl oxygen.",
+      "A peptide chain contains no single bonds anywhere.",
+      "The whole folded protein must lie in one geometric plane.",
+      "Resonance gives the amide C–N connection partial double-bond character."
+    ],
+    "letter": "D",
+    "explanation": "Delocalisation within the amide favours a relatively planar peptide unit with restricted C–N rotation. Adjacent φ/ψ bonds still permit conformational variation within steric constraints. Carbonyl oxygen is retained, and local planarity does not make an entire protein planar.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            23
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            43,
+            44
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PLANAR"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q029",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C06",
+    "lesson": "BC0706",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which statement correctly describes peptide geometry around proline?",
+    "options": [
+      "Cis peptide units are relatively more frequent before proline, but a proline-containing bond is not automatically cis.",
+      "Every peptide unit before proline must be trans with no exceptions.",
+      "Every peptide unit before proline must be cis.",
+      "Proline supplies an extra internal peptide N–H donor."
+    ],
+    "letter": "A",
+    "explanation": "The cis/trans balance is distinctive near proline, but neither conformation is a universal requirement for every such linkage. Internal proline lacks the ordinary N–H donor; it does not add one. Geometry and donor availability are separate effects.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            23
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            43,
+            44
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PLANAR"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q030",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C06",
+    "lesson": "BC0706",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "How many backbone peptide bonds are present in ordinary linear Gly–Ala–Ser?",
+    "options": [
+      "Four",
+      "Two",
+      "One",
+      "Three"
+    ],
+    "letter": "B",
+    "explanation": "A linear chain of three residues has n−1=2 backbone peptide bonds, one free N terminus and one free C terminus before modifications. Counting residues instead of connections gives three; counting termini as additional peptide bonds gives the other incorrect totals.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            18,
+            23
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            43,
+            44
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PLANAR"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q031",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C07",
+    "lesson": "BC0707",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Separate unmodified linear chains contain 21 and 30 residues and are joined by disulfides. How many backbone peptide bonds are present?",
+    "options": [
+      "51",
+      "47",
+      "49",
+      "50"
+    ],
+    "letter": "C",
+    "explanation": "Each chain contributes one fewer peptide bond than residues: 20+29=49. Treating the 51 residues as one chain gives 50 incorrectly. Disulfides join cysteine side chains and do not add backbone amides; their number must not be subtracted from the ordinary backbone count.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            38,
+            44
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q032",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C07",
+    "lesson": "BC0707",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Using supplied free amino-acid masses Gly=75, Ala=89, Ser=105 and water=18 g/mol, what is the formal mass of ordinary linear Gly–Ala–Ser?",
+    "options": [
+      "269 g/mol",
+      "251 g/mol",
+      "215 g/mol",
+      "233 g/mol"
+    ],
+    "letter": "D",
+    "explanation": "The free-amino-acid total is 269. Two peptide-forming condensations remove 2×18=36, leaving 233 g/mol. The alternatives subtract zero, one or three waters. This calculation uses the supplied rounded free masses, not an already residue-based table.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            38,
+            44
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q033",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C07",
+    "lesson": "BC0707",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "An oriented four-residue peptide permits any of twenty residues independently at each position, including repetition. How many sequences are possible?",
+    "options": [
+      "160,000",
+      "80",
+      "24",
+      "116,280"
+    ],
+    "letter": "A",
+    "explanation": "The multiplication rule gives 20×20×20×20=20^4=160,000. Eighty adds rather than multiplies choices; 24 applies to four distinct fixed residues without repetition; 116,280 counts 20×19×18×17 arrangements without repetition, contrary to the stated independent choices.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            38,
+            44
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q034",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C07",
+    "lesson": "BC0707",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "A peptide has exactly two glycines and one alanine. How many distinguishable N→C orders are possible?",
+    "options": [
+      "Twenty-seven",
+      "Three",
+      "One",
+      "Six"
+    ],
+    "letter": "B",
+    "explanation": "The distinguishable orders are GGA, GAG and AGG, or 3!/2!=3. One ignores order; six treats the two glycines as distinguishable. Twenty-seven assumes three independent distinguishable choices at each position and fails the fixed-composition condition.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            38,
+            44
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q035",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C07",
+    "lesson": "BC0707",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Complete ideal hydrolysis gives equal Gly/Ala/Ser composition for two different tripeptides. What remains unresolved from composition alone?",
+    "options": [
+      "The identities of all three detected residue types",
+      "The reported total number of detected residues under the ideal assumptions",
+      "The original N→C order of those residues",
+      "Whether any amino-acid residues were present"
+    ],
+    "letter": "C",
+    "explanation": "Composition counts residue types but erases their original order. Detecting the stated identities and totals does not recover the sequence; overlapping fragments or another sequencing method are needed. This limitation differs from uncertain analytical recovery, which adds a further problem.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            38,
+            44
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q036",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C07",
+    "lesson": "BC0707",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Strong-acid analysis reports ten Asx residues and no tryptophan peak. Which interpretation is justified?",
+    "options": [
+      "The original protein necessarily contained ten Asp and zero Asn.",
+      "The missing tryptophan peak proves the original protein lacked tryptophan.",
+      "The analysis uniquely identifies the complete original sequence.",
+      "Asx combines original Asp/Asn, and acid destruction can explain an absent tryptophan signal."
+    ],
+    "letter": "D",
+    "explanation": "Asparagine can be converted into aspartate, making Asx a combined category; tryptophan is destroyed under ordinary acid-hydrolysis conditions. Therefore neither the exact original Asp count nor tryptophan absence is proven, and composition cannot establish sequence.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            38,
+            44
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q037",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C08",
+    "lesson": "BC0708",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which pair describes the characteristic hydrogen bond of a regular α helix?",
+    "options": [
+      "Backbone carbonyl O of residue i and backbone N–H of residue i+4",
+      "Side-chain carbon of i and side-chain carbon of i+1",
+      "A covalent peptide bond directly from i to i+4",
+      "Two sulphur atoms on every fourth residue"
+    ],
+    "letter": "A",
+    "explanation": "The regular α-helix pattern is a backbone hydrogen bond from C=O at i to N–H at i+4. Peptide covalent links still connect successive residues. The pattern neither requires paired sulfurs nor represents a direct side-chain carbon bond.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            45,
+            48
+          ],
+          [
+            56,
+            56
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q038",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C08",
+    "lesson": "BC0708",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "For an ideal uninterrupted twenty-residue α-helical segment, how many internal i→i+4 hydrogen bonds fit entirely within the segment?",
+    "options": [
+      "Five",
+      "Sixteen",
+      "Twenty",
+      "Nineteen"
+    ],
+    "letter": "B",
+    "explanation": "The donor/acceptor index pairs start at i=1 and end at i=16, where i+4=20, giving 20−4=16. Nineteen counts linear peptide bonds, twenty ignores end limitations and five divides residue count by four rather than counting eligible pairs.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            45,
+            48
+          ],
+          [
+            56,
+            56
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q039",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C08",
+    "lesson": "BC0708",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Using an explicitly supplied ideal α-helical rise of 0.15 nm per residue, estimate the axial length for twenty residues.",
+    "options": [
+      "30 nm",
+      "133 nm",
+      "3.0 nm",
+      "0.30 nm"
+    ],
+    "letter": "C",
+    "explanation": "The ideal estimate is 20×0.15=3.0 nm. The other values reflect factor-of-ten or inverted-unit errors. This model gives an approximate helix-axis length rather than an actual measured structure or a fully extended chain length.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            45,
+            48
+          ],
+          [
+            56,
+            56
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q040",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C08",
+    "lesson": "BC0708",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Two neighbouring β strands run in opposite N→C directions. What is this arrangement?",
+    "options": [
+      "Parallel",
+      "An α-helix i+4 covalent linkage",
+      "A disulfide-only chain reversal",
+      "Antiparallel"
+    ],
+    "letter": "D",
+    "explanation": "Opposing sequence directions define an antiparallel sheet arrangement; matching directions define parallel. Interstrand backbone hydrogen bonding differs from the helical i+4 pattern. A disulfide is a different covalent side-chain connection and does not define strand direction.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            45,
+            48
+          ],
+          [
+            56,
+            56
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q041",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C08",
+    "lesson": "BC0708",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Which feature helps explain collagen triple-helix packing?",
+    "options": [
+      "Glycine occurs at every third position in the characteristic Gly–X–Y repeat.",
+      "Each collagen chain must be an ordinary right-handed α helix.",
+      "Every third residue must have the bulkiest available side chain.",
+      "The triple helix is a single polypeptide with three domains only."
+    ],
+    "letter": "A",
+    "explanation": "Small glycine side chains permit tight packing in the characteristic triple-chain structure. Collagen is not simply three ordinary α helices, and a bulky replacement can interfere with the required geometry. Three chains are distinct from three domains of one chain.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            45,
+            48
+          ],
+          [
+            56,
+            56
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q042",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C09",
+    "lesson": "BC0709",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "A single polypeptide contains two compact domains. What can be concluded from that fact alone?",
+    "options": [
+      "Each domain must be a separate N→C backbone.",
+      "It can remain monomeric; two domains do not imply two polypeptide chains.",
+      "It must be a heterodimer.",
+      "It must contain no tertiary structure."
+    ],
+    "letter": "B",
+    "explanation": "Domains are regions within a chain, whereas a dimer contains two subunits. A multidomain chain still has a tertiary arrangement. Independent backbones and heterodimeric composition require additional evidence rather than counting compact regions.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            3,
+            7
+          ],
+          [
+            45,
+            48
+          ],
+          [
+            68,
+            70
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q043",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C09",
+    "lesson": "BC0709",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "What best explains a common contribution of nonpolar side-chain burial to soluble-protein folding?",
+    "options": [
+      "Water is absent from all surfaces of soluble proteins.",
+      "Only disulfides can stabilise a folded chain.",
+      "Reducing nonpolar surface exposed to water can favour the folded arrangement through the hydrophobic effect.",
+      "Every hydrophobic contact creates a new covalent peptide bond."
+    ],
+    "letter": "C",
+    "explanation": "The hydrophobic effect involves solvent consequences of nonpolar exposure, not a new covalent bond. Water remains around soluble proteins, and packing, hydrogen bonds, electrostatics and sometimes disulfides also contribute. Net stability depends on combined favourable effects and costs.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            3,
+            7
+          ],
+          [
+            45,
+            48
+          ],
+          [
+            68,
+            70
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q044",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C09",
+    "lesson": "BC0709",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which arrangement is plausible for a membrane channel?",
+    "options": [
+      "A uniformly nonpolar surface including every water-exposed pore position",
+      "No hydrophobic residues anywhere in its membrane-spanning region",
+      "An exclusively soluble globular protein with no membrane interaction",
+      "Hydrophobic lipid-facing surfaces with polar groups lining an aqueous pathway"
+    ],
+    "letter": "D",
+    "explanation": "Different surfaces contact different environments. Lipid-facing regions often expose hydrophobic groups while a water-accessible pore can present polar groups. A membrane protein need not be uniformly hydrophobic, but membrane-spanning regions cannot be explained by ignoring lipid interactions.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            3,
+            7
+          ],
+          [
+            45,
+            48
+          ],
+          [
+            68,
+            70
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q045",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C09",
+    "lesson": "BC0709",
+    "sectionId": "s6",
+    "objective": "BIOL157-CLO5",
+    "question": "A hypothetical enzyme loses activity in urea and regains it after urea removal while its peptide sequence remains unchanged. What is the best supported interpretation?",
+    "options": [
+      "Reversible disruption and restoration of a functional fold",
+      "Complete peptide hydrolysis followed by spontaneous resynthesis",
+      "Replacement of every side chain by urea",
+      "Proof that every enzyme always refolds without assistance"
+    ],
+    "letter": "A",
+    "explanation": "The observations are consistent with reversible denaturation/refolding without changing sequence. Hydrolysis/resynthesis would require additional covalent evidence and chemistry. One protein’s recovery does not establish universal refolding, and urea exposure does not mean all side chains were replaced.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            3,
+            7
+          ],
+          [
+            45,
+            48
+          ],
+          [
+            68,
+            70
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q046",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C10",
+    "lesson": "BC0710",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "In a typical α2β2 assembly, α and β denote distinct polypeptide types. How many chains and types are present?",
+    "options": [
+      "Two α helices and two β sheets with no chain information",
+      "Four chains and two types",
+      "Two chains and four types",
+      "Four chains and four necessarily different types"
+    ],
+    "letter": "B",
+    "explanation": "Subscripts count copies of each chain type: two α plus two β gives four chains of two types. These labels do not specify secondary structures. Counting the symbols alone misses the repeated copies, while counting each copy as a new type confuses identity with multiplicity.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            4,
+            5
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            52,
+            52
+          ],
+          [
+            65,
+            66
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q047",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C10",
+    "lesson": "BC0710",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which comparison between typical haemoglobin A and myoglobin is correct?",
+    "options": [
+      "Myoglobin has four identical oxygen-binding chains.",
+      "Haem binding proves the proteins have identical physiological roles.",
+      "Haemoglobin has multiple interacting oxygen-binding subunits; myoglobin is a one-chain protein with one oxygen-binding site.",
+      "Both necessarily have α2β2 composition."
+    ],
+    "letter": "C",
+    "explanation": "Haemoglobin’s assembly supports communication between its sites, while single-chain myoglobin lacks that same multi-site organisation. Both use haem but differ in organisation and role. A common prosthetic group does not force identical chain counts or functions.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            4,
+            5
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            52,
+            52
+          ],
+          [
+            65,
+            66
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q048",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C10",
+    "lesson": "BC0710",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "What does positive oxygen-binding cooperativity in haemoglobin mean?",
+    "options": [
+      "The first oxygen creates extra polypeptide chains.",
+      "Every site must always be occupied together.",
+      "Bound oxygen is necessarily consumed as a chemical substrate.",
+      "Binding can favour conformational states with higher affinity at remaining sites."
+    ],
+    "letter": "D",
+    "explanation": "Cooperativity concerns linked binding equilibria and conformational populations. It does not change the number of subunits or require all-or-none permanent occupancy. Reversible oxygen binding differs from consuming oxygen in a catalytic reaction.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            4,
+            5
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            52,
+            52
+          ],
+          [
+            65,
+            66
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q049",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C10",
+    "lesson": "BC0710",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "A hypothetical α2β2 protein has 100 residues per α chain and 80 per β chain. How many ordinary backbone peptide bonds are present in the four separate linear chains?",
+    "options": [
+      "356",
+      "359",
+      "360",
+      "352"
+    ],
+    "letter": "A",
+    "explanation": "Total residues are 2×100+2×80=360. Subtract one terminal gap per separate chain: 360−4=356. Subtracting one treats all chains as continuous; 360 counts residues; 352 incorrectly subtracts twice per chain. Noncovalent association adds no peptide bonds.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            4,
+            5
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            52,
+            52
+          ],
+          [
+            65,
+            66
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q050",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C10",
+    "lesson": "BC0710",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "In the haemoglobin example, why can replacing glutamate with valine affect intermolecular association?",
+    "options": [
+      "It makes all mutant molecules permanently unfolded regardless of conditions.",
+      "It replaces a usually charged side chain with a hydrophobic one, changing surface interactions.",
+      "It automatically removes every peptide bond from the β chain.",
+      "It converts haem into a carbohydrate."
+    ],
+    "letter": "B",
+    "explanation": "The substitution changes local chemistry and can favour abnormal association of deoxygenated HbS molecules. This is different from wholesale hydrolysis, a change of haem class or universal permanent unfolding. The structural mechanism must be interpreted in its molecular and clinical context.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            4,
+            5
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            52,
+            52
+          ],
+          [
+            65,
+            66
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-FOLD"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q051",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C11",
+    "lesson": "BC0711",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is a phosphotyrosine residue alone insufficient to guarantee binding by any SH2-containing protein?",
+    "options": [
+      "Every phosphorylated residue is a proline-rich sequence.",
+      "SH2 binding necessarily hydrolyses every peptide bond.",
+      "Recognition also depends on the surrounding motif and appropriate molecular context.",
+      "SH2 domains recognise only peptide length and never chemistry."
+    ],
+    "letter": "C",
+    "explanation": "SH2 domains commonly recognise suitable phosphotyrosine-containing motifs, so context and accessibility matter. SH3 domains have different common recognition preferences. Binding is a selective interaction, not automatic destruction of the protein backbone.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            49,
+            67
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q052",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C11",
+    "lesson": "BC0711",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which statement about haemoprotein and metalloprotein categories is correct?",
+    "options": [
+      "Every metal-containing protein must have haem.",
+      "Haemoprotein describes only a protein’s chain number.",
+      "A protein cannot simultaneously be an enzyme and a haemoprotein.",
+      "Haemoproteins are metalloproteins, but other metalloproteins need not contain haem."
+    ],
+    "letter": "D",
+    "explanation": "Haem contains iron in a particular porphyrin group, making haemoproteins a subset of metal-containing proteins. Other metal associations exist. Chemical composition, subunit number and physiological function are different classification axes, so an enzyme can also be a haemoprotein.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            49,
+            67
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q053",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C11",
+    "lesson": "BC0711",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which functional pairing is correct?",
+    "options": [
+      "Ferritin — iron storage",
+      "Albumin — only DNA sequence replication",
+      "Insulin — a steroid made of fused hydrocarbon rings",
+      "Tubulin — the same ATP-driven motor as myosin"
+    ],
+    "letter": "A",
+    "explanation": "Ferritin stores iron. Albumin transports several substances, insulin is a peptide/protein hormone and tubulin builds microtubules rather than being interchangeable with myosin. Related or overlapping cellular roles do not make these molecules chemically or mechanistically identical.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            49,
+            67
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q054",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C11",
+    "lesson": "BC0711",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "What distinguishes a prosthetic group from an arbitrary substrate transiently contacting a protein?",
+    "options": [
+      "It must always be covalently linked and can never be noncovalent.",
+      "It is a tightly associated nonprotein component important to the protein’s function; covalent attachment is not required.",
+      "It must be another complete polypeptide subunit.",
+      "It is necessarily every molecule present in the same solution."
+    ],
+    "letter": "B",
+    "explanation": "A prosthetic group is an integral, tightly associated functional component; linkage can be covalent or noncovalent. An ordinary substrate may bind and leave during turnover without becoming a prosthetic group. A complete polypeptide partner is a different structural category.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            49,
+            67
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q055",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C12",
+    "lesson": "BC0712",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "In ordinary size-exclusion chromatography within the useful fractionation range, why do larger molecules often elute earlier?",
+    "options": [
+      "They must carry a more positive net charge.",
+      "They pass through more pore volume than all smaller molecules.",
+      "They access less internal bead-pore volume.",
+      "They bind most strongly to an immobilised affinity ligand."
+    ],
+    "letter": "C",
+    "explanation": "Larger molecules explore less internal pore space and take a shorter accessible path. This size-based mechanism differs from affinity binding or ion exchange. Shape, aggregation and column range affect interpretation; early elution alone does not establish molecular identity.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            32,
+            37
+          ],
+          [
+            68,
+            70
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PURIFY"
+      },
+      {
+        "source": "PROTEIN-IDENTITY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q056",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C12",
+    "lesson": "BC0712",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which ion-exchanger description is correct?",
+    "options": [
+      "A cation exchanger has fixed positive groups and binds anions.",
+      "An anion exchanger has no charge-bearing groups.",
+      "The resin charge must always equal the retained solute charge.",
+      "A cation exchanger has fixed negative groups and can bind positively charged solutes."
+    ],
+    "letter": "D",
+    "explanation": "The name refers to the exchanged solute: negatively charged resin retains cations, while positively charged resin retains anions. Opposite charges favour interaction under suitable conditions. Actual retention also depends on buffer, salt and surface properties.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            32,
+            37
+          ],
+          [
+            68,
+            70
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PURIFY"
+      },
+      {
+        "source": "PROTEIN-IDENTITY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q057",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C12",
+    "lesson": "BC0712",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "A hypothetical protein has pI 8 and is placed in a pH 6 buffer. Which charge-based prediction is plausible?",
+    "options": [
+      "It tends net positive and may bind a suitable cation exchanger.",
+      "It tends net negative because pH is below pI.",
+      "It must have zero charge because pI and pH are both numbers.",
+      "Its charge proves its exact amino-acid sequence."
+    ],
+    "letter": "A",
+    "explanation": "Below pI the average net charge tends positive, supporting possible binding to a negative cation-exchange resin. Above pI the tendency reverses. This is a conditional prediction rather than guaranteed retention or sequence determination.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            32,
+            37
+          ],
+          [
+            68,
+            70
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PURIFY"
+      },
+      {
+        "source": "PROTEIN-IDENTITY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q058",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C12",
+    "lesson": "BC0712",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "A multimer gives smaller polypeptide bands after SDS treatment and reduction. What inference avoids conflating distinct processes?",
+    "options": [
+      "One visible band establishes exact sequence identity by itself.",
+      "Subunit association and disulfides can be disrupted without deliberate peptide-backbone hydrolysis.",
+      "Every smaller band proves that every peptide bond was cleaved.",
+      "SDS-PAGE directly proves native activity of each band."
+    ],
+    "letter": "B",
+    "explanation": "SDS can unfold/dissociate complexes and a reducing reagent cleaves susceptible disulfides, allowing intact individual chains to separate. Peptide cleavage is a different reaction. Band appearance supports size/heterogeneity analysis but does not alone prove sequence identity or retained native function.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            32,
+            37
+          ],
+          [
+            68,
+            70
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PURIFY"
+      },
+      {
+        "source": "PROTEIN-IDENTITY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q059",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C12",
+    "lesson": "BC0712",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "An extract has 100 mg total protein and 200 activity units; a fraction has 10 mg and 100 units. What are its enrichment and activity recovery?",
+    "options": [
+      "Twofold enrichment and 10% recovery",
+      "Fivefold enrichment and 5% recovery",
+      "Fivefold enrichment and 50% recovery",
+      "Tenfold enrichment and 100% recovery"
+    ],
+    "letter": "C",
+    "explanation": "Initial specific activity=200/100=2 units/mg; final=100/10=10 units/mg, so enrichment=10/2=5. Activity recovery=100/200×100=50%. Total mass reduction alone is not the activity recovery or purification factor.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            32,
+            37
+          ],
+          [
+            68,
+            70
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PURIFY"
+      },
+      {
+        "source": "PROTEIN-IDENTITY"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U07-Q060",
+    "unit": "U07",
+    "conceptId": "BIOL157-U07-C12",
+    "lesson": "BC0712",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which interpretation of salting out best retains the source’s useful principle without imposing a universal threshold?",
+    "options": [
+      "Every protein precipitates irreversibly above exactly 1 M of every salt.",
+      "Salt precipitation always proves peptide-bond hydrolysis.",
+      "Low and high salt must have identical effects on every protein.",
+      "Suitable high salt can decrease solubility, but protein, ion identity, pH and temperature determine the conditions."
+    ],
+    "letter": "D",
+    "explanation": "Salting-in and salting-out are condition-dependent solubility behaviours. The lecture’s molarity divisions illustrate trends, not universal constants. Precipitation can be reversible and does not by itself demonstrate denaturation or backbone cleavage.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L7",
+        "pages": [
+          [
+            32,
+            37
+          ],
+          [
+            68,
+            70
+          ]
+        ]
+      },
+      {
+        "source": "PROTEIN-PURIFY"
+      },
+      {
+        "source": "PROTEIN-IDENTITY"
+      }
+    ]
   }
 ]

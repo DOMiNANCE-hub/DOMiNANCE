@@ -1,8 +1,8 @@
 # BIOL157 academic review and release boundaries
 
-Current release-candidate branch: `release/hb1-three-course-rc-20261020`, draft PR #17. **59 draft lessons, 222 MCQs, 118 explicit-answer checks, 361 sections and ten original figures** cover Units 1–6. Twenty of the official 34 topics have draft notes; Units 7–10 are explicitly not authored. Human academic approval remains null and normal student assets contain no draft teaching or question text. See [permanent three-course readiness](../release/READINESS.md).
+Current release-candidate branch: `release/hb1-three-course-rc-20261020`, draft PR #17. **71 draft lessons, 282 MCQs, 142 explicit-answer checks, 444 sections and fourteen original figures** cover Units 1–7. Twenty-three of the official 34 topics have draft notes; Units 8–10 are explicitly not authored. Human academic approval remains null and normal student assets contain no draft teaching or question text. See [permanent three-course readiness](../release/READINESS.md).
 
-The available official outline has ten units, 34 subtopics, five outcomes and **three actual PDF pages**. All eleven source identities/page counts are recorded. Lecture text has been read in full for Units 1–6, with selected visual checks; Lectures 7–10 remain heading inventory until their own authoring batches. Presence of a source, a question count or passing software tests does not prove academic completeness.
+The available official outline has ten units, 34 subtopics, five outcomes and **three actual PDF pages**. All eleven source identities/page counts are recorded. Lecture text has been read in full for Units 1–7, with selected visual checks; Lectures 8–10 remain heading inventory until their own authoring batches. Presence of a source, a question count or passing software tests does not prove academic completeness.
 
 | Unit | Lessons | MCQs | Review evidence |
 |---|---:|---:|---|
@@ -12,8 +12,9 @@ The available official outline has ten units, 34 subtopics, five outcomes and **
 | 4 — Bonding/Molecules | 12 | 51 original | unit-reviews/U04.json; docs/release/UNIT04.md |
 | 5 — Carbohydrates | 14 | 58 original | unit-reviews/U05.json; docs/release/UNIT05.md |
 | 6 — Nucleic Acids | 10 | 45 original | unit-reviews/U06.json; docs/release/UNIT06.md |
+| 7 — Proteins | 12 | 60 original | unit-reviews/U07.json; docs/release/UNIT07.md |
 
-Notes remain usable without questions; practice and precise feedback links use existing per-course owner transactions. Original Unit 1 candidate IDs/provenance remain intact. Unit 5 verifies preservation of its prior 35 notes/119 assessment objects; Unit 6 verifies its prior 49 notes/177 assessment objects. New material remains a draft and is not an official past paper. Course outcomes with authored notes remain labelled partial, never complete approval; the enzyme outcome still has no authored batch.
+Notes remain usable without questions; practice and precise feedback links use existing per-course owner transactions. Original Unit 1 candidate IDs/provenance remain intact. Unit 5 verifies preservation of its prior 35 notes/119 assessment objects; Unit 6 verifies its prior 49 notes/177 assessment objects. Unit 7 verifies its prior 59 notes/222 questions and earlier concepts/figures. New material remains a draft and is not an official past paper. Course outcomes with authored notes remain labelled partial, never complete approval; the enzyme outcome still has no authored batch.
 
 ## Source discrepancies and decisions from the foundation
 
@@ -37,14 +38,14 @@ Notes remain usable without questions; practice and precise feedback links use e
 | L10 pp.10,27 (kit flags) | Linolenic-acid and ganglioside/sulfatide concerns | Pending independent verification before Unit 10 authoring. No associated notes/questions imported. |
 
 
-Subsequent source discrepancies are in the unit-specific ledgers. Unit 3 qualifies atomic models, transition-ion configuration, modern groups and conditional periodic trends. Unit 4 separates domain geometry, polarity, bonding models, E/Z/CIP, D/L/rotation and meso symmetry. Unit 5 qualifies clinical/diet ranges, galactosaemia guarantees, derivative/polymer chemistry, phosphorolysis products, GAG exceptions and assay timing/calibration. Unit 6 distinguishes phosphate environments, canonical duplex constraints, helix/topology, UV purity/integrity, RNA chemistry/functions and analogue mechanisms. Unsupported statements are not turned into assessment keys.
+Subsequent source discrepancies are in the unit-specific ledgers. Unit 3 qualifies atomic models, transition-ion configuration, modern groups and conditional periodic trends. Unit 4 separates domain geometry, polarity, bonding models, E/Z/CIP, D/L/rotation and meso symmetry. Unit 5 qualifies clinical/diet ranges, galactosaemia guarantees, derivative/polymer chemistry, phosphorolysis products, GAG exceptions and assay timing/calibration. Unit 6 distinguishes phosphate environments, canonical duplex constraints, helix/topology, UV purity/integrity, RNA chemistry/functions and analogue mechanisms. Unit 7 corrects/qualifies proline, histidine, peptide activation, UV/IR, ninhydrin exceptions, destructive analysis, structural levels and separation assumptions. Unsupported statements are not turned into assessment keys.
 
 ## Evidence and assessment limits
 
-All eleven private PDF hashes/page counts and **252 literal page anchors** match the authorised files. Fifty-five selected visual pages across Lectures 1–6 were inspected (1+5+4+8+21+16), separately from text anchoring. New original diagrams do not copy source images. CI validates structure and regression fixtures but cannot re-read private PDFs absent from Git. Secondary-source CAPTCHA/timeouts and search-only evidence are explicitly recorded; no full-text certification is inferred.
+All eleven private PDF hashes/page counts and **321 literal page anchors** match the authorised files. Seventy-six selected visual pages across Lectures 1–7 were inspected (1+5+4+8+21+16+21), separately from text anchoring. New original diagrams do not copy source images. CI validates structure and regression fixtures but cannot re-read private PDFs absent from Git. Secondary-source CAPTCHA/timeouts and search-only evidence are explicitly recorded; no full-text certification is inferred.
 
-There is no separate BIOL157 withheld-question bank at this checkpoint: all 222 adapted/original items are protected drafts with reviewer null. Unsupported source statements are excluded from assessed answers. Computer Appreciation independently retains four withheld questions, unaffected by this batch. No physical carbohydrate bench test or clinical diagnostic performance was measured.
+There is no separate BIOL157 withheld-question bank at this checkpoint: all 282 adapted/original items are protected drafts with reviewer null. Unsupported source statements are excluded from assessed answers. Computer Appreciation independently retains four withheld questions, unaffected by this batch. No physical carbohydrate bench test or clinical diagnostic performance was measured.
 
 ## Exact next batch
 
-Read all 71 actual pages of Lecture 7 and the official outline's three Proteins subtopics. Develop substantial foundations and examinable reasoning for amino-acid structures/ionisation, peptide chemistry and protein architecture, with explicit worked calculations, comparisons, original visuals, checks and section-linked questions. Deliver that tested batch before Units 8–10. Retain Cell/Computer completion, human review, auditable publication and isolated-preview gates.
+Read all 61 actual pages of Lecture 8 and its four official subtopics before authoring Enzymes. Verify the historical classification against current IUBMB evidence; explain catalysis, kinetics and regulation in depth with explicit calculation assumptions and meaningful original assessments. Deliver that tested batch before Units 9–10. Retain Cell/Computer completion, human review, auditable publication and isolated-preview gates.

@@ -218,7 +218,19 @@
         "BIOL157-U06-C07",
         "BIOL157-U06-C08",
         "BIOL157-U06-C09",
-        "BIOL157-U06-C10"
+        "BIOL157-U06-C10",
+        "BIOL157-U07-C01",
+        "BIOL157-U07-C02",
+        "BIOL157-U07-C03",
+        "BIOL157-U07-C04",
+        "BIOL157-U07-C05",
+        "BIOL157-U07-C06",
+        "BIOL157-U07-C07",
+        "BIOL157-U07-C08",
+        "BIOL157-U07-C09",
+        "BIOL157-U07-C10",
+        "BIOL157-U07-C11",
+        "BIOL157-U07-C12"
       ],
       "questions": [
         "BIOL157-U05-Q001",
@@ -323,7 +335,67 @@
         "BIOL157-U06-Q042",
         "BIOL157-U06-Q043",
         "BIOL157-U06-Q044",
-        "BIOL157-U06-Q045"
+        "BIOL157-U06-Q045",
+        "BIOL157-U07-Q001",
+        "BIOL157-U07-Q002",
+        "BIOL157-U07-Q003",
+        "BIOL157-U07-Q004",
+        "BIOL157-U07-Q005",
+        "BIOL157-U07-Q006",
+        "BIOL157-U07-Q007",
+        "BIOL157-U07-Q008",
+        "BIOL157-U07-Q009",
+        "BIOL157-U07-Q010",
+        "BIOL157-U07-Q011",
+        "BIOL157-U07-Q012",
+        "BIOL157-U07-Q013",
+        "BIOL157-U07-Q014",
+        "BIOL157-U07-Q015",
+        "BIOL157-U07-Q016",
+        "BIOL157-U07-Q017",
+        "BIOL157-U07-Q018",
+        "BIOL157-U07-Q019",
+        "BIOL157-U07-Q020",
+        "BIOL157-U07-Q021",
+        "BIOL157-U07-Q022",
+        "BIOL157-U07-Q023",
+        "BIOL157-U07-Q024",
+        "BIOL157-U07-Q025",
+        "BIOL157-U07-Q026",
+        "BIOL157-U07-Q027",
+        "BIOL157-U07-Q028",
+        "BIOL157-U07-Q029",
+        "BIOL157-U07-Q030",
+        "BIOL157-U07-Q031",
+        "BIOL157-U07-Q032",
+        "BIOL157-U07-Q033",
+        "BIOL157-U07-Q034",
+        "BIOL157-U07-Q035",
+        "BIOL157-U07-Q036",
+        "BIOL157-U07-Q037",
+        "BIOL157-U07-Q038",
+        "BIOL157-U07-Q039",
+        "BIOL157-U07-Q040",
+        "BIOL157-U07-Q041",
+        "BIOL157-U07-Q042",
+        "BIOL157-U07-Q043",
+        "BIOL157-U07-Q044",
+        "BIOL157-U07-Q045",
+        "BIOL157-U07-Q046",
+        "BIOL157-U07-Q047",
+        "BIOL157-U07-Q048",
+        "BIOL157-U07-Q049",
+        "BIOL157-U07-Q050",
+        "BIOL157-U07-Q051",
+        "BIOL157-U07-Q052",
+        "BIOL157-U07-Q053",
+        "BIOL157-U07-Q054",
+        "BIOL157-U07-Q055",
+        "BIOL157-U07-Q056",
+        "BIOL157-U07-Q057",
+        "BIOL157-U07-Q058",
+        "BIOL157-U07-Q059",
+        "BIOL157-U07-Q060"
       ],
       "coverageStatus": "draft-partial-not-certified"
     }
@@ -1237,7 +1309,7 @@
           "id": "BIOL157-U07-T01",
           "unit": "U07",
           "title": "Amino acids",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1249,15 +1321,47 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0701",
+            "BC0702",
+            "BC0703",
+            "BC0704",
+            "BC0705"
+          ],
+          "questions": [
+            "BIOL157-U07-Q001",
+            "BIOL157-U07-Q002",
+            "BIOL157-U07-Q003",
+            "BIOL157-U07-Q004",
+            "BIOL157-U07-Q005",
+            "BIOL157-U07-Q006",
+            "BIOL157-U07-Q007",
+            "BIOL157-U07-Q008",
+            "BIOL157-U07-Q009",
+            "BIOL157-U07-Q010",
+            "BIOL157-U07-Q011",
+            "BIOL157-U07-Q012",
+            "BIOL157-U07-Q013",
+            "BIOL157-U07-Q014",
+            "BIOL157-U07-Q015",
+            "BIOL157-U07-Q016",
+            "BIOL157-U07-Q017",
+            "BIOL157-U07-Q018",
+            "BIOL157-U07-Q019",
+            "BIOL157-U07-Q020",
+            "BIOL157-U07-Q021",
+            "BIOL157-U07-Q022",
+            "BIOL157-U07-Q023",
+            "BIOL157-U07-Q024",
+            "BIOL157-U07-Q025"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U07-T02",
           "unit": "U07",
           "title": "Peptide and polypeptide formation",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1269,15 +1373,30 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0706",
+            "BC0707"
+          ],
+          "questions": [
+            "BIOL157-U07-Q026",
+            "BIOL157-U07-Q027",
+            "BIOL157-U07-Q028",
+            "BIOL157-U07-Q029",
+            "BIOL157-U07-Q030",
+            "BIOL157-U07-Q031",
+            "BIOL157-U07-Q032",
+            "BIOL157-U07-Q033",
+            "BIOL157-U07-Q034",
+            "BIOL157-U07-Q035",
+            "BIOL157-U07-Q036"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U07-T03",
           "unit": "U07",
           "title": "Protein structure",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1289,9 +1408,40 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0708",
+            "BC0709",
+            "BC0710",
+            "BC0711",
+            "BC0712"
+          ],
+          "questions": [
+            "BIOL157-U07-Q037",
+            "BIOL157-U07-Q038",
+            "BIOL157-U07-Q039",
+            "BIOL157-U07-Q040",
+            "BIOL157-U07-Q041",
+            "BIOL157-U07-Q042",
+            "BIOL157-U07-Q043",
+            "BIOL157-U07-Q044",
+            "BIOL157-U07-Q045",
+            "BIOL157-U07-Q046",
+            "BIOL157-U07-Q047",
+            "BIOL157-U07-Q048",
+            "BIOL157-U07-Q049",
+            "BIOL157-U07-Q050",
+            "BIOL157-U07-Q051",
+            "BIOL157-U07-Q052",
+            "BIOL157-U07-Q053",
+            "BIOL157-U07-Q054",
+            "BIOL157-U07-Q055",
+            "BIOL157-U07-Q056",
+            "BIOL157-U07-Q057",
+            "BIOL157-U07-Q058",
+            "BIOL157-U07-Q059",
+            "BIOL157-U07-Q060"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         }
       ],
       "sourceRefs": [
@@ -1305,8 +1455,21 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0701",
+        "BC0702",
+        "BC0703",
+        "BC0704",
+        "BC0705",
+        "BC0706",
+        "BC0707",
+        "BC0708",
+        "BC0709",
+        "BC0710",
+        "BC0711",
+        "BC0712"
+      ]
     },
     {
       "id": "U08",
@@ -1589,8 +1752,8 @@
   "counts": {
     "units": 10,
     "topics": 34,
-    "concepts": 59,
-    "lessons": 59,
-    "questions": 222
+    "concepts": 71,
+    "lessons": 71,
+    "questions": 282
   }
 }
