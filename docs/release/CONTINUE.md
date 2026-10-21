@@ -1,6 +1,6 @@
 # Exact continuation from the tested three-course RC
 
-Use the existing official repository and branch `release/hb1-three-course-rc-20261020`, draft PR [#17](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17), targeting `dev/firebase-development-readiness`. Unit 8 is the latest locally tested batch (UNIT08.md); its push/CI receipt will be recorded in READINESS.json after commit. Prior Unit 7 implementation 5991d51 and documentation 9866007 both passed GitHub CI. Development was refetched on 2026-10-21 and remains `3b5368fda5659c13b8b4e9b533e52009dc628832`. Re-fetch before further integration; preserve the original review branches and all existing content/history. Do not restart the five-PR integration.
+Use the existing official repository and branch `release/hb1-three-course-rc-20261020`, draft PR [#17](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17), targeting `dev/firebase-development-readiness`. Latest tested/pushed implementation: **7c83ea56b5006049e475f358f49eef2a8ccc18f0**, GitHub CI [39541565027](https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39541565027) passed. Unit 8 evidence is in UNIT08.md. Development was refetched on 2026-10-21 and remains `3b5368fda5659c13b8b4e9b533e52009dc628832`. Re-fetch before further integration; preserve the original review branches and all existing content/history. Do not restart the five-PR integration.
 
 ## Delivered and retained
 
