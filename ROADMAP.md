@@ -442,8 +442,8 @@ See docs/FIREBASE_AUTHORIZATION.md for the permission matrix and provisioning as
 - [x] Integrate independent study, per-concept practice and exact feedback-to-notes links using existing views and owner-scoped state. Add honest not-authored unit states and retain blocked normal student content.
 - [x] Add a reusable content contract, separate notes/outcome/question coverage, evidence checks and Antigravity integration hooks; see docs/ACADEMIC_CONTENT_STANDARD.md and docs/HB1_FIRST_SEMESTER_COVERAGE.md.
 - [ ] Obtain qualified academic approval; no self-approval, release, merge or deployment.
-- [x] Author and integrate source-checked Units 3–8 in tested RC batches (85 Bio lessons / 345 questions through Unit 8); see docs/release/UNIT03.md through UNIT08.md.
-- [ ] Author Units 9–10 incrementally; next batch is all 28 actual Lecture 9 pages.
+- [x] Author and integrate source-checked Units 3–9 in tested RC batches (92 Bio lessons / 378 questions through Unit 9); see docs/release/UNIT03.md through UNIT09.md.
+- [ ] Author Unit 10 from all 48 actual pages and its five listed topics.
 
 
 ## Three-course RC and Cell completion — 2026-10-20
@@ -475,3 +475,7 @@ Twelve substantial original lessons, 60 MCQs, 24 answered checks and four access
 ## Unit 8 Enzymes — 2026-10-21
 
 Fourteen substantial lessons, 63 original MCQs, 28 answered checks and three diagrams cover all four official enzyme topics. All 61 actual pages read and 25 selected visuals checked; source already includes seven classes, independently confirmed. Assumptions, rate units, Km/Kd, inhibitor models and regulation distinctions are explicit. Prior 71 notes/282 questions/concepts/figures retain hashes. Bio now 85/345, 27/34 topics drafted, no human approval. Verified 224 offline/40 emulator checks, lint/build and combined Chromium full pools/exact feedback/mobile traversal; docs/release/UNIT08.md. Continue Unit 9, preserving publication and deployment gates.
+
+## Unit 9 Metabolic Pathways — 2026-10-21
+
+Seven original lessons, 33 MCQs, 14 answered checks and two diagrams cover both topics. All 28 actual pages read and 15 selected visuals checked. Prior 85 notes/345 questions/concepts/figures retain hashes. Bio 92/378, 29/34 topics drafted. Verified 230 offline/40 emulator checks, lint/build and combined Chromium full banks/traversal/exact feedback. Source corrections and continuation: docs/release/UNIT09.md. No human approval or deployment.

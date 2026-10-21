@@ -17,7 +17,7 @@ try{
  await frame.locator('.course').filter({hasText:'Biological Chemistry'}).click();
  await frame.getByRole('button',{name:'Open Study Blocks',exact:true}).click();
  assert.equal(await frame.locator('.cell-block-card').count(),10);
- await frame.getByRole('button',{name:'Open Metabolic Pathways',exact:true}).click();
+ await frame.getByRole('button',{name:'Open Lipids',exact:true}).click();
  await frame.getByText(/Teaching for this unit has not yet been authored/).waitFor();
  let dashboard=page.frames().find(f=>f.url().includes('/dashboard/index.html'));
  const bioCount=await dashboard.evaluate(()=>DominanceBiologicalContent.questions.length);
@@ -76,7 +76,7 @@ try{
  await page.screenshot({path:'/tmp/biol157-mobile.png'});
  console.log('PASS:',routes.length,'lessons /',routes.reduce((n,l)=>n+l.parts,0),'sections at390px.');
  // New content uses native concept practice and precise feedback routes.
- for(const [route,lecture,label] of [['lesson:BC0503:1',5,'Unit 5'],['lesson:BC0606:1',6,'Unit 6'],['lesson:BC0703:1',7,'Unit 7'],['lesson:BC0806:1',8,'Unit 8']]){
+ for(const [route,lecture,label] of [['lesson:BC0503:1',5,'Unit 5'],['lesson:BC0606:1',6,'Unit 6'],['lesson:BC0703:1',7,'Unit 7'],['lesson:BC0806:1',8,'Unit 8'],['lesson:BC0902:1',9,'Unit 9']]){
   await dashboard.evaluate(route=>openTopic(route),route);
   await frame.getByRole('button',{name:'Practise this concept',exact:true}).click();
   await frame.locator('.answer').first().click();

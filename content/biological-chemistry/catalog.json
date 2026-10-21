@@ -325,6 +325,30 @@
       "label": "Primary PBP beta-lactam study: bacterial transpeptidation targets",
       "url": "https://pubmed.ncbi.nlm.nih.gov/17894439/",
       "review": "specific-primary-abstract-search-returned-target-description;not-full-paper-or-clinical-label-review"
+    },
+    {
+      "id": "PATHWAY-ACONITASE",
+      "label": "IUBMB aconitate hydratase EC 4.2.1.3: partial dehydration/hydration reactions",
+      "url": "https://iubmb.qmul.ac.uk/enzyme/EC4/2/1/3.html",
+      "review": "specific-entry-opened-and-checked;overall-rearrangement-does-not-imply-EC5"
+    },
+    {
+      "id": "PATHWAY-CONTROL",
+      "label": "Primary metabolic-control review: distributed control and flux/pool distinction",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8944160/",
+      "review": "specific-primary-abstract-search-returned;direct-open-only-footer;not-full-paper-review"
+    },
+    {
+      "id": "PATHWAY-LAC",
+      "label": "Alberts et al.: lac repressor, allolactose and glucose-dependent CAP",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26872/",
+      "review": "specific-search-returned-passages;direct-open-CAPTCHA;not-whole-chapter-review"
+    },
+    {
+      "id": "PATHWAY-GLUCAGON",
+      "label": "Endotext glucagon physiology: receptor/tissue context and hepatic response",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK279127/",
+      "review": "specific-receptor/hepatic-response-search-passages;direct-open-CAPTCHA;not-clinical-guideline-review"
     }
   ],
   "objectives": [
@@ -700,8 +724,16 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0901",
+        "BC0902",
+        "BC0903",
+        "BC0904",
+        "BC0905",
+        "BC0906",
+        "BC0907"
+      ]
     },
     {
       "id": "U10",
@@ -1192,7 +1224,7 @@
       "id": "BIOL157-U09-T01",
       "unit": "U09",
       "title": "Principles of metabolic pathways",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -1209,7 +1241,7 @@
       "id": "BIOL157-U09-T02",
       "unit": "U09",
       "title": "Control mechanisms",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -6109,6 +6141,426 @@
           "title": "Key takeaways"
         }
       ]
+    },
+    {
+      "id": "BIOL157-U09-C01",
+      "unit": "U09",
+      "topic": "BIOL157-U09-T01",
+      "title": "Reading metabolic pathways as connected chemical systems",
+      "lesson": "BC0901",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Identify metabolites, reactions and pathways; compare linear, branched, cyclic and repeated-cycle organisation; distinguish pathway flux from the amount of an intermediate.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L9",
+          "pages": [
+            [
+              3,
+              6
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Connections, not a list of isolated enzymes"
+        },
+        {
+          "id": "s3",
+          "title": "Different organisations solve different problems"
+        },
+        {
+          "id": "s4",
+          "title": "Catabolism, anabolism and shared intermediates"
+        },
+        {
+          "id": "s5",
+          "title": "Worked pool-versus-flow example"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U09-C02",
+      "unit": "U09",
+      "topic": "BIOL157-U09-T01",
+      "title": "Direction, free energy and coupled pathway steps",
+      "lesson": "BC0902",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain conditional pathway direction, add reaction free energies, distinguish near-equilibrium steps from strongly displaced ones and qualify the meaning of a committed step.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L9",
+          "pages": [
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Direction depends on conditions, not an arrow alone"
+        },
+        {
+          "id": "s3",
+          "title": "Free energies add, but coupling needs chemistry"
+        },
+        {
+          "id": "s4",
+          "title": "Concentration can change the direction"
+        },
+        {
+          "id": "s5",
+          "title": "Committed does not mean guaranteed completion"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U09-C03",
+      "unit": "U09",
+      "topic": "BIOL157-U09-T01",
+      "title": "Recognising the chemistry inside pathway arrows",
+      "lesson": "BC0903",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain the lecturer's six reaction examples, preserve atom/electron balances and distinguish an overall transformation label from the EC classification of a particular enzyme.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L9",
+          "pages": [
+            [
+              10,
+              16
+            ]
+          ]
+        },
+        {
+          "source": "PATHWAY-ACONITASE"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Oxidation and bond formation have specific meanings"
+        },
+        {
+          "id": "s3",
+          "title": "Overall rearrangement and enzyme mechanism can differ"
+        },
+        {
+          "id": "s4",
+          "title": "Phosphorylation, hydrolysis and carbon cleavage"
+        },
+        {
+          "id": "s5",
+          "title": "A reaction can prepare the next step"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U09-C04",
+      "unit": "U09",
+      "topic": "BIOL157-U09-T01",
+      "title": "Compartmentation, transport and multienzyme organisation",
+      "lesson": "BC0904",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain why physical location can regulate metabolism, distinguish a metabolon from a universal enzyme arrangement and qualify cellular-location generalisations.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L9",
+          "pages": [
+            [
+              3,
+              5
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              22,
+              23
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Location changes available partners"
+        },
+        {
+          "id": "s3",
+          "title": "A qualified eukaryotic glucose map"
+        },
+        {
+          "id": "s4",
+          "title": "Diffusion, complexes and channeling"
+        },
+        {
+          "id": "s5",
+          "title": "Worked transport constraint"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U09-C05",
+      "unit": "U09",
+      "topic": "BIOL157-U09-T02",
+      "title": "Flux regulation, branches and distributed control",
+      "lesson": "BC0905",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4",
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Distinguish regulation of an enzyme from control of whole-pathway flux, interpret simple branch balances and explain why control need not belong permanently to one step.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L9",
+          "pages": [
+            [
+              7,
+              8
+            ],
+            [
+              17,
+              23
+            ]
+          ]
+        },
+        {
+          "source": "PATHWAY-CONTROL"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Capacity, pool size and flux answer different questions"
+        },
+        {
+          "id": "s3",
+          "title": "Worked branched steady-state balance"
+        },
+        {
+          "id": "s4",
+          "title": "Feedback can reduce unnecessary input"
+        },
+        {
+          "id": "s5",
+          "title": "Worked small-perturbation interpretation"
+        },
+        {
+          "id": "s6",
+          "title": "Choosing evidence for a claim"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U09-C06",
+      "unit": "U09",
+      "topic": "BIOL157-U09-T02",
+      "title": "Enzyme induction, allostery and covalent pathway switches",
+      "lesson": "BC0906",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4",
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Compare regulation by abundance and existing-protein activity, explain the lac-operon example with its missing qualifications and distinguish different covalent modifications.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L9",
+          "pages": [
+            [
+              17,
+              21
+            ]
+          ]
+        },
+        {
+          "source": "PATHWAY-LAC"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Changing the amount differs from changing each molecule"
+        },
+        {
+          "id": "s3",
+          "title": "Reading the lac example correctly"
+        },
+        {
+          "id": "s4",
+          "title": "Activity control acts on an existing protein"
+        },
+        {
+          "id": "s5",
+          "title": "Worked abundance-versus-state comparison"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U09-C07",
+      "unit": "U09",
+      "topic": "BIOL157-U09-T02",
+      "title": "Hormonal coordination of metabolism across cells",
+      "lesson": "BC0907",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4",
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain receptor-dependent hormonal effects, compare representative intracellular-receptor and surface-receptor routes and qualify the glucagon/cAMP glycogen example.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L9",
+          "pages": [
+            [
+              24,
+              27
+            ]
+          ]
+        },
+        {
+          "source": "PATHWAY-GLUCAGON"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A circulating signal requires a responsive target"
+        },
+        {
+          "id": "s3",
+          "title": "Intracellular receptors and gene expression"
+        },
+        {
+          "id": "s4",
+          "title": "A qualified glucagon–cAMP pathway"
+        },
+        {
+          "id": "s5",
+          "title": "Turning a signal off is part of the mechanism"
+        },
+        {
+          "id": "s6",
+          "title": "Biological application without prescribing"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
     }
   ],
   "figures": [
@@ -9371,6 +9823,301 @@
             [
               50,
               54
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U09-FLUX",
+      "title": "A steady pool can carry nonzero flux",
+      "description": "A hypothetical input of ten micromoles per minute enters intermediate B. Two outputs of six and four leave towards C and D. The pool is steady because input equals output, even though material continues flowing.",
+      "caption": "Original illustrative mass-balance diagram; rates are supplied examples, not measured data. A constant pool does not imply zero metabolic flow.",
+      "width": 400,
+      "height": 300,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 28,
+          "text": "Rates in µmol/min"
+        },
+        {
+          "kind": "text",
+          "x": 40,
+          "y": 105,
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "x": 175,
+          "y": 105,
+          "text": "B"
+        },
+        {
+          "kind": "line",
+          "x1": 60,
+          "y1": 100,
+          "x2": 150,
+          "y2": 100
+        },
+        {
+          "kind": "line",
+          "x1": 150,
+          "y1": 100,
+          "x2": 142,
+          "y2": 94
+        },
+        {
+          "kind": "line",
+          "x1": 150,
+          "y1": 100,
+          "x2": 142,
+          "y2": 106
+        },
+        {
+          "kind": "text",
+          "x": 100,
+          "y": 78,
+          "text": "10 in"
+        },
+        {
+          "kind": "line",
+          "x1": 195,
+          "y1": 100,
+          "x2": 340,
+          "y2": 100
+        },
+        {
+          "kind": "line",
+          "x1": 340,
+          "y1": 100,
+          "x2": 332,
+          "y2": 94
+        },
+        {
+          "kind": "line",
+          "x1": 340,
+          "y1": 100,
+          "x2": 332,
+          "y2": 106
+        },
+        {
+          "kind": "text",
+          "x": 350,
+          "y": 105,
+          "text": "C"
+        },
+        {
+          "kind": "text",
+          "x": 270,
+          "y": 78,
+          "text": "6 out"
+        },
+        {
+          "kind": "line",
+          "x1": 175,
+          "y1": 125,
+          "x2": 175,
+          "y2": 220
+        },
+        {
+          "kind": "line",
+          "x1": 175,
+          "y1": 220,
+          "x2": 169,
+          "y2": 212
+        },
+        {
+          "kind": "line",
+          "x1": 175,
+          "y1": 220,
+          "x2": 181,
+          "y2": 212
+        },
+        {
+          "kind": "text",
+          "x": 175,
+          "y": 249,
+          "text": "D"
+        },
+        {
+          "kind": "text",
+          "x": 240,
+          "y": 180,
+          "text": "4 out"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 287,
+          "text": "Steady B: 10 − 6 − 4 = 0"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L9",
+          "pages": [
+            [
+              3,
+              8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U09-SIGNAL",
+      "title": "A qualified hepatic glucagon signalling route",
+      "description": "The diagram follows extracellular glucagon to surface receptor and G protein, then adenylyl cyclase and cAMP, PKA, and regulated enzymes influencing glycogen. It labels cAMP as messenger and ATP as the phosphoryl donor, with tissue-dependent outcomes.",
+      "caption": "Original causal schematic, not a universal response in every tissue or a clinical intervention. Signal removal and receptor/effector context remain necessary.",
+      "width": 400,
+      "height": 440,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 28,
+          "text": "Glucagon outside the cell"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 40,
+          "x2": 200,
+          "y2": 65
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 65,
+          "x2": 194,
+          "y2": 57
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 65,
+          "x2": 206,
+          "y2": 57
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 92,
+          "text": "Surface receptor → G protein"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 105,
+          "x2": 200,
+          "y2": 135
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 135,
+          "x2": 194,
+          "y2": 127
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 135,
+          "x2": 206,
+          "y2": 127
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 165,
+          "text": "Adenylyl cyclase: ATP → cAMP"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 178,
+          "x2": 200,
+          "y2": 210
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 210,
+          "x2": 194,
+          "y2": 202
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 210,
+          "x2": 206,
+          "y2": 202
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 240,
+          "text": "cAMP regulates PKA"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 253,
+          "x2": 200,
+          "y2": 285
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 285,
+          "x2": 194,
+          "y2": 277
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 285,
+          "x2": 206,
+          "y2": 277
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 315,
+          "text": "PKA uses ATP on target proteins"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 355,
+          "text": "Regulated glycogen pathways"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 395,
+          "text": "cAMP: messenger, not donor"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 429,
+          "text": "Tissue and stores affect response"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L9",
+          "pages": [
+            [
+              26,
+              27
             ]
           ]
         }

@@ -201,7 +201,10 @@
         "BIOL157-U08-C11",
         "BIOL157-U08-C12",
         "BIOL157-U08-C13",
-        "BIOL157-U08-C14"
+        "BIOL157-U08-C14",
+        "BIOL157-U09-C05",
+        "BIOL157-U09-C06",
+        "BIOL157-U09-C07"
       ],
       "questions": [
         "BIOL157-U08-Q001",
@@ -266,7 +269,22 @@
         "BIOL157-U08-Q060",
         "BIOL157-U08-Q061",
         "BIOL157-U08-Q062",
-        "BIOL157-U08-Q063"
+        "BIOL157-U08-Q063",
+        "BIOL157-U09-Q019",
+        "BIOL157-U09-Q020",
+        "BIOL157-U09-Q021",
+        "BIOL157-U09-Q022",
+        "BIOL157-U09-Q023",
+        "BIOL157-U09-Q024",
+        "BIOL157-U09-Q025",
+        "BIOL157-U09-Q026",
+        "BIOL157-U09-Q027",
+        "BIOL157-U09-Q028",
+        "BIOL157-U09-Q029",
+        "BIOL157-U09-Q030",
+        "BIOL157-U09-Q031",
+        "BIOL157-U09-Q032",
+        "BIOL157-U09-Q033"
       ],
       "coverageStatus": "draft-partial-not-certified"
     },
@@ -309,7 +327,14 @@
         "BIOL157-U07-C09",
         "BIOL157-U07-C10",
         "BIOL157-U07-C11",
-        "BIOL157-U07-C12"
+        "BIOL157-U07-C12",
+        "BIOL157-U09-C01",
+        "BIOL157-U09-C02",
+        "BIOL157-U09-C03",
+        "BIOL157-U09-C04",
+        "BIOL157-U09-C05",
+        "BIOL157-U09-C06",
+        "BIOL157-U09-C07"
       ],
       "questions": [
         "BIOL157-U05-Q001",
@@ -474,7 +499,25 @@
         "BIOL157-U07-Q057",
         "BIOL157-U07-Q058",
         "BIOL157-U07-Q059",
-        "BIOL157-U07-Q060"
+        "BIOL157-U07-Q060",
+        "BIOL157-U09-Q001",
+        "BIOL157-U09-Q002",
+        "BIOL157-U09-Q003",
+        "BIOL157-U09-Q004",
+        "BIOL157-U09-Q005",
+        "BIOL157-U09-Q006",
+        "BIOL157-U09-Q007",
+        "BIOL157-U09-Q008",
+        "BIOL157-U09-Q009",
+        "BIOL157-U09-Q010",
+        "BIOL157-U09-Q011",
+        "BIOL157-U09-Q012",
+        "BIOL157-U09-Q013",
+        "BIOL157-U09-Q014",
+        "BIOL157-U09-Q015",
+        "BIOL157-U09-Q016",
+        "BIOL157-U09-Q017",
+        "BIOL157-U09-Q018"
       ],
       "coverageStatus": "draft-partial-not-certified"
     }
@@ -1757,7 +1800,7 @@
           "id": "BIOL157-U09-T01",
           "unit": "U09",
           "title": "Principles of metabolic pathways",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1769,15 +1812,39 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0901",
+            "BC0902",
+            "BC0903",
+            "BC0904"
+          ],
+          "questions": [
+            "BIOL157-U09-Q001",
+            "BIOL157-U09-Q002",
+            "BIOL157-U09-Q003",
+            "BIOL157-U09-Q004",
+            "BIOL157-U09-Q005",
+            "BIOL157-U09-Q006",
+            "BIOL157-U09-Q007",
+            "BIOL157-U09-Q008",
+            "BIOL157-U09-Q009",
+            "BIOL157-U09-Q010",
+            "BIOL157-U09-Q011",
+            "BIOL157-U09-Q012",
+            "BIOL157-U09-Q013",
+            "BIOL157-U09-Q014",
+            "BIOL157-U09-Q015",
+            "BIOL157-U09-Q016",
+            "BIOL157-U09-Q017",
+            "BIOL157-U09-Q018"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U09-T02",
           "unit": "U09",
           "title": "Control mechanisms",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1789,9 +1856,29 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0905",
+            "BC0906",
+            "BC0907"
+          ],
+          "questions": [
+            "BIOL157-U09-Q019",
+            "BIOL157-U09-Q020",
+            "BIOL157-U09-Q021",
+            "BIOL157-U09-Q022",
+            "BIOL157-U09-Q023",
+            "BIOL157-U09-Q024",
+            "BIOL157-U09-Q025",
+            "BIOL157-U09-Q026",
+            "BIOL157-U09-Q027",
+            "BIOL157-U09-Q028",
+            "BIOL157-U09-Q029",
+            "BIOL157-U09-Q030",
+            "BIOL157-U09-Q031",
+            "BIOL157-U09-Q032",
+            "BIOL157-U09-Q033"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         }
       ],
       "sourceRefs": [
@@ -1805,8 +1892,16 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0901",
+        "BC0902",
+        "BC0903",
+        "BC0904",
+        "BC0905",
+        "BC0906",
+        "BC0907"
+      ]
     },
     {
       "id": "U10",
@@ -1931,8 +2026,8 @@
   "counts": {
     "units": 10,
     "topics": 34,
-    "concepts": 85,
-    "lessons": 85,
-    "questions": 345
+    "concepts": 92,
+    "lessons": 92,
+    "questions": 378
   }
 }

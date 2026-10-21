@@ -12391,5 +12391,1173 @@
         ]
       }
     ]
+  },
+  {
+    "id": "BIOL157-U09-Q001",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C01",
+    "lesson": "BC0901",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "What distinguishes a cyclic metabolic pathway from a merely linear reaction sequence?",
+    "options": [
+      "A participating intermediate is regenerated through the connected transformations.",
+      "Every substrate atom must return to its original position after one turn.",
+      "No carbon-containing material can enter or leave.",
+      "The participating intermediate must accumulate by one molecule on every turn."
+    ],
+    "letter": "A",
+    "explanation": "Regeneration permits repeated operation with appropriate inputs and conditions. It does not eliminate mass balance or guarantee immediate return of the same labelled atoms. A pathway’s drawn topology does not require one enzyme or a physically circular protein.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q002",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C01",
+    "lesson": "BC0901",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "What does calling a pathway amphibolic mean?",
+    "options": [
+      "It must occur only in a membrane bilayer.",
+      "It contributes to both degradative and biosynthetic functions.",
+      "It contains only reactions that directly consume ATP.",
+      "It is chemically inactive whenever its intermediate pool is constant."
+    ],
+    "letter": "B",
+    "explanation": "An amphibolic route supports both catabolism and anabolism, for example by supplying energy-related transformations and biosynthetic precursors. This functional category does not dictate a universal ATP requirement or location, and steady pools can still carry nonzero flux.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q003",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C01",
+    "lesson": "BC0901",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "B is formed at 10 µmol/min and consumed through outputs of 6 and 4 µmol/min. What initial pool balance follows?",
+    "options": [
+      "Depletion of 10 µmol/min because both outputs are positive",
+      "Zero throughput because the pool can stay constant",
+      "Zero accumulation with nonzero throughput",
+      "Accumulation of 10 µmol/min because formation is positive"
+    ],
+    "letter": "C",
+    "explanation": "Formation minus consumption is 10−6−4=0. Balanced rates allow a steady amount while material still flows. A constant pool does not imply halted chemistry, and considering only input or only output omits the complete mass balance.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q004",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C01",
+    "lesson": "BC0901",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Input to B stays 10 µmol/min while outputs are temporarily 5 and 3. If these rates remain fixed for three minutes, how much does B initially accumulate?",
+    "options": [
+      "2 µmol",
+      "24 µmol",
+      "30 µmol",
+      "6 µmol"
+    ],
+    "letter": "D",
+    "explanation": "Net accumulation is 10−5−3=2 µmol/min; over three minutes that gives 6 µmol. Two is the rate rather than total amount, twenty-four is total output and thirty is gross input. The explicit fixed-rate assumption limits the prediction.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            3,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q005",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C02",
+    "lesson": "BC0902",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Compatible consecutive step free energies are supplied as +12 and −20 kJ/mol. What is their net ΔG?",
+    "options": [
+      "−8 kJ/mol",
+      "+8 kJ/mol",
+      "−32 kJ/mol",
+      "+32 kJ/mol"
+    ],
+    "letter": "A",
+    "explanation": "Free energies add for the defined net reaction: +12−20=−8. Reversing the sign or adding magnitudes ignores the supplied directions. A favourable total still requires chemically connected reactions and compatible conditions; it is not proof that each isolated step is independently favourable.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            7,
+            8
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q006",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C02",
+    "lesson": "BC0902",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "An explicitly coupled process combines +18 and −30 kJ/mol transformations. What net value follows?",
+    "options": [
+      "0 kJ/mol whenever ATP is mentioned",
+      "−12 kJ/mol",
+      "+12 kJ/mol",
+      "−48 kJ/mol"
+    ],
+    "letter": "B",
+    "explanation": "The defined coupled balance is +18−30=−12 kJ/mol. Coupling does not force zero free energy, and simply mentioning ATP is insufficient without linked chemistry. Adding magnitudes would conceal which transformation consumes versus supplies driving force.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            7,
+            8
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q007",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C02",
+    "lesson": "BC0902",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "For an illustrative A⇌B reaction, ΔG°′=+5.0 kJ/mol, RT=2.5 kJ/mol and Q=0.10. Using ln(0.10)=−2.303, what actual ΔG is predicted?",
+    "options": [
+      "Exactly +5.0 kJ/mol regardless of Q",
+      "Approximately −5.76 kJ/mol",
+      "Approximately −0.76 kJ/mol",
+      "Approximately +10.76 kJ/mol"
+    ],
+    "letter": "C",
+    "explanation": "Use ΔG=5.0+2.5×(−2.303)=−0.7575 kJ/mol. The positive 10.76 corresponds to the opposite logarithmic sign; 5.0 ignores concentrations; −5.76 omits the standard-state term. The result uses the explicitly supplied simple model.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            7,
+            8
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q008",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C02",
+    "lesson": "BC0902",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "What qualification is needed when a pathway step is called physiologically irreversible?",
+    "options": [
+      "Reverse chemistry is impossible at any conceivable reactant/product activities.",
+      "Every other pathway step must also have the same driving force.",
+      "Its enzyme changes the equilibrium constant to prevent reverse reaction.",
+      "The direction describes a strong displacement from equilibrium under specified cellular conditions."
+    ],
+    "letter": "D",
+    "explanation": "Physiological direction depends on maintained conditions and concentrations. It does not make reverse chemistry universally impossible or require identical driving forces in all other steps. The enzyme controls kinetics without changing the equilibrium constant for the same reaction.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            7,
+            8
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q009",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C02",
+    "lesson": "BC0902",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Why does a first committed step not guarantee every product molecule completes the named route?",
+    "options": [
+      "Transport, later inhibition, competing fates and the network definition still matter.",
+      "The term proves all downstream enzymes are saturated at all times.",
+      "A committed intermediate cannot be chemically consumed by any other process.",
+      "Every committed pathway must contain no branches anywhere."
+    ],
+    "letter": "A",
+    "explanation": "Commitment is a useful pathway-relative description, often identifying a dedicated route after shared intermediates. It is not an absolute fate guarantee: later conditions and other processes can intervene. Neither saturation nor complete absence of branches follows from the label.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            7,
+            8
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q010",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C03",
+    "lesson": "BC0903",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "What carbon and oxidation interpretation is correct for succinate→fumarate?",
+    "options": [
+      "It is dehydration with no change in substrate oxidation state.",
+      "It is a partial oxidation retaining four carbon atoms.",
+      "It completely oxidises all four carbons to CO2.",
+      "It adds a fifth carbon from ATP."
+    ],
+    "letter": "B",
+    "explanation": "Succinate and fumarate both have four carbons; loss of reducing equivalents introduces a double bond. This is partial oxidation, not complete oxidation to CO2, carbon addition or simple water removal with unchanged oxidation state. Track both carbon count and electron transfer.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            10,
+            16
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-ACONITASE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q011",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C03",
+    "lesson": "BC0903",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Citrate→isocitrate is an overall rearrangement. Which statement correctly reconciles aconitase classification?",
+    "options": [
+      "It is EC 3 because any water involvement means hydrolytic cleavage.",
+      "Its class is decided only by whether citrate has six carbons.",
+      "Aconitate hydratase is EC 4.2.1.3, using dehydration and hydration steps.",
+      "The overall word isomerisation proves aconitase is EC 5."
+    ],
+    "letter": "C",
+    "explanation": "The independently checked IUBMB entry gives EC 4.2.1.3 and both partial reactions through cis-aconitate. An overall rearrangement label does not override the enzyme’s classified hydro-lyase chemistry. Water participation alone also does not establish hydrolase activity.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            10,
+            16
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-ACONITASE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q012",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C03",
+    "lesson": "BC0903",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is glucose phosphorylation not automatically commitment exclusively to glycolysis?",
+    "options": [
+      "Phosphorylated glucose cannot participate in any further reaction.",
+      "The phosphate must immediately diffuse through every membrane unaided.",
+      "Hexokinase is necessarily a hydrolase rather than a transferase.",
+      "Glucose-6-phosphate can have several metabolic fates."
+    ],
+    "letter": "D",
+    "explanation": "Phosphorylation can help retain glucose and direct its chemistry, but glucose-6-phosphate can enter several routes. It is neither inert nor universally membrane-permeable. Hexokinase transfers a phosphoryl group; that reaction is not classified merely as hydrolysis.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            10,
+            16
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-ACONITASE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q013",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C03",
+    "lesson": "BC0903",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which explanation distinguishes aldolase cleavage from sucrose hydrolysis?",
+    "options": [
+      "Aldolase divides a six-carbon substrate into two three-carbon products through lyase-type carbon–carbon cleavage.",
+      "Both must cleave the same glycosidic linkage using water.",
+      "Aldolase releases all six carbons as CO2.",
+      "Sucrose hydrolysis produces two three-carbon phosphorylated compounds."
+    ],
+    "letter": "A",
+    "explanation": "Aldolase acts on fructose-1,6-bisphosphate to yield DHAP and glyceraldehyde-3-phosphate, preserving 6=3+3 carbon balance. Sucrose hydrolysis instead cleaves a glycosidic bond to glucose and fructose. Two products alone do not define hydrolysis.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            10,
+            16
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-ACONITASE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q014",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C03",
+    "lesson": "BC0903",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is the enolase step useful before the subsequent ATP-forming group transfer?",
+    "options": [
+      "It directly produces ATP during water removal, requiring no later group transfer.",
+      "It forms phosphoenolpyruvate, whose complete conversion supports high phosphoryl-transfer potential.",
+      "It directly proves that breaking any phosphate bond releases energy without other changes.",
+      "It removes every phosphate from the pathway."
+    ],
+    "letter": "B",
+    "explanation": "Enolase creates PEP, preparing a favourable subsequent phosphoryl-transfer transformation coupled to product chemistry. Bond breaking alone is not a complete free-energy explanation. The step neither eliminates all phosphate nor interconverts unrelated ADP/NADPH carriers.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            10,
+            16
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-ACONITASE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q015",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C04",
+    "lesson": "BC0904",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which location comparison is appropriate for the usual animal-cell glucose-oxidation model?",
+    "options": [
+      "All citric-cycle enzymes are freely soluble in the same cytosolic pool.",
+      "Bacteria must form mitochondria before carrying out respiration.",
+      "Glycolysis is cytosolic, while respiratory-chain activity is associated with the inner mitochondrial membrane.",
+      "Glycolysis and respiratory electron transfer are both freely soluble cytosolic processes."
+    ],
+    "letter": "C",
+    "explanation": "The usual eukaryotic compartment map distinguishes cytosol, matrix and inner membrane; membrane-associated succinate dehydrogenase adds a useful exception to simple cycle-location labels. Bacteria can respire using plasma-membrane machinery without mitochondria.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            3,
+            5
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            22,
+            23
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q016",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C04",
+    "lesson": "BC0904",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which example refutes a universal claim that all cellular transcription enzymes must be nuclear?",
+    "options": [
+      "Cytosolic translation takes place on ribosomes.",
+      "Glycolysis produces ATP in the cytosol.",
+      "Nuclear DNA can be transcribed into RNA.",
+      "Mitochondrial transcription occurs outside the nucleus."
+    ],
+    "letter": "D",
+    "explanation": "Mitochondrial transcription directly supplies an example outside the nucleus. Translation and glycolytic ATP production are different processes and do not establish a transcription location. Nuclear transcription supports the useful nuclear example but does not refute the universal claim by itself.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            3,
+            5
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            22,
+            23
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q017",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C04",
+    "lesson": "BC0904",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Why does enzyme co-localisation alone not prove substrate channeling?",
+    "options": [
+      "Physical association does not by itself demonstrate direct intermediate transfer between active sites.",
+      "Every metabolon must be a permanently covalent protein polymer.",
+      "All intermediates become incapable of diffusion whenever enzymes approach.",
+      "A microscopy image uniquely measures every chemical flux."
+    ],
+    "letter": "A",
+    "explanation": "An association can support proximity without proving a direct-transfer route. Channeling needs appropriate functional evidence, and complexes can be dynamic or noncovalent. Imaging location is not automatically a measurement of flux or exclusion of diffusion.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            3,
+            5
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            22,
+            23
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q018",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C04",
+    "lesson": "BC0904",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "A sole required input transporter supplies at most 3 µmol/min in an explicit one-to-one no-other-source steady model; the downstream enzyme can process 20. What sustained output can that input support at most?",
+    "options": [
+      "17 µmol/min",
+      "3 µmol/min",
+      "20 µmol/min",
+      "23 µmol/min"
+    ],
+    "letter": "B",
+    "explanation": "Sustained conversion cannot exceed the only supplied precursor input in this model. Enzyme capacity does not create extra material. Adding or subtracting isolated capacity numbers is not a mass balance. Alternate inputs, stored pools or changing conditions would require a different model.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            3,
+            5
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            22,
+            23
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q019",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C05",
+    "lesson": "BC0905",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "Why can increasing an intermediate pool fail to prove increased pathway throughput?",
+    "options": [
+      "A larger pool forces every downstream enzyme to operate at Vmax.",
+      "Steady-state metabolism requires every intermediate concentration to be zero.",
+      "The pool can rise because output slowed as well as because input increased.",
+      "Pool amount and flux always have identical units."
+    ],
+    "letter": "C",
+    "explanation": "An amount reflects formation and consumption history, whereas flux is flow per time. Slower removal can accumulate a metabolite without increased throughput. Neither universal saturation nor zero intermediate levels follows from a pool observation.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            7,
+            8
+          ],
+          [
+            17,
+            23
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-CONTROL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q020",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C05",
+    "lesson": "BC0905",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "X receives 12 µmol/min and initially loses 3 towards P and 5 towards Q. What initial accumulation rate follows?",
+    "options": [
+      "8 µmol/min",
+      "12 µmol/min",
+      "20 µmol/min",
+      "4 µmol/min"
+    ],
+    "letter": "D",
+    "explanation": "Mass balance gives 12−3−5=4 µmol/min. Eight is total output and twelve gross input; twenty adds opposing flows instead of subtracting consumption. Subsequent feedback or pool changes may alter these initial rates.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            7,
+            8
+          ],
+          [
+            17,
+            23
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-CONTROL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q021",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C05",
+    "lesson": "BC0905",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "What distinguishes feed-forward activation from end-product feedback inhibition?",
+    "options": [
+      "An earlier signal prepares later activity rather than a later product inhibiting earlier input.",
+      "Both require a change in the isolated reaction equilibrium constant.",
+      "Feed-forward is identical to product inhibition of the immediately preceding reaction.",
+      "Feedback can act only on the enzyme making the immediate product."
+    ],
+    "letter": "A",
+    "explanation": "The distinction concerns signal topology and effect: earlier-to-later preparation versus later-to-earlier inhibition. Neither requires changing equilibrium constants or destroying enzymes. End-product regulation can target an earlier enzyme that does not directly produce the regulator.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            7,
+            8
+          ],
+          [
+            17,
+            23
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-CONTROL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q022",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C05",
+    "lesson": "BC0905",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "A controlled 10% increase in enzyme amount gives a 2% steady flux increase. What is the approximate local fractional response coefficient?",
+    "options": [
+      "20",
+      "0.2",
+      "5",
+      "0.02"
+    ],
+    "letter": "B",
+    "explanation": "Divide the fractional responses: 0.02/0.10=0.2. Five reverses the ratio; 0.02 is the flux change alone and twenty mixes percent with fraction. This conditional local approximation is not the fraction of reactions catalysed or a universal coefficient for all operating states.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            7,
+            8
+          ],
+          [
+            17,
+            23
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-CONTROL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q023",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C05",
+    "lesson": "BC0905",
+    "sectionId": "s6",
+    "objective": "BIOL157-CLO4",
+    "question": "A small increase in an essential enzyme has no measurable flux effect under one condition. What does this establish?",
+    "options": [
+      "The entire pathway has reached equilibrium in every compartment.",
+      "No other enzyme or transporter can influence flux.",
+      "Its flux control can be limited there; chemical necessity is a different question.",
+      "The enzyme performs no reaction and can always be deleted harmlessly."
+    ],
+    "letter": "C",
+    "explanation": "Small perturbation control depends on the operating state and available capacity. An essential reaction can have spare capacity, so a modest increase need not change flux. Eliminating the step is a different intervention and cannot be justified by that observation alone.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            7,
+            8
+          ],
+          [
+            17,
+            23
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-CONTROL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q024",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C06",
+    "lesson": "BC0906",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "Which distinction separates induction from rapid regulation of an existing enzyme population?",
+    "options": [
+      "Both necessarily act on identical timescales and use the same mechanism.",
+      "Allostery changes the equilibrium constant rather than existing-protein behaviour.",
+      "Induction changes only the intrinsic Km of pre-existing enzyme, with no abundance change.",
+      "Induction changes expression, whereas an existing protein’s active fraction can change without new synthesis."
+    ],
+    "letter": "D",
+    "explanation": "Expression changes abundance through synthesis and turnover. Existing-protein regulation can alter activity or state on another timescale without changing the sequence or requiring wholesale replacement. The mechanisms can coexist and their effects on flux still depend on the system.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-LAC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q025",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C06",
+    "lesson": "BC0906",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "What binds the lac repressor in the familiar physiological induction model to reduce its operator association?",
+    "options": [
+      "Allolactose formed in the presence of lactose",
+      "cAMP acting as the repressor-binding inducer rather than a CAP ligand",
+      "Glucose acting as an obligatory allosteric inducer of LacI",
+      "ATP acting as the sole repressor-displacing signal"
+    ],
+    "letter": "A",
+    "explanation": "Allolactose is the repressor-binding inducer in the familiar model. cAMP regulates CAP/CRP in a different component, while glucose availability influences that positive-control context. Glucose or ATP should not be substituted for allolactose as the stated LacI inducer.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-LAC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q026",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C06",
+    "lesson": "BC0906",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "Why is lactose presence alone an incomplete predictor of maximal lac transcription?",
+    "options": [
+      "CAP is the same molecule as the lactose-sensitive repressor.",
+      "Glucose-dependent cAMP–CAP/CRP activation also influences the familiar system.",
+      "The repressor must be permanently deleted before any induction.",
+      "Lactose removes the need for every positive transcription-control mechanism."
+    ],
+    "letter": "B",
+    "explanation": "Relief of allolactose-sensitive repression and positive control through cAMP–CAP/CRP are distinct. Glucose status changes the latter in the simplified model. The repressor need not be deleted, and lactose is not transformed directly into transcription machinery.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-LAC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q027",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C06",
+    "lesson": "BC0906",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "Which statement correctly distinguishes adenylylation and ADP-ribosylation from ordinary phosphorylation?",
+    "options": [
+      "Any mention of NAD+ proves the protein was oxidised rather than modified.",
+      "ATP participation makes every modification a peptide hydrolysis.",
+      "They attach chemically distinct groups using their specified donor chemistry.",
+      "All three transfer exactly the same group from NADH."
+    ],
+    "letter": "C",
+    "explanation": "AMP, ADP-ribosyl and phosphoryl additions are different chemical modifications. Donor identity and the transferred group must be tracked explicitly. NAD+ can participate in group-transfer chemistry, and ATP use does not imply peptide hydrolysis.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-LAC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q028",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C06",
+    "lesson": "BC0906",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "A hypothetical population has 100 units at 25% active; the active fraction rises to 50% without changing abundance. What active amount follows?",
+    "options": [
+      "25 units",
+      "75 units",
+      "200 units",
+      "50 units"
+    ],
+    "letter": "D",
+    "explanation": "The new active amount is 100×0.50=50, twice the original 25. Seventy-five confuses the inactive remainder with the result, while two hundred changes total abundance instead of the supplied active fraction. Cellular flux need not increase proportionally.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-LAC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q029",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C07",
+    "lesson": "BC0907",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "Why can two tissues exposed to the same circulating hormone have different metabolic responses?",
+    "options": [
+      "Receptors, downstream machinery and available metabolites can differ.",
+      "Blood concentration alone guarantees identical intracellular responses.",
+      "A hormone must serve as substrate for every affected enzyme.",
+      "Every tissue has the same receptor inventory by definition."
+    ],
+    "letter": "A",
+    "explanation": "Exposure is only part of signalling. Receptor expression and downstream context govern target responses; hormone molecules need not be consumed in each regulated reaction. Identical blood delivery does not erase differences between tissues.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            24,
+            27
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-GLUCAGON"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q030",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C07",
+    "lesson": "BC0907",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "Which qualification improves the lecture’s steroid-receptor schematic?",
+    "options": [
+      "Every nonsteroid hormone must use cAMP exclusively.",
+      "Some receptors are already nuclear, and gene regulation is not the only possible timescale of steroid action.",
+      "Every steroid receptor must always start in the cytoplasm and then migrate.",
+      "No intracellular receptor can influence transcription."
+    ],
+    "letter": "B",
+    "explanation": "The cytoplasm-to-nucleus sequence illustrates some receptor behaviour but is not universal. Intracellular receptors can regulate transcription, while additional rapid effects exist. Nonsteroid chemistry also does not prescribe one universal surface/cAMP mechanism.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            24,
+            27
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-GLUCAGON"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q031",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C07",
+    "lesson": "BC0907",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "In the qualified hepatic glucagon route, which component generates cAMP from ATP?",
+    "options": [
+      "A cAMP phosphodiesterase",
+      "Protein kinase A",
+      "Adenylyl cyclase",
+      "The G protein’s GTPase activity"
+    ],
+    "letter": "C",
+    "explanation": "Adenylyl cyclase produces cAMP from ATP. GTPase activity helps regulate the G-protein signal, phosphodiesterase removes cAMP and PKA responds downstream. Confusing these steps reverses the causal sequence or mistakes messenger production for its action/removal.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            24,
+            27
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-GLUCAGON"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q032",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C07",
+    "lesson": "BC0907",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "Which statement correctly separates cAMP and ATP in the PKA-mediated response?",
+    "options": [
+      "cAMP supplies every transferred phosphate while ATP only binds receptors.",
+      "Both molecules are interchangeable names for the same compound.",
+      "Glucagon itself directly phosphorylates all glycogen molecules.",
+      "cAMP regulates kinase activity; ATP supplies the phosphoryl group transferred to protein targets."
+    ],
+    "letter": "D",
+    "explanation": "cAMP is a regulatory second messenger; ordinary PKA catalysis uses ATP as phosphoryl donor. The hormone starts a receptor-dependent cascade rather than directly phosphorylating glycogen. Distinguishing messenger, enzyme and chemical donor prevents collapsing the mechanism into one step.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            24,
+            27
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-GLUCAGON"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U09-Q033",
+    "unit": "U09",
+    "conceptId": "BIOL157-U09-C07",
+    "lesson": "BC0907",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "Why include signal-termination mechanisms in a pathway explanation?",
+    "options": [
+      "GTP hydrolysis, messenger removal and dephosphorylation can limit or reshape the response.",
+      "A single receptor event necessarily causes unlimited output forever.",
+      "Termination can occur only through loss of receptor-gene expression.",
+      "Second messengers cannot be chemically transformed after formation."
+    ],
+    "letter": "A",
+    "explanation": "Signalling is dynamic: termination and resetting limit duration and shape responses. Messenger turnover and regulatory chemistry can reverse or reshape activity without deleting genes. Omitting these steps would turn a finite regulated cascade into an unjustified perpetual signal.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L9",
+        "pages": [
+          [
+            24,
+            27
+          ]
+        ]
+      },
+      {
+        "source": "PATHWAY-GLUCAGON"
+      }
+    ]
   }
 ]

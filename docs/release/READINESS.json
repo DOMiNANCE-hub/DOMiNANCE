@@ -9,8 +9,8 @@
     "16": "1b74f79517b1930ce7cc0e2e20c6eb438cb42a3d"
   },
   "verification": {
-    "scope": "Five-PR integration, BIOL157 Units 3–8 and Cell completion batch",
-    "summary": "224 offline checks and 40 real local Auth/Firestore checks pass with Bio’s expanded 345-question bank, no skips/failures. Lint/build pass with ten existing warnings and the existing large-entry warning. Final Chromium traverses 85 Bio lessons/548 sections and 46 Cell lessons/277 sections at 390px, nineteen combined figures without clipped labels, Unit 5/6/7/8 exact source-feedback links, eight newer Cell citations and full-bank submissions (178/114/345), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 380 literal anchors verified; 101 selected visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified by this enzyme batch. No production test or formal academic sign-off.",
+    "scope": "Five-PR integration, BIOL157 Units 3–9 and Cell completion batch",
+    "summary": "230 offline and 40 real local Auth/Firestore checks pass with the 378-question Bio bank, no skips/failures. Lint/build pass with ten existing warnings and the large-entry warning. Chromium traverses 92 Bio lessons/599 sections and 46 Cell lessons/277 sections at 390px, twenty-one combined figures without clipped labels, Unit 5–9 exact feedback links, eight newer Cell citations and full banks (178/114/378), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 406 literal anchors verified; 116 visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified here. No production test or formal academic sign-off.",
     "productionTested": false
   },
   "deployment": {
@@ -20,12 +20,12 @@
   },
   "blockers": [
     "No formal academic sign-off for the final student-visible content.",
-    "BIOL157 Units 9–10 not authored; Units 1–8 have substantial source-checked teaching drafts pending academic review.",
+    "BIOL157 Unit 10 not authored; Units 1–9 have substantial source-checked teaching drafts pending academic review.",
     "Cell: all 170 original rationales editorially improved and four review-only question revisions documented; remaining source figures, historical microscopy development, precise concept links, human approval and current-year official scope are unresolved.",
     "Computer: exact manual acceptance steps are prepared but all 15 Microsoft Office desktop scenarios remain unexecuted; four questions withheld; payroll/grading/exactly-40/version ambiguities and 342 unmapped package pages remain open.",
     "Protected preview requires verified existing Vercel project configuration and isolated test Firebase; production rules/auth domains/data separation/rollback not yet verified."
   ],
-  "nextCheckpoint": "Read all 28 actual Lecture 9 pages and implement both Metabolic Pathways topics as a complete tested batch, then all 48 actual Lecture 10 pages and five Lipids topics with independent source-flag checks. Finish remaining Cell/Computer source and exact-concept gaps, human Office/academic decisions, auditable publication and isolated Firebase/Vercel preview readiness.",
+  "nextCheckpoint": "Read all 48 actual Lecture 10 pages and implement five Lipids topics with independently checked linolenic-acid and ganglioside/sulfatide flags. Finish remaining Cell/Computer source and exact-concept gaps, human Office/academic decisions, auditable publication and isolated Firebase/Vercel preview readiness.",
   "checklists": {
     "BIOL151": [
       {
@@ -230,12 +230,8 @@
     ]
   },
   "integrationPR": "https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17",
-  "testedImplementationCommit": "7c83ea56b5006049e475f358f49eef2a8ccc18f0",
-  "githubCI": {
-    "status": "success",
-    "commit": "7c83ea56b5006049e475f358f49eef2a8ccc18f0",
-    "url": "https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39541565027"
-  },
+  "testedImplementationCommit": null,
+  "githubCI": null,
   "checkpoints": [
     {
       "batch": "Five-PR integration and validation",
@@ -436,21 +432,13 @@
     {
       "id": "BIOL157",
       "course": "Biological Chemistry",
-      "lessons": 85,
-      "questions": 345,
+      "lessons": 92,
+      "questions": 378,
       "reviewStatus": "pending-human-academic-review",
       "studentRelease": "blocked",
       "officialTopics": 34,
-      "draftTopics": 27,
+      "draftTopics": 29,
       "missingTopics": [
-        {
-          "id": "BIOL157-U09-T01",
-          "title": "Principles of metabolic pathways"
-        },
-        {
-          "id": "BIOL157-U09-T02",
-          "title": "Control mechanisms"
-        },
         {
           "id": "BIOL157-U10-T01",
           "title": "Functions of lipids"
@@ -524,8 +512,8 @@
         {
           "id": "U09",
           "title": "Metabolic Pathways",
-          "status": "not-authored",
-          "lessons": 0
+          "status": "draft-review",
+          "lessons": 7
         },
         {
           "id": "U10",

@@ -1,5 +1,5 @@
 {
-  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages. Lecture 5 has 58 actual pages but printed numbering reaches 65, with gaps beginning at actual p.15; L5 references always use actual PDF pages. Lecture 6 has 52 actual pages and printed numbering reaches 56; all L6 citations use actual PDF pages. Lecture 7 has 71 actual pages and printed numbering reaches 81; every L7 reference uses actual PDF pages, never an inferred offset. Lecture 8 has 61 actual pages and printed numbering reaches 70; L8 references use actual PDF pages.",
+  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages. Lecture 5 has 58 actual pages but printed numbering reaches 65, with gaps beginning at actual p.15; L5 references always use actual PDF pages. Lecture 6 has 52 actual pages and printed numbering reaches 56; all L6 citations use actual PDF pages. Lecture 7 has 71 actual pages and printed numbering reaches 81; every L7 reference uses actual PDF pages, never an inferred offset. Lecture 8 has 61 actual pages and printed numbering reaches 70; L8 references use actual PDF pages. Lecture 9 has 28 actual pages and printed numbering reaches 30; L9 references use actual PDF pages.",
   "anchors": [
     {
       "source": "L1",
@@ -2280,6 +2280,162 @@
       "pdfPage": 60,
       "anchor": "− Modulator proteins are proteins that bind to enzymes and influence the",
       "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 2,
+      "anchor": "• By the end of this lecture, students will be able to:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 3,
+      "anchor": "• Metabolic pathway: a series of connected enzymatic reactions",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 4,
+      "anchor": "• How enzymes are involved in metabolic reactions:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 5,
+      "anchor": "• Enzymes are the basic units of metabolism; the substrates of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 6,
+      "anchor": "• Pathways are sequences of reactions:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 7,
+      "anchor": "• (1) Metabolic pathways are irreversible:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 8,
+      "anchor": "• (3) All metabolic pathways are regulated:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 9,
+      "anchor": "• Organelles and metabolic pathways:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 10,
+      "anchor": "• (1) Oxidation-reduction reactions:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 11,
+      "anchor": "− These reactions form bonds by using free energy from ATP cleavage",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 12,
+      "anchor": "− It rearranges atoms within the molecule. It prepares a molecule for",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 13,
+      "anchor": "− A phosphoryl group is transferred from the activated phosphoryl-",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 14,
+      "anchor": "− Hydrolytic reactions cleave bonds by adding water. Hydrolysis breaks",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 15,
+      "anchor": "• (6) Addition of functional groups to double bonds or",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 16,
+      "anchor": "• (6) Addition of functional groups to double bonds or",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 17,
+      "anchor": "− The level of a single enzyme varies under different environmental",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 18,
+      "anchor": "• (1) Control of enzyme levels – lac operon:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 19,
+      "anchor": "− The catalytic activity of an enzyme can be controlled in two ways:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 20,
+      "anchor": "− (b) Covalent modification of enzyme structure represents another",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 21,
+      "anchor": "Major Metabolic Control Mechanisms",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 22,
+      "anchor": "− In eukaryotic cells, enzymes participating in the same process are",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 23,
+      "anchor": "• (3) Compartmentation – glucose metabolism:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 24,
+      "anchor": "− Hormones are substances synthesised by specialised cells and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 25,
+      "anchor": "• (4) Hormonal regulation – steroid hormone:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 26,
+      "anchor": "− (b) In other responses involving hormones, there is a synthesis of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 27,
+      "anchor": "• (4) Hormonal regulation – nonsteroid hormone:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
     }
   ],
   "visuallyInspected": [
@@ -2431,6 +2587,27 @@
         59
       ],
       "result": "Selected barrier/catalysis, all seven EC classes, cofactor/carrier structures, simple kinetic equations, pH/temperature, inhibition, recognition/induced-fit, phosphorylation, precursor and LDH figures/tables inspected. No source images copied; source classification already includes EC7."
+    },
+    {
+      "source": "L9",
+      "pdfPages": [
+        4,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        21,
+        23,
+        25,
+        27
+      ],
+      "result": "Organisation, cell compartment map, six reaction examples, lac schematic, allostery, glucose compartments and steroid/surface-receptor signals inspected. Aconitase overall rearrangement versus EC4 classification and partial succinate oxidation explicitly reconciled. No source image copied."
     }
   ]
 }

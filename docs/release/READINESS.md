@@ -8,19 +8,19 @@ Draft integration PR: [#17](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17).
 |---|---:|---:|---|---|
 | Cell Structure | 46 | 178 | 31 available 2025 objectives; current-year scope unverified | Blocked |
 | Computer Appreciation | 18 | 114 | Official syllabus unavailable; 18 source-derived lesson objectives | Blocked |
-| Biological Chemistry | 85 | 345 | 27/34 topics with draft notes | Blocked |
+| Biological Chemistry | 92 | 378 | 29/34 topics with draft notes | Blocked |
 
 ## Remaining blockers
 
 - No formal academic sign-off for the final student-visible content.
-- BIOL157 Units 9–10 not authored; Units 1–8 have substantial source-checked teaching drafts pending academic review.
+- BIOL157 Unit 10 not authored; Units 1–9 have substantial source-checked teaching drafts pending academic review.
 - Cell: all 170 original rationales editorially improved and four review-only question revisions documented; remaining source figures, historical microscopy development, precise concept links, human approval and current-year official scope are unresolved.
 - Computer: exact manual acceptance steps are prepared but all 15 Microsoft Office desktop scenarios remain unexecuted; four questions withheld; payroll/grading/exactly-40/version ambiguities and 342 unmapped package pages remain open.
 - Protected preview requires verified existing Vercel project configuration and isolated test Firebase; production rules/auth domains/data separation/rollback not yet verified.
 
 ## Verification
 
-224 offline checks and 40 real local Auth/Firestore checks pass with Bio’s expanded 345-question bank, no skips/failures. Lint/build pass with ten existing warnings and the existing large-entry warning. Final Chromium traverses 85 Bio lessons/548 sections and 46 Cell lessons/277 sections at 390px, nineteen combined figures without clipped labels, Unit 5/6/7/8 exact source-feedback links, eight newer Cell citations and full-bank submissions (178/114/345), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 380 literal anchors verified; 101 selected visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified by this enzyme batch. No production test or formal academic sign-off.
+230 offline and 40 real local Auth/Firestore checks pass with the 378-question Bio bank, no skips/failures. Lint/build pass with ten existing warnings and the large-entry warning. Chromium traverses 92 Bio lessons/599 sections and 46 Cell lessons/277 sections at 390px, twenty-one combined figures without clipped labels, Unit 5–9 exact feedback links, eight newer Cell citations and full banks (178/114/378), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 406 literal anchors verified; 116 visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified here. No production test or formal academic sign-off.
 
 ## Deployment
 
@@ -28,7 +28,7 @@ Existing Vercel project: `do-mi-nance`. Read-only inspection confirms existing V
 
 ## Exact next checkpoint
 
-Read all 28 actual Lecture 9 pages and implement both Metabolic Pathways topics as a complete tested batch, then all 48 actual Lecture 10 pages and five Lipids topics with independent source-flag checks. Finish remaining Cell/Computer source and exact-concept gaps, human Office/academic decisions, auditable publication and isolated Firebase/Vercel preview readiness.
+Read all 48 actual Lecture 10 pages and implement five Lipids topics with independently checked linolenic-acid and ganglioside/sulfatide flags. Finish remaining Cell/Computer source and exact-concept gaps, human Office/academic decisions, auditable publication and isolated Firebase/Vercel preview readiness.
 
 ## Tested implementation checkpoints
 
@@ -42,7 +42,7 @@ Read all 28 actual Lecture 9 pages and implement both Metabolic Pathways topics 
 - Bio Unit 7: [`5991d51`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/5991d514d2c1213b6744546e36c2a129e6a2252a)
 - Bio Unit 8: [`7c83ea5`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/7c83ea56b5006049e475f358f49eef2a8ccc18f0)
 
-Latest implementation CI: [success](https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39541565027). Exact continuation: [CONTINUE.md](CONTINUE.md).
+Latest implementation CI: not recorded. Exact continuation: [CONTINUE.md](CONTINUE.md).
 
 Microsoft Office remains 0/15 executed: [exact manual acceptance checklist](../csm177/MICROSOFT_OFFICE_ACCEPTANCE.md).
 
