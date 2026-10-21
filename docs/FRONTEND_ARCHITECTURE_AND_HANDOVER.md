@@ -143,7 +143,7 @@ The embedded dashboard loads seven stylesheets in `<head>` before `<body>` rende
 Run the following commands before committing or updating any PR:
 
 ```bash
-# 1. Unit & behavioral test suite (209 tests across all 3 courses, UI, auth, and state)
+# 1. Unit & behavioral test suite (214 tests across all 3 courses, UI, auth, and state)
 npm test
 
 # 2. Static analysis (oxlint)
@@ -159,7 +159,69 @@ npm run dev:emulator
 npm run test:emulators
 ```
 
-> **Windows Git Note**: Keep `git config core.autocrlf false` in Windows worktrees so source files in `content/cell-structure/lessons/*.md` retain exact LF SHA-256 hashes verified by `tests/cell-instruction.test.js`. Both `public/dashboard/cell-learning.js` and `public/dashboard/cell-structure.js` also normalize `\r\n` at runtime for cross-platform resilience.
+---
+
+## 6. Student Experience Redesign & Interactive Capabilities
+
+The comprehensive student experience redesign transforms the Study Area, Practice Arena, navigation, and appearance preferences into a responsive, cohesive, and distraction-free learning environment:
+
+### 6.1 Practice Arena Interaction Models
+- **Marking Modes** (configured in Practice Setup via `#quizSetup`):
+  1. `Submit at end (Exam style)`: Traditional assessment flow; student answers all questions without feedback, reviews their summary, and receives complete results upon submission.
+  2. `Mark as you go (Check Answer)`: Default guided practice mode; selecting an option unlocks a high-contrast **`Check Answer`** button. Clicking Check Answer locks the option, reveals immediate correctness styling (`.correct` green / `.incorrect` red), and renders the Level 1 explanation callout.
+  3. `Mark as you go (Instant marking)`: Immediate feedback; clicking an option instantly marks it and reveals the Level 1 explanation without requiring a second click.
+- **Flag for Review**:
+  - Each question features an accessible toggle button (`.flag-btn` with `aria-pressed`): `⚐ Flag for review` / `⚑ Flagged`.
+  - Flagged status persists in the session draft (`draft.flags = [...]`) and is surfaced in the Question Navigator, review screen, and results view.
+- **Question Navigator**:
+  - A contextual `<select aria-label="Go to question">` dropdown allows immediate jumping to any question in the session.
+  - Options indicate question status: `Q1: Answered`, `Q2: Flagged`, `Q3: Flagged (Answered)`, `Q4: Unanswered`.
+- **Two-Level Explanations**:
+  - **Level 1 (Immediate Rationale)**: Visible directly beneath question options upon checking an answer in "Mark as you go" mode (`.cell-explanation-box`).
+  - **Level 2 (Deep Study & Citations)**: In the Results view (`resultView`), each question expands via `<details>` to provide comprehensive scientific rationale, source PDF citations (e.g. `BIOL 151 lecturer PDF p. 81, p. 91`), and the direct **`Study this concept`** action button.
+- **Results Screen & Targeted Retries**:
+  - **Review Filters**: Quick filter buttons (`Review Wrong Answers (N)` vs `Review All Answers`) allow students to isolate mistakes immediately without scrolling through mastered questions.
+  - **Targeted Retry Workflow**: A dedicated **`Retry Wrong Questions (N)`** button launches a new practice session containing *only* the questions the student missed, preserving academic practice focus.
+  - **Full Quiz Retry**: Retains the option to restart the entire question pool.
+
+### 6.2 Study Area: Concept-Based Reader & Gestures
+- **Concept-Based Sections**: Natural-length reading segments with distinct headers, callouts, and collapsible concept checks.
+- **Mobile Touch Gestures**:
+  - Swipe left (`touchstart`/`touchend` delta `<-50px`) advances to the next section.
+  - Swipe right (delta `>50px`) returns to the previous section.
+  - Intelligent horizontal scroll containment: Gestures originating inside horizontally scrollable elements (such as `.cell-table` formulas and wide diagrams) are ignored, preventing accidental section switching while panning tables.
+- **Reading Position Restoration**: Preserves the student's exact reading position per block and lesson, with smooth recovery across browser reloads.
+
+### 6.3 Keyboard Productivity Controls
+The learning workspace attaches a global keyboard shortcut listener:
+- `1`, `2`, `3`, `4`: Select multiple-choice option A, B, C, or D.
+- `←` / `→`: Navigate to previous or next question (in quiz) or section (in study).
+- `F`: Toggle **Flag for Review** on the active question.
+- `G`: Focus the **Question Navigator** dropdown to jump directly to any question.
+- `Enter`: Trigger **Check Answer** when an option is selected in "Check Answer" mode.
+- `T`: Focus the **Table of Contents / Section Navigator** in the Study Area.
+- `P`: Immediately trigger **Practise this lesson** / **Practise this concept** from the reader.
+
+### 6.4 Simplified Appearance Preferences (Theme Studio)
+- Located in the parent Account dialog under **Preferences** (`src/appearance-studio.jsx`):
+  - **Display Mode**: Instant swatches for `System`, `Light`, and `Dark`.
+  - **Colour Themes**: Instant visual swatches for all 6 accessible palettes (`DOMiNANCE Signature`, `Atlantic Teal`, `Emerald Health`, `Amber Classic`, `Rose Medical`, `Slate Minimal`).
+  - **Collapsible Advanced Appearance**: Depths (`Bold`, `Balanced`, `Calm`) and Motion (`System`, `Normal`, `Reduced`) are neatly grouped inside a `<details className="advanced-appearance">` disclosure, eliminating visual clutter for students who only want to toggle light/dark or change palettes.
+
+---
+
+## 7. Verification Artifacts & QA Screenshots
+
+Headless Chrome automated browser QA runs in emulator mode and generates visual verification artifacts stored in the workspace:
+- `redesign-practice-check-answer-1440px.png`: Practice Area running in "Mark as you go (Check Answer)" mode, showing locked option, correctness badge, revealed Level 1 explanation, and Flag toggle.
+- `redesign-practice-navigator-390px.png`: Mobile 390px viewport showing the Question Navigator dropdown with flagged/answered badges and responsive touch controls.
+- `redesign-results-review-retry-1440px.png`: Results screen displaying the new Review Filter Bar (`Review Wrong Answers (N)` vs `Review All Answers`) and the `Retry Wrong Questions (N)` button.
+- `redesign-results-wrong-filtered-1440px.png`: Results screen filtered specifically to wrong answers.
+- `final-rc-bio-blocks-1440px.png`: Biological Chemistry unit overview with authored units and dashed unauthored units.
+- `final-rc-bio-study-1440px.png` & `final-rc-bio-study-360px.png`: Desktop and mobile responsive Study reader with tables, inline formulas, and concept checks.
+- `final-rc-progress-three-courses-1440px.png`: Multi-course progress overview with verified practice records across all three courses.
+
+---
 
 ### Remaining Non-Frontend Release Gates (Outside Frontend Scope)
 
