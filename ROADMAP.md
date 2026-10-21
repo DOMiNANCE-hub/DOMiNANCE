@@ -487,3 +487,7 @@ Fifteen original lessons, 53 section-linked MCQs, 30 answered checks, 114 sectio
 ## PowerPoint exact feedback links — 2026-10-21
 
 All 36 existing PowerPoint MCQs now open a reviewed, unique teaching heading within their original lesson. A reusable compiler validator rejects stale, duplicate, ambiguous and cross-lesson targets; runtime does not guess. No stems, options, keys, IDs, lesson ordering, history or Firebase writes changed. Three new behavioural checks cover mappings, failure cases and all 36 lazy feedback panels. Combined 241 offline/40 emulator checks, lint/build and Chromium pass. See docs/release/POWERPOINT_LINKS.md. The 78 Excel and 178 Cell targets remain unmapped; no academic/Office approval or publication follows from this navigation fix.
+
+## Excel feedback targets — 2026-10-21
+
+The remaining 78 Excel questions have manually reviewed section targets; all 114 Computer feedback panels now link to explicit existing teaching. Review covered values/editing, fills, formulas/references, functions/dates/counting, logic/finance, printing/charts/records and six review-extension topics. Keys, stems, options, citations, lesson order, answer history and publication gates are unchanged. The existing three mapping tests now exercise all 114 lazy feedback panels across all 18 lessons. Detailed CA16 lookup syntax remains a teaching gap; the actual source only supplies its p.203 glossary. See docs/release/EXCEL_LINKS.md.

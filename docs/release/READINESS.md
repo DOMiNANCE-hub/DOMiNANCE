@@ -20,7 +20,7 @@ Draft integration PR: [#17](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17).
 
 ## Verification
 
-241 offline and 40 real local Auth/Firestore checks pass with the 431-question Bio bank, no skips/failures. Lint/build pass with ten existing warnings and the large-entry warning. Chromium traverses all ten authored Bio units, 107 lessons/713 sections and 46 Cell lessons/277 sections at 390px, twenty-five combined figures without clipped labels, Unit 5–10 exact feedback links and a real PowerPoint result-to-section return, eight newer Cell citations and full banks (178/114/431), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 452 literal anchors verified; 131 selected visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified here. No production test or formal academic sign-off.
+241 offline and 40 real local Auth/Firestore checks pass with the 431-question Bio bank, no skips/failures. Lint/build pass with ten existing warnings and the large-entry warning. Chromium traverses all ten authored Bio units, 107 lessons/713 sections and 46 Cell lessons/277 sections at 390px, twenty-five combined figures without clipped labels, Unit 5–10 exact feedback links and real Excel/PowerPoint result-to-section returns, eight newer Cell citations and full banks (178/114/431), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 452 literal anchors verified; 131 selected visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified here. No production test or formal academic sign-off.
 
 ## Deployment
 
@@ -28,7 +28,7 @@ Existing Vercel project: `do-mi-nance`. Read-only inspection confirms existing V
 
 ## Exact next checkpoint
 
-Review and map the remaining 78 Excel and 178 Cell feedback targets against their teaching sections. Complete supported source/figure gaps, auditable human approval/publication and isolated Firebase/Vercel preview readiness. Office execution and academic decisions require documented human evidence.
+Map the remaining 178 Cell feedback targets against actual teaching sections; complete source/figure/history gaps and verified Computer lookup teaching, then auditable human approval/publication and isolated Firebase/Vercel preview readiness. Preserve all Computer mappings and earlier Bio units. Office execution and academic decisions require documented human evidence.
 
 ## Tested implementation checkpoints
 

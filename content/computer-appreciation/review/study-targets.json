@@ -1,8 +1,332 @@
 {
   "status": "author-reviewed-section-mapping-pending-human-academic-review",
   "reviewer": null,
-  "scope": "36 existing PowerPoint questions; no question text or key changes; no Office execution or publication approval",
+  "scope": "All 114 existing Excel and PowerPoint questions; metadata only, no assessment changes, Office execution or publication approval",
   "targets": [
+    {
+      "id": "CA-Q001",
+      "lesson": "CA01",
+      "sectionTitle": "From a worksheet to a calculation",
+      "reason": "Defines cells, worksheets and workbooks explicitly."
+    },
+    {
+      "id": "CA-Q002",
+      "lesson": "CA01",
+      "sectionTitle": "From a worksheet to a calculation",
+      "reason": "Defines cells, worksheets and workbooks explicitly."
+    },
+    {
+      "id": "CA-Q003",
+      "lesson": "CA01",
+      "sectionTitle": "Edit and check",
+      "reason": "Escape cancels an edit; clearing contents preserves the cell."
+    },
+    {
+      "id": "CA-Q004",
+      "lesson": "CA01",
+      "sectionTitle": "Enter the right kind of value",
+      "reason": "Distinguishes text identifiers retaining zeros from separate numeric quantity/price inputs."
+    },
+    {
+      "id": "CA-Q005",
+      "lesson": "CA01",
+      "sectionTitle": "Enter the right kind of value",
+      "reason": "Distinguishes text identifiers retaining zeros from separate numeric quantity/price inputs."
+    },
+    {
+      "id": "CA-Q006",
+      "lesson": "CA01",
+      "sectionTitle": "Edit and check",
+      "reason": "Escape cancels an edit; clearing contents preserves the cell."
+    },
+    {
+      "id": "CA-Q007",
+      "lesson": "CA02",
+      "sectionTitle": "Two different time savers",
+      "reason": "Contrasts AutoComplete and AutoFill, with the explicit 2,4,6,8 series."
+    },
+    {
+      "id": "CA-Q008",
+      "lesson": "CA02",
+      "sectionTitle": "Two different time savers",
+      "reason": "Contrasts AutoComplete and AutoFill, with the explicit 2,4,6,8 series."
+    },
+    {
+      "id": "CA-Q009",
+      "lesson": "CA02",
+      "sectionTitle": "Copying formulas is not copying their displayed answers",
+      "reason": "Ctrl+D fills down, can overwrite entries and calls for Undo/checking destination."
+    },
+    {
+      "id": "CA-Q010",
+      "lesson": "CA02",
+      "sectionTitle": "Two different time savers",
+      "reason": "Contrasts AutoComplete and AutoFill, with the explicit 2,4,6,8 series."
+    },
+    {
+      "id": "CA-Q011",
+      "lesson": "CA02",
+      "sectionTitle": "Clearing changes contents; deletion changes the grid",
+      "reason": "Deleting a whole row moves its related entries together."
+    },
+    {
+      "id": "CA-Q012",
+      "lesson": "CA02",
+      "sectionTitle": "Copying formulas is not copying their displayed answers",
+      "reason": "Ctrl+D fills down, can overwrite entries and calls for Undo/checking destination."
+    },
+    {
+      "id": "CA-Q013",
+      "lesson": "CA03",
+      "sectionTitle": "Decide which references may move",
+      "reason": "Fixed/mixed reference table and B2*$F$1 copy-down directly match the assessed examples."
+    },
+    {
+      "id": "CA-Q014",
+      "lesson": "CA03",
+      "sectionTitle": "Read and diagnose formulas",
+      "reason": "Defines inclusive colon ranges and direct self-reference/circularity."
+    },
+    {
+      "id": "CA-Q015",
+      "lesson": "CA03",
+      "sectionTitle": "Read and diagnose formulas",
+      "reason": "Defines inclusive colon ranges and direct self-reference/circularity."
+    },
+    {
+      "id": "CA-Q016",
+      "lesson": "CA03",
+      "sectionTitle": "Build a calculation",
+      "reason": "The exact 6+27/3 evaluation is explained using precedence."
+    },
+    {
+      "id": "CA-Q017",
+      "lesson": "CA03",
+      "sectionTitle": "Decide which references may move",
+      "reason": "Fixed/mixed reference table and B2*$F$1 copy-down directly match the assessed examples."
+    },
+    {
+      "id": "CA-Q018",
+      "lesson": "CA03",
+      "sectionTitle": "Decide which references may move",
+      "reason": "Fixed/mixed reference table and B2*$F$1 copy-down directly match the assessed examples."
+    },
+    {
+      "id": "CA-Q019",
+      "lesson": "CA04",
+      "sectionTitle": "A function is a named calculation",
+      "reason": "SUM adds the arguments or selected range."
+    },
+    {
+      "id": "CA-Q020",
+      "lesson": "CA04",
+      "sectionTitle": "Dates are values too",
+      "reason": "DATE argument order, recalculating NOW and fixed-event-date limits are explained."
+    },
+    {
+      "id": "CA-Q021",
+      "lesson": "CA04",
+      "sectionTitle": "Dates are values too",
+      "reason": "DATE argument order, recalculating NOW and fixed-event-date limits are explained."
+    },
+    {
+      "id": "CA-Q022",
+      "lesson": "CA04",
+      "sectionTitle": "Calculate and explain",
+      "reason": "Table explicitly calculates MOD(17,5)=2 and SQRT(81)=9."
+    },
+    {
+      "id": "CA-Q023",
+      "lesson": "CA04",
+      "sectionTitle": "Calculate and explain",
+      "reason": "Table explicitly calculates MOD(17,5)=2 and SQRT(81)=9."
+    },
+    {
+      "id": "CA-Q024",
+      "lesson": "CA04",
+      "sectionTitle": "Dates are values too",
+      "reason": "DATE argument order, recalculating NOW and fixed-event-date limits are explained."
+    },
+    {
+      "id": "CA-Q025",
+      "lesson": "CA05",
+      "sectionTitle": "Count what you intend to count",
+      "reason": "Numeric/nonempty counts and >=40 boundary example match the assessment cases."
+    },
+    {
+      "id": "CA-Q026",
+      "lesson": "CA05",
+      "sectionTitle": "Choose the question before the function",
+      "reason": "Ordered median and the exact 2,4,9 arithmetic mean are compared."
+    },
+    {
+      "id": "CA-Q027",
+      "lesson": "CA05",
+      "sectionTitle": "Spread and selection",
+      "reason": "Explicitly distinguishes legacy sample STDEV from population STDEVP."
+    },
+    {
+      "id": "CA-Q028",
+      "lesson": "CA05",
+      "sectionTitle": "Choose the question before the function",
+      "reason": "Ordered median and the exact 2,4,9 arithmetic mean are compared."
+    },
+    {
+      "id": "CA-Q029",
+      "lesson": "CA05",
+      "sectionTitle": "Count what you intend to count",
+      "reason": "Numeric/nonempty counts and >=40 boundary example match the assessment cases."
+    },
+    {
+      "id": "CA-Q030",
+      "lesson": "CA05",
+      "sectionTitle": "Count what you intend to count",
+      "reason": "Numeric/nonempty counts and >=40 boundary example match the assessment cases."
+    },
+    {
+      "id": "CA-Q031",
+      "lesson": "CA06",
+      "sectionTitle": "Text operations have a purpose",
+      "reason": "Explains the & text joining operator."
+    },
+    {
+      "id": "CA-Q032",
+      "lesson": "CA06",
+      "sectionTitle": "Make a decision explicit",
+      "reason": "AND/OR and the exact supplied IF/OR examples are traced without institutional grading claims."
+    },
+    {
+      "id": "CA-Q033",
+      "lesson": "CA06",
+      "sectionTitle": "Financial functions require consistent periods",
+      "reason": "Defines nper and the stated five-year monthly 12%/12,60 example."
+    },
+    {
+      "id": "CA-Q034",
+      "lesson": "CA06",
+      "sectionTitle": "Make a decision explicit",
+      "reason": "AND/OR and the exact supplied IF/OR examples are traced without institutional grading claims."
+    },
+    {
+      "id": "CA-Q035",
+      "lesson": "CA06",
+      "sectionTitle": "Make a decision explicit",
+      "reason": "AND/OR and the exact supplied IF/OR examples are traced without institutional grading claims."
+    },
+    {
+      "id": "CA-Q036",
+      "lesson": "CA06",
+      "sectionTitle": "Financial functions require consistent periods",
+      "reason": "Defines nper and the stated five-year monthly 12%/12,60 example."
+    },
+    {
+      "id": "CA-Q037",
+      "lesson": "CA07",
+      "sectionTitle": "Format the display, preserve the value",
+      "reason": "Stored value versus display, percentage 0.25 and Wrap Text are explicitly taught."
+    },
+    {
+      "id": "CA-Q038",
+      "lesson": "CA07",
+      "sectionTitle": "Save and organise",
+      "reason": "Save As chooses another name, location or type."
+    },
+    {
+      "id": "CA-Q039",
+      "lesson": "CA07",
+      "sectionTitle": "Check the printed result",
+      "reason": "Print area, preview, orientation and readable scaling are compared."
+    },
+    {
+      "id": "CA-Q040",
+      "lesson": "CA07",
+      "sectionTitle": "Format the display, preserve the value",
+      "reason": "Stored value versus display, percentage 0.25 and Wrap Text are explicitly taught."
+    },
+    {
+      "id": "CA-Q041",
+      "lesson": "CA07",
+      "sectionTitle": "Format the display, preserve the value",
+      "reason": "Stored value versus display, percentage 0.25 and Wrap Text are explicitly taught."
+    },
+    {
+      "id": "CA-Q042",
+      "lesson": "CA07",
+      "sectionTitle": "Check the printed result",
+      "reason": "Print area, preview, orientation and readable scaling are compared."
+    },
+    {
+      "id": "CA-Q043",
+      "lesson": "CA08",
+      "sectionTitle": "Start with data and the comparison",
+      "reason": "Defines a data series and source selection."
+    },
+    {
+      "id": "CA-Q044",
+      "lesson": "CA08",
+      "sectionTitle": "Use the relationship to choose the chart",
+      "reason": "Chart task table and uneven day 1,3,10 numeric spacing directly match the questions."
+    },
+    {
+      "id": "CA-Q045",
+      "lesson": "CA08",
+      "sectionTitle": "Use the relationship to choose the chart",
+      "reason": "Chart task table and uneven day 1,3,10 numeric spacing directly match the questions."
+    },
+    {
+      "id": "CA-Q046",
+      "lesson": "CA08",
+      "sectionTitle": "Use the relationship to choose the chart",
+      "reason": "Chart task table and uneven day 1,3,10 numeric spacing directly match the questions."
+    },
+    {
+      "id": "CA-Q047",
+      "lesson": "CA08",
+      "sectionTitle": "Use the relationship to choose the chart",
+      "reason": "Chart task table and uneven day 1,3,10 numeric spacing directly match the questions."
+    },
+    {
+      "id": "CA-Q048",
+      "lesson": "CA08",
+      "sectionTitle": "Read before presenting",
+      "reason": "Recheck selected source cells/series after source-linked chart data changes."
+    },
+    {
+      "id": "CA-Q049",
+      "lesson": "CA09",
+      "sectionTitle": "Understand the table",
+      "reason": "Defines a record as related fields on one row."
+    },
+    {
+      "id": "CA-Q050",
+      "lesson": "CA09",
+      "sectionTitle": "Sorting changes order",
+      "reason": "Sort complete records and distinguish primary group from secondary within-group order."
+    },
+    {
+      "id": "CA-Q051",
+      "lesson": "CA09",
+      "sectionTitle": "Filtering changes which rows are visible",
+      "reason": "Filtering hides rows without deleting them; >=40 includes equal boundary values."
+    },
+    {
+      "id": "CA-Q052",
+      "lesson": "CA09",
+      "sectionTitle": "Sorting changes order",
+      "reason": "Sort complete records and distinguish primary group from secondary within-group order."
+    },
+    {
+      "id": "CA-Q053",
+      "lesson": "CA09",
+      "sectionTitle": "Filtering changes which rows are visible",
+      "reason": "Filtering hides rows without deleting them; >=40 includes equal boundary values."
+    },
+    {
+      "id": "CA-Q054",
+      "lesson": "CA09",
+      "sectionTitle": "Sorting changes order",
+      "reason": "Sort complete records and distinguish primary group from secondary within-group order."
+    },
     {
       "id": "CA-Q055",
       "lesson": "CA10",
@@ -110,6 +434,150 @@
       "lesson": "CA12",
       "sectionTitle": "Check delivery and printed output",
       "reason": "Preview, output type and selected range are checked before audience printing."
+    },
+    {
+      "id": "CA-Q073",
+      "lesson": "CA13",
+      "sectionTitle": "A sequence you define",
+      "reason": "States the source rule for text/mixed entries and numeric-only text formatting."
+    },
+    {
+      "id": "CA-Q074",
+      "lesson": "CA13",
+      "sectionTitle": "Import or create",
+      "reason": "Distinguishes Import from NEW LIST and storing typed entries with Add."
+    },
+    {
+      "id": "CA-Q075",
+      "lesson": "CA13",
+      "sectionTitle": "Import or create",
+      "reason": "Distinguishes Import from NEW LIST and storing typed entries with Add."
+    },
+    {
+      "id": "CA-Q076",
+      "lesson": "CA13",
+      "sectionTitle": "Import or create",
+      "reason": "Distinguishes Import from NEW LIST and storing typed entries with Add."
+    },
+    {
+      "id": "CA-Q077",
+      "lesson": "CA14",
+      "sectionTitle": "Names express meaning",
+      "reason": "Readable references and the source-qualified letter/underscore starting rule."
+    },
+    {
+      "id": "CA-Q078",
+      "lesson": "CA14",
+      "sectionTitle": "Names express meaning",
+      "reason": "Readable references and the source-qualified letter/underscore starting rule."
+    },
+    {
+      "id": "CA-Q079",
+      "lesson": "CA14",
+      "sectionTitle": "Locate and inspect",
+      "reason": "Name Box location and Name Manager purpose are explicitly described."
+    },
+    {
+      "id": "CA-Q080",
+      "lesson": "CA14",
+      "sectionTitle": "Locate and inspect",
+      "reason": "Name Box location and Name Manager purpose are explicitly described."
+    },
+    {
+      "id": "CA-Q081",
+      "lesson": "CA15",
+      "sectionTitle": "One other worksheet",
+      "reason": "Single-quoted spaced sheet names and ! separator are explicitly illustrated."
+    },
+    {
+      "id": "CA-Q082",
+      "lesson": "CA15",
+      "sectionTitle": "One other worksheet",
+      "reason": "Single-quoted spaced sheet names and ! separator are explicitly illustrated."
+    },
+    {
+      "id": "CA-Q083",
+      "lesson": "CA15",
+      "sectionTitle": "The same cells across multiple worksheets",
+      "reason": "Distinguishes worksheet span from cell range in a multi-sheet SUM."
+    },
+    {
+      "id": "CA-Q084",
+      "lesson": "CA15",
+      "sectionTitle": "The same cells across multiple worksheets",
+      "reason": "Distinguishes worksheet span from cell range in a multi-sheet SUM."
+    },
+    {
+      "id": "CA-Q085",
+      "lesson": "CA16",
+      "sectionTitle": "Read the direction of the search",
+      "reason": "VLOOKUP first-column direction versus HLOOKUP top-row direction, without claiming a full syntax specification."
+    },
+    {
+      "id": "CA-Q086",
+      "lesson": "CA16",
+      "sectionTitle": "Read the direction of the search",
+      "reason": "VLOOKUP first-column direction versus HLOOKUP top-row direction, without claiming a full syntax specification."
+    },
+    {
+      "id": "CA-Q087",
+      "lesson": "CA16",
+      "sectionTitle": "Position, value and orientation",
+      "reason": "Distinguishes relative MATCH position from INDEX value and TRANSPOSE orientation; technical clarification is labelled."
+    },
+    {
+      "id": "CA-Q088",
+      "lesson": "CA16",
+      "sectionTitle": "Position, value and orientation",
+      "reason": "Distinguishes relative MATCH position from INDEX value and TRANSPOSE orientation; technical clarification is labelled."
+    },
+    {
+      "id": "CA-Q089",
+      "lesson": "CA17",
+      "sectionTitle": "Bring comparable data together",
+      "reason": "Defines master worksheet and gives the exact 12+15+23=50 fictional SUM example."
+    },
+    {
+      "id": "CA-Q090",
+      "lesson": "CA17",
+      "sectionTitle": "Sources, destination and function",
+      "reason": "Defines the destination as where combined results appear."
+    },
+    {
+      "id": "CA-Q091",
+      "lesson": "CA17",
+      "sectionTitle": "Fixed or linked",
+      "reason": "Linked updates are conditional and distinct from a fixed snapshot."
+    },
+    {
+      "id": "CA-Q092",
+      "lesson": "CA17",
+      "sectionTitle": "Bring comparable data together",
+      "reason": "Defines master worksheet and gives the exact 12+15+23=50 fictional SUM example."
+    },
+    {
+      "id": "CA-Q093",
+      "lesson": "CA18",
+      "sectionTitle": "Manual boundaries",
+      "reason": "Horizontal break selection is below the intended break; manual breaks reposition automatic boundaries."
+    },
+    {
+      "id": "CA-Q094",
+      "lesson": "CA18",
+      "sectionTitle": "Manual boundaries",
+      "reason": "Horizontal break selection is below the intended break; manual breaks reposition automatic boundaries."
+    },
+    {
+      "id": "CA-Q095",
+      "lesson": "CA18",
+      "sectionTitle": "Print settings answer different questions",
+      "reason": "Describes source Sheet-tab print titles/order and header placement."
+    },
+    {
+      "id": "CA-Q096",
+      "lesson": "CA18",
+      "sectionTitle": "Print settings answer different questions",
+      "reason": "Describes source Sheet-tab print titles/order and header placement."
     },
     {
       "id": "CA-Q097",

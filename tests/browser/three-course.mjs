@@ -145,6 +145,16 @@ try{
  await frame.getByRole('button',{name:'Review responses',exact:true}).click();
  await frame.getByRole('button',{name:'Submit practice (114 unanswered)',exact:true}).click();
  await frame.getByRole('button',{name:'Return to study',exact:true}).click();
+ await dashboard.evaluate(()=>openTopic('lesson:CA03:0'));
+ await frame.getByRole('button',{name:'Practise this lesson',exact:true}).click();
+ await frame.getByRole('button',{name:'Review responses',exact:true}).click();
+ await frame.getByRole('button',{name:/^Submit practice/}).click();
+ await frame.locator('#quizArea summary').first().click();
+ const excelStem=await frame.locator('#quizArea h3').first().textContent(),excelTarget=await dashboard.evaluate(stem=>DominanceComputerContent.questions.find(q=>q.question===stem).studyTarget.sectionTitle,excelStem);
+ await frame.getByRole('button',{name:'Study this concept',exact:true}).click();
+ await frame.getByRole('heading',{name:excelTarget,exact:true}).waitFor();
+ await frame.getByRole('button',{name:'← Computer Appreciation',exact:true}).click();
+ console.log('PASS: Excel formula feedback opens its reviewed exact teaching section.');
  await dashboard.evaluate(()=>showView('progress'));
  await frame.locator('#biologicalProgress').waitFor({state:'visible'});
  await frame.locator('#computerProgress').waitFor({state:'visible'});
