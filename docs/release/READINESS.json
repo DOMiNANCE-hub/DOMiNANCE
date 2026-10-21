@@ -233,8 +233,8 @@
   "testedImplementationCommit": "d55b924160901706e04e8fded89624d145e3843d",
   "githubCI": {
     "status": "success",
-    "commit": "8dab397b1ecdf6eb36c833549ad475b0bd4a8965",
-    "url": "https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39577763671"
+    "commit": "bbc08e43344070de2bd797bb0c5dc52a74ec8f6c",
+    "url": "https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39643953044"
   },
   "checkpoints": [
     {
@@ -284,11 +284,15 @@
     {
       "batch": "PowerPoint exact feedback links",
       "commit": "8dab397b1ecdf6eb36c833549ad475b0bd4a8965"
+    },
+    {
+      "batch": "All Excel feedback links",
+      "commit": "bbc08e43344070de2bd797bb0c5dc52a74ec8f6c"
     }
   ],
   "continuation": "docs/release/CONTINUE.md",
-  "testedCommit": "8dab397b1ecdf6eb36c833549ad475b0bd4a8965",
-  "integrationPRMetadata": "PR #17 description includes Unit 10 and PowerPoint links. Final CI-receipt edit was not executed because automatic approval review could not complete due to connector usage limit; do not bypass this through another PR-writing tool. Excel link changes are in the branch and repository reports; PR description refresh remains pending.",
+  "testedCommit": "bbc08e43344070de2bd797bb0c5dc52a74ec8f6c",
+  "integrationPRMetadata": "PR #17 description refreshed with all 114 Computer targets and current verification. Earlier connector approval-review usage failure resolved after its reset; no alternate-tool bypass used.",
   "courses": [
     {
       "id": "BIOL151",
