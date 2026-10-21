@@ -9,8 +9,8 @@
     "16": "1b74f79517b1930ce7cc0e2e20c6eb438cb42a3d"
   },
   "verification": {
-    "scope": "Five-PR integration, BIOL157 Units 3–7 and Cell completion batch",
-    "summary": "216 offline checks and 40 real local Auth/Firestore checks pass with the expanded Bio 282-question bank. Lint/build pass with ten existing warnings and the existing large-entry warning. Chromium traverses all 71 Bio lessons/444 sections and 46 Cell lessons/277 sections at 390px, sixteen combined figures without clipped labels, Unit 5/6/7 exact source-feedback links, all eight newer Cell citations and full-bank submissions (178/114/282), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 321 literal anchors verified; 76 selected visual pages inspected. Previous Cell PDF/123-page evidence is retained, not newly recertified by this protein batch. No production test or formal academic sign-off.",
+    "scope": "Five-PR integration, BIOL157 Units 3–8 and Cell completion batch",
+    "summary": "224 offline checks and 40 real local Auth/Firestore checks pass with Bio’s expanded 345-question bank, no skips/failures. Lint/build pass with ten existing warnings and the existing large-entry warning. Final Chromium traverses 85 Bio lessons/548 sections and 46 Cell lessons/277 sections at 390px, nineteen combined figures without clipped labels, Unit 5/6/7/8 exact source-feedback links, eight newer Cell citations and full-bank submissions (178/114/345), resume/retry/reload and three private progress panels. Eleven Bio PDF hashes/page counts and 380 literal anchors verified; 101 selected visual pages inspected. Previous Cell PDF/123-page evidence retained, not newly recertified by this enzyme batch. No production test or formal academic sign-off.",
     "productionTested": false
   },
   "deployment": {
@@ -20,12 +20,12 @@
   },
   "blockers": [
     "No formal academic sign-off for the final student-visible content.",
-    "BIOL157 Units 8–10 not authored; Units 1–7 have substantial source-checked teaching drafts pending academic review.",
+    "BIOL157 Units 9–10 not authored; Units 1–8 have substantial source-checked teaching drafts pending academic review.",
     "Cell: all 170 original rationales editorially improved and four review-only question revisions documented; remaining source figures, historical microscopy development, precise concept links, human approval and current-year official scope are unresolved.",
     "Computer: exact manual acceptance steps are prepared but all 15 Microsoft Office desktop scenarios remain unexecuted; four questions withheld; payroll/grading/exactly-40/version ambiguities and 342 unmapped package pages remain open.",
     "Protected preview requires verified existing Vercel project configuration and isolated test Firebase; production rules/auth domains/data separation/rollback not yet verified."
   ],
-  "nextCheckpoint": "Complete BIOL157 Unit 8 Enzymes from all 61 actual Lecture 8 pages and four official topics; verify current enzyme classification and develop substantial catalysis, kinetics, worked calculations and regulation. Then Units 9–10 as separate tested batches. Finish remaining Cell/Computer source and exact-concept gaps, human Office/academic decisions, auditable publication and isolated Firebase/Vercel preview readiness.",
+  "nextCheckpoint": "Read all 28 actual Lecture 9 pages and implement both Metabolic Pathways topics as a complete tested batch, then all 48 actual Lecture 10 pages and five Lipids topics with independent source-flag checks. Finish remaining Cell/Computer source and exact-concept gaps, human Office/academic decisions, auditable publication and isolated Firebase/Vercel preview readiness.",
   "checklists": {
     "BIOL151": [
       {
@@ -230,12 +230,8 @@
     ]
   },
   "integrationPR": "https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17",
-  "testedImplementationCommit": "5991d514d2c1213b6744546e36c2a129e6a2252a",
-  "githubCI": {
-    "status": "success",
-    "commit": "5991d514d2c1213b6744546e36c2a129e6a2252a",
-    "url": "https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39540345453"
-  },
+  "testedImplementationCommit": null,
+  "githubCI": null,
   "checkpoints": [
     {
       "batch": "Five-PR integration and validation",
@@ -432,29 +428,13 @@
     {
       "id": "BIOL157",
       "course": "Biological Chemistry",
-      "lessons": 71,
-      "questions": 282,
+      "lessons": 85,
+      "questions": 345,
       "reviewStatus": "pending-human-academic-review",
       "studentRelease": "blocked",
       "officialTopics": 34,
-      "draftTopics": 23,
+      "draftTopics": 27,
       "missingTopics": [
-        {
-          "id": "BIOL157-U08-T01",
-          "title": "Enzyme function"
-        },
-        {
-          "id": "BIOL157-U08-T02",
-          "title": "Enzyme classification"
-        },
-        {
-          "id": "BIOL157-U08-T03",
-          "title": "Enzyme kinetics"
-        },
-        {
-          "id": "BIOL157-U08-T04",
-          "title": "Enzyme regulation"
-        },
         {
           "id": "BIOL157-U09-T01",
           "title": "Principles of metabolic pathways"
@@ -530,8 +510,8 @@
         {
           "id": "U08",
           "title": "Enzymes",
-          "status": "not-authored",
-          "lessons": 0
+          "status": "draft-review",
+          "lessons": 14
         },
         {
           "id": "U09",

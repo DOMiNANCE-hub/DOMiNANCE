@@ -10125,5 +10125,2271 @@
         "source": "PROTEIN-IDENTITY"
       }
     ]
+  },
+  {
+    "id": "BIOL157-U08-Q001",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C01",
+    "lesson": "BC0801",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "A reaction is thermodynamically favourable but slow under the stated conditions. What can explain this?",
+    "options": [
+      "A substantial activation barrier can limit rate despite a favourable reaction free-energy change.",
+      "Negative ΔG means there can be no activation barrier.",
+      "A slow rate proves the reaction equilibrium favours only reactants.",
+      "Thermodynamic driving force and reaction rate are identical quantities."
+    ],
+    "letter": "A",
+    "explanation": "ΔG compares initial and final states, while ΔG‡ concerns a barrier along the pathway. A favourable endpoint does not remove that barrier or specify rate. Slow reaction alone cannot determine the equilibrium composition, so kinetic and thermodynamic evidence must be kept distinct.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            3,
+            8
+          ],
+          [
+            50,
+            50
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q002",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C01",
+    "lesson": "BC0801",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "For the same reactant and product states, what does an enzyme alone change?",
+    "options": [
+      "The identity of atoms required by the balanced reaction",
+      "The accessible catalytic pathway and rate of approach to equilibrium",
+      "The equilibrium constant of the isolated reaction",
+      "The net reaction free-energy difference by supplying unlimited energy"
+    ],
+    "letter": "B",
+    "explanation": "An enzyme lowers relevant pathway barriers while preserving the free-energy difference and equilibrium constant for the same states. It does not supply unlimited free energy or change atom conservation. Coupling another reaction can alter the overall process, but is a separate thermodynamic intervention.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            3,
+            8
+          ],
+          [
+            50,
+            50
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q003",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C01",
+    "lesson": "BC0801",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "At equilibrium in an enzyme-catalysed reversible reaction, which statement is appropriate?",
+    "options": [
+      "Product can no longer bind any enzyme.",
+      "Only the forward reaction continues with a positive net rate.",
+      "Forward and reverse molecular reaction rates can be equal and nonzero.",
+      "Every enzyme molecule must be irreversibly inactive."
+    ],
+    "letter": "C",
+    "explanation": "Equilibrium is dynamic: equal opposing rates yield no net change. It does not require enzyme destruction or loss of product binding. A continuing unequal forward flux would instead imply that equilibrium has not been reached or that the system is maintained away from it.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            3,
+            8
+          ],
+          [
+            50,
+            50
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q004",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C01",
+    "lesson": "BC0801",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "Comparable first-order constants are 3×10^4 s−1 catalysed and 3×10−10 s−1 uncatalysed. What dimensionless rate ratio follows?",
+    "options": [
+      "10^−14",
+      "10^−6",
+      "9×10^−6",
+      "10^14"
+    ],
+    "letter": "D",
+    "explanation": "Divide like constants: (3/3)×10^(4−(−10))=10^14, with s−1 cancelling. Reversing the ratio gives 10−14; adding exponents or multiplying prefactors does not compute the requested quotient. This ratio does not describe a change in reaction ΔG.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            3,
+            8
+          ],
+          [
+            50,
+            50
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q005",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C02",
+    "lesson": "BC0802",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "Why can residues distant in a protein’s sequence contribute to one active site?",
+    "options": [
+      "Folding can place their chemical groups near one another in three dimensions.",
+      "Only adjacent residues can interact in any protein.",
+      "Active sites are always separate free amino-acid molecules.",
+      "A peptide sequence contains no spatial information or constraints."
+    ],
+    "letter": "A",
+    "explanation": "Tertiary folding brings selected distant positions together, allowing a coordinated binding/catalytic environment. Adjacency in primary sequence is not required. The site is part of the organised protein, whose sequence and environment constrain the possible fold.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            9,
+            10
+          ],
+          [
+            44,
+            49
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q006",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C02",
+    "lesson": "BC0802",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "What limitation does induced fit address in a rigid lock-and-key analogy?",
+    "options": [
+      "Every ligand must bind without affecting any molecular interaction.",
+      "Ligand-associated conformational changes can improve productive alignment.",
+      "Enzymes never recognise chemical structure.",
+      "Substrate binding must permanently destroy the protein."
+    ],
+    "letter": "B",
+    "explanation": "Induced fit incorporates conformational changes associated with recognition and catalysis. It retains selective chemical interactions rather than denying recognition. These changes can be reversible and productive; they do not imply permanent destruction or absence of molecular effects.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            9,
+            10
+          ],
+          [
+            44,
+            49
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q007",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C02",
+    "lesson": "BC0802",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "A catalytic residue temporarily forms an enzyme-linked intermediate and is regenerated after product release. What strategy is illustrated?",
+    "options": [
+      "A permanent loss of all catalytic centres",
+      "Only a thermodynamic change in equilibrium constant",
+      "Covalent catalysis",
+      "Necessarily irreversible poisoning"
+    ],
+    "letter": "C",
+    "explanation": "A temporary productive covalent intermediate is covalent catalysis. Regeneration distinguishes that cycle from persistent disabling modification. Its existence neither requires loss of every active centre nor means the enzyme changes the equilibrium constant of the overall reaction.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            9,
+            10
+          ],
+          [
+            44,
+            49
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q008",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C02",
+    "lesson": "BC0802",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "Analogue A binds tightly but gives no product, while substrate B undergoes repeated turnover. Which conclusion is supported?",
+    "options": [
+      "A must have the highest catalytic rate because its binding is strongest.",
+      "B cannot be a substrate unless it binds more tightly than A.",
+      "Any strongly bound molecule must become product at equilibrium.",
+      "Binding strength alone does not establish that A is the better substrate."
+    ],
+    "letter": "D",
+    "explanation": "A may bind without productive alignment or may inhibit. Substrate performance requires transformation rates and relevant kinetic conditions, not binding alone. Productive turnover and tight ground-state binding are different observations; neither imposes the asserted universal affinity ranking.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            9,
+            10
+          ],
+          [
+            44,
+            49
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q009",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C03",
+    "lesson": "BC0803",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "What does an EC identifier primarily classify?",
+    "options": [
+      "An enzymatic catalytic activity by its reaction",
+      "One unique gene accession in one organism",
+      "The number of polypeptide chains in every enzyme molecule",
+      "A universal optimum temperature"
+    ],
+    "letter": "A",
+    "explanation": "EC nomenclature is reaction based. Different sequences can catalyse the same classified activity, and one protein can carry several activities. Chain number, temperature and gene identity require separate information rather than being read from an EC code.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            11,
+            13
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-EC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q010",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C03",
+    "lesson": "BC0803",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "Which class is supported for an activity that hydrolyses a peptide linkage using water?",
+    "options": [
+      "EC 7 translocase",
+      "EC 3 hydrolase",
+      "EC 2 transferase",
+      "EC 5 isomerase"
+    ],
+    "letter": "B",
+    "explanation": "Hydrolytic peptide cleavage is a hydrolase activity. A transferase moves a group between partners, an isomerase rearranges connectivity within the corresponding molecular formula and a translocase concerns a classified coupled movement process. The water-assisted bond-cleavage chemistry decides this example.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            11,
+            13
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-EC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q011",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C03",
+    "lesson": "BC0803",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "ATP transfers a phosphoryl group to a sugar hydroxyl, producing ADP and a phosphorylated sugar. Which broad activity class is indicated?",
+    "options": [
+      "Isomerase because the sugar remains present",
+      "Translocase because phosphate is charged",
+      "Transferase",
+      "Hydrolase merely because ATP is involved"
+    ],
+    "letter": "C",
+    "explanation": "This kinase-type activity transfers a phosphoryl group from ATP to an acceptor. ATP participation alone does not make every activity a hydrolase. Neither an unchanged molecular formula nor a membrane-translocation event is described. Classification follows the complete reaction.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            11,
+            13
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-EC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q012",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C03",
+    "lesson": "BC0803",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "Why can a hydratase adding water across a double bond be classed as a lyase rather than a hydrolase?",
+    "options": [
+      "Every reaction involving water must be EC 3.",
+      "A lyase must oxidise NADH in every reaction.",
+      "Water addition necessarily creates an ATP-dependent ligase reaction.",
+      "Addition across the double bond differs from hydrolytic cleavage of the substrate."
+    ],
+    "letter": "D",
+    "explanation": "Lyase-type reversible addition/elimination chemistry differs from hydrolysis even when water participates. Water, NADH or ATP names alone do not define a class. Identify what bonds are formed or broken and the full coupled reaction.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            11,
+            13
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-EC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q013",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C03",
+    "lesson": "BC0803",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "Which statement correctly qualifies EC 7 translocases?",
+    "options": [
+      "The classified activity considers coupled translocation, so a generic reductase name alone is insufficient.",
+      "Every protein that binds a quinone is automatically EC 7.",
+      "Every passive membrane pore must have an EC 7 catalytic activity.",
+      "The current nomenclature omits translocases and has only six classes."
+    ],
+    "letter": "A",
+    "explanation": "EC 7 is present in the source and current nomenclature, with subclasses linked to specified driving reactions and transported species. A generic reductase label or passive pore does not establish the required complete coupled activity. Classification needs the actual reaction description.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            11,
+            13
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-EC"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q014",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C04",
+    "lesson": "BC0804",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "Which statement distinguishes a required cofactor from the apoenzyme?",
+    "options": [
+      "All cofactors are permanently covalently bound vitamins.",
+      "The apoenzyme is the protein component without its required cofactor.",
+      "A cofactor is always a second full polypeptide chain.",
+      "Every apoenzyme must retain full catalytic function without its required partner."
+    ],
+    "letter": "B",
+    "explanation": "A required nonprotein partner may be an appropriate ion or organic coenzyme; the protein alone is the apoenzyme. Appropriate assembly gives the holoenzyme. Binding may be tight or exchangeable and does not universally require covalent attachment or a vitamin origin.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            14,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q015",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C04",
+    "lesson": "BC0804",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "Which half-reaction uses the standard NAD notation and balanced electron/proton bookkeeping?",
+    "options": [
+      "NADH ⇌ NAD+ + 2H+ with no electrons",
+      "NADP+ ⇌ NADH by adding one electron only",
+      "NAD+ + H+ + 2e− ⇌ NADH",
+      "NAD+ + 2e− ⇌ NADPH"
+    ],
+    "letter": "C",
+    "explanation": "NAD+ reduction uses two electrons and one proton in the stated half-reaction. NADP contains an additional phosphate and is not produced simply by reducing NAD+. Oxidation/reduction requires balanced charge and atom/electron accounting; NADH is the standard reduced name.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            14,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q016",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C04",
+    "lesson": "BC0804",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "Which carrier pairing is appropriate?",
+    "options": [
+      "PLP — the principal acyl-group carrier through a thiol",
+      "Coenzyme A — the enzyme-linked activated CO2 carrier",
+      "THF — an amino-group carrier with the same chemistry as PLP",
+      "Biotin — activated CO2 transfer in carboxylase chemistry"
+    ],
+    "letter": "D",
+    "explanation": "Biotin carries activated CO2 in suitable carboxylase reactions. Acyl transfer through a thiol describes CoA, amino-group chemistry is associated with PLP, and THF handles distinct one-carbon units. Confusing transferred groups leads to an incorrect carrier assignment.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            14,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q017",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C04",
+    "lesson": "BC0804",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "Which statement correctly qualifies flavin coenzymes?",
+    "options": [
+      "They can support one- and two-electron chemistry; binding mode depends on the enzyme.",
+      "Every FAD group is necessarily freely diffusible.",
+      "Every flavin is attached only by noncovalent interactions.",
+      "Flavins cannot accept any electrons."
+    ],
+    "letter": "A",
+    "explanation": "Flavin rings support multiple redox states. Many are tightly associated and some attachments are covalent, so neither universally free nor universally noncovalent binding is justified. The carrier chemistry and its association with a particular protein must be distinguished.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            14,
+            24
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q018",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C05",
+    "lesson": "BC0805",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "Hypothetical blank-corrected product is 0, 3 and 6 µM at 0, 10 and 20 s, then 7 µM at 40 s. Which early rate is supported?",
+    "options": [
+      "6 µM/s",
+      "0.30 µM/s",
+      "0.175 µM/s as the initial linear rate",
+      "3 µM/s"
+    ],
+    "letter": "B",
+    "explanation": "The early linear slope is 6 µM/20 s=0.30 µM/s. Using the full curved forty-second interval gives 0.175 and misses the specified initial region; the larger values omit the correct time interval. Later slowing needs separate interpretation.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            25,
+            27
+          ],
+          [
+            31,
+            32
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q019",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C05",
+    "lesson": "BC0805",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "A 2.0 mL reaction has initial rate 0.30 µmol L−1 s−1. What total activity follows in µmol/min?",
+    "options": [
+      "0.60 µmol/min",
+      "36 µmol/min",
+      "0.036 µmol/min",
+      "18 µmol/min"
+    ],
+    "letter": "C",
+    "explanation": "Multiply by 0.002 L to obtain 0.00060 µmol/s, then by 60 to obtain 0.036 µmol/min. Using millilitres as litres or omitting volume/time conversion creates the larger incorrect values. Concentration rate and total amount rate are different quantities.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            25,
+            27
+          ],
+          [
+            31,
+            32
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q020",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C05",
+    "lesson": "BC0805",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "What activity-unit conversion is correct under the defined units?",
+    "options": [
+      "1 kat = 60 U",
+      "1 U = 1 mol/s",
+      "1 kat = 1 µmol/min",
+      "1 kat = 6×10^7 U"
+    ],
+    "letter": "D",
+    "explanation": "A katal is one mole per second. Multiplying by 10^6 µmol/mol and 60 s/min gives 6×10^7 µmol/min, hence that many U. One U is one µmol/min under stated assay conditions, not one mole per second.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            25,
+            27
+          ],
+          [
+            31,
+            32
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q021",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C05",
+    "lesson": "BC0805",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "Why is fitting one straight line across a strongly curved whole progress trace unsafe for an initial-rate analysis?",
+    "options": [
+      "Later substrate depletion, reverse flux, inhibition or instability can alter the slope.",
+      "An initial rate must always equal the final average slope.",
+      "Curvature by itself proves cooperative substrate binding.",
+      "Detector output automatically has concentration units without calibration."
+    ],
+    "letter": "A",
+    "explanation": "The early approximately linear interval and later progress can represent different conditions, including depletion or reverse reaction. Curvature alone does not establish cooperative substrate binding. Signal calibration and appropriate controls are also required before converting a trace into a chemical rate.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            25,
+            27
+          ],
+          [
+            31,
+            32
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q022",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C06",
+    "lesson": "BC0806",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "In the simple steady-state derivation, what does d[ES]/dt≈0 mean?",
+    "options": [
+      "Binding must have reached rapid equilibrium with no net product flux.",
+      "ES formation and disappearance approximately balance while product flux can continue.",
+      "The overall reaction must have reached thermodynamic equilibrium.",
+      "ES concentration must equal total enzyme concentration at every substrate level."
+    ],
+    "letter": "B",
+    "explanation": "The ES population changes slowly after the transient because formation and loss approximately balance. Individual encounters and product formation can continue. This is not the same as global equilibrium or complete cessation of chemistry.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            27,
+            30
+          ],
+          [
+            51,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q023",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C06",
+    "lesson": "BC0806",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "For E+S ⇌ ES → E+P with the stated simple constants, which expression is the steady-state Km?",
+    "options": [
+      "k1/(k−1+k2)",
+      "k2ET",
+      "(k−1+k2)/k1",
+      "k−1/k2"
+    ],
+    "letter": "C",
+    "explanation": "Km includes both ES dissociation and product formation divided by association in this particular mechanism. The inverse has the wrong dimensions; k2ET is Vmax and k−1/k2 is a dimensionless ratio, not the concentration parameter. More complex mechanisms require their own interpretation.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            27,
+            30
+          ],
+          [
+            51,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q024",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C06",
+    "lesson": "BC0806",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "Supplied constants are k1=2×10^6 M−1 s−1, k−1=20 s−1 and k2=80 s−1. What Km and binding Kd follow in the simple model?",
+    "options": [
+      "Km=10 µM and Kd=50 µM",
+      "Km=Kd=50 µM",
+      "Km=50 M and Kd=10 M",
+      "Km=50 µM and Kd=10 µM"
+    ],
+    "letter": "D",
+    "explanation": "Km=(20+80)/(2×10^6)=5×10−5 M=50 µM. Kd=20/(2×10^6)=1×10−5 M=10 µM. Product formation is not negligible here, so Km differs from Kd; omitting the M-to-µM conversion also produces a large dimensional error.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            27,
+            30
+          ],
+          [
+            51,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q025",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C06",
+    "lesson": "BC0806",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "When can Km approximate the binding Kd in the specified simple mechanism?",
+    "options": [
+      "When product formation is slow relative to ES dissociation, supporting the rapid-equilibrium limit.",
+      "Whenever [S]=Km, regardless of the microscopic rate constants.",
+      "Whenever substrate exceeds enzyme concentration, regardless of the rate constants.",
+      "Whenever k2 is much greater than k−1 with no other assumptions."
+    ],
+    "letter": "A",
+    "explanation": "For Km=(k−1+k2)/k1, if k2 is negligible relative to k−1, Km approaches k−1/k1=Kd. A positive slope alone establishes no such relationship, and dominant k2 instead makes the catalytic contribution important. This is a model-specific limit.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            27,
+            30
+          ],
+          [
+            51,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q026",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C06",
+    "lesson": "BC0806",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "For a supported Michaelis–Menten curve, what rate occurs at [S]=Km?",
+    "options": [
+      "A rate that is independent of active enzyme amount in every case",
+      "Half the limiting Vmax",
+      "Exactly Vmax",
+      "Twice Vmax"
+    ],
+    "letter": "B",
+    "explanation": "Substitution gives VmaxKm/(Km+Km)=Vmax/2. Km is the half-rate concentration in the supported model, not the concentration that reaches the asymptote. The limiting rate still depends on active enzyme concentration and assay conditions.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            27,
+            30
+          ],
+          [
+            51,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q027",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C07",
+    "lesson": "BC0807",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "With Vmax=120 µM/min and Km=20 µM, what rate is predicted at [S]=5 µM?",
+    "options": [
+      "60 µM/min",
+      "120 µM/min",
+      "24 µM/min",
+      "30 µM/min"
+    ],
+    "letter": "C",
+    "explanation": "Use v=120×5/(20+5)=24 µM/min. Thirty uses the low-substrate approximation outside an exact calculation; sixty is the rate at [S]=Km and 120 is the asymptotic limit. Consistent concentration units are required.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            27,
+            30
+          ],
+          [
+            51,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q028",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C07",
+    "lesson": "BC0807",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "Under the ideal Michaelis–Menten law, what substrate concentration gives 90% of Vmax?",
+    "options": [
+      "Km",
+      "0.9Km",
+      "90Km",
+      "9Km"
+    ],
+    "letter": "D",
+    "explanation": "Solve 0.9=[S]/(Km+[S]) to obtain [S]=9Km. Km gives half-rate, while 0.9Km is below half-rate and 90Km is closer to 99% than 90%. No finite substrate exactly reaches the mathematical asymptote.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            27,
+            30
+          ],
+          [
+            51,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q029",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C07",
+    "lesson": "BC0807",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "Vmax=120 µM/min, Km=20 µM and v=90 µM/min. What substrate concentration follows from the ideal equation?",
+    "options": [
+      "60 µM",
+      "15 µM",
+      "20 µM",
+      "180 µM"
+    ],
+    "letter": "A",
+    "explanation": "Rearrange [S]=vKm/(Vmax−v)=90×20/30=60 µM. Twenty gives half-rate; 180 gives 90% of Vmax, or 108 µM/min. Fifteen incorrectly multiplies Km by v/Vmax without isolating [S] from the full denominator.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            27,
+            30
+          ],
+          [
+            51,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q030",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C07",
+    "lesson": "BC0807",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "In a Lineweaver–Burk plot for the ideal model, what is the y-intercept?",
+    "options": [
+      "Vmax/Km",
+      "1/Vmax",
+      "−1/Km",
+      "Km/Vmax"
+    ],
+    "letter": "B",
+    "explanation": "The reciprocal form is 1/v=(Km/Vmax)(1/[S])+1/Vmax. Thus the y-intercept is 1/Vmax, slope is Km/Vmax and extrapolated x-intercept is −1/Km. Vmax/Km is a different quantity. Reciprocal noise amplification still limits practical interpretation.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            27,
+            30
+          ],
+          [
+            51,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q031",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C07",
+    "lesson": "BC0807",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "What is a reason to prefer fitting suitable original-rate data over relying only on a reciprocal straight line?",
+    "options": [
+      "Zero substrate always has a finite reciprocal coordinate.",
+      "Experimental uncertainty disappears after taking reciprocals.",
+      "Reciprocation can magnify errors in low-rate observations.",
+      "A reciprocal plot directly reveals the unique atomic mechanism."
+    ],
+    "letter": "C",
+    "explanation": "Transforming small rates into large reciprocals changes error behaviour and can overweight uncertain points. Zero substrate has no finite reciprocal. A straight-looking plot neither eliminates uncertainty nor uniquely identifies the microscopic catalytic pathway.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            27,
+            30
+          ],
+          [
+            51,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q032",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C07",
+    "lesson": "BC0807",
+    "sectionId": "s6",
+    "objective": "BIOL157-CLO4",
+    "question": "Active enzyme concentration doubles under otherwise valid identical simple-model conditions. What parameter change is expected?",
+    "options": [
+      "Km doubles while Vmax must remain fixed.",
+      "Both parameters must become half their original values.",
+      "The reaction equilibrium constant doubles.",
+      "Vmax doubles while Km need not change."
+    ],
+    "letter": "D",
+    "explanation": "Vmax=kcatET scales with active enzyme concentration. Km reflects the specified enzyme/substrate model and conditions rather than the amount alone. Enzyme abundance does not alter the reaction’s thermodynamic equilibrium constant. This prediction assumes no new substrate or assay limitation.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            27,
+            30
+          ],
+          [
+            51,
+            51
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q033",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C08",
+    "lesson": "BC0808",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "Vmax=6 µM/min and active catalytic-centre concentration=20 nM. What kcat follows in s−1?",
+    "options": [
+      "5 s−1",
+      "300 s−1",
+      "0.005 s−1",
+      "120 s−1"
+    ],
+    "letter": "A",
+    "explanation": "Twenty nM is 0.020 µM. Dividing 6 µM/min by 0.020 µM gives 300 min−1, then dividing by 60 gives 5 s−1. The alternatives omit the time conversion, mishandle concentration units or multiply rather than divide.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            31,
+            33
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q034",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C08",
+    "lesson": "BC0808",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "A 10 nM dimer has two equivalent functioning catalytic centres per molecule. What centre concentration should be used for a per-centre kcat?",
+    "options": [
+      "40 nM",
+      "20 nM",
+      "10 nM",
+      "5 nM"
+    ],
+    "letter": "B",
+    "explanation": "Multiply molecular concentration by two active centres per molecule: 10×2=20 nM. Using 10 nM would report a different whole-dimer denominator, while division or counting four centres is inconsistent with the supplied model. Active fraction must also be known.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            31,
+            33
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q035",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C08",
+    "lesson": "BC0808",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "Which quantity has units M−1 s−1 and characterises the low-substrate slope per active centre in the simple model?",
+    "options": [
+      "Vmax in concentration/time",
+      "Km alone",
+      "kcat/Km",
+      "kcat alone"
+    ],
+    "letter": "C",
+    "explanation": "The specificity constant kcat/Km combines s−1 with reciprocal concentration. It appears in v≈(kcat/Km)ET[S] at low substrate. kcat alone describes saturated turnover, Vmax depends on enzyme amount and Km has concentration units.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            31,
+            33
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q036",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C08",
+    "lesson": "BC0808",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "A has kcat=100 s−1 and Km=100 µM; B has kcat=20 s−1 and Km=1 µM. At equal active-centre amounts and substrate far below both Km values, which prediction is supported?",
+    "options": [
+      "A must always be faster because its kcat is larger.",
+      "The enzymes have equal specificity constants.",
+      "B has fivefold higher saturated turnover.",
+      "B has the larger low-substrate rate coefficient by a factor of twenty."
+    ],
+    "letter": "D",
+    "explanation": "A has kcat/Km=10^6 M−1 s−1 and B has 2×10^7, a twentyfold advantage at sufficiently low substrate. At saturation A’s turnover is fivefold higher. The ranking depends on substrate regime; one parameter alone does not answer both questions.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            31,
+            33
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q037",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C09",
+    "lesson": "BC0809",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "Why can changing pH alter activity without necessarily unfolding the enzyme?",
+    "options": [
+      "Catalytic groups or substrates can change protonation and productive interactions.",
+      "Any activity change must arise solely from altered enzyme abundance.",
+      "Every loss of rate proves peptide hydrolysis.",
+      "The pH optimum must always equal the protein pI."
+    ],
+    "letter": "A",
+    "explanation": "Ionisation changes can modify binding or catalytic proton transfer while the protein remains folded. Severe pH may also damage structure, but that requires evidence. Whole-protein pI and the specific catalytic protonation requirements are distinct concepts.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            34,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q038",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C09",
+    "lesson": "BC0809",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "Why can a short and a long temperature assay give different apparent activity optima?",
+    "options": [
+      "Assay duration cannot influence observed activity.",
+      "The fraction of enzyme surviving in an active form can change during exposure.",
+      "Temperature can only change equilibrium constants and never reaction rates.",
+      "The intrinsic catalytic rate must be temperature-independent whenever the enzyme is folded."
+    ],
+    "letter": "B",
+    "explanation": "The measured result combines temperature-dependent catalysis with time-dependent inactivation. Longer exposure can change the surviving active fraction and shift an apparent optimum. Thermal stability varies with enzyme and conditions, so no universal high-temperature claim is justified.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            34,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q039",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C09",
+    "lesson": "BC0809",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "A stable enzyme has a supplied Q10=2 over 20–40°C and rate 5 units at 20°C. What rate is predicted at 40°C within those assumptions?",
+    "options": [
+      "15 units",
+      "50 units",
+      "20 units",
+      "10 units"
+    ],
+    "letter": "C",
+    "explanation": "The twenty-degree interval contains two ten-degree steps, so rate=5×2^2=20 units. Ten accounts for only one step; fifteen adds rather than compounds the ratio. The result is conditional and must not be extrapolated beyond the stated stability/range assumptions.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            34,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q040",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C10",
+    "lesson": "BC0810",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "For ideal competitive inhibition, which apparent parameter pattern is expected?",
+    "options": [
+      "Decreased Km and decreased Vmax by the same factor",
+      "Unchanged Km with decreased Vmax",
+      "Increased Vmax with no substrate dependence",
+      "Increased Km with unchanged Vmax"
+    ],
+    "letter": "D",
+    "explanation": "The ideal competitive model has α>1 and α′=1, so Km,app=αKm and Vmax,app=Vmax. Equal reductions describe uncompetitive behaviour; unchanged Km with decreased Vmax is the pure noncompetitive special case. These are model-based patterns, not standalone structural proof.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            38,
+            40
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q041",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C10",
+    "lesson": "BC0810",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "For supplied Vmax=100 µM/min, Km=10 µM, competitive α=3 and [S]=10 µM, what inhibited rate follows?",
+    "options": [
+      "25 µM/min",
+      "50 µM/min",
+      "33.3 µM/min",
+      "75 µM/min"
+    ],
+    "letter": "A",
+    "explanation": "The competitive denominator is αKm+[S]=30+10=40, so rate=100×10/40=25. Fifty is the uninhibited rate at Km; 33.3 belongs to a different supplied factor pattern. Multiplying uninhibited rate by an arbitrary remaining fraction does not apply the stated equation.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            38,
+            40
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q042",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C10",
+    "lesson": "BC0810",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "Which condition defines the pure noncompetitive special case in the supplied mixed-inhibition model?",
+    "options": [
+      "Any binding outside the active site automatically proves the case",
+      "α=α′, giving unchanged apparent Km and decreased Vmax",
+      "Only α increases, with α′=1",
+      "Only α′ increases, with α=1"
+    ],
+    "letter": "B",
+    "explanation": "Equal factors cancel in Km,app=αKm/α′ while reducing Vmax by α′. Competitive and uncompetitive limiting cases have one factor equal to one. A structural location alone cannot establish the required equal-factor kinetic relationship.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            38,
+            40
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q043",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C10",
+    "lesson": "BC0810",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "Original Vmax=100 µM/min and Km=10 µM; mixed-inhibition factors are α=2 and α′=4. What apparent parameters follow?",
+    "options": [
+      "Vmax=25 µM/min and Km=20 µM",
+      "Vmax=100 µM/min and Km=5 µM",
+      "Vmax=25 µM/min and Km=5 µM",
+      "Vmax=50 µM/min and Km=20 µM"
+    ],
+    "letter": "C",
+    "explanation": "Vmax,app=100/4=25 and Km,app=2×10/4=5. Omitting α′ from the Km calculation incorrectly gives twenty. These apparent changes describe the specified model and do not independently prove a new equilibrium binding constant.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            38,
+            40
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q044",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C10",
+    "lesson": "BC0810",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "An ideal uncompetitive inhibitor binds ES in the specified model. What happens to apparent Km and Vmax?",
+    "options": [
+      "Both increase by the same factor.",
+      "Only Km increases.",
+      "Vmax remains fixed while Km decreases.",
+      "Both decrease by the same factor."
+    ],
+    "letter": "D",
+    "explanation": "For α=1 and α′>1, Vmax,app=Vmax/α′ and Km,app=Km/α′. The ratio Km/Vmax therefore remains unchanged, producing parallel ideal reciprocal lines. A reduced apparent Km is not itself proof of improved productive substrate affinity.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            38,
+            40
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q045",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C10",
+    "lesson": "BC0810",
+    "sectionId": "s6",
+    "objective": "BIOL157-CLO4",
+    "question": "Why is one reduced rate at one substrate concentration insufficient to identify an inhibition mechanism?",
+    "options": [
+      "Several model types, active-enzyme loss or assay interference can produce the same single observation.",
+      "All inhibitor types change only the amount of enzyme, with no distinct substrate dependence.",
+      "The assay automatically reveals the inhibitor’s exact binding atoms.",
+      "A reduced rate proves pure noncompetitive inhibition."
+    ],
+    "letter": "A",
+    "explanation": "A single observation does not resolve multiple model parameters or exclude interference and inactivation. Controlled concentration series, time/recovery tests and chemical evidence help distinguish explanations. Exact binding location cannot be read directly from one activity number.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            38,
+            40
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q046",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C11",
+    "lesson": "BC0811",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "Activity does not immediately recover after one dilution of an inhibitor mixture. What is the strongest justified conclusion?",
+    "options": [
+      "The active-site catalytic residue is identified without chemical evidence.",
+      "Persistent inhibition is observed; slow dissociation and other explanations still need controls.",
+      "A particular covalent bond has been uniquely proven.",
+      "Every reversible inhibitor has been excluded at all timescales."
+    ],
+    "letter": "B",
+    "explanation": "Very slow dissociation, tight binding, enzyme instability or a stable adduct can all complicate recovery. One dilution result does not uniquely establish a bond or residue mechanism. Recovery over time, controls and direct chemical evidence are needed.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            38,
+            43
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      },
+      {
+        "source": "ENZYME-PBP"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q047",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C11",
+    "lesson": "BC0811",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "What distinguishes a mechanism-based inactivator from any broadly reactive electrophile?",
+    "options": [
+      "It can never involve a covalent adduct.",
+      "Its label guarantees no off-target effects or resistance.",
+      "Target-enzyme processing contributes to generation of the inactivating chemistry.",
+      "It must bind every protein equally."
+    ],
+    "letter": "C",
+    "explanation": "Mechanism-based inactivation uses catalytic processing to generate reactive chemistry that disables the target. This can aid selectivity but does not guarantee universal affinity, susceptibility or absence of off-target effects. An indiscriminate electrophile need not use target turnover in that way.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            38,
+            43
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      },
+      {
+        "source": "ENZYME-PBP"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q048",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C11",
+    "lesson": "BC0811",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "Which target description best fits the lecturer’s qualified β-lactam example?",
+    "options": [
+      "Bacterial ribosomal sites responsible for peptide synthesis",
+      "Bacterial topoisomerases responsible for DNA topology",
+      "Human lysosomal hydrolases responsible for protein recycling",
+      "Susceptible bacterial penicillin-binding proteins with peptidoglycan transpeptidase activity"
+    ],
+    "letter": "D",
+    "explanation": "The supported target is bacterial PBP-mediated peptidoglycan cross-linking. Ribosomal peptide synthesis and DNA-topology enzymes are different antibacterial target classes; human lysosomal hydrolases are different again. Blocking transpeptidation is not direct cleavage of all existing glycan chains, and susceptibility remains context-dependent.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            38,
+            43
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      },
+      {
+        "source": "ENZYME-PBP"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q049",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C11",
+    "lesson": "BC0811",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "An independently established treatment leaves 25% of otherwise unchanged active centres; original Vmax=80 µM/min. What limiting rate is predicted?",
+    "options": [
+      "20 µM/min",
+      "60 µM/min",
+      "320 µM/min",
+      "80 µM/min with Km necessarily quartered"
+    ],
+    "letter": "A",
+    "explanation": "With unchanged per-centre catalysis, Vmax scales with surviving active concentration: 80×0.25=20. Sixty is the lost activity rather than remaining rate; 320 reverses the fraction. The surviving centres need not acquire a quartered Km.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            38,
+            43
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      },
+      {
+        "source": "ENZYME-PBP"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q050",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C12",
+    "lesson": "BC0812",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "Which description most directly captures allosteric regulation?",
+    "options": [
+      "Regulatory binding must be mutually exclusive with substrate binding in every case.",
+      "Binding at one site influences function at another through molecular communication.",
+      "Regulation solely by changing transcription, without an effect on existing molecules.",
+      "Every allosteric effect must give pure noncompetitive kinetics."
+    ],
+    "letter": "B",
+    "explanation": "Allostery involves linked site behaviour, often through shifts in conformation. It can change different kinetic features and does not require permanent cleavage or structural identity with the substrate. Pure noncompetitive inhibition is one particular kinetic relationship, not the definition of allostery.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            6,
+            10
+          ],
+          [
+            50,
+            54
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q051",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C12",
+    "lesson": "BC0812",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "In a hypothetical A→B→C→D pathway, D inhibits the A→B enzyme at a regulatory site. What relationship is illustrated?",
+    "options": [
+      "A guaranteed change in the equilibrium constant for A⇌B",
+      "Direct proof that D is the immediate substrate of every step",
+      "End-product feedback on an earlier step",
+      "Only reversal of the enzyme’s immediate product B back into A"
+    ],
+    "letter": "C",
+    "explanation": "D is a later pathway product regulating an earlier enzyme. That differs from reverse flux of the immediate reaction or direct product inhibition at that enzyme. Regulation changes rates/fluxes without by itself changing the equilibrium constant of the isolated reaction.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            6,
+            10
+          ],
+          [
+            50,
+            54
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q052",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C12",
+    "lesson": "BC0812",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "A cooperative enzyme has a sigmoidal rate response that does not fit a simple Michaelis–Menten curve. What is appropriate for its half-rate substrate measure?",
+    "options": [
+      "Automatically call it Km and a binding Kd simultaneously",
+      "Infer the exact number of subunits solely from the midpoint",
+      "Force a hyperbolic fit without examining systematic residuals.",
+      "Use a defined operational [S]0.5 under an appropriate model."
+    ],
+    "letter": "D",
+    "explanation": "An operational half-rate concentration can be reported without imposing an unsupported Michaelis–Menten interpretation. The midpoint alone does not identify microscopic affinity or subunit count. A nonhyperbolic response requires an appropriate model and further evidence.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            6,
+            10
+          ],
+          [
+            50,
+            54
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q053",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C12",
+    "lesson": "BC0812",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "A regulator shifts half-rate substrate from 8 to 2 mM while the limiting rate remains 100 units. What change is directly observed?",
+    "options": [
+      "A shift in substrate responsiveness with unchanged measured limiting rate",
+      "A fourfold increase in the limiting rate",
+      "Proof that enzyme abundance quadrupled",
+      "A new reaction equilibrium constant of 2 mM"
+    ],
+    "letter": "A",
+    "explanation": "The response position changes while the supplied limiting rate remains fixed. That does not show more enzyme, a higher Vmax or a new thermodynamic constant. Molecular binding and mechanism require further measurements beyond this constructed curve comparison.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            6,
+            10
+          ],
+          [
+            50,
+            54
+          ]
+        ]
+      },
+      {
+        "source": "ENZYME-KINETICS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q054",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C13",
+    "lesson": "BC0813",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "How does a protein phosphatase differ chemically from simply running a typical ATP-dependent kinase backwards?",
+    "options": [
+      "Its defining reaction removes the phosphate through whole-protein proteolysis.",
+      "It hydrolyses the phosphate linkage, usually releasing inorganic phosphate.",
+      "It necessarily converts ADP and the phosphoprotein directly back into ATP.",
+      "Its defining reaction transfers phosphate directly from one protein to another."
+    ],
+    "letter": "B",
+    "explanation": "Kinases commonly transfer phosphoryl groups from ATP; phosphatases use hydrolysis to remove suitable groups. Their ordinary reaction does not simply regenerate ATP by reversing that transfer. Dephosphorylation changes a phosphate linkage rather than wholesale peptide digestion.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            52,
+            54
+          ],
+          [
+            60,
+            60
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q055",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C13",
+    "lesson": "BC0813",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "Which statement about regulatory phosphorylation is academically justified?",
+    "options": [
+      "It always activates every enzyme.",
+      "It cannot affect protein recognition or localisation.",
+      "Its effect depends on the specific protein, site and context.",
+      "It always inhibits every enzyme."
+    ],
+    "letter": "C",
+    "explanation": "Phosphate can alter charge, conformation and partner binding, with activation, inhibition or other effects depending on context. The lecturer’s active-to-inactive sketch is one example rather than a universal rule. Recognition and localisation can also change.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            52,
+            54
+          ],
+          [
+            60,
+            60
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q056",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C13",
+    "lesson": "BC0813",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "In the classical PKA R2C2 model, what does cAMP binding to regulatory subunits promote?",
+    "options": [
+      "Tighter regulatory–catalytic association that suppresses the kinase",
+      "Obligatory transfer of phosphate from cAMP onto each catalytic subunit",
+      "Competitive occupation of substrate sites on catalytic subunits, preventing phosphorylation",
+      "Liberation of catalytic activity from regulatory restraint"
+    ],
+    "letter": "D",
+    "explanation": "In the classical R2C2 model, cAMP binds regulatory subunits and favours liberation of catalytic activity. It does not activate by tightening the inhibitory association, serving as the obligatory phosphoryl donor or competitively blocking the target-substrate sites. ATP-dependent target phosphorylation is a separate catalytic step.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            52,
+            54
+          ],
+          [
+            60,
+            60
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q057",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C13",
+    "lesson": "BC0813",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO4",
+    "question": "Total equivalent centres stay at 10 nM while their active fraction rises from 20% to 80%; kcat is fixed. What model Vmax change follows?",
+    "options": [
+      "Fourfold increase",
+      "Twofold increase",
+      "No change because total protein is constant",
+      "Fourfold decrease"
+    ],
+    "letter": "A",
+    "explanation": "Active centres rise from 2 to 8 nM, a fourfold increase. Vmax follows active rather than total concentration when kcat is fixed. The calculation separates active-fraction regulation from an abundance change and assumes no new assay limitation.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            52,
+            54
+          ],
+          [
+            60,
+            60
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q058",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C14",
+    "lesson": "BC0814",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "What is an appropriate purpose of producing a digestive protease as a zymogen?",
+    "options": [
+      "Eliminating the need to control where proteolysis occurs",
+      "Limiting damaging proteolysis before controlled activation in the appropriate context",
+      "Ensuring mature protease activity is highest before secretion",
+      "Replacing catalytic substrate specificity with indiscriminate hydrolysis"
+    ],
+    "letter": "B",
+    "explanation": "Inactive precursor production, storage and controlled processing help restrict where and when proteolysis occurs. This does not favour premature activity, replace substrate specificity or remove the need for localisation. Specific activation later creates the functioning protease.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            55,
+            59
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q059",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C14",
+    "lesson": "BC0814",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO4",
+    "question": "Why does removing an activating protease not automatically convert mature trypsin back into trypsinogen?",
+    "options": [
+      "Cleaved precursor segments immediately reattach through noncovalent binding alone.",
+      "All subsequent enzyme control becomes impossible.",
+      "The excised activating peptide is not simply reattached in the ordinary regulatory cycle.",
+      "Proteolysis is identical to reversible noncovalent effector dissociation."
+    ],
+    "letter": "C",
+    "explanation": "Specific proteolysis changes covalent connectivity and is effectively irreversible for that precursor in its normal activation cycle. Other inhibition, degradation or synthesis can still control activity. This differs from reversible ligand binding or phosphate cycling.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            55,
+            59
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q060",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C14",
+    "lesson": "BC0814",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "One upstream enzyme activates ten downstream molecules, each activating twenty further molecules, under an ideal no-loss count. What final count follows?",
+    "options": [
+      "30",
+      "20",
+      "2,000",
+      "200"
+    ],
+    "letter": "D",
+    "explanation": "Sequential ideal amplification multiplies: 10×20=200. Thirty adds rather than compounds the stages; twenty ignores the first stage and 2,000 adds an extra factor. Real cascades include timing, depletion and inhibitory controls, so this is not an actual physiological measurement.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            55,
+            59
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q061",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C14",
+    "lesson": "BC0814",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO4",
+    "question": "Why should proinsulin processing not be classified as ordinary zymogen activation?",
+    "options": [
+      "It produces a peptide hormone rather than activating an enzyme catalyst.",
+      "Proinsulin maturation is merely reversible ligand binding without processing.",
+      "All proteolytically processed proteins are necessarily digestive enzymes.",
+      "Insulin’s main role is to catalyse peptide hydrolysis."
+    ],
+    "letter": "A",
+    "explanation": "Processing can mature different kinds of proteins. Proinsulin yields a hormone, while a zymogen yields an active enzyme. The shared use of proteolysis does not make all processed products catalysts or digestive proteases.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            55,
+            59
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q062",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C14",
+    "lesson": "BC0814",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "For a simple LDH tetramer model using A/B subunit counts only, how many compositions are distinguished?",
+    "options": [
+      "Sixteen",
+      "Five",
+      "Four",
+      "Eight"
+    ],
+    "letter": "B",
+    "explanation": "Possible B counts are zero, one, two, three or four, giving A4, A3B, A2B2, AB3 and B4. Sixteen treats all four positions as distinguishable binary slots rather than the specified count-only compositions. The model is not an exhaustive inventory of all LDH-related proteins.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            55,
+            59
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U08-Q063",
+    "unit": "U08",
+    "conceptId": "BIOL157-U08-C14",
+    "lesson": "BC0814",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO4",
+    "question": "Which statement about isoenzymes is correct?",
+    "options": [
+      "They must all differ only by oligomeric subunit arrangement.",
+      "A tissue-associated pattern alone uniquely proves a diagnosis.",
+      "They share an overall catalytic reaction but can differ in molecular form and regulation.",
+      "They must catalyse completely unrelated reactions."
+    ],
+    "letter": "C",
+    "explanation": "Isoenzymes can differ in sequence, assembly or kinetics while sharing catalytic activity. Different subunit combinations are one example, not a universal requirement. Tissue expression can be informative but does not uniquely establish a patient diagnosis without assay and clinical context.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L8",
+        "pages": [
+          [
+            55,
+            59
+          ]
+        ]
+      }
+    ]
   }
 ]

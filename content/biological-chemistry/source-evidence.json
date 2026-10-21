@@ -1,5 +1,5 @@
 {
-  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages. Lecture 5 has 58 actual pages but printed numbering reaches 65, with gaps beginning at actual p.15; L5 references always use actual PDF pages. Lecture 6 has 52 actual pages and printed numbering reaches 56; all L6 citations use actual PDF pages. Lecture 7 has 71 actual pages and printed numbering reaches 81; every L7 reference uses actual PDF pages, never an inferred offset.",
+  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages. Lecture 5 has 58 actual pages but printed numbering reaches 65, with gaps beginning at actual p.15; L5 references always use actual PDF pages. Lecture 6 has 52 actual pages and printed numbering reaches 56; all L6 citations use actual PDF pages. Lecture 7 has 71 actual pages and printed numbering reaches 81; every L7 reference uses actual PDF pages, never an inferred offset. Lecture 8 has 61 actual pages and printed numbering reaches 70; L8 references use actual PDF pages.",
   "anchors": [
     {
       "source": "L1",
@@ -1926,6 +1926,360 @@
       "pdfPage": 70,
       "anchor": "• Salting-in of proteins is attributed to diminishing electrostatic",
       "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 2,
+      "anchor": "• By the end of this lecture, students will be able to:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 3,
+      "anchor": "• Living organisms are filled with metabolic activities. Thousands",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 4,
+      "anchor": "• Most cells quickly oxidise glucose, producing carbon dioxide",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 5,
+      "anchor": "Introduction",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 6,
+      "anchor": "• Enzymes as agents of metabolic function:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 7,
+      "anchor": "Introduction",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 8,
+      "anchor": "− Enzymes display enormous catalytic power, accelerating reaction",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 9,
+      "anchor": "− A given enzyme is very selective (specificity) in the substances with",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 10,
+      "anchor": "− Regulation of enzyme activity is achieved in various ways, ranging",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 11,
+      "anchor": "• Traditionally, enzymes were often named by adding the suffix",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 12,
+      "anchor": "• Because of the misunderstanding of these trivial designations,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 13,
+      "anchor": "• Systematic classification of enzymes by EC:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 14,
+      "anchor": "• Some enzymes carry out their catalytic function relying solely",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 15,
+      "anchor": "• In most cases, a coenzyme is firmly associated with its enzyme,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 16,
+      "anchor": "• Enzyme cofactors: metal ions and coenzymes",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 17,
+      "anchor": "− Vitamins are compounds that are required in the diet because the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 18,
+      "anchor": "• Vitamin B3 (niacin) – NAD/NADP Coenzyme:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 19,
+      "anchor": "• Vitamin B3 (niacin) – NAD/NADP Coenzyme:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 20,
+      "anchor": "• Vitamin B3 (niacin) – NAD/NADP Coenzyme:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 21,
+      "anchor": "− Riboflavin is the precursor to the flavin coenzymes FMN and FAD.",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 22,
+      "anchor": "− FMN and FAD are non-covalently attached to their enzymes but",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 23,
+      "anchor": "• Vitamin B7 (Biotin, Vitamin H or Coenzyme R):",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 24,
+      "anchor": "− Thiamine is converted to the coenzyme thiamine pyrophosphate",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 25,
+      "anchor": "• Kinetics is the branch of science concerned with the rates of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 26,
+      "anchor": "• Enzymatic rate under different reaction conditions is essential to",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 27,
+      "anchor": "• Kinetics of enzyme-catalysed reactions:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 28,
+      "anchor": "• Lenore Michaelis and Maud Leonora Menten proposed a",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 29,
+      "anchor": "− The product (P) is formed in a second step when ES dissociates to",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 30,
+      "anchor": "− The ratio of constants is defined as the Michaelis constant, Km",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 31,
+      "anchor": "• Usually, the actual molar amount of the enzyme is unknown,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 32,
+      "anchor": "• The turnover number of an enzyme, kcat, is a measure of its",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 33,
+      "anchor": "• At saturating [S], v = Vmax = k2[ET]. Thus,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 34,
+      "anchor": "• Enzyme-substrate recognition and the catalytic events that",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 35,
+      "anchor": "Effect of pH on Enzymatic Activity",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 36,
+      "anchor": "• Like most chemical reactions, the rates of enzyme-catalysed",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 37,
+      "anchor": "• The increasing reaction rate with increasing temperature is",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 38,
+      "anchor": "• If the speed of an enzymatic reaction is decreased or inhibited,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 39,
+      "anchor": "− Reversible inhibitors fall into two major categories: competitive and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 40,
+      "anchor": "− Noncompetitive inhibitors bind to an allosteric site (site for enzyme",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 41,
+      "anchor": "− If the inhibitor combines irreversibly with the enzyme by covalent",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 42,
+      "anchor": "• Suicide substrates are inhibitory substrate analogues intended",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 43,
+      "anchor": "• Several drugs in current medical use are mechanism-based",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 44,
+      "anchor": "• The extraordinary ability of an enzyme to catalyse only one",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 45,
+      "anchor": "• Specificity due to molecular recognition:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 46,
+      "anchor": "− Pioneering enzyme specificity studies at the turn of the century by the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 47,
+      "anchor": "− Enzymes are highly flexible, conformationally dynamic molecules, and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 48,
+      "anchor": "• “Induced Fit” and the transition-state intermediate:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 49,
+      "anchor": "Enzyme Specificity & Regulation",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 50,
+      "anchor": "• (1) Enzymatic rate “slows down” as the product mounts up,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 51,
+      "anchor": "• (2) Substrates and cofactors available will determine the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 52,
+      "anchor": "• (3) There are genetic controls over the amounts of enzyme",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 53,
+      "anchor": "• (4) Enzymes can be regulated by covalent modification, the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 54,
+      "anchor": "• (5) Enzymatic activity can also be activated or inhibited",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 55,
+      "anchor": "− Most proteins become fully active as their synthesis is completed and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 56,
+      "anchor": "− Proteolytic enzymes of the digestive tract: enzymes of the digestive",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 57,
+      "anchor": "− Blood Clotting: the formation of blood clots results from a series of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 58,
+      "anchor": "− Several enzymes exist in more than one quaternary form, differing in",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 59,
+      "anchor": "Specialised Controls Over Enzymatic Activity",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 60,
+      "anchor": "− Modulator proteins are proteins that bind to enzymes and influence the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
     }
   ],
   "visuallyInspected": [
@@ -2046,6 +2400,37 @@
         66
       ],
       "result": "Selected structures, classifications, reaction schemes, normalised spectra, ion-exchange media/column, chain inventories, structural hierarchy, function and conjugate tables inspected. No source images republished. Normalised spectra do not establish equal absolute absorptivity."
+    },
+    {
+      "source": "L8",
+      "pdfPages": [
+        5,
+        7,
+        13,
+        16,
+        18,
+        20,
+        23,
+        24,
+        28,
+        29,
+        30,
+        33,
+        35,
+        37,
+        40,
+        43,
+        46,
+        48,
+        49,
+        52,
+        53,
+        54,
+        56,
+        58,
+        59
+      ],
+      "result": "Selected barrier/catalysis, all seven EC classes, cofactor/carrier structures, simple kinetic equations, pH/temperature, inhibition, recognition/induced-fit, phosphorylation, precursor and LDH figures/tables inspected. No source images copied; source classification already includes EC7."
     }
   ]
 }

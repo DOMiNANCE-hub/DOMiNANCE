@@ -187,9 +187,88 @@
     {
       "id": "BIOL157-CLO4",
       "text": "Explain enzyme function, classification, and factors affecting enzyme function.",
-      "notesConcepts": [],
-      "questions": [],
-      "coverageStatus": "not-authored"
+      "notesConcepts": [
+        "BIOL157-U08-C01",
+        "BIOL157-U08-C02",
+        "BIOL157-U08-C03",
+        "BIOL157-U08-C04",
+        "BIOL157-U08-C05",
+        "BIOL157-U08-C06",
+        "BIOL157-U08-C07",
+        "BIOL157-U08-C08",
+        "BIOL157-U08-C09",
+        "BIOL157-U08-C10",
+        "BIOL157-U08-C11",
+        "BIOL157-U08-C12",
+        "BIOL157-U08-C13",
+        "BIOL157-U08-C14"
+      ],
+      "questions": [
+        "BIOL157-U08-Q001",
+        "BIOL157-U08-Q002",
+        "BIOL157-U08-Q003",
+        "BIOL157-U08-Q004",
+        "BIOL157-U08-Q005",
+        "BIOL157-U08-Q006",
+        "BIOL157-U08-Q007",
+        "BIOL157-U08-Q008",
+        "BIOL157-U08-Q009",
+        "BIOL157-U08-Q010",
+        "BIOL157-U08-Q011",
+        "BIOL157-U08-Q012",
+        "BIOL157-U08-Q013",
+        "BIOL157-U08-Q014",
+        "BIOL157-U08-Q015",
+        "BIOL157-U08-Q016",
+        "BIOL157-U08-Q017",
+        "BIOL157-U08-Q018",
+        "BIOL157-U08-Q019",
+        "BIOL157-U08-Q020",
+        "BIOL157-U08-Q021",
+        "BIOL157-U08-Q022",
+        "BIOL157-U08-Q023",
+        "BIOL157-U08-Q024",
+        "BIOL157-U08-Q025",
+        "BIOL157-U08-Q026",
+        "BIOL157-U08-Q027",
+        "BIOL157-U08-Q028",
+        "BIOL157-U08-Q029",
+        "BIOL157-U08-Q030",
+        "BIOL157-U08-Q031",
+        "BIOL157-U08-Q032",
+        "BIOL157-U08-Q033",
+        "BIOL157-U08-Q034",
+        "BIOL157-U08-Q035",
+        "BIOL157-U08-Q036",
+        "BIOL157-U08-Q037",
+        "BIOL157-U08-Q038",
+        "BIOL157-U08-Q039",
+        "BIOL157-U08-Q040",
+        "BIOL157-U08-Q041",
+        "BIOL157-U08-Q042",
+        "BIOL157-U08-Q043",
+        "BIOL157-U08-Q044",
+        "BIOL157-U08-Q045",
+        "BIOL157-U08-Q046",
+        "BIOL157-U08-Q047",
+        "BIOL157-U08-Q048",
+        "BIOL157-U08-Q049",
+        "BIOL157-U08-Q050",
+        "BIOL157-U08-Q051",
+        "BIOL157-U08-Q052",
+        "BIOL157-U08-Q053",
+        "BIOL157-U08-Q054",
+        "BIOL157-U08-Q055",
+        "BIOL157-U08-Q056",
+        "BIOL157-U08-Q057",
+        "BIOL157-U08-Q058",
+        "BIOL157-U08-Q059",
+        "BIOL157-U08-Q060",
+        "BIOL157-U08-Q061",
+        "BIOL157-U08-Q062",
+        "BIOL157-U08-Q063"
+      ],
+      "coverageStatus": "draft-partial-not-certified"
     },
     {
       "id": "BIOL157-CLO5",
@@ -1479,7 +1558,7 @@
           "id": "BIOL157-U08-T01",
           "unit": "U08",
           "title": "Enzyme function",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1491,15 +1570,32 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0801",
+            "BC0802",
+            "BC0804"
+          ],
+          "questions": [
+            "BIOL157-U08-Q001",
+            "BIOL157-U08-Q002",
+            "BIOL157-U08-Q003",
+            "BIOL157-U08-Q004",
+            "BIOL157-U08-Q005",
+            "BIOL157-U08-Q006",
+            "BIOL157-U08-Q007",
+            "BIOL157-U08-Q008",
+            "BIOL157-U08-Q014",
+            "BIOL157-U08-Q015",
+            "BIOL157-U08-Q016",
+            "BIOL157-U08-Q017"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U08-T02",
           "unit": "U08",
           "title": "Enzyme classification",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1511,15 +1607,23 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0803"
+          ],
+          "questions": [
+            "BIOL157-U08-Q009",
+            "BIOL157-U08-Q010",
+            "BIOL157-U08-Q011",
+            "BIOL157-U08-Q012",
+            "BIOL157-U08-Q013"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U08-T03",
           "unit": "U08",
           "title": "Enzyme kinetics",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1531,15 +1635,56 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0805",
+            "BC0806",
+            "BC0807",
+            "BC0808",
+            "BC0809",
+            "BC0810",
+            "BC0811"
+          ],
+          "questions": [
+            "BIOL157-U08-Q018",
+            "BIOL157-U08-Q019",
+            "BIOL157-U08-Q020",
+            "BIOL157-U08-Q021",
+            "BIOL157-U08-Q022",
+            "BIOL157-U08-Q023",
+            "BIOL157-U08-Q024",
+            "BIOL157-U08-Q025",
+            "BIOL157-U08-Q026",
+            "BIOL157-U08-Q027",
+            "BIOL157-U08-Q028",
+            "BIOL157-U08-Q029",
+            "BIOL157-U08-Q030",
+            "BIOL157-U08-Q031",
+            "BIOL157-U08-Q032",
+            "BIOL157-U08-Q033",
+            "BIOL157-U08-Q034",
+            "BIOL157-U08-Q035",
+            "BIOL157-U08-Q036",
+            "BIOL157-U08-Q037",
+            "BIOL157-U08-Q038",
+            "BIOL157-U08-Q039",
+            "BIOL157-U08-Q040",
+            "BIOL157-U08-Q041",
+            "BIOL157-U08-Q042",
+            "BIOL157-U08-Q043",
+            "BIOL157-U08-Q044",
+            "BIOL157-U08-Q045",
+            "BIOL157-U08-Q046",
+            "BIOL157-U08-Q047",
+            "BIOL157-U08-Q048",
+            "BIOL157-U08-Q049"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U08-T04",
           "unit": "U08",
           "title": "Enzyme regulation",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1551,9 +1696,28 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC0812",
+            "BC0813",
+            "BC0814"
+          ],
+          "questions": [
+            "BIOL157-U08-Q050",
+            "BIOL157-U08-Q051",
+            "BIOL157-U08-Q052",
+            "BIOL157-U08-Q053",
+            "BIOL157-U08-Q054",
+            "BIOL157-U08-Q055",
+            "BIOL157-U08-Q056",
+            "BIOL157-U08-Q057",
+            "BIOL157-U08-Q058",
+            "BIOL157-U08-Q059",
+            "BIOL157-U08-Q060",
+            "BIOL157-U08-Q061",
+            "BIOL157-U08-Q062",
+            "BIOL157-U08-Q063"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         }
       ],
       "sourceRefs": [
@@ -1567,8 +1731,23 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0801",
+        "BC0802",
+        "BC0803",
+        "BC0804",
+        "BC0805",
+        "BC0806",
+        "BC0807",
+        "BC0808",
+        "BC0809",
+        "BC0810",
+        "BC0811",
+        "BC0812",
+        "BC0813",
+        "BC0814"
+      ]
     },
     {
       "id": "U09",
@@ -1752,8 +1931,8 @@
   "counts": {
     "units": 10,
     "topics": 34,
-    "concepts": 71,
-    "lessons": 71,
-    "questions": 282
+    "concepts": 85,
+    "lessons": 85,
+    "questions": 345
   }
 }

@@ -442,8 +442,8 @@ See docs/FIREBASE_AUTHORIZATION.md for the permission matrix and provisioning as
 - [x] Integrate independent study, per-concept practice and exact feedback-to-notes links using existing views and owner-scoped state. Add honest not-authored unit states and retain blocked normal student content.
 - [x] Add a reusable content contract, separate notes/outcome/question coverage, evidence checks and Antigravity integration hooks; see docs/ACADEMIC_CONTENT_STANDARD.md and docs/HB1_FIRST_SEMESTER_COVERAGE.md.
 - [ ] Obtain qualified academic approval; no self-approval, release, merge or deployment.
-- [x] Author and integrate source-checked Units 3–7 in tested RC batches (71 Bio lessons / 282 questions through Unit 7); see docs/release/UNIT03.md through UNIT07.md.
-- [ ] Author Units 8–10 incrementally; next batch is all 61 actual Lecture 8 pages.
+- [x] Author and integrate source-checked Units 3–8 in tested RC batches (85 Bio lessons / 345 questions through Unit 8); see docs/release/UNIT03.md through UNIT08.md.
+- [ ] Author Units 9–10 incrementally; next batch is all 28 actual Lecture 9 pages.
 
 
 ## Three-course RC and Cell completion — 2026-10-20
@@ -471,3 +471,7 @@ Ten original nucleic-acid lessons, 45 MCQs, 20 answered checks, three diagrams a
 ## Unit 7 Proteins — 2026-10-21
 
 Twelve substantial original lessons, 60 MCQs, 24 answered checks and four accessible diagrams cover all three listed protein subtopics. All 71 actual source pages read; selected 21 visuals checked. Prior 59 notes/222 questions and earlier concepts/figures retain hashes. Current Bio 71/282 with 23/34 topics drafted; no human approval. Verified 216 offline / 40 emulator checks, lint/build and combined Chromium mobile/desktop journeys including full banks and exact Unit 7 feedback links. Source exceptions and unassessed rare claims are explicit in docs/release/UNIT07.md and the unit ledger. Continue Unit 8 from all 61 actual pages without bypassing release gates.
+
+## Unit 8 Enzymes — 2026-10-21
+
+Fourteen substantial lessons, 63 original MCQs, 28 answered checks and three diagrams cover all four official enzyme topics. All 61 actual pages read and 25 selected visuals checked; source already includes seven classes, independently confirmed. Assumptions, rate units, Km/Kd, inhibitor models and regulation distinctions are explicit. Prior 71 notes/282 questions/concepts/figures retain hashes. Bio now 85/345, 27/34 topics drafted, no human approval. Verified 224 offline/40 emulator checks, lint/build and combined Chromium full pools/exact feedback/mobile traversal; docs/release/UNIT08.md. Continue Unit 9, preserving publication and deployment gates.

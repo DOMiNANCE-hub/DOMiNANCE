@@ -307,6 +307,24 @@
       "label": "Assay Guidance Manual: identity, mass purity and enzymatic purity",
       "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK91995/",
       "review": "specific-search-returned-assay-scope;not-full-chapter-review"
+    },
+    {
+      "id": "ENZYME-EC",
+      "label": "NC-IUBMB enzyme nomenclature and EC 7 translocase classes",
+      "url": "https://iubmb.qmul.ac.uk/enzyme/",
+      "review": "current-index-and-EC7-class-subclass-pages-opened-2026-10-21;not-all-individual-entries-reviewed"
+    },
+    {
+      "id": "ENZYME-KINETICS",
+      "label": "NC-IUB/IUPAC kinetic terminology: catalytic centres, Michaelis parameters and inhibition",
+      "url": "https://iubmb.qmul.ac.uk/kinetics/ek4t6.html",
+      "review": "specific-sections-4-and-6-opened;parameter-scope-and-mixed-versus-noncompetitive-distinction-checked;not-every-linked-mechanism-reviewed"
+    },
+    {
+      "id": "ENZYME-PBP",
+      "label": "Primary PBP beta-lactam study: bacterial transpeptidation targets",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17894439/",
+      "review": "specific-primary-abstract-search-returned-target-description;not-full-paper-or-clinical-label-review"
     }
   ],
   "objectives": [
@@ -646,8 +664,23 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC0801",
+        "BC0802",
+        "BC0803",
+        "BC0804",
+        "BC0805",
+        "BC0806",
+        "BC0807",
+        "BC0808",
+        "BC0809",
+        "BC0810",
+        "BC0811",
+        "BC0812",
+        "BC0813",
+        "BC0814"
+      ]
     },
     {
       "id": "U09",
@@ -1091,7 +1124,7 @@
       "id": "BIOL157-U08-T01",
       "unit": "U08",
       "title": "Enzyme function",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -1108,7 +1141,7 @@
       "id": "BIOL157-U08-T02",
       "unit": "U08",
       "title": "Enzyme classification",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -1125,7 +1158,7 @@
       "id": "BIOL157-U08-T03",
       "unit": "U08",
       "title": "Enzyme kinetics",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -1142,7 +1175,7 @@
       "id": "BIOL157-U08-T04",
       "unit": "U08",
       "title": "Enzyme regulation",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -5227,6 +5260,855 @@
           "title": "Key takeaways"
         }
       ]
+    },
+    {
+      "id": "BIOL157-U08-C01",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T01",
+      "title": "Enzymes, activation barriers and equilibrium",
+      "lesson": "BC0801",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Explain biological catalysis, distinguish kinetic barriers from thermodynamic driving force and calculate a relative catalytic rate from supplied comparable constants.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              3,
+              8
+            ],
+            [
+              50,
+              50
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A favourable reaction can still be slow"
+        },
+        {
+          "id": "s3",
+          "title": "Catalysts change pathways, not the equilibrium endpoint"
+        },
+        {
+          "id": "s4",
+          "title": "Worked catalytic-rate comparison"
+        },
+        {
+          "id": "s5",
+          "title": "Biological significance"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C02",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T01",
+      "title": "Active sites, specificity and catalytic mechanisms",
+      "lesson": "BC0802",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Relate recognition to active-site chemistry, compare lock-and-key and induced-fit descriptions and explain how catalytic groups can help a reaction proceed.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              9,
+              10
+            ],
+            [
+              44,
+              49
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Recognition must support a productive reaction"
+        },
+        {
+          "id": "s3",
+          "title": "Flexibility improves the recognition model"
+        },
+        {
+          "id": "s4",
+          "title": "Why mechanisms work"
+        },
+        {
+          "id": "s5",
+          "title": "Worked distinction between binding and turnover"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C03",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T02",
+      "title": "Reaction-based enzyme nomenclature and seven EC classes",
+      "lesson": "BC0803",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Classify a reaction by what is transformed, interpret an EC identifier and distinguish transfer, hydrolysis, nonhydrolytic cleavage, joining and coupled translocation.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              11,
+              13
+            ]
+          ]
+        },
+        {
+          "source": "ENZYME-EC"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Classify the reaction rather than the name alone"
+        },
+        {
+          "id": "s3",
+          "title": "Seven useful reaction questions"
+        },
+        {
+          "id": "s4",
+          "title": "Reading the four fields"
+        },
+        {
+          "id": "s5",
+          "title": "Coupled transport needs the full activity"
+        },
+        {
+          "id": "s6",
+          "title": "Worked decision sequence"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C04",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T01",
+      "title": "Cofactors, coenzymes and vitamin-derived chemical carriers",
+      "lesson": "BC0804",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Distinguish apoenzyme, holoenzyme, cofactor and prosthetic group; link representative vitamin precursors to their active carrier forms without treating all vitamins as equivalent cofactors.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              14,
+              24
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Nonprotein partners supply useful chemistry"
+        },
+        {
+          "id": "s3",
+          "title": "Redox carriers: NAD and flavins"
+        },
+        {
+          "id": "s4",
+          "title": "Group-transfer carriers"
+        },
+        {
+          "id": "s5",
+          "title": "Worked regeneration logic"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C05",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T03",
+      "title": "Measuring initial rates, enzyme activity and units",
+      "lesson": "BC0805",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Extract an initial rate from suitable data, distinguish concentration/time from amount/time and convert activity units while retaining assay conditions and blanks.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              25,
+              27
+            ],
+            [
+              31,
+              32
+            ]
+          ]
+        },
+        {
+          "source": "ENZYME-KINETICS"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Measure a rate before fitting a mechanism"
+        },
+        {
+          "id": "s3",
+          "title": "Worked initial-rate and volume conversion"
+        },
+        {
+          "id": "s4",
+          "title": "Katal and specific activity"
+        },
+        {
+          "id": "s5",
+          "title": "Choosing comparisons responsibly"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C06",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T03",
+      "title": "Deriving the simple Michaelis–Menten rate equation",
+      "lesson": "BC0806",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Explain the steady-state model, distinguish it from rapid binding equilibrium, derive the hyperbolic rate law and state when applying that law is justified.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              27,
+              30
+            ],
+            [
+              51,
+              51
+            ]
+          ]
+        },
+        {
+          "source": "ENZYME-KINETICS"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A simple model and its assumptions"
+        },
+        {
+          "id": "s3",
+          "title": "From enzyme conservation to the equation"
+        },
+        {
+          "id": "s4",
+          "title": "Km is not always a binding dissociation constant"
+        },
+        {
+          "id": "s5",
+          "title": "Worked distinction between constants"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C07",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T03",
+      "title": "Working with saturation data and reciprocal plots",
+      "lesson": "BC0807",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Use the Michaelis–Menten equation in both directions, check units and limiting behaviour, and interpret reciprocal plots without treating them as proof of a unique mechanism.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              27,
+              30
+            ],
+            [
+              51,
+              51
+            ]
+          ]
+        },
+        {
+          "source": "ENZYME-KINETICS"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Predict a rate with consistent units"
+        },
+        {
+          "id": "s3",
+          "title": "Rearranging from a measured rate"
+        },
+        {
+          "id": "s4",
+          "title": "A simple table reveals the shape"
+        },
+        {
+          "id": "s5",
+          "title": "Reciprocal plotting and its limits"
+        },
+        {
+          "id": "s6",
+          "title": "Comparing enzyme amounts"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C08",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T03",
+      "title": "Turnover, specificity constants and catalytic-centre counts",
+      "lesson": "BC0808",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Calculate kcat and kcat/Km with consistent units, distinguish maximal turnover from low-substrate performance and account for multiple catalytic centres in one enzyme molecule.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              31,
+              33
+            ]
+          ]
+        },
+        {
+          "source": "ENZYME-KINETICS"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Vmax depends on how much active enzyme is present"
+        },
+        {
+          "id": "s3",
+          "title": "Worked turnover calculation"
+        },
+        {
+          "id": "s4",
+          "title": "Low-substrate performance requires another quantity"
+        },
+        {
+          "id": "s5",
+          "title": "Worked comparison that changes with substrate"
+        },
+        {
+          "id": "s6",
+          "title": "Avoid interpreting a ratio as a complete mechanism"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C09",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T03",
+      "title": "How pH, temperature and solution conditions affect activity",
+      "lesson": "BC0809",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Explain environmental effects through ionisation and stability, calculate a conditional Q10 example and distinguish an assay optimum from a universal enzyme constant.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              34,
+              37
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Protonation affects more than one molecule"
+        },
+        {
+          "id": "s3",
+          "title": "Worked protonation-based interpretation"
+        },
+        {
+          "id": "s4",
+          "title": "Temperature changes both rate and surviving activity"
+        },
+        {
+          "id": "s5",
+          "title": "Worked conditional Q10 calculation"
+        },
+        {
+          "id": "s6",
+          "title": "Other variables and experimental controls"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C10",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T03",
+      "title": "Reversible inhibition: competitive, mixed and uncompetitive models",
+      "lesson": "BC0810",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Compare ideal reversible inhibition patterns, calculate apparent parameters with supplied factors and distinguish a kinetic pattern from a proven structural binding site.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              38,
+              40
+            ]
+          ]
+        },
+        {
+          "source": "ENZYME-KINETICS"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Define the model before assigning a label"
+        },
+        {
+          "id": "s3",
+          "title": "Competitive inhibition"
+        },
+        {
+          "id": "s4",
+          "title": "Mixed and pure noncompetitive inhibition"
+        },
+        {
+          "id": "s5",
+          "title": "Uncompetitive inhibition"
+        },
+        {
+          "id": "s6",
+          "title": "Comparing ideal patterns and evidence"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C11",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T03",
+      "title": "Irreversible and mechanism-based enzyme inactivation",
+      "lesson": "BC0811",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Distinguish persistent inactivation from reversible inhibition, explain a mechanism-based inhibitor and evaluate recovery or time-dependence experiments without overinterpreting one observation.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              38,
+              43
+            ]
+          ]
+        },
+        {
+          "source": "ENZYME-KINETICS"
+        },
+        {
+          "source": "ENZYME-PBP"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Loss of active enzyme is a different process"
+        },
+        {
+          "id": "s3",
+          "title": "Time and recovery provide complementary evidence"
+        },
+        {
+          "id": "s4",
+          "title": "Mechanism-based inactivation uses catalytic chemistry"
+        },
+        {
+          "id": "s5",
+          "title": "Worked active-fraction interpretation"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C12",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T04",
+      "title": "Allostery, cooperativity and feedback control",
+      "lesson": "BC0812",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Explain how ligand binding can regulate a distant active site, distinguish cooperativity from allostery and separate immediate product inhibition from pathway end-product feedback.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              6,
+              10
+            ],
+            [
+              50,
+              54
+            ]
+          ]
+        },
+        {
+          "source": "ENZYME-KINETICS"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Binding at one site can influence another"
+        },
+        {
+          "id": "s3",
+          "title": "Cooperative substrate responses require an appropriate model"
+        },
+        {
+          "id": "s4",
+          "title": "Feedback differs from merely approaching equilibrium"
+        },
+        {
+          "id": "s5",
+          "title": "Worked interpretation of regulator data"
+        },
+        {
+          "id": "s6",
+          "title": "Coordinating a pathway"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C13",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T04",
+      "title": "Covalent modification, enzyme abundance and protein modulators",
+      "lesson": "BC0813",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Compare reversible phosphorylation with changes in enzyme amount, explain a regulatory protein complex and distinguish kinase and phosphatase chemistry.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              52,
+              54
+            ],
+            [
+              60,
+              60
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Phosphorylation changes selected molecular properties"
+        },
+        {
+          "id": "s3",
+          "title": "Protein partners can restrain or enable catalysis"
+        },
+        {
+          "id": "s4",
+          "title": "Changing enzyme amount usually involves another timescale"
+        },
+        {
+          "id": "s5",
+          "title": "Worked two-factor comparison"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-C14",
+      "unit": "U08",
+      "topic": "BIOL157-U08-T04",
+      "title": "Zymogens, activation cascades and isoenzymes",
+      "lesson": "BC0814",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO4"
+      ],
+      "learningGoals": "Explain why enzymes can be made as inactive precursors, distinguish irreversible proteolytic activation from reversible regulation and interpret isoenzyme composition without making diagnostic claims.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              55,
+              59
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Proteolysis can activate rather than merely destroy"
+        },
+        {
+          "id": "s3",
+          "title": "Activation cascades amplify a signal"
+        },
+        {
+          "id": "s4",
+          "title": "Isoenzymes catalyse the same reaction with different molecular forms"
+        },
+        {
+          "id": "s5",
+          "title": "Worked composition and interpretation"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
     }
   ],
   "figures": [
@@ -7954,6 +8836,541 @@
             [
               48,
               48
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-BARRIER",
+      "title": "Lower barrier, unchanged endpoints",
+      "description": "Two schematic reaction paths share reactant and product free energies. A solid high-barrier path and a dashed lower-barrier catalysed path end at the same product level. The drawing distinguishes activation barrier from reaction free-energy difference.",
+      "caption": "Original qualitative free-energy schematic in arbitrary units; not measured data and not a complete multistep mechanism. The catalyst changes the route, not the equilibrium free-energy difference.",
+      "width": 400,
+      "height": 360,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 26,
+          "text": "Free energy: arbitrary units"
+        },
+        {
+          "kind": "line",
+          "x1": 35,
+          "y1": 45,
+          "x2": 35,
+          "y2": 285
+        },
+        {
+          "kind": "line",
+          "x1": 35,
+          "y1": 285,
+          "x2": 370,
+          "y2": 285
+        },
+        {
+          "kind": "line",
+          "x1": 55,
+          "y1": 180,
+          "x2": 90,
+          "y2": 165
+        },
+        {
+          "kind": "line",
+          "x1": 90,
+          "y1": 165,
+          "x2": 145,
+          "y2": 55
+        },
+        {
+          "kind": "line",
+          "x1": 145,
+          "y1": 55,
+          "x2": 195,
+          "y2": 105
+        },
+        {
+          "kind": "line",
+          "x1": 195,
+          "y1": 105,
+          "x2": 260,
+          "y2": 220
+        },
+        {
+          "kind": "line",
+          "x1": 260,
+          "y1": 220,
+          "x2": 345,
+          "y2": 240
+        },
+        {
+          "kind": "line",
+          "x1": 55,
+          "y1": 180,
+          "x2": 105,
+          "y2": 155,
+          "dashed": true
+        },
+        {
+          "kind": "line",
+          "x1": 105,
+          "y1": 155,
+          "x2": 150,
+          "y2": 135,
+          "dashed": true
+        },
+        {
+          "kind": "line",
+          "x1": 150,
+          "y1": 135,
+          "x2": 200,
+          "y2": 155,
+          "dashed": true
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 155,
+          "x2": 260,
+          "y2": 225,
+          "dashed": true
+        },
+        {
+          "kind": "line",
+          "x1": 260,
+          "y1": 225,
+          "x2": 345,
+          "y2": 240,
+          "dashed": true
+        },
+        {
+          "kind": "text",
+          "x": 90,
+          "y": 208,
+          "text": "Reactants"
+        },
+        {
+          "kind": "text",
+          "x": 320,
+          "y": 268,
+          "text": "Products"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 315,
+          "text": "Solid: higher barrier"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 344,
+          "text": "Dashed: catalysed route"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              4,
+              5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-SATURATION",
+      "title": "A hypothetical Michaelis–Menten saturation curve",
+      "description": "A calculated rate curve rises towards a limiting Vmax. With supplied Km 20 micromolar, substrate at 20 gives half of the limiting rate. Dashed guides show the half-rate coordinate; the asymptote is approached rather than reached at a finite substrate concentration.",
+      "caption": "Original calculated model with supplied Km=20 µM and arbitrary limiting-rate scale, not experimental observations or a universal enzyme curve.",
+      "width": 400,
+      "height": 360,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 25,
+          "text": "v0 / Vmax"
+        },
+        {
+          "kind": "line",
+          "x1": 45,
+          "y1": 45,
+          "x2": 45,
+          "y2": 265
+        },
+        {
+          "kind": "line",
+          "x1": 45,
+          "y1": 265,
+          "x2": 370,
+          "y2": 265
+        },
+        {
+          "kind": "line",
+          "x1": 45,
+          "y1": 65,
+          "x2": 365,
+          "y2": 65,
+          "dashed": true
+        },
+        {
+          "kind": "text",
+          "x": 300,
+          "y": 52,
+          "text": "Vmax limit"
+        },
+        {
+          "kind": "line",
+          "x1": 45.0,
+          "y1": 265.0,
+          "x2": 61.0,
+          "y2": 225.0
+        },
+        {
+          "kind": "line",
+          "x1": 61.0,
+          "y1": 225.0,
+          "x2": 77.0,
+          "y2": 198.33333333333331
+        },
+        {
+          "kind": "line",
+          "x1": 77.0,
+          "y1": 198.33333333333331,
+          "x2": 93.0,
+          "y2": 179.28571428571428
+        },
+        {
+          "kind": "line",
+          "x1": 93.0,
+          "y1": 179.28571428571428,
+          "x2": 109.0,
+          "y2": 165.0
+        },
+        {
+          "kind": "line",
+          "x1": 109.0,
+          "y1": 165.0,
+          "x2": 125.0,
+          "y2": 153.88888888888889
+        },
+        {
+          "kind": "line",
+          "x1": 125.0,
+          "y1": 153.88888888888889,
+          "x2": 141.0,
+          "y2": 145.0
+        },
+        {
+          "kind": "line",
+          "x1": 141.0,
+          "y1": 145.0,
+          "x2": 157.0,
+          "y2": 137.72727272727275
+        },
+        {
+          "kind": "line",
+          "x1": 157.0,
+          "y1": 137.72727272727275,
+          "x2": 173.0,
+          "y2": 131.66666666666666
+        },
+        {
+          "kind": "line",
+          "x1": 173.0,
+          "y1": 131.66666666666666,
+          "x2": 189.0,
+          "y2": 126.53846153846155
+        },
+        {
+          "kind": "line",
+          "x1": 189.0,
+          "y1": 126.53846153846155,
+          "x2": 205.0,
+          "y2": 122.14285714285714
+        },
+        {
+          "kind": "line",
+          "x1": 205.0,
+          "y1": 122.14285714285714,
+          "x2": 221.0,
+          "y2": 118.33333333333334
+        },
+        {
+          "kind": "line",
+          "x1": 221.0,
+          "y1": 118.33333333333334,
+          "x2": 237.0,
+          "y2": 115.0
+        },
+        {
+          "kind": "line",
+          "x1": 237.0,
+          "y1": 115.0,
+          "x2": 253.0,
+          "y2": 112.05882352941177
+        },
+        {
+          "kind": "line",
+          "x1": 253.0,
+          "y1": 112.05882352941177,
+          "x2": 269.0,
+          "y2": 109.44444444444446
+        },
+        {
+          "kind": "line",
+          "x1": 269.0,
+          "y1": 109.44444444444446,
+          "x2": 285.0,
+          "y2": 107.10526315789474
+        },
+        {
+          "kind": "line",
+          "x1": 285.0,
+          "y1": 107.10526315789474,
+          "x2": 301.0,
+          "y2": 105.0
+        },
+        {
+          "kind": "line",
+          "x1": 301.0,
+          "y1": 105.0,
+          "x2": 317.0,
+          "y2": 103.0952380952381
+        },
+        {
+          "kind": "line",
+          "x1": 317.0,
+          "y1": 103.0952380952381,
+          "x2": 333.0,
+          "y2": 101.36363636363637
+        },
+        {
+          "kind": "line",
+          "x1": 333.0,
+          "y1": 101.36363636363637,
+          "x2": 349.0,
+          "y2": 99.78260869565219
+        },
+        {
+          "kind": "line",
+          "x1": 349.0,
+          "y1": 99.78260869565219,
+          "x2": 365.0,
+          "y2": 98.33333333333334
+        },
+        {
+          "kind": "line",
+          "x1": 45,
+          "y1": 165,
+          "x2": 109,
+          "y2": 165,
+          "dashed": true
+        },
+        {
+          "kind": "line",
+          "x1": 109,
+          "y1": 165,
+          "x2": 109,
+          "y2": 265,
+          "dashed": true
+        },
+        {
+          "kind": "text",
+          "x": 18,
+          "y": 172,
+          "text": "½"
+        },
+        {
+          "kind": "text",
+          "x": 109,
+          "y": 292,
+          "text": "Km=20"
+        },
+        {
+          "kind": "text",
+          "x": 335,
+          "y": 292,
+          "text": "100"
+        },
+        {
+          "kind": "text",
+          "x": 210,
+          "y": 328,
+          "text": "Substrate [S], µM"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              27,
+              30
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U08-FEEDBACK",
+      "title": "A later product can inhibit an earlier pathway step",
+      "description": "In the hypothetical chain A to B to C to D, a returning regulatory line from D ends in an inhibition bar at the enzyme of the A-to-B step. Feedback controls flux without being the same as changing the equilibrium constant.",
+      "caption": "Original pathway-control schematic, not an asserted named clinical pathway. The inhibited enzyme need not directly produce D; feedback and reverse-reaction effects are distinct.",
+      "width": 400,
+      "height": 270,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 45,
+          "y": 70,
+          "text": "A"
+        },
+        {
+          "kind": "text",
+          "x": 145,
+          "y": 70,
+          "text": "B"
+        },
+        {
+          "kind": "text",
+          "x": 245,
+          "y": 70,
+          "text": "C"
+        },
+        {
+          "kind": "text",
+          "x": 350,
+          "y": 70,
+          "text": "D"
+        },
+        {
+          "kind": "line",
+          "x1": 65,
+          "y1": 65,
+          "x2": 125,
+          "y2": 65
+        },
+        {
+          "kind": "line",
+          "x1": 125,
+          "y1": 65,
+          "x2": 115,
+          "y2": 58
+        },
+        {
+          "kind": "line",
+          "x1": 125,
+          "y1": 65,
+          "x2": 115,
+          "y2": 72
+        },
+        {
+          "kind": "line",
+          "x1": 165,
+          "y1": 65,
+          "x2": 225,
+          "y2": 65
+        },
+        {
+          "kind": "line",
+          "x1": 225,
+          "y1": 65,
+          "x2": 215,
+          "y2": 58
+        },
+        {
+          "kind": "line",
+          "x1": 225,
+          "y1": 65,
+          "x2": 215,
+          "y2": 72
+        },
+        {
+          "kind": "line",
+          "x1": 265,
+          "y1": 65,
+          "x2": 330,
+          "y2": 65
+        },
+        {
+          "kind": "line",
+          "x1": 330,
+          "y1": 65,
+          "x2": 320,
+          "y2": 58
+        },
+        {
+          "kind": "line",
+          "x1": 330,
+          "y1": 65,
+          "x2": 320,
+          "y2": 72
+        },
+        {
+          "kind": "text",
+          "x": 95,
+          "y": 112,
+          "text": "E1"
+        },
+        {
+          "kind": "line",
+          "x1": 350,
+          "y1": 85,
+          "x2": 350,
+          "y2": 165
+        },
+        {
+          "kind": "line",
+          "x1": 350,
+          "y1": 165,
+          "x2": 95,
+          "y2": 165
+        },
+        {
+          "kind": "line",
+          "x1": 95,
+          "y1": 165,
+          "x2": 95,
+          "y2": 125
+        },
+        {
+          "kind": "line",
+          "x1": 80,
+          "y1": 125,
+          "x2": 110,
+          "y2": 125
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 210,
+          "text": "D inhibits earlier E1"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 245,
+          "text": "Feedback ≠ changing Keq"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L8",
+          "pages": [
+            [
+              50,
+              54
             ]
           ]
         }
