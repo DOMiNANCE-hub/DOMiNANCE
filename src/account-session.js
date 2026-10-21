@@ -18,6 +18,32 @@ export function observeAccount({subscribeAuth,subscribeProfile,publish,timeoutMs
  return()=>{active=false;++generation;clear();stopProfile();stopAuth()};
 }
 export function accountError(error){
- const messages={'auth/wrong-password':'The email or password is incorrect.','auth/user-not-found':'The email or password is incorrect.','auth/invalid-credential':'The email or password is incorrect.','auth/invalid-email':'Enter a valid email address.','auth/email-already-in-use':'This email already has an account. Try signing in.','auth/weak-password':'Choose a password with at least six characters.','auth/network-request-failed':'Connection failed. Check your internet and try again.','auth/too-many-requests':'Too many attempts. Please wait before trying again.','auth/popup-closed-by-user':'Google sign-in was closed. You can try again.','auth/popup-blocked':'Your browser blocked Google sign-in. Allow the popup or use email sign-in.','auth/user-disabled':'This account is disabled. Please contact the app team.'};
- return messages[error?.code]||'We could not complete that action. Please try again.';
+ const messages={
+  'auth/wrong-password':'The email or password is incorrect.',
+  'auth/user-not-found':'The email or password is incorrect.',
+  'auth/invalid-credential':'The email or password is incorrect.',
+  'auth/invalid-email':'Enter a valid email address.',
+  'auth/email-already-in-use':'This email already has an account. Try signing in.',
+  'auth/weak-password':'Choose a password with at least six characters.',
+  'auth/network-request-failed':'Connection failed. Check your internet and try again.',
+  'auth/too-many-requests':'Too many attempts. Please wait before trying again.',
+  'auth/popup-closed-by-user':'Google sign-in was closed. You can try again.',
+  'auth/popup-blocked':'Your browser blocked Google sign-in. Allow the popup or use email sign-in.',
+  'auth/user-disabled':'This account is disabled. Please contact the app team.',
+  'auth/unauthorized-domain':'This domain is not authorized for authentication. Please add vercel.app to Authorized Domains in Firebase Console.',
+  'auth/operation-not-allowed':'This sign-in method is not enabled. Please enable it in Firebase Console under Authentication > Sign-in method.',
+  'auth/api-key-not-valid':'Firebase API key is invalid or blocked by referrer restrictions. Please check API key settings in Google Cloud Console.',
+  'auth/invalid-api-key':'Firebase API key is invalid. Please verify Vercel environment variables.',
+  'auth/app-not-authorized':'This application is not authorized to use Firebase Authentication.',
+  'auth/configuration-not-found':'Authentication configuration was not found for this Firebase project.',
+  'auth/account-exists-with-different-credential':'An account already exists with the same email using a different sign-in method.',
+  'auth/credential-already-in-use':'This credential is already linked to another account.',
+  'auth/requires-recent-login':'Please sign in again before attempting this action.',
+  'auth/quota-exceeded':'Authentication quota exceeded. Please wait a moment and try again.',
+  'auth/internal-error':'Authentication service encountered an internal error. Please try again.'
+ };
+ if(typeof error?.code==='string'&&error.code.startsWith('auth/')){
+  return messages[error.code]||`Authentication error (${error.code.replace('auth/','')}). Please check configuration or try again.`;
+ }
+ return 'We could not complete that action. Please try again.';
 }
