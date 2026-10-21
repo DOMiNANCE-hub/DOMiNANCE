@@ -233,8 +233,8 @@
   "testedImplementationCommit": "d55b924160901706e04e8fded89624d145e3843d",
   "githubCI": {
     "status": "success",
-    "commit": "bbc08e43344070de2bd797bb0c5dc52a74ec8f6c",
-    "url": "https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39643953044"
+    "commit": "54fa7bbb6426611be981d75133f17e496e3b7db6",
+    "url": "https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39645148378"
   },
   "checkpoints": [
     {
@@ -288,9 +288,13 @@
     {
       "batch": "All Excel feedback links",
       "commit": "bbc08e43344070de2bd797bb0c5dc52a74ec8f6c"
+    },
+    {
+      "batch": "Cell cytoskeleton teaching alignment",
+      "commit": "54fa7bbb6426611be981d75133f17e496e3b7db6"
     }
   ],
   "continuation": "docs/release/CONTINUE.md",
-  "testedCommit": "bbc08e43344070de2bd797bb0c5dc52a74ec8f6c",
-  "integrationPRMetadata": "PR #17 description refreshed with all 114 Computer targets and current verification. Earlier connector approval-review usage failure resolved after its reset; no alternate-tool bypass used."
+  "testedCommit": "54fa7bbb6426611be981d75133f17e496e3b7db6",
+  "integrationPRMetadata": "PR #17 refreshed with current implemented batches and QA; remains draft. The earlier connector usage failure was resolved through the same original connector after reset."
 }

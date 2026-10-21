@@ -45,8 +45,9 @@ Complete the remaining 154 Cell feedback mappings and verified microscopy/centri
 - Bio Unit 10: [`6c84fa7`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/6c84fa75400ec457e61a18acfd3f83512f0804e6)
 - PowerPoint exact feedback links: [`8dab397`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/8dab397b1ecdf6eb36c833549ad475b0bd4a8965)
 - All Excel feedback links: [`bbc08e4`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/bbc08e43344070de2bd797bb0c5dc52a74ec8f6c)
+- Cell cytoskeleton teaching alignment: [`54fa7bb`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/54fa7bbb6426611be981d75133f17e496e3b7db6)
 
-Latest implementation CI: [success](https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39643953044). Exact continuation: [CONTINUE.md](CONTINUE.md).
+Latest implementation CI: [success](https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39645148378). Exact continuation: [CONTINUE.md](CONTINUE.md).
 
 Microsoft Office remains 0/15 executed: [exact manual acceptance checklist](../csm177/MICROSOFT_OFFICE_ACCEPTANCE.md).
 
