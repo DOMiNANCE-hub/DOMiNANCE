@@ -37,7 +37,7 @@ The student learning workspace integrates three HB1 First Semester courses throu
 | :--- | :--- | :--- | :--- | :--- |
 | **Cell Structure** (`BIOL 151`) | `cellStructure` | `#cellProgress` | `46` lessons · `170` MCQs (`public/dashboard/cell-content.js`) | `46` lessons (with 23 instructional expansions) · `178` MCQs (`scripts/academic/cell-review-plugin.mjs`) |
 | **Computer Appreciation** (`CSM 177`) | `computerAppreciation` | `#computerProgress` | Release-blocked (`0` lessons / `0` MCQs in `public/dashboard/computer-content.js`; index metadata in `computer-index.js`) | `18` lessons (`4` blocks) · `114` MCQs (`scripts/academic/computer-review-plugin.mjs`) |
-| **Biological Chemistry** (`BIOL 157`) | `biologicalChemistry` | `#biologicalProgress` | Release-blocked (`0` lessons / `0` MCQs in `public/dashboard/biological-content.js`; catalog/index in `biological-catalog.js`, `biological-index.js`) | `10` official units (`2` authored units = `14` lessons, `8` unauthored units) · `34` MCQs (`scripts/academic/biological-review-plugin.mjs`) |
+| **Biological Chemistry** (`BIOL 157`) | `biologicalChemistry` | `#biologicalProgress` | Release-blocked (`0` lessons / `0` MCQs in `public/dashboard/biological-content.js`; catalog/index in `biological-catalog.js`, `biological-index.js`) | `10` official units (`6` authored units = `59` lessons, `4` unauthored units) · `222` MCQs (`scripts/academic/biological-review-plugin.mjs`) |
 
 ### 2.1 Academic Release Safeguards (Critical Constraint)
 
@@ -143,7 +143,7 @@ The embedded dashboard loads seven stylesheets in `<head>` before `<body>` rende
 Run the following commands before committing or updating any PR:
 
 ```bash
-# 1. Unit & behavioral test suite (182 tests across all 3 courses, UI, auth, and state)
+# 1. Unit & behavioral test suite (209 tests across all 3 courses, UI, auth, and state)
 npm test
 
 # 2. Static analysis (oxlint)
@@ -166,6 +166,6 @@ npm run test:emulators
 1. **Academic Sign-Off**:
    - **Cell Structure**: Formal lecturer/academic sign-off on the 23 instructional expansions and 8 review questions (`CELL-RQ001`–`CELL-RQ008`), tracked in `docs/EDUCATIONAL_REVIEW.md` and `docs/cell-structure-instruction-report.md`.
    - **Computer Appreciation**: Academic approval to promote the 18 lessons and 114 questions from emulator-only review (`reviewOnly: true`) to student release (`docs/computer-appreciation-instruction-report.md`).
-   - **Biological Chemistry**: Authoring of the remaining 8 syllabus units (`U03`–`U10`) and academic review of Units 1–2 (`14` lessons, `34` MCQs), tracked in `docs/biol157/coverage.json` and `docs/biol157/integration-report.md`.
+   - **Biological Chemistry**: Authoring of the remaining 4 syllabus units (`U07`–`U10`) and academic review of Units 1–6 (`59` lessons, `222` MCQs), tracked in `docs/biol157/coverage.json` and `docs/biol157/integration-report.md`.
 2. **Production Firebase Deployment**:
    - Production rules (`firestore.rules`) and hosting deployment remain intentionally untouched until academic approval and release review are complete.
