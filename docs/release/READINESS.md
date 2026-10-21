@@ -41,8 +41,9 @@ Read all 48 actual Lecture 10 pages and implement five Lipids topics with indepe
 - Bio Unit 6: [`4bb8a37`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/4bb8a374060c677ea457e9feac68c18645050352)
 - Bio Unit 7: [`5991d51`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/5991d514d2c1213b6744546e36c2a129e6a2252a)
 - Bio Unit 8: [`7c83ea5`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/7c83ea56b5006049e475f358f49eef2a8ccc18f0)
+- Bio Unit 9: [`d55b924`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/d55b924160901706e04e8fded89624d145e3843d)
 
-Latest implementation CI: not recorded. Exact continuation: [CONTINUE.md](CONTINUE.md).
+Latest implementation CI: [success](https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39573092788). Exact continuation: [CONTINUE.md](CONTINUE.md).
 
 Microsoft Office remains 0/15 executed: [exact manual acceptance checklist](../csm177/MICROSOFT_OFFICE_ACCEPTANCE.md).
 
