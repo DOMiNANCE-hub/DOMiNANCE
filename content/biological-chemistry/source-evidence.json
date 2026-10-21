@@ -1,5 +1,5 @@
 {
-  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages. Lecture 5 has 58 actual pages but printed numbering reaches 65, with gaps beginning at actual p.15; L5 references always use actual PDF pages. Lecture 6 has 52 actual pages and printed numbering reaches 56; all L6 citations use actual PDF pages. Lecture 7 has 71 actual pages and printed numbering reaches 81; every L7 reference uses actual PDF pages, never an inferred offset. Lecture 8 has 61 actual pages and printed numbering reaches 70; L8 references use actual PDF pages. Lecture 9 has 28 actual pages and printed numbering reaches 30; L9 references use actual PDF pages.",
+  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages. Lecture 5 has 58 actual pages but printed numbering reaches 65, with gaps beginning at actual p.15; L5 references always use actual PDF pages. Lecture 6 has 52 actual pages and printed numbering reaches 56; all L6 citations use actual PDF pages. Lecture 7 has 71 actual pages and printed numbering reaches 81; every L7 reference uses actual PDF pages, never an inferred offset. Lecture 8 has 61 actual pages and printed numbering reaches 70; L8 references use actual PDF pages. Lecture 9 has 28 actual pages and printed numbering reaches 30; L9 references use actual PDF pages. Lecture 10 has 48 actual pages and printed numbering reaches 50; L10 citations use actual pages.",
   "anchors": [
     {
       "source": "L1",
@@ -2436,6 +2436,282 @@
       "pdfPage": 27,
       "anchor": "• (4) Hormonal regulation – nonsteroid hormone:",
       "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 2,
+      "anchor": "• By the end of this lecture, students will be able to:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 3,
+      "anchor": "• Lipids are heterogeneous groups of organic compounds related",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 4,
+      "anchor": "• Lipids are a class of biomolecules defined by low solubility in",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 5,
+      "anchor": "− True fats: esters of fatty acids with glycerol. Waxes: esters of fatty",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 6,
+      "anchor": "• Fatty acids are composed of a long hydrocarbon chain (“tail”)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 7,
+      "anchor": "Fatty Acids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 8,
+      "anchor": "• If a fatty acid has one double bond, it is monounsaturated, and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 9,
+      "anchor": "• Unsaturated fatty acids are slightly more abundant in nature",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 10,
+      "anchor": "• Essential and non-essential fatty acids:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 11,
+      "anchor": "• Essential and non-essential fatty acids:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 12,
+      "anchor": "− In addition to unsaturated fatty acids, several modified fatty acids are",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 13,
+      "anchor": "• Triacylglycerols are a significant energy reserve and the main",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 14,
+      "anchor": "• Simple and mixed triacylglycerols:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 15,
+      "anchor": "• Acylglycerols can be hydrolysed by heating them with acid or",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 16,
+      "anchor": "• Triacylglycerols are rich in highly reduced carbons, producing",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 17,
+      "anchor": "− Phosphatidic acid, the parent compound for the glycerol-based",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 18,
+      "anchor": "− Phosphatides with choline or ethanolamine are phosphatidylcholine",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 19,
+      "anchor": "• Glycerolipids with other head groups:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 20,
+      "anchor": "− Ether glycerophospholipids possess an ether linkage instead of an",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 21,
+      "anchor": "Glycerophospholipids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 22,
+      "anchor": "− Plasmalogens are ether glycerophospholipids in which the alkyl",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 23,
+      "anchor": "• Sphingolipids represent another class of lipids found frequently",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 24,
+      "anchor": "• Formation of ceramide (sphingolipid):",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 25,
+      "anchor": "Sphingolipids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 26,
+      "anchor": "• Glycosphingolipids are vital components of muscle and nerve",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 27,
+      "anchor": "• Gangliosides are formed when sulphate is esterified at the 3-",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 28,
+      "anchor": "• Glycosphingolipids at cell surfaces appear to determine, at least",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 29,
+      "anchor": "Sphingolipids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 30,
+      "anchor": "• Esters of long-chain alcohols with long-chain fatty acids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 31,
+      "anchor": "• Carnauba wax, from the fronds of palm trees in Brazil, is a",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 32,
+      "anchor": "• Terpenes are a class of lipids formed from combinations of two",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 33,
+      "anchor": "• The triterpenes (C30: six isoprene units) include squalene and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 34,
+      "anchor": "Terpenes",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 35,
+      "anchor": "• Examples of polyprenol-containing biomolecules:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 36,
+      "anchor": "• A large and important class of terpene-based lipids is steroids,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 37,
+      "anchor": "− Cholesterol is the most common animal steroid and precursor for all",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 38,
+      "anchor": "− Steroids derived from cholesterol in animals: hormones and bile acids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 39,
+      "anchor": "Steroids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 40,
+      "anchor": "• Soaps are sodium and potassium salts of long-chain fatty acids,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 41,
+      "anchor": "• Cleansing action of detergents – micelle formation:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 42,
+      "anchor": "• Cleansing action of detergents – micelle formation:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 43,
+      "anchor": "• Rancidification, the product of what is described as rancidity, is",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 44,
+      "anchor": "− It is associated with the degradation of oxygen in the air. Through a",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 45,
+      "anchor": "− Antioxidants are often added to fat-containing foods to delay the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 46,
+      "anchor": "• Acid number: milligrams of potassium hydroxide (KOH), required to",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 47,
+      "anchor": "• Saponification number: milligrams of KOH required to saponify",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
     }
   ],
   "visuallyInspected": [
@@ -2608,6 +2884,27 @@
         27
       ],
       "result": "Organisation, cell compartment map, six reaction examples, lac schematic, allostery, glucose compartments and steroid/surface-receptor signals inspected. Aconitase overall rearrangement versus EC4 classification and partial succinate oxidation explicitly reconciled. No source image copied."
+    },
+    {
+      "source": "L10",
+      "pdfPages": [
+        7,
+        11,
+        14,
+        19,
+        21,
+        22,
+        24,
+        25,
+        26,
+        29,
+        34,
+        35,
+        36,
+        39,
+        42
+      ],
+      "result": "Fatty-acid/essential diagrams, acylglycerols, head groups/ethers, ceramide/sphingomyelin, GM glycan series, isoprenoids/steroid structures and micelles inspected; actual pp11,29,34 enlarged. No source image copied. Alpha/gamma, sulfate/sialic and carotenoid label/ring discrepancies reconciled."
     }
   ]
 }

@@ -334,7 +334,22 @@
         "BIOL157-U09-C04",
         "BIOL157-U09-C05",
         "BIOL157-U09-C06",
-        "BIOL157-U09-C07"
+        "BIOL157-U09-C07",
+        "BIOL157-U10-C01",
+        "BIOL157-U10-C02",
+        "BIOL157-U10-C03",
+        "BIOL157-U10-C04",
+        "BIOL157-U10-C05",
+        "BIOL157-U10-C06",
+        "BIOL157-U10-C07",
+        "BIOL157-U10-C08",
+        "BIOL157-U10-C09",
+        "BIOL157-U10-C10",
+        "BIOL157-U10-C11",
+        "BIOL157-U10-C12",
+        "BIOL157-U10-C13",
+        "BIOL157-U10-C14",
+        "BIOL157-U10-C15"
       ],
       "questions": [
         "BIOL157-U05-Q001",
@@ -517,7 +532,60 @@
         "BIOL157-U09-Q015",
         "BIOL157-U09-Q016",
         "BIOL157-U09-Q017",
-        "BIOL157-U09-Q018"
+        "BIOL157-U09-Q018",
+        "BIOL157-U10-Q001",
+        "BIOL157-U10-Q002",
+        "BIOL157-U10-Q003",
+        "BIOL157-U10-Q004",
+        "BIOL157-U10-Q005",
+        "BIOL157-U10-Q006",
+        "BIOL157-U10-Q007",
+        "BIOL157-U10-Q008",
+        "BIOL157-U10-Q009",
+        "BIOL157-U10-Q010",
+        "BIOL157-U10-Q011",
+        "BIOL157-U10-Q012",
+        "BIOL157-U10-Q013",
+        "BIOL157-U10-Q014",
+        "BIOL157-U10-Q015",
+        "BIOL157-U10-Q016",
+        "BIOL157-U10-Q017",
+        "BIOL157-U10-Q018",
+        "BIOL157-U10-Q019",
+        "BIOL157-U10-Q020",
+        "BIOL157-U10-Q021",
+        "BIOL157-U10-Q022",
+        "BIOL157-U10-Q023",
+        "BIOL157-U10-Q024",
+        "BIOL157-U10-Q025",
+        "BIOL157-U10-Q026",
+        "BIOL157-U10-Q027",
+        "BIOL157-U10-Q028",
+        "BIOL157-U10-Q029",
+        "BIOL157-U10-Q030",
+        "BIOL157-U10-Q031",
+        "BIOL157-U10-Q032",
+        "BIOL157-U10-Q033",
+        "BIOL157-U10-Q034",
+        "BIOL157-U10-Q035",
+        "BIOL157-U10-Q036",
+        "BIOL157-U10-Q037",
+        "BIOL157-U10-Q038",
+        "BIOL157-U10-Q039",
+        "BIOL157-U10-Q040",
+        "BIOL157-U10-Q041",
+        "BIOL157-U10-Q042",
+        "BIOL157-U10-Q043",
+        "BIOL157-U10-Q044",
+        "BIOL157-U10-Q045",
+        "BIOL157-U10-Q046",
+        "BIOL157-U10-Q047",
+        "BIOL157-U10-Q048",
+        "BIOL157-U10-Q049",
+        "BIOL157-U10-Q050",
+        "BIOL157-U10-Q051",
+        "BIOL157-U10-Q052",
+        "BIOL157-U10-Q053"
       ],
       "coverageStatus": "draft-partial-not-certified"
     }
@@ -1911,7 +1979,7 @@
           "id": "BIOL157-U10-T01",
           "unit": "U10",
           "title": "Functions of lipids",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1923,15 +1991,29 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC1001",
+            "BC1004",
+            "BC1012"
+          ],
+          "questions": [
+            "BIOL157-U10-Q001",
+            "BIOL157-U10-Q002",
+            "BIOL157-U10-Q003",
+            "BIOL157-U10-Q014",
+            "BIOL157-U10-Q015",
+            "BIOL157-U10-Q016",
+            "BIOL157-U10-Q039",
+            "BIOL157-U10-Q040",
+            "BIOL157-U10-Q041"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U10-T02",
           "unit": "U10",
           "title": "Lipid classification",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1943,15 +2025,34 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC1005",
+            "BC1008",
+            "BC1010",
+            "BC1011"
+          ],
+          "questions": [
+            "BIOL157-U10-Q017",
+            "BIOL157-U10-Q018",
+            "BIOL157-U10-Q019",
+            "BIOL157-U10-Q020",
+            "BIOL157-U10-Q027",
+            "BIOL157-U10-Q028",
+            "BIOL157-U10-Q032",
+            "BIOL157-U10-Q033",
+            "BIOL157-U10-Q034",
+            "BIOL157-U10-Q035",
+            "BIOL157-U10-Q036",
+            "BIOL157-U10-Q037",
+            "BIOL157-U10-Q038"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U10-T03",
           "unit": "U10",
           "title": "Lipid reactions",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1963,15 +2064,25 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC1006",
+            "BC1014"
+          ],
+          "questions": [
+            "BIOL157-U10-Q021",
+            "BIOL157-U10-Q022",
+            "BIOL157-U10-Q023",
+            "BIOL157-U10-Q045",
+            "BIOL157-U10-Q046",
+            "BIOL157-U10-Q047"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U10-T04",
           "unit": "U10",
           "title": "Structural features",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -1983,15 +2094,33 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC1002",
+            "BC1007",
+            "BC1009"
+          ],
+          "questions": [
+            "BIOL157-U10-Q004",
+            "BIOL157-U10-Q005",
+            "BIOL157-U10-Q006",
+            "BIOL157-U10-Q007",
+            "BIOL157-U10-Q008",
+            "BIOL157-U10-Q009",
+            "BIOL157-U10-Q010",
+            "BIOL157-U10-Q024",
+            "BIOL157-U10-Q025",
+            "BIOL157-U10-Q026",
+            "BIOL157-U10-Q029",
+            "BIOL157-U10-Q030",
+            "BIOL157-U10-Q031"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         },
         {
           "id": "BIOL157-U10-T05",
           "unit": "U10",
           "title": "Lipid properties",
-          "status": "not-authored",
+          "status": "draft-review",
           "sourceRefs": [
             {
               "source": "outline",
@@ -2003,9 +2132,26 @@
               ]
             }
           ],
-          "notes": [],
-          "questions": [],
-          "coverageStatus": "not-authored"
+          "notes": [
+            "BC1003",
+            "BC1013",
+            "BC1015"
+          ],
+          "questions": [
+            "BIOL157-U10-Q011",
+            "BIOL157-U10-Q012",
+            "BIOL157-U10-Q013",
+            "BIOL157-U10-Q042",
+            "BIOL157-U10-Q043",
+            "BIOL157-U10-Q044",
+            "BIOL157-U10-Q048",
+            "BIOL157-U10-Q049",
+            "BIOL157-U10-Q050",
+            "BIOL157-U10-Q051",
+            "BIOL157-U10-Q052",
+            "BIOL157-U10-Q053"
+          ],
+          "coverageStatus": "draft-content-needs-review"
         }
       ],
       "sourceRefs": [
@@ -2019,15 +2165,31 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC1001",
+        "BC1002",
+        "BC1003",
+        "BC1004",
+        "BC1005",
+        "BC1006",
+        "BC1007",
+        "BC1008",
+        "BC1009",
+        "BC1010",
+        "BC1011",
+        "BC1012",
+        "BC1013",
+        "BC1014",
+        "BC1015"
+      ]
     }
   ],
   "counts": {
     "units": 10,
     "topics": 34,
-    "concepts": 92,
-    "lessons": 92,
-    "questions": 378
+    "concepts": 107,
+    "lessons": 107,
+    "questions": 431
   }
 }

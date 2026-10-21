@@ -442,8 +442,8 @@ See docs/FIREBASE_AUTHORIZATION.md for the permission matrix and provisioning as
 - [x] Integrate independent study, per-concept practice and exact feedback-to-notes links using existing views and owner-scoped state. Add honest not-authored unit states and retain blocked normal student content.
 - [x] Add a reusable content contract, separate notes/outcome/question coverage, evidence checks and Antigravity integration hooks; see docs/ACADEMIC_CONTENT_STANDARD.md and docs/HB1_FIRST_SEMESTER_COVERAGE.md.
 - [ ] Obtain qualified academic approval; no self-approval, release, merge or deployment.
-- [x] Author and integrate source-checked Units 3–9 in tested RC batches (92 Bio lessons / 378 questions through Unit 9); see docs/release/UNIT03.md through UNIT09.md.
-- [ ] Author Unit 10 from all 48 actual pages and its five listed topics.
+- [x] Author and integrate source-checked Units 3–10 in tested RC batches (107 Bio lessons / 431 questions); see docs/release/UNIT03.md through UNIT10.md.
+- [x] Author Unit 10 from all 48 actual pages and its five listed topics; human review remains outstanding.
 
 
 ## Three-course RC and Cell completion — 2026-10-20
@@ -479,3 +479,7 @@ Fourteen substantial lessons, 63 original MCQs, 28 answered checks and three dia
 ## Unit 9 Metabolic Pathways — 2026-10-21
 
 Seven original lessons, 33 MCQs, 14 answered checks and two diagrams cover both topics. All 28 actual pages read and 15 selected visuals checked. Prior 85 notes/345 questions/concepts/figures retain hashes. Bio 92/378, 29/34 topics drafted. Verified 230 offline/40 emulator checks, lint/build and combined Chromium full banks/traversal/exact feedback. Source corrections and continuation: docs/release/UNIT09.md. No human approval or deployment.
+
+## Unit 10 Lipids — 2026-10-21
+
+Fifteen original lessons, 53 section-linked MCQs, 30 answered checks, 114 sections and four original figures cover the five listed topics. All 48 actual source pages read, fifteen selected visuals inspected; kit flags and assay/nomenclature discrepancies recorded. Earlier 92 notes/378 questions/concepts/nineteen figures retain parent hashes. All 34/34 topics now have drafts: 107 lessons/431 questions, pending human approval. Combined QA: 238 offline/40 emulator checks, lint/build and Chromium full banks/mobile traversal/exact links. See docs/release/UNIT10.md. Publication and deployment gates remain open.

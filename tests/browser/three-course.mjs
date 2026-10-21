@@ -18,8 +18,11 @@ try{
  await frame.getByRole('button',{name:'Open Study Blocks',exact:true}).click();
  assert.equal(await frame.locator('.cell-block-card').count(),10);
  await frame.getByRole('button',{name:'Open Lipids',exact:true}).click();
- await frame.getByText(/Teaching for this unit has not yet been authored/).waitFor();
+ assert.equal(await frame.getByText(/Teaching for this unit has not yet been authored/).count(),0);
  let dashboard=page.frames().find(f=>f.url().includes('/dashboard/index.html'));
+ const availableUnits=await dashboard.evaluate(()=>DominanceBiologicalContent.units.map(u=>({id:u.id,status:u.status,count:u.lessons.length})));assert.equal(availableUnits.length,10);assert.ok(availableUnits.every(u=>u.status==='draft-review'&&u.count>0));
+ for(const u of availableUnits){await dashboard.evaluate(id=>openTopic('block:'+id),u.id);assert.equal(await frame.getByText(/Teaching for this unit has not yet been authored/).count(),0);assert.equal(await frame.locator('#studyOutput .lesson-list .topicrow').count(),u.count,u.id);}
+
  const bioCount=await dashboard.evaluate(()=>DominanceBiologicalContent.questions.length);
  await dashboard.evaluate(()=>openTopic('lesson:BC0104:1'));
  await frame.getByRole('heading',{name:'Bonding capacity and molecular diversity',exact:true}).waitFor();
@@ -60,14 +63,14 @@ try{
  await frame.getByRole('button',{name:'Review responses',exact:true}).click();
  await frame.getByRole('button',{name:'Submit practice ('+bioCount+' unanswered)',exact:true}).click();
  await frame.getByRole('button',{name:'Return to study',exact:true}).click();
- console.log('PASS: ten-unit catalogue, honest pending unit, independent study, concept practice, exit/resume, exact feedback link, all available Bio questions/retry/reload.');
+ console.log('PASS: ten-unit catalogue, all ten authored draft units, independent study, concept practice, exit/resume, exact feedback link, all available Bio questions/retry/reload.');
  dashboard=page.frames().find(f=>f.url().includes('/dashboard/index.html'));
  const routes=await dashboard.evaluate(()=>DominanceBiologicalContent.lessons.map(l=>({id:l.id,parts:DominanceBiologicalLearning.sections(l).length})));
  const seenFigures=new Set();
  await page.setViewportSize({width:390,height:844});
  for(const route of routes)for(let part=0;part<route.parts;part++){
   await dashboard.evaluate(({id,part})=>openTopic('lesson:'+id+':'+part),{id:route.id,part});
-  assert.equal(await dashboard.locator('#cellSection').isVisible(),true,route.id+':'+part);
+  await dashboard.locator('#cellSection').waitFor({state:'visible',timeout:5000});
   for(const figure of await dashboard.locator('#cellSection .academic-figure').all()){const id=await figure.getAttribute('data-figure-id');seenFigures.add(id);const clipped=await figure.locator('svg').evaluate(svg=>{const v=svg.viewBox.baseVal;return [...svg.querySelectorAll('text')].filter(t=>{const b=t.getBBox();return b.x<0||b.y<0||b.x+b.width>v.width||b.y+b.height>v.height}).map(t=>t.textContent)});assert.deepEqual(clipped,[],id);await figure.screenshot({path:'/tmp/'+id+'.png'})}
   assert.equal(await dashboard.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth),true,route.id+':'+part);
  }
@@ -76,7 +79,7 @@ try{
  await page.screenshot({path:'/tmp/biol157-mobile.png'});
  console.log('PASS:',routes.length,'lessons /',routes.reduce((n,l)=>n+l.parts,0),'sections at390px.');
  // New content uses native concept practice and precise feedback routes.
- for(const [route,lecture,label] of [['lesson:BC0503:1',5,'Unit 5'],['lesson:BC0606:1',6,'Unit 6'],['lesson:BC0703:1',7,'Unit 7'],['lesson:BC0806:1',8,'Unit 8'],['lesson:BC0902:1',9,'Unit 9']]){
+ for(const [route,lecture,label] of [['lesson:BC0503:1',5,'Unit 5'],['lesson:BC0606:1',6,'Unit 6'],['lesson:BC0703:1',7,'Unit 7'],['lesson:BC0806:1',8,'Unit 8'],['lesson:BC0902:1',9,'Unit 9'],['lesson:BC1015:1',10,'Unit 10']]){
   await dashboard.evaluate(route=>openTopic(route),route);
   await frame.getByRole('button',{name:'Practise this concept',exact:true}).click();
   await frame.locator('.answer').first().click();
@@ -112,7 +115,7 @@ try{
  const cellRoutes=await dashboard.evaluate(()=>DominanceCellContent.lessons.map(l=>({id:l.id,parts:DominanceCellLearning.sections(l).length}))),cellFigures=new Set();
  for(const route of cellRoutes)for(let part=0;part<route.parts;part++){
   await dashboard.evaluate(({id,part})=>openTopic('lesson:'+id+':'+part),{id:route.id,part});
-  assert.equal(await dashboard.locator('#cellSection').isVisible(),true,route.id+':'+part);
+  await dashboard.locator('#cellSection').waitFor({state:'visible',timeout:5000});
   for(const figure of await dashboard.locator('#cellSection .academic-figure').all()){
    const id=await figure.getAttribute('data-figure-id');cellFigures.add(id);
    const clipped=await figure.locator('svg').evaluate(svg=>{const v=svg.viewBox.baseVal;return [...svg.querySelectorAll('text')].filter(t=>{const b=t.getBBox();return b.x<0||b.y<0||b.x+b.width>v.width||b.y+b.height>v.height}).map(t=>t.textContent)});assert.deepEqual(clipped,[],id);await figure.screenshot({path:'/tmp/'+id+'.png'});

@@ -13559,5 +13559,1895 @@
         "source": "PATHWAY-GLUCAGON"
       }
     ]
+  },
+  {
+    "id": "BIOL157-U10-Q001",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C01",
+    "lesson": "BC1001",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which description best accommodates the chemical diversity of lipids?",
+    "options": [
+      "They have substantial hydrophobic character, but do not all share a fatty-acid ester backbone.",
+      "Every lipid is a glycerol triester.",
+      "All lipids consist of repeating amino-acid monomers.",
+      "Water insolubility proves a molecule has no polar bonds."
+    ],
+    "letter": "A",
+    "explanation": "Free sterols and isoprenoids illustrate diversity beyond fatty-acid esters. A triacylglycerol contains ester groups despite being strongly hydrophobic overall. Protein-like repeating monomers and absence of every polar bond are not defining features of the lipid family.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            3,
+            5
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q002",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C01",
+    "lesson": "BC1001",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Which structural comparison correctly distinguishes free cholesterol from a cholesteryl ester?",
+    "options": [
+      "Esterification adds three fatty-acyl groups to a new glycerol backbone.",
+      "The esterified molecule contains a fatty-acid ester at the sterol OH; free cholesterol does not.",
+      "Both necessarily have three glycerol-linked acyl esters.",
+      "Free cholesterol is already a long-chain carboxylate soap."
+    ],
+    "letter": "B",
+    "explanation": "Esterification links a fatty-acyl group to cholesterol’s alcohol while retaining the steroid framework. It does not create a glycerol triester, and the free sterol is not already a carboxylate soap. Linkage and head exposure determine the physical distinction.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            3,
+            5
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q003",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C01",
+    "lesson": "BC1001",
+    "sectionId": "s6",
+    "objective": "BIOL157-CLO5",
+    "question": "An unknown lipid contains a sphingoid base and an amide-linked fatty acid. Which core is indicated?",
+    "options": [
+      "A simple wax monoester with no nitrogen",
+      "A free sterol alcohol without an acyl group",
+      "Ceramide",
+      "A glycerol triester core"
+    ],
+    "letter": "C",
+    "explanation": "A sphingoid amino-alcohol with an N-linked fatty acid forms ceramide. Glycerol esters, wax esters and free sterols have different backbones/linkages. Identify the nitrogen–carbonyl amide rather than classifying only from hydrophobicity.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            3,
+            5
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q004",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C02",
+    "lesson": "BC1002",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "What does the bare shorthand 18:1 establish without additional position or geometry notation?",
+    "options": [
+      "A double bond necessarily at delta 18",
+      "One specified omega-18 double bond with an unspecified total carbon count",
+      "An omega-1 family and a specified trans configuration",
+      "Eighteen carbons and one carbon–carbon double bond"
+    ],
+    "letter": "D",
+    "explanation": "The two numbers give carbon count and C=C count. They do not alone locate the bond or establish cis/trans geometry. The carboxyl carbon is included in the eighteen; delta and omega positions require separate notation.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            6,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-ESSENTIAL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q005",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C02",
+    "lesson": "BC1002",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "In ordinary carboxyl-based numbering, what does Δ9 identify for an eighteen-carbon monounsaturated fatty acid?",
+    "options": [
+      "A double bond between carbons 9 and 10 counted from the carboxyl end",
+      "Nine double bonds beginning at the methyl end",
+      "A bond between carbons 9 and 10 counted necessarily from the methyl end",
+      "The number of carbons excluding the carboxyl carbon"
+    ],
+    "letter": "A",
+    "explanation": "Delta numbering starts at the carboxyl carbon. Δ9 locates the bond beginning at that carbon index, while omega numbering uses the opposite end. The symbol does not count nine bonds or omit the carboxyl carbon.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            6,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-ESSENTIAL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q006",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C02",
+    "lesson": "BC1002",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "An 18:2 fatty acid has Δ9,12 positions. Which omega family follows?",
+    "options": [
+      "n-12",
+      "n-6",
+      "n-3",
+      "n-9"
+    ],
+    "letter": "B",
+    "explanation": "The double bond closest to the methyl end has the highest delta index, twelve. Subtract from chain length: 18−12=6. Using the first delta index or reading twelve as the omega index confuses the two coordinate conventions.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            6,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-ESSENTIAL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q007",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C02",
+    "lesson": "BC1002",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "An 18:3 fatty acid has Δ9,12,15 positions. Which omega family follows?",
+    "options": [
+      "n-9",
+      "n-15",
+      "n-3",
+      "n-6"
+    ],
+    "letter": "C",
+    "explanation": "The methyl-nearest C=C begins at delta fifteen, so 18−15=3. The omega designation does not equal the number of double bonds by definition; it happens to be three here. Other 18:3 position patterns can be n-6.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            6,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-ESSENTIAL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q008",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C02",
+    "lesson": "BC1002",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "An 18:3 fatty acid instead has Δ6,9,12 positions. Which conclusion is correct?",
+    "options": [
+      "It must be n-3 because it has three double bonds.",
+      "It is saturated because the positions are spaced apart.",
+      "It is identical to every other 18:3 molecule.",
+      "It is n-6 and is positionally distinct from α-linolenic acid."
+    ],
+    "letter": "D",
+    "explanation": "The highest delta index is twelve, giving 18−12=6. α-Linolenic acid has the different delta 9,12,15 pattern. Carbon count and unsaturation count alone do not identify positions, and spaced C=C bonds still make a chain unsaturated.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            6,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-ESSENTIAL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q009",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C02",
+    "lesson": "BC1002",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "For an acyclic monocarboxylic C18 fatty acid with no extra functional groups and two chain C=C bonds, which free-acid formula follows?",
+    "options": [
+      "C18H32O2",
+      "C18H36O2",
+      "C18H34O2",
+      "C18H30O2"
+    ],
+    "letter": "A",
+    "explanation": "The saturated comparator is C18H36O2. Each added C=C removes two hydrogens, so two remove four, giving C18H32O2. The alternatives correspond to zero, one or three additional unsaturations under these stated structural assumptions.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            6,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-ESSENTIAL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q010",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C02",
+    "lesson": "BC1002",
+    "sectionId": "s6",
+    "objective": "BIOL157-CLO5",
+    "question": "Which supplied example shows that fatty acids are not universally limited to four carbon–carbon double bonds?",
+    "options": [
+      "Linoleate, 18:2n-6",
+      "DHA, 22:6n-3",
+      "Stearate, 18:0",
+      "Oleate, 18:1"
+    ],
+    "letter": "B",
+    "explanation": "DHA has six C=C bonds, and EPA has five; the lecturer’s own figure includes these exceptions to its prose limit. Stearate, oleate and linoleate have zero, one and two respectively, so they do not test that particular maximum claim.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            6,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-ESSENTIAL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q011",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C03",
+    "lesson": "BC1003",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Why can a cis double bond lower the melting tendency relative to a comparable saturated chain?",
+    "options": [
+      "It necessarily removes two carbon atoms from the chain.",
+      "It forces closer straight-chain packing than the otherwise comparable saturated chain",
+      "Its geometry commonly disrupts close ordered packing.",
+      "It permits unrestricted rotation around the C=C as if it were a single bond."
+    ],
+    "letter": "C",
+    "explanation": "Cis geometry can disrupt close packing, affecting intermolecular organisation and melting. The C=C remains rotationally restricted and does not remove chain carbons. A closely packed saturated-chain comparison is therefore different, while length and conditions must still be controlled.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            4,
+            9
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            37,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q012",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C03",
+    "lesson": "BC1003",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "What is correct about trans-18:1 compared with a saturated eighteen-carbon fatty acid?",
+    "options": [
+      "It has no C=C bonds because it is trans.",
+      "Its double bond is a free-rotating carbon–carbon single bond.",
+      "Trans geometry necessarily changes the omega family without relocating the bond.",
+      "It remains unsaturated despite a relatively straighter packing geometry."
+    ],
+    "letter": "D",
+    "explanation": "Trans describes substituent arrangement around an existing C=C. The bond remains unsaturated and rotationally restricted; changing geometry alone neither adds oxygen nor changes its positional omega family. Packing can differ from the cis form without changing the C=C count.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            4,
+            9
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            37,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q013",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C03",
+    "lesson": "BC1003",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Why can a natural fat or oil show a melting range rather than one pure-compound temperature?",
+    "options": [
+      "It contains a mixture of lipid molecular species with different packing behaviour.",
+      "Every triacylglycerol has an identical chain composition.",
+      "The word oil specifies a fixed temperature-independent molecular formula.",
+      "Melting necessarily hydrolyses all ester bonds."
+    ],
+    "letter": "A",
+    "explanation": "Mixtures can contain many chain combinations and physical transitions. Fat/oil labels describe state under conditions rather than one formula. Melting changes physical organisation and does not inherently mean complete covalent ester hydrolysis.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            4,
+            9
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            37,
+            37
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q014",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C04",
+    "lesson": "BC1004",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which pair is routinely classified as essential in the usual human fatty-acid context?",
+    "options": [
+      "Oleic acid and palmitoleic acid",
+      "Linoleic acid and α-linolenic acid",
+      "Linoleic acid and γ-linolenic acid",
+      "Palmitic acid and stearic acid"
+    ],
+    "letter": "B",
+    "explanation": "The supported pair is linoleic acid and ALA. Gamma-linolenic is a distinct n-6 species, not another name for ALA; the lecturer’s prose/figure discrepancy is documented. Saturated examples and a broad sterol-ester category do not replace the parent essential pair.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            10,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-ESSENTIAL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q015",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C04",
+    "lesson": "BC1004",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which statement correctly qualifies arachidonic-acid supply and precursor relationships?",
+    "options": [
+      "It is the same 18:3n-3 molecule as ALA.",
+      "Every dietary fatty acid converts directly to arachidonate in one identical step.",
+      "It can arise through linoleic-related metabolism and can also be obtained from foods.",
+      "It can only exist if made by a mammal and cannot occur in food."
+    ],
+    "letter": "C",
+    "explanation": "Arachidonate is commonly 20:4n-6 and is connected to linoleic-family metabolism, with dietary supply also possible. It is not ALA, and precursor conversion requires specific pathways rather than a universal single-step rule. Organism and physiological context matter.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            10,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-ESSENTIAL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q016",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C04",
+    "lesson": "BC1004",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which description distinguishes eicosanoid signalling from a generic lipid-storage label?",
+    "options": [
+      "Every eicosanoid must be a steroid with a four-ring nucleus.",
+      "A C=C count alone identifies one unique signalling product.",
+      "Every unsaturated fatty acid produces the same mediator in every cell.",
+      "Products depend on particular twenty-carbon precursors and enzyme pathways in a cellular context."
+    ],
+    "letter": "D",
+    "explanation": "Eicosanoid formation depends on precursor identity and the relevant enzyme route. Eicosanoids and four-ring steroid hormones are distinct signalling classes. C=C count alone omits position, geometry and pathway context, so it cannot identify a unique product in every cell.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            10,
+            12
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-ESSENTIAL"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q017",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C05",
+    "lesson": "BC1005",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "How many fatty-acid ester connections are present in one ordinary fully esterified triacylglycerol?",
+    "options": [
+      "Three",
+      "One",
+      "Two",
+      "Four"
+    ],
+    "letter": "A",
+    "explanation": "Glycerol has three hydroxyl positions, each esterified in a triacylglycerol. Mono- and diacylglycerols have fewer acyl esters. The count concerns one specified glycerol triester, not every possible lipid structure.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            5,
+            5
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            30,
+            31
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q018",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C05",
+    "lesson": "BC1005",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which comparison correctly distinguishes a typical wax ester from a triacylglycerol?",
+    "options": [
+      "Every wax is a sphingoid amide with one sugar.",
+      "A wax ester uses a long-chain monohydric alcohol and one fatty-acid ester connection.",
+      "A wax must contain glycerol with three esters.",
+      "Both structures necessarily have a phosphate head."
+    ],
+    "letter": "B",
+    "explanation": "A simple wax ester joins one long alcohol and one fatty acid. Glycerol triesters, phosphate-headed lipids and ceramide/glycan structures belong to different classes. Natural wax mixtures can be more complex, so the question specifies the typical ester architecture.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            5,
+            5
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            30,
+            31
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q019",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C05",
+    "lesson": "BC1005",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Using supplied rounded masses glycerol=92, fatty acid=256 and water=18 g/mol, what formal mass follows for a simple glycerol triester?",
+    "options": [
+      "842 g/mol",
+      "788 g/mol",
+      "806 g/mol",
+      "860 g/mol"
+    ],
+    "letter": "C",
+    "explanation": "Add glycerol and three free acids, then subtract three waters: 92+3×256−3×18=806. The alternatives subtract zero, one or four waters. This is a supplied formal mass balance, not a claim that biological synthesis occurs by unactivated mixing.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            5,
+            5
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            30,
+            31
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q020",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C05",
+    "lesson": "BC1005",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Using supplied approximate values 38 kJ/g for triacylglycerol and 17 kJ/g for a comparator, what comparator mass matches 10 g triacylglycerol?",
+    "options": [
+      "Approximately 4.5 g",
+      "Exactly 10 g",
+      "Approximately 380 g",
+      "Approximately 22.4 g"
+    ],
+    "letter": "D",
+    "explanation": "Ten grams at 38 kJ/g supplies the model comparison of 380 kJ. Divide by 17 kJ/g to obtain about 22.4 g. The inverse comparison gives a smaller mass, while 380 is energy before division. These values do not specify a universal ATP yield or diet prescription.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            5,
+            5
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            30,
+            31
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q021",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C06",
+    "lesson": "BC1006",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "For complete formal hydrolysis of one ordinary triacylglycerol with water, what ideal products and water count apply?",
+    "options": [
+      "Glycerol plus three fatty acids, consuming three waters",
+      "Glycerol plus one fatty acid, consuming one water",
+      "Three glycerol molecules plus one fatty acid",
+      "Glycerol plus three fatty acids, releasing three waters"
+    ],
+    "letter": "A",
+    "explanation": "Complete hydrolysis consumes one water per ester: three linkages give one glycerol and three acids. Partial cleavage has fewer products, while a condensation balance releases rather than consumes water. The glycerol backbone is not multiplied during the reaction.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            15,
+            16
+          ],
+          [
+            40,
+            40
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q022",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C06",
+    "lesson": "BC1006",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Why does complete alkaline hydrolysis directly produce carboxylate salts rather than neutral free acids?",
+    "options": [
+      "The ester must first become an amide before acid–base chemistry can occur.",
+      "The carboxyl products are deprotonated under the alkaline conditions.",
+      "Hydrolysis always produces permanently neutral COOH groups regardless of the surrounding pH.",
+      "Carboxylate salts form only if the chain C=C bonds are hydrogenated first."
+    ],
+    "letter": "B",
+    "explanation": "The alkaline environment favours deprotonated carboxylate products with counterions. Acid workup can later protonate them. No preliminary hydrogenation or amide conversion is required, and product ionisation depends on conditions rather than remaining permanently neutral.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            15,
+            16
+          ],
+          [
+            40,
+            40
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q023",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C06",
+    "lesson": "BC1006",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "In the ideal complete ester-only model, 2 mmol of an ordinary triacylglycerol requires how much hydroxide for saponification?",
+    "options": [
+      "3 mmol",
+      "12 mmol",
+      "6 mmol",
+      "2 mmol"
+    ],
+    "letter": "C",
+    "explanation": "There are three ester equivalents per molecule, so 2×3=6 mmol hydroxide. Two counts one ester per molecule, three ignores the supplied two-millimole amount and twelve adds an unwarranted factor of two. Other reactive groups would require a different balance.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            15,
+            16
+          ],
+          [
+            40,
+            40
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q024",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C07",
+    "lesson": "BC1007",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which architecture describes a common diacyl glycerophospholipid?",
+    "options": [
+      "A sphingoid base, one amide-linked fatty acid and a phosphate head",
+      "Glycerol with three acyl esters and no phosphate head",
+      "A sterol alcohol esterified to one fatty acid without phosphate",
+      "Two fatty-acyl esters on glycerol with a phosphate-bearing head region"
+    ],
+    "letter": "D",
+    "explanation": "The specified common glycerophospholipid uses glycerol, two acyl esters and phosphate/head chemistry. A sphingoid amide with phosphate suggests a different phospholipid family; three glycerol esters suggest storage triacylglycerol, and a sterol ester has another backbone. Identify all structural features together.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            17,
+            19
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q025",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C07",
+    "lesson": "BC1007",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "How many acyl chains occur in the common cardiolipin structure described here?",
+    "options": [
+      "Four",
+      "One",
+      "Two",
+      "Six"
+    ],
+    "letter": "A",
+    "explanation": "Two phosphatidic-acid-like units connected through a central glycerol contribute four acyl chains and two phosphate groups. Treating cardiolipin as an ordinary two-tail PC misses this structure. Its name or heart discovery does not restrict it exclusively to heart tissue.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            17,
+            19
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q026",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C07",
+    "lesson": "BC1007",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "In a supplied near-neutral formal-charge model, phosphate=−1, choline ammonium=+1, serine ammonium=+1 and serine carboxylate=−1. What PC/PS charges follow?",
+    "options": [
+      "PC 0; PS −2",
+      "PC 0; PS −1",
+      "PC −1; PS 0",
+      "PC +1; PS +1"
+    ],
+    "letter": "B",
+    "explanation": "PC sums phosphate and choline: −1+1=0. PS includes phosphate, amino and carboxylate: −1+1−1=−1. Omitting a positive or negative group gives the alternative totals. These are specified common-state bookkeeping values, not a full membrane surface-potential calculation.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            17,
+            19
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q027",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C08",
+    "lesson": "BC1008",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "What feature identifies a plasmalogen among ether glycerophospholipids?",
+    "options": [
+      "A saturated sn-1 alkyl ether without the adjacent vinyl C=C",
+      "An amide-linked fatty acid on a sphingoid-base nitrogen",
+      "A characteristic sn-1 vinyl-ether linkage",
+      "Only an extra remote C=C in an ordinary acyl ester"
+    ],
+    "letter": "C",
+    "explanation": "A plasmalogen contains the characteristic sn-1 vinyl ether. A saturated alkyl ether is the related plasmanyl form, a remote ester-tail double bond does not supply that linkage and a sphingoid amide is a different backbone. The position of the C=C relative to the linking oxygen matters.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            20,
+            22
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-ETHER"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q028",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C08",
+    "lesson": "BC1008",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which linkage inventory fits the specified common PAF architecture?",
+    "options": [
+      "Two long sn-1/sn-2 acyl esters with no ether",
+      "Three long acyl esters and no phosphate",
+      "A ceramide amide plus one galactose and sulfate",
+      "An sn-1 ether, sn-2 short acetyl ester and phosphocholine head"
+    ],
+    "letter": "D",
+    "explanation": "PAF’s stated ether linkage and short sn-2 acetyl group distinguish it from ordinary diacyl PC, triacylglycerol and a sulfatide. Shared phosphocholine does not erase the backbone/linkage difference. Relative water behaviour remains conditional rather than infinite free solubility.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            20,
+            22
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-ETHER"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q029",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C09",
+    "lesson": "BC1009",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which bond joins the added fatty-acyl group to the sphingoid amino group in ceramide?",
+    "options": [
+      "An amide with carbonyl C–N connectivity",
+      "A glycerol acyl ester with carbonyl C–O connectivity",
+      "A sialic-acid glycosidic linkage",
+      "A phosphate–choline phosphodiester as the sole connection"
+    ],
+    "letter": "A",
+    "explanation": "Ceramide uses the amino nitrogen to form an amide. An ester uses oxygen, while glycosidic and phosphate-head connections describe different structural features. Identify the atoms in the acyl connection instead of assigning every lipid linkage the same name.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            23,
+            25
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-MAPS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q030",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C09",
+    "lesson": "BC1009",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is sphingomyelin a useful counterexample to a universal glycerol-phospholipid rule?",
+    "options": [
+      "It is a free fatty-acid sodium salt rather than a membrane lipid",
+      "Its common structure has a ceramide backbone with a phosphate-containing head.",
+      "It contains no phosphate-bearing region.",
+      "Every molecule is a glycerol triester without nitrogen."
+    ],
+    "letter": "B",
+    "explanation": "Common sphingomyelin is a phosphosphingolipid, so a phospholipid need not use glycerol. Its ceramide core contains an amide-linked acyl group. Denying phosphate or converting it into a soap/triacylglycerol ignores the stated backbone and head chemistry.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            23,
+            25
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-MAPS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q031",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C09",
+    "lesson": "BC1009",
+    "sectionId": "s6",
+    "objective": "BIOL157-CLO5",
+    "question": "Two lipids share phosphocholine; one has glycerol plus two acyl esters, the other a sphingoid base plus one amide-linked fatty acid. What distinguishes their classes?",
+    "options": [
+      "Both must have three identical glycerol esters.",
+      "The amide-containing molecule cannot have two hydrophobic chain regions.",
+      "Backbone and acyl linkage despite the shared head group",
+      "The shared head guarantees complete molecular identity."
+    ],
+    "letter": "C",
+    "explanation": "Common PC and sphingomyelin can share phosphocholine yet differ in backbone and acyl connection. The sphingoid base itself supplies one long hydrophobic region, so an added single fatty acid can coexist with two chain-like regions. Head identity alone is insufficient.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            23,
+            25
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-MAPS"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q032",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C10",
+    "lesson": "BC1010",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which statement correctly separates sulfatides and gangliosides?",
+    "options": [
+      "Sulfating galactosylceramide alone necessarily creates a ganglioside.",
+      "Sialic acid and sulfate are interchangeable names for the same group.",
+      "Both must derive their negative charge from an identical phosphate head.",
+      "Sulfatides contain sulfate; gangliosides are defined by sialic-acid-containing glycan heads."
+    ],
+    "letter": "D",
+    "explanation": "Sulfate and sialic acid are chemically distinct acidic groups. Sulfatide formation does not alone establish a ganglioside, and their negative charges need not come from phosphate. The molecules share a ceramide core while differing in head-group chemistry.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            26,
+            29
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-GLYCO"
+      },
+      {
+        "source": "LIPID-MAPS"
+      },
+      {
+        "source": "LIPID-HEXA"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q033",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C10",
+    "lesson": "BC1010",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "In the illustrated GM3 example, how many neutral sugars and sialic-acid residues occur?",
+    "options": [
+      "Two neutral sugars plus one sialic-acid residue",
+      "Three sialic-acid residues and no neutral sugar",
+      "One total sugar because the name contains M",
+      "Three neutral sugars plus three sialic-acid residues"
+    ],
+    "letter": "A",
+    "explanation": "The supplied GM3 structure contains the lactosylceramide neutral-sugar pair and one sialic acid, three monosaccharide residues total. M refers to one sialic residue in the naming scheme, not one total sugar, while the following number is not a direct sialic-acid count.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            26,
+            29
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-GLYCO"
+      },
+      {
+        "source": "LIPID-MAPS"
+      },
+      {
+        "source": "LIPID-HEXA"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q034",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C10",
+    "lesson": "BC1010",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "What does the M designation in the familiar GM ganglioside names indicate?",
+    "options": [
+      "The exact number of neutral sugar residues in every member",
+      "One sialic-acid residue in the naming scheme",
+      "One total carbon atom",
+      "A mandatory sulfate rather than sialic acid"
+    ],
+    "letter": "B",
+    "explanation": "M denotes monosialylated in this familiar system. GM1, GM2 and GM3 can differ in neutral glycan structure while each has one sialic residue. It does not count total carbon or replace sialic acid with sulfate.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            26,
+            29
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-GLYCO"
+      },
+      {
+        "source": "LIPID-MAPS"
+      },
+      {
+        "source": "LIPID-HEXA"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q035",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C10",
+    "lesson": "BC1010",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "What biochemical explanation links reduced HEX A activity with GM2 accumulation in the qualified example?",
+    "options": [
+      "Complete conversion of all GM2 into free cholesterol",
+      "A requirement that every case have an identical infantile course",
+      "Impairment of a required lysosomal degradation step",
+      "Proof that GM2 synthesis increased in every affected cell"
+    ],
+    "letter": "C",
+    "explanation": "A blocked or reduced degradation step can accumulate its substrate without requiring increased synthesis. HEXA-related disease has a residual-function-dependent spectrum, and GM2 is not simply converted into cholesterol. The biochemical link alone is not an exclusive patient diagnosis.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            26,
+            29
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-GLYCO"
+      },
+      {
+        "source": "LIPID-MAPS"
+      },
+      {
+        "source": "LIPID-HEXA"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q036",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C11",
+    "lesson": "BC1011",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "How many C5 units correspond to a specified unmodified C30 triterpene skeleton?",
+    "options": [
+      "Three",
+      "Five",
+      "Thirty",
+      "Six"
+    ],
+    "letter": "D",
+    "explanation": "Divide the supplied carbon count by five: 30/5=6. This counts structural building equivalents, not rings or double bonds. Later modifications can change mature products, so the rule is applied to the explicitly stated unmodified skeleton.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            32,
+            35
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-CAROTENE"
+      },
+      {
+        "source": "LIPID-LYCOPENE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q037",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C11",
+    "lesson": "BC1011",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which carotenoid comparison avoids the source’s ring/label inconsistency?",
+    "options": [
+      "Lycopene is acyclic; β-carotene has cyclic end groups.",
+      "Both names necessarily identify the same connectivity.",
+      "Lycopene must contain two cyclopentene ends because one slide label says so.",
+      "Equal C40 formulae prove identical vitamin-A conversion."
+    ],
+    "letter": "A",
+    "explanation": "Independent structural references support acyclic lycopene and cyclic β-carotene, whose relevant end rings are six-membered. Equal formula or carbon count does not establish connectivity or identical biological conversion. The inconsistent source image/wording is not copied as a key.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            32,
+            35
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-CAROTENE"
+      },
+      {
+        "source": "LIPID-LYCOPENE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q038",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C11",
+    "lesson": "BC1011",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "What best describes the role of an isoprenoid tail in coenzyme Q?",
+    "options": [
+      "The tail guarantees unrestricted bulk-water solubility for the complete molecule",
+      "It helps membrane localisation while a distinct head supplies redox chemistry.",
+      "The tail alone proves every polyprenol is a redox coenzyme.",
+      "Every polyprenol must contain the same quinone head and identical redox role."
+    ],
+    "letter": "B",
+    "explanation": "The tail helps localisation, while the chemically distinct quinone head supports redox function. Related polyprenols can carry different heads and roles, and hydrophobic chains do not guarantee unrestricted aqueous solubility. A construction motif does not identify the whole molecule.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            32,
+            35
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-CAROTENE"
+      },
+      {
+        "source": "LIPID-LYCOPENE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q039",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C12",
+    "lesson": "BC1012",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which ring inventory describes the typical steroid nucleus?",
+    "options": [
+      "Two six-membered and two five-membered fused rings",
+      "Four six-membered fused rings with no five-membered ring",
+      "Three six-membered fused rings and one five-membered fused ring",
+      "Four independent benzene rings"
+    ],
+    "letter": "C",
+    "explanation": "The typical nucleus contains four fused rings with a 6/6/6/5 pattern. The alternatives alter ring sizes or replace the fused framework with separate aromatic rings. Individual steroid substituents and unsaturation can vary without changing this introductory core description.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            36,
+            39
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q040",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C12",
+    "lesson": "BC1012",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Which pairing distinguishes biological roles rather than assuming every steroid acts identically?",
+    "options": [
+      "Every steroid has the same receptor and response in all tissues.",
+      "Bile acids are glycerol triesters used only as neutral fat droplets.",
+      "Bile acids must act through exactly the same receptor mechanism as cortisol",
+      "Cortisol contributes to metabolic regulation; bile-acid-related amphipathic molecules assist lipid handling."
+    ],
+    "letter": "D",
+    "explanation": "Steroid-derived structures support different functions. Cortisol participates in receptor-dependent metabolic regulation, while bile-acid amphipathicity assists lipid handling. They do not all share one receptor, and bile acids are chemically distinct from neutral glycerol triesters.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            36,
+            39
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q041",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C12",
+    "lesson": "BC1012",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Why is a nonspecific observation of cholesterol insufficient to diagnose vascular disease?",
+    "options": [
+      "Measured species, transport context, method and clinical information are still needed.",
+      "Every cholesterol molecule proves a pathological plaque.",
+      "Free cholesterol and cholesteryl esters are one universally water-soluble species.",
+      "The steroid nucleus itself specifies one clinical risk threshold"
+    ],
+    "letter": "A",
+    "explanation": "Cholesterol has normal membrane and precursor roles as well as relevance to vascular pathology. Interpretation needs specific evidence and context, not a ring diagram or unspecified measurement. Free and esterified forms and their transport assemblies also differ; no universal threshold is taught here.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            36,
+            39
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q042",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C13",
+    "lesson": "BC1013",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Which arrangement explains a simple amphipathic micelle in water?",
+    "options": [
+      "A micelle is necessarily the same as any large surfactant-coated oil droplet",
+      "Hydrophobic regions are largely inward while polar heads contact the aqueous exterior.",
+      "All polar heads necessarily bury in a hydrocarbon core.",
+      "Every tail must face bulk water while all heads exclude it."
+    ],
+    "letter": "B",
+    "explanation": "The arrangement reduces nonpolar exposure while preserving polar interactions with water. An emulsion droplet can be structurally different from a simple micelle. Geometry, concentration and conditions determine assembly, so these are model features rather than universal sizes or shapes.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            40,
+            42
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q043",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C13",
+    "lesson": "BC1013",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "Which detergent statement is chemically justified?",
+    "options": [
+      "Every detergent is a glycerol triester with no polar region.",
+      "All detergents have identical compatibility with biological membranes",
+      "Soaps are carboxylate examples, while surfactants also include other charged and nonionic head groups.",
+      "Every detergent must be a negatively charged carboxylate."
+    ],
+    "letter": "C",
+    "explanation": "Detergent is broader than soap, with anionic, cationic, zwitterionic and nonionic examples. Amphipathic balance and head chemistry affect behaviour. Neither a single carboxylate formula nor identical membrane compatibility describes all members.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            40,
+            42
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q044",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C13",
+    "lesson": "BC1013",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "In the ideal Ca2+ + 2RCOO− precipitation balance, how much soap anion can 1 mmol calcium consume?",
+    "options": [
+      "0.5 mmol",
+      "1 mmol",
+      "4 mmol",
+      "2 mmol"
+    ],
+    "letter": "D",
+    "explanation": "One divalent calcium ion balances two singly negative carboxylates, so 1 mmol calcium corresponds to 2 mmol soap anion. This is the specified complete-precipitation count, not proof of a universal lather threshold or every real hard-water equilibrium.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            40,
+            42
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q045",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C14",
+    "lesson": "BC1014",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "Why can microbial and hydrolytic rancidity descriptions overlap?",
+    "options": [
+      "Microbial lipases can catalyse ester hydrolysis.",
+      "All hydrolysis requires atmospheric oxygen cleavage at a double bond.",
+      "Microbial treatment necessarily restores every oxidised lipid.",
+      "Hydrolysis always hydrogenates all unsaturated chains"
+    ],
+    "letter": "A",
+    "explanation": "Microbial enzymes can release fatty acids by ester cleavage, linking the categories. Oxidation, hydrogenation and reversal of existing deterioration are different processes. Preventing microbial growth does not automatically prevent or undo every chemical oxidation pathway.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            43,
+            45
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-PEROXIDE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q046",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C14",
+    "lesson": "BC1014",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Peroxide values fall while secondary-aldehyde indicators rise in a theoretical lipid time-course. What interpretation is plausible?",
+    "options": [
+      "The two observations prove that no oxidation occurred.",
+      "Hydroperoxides can decompose while deterioration continues.",
+      "The lipid necessarily returned to its original fresh state.",
+      "Every ester bond must have been resynthesised."
+    ],
+    "letter": "B",
+    "explanation": "Primary oxidation products can break down into secondary products, so a falling peroxide value does not prove restoration or absence of damage. Complementary stage-specific information and method controls are needed. No ester resynthesis follows merely from the two readings.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            43,
+            45
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-PEROXIDE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q047",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C14",
+    "lesson": "BC1014",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "What qualification is needed for antioxidant or storage claims?",
+    "options": [
+      "Sterilisation necessarily prevents all nonmicrobial radical oxidation.",
+      "A cool, dark sample can never change chemically.",
+      "They can slow selected deterioration processes under suitable conditions without guaranteeing permanent stability.",
+      "Any antioxidant eliminates every possible lipid reaction at any dose."
+    ],
+    "letter": "C",
+    "explanation": "Reaction system, concentration, localisation and exposure matter. Oxygen/light/temperature control or antioxidants can delay some processes, while microbial control addresses another source of damage. No single slogan certifies indefinite stability or food safety.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            43,
+            45
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-PEROXIDE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q048",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C15",
+    "lesson": "BC1015",
+    "sectionId": "core",
+    "objective": "BIOL157-CLO5",
+    "question": "A hypothetical blank-corrected 1.00 g sample consumes 2.0 mL of 0.100 mol/L KOH; use 56.1 g/mol. What acid value follows?",
+    "options": [
+      "5.61 mg KOH/g",
+      "112.2 mg KOH/g",
+      "0.01122 mg KOH/g",
+      "11.22 mg KOH/g"
+    ],
+    "letter": "D",
+    "explanation": "The amount is 0.002×0.100=0.000200 mol KOH, or 0.01122 g=11.22 mg. Divide by 1.00 g sample. The alternatives confuse sample mass, decimal conversion or grams versus milligrams; blanks and method conditions remain explicit.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            46,
+            47
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-PEROXIDE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q049",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C15",
+    "lesson": "BC1015",
+    "sectionId": "s3",
+    "objective": "BIOL157-CLO5",
+    "question": "A pure hypothetical lipid has three reactive C=C bonds and molar mass 900 g/mol. With one I2 equivalent per bond and I2=253.8 g/mol, what theoretical iodine value follows?",
+    "options": [
+      "84.6 g I2 equivalent/100 g",
+      "28.2 g I2 equivalent/100 g",
+      "846 g I2 equivalent/100 g",
+      "0.846 g I2 equivalent/100 g"
+    ],
+    "letter": "A",
+    "explanation": "Compute 3×253.8×100/900=84.6. The single-bond calculation gives 28.2, while decimal/denominator errors give the other values. This supplied ideal-addition calculation is not a measured assay or full structural identification.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            46,
+            47
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-PEROXIDE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q050",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C15",
+    "lesson": "BC1015",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "For a pure neutral hypothetical triester of 900 g/mol, three susceptible esters and KOH=56.1 g/mol, what ideal saponification value follows?",
+    "options": [
+      "0.187 mg KOH/g",
+      "187 mg KOH/g",
+      "62.3 mg KOH/g",
+      "561 mg KOH/g"
+    ],
+    "letter": "B",
+    "explanation": "Three ester equivalents consume 3×56.1 g KOH per mole lipid. Divide by 900 g lipid and convert to mg/g: 187. Counting one ester gives about 62.3; omitting the mass denominator or milligram conversion leads to the other errors.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "apply",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            46,
+            47
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-PEROXIDE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q051",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C15",
+    "lesson": "BC1015",
+    "sectionId": "s4",
+    "objective": "BIOL157-CLO5",
+    "question": "Among comparable pure neutral molecules with three ester groups each, why does lower molar mass give a higher ideal saponification value per gram?",
+    "options": [
+      "Every lower-mass lipid must contain more than three glycerol backbones.",
+      "The titration denominator changes from grams to litres automatically",
+      "More molecules and therefore more ester equivalents occur per gram.",
+      "A lower molar mass necessarily means more double bonds."
+    ],
+    "letter": "C",
+    "explanation": "With ester count fixed, the required base per gram is inversely related to molar mass. Double-bond count or extra backbones are not implied, and reporting units do not change automatically. Mixtures, free acids and other reactive groups would require more information.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            46,
+            47
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-PEROXIDE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q052",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C15",
+    "lesson": "BC1015",
+    "sectionId": "s5",
+    "objective": "BIOL157-CLO5",
+    "question": "Which limitation is essential when reporting peroxide values?",
+    "options": [
+      "meq/kg is always interchangeable with any stated mmol oxygen quantity without a definition.",
+      "A peroxide value measures every secondary product with identical sensitivity.",
+      "The same cutoff is a universal patient and food-release diagnosis",
+      "Method-defined active-oxygen units and oxidation stage must be specified; low values alone do not certify freshness."
+    ],
+    "letter": "D",
+    "explanation": "Different unit conventions need defined chemistry/stoichiometry, and peroxide signals are dynamic primary-oxidation evidence. They do not measure every secondary product or establish universal release/clinical thresholds. The course does not score an ambiguous conversion from the lecturer’s wording.",
+    "difficulty": "foundational",
+    "cognitiveLevel": "understand",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            46,
+            47
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-PEROXIDE"
+      }
+    ]
+  },
+  {
+    "id": "BIOL157-U10-Q053",
+    "unit": "U10",
+    "conceptId": "BIOL157-U10-C15",
+    "lesson": "BC1015",
+    "sectionId": "s6",
+    "objective": "BIOL157-CLO5",
+    "question": "Why should a TBA/TBARS colour response not be called a perfectly selective total-lipid-oxidation measurement?",
+    "options": [
+      "Other reactive substances and matrix/assay conditions can influence the signal.",
+      "Every colour molecule proves one intact lipid hydroperoxide exclusively.",
+      "The response uniquely identifies every fatty-acid position and geometry.",
+      "Calibration becomes unnecessary once a colour appears"
+    ],
+    "letter": "A",
+    "explanation": "TBARS includes thiobarbituric-acid-reactive substances, with malondialdehyde-related chemistry and possible interferents. It does not uniquely count all hydroperoxides or identify complete lipid structures. Calibration, controls and method specificity remain necessary.",
+    "difficulty": "intermediate",
+    "cognitiveLevel": "analyse",
+    "status": "draft-review",
+    "reviewer": null,
+    "sourceRefs": [
+      {
+        "source": "L10",
+        "pages": [
+          [
+            46,
+            47
+          ]
+        ]
+      },
+      {
+        "source": "LIPID-PEROXIDE"
+      }
+    ]
   }
 ]

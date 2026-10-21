@@ -349,6 +349,54 @@
       "label": "Endotext glucagon physiology: receptor/tissue context and hepatic response",
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK279127/",
       "review": "specific-receptor/hepatic-response-search-passages;direct-open-CAPTCHA;not-clinical-guideline-review"
+    },
+    {
+      "id": "LIPID-ESSENTIAL",
+      "label": "NIH ODS omega-3 introduction: ALA/linoleic essential pair and EPA/DHA notation",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "review": "introduction-specific-structure-and-essential-pair-passages-opened;not-dietary-dose-or-clinical-guideline-certification"
+    },
+    {
+      "id": "LIPID-GLYCO",
+      "label": "Essentials of Glycobiology: sulfatide and ganglioside head distinctions",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK579905/",
+      "review": "specific-sulfate/sialic-classification-search-passages;direct-open-CAPTCHA"
+    },
+    {
+      "id": "LIPID-MAPS",
+      "label": "LIPID MAPS glycosphingolipid nomenclature",
+      "url": "https://www.lipidmaps.org/lipid_nomenclature/sphingolipids/glycosphingolipid",
+      "review": "class-table-and-specific-backbone/linkage-rules-opened;not-full-database-review"
+    },
+    {
+      "id": "LIPID-HEXA",
+      "label": "GeneReviews HEXA disorders: GM2 breakdown and phenotypic spectrum",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1218/",
+      "review": "summary-biochemical-and-residual-function-passages-opened;not-clinical-management-or-diagnostic-certification"
+    },
+    {
+      "id": "LIPID-ETHER",
+      "label": "Primary ether-lipid structural mapping: alkyl versus vinyl ether",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32692545/",
+      "review": "specific-primary-abstract-search-returned-structural-distinction;not-full-paper-review"
+    },
+    {
+      "id": "LIPID-CAROTENE",
+      "label": "PubChem beta-carotene structure and cyclohexene naming",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280489",
+      "review": "specific-formula/connectivity-search-returned;direct-open-CAPTCHA"
+    },
+    {
+      "id": "LIPID-LYCOPENE",
+      "label": "PubChem lycopene acyclic structure",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/lycopene",
+      "review": "specific-acyclic/formula-search-returned;direct-open-CAPTCHA"
+    },
+    {
+      "id": "LIPID-PEROXIDE",
+      "label": "ISO 3960:2017 public scope and active-oxygen reporting convention",
+      "url": "https://www.iso.org/standard/71268.html",
+      "review": "public-abstract/scope-opened;not-purchased-full-method-or-executed-assay"
     }
   ],
   "objectives": [
@@ -756,8 +804,24 @@
           ]
         }
       ],
-      "status": "not-authored",
-      "lessons": []
+      "status": "draft-review",
+      "lessons": [
+        "BC1001",
+        "BC1002",
+        "BC1003",
+        "BC1004",
+        "BC1005",
+        "BC1006",
+        "BC1007",
+        "BC1008",
+        "BC1009",
+        "BC1010",
+        "BC1011",
+        "BC1012",
+        "BC1013",
+        "BC1014",
+        "BC1015"
+      ]
     }
   ],
   "topics": [
@@ -1258,7 +1322,7 @@
       "id": "BIOL157-U10-T01",
       "unit": "U10",
       "title": "Functions of lipids",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -1275,7 +1339,7 @@
       "id": "BIOL157-U10-T02",
       "unit": "U10",
       "title": "Lipid classification",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -1292,7 +1356,7 @@
       "id": "BIOL157-U10-T03",
       "unit": "U10",
       "title": "Lipid reactions",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -1309,7 +1373,7 @@
       "id": "BIOL157-U10-T04",
       "unit": "U10",
       "title": "Structural features",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -1326,7 +1390,7 @@
       "id": "BIOL157-U10-T05",
       "unit": "U10",
       "title": "Lipid properties",
-      "status": "not-authored",
+      "status": "draft-review",
       "sourceRefs": [
         {
           "source": "outline",
@@ -6561,6 +6625,920 @@
           "title": "Key takeaways"
         }
       ]
+    },
+    {
+      "id": "BIOL157-U10-C01",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T01",
+      "title": "Lipid diversity, classification and biological functions",
+      "lesson": "BC1001",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain the practical meaning of lipid, classify representative structures and connect storage, membrane and signalling roles to chemistry without assuming all lipids are fats or fatty-acid polymers.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              3,
+              5
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A chemical family defined partly by physical behaviour"
+        },
+        {
+          "id": "s3",
+          "title": "Read classes through their structures"
+        },
+        {
+          "id": "s4",
+          "title": "Structure explains the main functions"
+        },
+        {
+          "id": "s5",
+          "title": "Hydrolysable and nonhydrolysable distinctions"
+        },
+        {
+          "id": "s6",
+          "title": "Worked classification approach"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C02",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T04",
+      "title": "Fatty-acid structure, numbering and nomenclature",
+      "lesson": "BC1002",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Read carbon:number-of-double-bonds notation, locate double bonds from either end and calculate simple formula changes with explicit structural assumptions.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              6,
+              12
+            ]
+          ]
+        },
+        {
+          "source": "LIPID-ESSENTIAL"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A carboxyl head and a hydrocarbon chain"
+        },
+        {
+          "id": "s3",
+          "title": "Read the carbon and double-bond counts first"
+        },
+        {
+          "id": "s4",
+          "title": "Worked conversions between conventions"
+        },
+        {
+          "id": "s5",
+          "title": "Formula and degree-of-unsaturation bookkeeping"
+        },
+        {
+          "id": "s6",
+          "title": "Recognising important examples without a false limit"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C03",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T05",
+      "title": "Chain geometry, packing and lipid physical properties",
+      "lesson": "BC1003",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain why chain length and cis/trans geometry influence packing, compare fats and oils conditionally and relate lipid composition to membrane behaviour.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              4,
+              9
+            ],
+            [
+              12,
+              12
+            ],
+            [
+              37,
+              37
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Intermolecular packing helps determine melting"
+        },
+        {
+          "id": "s3",
+          "title": "A comparison requires controlled features"
+        },
+        {
+          "id": "s4",
+          "title": "Fats and oils are mixtures at a stated temperature"
+        },
+        {
+          "id": "s5",
+          "title": "Membranes add organisation and context"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C04",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T01",
+      "title": "Essential fatty acids, modified chains and lipid mediators",
+      "lesson": "BC1004",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Distinguish the two routinely essential human fatty acids, reconcile the α/γ-linolenic discrepancy and explain precursor roles without converting them into clinical prescriptions.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              10,
+              12
+            ]
+          ]
+        },
+        {
+          "source": "LIPID-ESSENTIAL"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Essential means synthesis cannot meet the required supply"
+        },
+        {
+          "id": "s3",
+          "title": "Elongation and desaturation connect families"
+        },
+        {
+          "id": "s4",
+          "title": "Precursors support local signalling chemistry"
+        },
+        {
+          "id": "s5",
+          "title": "Modified chains illustrate diversity"
+        },
+        {
+          "id": "s6",
+          "title": "Worked distinction between identity and category"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C05",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T02",
+      "title": "Triacylglycerols, waxes and concentrated energy storage",
+      "lesson": "BC1005",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Identify ester counts and backbones, compare simple/mixed triacylglycerols and waxes, and perform a supplied mass/energy calculation without confusing chemical energy with cellular ATP yield.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              5,
+              5
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              30,
+              31
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Three acyl groups on glycerol"
+        },
+        {
+          "id": "s3",
+          "title": "Waxes use a different alcohol backbone"
+        },
+        {
+          "id": "s4",
+          "title": "Worked formal esterification mass"
+        },
+        {
+          "id": "s5",
+          "title": "Why storage mass can be efficient"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C06",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T03",
+      "title": "Ester hydrolysis, saponification and lipid reaction balances",
+      "lesson": "BC1006",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Distinguish acid, enzymatic and alkaline ester hydrolysis; balance complete triacylglycerol cleavage and identify which other lipid linkages require different chemistry.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              15,
+              16
+            ],
+            [
+              40,
+              40
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Hydrolysis restores the components of an ester"
+        },
+        {
+          "id": "s3",
+          "title": "Alkaline hydrolysis gives fatty-acid salts"
+        },
+        {
+          "id": "s4",
+          "title": "Worked stoichiometric comparison"
+        },
+        {
+          "id": "s5",
+          "title": "Not every lipid linkage is the same ester"
+        },
+        {
+          "id": "s6",
+          "title": "Mechanism and laboratory scope"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C07",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T04",
+      "title": "Glycerophospholipid backbones, head groups and charge",
+      "lesson": "BC1007",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Identify the common glycerophospholipid architecture, compare head-group chemistry and distinguish phospholipid phosphate groups from the neutral storage structure of a triacylglycerol.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              17,
+              19
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Two acyl chains and a phosphate-bearing region"
+        },
+        {
+          "id": "s3",
+          "title": "Head groups contribute specific chemistry"
+        },
+        {
+          "id": "s4",
+          "title": "Cardiolipin provides a four-tail example"
+        },
+        {
+          "id": "s5",
+          "title": "Worked charge comparison"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C08",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T02",
+      "title": "Ether lipids, plasmalogens and platelet-activating factor",
+      "lesson": "BC1008",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Distinguish ester, alkyl-ether and vinyl-ether linkages, interpret plasmalogen terminology and explain how a short acyl group changes an ether lipid without making all such molecules freely water soluble.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              20,
+              22
+            ]
+          ]
+        },
+        {
+          "source": "LIPID-ETHER"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A linkage change creates a different lipid chemistry"
+        },
+        {
+          "id": "s3",
+          "title": "Head-group similarity does not erase the backbone difference"
+        },
+        {
+          "id": "s4",
+          "title": "Platelet-activating factor is a specific signalling example"
+        },
+        {
+          "id": "s5",
+          "title": "Worked linkage inventory"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C09",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T04",
+      "title": "Sphingoid bases, ceramide and sphingomyelin",
+      "lesson": "BC1009",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Identify the sphingolipid backbone, explain ceramide formation and distinguish amide-linked fatty acid from the acyl esters of glycerophospholipids.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              23,
+              25
+            ]
+          ]
+        },
+        {
+          "source": "LIPID-MAPS"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "An amino-alcohol backbone changes the linkage possibilities"
+        },
+        {
+          "id": "s3",
+          "title": "The fatty acid is not linked through the same bond as in a glyceride"
+        },
+        {
+          "id": "s4",
+          "title": "A phosphate head creates a phosphosphingolipid"
+        },
+        {
+          "id": "s5",
+          "title": "Ceramide is a branch-point structure"
+        },
+        {
+          "id": "s6",
+          "title": "Worked backbone comparison"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C10",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T02",
+      "title": "Glycosphingolipids, sulfatides and gangliosides",
+      "lesson": "BC1010",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Classify carbohydrate-bearing ceramides, reconcile the sulfatide/ganglioside source error and relate selective degradation to a qualified lysosomal-storage example.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              26,
+              29
+            ]
+          ]
+        },
+        {
+          "source": "LIPID-GLYCO"
+        },
+        {
+          "source": "LIPID-MAPS"
+        },
+        {
+          "source": "LIPID-HEXA"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Carbohydrate heads create distinct recognition surfaces"
+        },
+        {
+          "id": "s3",
+          "title": "Sulfate and sialic acid define different acidic classes"
+        },
+        {
+          "id": "s4",
+          "title": "Read the supplied GM examples by their actual sugars"
+        },
+        {
+          "id": "s5",
+          "title": "Degradation requires the appropriate sequence of enzymes"
+        },
+        {
+          "id": "s6",
+          "title": "Worked classification from chemical information"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C11",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T02",
+      "title": "Isoprenoids, carotenoids and lipid-linked carriers",
+      "lesson": "BC1011",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Use five-carbon-unit classification appropriately, distinguish hydrocarbon terpenes from modified terpenoids and connect selected structures to pigment, carrier and membrane-anchor roles.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              32,
+              35
+            ]
+          ]
+        },
+        {
+          "source": "LIPID-CAROTENE"
+        },
+        {
+          "source": "LIPID-LYCOPENE"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A five-carbon construction principle"
+        },
+        {
+          "id": "s3",
+          "title": "Count units for the specified unmodified carbon skeleton"
+        },
+        {
+          "id": "s4",
+          "title": "Carotenoid structure matters more than a colour name"
+        },
+        {
+          "id": "s5",
+          "title": "Long chains can anchor functional groups"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C12",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T01",
+      "title": "Steroid architecture, cholesterol and biological derivatives",
+      "lesson": "BC1012",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Recognise the steroid ring framework, relate cholesterol's mixed polar/nonpolar structure to membranes and distinguish representative steroid derivatives from transport particles or disease diagnoses.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              36,
+              39
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "A fused-ring framework differs from an acyl chain"
+        },
+        {
+          "id": "s3",
+          "title": "Free cholesterol and cholesteryl ester have different interfaces"
+        },
+        {
+          "id": "s4",
+          "title": "Steroid derivatives support different functions"
+        },
+        {
+          "id": "s5",
+          "title": "Transport and vascular context require more information"
+        },
+        {
+          "id": "s6",
+          "title": "Worked structural discrimination"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C13",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T05",
+      "title": "Amphipathic assembly, detergents and hard-water chemistry",
+      "lesson": "BC1013",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Explain micelles and bilayers through molecular shape and water interactions, distinguish soaps from broader detergent classes and balance a simple calcium–carboxylate precipitation.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              40,
+              42
+            ]
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Polar and nonpolar regions organise in water"
+        },
+        {
+          "id": "s3",
+          "title": "Soaps are a specific chemical class"
+        },
+        {
+          "id": "s4",
+          "title": "Why agitation and surface coverage help cleaning"
+        },
+        {
+          "id": "s5",
+          "title": "Worked calcium–soap balance"
+        },
+        {
+          "id": "s6",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s7",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C14",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T03",
+      "title": "Hydrolytic, oxidative and microbial rancidity",
+      "lesson": "BC1014",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Distinguish ester hydrolysis from lipid oxidation, explain primary/secondary oxidation products and evaluate storage/antioxidant claims without treating them as guarantees of food safety.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              43,
+              45
+            ]
+          ]
+        },
+        {
+          "source": "LIPID-PEROXIDE"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Different chemical changes can alter flavour and quality"
+        },
+        {
+          "id": "s3",
+          "title": "Oxidative chain reactions generate several product classes"
+        },
+        {
+          "id": "s4",
+          "title": "Light, heat, oxygen and catalytic factors matter"
+        },
+        {
+          "id": "s5",
+          "title": "Worked interpretation of two readings"
+        },
+        {
+          "id": "s6",
+          "title": "Biological connections and interpretation limits"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-C15",
+      "unit": "U10",
+      "topic": "BIOL157-U10-T05",
+      "title": "Lipid-characterisation indices and worked analytical reasoning",
+      "lesson": "BC1015",
+      "sectionId": "core",
+      "objectives": [
+        "BIOL157-CLO5"
+      ],
+      "learningGoals": "Interpret acid, iodine, saponification, peroxide and TBA/TBARS measures, calculate explicitly defined examples and recognise specificity, unit and composition limitations.",
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              46,
+              47
+            ]
+          ]
+        },
+        {
+          "source": "LIPID-PEROXIDE"
+        }
+      ],
+      "sections": [
+        {
+          "id": "goals",
+          "title": "Learning goals"
+        },
+        {
+          "id": "core",
+          "title": "Acid value measures titratable free acidity"
+        },
+        {
+          "id": "s3",
+          "title": "Iodine value reflects a defined unsaturation response"
+        },
+        {
+          "id": "s4",
+          "title": "Saponification value depends on ester equivalents per mass"
+        },
+        {
+          "id": "s5",
+          "title": "Peroxide value requires method-defined units and stage interpretation"
+        },
+        {
+          "id": "s6",
+          "title": "TBA/TBARS is not a perfectly selective total-oxidation meter"
+        },
+        {
+          "id": "s7",
+          "title": "Short concept checks"
+        },
+        {
+          "id": "s8",
+          "title": "Key takeaways"
+        }
+      ]
     }
   ],
   "figures": [
@@ -10118,6 +11096,806 @@
             [
               26,
               27
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-GEOMETRY",
+      "title": "Cis versus trans double-bond geometry",
+      "description": "Two schematic carbon–carbon double bonds show chain substituents on the same side for cis and opposing sides for trans. Hydrogens occupy the other positions. Both structures remain unsaturated.",
+      "caption": "Original local geometry diagram, not a full fatty-acid coordinate model. Packing depends on whole-chain structure and conditions; geometry does not change the number of C=C bonds.",
+      "width": 400,
+      "height": 460,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 25,
+          "text": "Cis: chain groups on same side"
+        },
+        {
+          "kind": "text",
+          "x": 140,
+          "y": 126,
+          "text": "C"
+        },
+        {
+          "kind": "text",
+          "x": 260,
+          "y": 126,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 155,
+          "y1": 116,
+          "x2": 245,
+          "y2": 116
+        },
+        {
+          "kind": "line",
+          "x1": 155,
+          "y1": 124,
+          "x2": 245,
+          "y2": 124
+        },
+        {
+          "kind": "line",
+          "x1": 130,
+          "y1": 108,
+          "x2": 100,
+          "y2": 75
+        },
+        {
+          "kind": "line",
+          "x1": 130,
+          "y1": 132,
+          "x2": 100,
+          "y2": 165
+        },
+        {
+          "kind": "line",
+          "x1": 270,
+          "y1": 108,
+          "x2": 300,
+          "y2": 75
+        },
+        {
+          "kind": "line",
+          "x1": 270,
+          "y1": 132,
+          "x2": 300,
+          "y2": 165
+        },
+        {
+          "kind": "text",
+          "x": 90,
+          "y": 65,
+          "text": "Chain"
+        },
+        {
+          "kind": "text",
+          "x": 90,
+          "y": 190,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 310,
+          "y": 65,
+          "text": "Chain"
+        },
+        {
+          "kind": "text",
+          "x": 310,
+          "y": 190,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 140,
+          "y": 341,
+          "text": "C"
+        },
+        {
+          "kind": "text",
+          "x": 260,
+          "y": 341,
+          "text": "C"
+        },
+        {
+          "kind": "line",
+          "x1": 155,
+          "y1": 331,
+          "x2": 245,
+          "y2": 331
+        },
+        {
+          "kind": "line",
+          "x1": 155,
+          "y1": 339,
+          "x2": 245,
+          "y2": 339
+        },
+        {
+          "kind": "line",
+          "x1": 130,
+          "y1": 323,
+          "x2": 100,
+          "y2": 290
+        },
+        {
+          "kind": "line",
+          "x1": 130,
+          "y1": 347,
+          "x2": 100,
+          "y2": 380
+        },
+        {
+          "kind": "line",
+          "x1": 270,
+          "y1": 323,
+          "x2": 300,
+          "y2": 290
+        },
+        {
+          "kind": "line",
+          "x1": 270,
+          "y1": 347,
+          "x2": 300,
+          "y2": 380
+        },
+        {
+          "kind": "text",
+          "x": 90,
+          "y": 280,
+          "text": "Chain"
+        },
+        {
+          "kind": "text",
+          "x": 90,
+          "y": 405,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 310,
+          "y": 280,
+          "text": "H"
+        },
+        {
+          "kind": "text",
+          "x": 310,
+          "y": 405,
+          "text": "Chain"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 242,
+          "text": "Trans: chain groups oppose"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 445,
+          "text": "Both retain a carbon–carbon C=C"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              7,
+              9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-BACKBONES",
+      "title": "Acyl ester versus acyl amide",
+      "description": "A glycerol-derived acyl connection is written backbone–O–C(=O)–R. A sphingoid acyl connection is backbone–NH–C(=O)–R. The carbonyl-to-oxygen versus carbonyl-to-nitrogen connection distinguishes ester from amide.",
+      "caption": "Original partial-connectivity comparison; protonation and other substituents are omitted. It does not depict whole-lipid stoichiometry or identical hydrolysis conditions.",
+      "width": 400,
+      "height": 300,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 35,
+          "text": "Glycerol-derived acyl ester"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 85,
+          "text": "backbone–O–C(=O)–R"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 125,
+          "text": "Carbonyl C connects to O"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 185,
+          "text": "Sphingoid-derived acyl amide"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 230,
+          "text": "backbone–NH–C(=O)–R"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 275,
+          "text": "Carbonyl C connects to N"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              17,
+              17
+            ],
+            [
+              23,
+              25
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-GLYCO",
+      "title": "Sulfated versus sialylated ceramide heads",
+      "description": "Ceramide branches into a galactose plus sulfate example, labelled sulfatide, and a sialic-acid-containing glycan example, labelled ganglioside. The negative groups have different chemical identities.",
+      "caption": "Original classification schematic, not a complete stereochemical glycan drawing. Sulfate addition alone does not establish a ganglioside; Neu5Ac is a sialic-acid example.",
+      "width": 400,
+      "height": 330,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 35,
+          "text": "Ceramide + specified head"
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 55,
+          "x2": 105,
+          "y2": 100
+        },
+        {
+          "kind": "line",
+          "x1": 200,
+          "y1": 55,
+          "x2": 295,
+          "y2": 100
+        },
+        {
+          "kind": "text",
+          "x": 100,
+          "y": 135,
+          "text": "Gal + sulfate"
+        },
+        {
+          "kind": "text",
+          "x": 300,
+          "y": 135,
+          "text": "Sialylated glycan"
+        },
+        {
+          "kind": "line",
+          "x1": 100,
+          "y1": 150,
+          "x2": 100,
+          "y2": 185
+        },
+        {
+          "kind": "line",
+          "x1": 300,
+          "y1": 150,
+          "x2": 300,
+          "y2": 185
+        },
+        {
+          "kind": "text",
+          "x": 100,
+          "y": 215,
+          "text": "Sulfatide"
+        },
+        {
+          "kind": "text",
+          "x": 300,
+          "y": 215,
+          "text": "Ganglioside"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 270,
+          "text": "Sulfate ≠ sialic acid"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 310,
+          "text": "Both can contribute negative charge"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              26,
+              29
+            ]
+          ]
+        },
+        {
+          "source": "LIPID-GLYCO"
+        },
+        {
+          "source": "LIPID-MAPS"
+        }
+      ]
+    },
+    {
+      "id": "BIOL157-U10-ASSEMBLY",
+      "title": "Micelle and bilayer organisation",
+      "description": "The upper schematic shows single tails pointing into a micelle with polar heads around its outside. The lower schematic shows two rows of polar heads and paired tails directed into a bilayer interior, with water at both external faces.",
+      "caption": "Original cross-sectional organisation models, not molecular coordinates. Tail/head geometry and conditions determine assembly; a coated oil droplet is not automatically the same as a simple detergent micelle.",
+      "width": 400,
+      "height": 525,
+      "elements": [
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 25,
+          "text": "One-tail micelle model"
+        },
+        {
+          "kind": "text",
+          "x": 265.0,
+          "y": 126.0,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 251.0,
+          "y1": 120.0,
+          "x2": 218.0,
+          "y2": 120.0
+        },
+        {
+          "kind": "text",
+          "x": 245.9619407771256,
+          "y": 171.9619407771256,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 236.06244584051393,
+          "y1": 156.06244584051393,
+          "x2": 212.72792206135784,
+          "y2": 132.72792206135784
+        },
+        {
+          "kind": "text",
+          "x": 200.0,
+          "y": 191.0,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 200.0,
+          "y1": 171.0,
+          "x2": 200.0,
+          "y2": 138.0
+        },
+        {
+          "kind": "text",
+          "x": 154.0380592228744,
+          "y": 171.9619407771256,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 163.93755415948607,
+          "y1": 156.06244584051393,
+          "x2": 187.27207793864216,
+          "y2": 132.72792206135784
+        },
+        {
+          "kind": "text",
+          "x": 135.0,
+          "y": 126.00000000000001,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 149.0,
+          "y1": 120.0,
+          "x2": 182.0,
+          "y2": 120.0
+        },
+        {
+          "kind": "text",
+          "x": 154.0380592228744,
+          "y": 80.03805922287441,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 163.93755415948607,
+          "y1": 83.93755415948607,
+          "x2": 187.27207793864216,
+          "y2": 107.27207793864214
+        },
+        {
+          "kind": "text",
+          "x": 200.0,
+          "y": 61.0,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 200.0,
+          "y1": 69.0,
+          "x2": 200.0,
+          "y2": 102.0
+        },
+        {
+          "kind": "text",
+          "x": 245.96194077712556,
+          "y": 80.03805922287441,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 236.06244584051393,
+          "y1": 83.93755415948607,
+          "x2": 212.72792206135784,
+          "y2": 107.27207793864214
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 220,
+          "text": "Heads face surrounding water"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 265,
+          "text": "Two-tail bilayer model"
+        },
+        {
+          "kind": "text",
+          "x": 80,
+          "y": 310,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 77,
+          "y1": 320,
+          "x2": 73,
+          "y2": 355
+        },
+        {
+          "kind": "line",
+          "x1": 83,
+          "y1": 320,
+          "x2": 87,
+          "y2": 355
+        },
+        {
+          "kind": "text",
+          "x": 80,
+          "y": 420,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 77,
+          "y1": 400,
+          "x2": 73,
+          "y2": 365
+        },
+        {
+          "kind": "line",
+          "x1": 83,
+          "y1": 400,
+          "x2": 87,
+          "y2": 365
+        },
+        {
+          "kind": "text",
+          "x": 120,
+          "y": 310,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 117,
+          "y1": 320,
+          "x2": 113,
+          "y2": 355
+        },
+        {
+          "kind": "line",
+          "x1": 123,
+          "y1": 320,
+          "x2": 127,
+          "y2": 355
+        },
+        {
+          "kind": "text",
+          "x": 120,
+          "y": 420,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 117,
+          "y1": 400,
+          "x2": 113,
+          "y2": 365
+        },
+        {
+          "kind": "line",
+          "x1": 123,
+          "y1": 400,
+          "x2": 127,
+          "y2": 365
+        },
+        {
+          "kind": "text",
+          "x": 160,
+          "y": 310,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 157,
+          "y1": 320,
+          "x2": 153,
+          "y2": 355
+        },
+        {
+          "kind": "line",
+          "x1": 163,
+          "y1": 320,
+          "x2": 167,
+          "y2": 355
+        },
+        {
+          "kind": "text",
+          "x": 160,
+          "y": 420,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 157,
+          "y1": 400,
+          "x2": 153,
+          "y2": 365
+        },
+        {
+          "kind": "line",
+          "x1": 163,
+          "y1": 400,
+          "x2": 167,
+          "y2": 365
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 310,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 197,
+          "y1": 320,
+          "x2": 193,
+          "y2": 355
+        },
+        {
+          "kind": "line",
+          "x1": 203,
+          "y1": 320,
+          "x2": 207,
+          "y2": 355
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 420,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 197,
+          "y1": 400,
+          "x2": 193,
+          "y2": 365
+        },
+        {
+          "kind": "line",
+          "x1": 203,
+          "y1": 400,
+          "x2": 207,
+          "y2": 365
+        },
+        {
+          "kind": "text",
+          "x": 240,
+          "y": 310,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 237,
+          "y1": 320,
+          "x2": 233,
+          "y2": 355
+        },
+        {
+          "kind": "line",
+          "x1": 243,
+          "y1": 320,
+          "x2": 247,
+          "y2": 355
+        },
+        {
+          "kind": "text",
+          "x": 240,
+          "y": 420,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 237,
+          "y1": 400,
+          "x2": 233,
+          "y2": 365
+        },
+        {
+          "kind": "line",
+          "x1": 243,
+          "y1": 400,
+          "x2": 247,
+          "y2": 365
+        },
+        {
+          "kind": "text",
+          "x": 280,
+          "y": 310,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 277,
+          "y1": 320,
+          "x2": 273,
+          "y2": 355
+        },
+        {
+          "kind": "line",
+          "x1": 283,
+          "y1": 320,
+          "x2": 287,
+          "y2": 355
+        },
+        {
+          "kind": "text",
+          "x": 280,
+          "y": 420,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 277,
+          "y1": 400,
+          "x2": 273,
+          "y2": 365
+        },
+        {
+          "kind": "line",
+          "x1": 283,
+          "y1": 400,
+          "x2": 287,
+          "y2": 365
+        },
+        {
+          "kind": "text",
+          "x": 320,
+          "y": 310,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 317,
+          "y1": 320,
+          "x2": 313,
+          "y2": 355
+        },
+        {
+          "kind": "line",
+          "x1": 323,
+          "y1": 320,
+          "x2": 327,
+          "y2": 355
+        },
+        {
+          "kind": "text",
+          "x": 320,
+          "y": 420,
+          "text": "○"
+        },
+        {
+          "kind": "line",
+          "x1": 317,
+          "y1": 400,
+          "x2": 313,
+          "y2": 365
+        },
+        {
+          "kind": "line",
+          "x1": 323,
+          "y1": 400,
+          "x2": 327,
+          "y2": 365
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 463,
+          "text": "Hydrophobic regions face inward"
+        },
+        {
+          "kind": "text",
+          "x": 200,
+          "y": 505,
+          "text": "Water contacts both outer faces"
+        }
+      ],
+      "status": "draft-review",
+      "reviewer": null,
+      "sourceRefs": [
+        {
+          "source": "L10",
+          "pages": [
+            [
+              4,
+              4
+            ],
+            [
+              40,
+              42
             ]
           ]
         }
