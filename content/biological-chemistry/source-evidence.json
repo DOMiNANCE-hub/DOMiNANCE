@@ -1,0 +1,2910 @@
+{
+  "pageConvention": "Actual 1-based PDF page; Lecture 2 printed numbering diverges after actual page 40. Lecture 4 also has multiple printed-number gaps; all L4 references use actual PDF pages. Lecture 5 has 58 actual pages but printed numbering reaches 65, with gaps beginning at actual p.15; L5 references always use actual PDF pages. Lecture 6 has 52 actual pages and printed numbering reaches 56; all L6 citations use actual PDF pages. Lecture 7 has 71 actual pages and printed numbering reaches 81; every L7 reference uses actual PDF pages, never an inferred offset. Lecture 8 has 61 actual pages and printed numbering reaches 70; L8 references use actual PDF pages. Lecture 9 has 28 actual pages and printed numbering reaches 30; L9 references use actual PDF pages. Lecture 10 has 48 actual pages and printed numbering reaches 50; L10 citations use actual pages.",
+  "anchors": [
+    {
+      "source": "L1",
+      "pdfPage": 3,
+      "anchor": "January 19, 2026                BIOL 157: Biological Chemistry           3",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 4,
+      "anchor": "January 19, 2026             BIOL 157: Biological Chemistry     4",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 5,
+      "anchor": "January 19, 2026                   BIOL 157: Biological Chemistry   5",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 6,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry       6",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 8,
+      "anchor": "January 19, 2026             BIOL 157: Biological Chemistry           8",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 10,
+      "anchor": "January 19, 2026            BIOL 157: Biological Chemistry      10",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 11,
+      "anchor": "January 19, 2026                 BIOL 157: Biological Chemistry             11",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 13,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry   13",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 14,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry   14",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 16,
+      "anchor": "January 19, 2026                    BIOL 157: Biological Chemistry               16",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 17,
+      "anchor": "January 19, 2026                  BIOL 157: Biological Chemistry   17",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 19,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry          19",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 20,
+      "anchor": "January 19, 2026                BIOL 157: Biological Chemistry           20",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 21,
+      "anchor": "January 19, 2026             BIOL 157: Biological Chemistry        21",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 22,
+      "anchor": "January 19, 2026                 BIOL 157: Biological Chemistry            22",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 23,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry   23",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 24,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry      24",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L1",
+      "pdfPage": 25,
+      "anchor": "January 19, 2026               BIOL 157: Biological Chemistry     25",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 3,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry            3",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 4,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry                  4",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 5,
+      "anchor": "22 January 2026               BIOL 157: Biological Chemistry           5",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 6,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry               6",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 8,
+      "anchor": "22 January 2026                  BIOL 157: Biological Chemistry          8",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 12,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry            12",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 13,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry            13",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 16,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry              16",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 17,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry              17",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 18,
+      "anchor": "22 January 2026                  BIOL 157: Biological Chemistry           18",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 19,
+      "anchor": "22 January 2026                BIOL 157: Biological Chemistry      19",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 20,
+      "anchor": "22 January 2026                 BIOL 157: Biological Chemistry              20",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 21,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry              21",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 22,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry             22",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 23,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry               23",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 24,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry        24",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 25,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry                25",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 26,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry           26",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 27,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry             27",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 33,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry         33",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 34,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry          34",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 35,
+      "anchor": "22 January 2026                  BIOL 157: Biological Chemistry         35",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 36,
+      "anchor": "22 January 2026                  BIOL 157: Biological Chemistry              36",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 37,
+      "anchor": "22 January 2026                 BIOL 157: Biological Chemistry         37",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 38,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry         38",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 39,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry              39",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 40,
+      "anchor": "22 January 2026                     BIOL 157: Biological Chemistry      40",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 43,
+      "anchor": "22 January 2026                   BIOL 157: Biological Chemistry         44",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 44,
+      "anchor": "22 January 2026                    BIOL 157: Biological Chemistry                45",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L2",
+      "pdfPage": 45,
+      "anchor": "22 January 2026            BIOL 157: Biological Chemistry   46",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 3,
+      "anchor": "January 26, 2026                  BIOL 157: Biological Chemistry      3",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 4,
+      "anchor": "January 26, 2026             BIOL 157: Biological Chemistry      4",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 5,
+      "anchor": "January 26, 2026                 BIOL 157: Biological Chemistry   5",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 6,
+      "anchor": "January 26, 2026                BIOL 157: Biological Chemistry   6",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 9,
+      "anchor": "January 26, 2026                   BIOL 157: Biological Chemistry                 9",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 10,
+      "anchor": "January 26, 2026                   BIOL 157: Biological Chemistry             10",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 11,
+      "anchor": "January 26, 2026                    BIOL 157: Biological Chemistry               11",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 13,
+      "anchor": "January 26, 2026                    BIOL 157: Biological Chemistry   13",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 14,
+      "anchor": "January 26, 2026                BIOL 157: Biological Chemistry        14",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 15,
+      "anchor": "January 26, 2026               BIOL 157: Biological Chemistry     15",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 16,
+      "anchor": "January 26, 2026                 BIOL 157: Biological Chemistry   16",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 17,
+      "anchor": "January 26, 2026              BIOL 157: Biological Chemistry       17",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 18,
+      "anchor": "January 26, 2026              BIOL 157: Biological Chemistry        18",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 19,
+      "anchor": "January 26, 2026                   BIOL 157: Biological Chemistry   19",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 20,
+      "anchor": "• It represents the ability of electrons to spin about their axis",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 22,
+      "anchor": "January 26, 2026                  BIOL 157: Biological Chemistry             22",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 23,
+      "anchor": "January 26, 2026                   BIOL 157: Biological Chemistry   23",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 24,
+      "anchor": "January 26, 2026                 BIOL 157: Biological Chemistry           24",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 25,
+      "anchor": "January 26, 2026               BIOL 157: Biological Chemistry         25",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 26,
+      "anchor": "January 26, 2026               BIOL 157: Biological Chemistry                    26",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 27,
+      "anchor": "January 26, 2026                   BIOL 157: Biological Chemistry                    27",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 28,
+      "anchor": "January 26, 2026                        BIOL 157: Biological Chemistry                    28",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 29,
+      "anchor": "January 26, 2026             BIOL 157: Biological Chemistry       29",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 30,
+      "anchor": "January 26, 2026                    BIOL 157: Biological Chemistry                30",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 31,
+      "anchor": "January 26, 2026                   BIOL 157: Biological Chemistry           31",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 32,
+      "anchor": "January 26, 2026             BIOL 157: Biological Chemistry     32",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 33,
+      "anchor": "January 26, 2026            BIOL 157: Biological Chemistry   33",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 34,
+      "anchor": "January 26, 2026                 BIOL 157: Biological Chemistry           34",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 35,
+      "anchor": "January 26, 2026              BIOL 157: Biological Chemistry       35",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 36,
+      "anchor": "• The f-block elements, valence electrons filling the f-orbital, i.e.,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 37,
+      "anchor": "January 26, 2026                 BIOL 157: Biological Chemistry   37",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 38,
+      "anchor": "January 26, 2026                   BIOL 157: Biological Chemistry             38",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 39,
+      "anchor": "January 26, 2026                               BIOL 157: Biological Chemistry    39",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 40,
+      "anchor": "January 26, 2026                  BIOL 157: Biological Chemistry            40",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 41,
+      "anchor": "January 26, 2026                  BIOL 157: Biological Chemistry           41",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 42,
+      "anchor": "January 26, 2026                  BIOL 157: Biological Chemistry   42",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 43,
+      "anchor": "January 26, 2026                BIOL 157: Biological Chemistry           43",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 44,
+      "anchor": "January 26, 2026                    BIOL 157: Biological Chemistry               44",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 45,
+      "anchor": "January 26, 2026                     BIOL 157: Biological Chemistry                 45",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 46,
+      "anchor": "January 26, 2026                     BIOL 157: Biological Chemistry           46",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 47,
+      "anchor": "January 26, 2026                   BIOL 157: Biological Chemistry         47",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 48,
+      "anchor": "January 26, 2026               BIOL 157: Biological Chemistry                       48",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 49,
+      "anchor": "January 26, 2026                  BIOL 157: Biological Chemistry              49",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L3",
+      "pdfPage": 50,
+      "anchor": "January 26, 2026                    BIOL 157: Biological Chemistry          50",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 3,
+      "anchor": "• A chemical bond is the force of attraction between two atoms;",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 4,
+      "anchor": "− Read: Born Haber Cycle and Hess Law of Constant Heat Summation",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 5,
+      "anchor": "− Electronegativity difference (high positive value)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 6,
+      "anchor": "Na, O                      2.5                           Most ionic compound",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 7,
+      "anchor": "• The bond formation due to the sharing of electrons between",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 8,
+      "anchor": "orbitals along their internuclear lines. The internuclear line is the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 10,
+      "anchor": "− This involves a side-to-side or lateral overlap of atomic orbitals",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 11,
+      "anchor": "− Note: π bonds are weaker and more reactive than σ bonds because π",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 12,
+      "anchor": "Has an impact on the shape of               Has no role in determining the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 13,
+      "anchor": "be divalent because of 2 unpair electrons, but C is tetravalent because",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 14,
+      "anchor": "− sp hybridization: BeF2, BeH2, BeCl2, C2H2",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 16,
+      "anchor": "↑↓      ↑   ↑                              ↑             ↑   ↑     ↑",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 18,
+      "anchor": "− Note: there are 2 hybridized orbitals and 2 unhybridized orbitals;",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 20,
+      "anchor": "− Note: some essential body’s organic molecules contain coordinate",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 23,
+      "anchor": "− The donor atom, N, in NH3, can donate a lone pair of electrons and the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 24,
+      "anchor": "− For a double bond, one is a sigma bond, and the other is a pi bond",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 25,
+      "anchor": "− The rule holds for some period 2 elements, such as C, N, O, and F, but",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 26,
+      "anchor": "– The valence shell of the central nitrogen atom in a molecule contains",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 27,
+      "anchor": "Lone pair: lone pair > lone pair: bonded pair > bonded pair: bonded pair",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 28,
+      "anchor": "• Ionic bonds are extended in all directions. Covalent bonds are",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 29,
+      "anchor": "• In NH3, the central atom (nitrogen) has four valence electron",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 30,
+      "anchor": "• In H2O, the central atom is oxygen, with four valence electron",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 31,
+      "anchor": "− The enzyme is supposed to be a lock with a speciﬁc shape, so it has",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 33,
+      "anchor": "− For similar atoms, there is no tendency for one of the atoms to attract",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 35,
+      "anchor": "− Since both sides are polar, it cancels out; hence no polarity",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 36,
+      "anchor": "− Intermolecular forces can account for the differences in the physical",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 37,
+      "anchor": "− At a point, the electron cloud associated with the non-polar molecules",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 38,
+      "anchor": "− Note: The increased molecular size accounts for the increased Van",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 39,
+      "anchor": "• A unique permanent dipole-dipole attraction is Hydrogen",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 40,
+      "anchor": "− Note: the intermolecular forces directly affect the physical properties",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 41,
+      "anchor": "• Such properties include physical states, solubility, boiling point,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 42,
+      "anchor": "• In the same way, water behaves differently from other hydrides.",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 43,
+      "anchor": "• For a solute to dissolve in a solvent, the attraction between the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 44,
+      "anchor": "• On the other hand, NaCl does not dissolve in ether as the Na+",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 45,
+      "anchor": "Also, the helical structure of DNA is possible because of this bonding",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 48,
+      "anchor": "chain        positional       functional    tautomerism          conformational        configurational",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 49,
+      "anchor": "• Structural isomers differ in the way the constituent atoms are",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 50,
+      "anchor": "• Positional isomerism: this form differs in the placement of the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 51,
+      "anchor": "• Functional isomerism: this differs in the functional group",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 52,
+      "anchor": "2-propanone                                       Propen-2-ol",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 53,
+      "anchor": "− The individual structures constitute conformers; there are two types",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 54,
+      "anchor": "• It is the arrangement resulting from the placement of different",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 55,
+      "anchor": "Cis-butenedioic acid                         Trans-butenedioic acid",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 56,
+      "anchor": "• Ring compounds: ring compounds can make a molecule rigid",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 57,
+      "anchor": "− The E and Z system is based on the assignment of priorities; that is,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 58,
+      "anchor": "− In naming, we consider the atom with the highest priority. Therefore,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 60,
+      "anchor": "− When white light passes through calcite crystals or a Nicol prism, the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 61,
+      "anchor": "attached to the central atom qualifies as optically active (chiral). For",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 62,
+      "anchor": "− Note: to label it, you need to consider the position of the OH group. If",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 63,
+      "anchor": "− The A and B, as well as the C and D, are enantiomers. However, A and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 64,
+      "anchor": "− G is a meso compound (mesotartaric acid), which is optically inactive",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 65,
+      "anchor": "− Chemical properties are identical for reactions with optically inactive",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 66,
+      "anchor": "− The mixtures are optically inactive because the rotation from the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 67,
+      "anchor": "− A racemic mixture combines with an optically active compound, which",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L4",
+      "pdfPage": 68,
+      "anchor": "− These compounds are soluble in water and more reactive than ethane",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 2,
+      "anchor": "• By the end of this lecture, students will be able to:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 3,
+      "anchor": "minimised; large amounts in the diet promote obesity and tooth decay",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 4,
+      "anchor": "– In addition, complex carbohydrates, such as cellulose, provide us with",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 5,
+      "anchor": "their derivatives (hemiacetals/hemiketals/acetals/ketals)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 6,
+      "anchor": "– Several blood group antigens and bacterial cell wall monosaccharides",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 7,
+      "anchor": "sometimes called polyhydroxy aldehydes or polyhydroxy ketones",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 8,
+      "anchor": "in several isomeric forms, it is essential to provide their unique name",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 9,
+      "anchor": "Aldose                                     Ketose",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 10,
+      "anchor": "Monosaccharides – Aldoses",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 11,
+      "anchor": "Aldohexoses                                                 Aldotetrose",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 12,
+      "anchor": "Keto***ose   :   *** ulose",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 13,
+      "anchor": "• Monosaccharides exist in cyclic and anomeric forms:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 14,
+      "anchor": "• Monosaccharides exist in cyclic and anomeric forms:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 15,
+      "anchor": "Derivative Forms of Monosaccharides",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 16,
+      "anchor": "Derivative Forms of Monosaccharides",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 17,
+      "anchor": "of cell membranes",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 18,
+      "anchor": "Derivative Forms of Monosaccharides",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 19,
+      "anchor": "energy. Blood glucose concentration is critical to normal body function.",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 20,
+      "anchor": "– Fructose, or levulose and fruit sugar, is the sweetest simple sugar. It",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 21,
+      "anchor": "– Galactose is a crucial hexose found in biological systems, serving as a",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 22,
+      "anchor": "galactosaemia. If the condition is not treated, galactosaemia leads to",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 23,
+      "anchor": "including RNA and various coenzymes that are required by many of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 24,
+      "anchor": "– Deoxyribonucleic acid (DNA), the molecule that carries the genetic",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 25,
+      "anchor": "(galactose-β-1,4-glucose)     (glucose-α-1,4-glucose)               Free anomeric carbon",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 26,
+      "anchor": "starch to maltose. Fermented by yeast, crucial in the brewing of beer",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 27,
+      "anchor": "– It cannot be absorbed directly into the bloodstream; lactose must first",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 28,
+      "anchor": "and diarrhoea that can eventually lead to dehydration. Also, intestinal",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 29,
+      "anchor": "– It cannot be absorbed directly (like lactose) and is hydrolysed by the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 30,
+      "anchor": "– It is a crucial carbohydrate in plants, is water-soluble, and is easily",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 31,
+      "anchor": "• Oligosaccharides occur widely as components of drugs:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 32,
+      "anchor": "Homoglycan                      Galacturonans: galactose",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 33,
+      "anchor": "α1→ 6 (every 12~30 residues)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 34,
+      "anchor": "Functions of Polysaccharides",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 35,
+      "anchor": "Glycolytic pathways: produce energy (ATP)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 36,
+      "anchor": "α(1→4) glycosidic linkages only; inactivated in the stomach: low pH",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 37,
+      "anchor": "– Mainly in the liver (10% of liver mass) and skeletal muscle (1-2% of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 38,
+      "anchor": "Polysaccharide of D-Glc                                   Cross-link with",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 39,
+      "anchor": "Glc flips: H-bonds, stable",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 40,
+      "anchor": "• Cellulose: hydrolysed by cellulase, β-glucosidase",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 41,
+      "anchor": "organic molecule in the world. Cellulose is a polymer of β-D-glucose",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 42,
+      "anchor": "• Peptidoglycan: a strong, protective peptide-polysaccharide",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 43,
+      "anchor": "Functions of Polysaccharides",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 44,
+      "anchor": "• Lipopolysaccharides: in Gram-negative bacteria",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 45,
+      "anchor": "• Chitin: in the cell walls of fungi, exoskeletons of crustaceans,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 46,
+      "anchor": "– O-linked saccharides: -OH of Ser, Thr, or hydroxylysine",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 47,
+      "anchor": "– Proteoglycans function by interacting with a variety of other molecules",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 48,
+      "anchor": "Glycoproteins & Proteoglycans",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 49,
+      "anchor": "removed in the form of water; furfural is formed from pentose sugar,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 50,
+      "anchor": "• Molisch’s test: a general test for carbohydrates",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 51,
+      "anchor": "medium, which condenses with orcinol in the presence of ferric ion to",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 52,
+      "anchor": "to give furfural derivatives and, on condensation with resorcinol, give",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 53,
+      "anchor": "– This test is carried out in a solution containing cupric sulphate, sodium",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 54,
+      "anchor": "• Benedict’s test: a test for reducing sugars",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 55,
+      "anchor": "solution B is alkaline sodium potassium tartrate. These two solutions",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 56,
+      "anchor": "• Fehling’s test: a sensitive test for detection of reducing sugars",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L5",
+      "pdfPage": 57,
+      "anchor": "– Principle: it is based on the reduction of copper (II) acetate to copper",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 2,
+      "anchor": "− Identify some nucleic acid analogues for treating diseases",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 3,
+      "anchor": "– Most metabolic pathways are regulated, at least in part, by the levels",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 4,
+      "anchor": "– As components of the enzyme-like nucleic acids known as ribozymes,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 5,
+      "anchor": "• Nucleotide - composition and structure:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 6,
+      "anchor": "– If the phosphate group is absent, the compound is nucleoside. A 5’-",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 7,
+      "anchor": "cytosine, uracil (which occurs mainly in RNA), and thymine (5-methyl",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 8,
+      "anchor": "• Nitrogenous bases:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 9,
+      "anchor": "• Nitrogenous bases:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 10,
+      "anchor": "– This property is biologically significant because it induces mutations,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 11,
+      "anchor": "– If the pH of a solution containing double helical DNA is either lowered",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 12,
+      "anchor": "reaction at one site on the ring may enhance the reactivity at others",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 13,
+      "anchor": "− The reaction rates are influenced by the position in the polynucleotide",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 14,
+      "anchor": "− The 6 position is especially reactive toward additions, whereas the 2",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 15,
+      "anchor": "are acidic so that, at physiological pH’s, nucleic acids are polyanions",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 16,
+      "anchor": "Chemical Structures of DNA & RNA",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 17,
+      "anchor": "organism is characteristic of that organism; it is independent of the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 18,
+      "anchor": "to 75% G = C in different species of bacteria. It is, however, constant",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 19,
+      "anchor": "Chemical Structures of DNA & RNA",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 20,
+      "anchor": "hard to answer because of the strong interaction of the molecules with",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 21,
+      "anchor": "standard set; dA and dC in the DNAs of many organisms are partially",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 22,
+      "anchor": "Chemical Structures of DNA & RNA",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 23,
+      "anchor": "This is probably why DNA evolved to be the cellular genetic archive",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 24,
+      "anchor": "covalent phosphodiester bridges between the 3’ and 5’ hydroxyl",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 25,
+      "anchor": "– It is the steric relationship of bases which are close to each other in",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 26,
+      "anchor": "Levels of Organization of DNA Structure",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 27,
+      "anchor": "steric constraints. The DNA could be relaxed, looped, and superhelical",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 28,
+      "anchor": "Levels of Organization of DNA Structure",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 29,
+      "anchor": "– It relates to interactions of the nucleic acids with other molecules.",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 30,
+      "anchor": "Levels of Organization of DNA Structure",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 31,
+      "anchor": "Levels of Organization of DNA Structure",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 32,
+      "anchor": "temperature, its native structure collapses (denatures), and its",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 33,
+      "anchor": "the resistance to deformation of its rigid and rod-like duplex molecules,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 34,
+      "anchor": "− This indicates that the collapse of a part of the duplex DNA’s structure",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 35,
+      "anchor": "• Change in UV absorbance due denaturation:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 36,
+      "anchor": "Denaturation of DNA",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 37,
+      "anchor": "causing some bases to ionise, disrupting the base-pairing interactions",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 38,
+      "anchor": "− It is the repository of all the information the cell requires, with most",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 39,
+      "anchor": "proteins, constitute the three major macromolecules essential for life",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 40,
+      "anchor": "the pentose ring in the 2' position). These hydroxyl groups make RNA",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 41,
+      "anchor": "but rather collections of short helices packed together like proteins",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 42,
+      "anchor": "of nucleotides, arranged into codons consisting of three bases each",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 43,
+      "anchor": "Ribonucleic Acid (RNA)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 44,
+      "anchor": "molecule, typically 73 to 94 nucleotides in length, serving as a physical",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 45,
+      "anchor": "LSU (large subunit) and SSU (small subunit) rRNAs are found within",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 46,
+      "anchor": "Ribonucleic Acid (RNA)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 47,
+      "anchor": "III, and studies have shown that their primary function is in processing",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 48,
+      "anchor": "− ncRNA is a functional RNA molecule not translated into a protein. Less",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 49,
+      "anchor": "sodium salts, which deposit in soft tissues, giving rise to inflammation",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L6",
+      "pdfPage": 50,
+      "anchor": "Other Nucleic Acids Analogues",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 2,
+      "anchor": "• By the end of this lecture, students will be able to:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 3,
+      "anchor": "• Proteins are a diverse and abundant class of biomolecules,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 4,
+      "anchor": "• Several fundamental properties enable proteins to participate",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 5,
+      "anchor": "• Proteins are polymers of monomers: amino acids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 6,
+      "anchor": "• Proteins contain a wide range of functional groups",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 7,
+      "anchor": "• Some proteins are rigid, whereas others are flexible",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 8,
+      "anchor": "• The structure of a single typical amino acid:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 9,
+      "anchor": "• The structure of a single typical amino acid:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 10,
+      "anchor": "• There are 20 amino acids commonly found in proteins",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 11,
+      "anchor": "• Classifications based on the polarity of R group:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 12,
+      "anchor": "• Amino acid composition in proteins:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 13,
+      "anchor": "− Essential amino acids cannot be synthesised in the body of higher",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 14,
+      "anchor": "− Most proteins in the body contain the full complement of amino acids;",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 15,
+      "anchor": "• Several amino acids occur only rarely in proteins:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 16,
+      "anchor": "• Certain muscle proteins contain methylated amino acids;",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 17,
+      "anchor": "• Some amino acids and their derivatives, although not found in",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 18,
+      "anchor": "• All amino acids' α-carboxyl and α-amino groups exhibit similar",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 19,
+      "anchor": "• There are three reasons to consider these reactivities:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 20,
+      "anchor": "− The crucial feature of amino acids that allows them to polymerise to",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 21,
+      "anchor": "− The carboxyl groups of amino acids undergo all the simple reactions",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 22,
+      "anchor": "Reactions of Amino Acids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 23,
+      "anchor": "− Free amino groups may react with aldehydes to form Schiff bases",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 24,
+      "anchor": "− Amino acids can be readily detected and quantified by reaction with",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 25,
+      "anchor": "Reactions of Amino Acids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 26,
+      "anchor": "• Specific reactions of amino acid side chains:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 27,
+      "anchor": "• Specific reactions of amino acid side chains:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 28,
+      "anchor": "• Specific reactions of amino acid side chains:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 29,
+      "anchor": "− Many details of the structure and chemistry of the amino acids have",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 30,
+      "anchor": "− Aromatic amino acids phenylalanine, tyrosine, and tryptophan only",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 31,
+      "anchor": "• Absorption spectra of aromatic amino acids:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 32,
+      "anchor": "− The purification and analysis of individual amino acids from complex",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 33,
+      "anchor": "− In all the partition methods, the molecules of interest are allowed (or",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 34,
+      "anchor": "− Chromatography is applied to a wide variety of separation methods;",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 35,
+      "anchor": "− The separation of amino acids and other solutes is often achieved via",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 36,
+      "anchor": "Separation & Analysis of Amino Acid Mixtures",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 37,
+      "anchor": "Separation & Analysis of Amino Acid Mixtures",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 38,
+      "anchor": "• Peptides are short polymers of amino acids; they are classified",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 39,
+      "anchor": "• The terms polypeptide and protein are used interchangeably",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 40,
+      "anchor": "Polypeptide Chains in Proteins",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 41,
+      "anchor": "• Peptide bonds are hydrolysed by either a strong acid or base",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 42,
+      "anchor": "• Peptide bonds involving hydrophobic residues such as valine",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 43,
+      "anchor": "• The unique characteristic of each protein is the distinctive",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 44,
+      "anchor": "• Amino acid sequence from the N-terminal to C-terminal:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 45,
+      "anchor": "− Proteins can be assigned to one of the three global classes based on",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 46,
+      "anchor": "− Globular proteins are usually very soluble in aqueous solutions.",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 47,
+      "anchor": "Architecture of Protein Molecules",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 48,
+      "anchor": "Protein Structure",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 49,
+      "anchor": "Biological Functions of Proteins",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 50,
+      "anchor": "− The largest class of proteins is enzymes. Enzymes are catalysts that",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 51,
+      "anchor": "− Several proteins do not perform any apparent chemical transformation",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 52,
+      "anchor": "− They transport specific substances from one place to another: the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 53,
+      "anchor": "− Proteins whose biological function is to provide a reservoir of an",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 54,
+      "anchor": "− Seeds of higher plants often contain as much as 60% storage protein",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 55,
+      "anchor": "− Some proteins endow cells with unique capabilities for movement: cell",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 56,
+      "anchor": "− Structural proteins provide strength and protection to cells and tissues.",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 57,
+      "anchor": "• Scaffold proteins (adapter proteins):",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 58,
+      "anchor": "• Protective and exploitive proteins:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 59,
+      "anchor": "• Protective and exploitive proteins:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 60,
+      "anchor": "− Some proteins display exotic functions that do not fit the previous",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 61,
+      "anchor": "• Many proteins contain only amino acids and no other chemical",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 62,
+      "anchor": "Protein Conjugates",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 63,
+      "anchor": "− Glycoproteins contain carbohydrates; proteins destined for an",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 64,
+      "anchor": "− Blood plasma lipoproteins are examples of proteins conjugated with",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 65,
+      "anchor": "− They are either metal storage forms, ferritin, or enzymes in which the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 66,
+      "anchor": "Protein Conjugates",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 67,
+      "anchor": "− These proteins have phosphate groups esterified to the hydroxyls of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 68,
+      "anchor": "• Cells contain thousands of different proteins; hence, the main",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 69,
+      "anchor": "• R group ionisation is pH-dependent; hence, various procedures",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L7",
+      "pdfPage": 70,
+      "anchor": "• Salting-in of proteins is attributed to diminishing electrostatic",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 2,
+      "anchor": "• By the end of this lecture, students will be able to:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 3,
+      "anchor": "• Living organisms are filled with metabolic activities. Thousands",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 4,
+      "anchor": "• Most cells quickly oxidise glucose, producing carbon dioxide",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 5,
+      "anchor": "Introduction",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 6,
+      "anchor": "• Enzymes as agents of metabolic function:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 7,
+      "anchor": "Introduction",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 8,
+      "anchor": "− Enzymes display enormous catalytic power, accelerating reaction",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 9,
+      "anchor": "− A given enzyme is very selective (specificity) in the substances with",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 10,
+      "anchor": "− Regulation of enzyme activity is achieved in various ways, ranging",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 11,
+      "anchor": "• Traditionally, enzymes were often named by adding the suffix",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 12,
+      "anchor": "• Because of the misunderstanding of these trivial designations,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 13,
+      "anchor": "• Systematic classification of enzymes by EC:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 14,
+      "anchor": "• Some enzymes carry out their catalytic function relying solely",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 15,
+      "anchor": "• In most cases, a coenzyme is firmly associated with its enzyme,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 16,
+      "anchor": "• Enzyme cofactors: metal ions and coenzymes",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 17,
+      "anchor": "− Vitamins are compounds that are required in the diet because the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 18,
+      "anchor": "• Vitamin B3 (niacin) – NAD/NADP Coenzyme:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 19,
+      "anchor": "• Vitamin B3 (niacin) – NAD/NADP Coenzyme:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 20,
+      "anchor": "• Vitamin B3 (niacin) – NAD/NADP Coenzyme:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 21,
+      "anchor": "− Riboflavin is the precursor to the flavin coenzymes FMN and FAD.",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 22,
+      "anchor": "− FMN and FAD are non-covalently attached to their enzymes but",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 23,
+      "anchor": "• Vitamin B7 (Biotin, Vitamin H or Coenzyme R):",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 24,
+      "anchor": "− Thiamine is converted to the coenzyme thiamine pyrophosphate",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 25,
+      "anchor": "• Kinetics is the branch of science concerned with the rates of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 26,
+      "anchor": "• Enzymatic rate under different reaction conditions is essential to",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 27,
+      "anchor": "• Kinetics of enzyme-catalysed reactions:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 28,
+      "anchor": "• Lenore Michaelis and Maud Leonora Menten proposed a",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 29,
+      "anchor": "− The product (P) is formed in a second step when ES dissociates to",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 30,
+      "anchor": "− The ratio of constants is defined as the Michaelis constant, Km",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 31,
+      "anchor": "• Usually, the actual molar amount of the enzyme is unknown,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 32,
+      "anchor": "• The turnover number of an enzyme, kcat, is a measure of its",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 33,
+      "anchor": "• At saturating [S], v = Vmax = k2[ET]. Thus,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 34,
+      "anchor": "• Enzyme-substrate recognition and the catalytic events that",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 35,
+      "anchor": "Effect of pH on Enzymatic Activity",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 36,
+      "anchor": "• Like most chemical reactions, the rates of enzyme-catalysed",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 37,
+      "anchor": "• The increasing reaction rate with increasing temperature is",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 38,
+      "anchor": "• If the speed of an enzymatic reaction is decreased or inhibited,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 39,
+      "anchor": "− Reversible inhibitors fall into two major categories: competitive and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 40,
+      "anchor": "− Noncompetitive inhibitors bind to an allosteric site (site for enzyme",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 41,
+      "anchor": "− If the inhibitor combines irreversibly with the enzyme by covalent",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 42,
+      "anchor": "• Suicide substrates are inhibitory substrate analogues intended",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 43,
+      "anchor": "• Several drugs in current medical use are mechanism-based",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 44,
+      "anchor": "• The extraordinary ability of an enzyme to catalyse only one",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 45,
+      "anchor": "• Specificity due to molecular recognition:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 46,
+      "anchor": "− Pioneering enzyme specificity studies at the turn of the century by the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 47,
+      "anchor": "− Enzymes are highly flexible, conformationally dynamic molecules, and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 48,
+      "anchor": "• “Induced Fit” and the transition-state intermediate:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 49,
+      "anchor": "Enzyme Specificity & Regulation",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 50,
+      "anchor": "• (1) Enzymatic rate “slows down” as the product mounts up,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 51,
+      "anchor": "• (2) Substrates and cofactors available will determine the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 52,
+      "anchor": "• (3) There are genetic controls over the amounts of enzyme",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 53,
+      "anchor": "• (4) Enzymes can be regulated by covalent modification, the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 54,
+      "anchor": "• (5) Enzymatic activity can also be activated or inhibited",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 55,
+      "anchor": "− Most proteins become fully active as their synthesis is completed and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 56,
+      "anchor": "− Proteolytic enzymes of the digestive tract: enzymes of the digestive",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 57,
+      "anchor": "− Blood Clotting: the formation of blood clots results from a series of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 58,
+      "anchor": "− Several enzymes exist in more than one quaternary form, differing in",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 59,
+      "anchor": "Specialised Controls Over Enzymatic Activity",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L8",
+      "pdfPage": 60,
+      "anchor": "− Modulator proteins are proteins that bind to enzymes and influence the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 2,
+      "anchor": "• By the end of this lecture, students will be able to:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 3,
+      "anchor": "• Metabolic pathway: a series of connected enzymatic reactions",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 4,
+      "anchor": "• How enzymes are involved in metabolic reactions:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 5,
+      "anchor": "• Enzymes are the basic units of metabolism; the substrates of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 6,
+      "anchor": "• Pathways are sequences of reactions:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 7,
+      "anchor": "• (1) Metabolic pathways are irreversible:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 8,
+      "anchor": "• (3) All metabolic pathways are regulated:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 9,
+      "anchor": "• Organelles and metabolic pathways:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 10,
+      "anchor": "• (1) Oxidation-reduction reactions:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 11,
+      "anchor": "− These reactions form bonds by using free energy from ATP cleavage",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 12,
+      "anchor": "− It rearranges atoms within the molecule. It prepares a molecule for",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 13,
+      "anchor": "− A phosphoryl group is transferred from the activated phosphoryl-",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 14,
+      "anchor": "− Hydrolytic reactions cleave bonds by adding water. Hydrolysis breaks",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 15,
+      "anchor": "• (6) Addition of functional groups to double bonds or",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 16,
+      "anchor": "• (6) Addition of functional groups to double bonds or",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 17,
+      "anchor": "− The level of a single enzyme varies under different environmental",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 18,
+      "anchor": "• (1) Control of enzyme levels – lac operon:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 19,
+      "anchor": "− The catalytic activity of an enzyme can be controlled in two ways:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 20,
+      "anchor": "− (b) Covalent modification of enzyme structure represents another",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 21,
+      "anchor": "Major Metabolic Control Mechanisms",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 22,
+      "anchor": "− In eukaryotic cells, enzymes participating in the same process are",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 23,
+      "anchor": "• (3) Compartmentation – glucose metabolism:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 24,
+      "anchor": "− Hormones are substances synthesised by specialised cells and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 25,
+      "anchor": "• (4) Hormonal regulation – steroid hormone:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 26,
+      "anchor": "− (b) In other responses involving hormones, there is a synthesis of",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L9",
+      "pdfPage": 27,
+      "anchor": "• (4) Hormonal regulation – nonsteroid hormone:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 2,
+      "anchor": "• By the end of this lecture, students will be able to:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 3,
+      "anchor": "• Lipids are heterogeneous groups of organic compounds related",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 4,
+      "anchor": "• Lipids are a class of biomolecules defined by low solubility in",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 5,
+      "anchor": "− True fats: esters of fatty acids with glycerol. Waxes: esters of fatty",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 6,
+      "anchor": "• Fatty acids are composed of a long hydrocarbon chain (“tail”)",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 7,
+      "anchor": "Fatty Acids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 8,
+      "anchor": "• If a fatty acid has one double bond, it is monounsaturated, and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 9,
+      "anchor": "• Unsaturated fatty acids are slightly more abundant in nature",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 10,
+      "anchor": "• Essential and non-essential fatty acids:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 11,
+      "anchor": "• Essential and non-essential fatty acids:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 12,
+      "anchor": "− In addition to unsaturated fatty acids, several modified fatty acids are",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 13,
+      "anchor": "• Triacylglycerols are a significant energy reserve and the main",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 14,
+      "anchor": "• Simple and mixed triacylglycerols:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 15,
+      "anchor": "• Acylglycerols can be hydrolysed by heating them with acid or",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 16,
+      "anchor": "• Triacylglycerols are rich in highly reduced carbons, producing",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 17,
+      "anchor": "− Phosphatidic acid, the parent compound for the glycerol-based",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 18,
+      "anchor": "− Phosphatides with choline or ethanolamine are phosphatidylcholine",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 19,
+      "anchor": "• Glycerolipids with other head groups:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 20,
+      "anchor": "− Ether glycerophospholipids possess an ether linkage instead of an",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 21,
+      "anchor": "Glycerophospholipids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 22,
+      "anchor": "− Plasmalogens are ether glycerophospholipids in which the alkyl",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 23,
+      "anchor": "• Sphingolipids represent another class of lipids found frequently",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 24,
+      "anchor": "• Formation of ceramide (sphingolipid):",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 25,
+      "anchor": "Sphingolipids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 26,
+      "anchor": "• Glycosphingolipids are vital components of muscle and nerve",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 27,
+      "anchor": "• Gangliosides are formed when sulphate is esterified at the 3-",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 28,
+      "anchor": "• Glycosphingolipids at cell surfaces appear to determine, at least",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 29,
+      "anchor": "Sphingolipids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 30,
+      "anchor": "• Esters of long-chain alcohols with long-chain fatty acids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 31,
+      "anchor": "• Carnauba wax, from the fronds of palm trees in Brazil, is a",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 32,
+      "anchor": "• Terpenes are a class of lipids formed from combinations of two",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 33,
+      "anchor": "• The triterpenes (C30: six isoprene units) include squalene and",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 34,
+      "anchor": "Terpenes",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 35,
+      "anchor": "• Examples of polyprenol-containing biomolecules:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 36,
+      "anchor": "• A large and important class of terpene-based lipids is steroids,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 37,
+      "anchor": "− Cholesterol is the most common animal steroid and precursor for all",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 38,
+      "anchor": "− Steroids derived from cholesterol in animals: hormones and bile acids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 39,
+      "anchor": "Steroids",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 40,
+      "anchor": "• Soaps are sodium and potassium salts of long-chain fatty acids,",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 41,
+      "anchor": "• Cleansing action of detergents – micelle formation:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 42,
+      "anchor": "• Cleansing action of detergents – micelle formation:",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 43,
+      "anchor": "• Rancidification, the product of what is described as rancidity, is",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 44,
+      "anchor": "− It is associated with the degradation of oxygen in the air. Through a",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 45,
+      "anchor": "− Antioxidants are often added to fat-containing foods to delay the",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 46,
+      "anchor": "• Acid number: milligrams of potassium hydroxide (KOH), required to",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    },
+    {
+      "source": "L10",
+      "pdfPage": 47,
+      "anchor": "• Saponification number: milligrams of KOH required to saponify",
+      "verification": "literal-text-match-in-authorised-local-PDF-extraction"
+    }
+  ],
+  "visuallyInspected": [
+    {
+      "source": "L1",
+      "pdfPages": [
+        18
+      ],
+      "result": "Mineral figure inspected; broad health claims excluded."
+    },
+    {
+      "source": "L2",
+      "pdfPages": [
+        28,
+        29,
+        30,
+        31,
+        41
+      ],
+      "result": "Apparatus, formose/Strecker schemes, base diagram and compartment scheme inspected. Images not republished; nucleotide label qualified."
+    },
+    {
+      "source": "L3",
+      "pdfPages": [
+        7,
+        8,
+        21,
+        51
+      ],
+      "result": "Cathode-ray deflection, rare large-angle scattering, quantum table and periodic arrows inspected. No copied images. Spin/quantum ranges and simplified trend chart are qualified in original teaching."
+    },
+    {
+      "source": "L4",
+      "pdfPages": [
+        32,
+        35,
+        58,
+        59,
+        62,
+        63,
+        64,
+        69
+      ],
+      "result": "Geometry/polarity, CIP examples, lactic Fischer/sign contradiction, multicentre/meso figures and functional-group chart inspected. Original replacement figures authored; source images not republished."
+    },
+    {
+      "source": "L5",
+      "pdfPages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        25,
+        32,
+        35,
+        38,
+        42,
+        44,
+        48,
+        50,
+        54,
+        56,
+        57
+      ],
+      "result": "Fischer/Haworth/anomer, derivative, disaccharide, polymer/matrix, bacterial-envelope/proteoglycan and qualitative-test figures inspected. Selected stereochemical pages enlarged individually. No source images republished; diagram/prose issues recorded in U05 review."
+    },
+    {
+      "source": "L6",
+      "pdfPages": [
+        5,
+        8,
+        9,
+        16,
+        19,
+        22,
+        23,
+        26,
+        28,
+        30,
+        31,
+        35,
+        36,
+        43,
+        46,
+        50
+      ],
+      "result": "Base/nucleoside structures, directionality, duplex/modified-base figures, RNA cleavage, organisation, UV/melting graphs, codon table, ribosome and analogue comparisons inspected. No source images copied."
+    },
+    {
+      "source": "L7",
+      "pdfPages": [
+        8,
+        9,
+        11,
+        12,
+        13,
+        20,
+        22,
+        23,
+        25,
+        27,
+        28,
+        31,
+        36,
+        37,
+        40,
+        44,
+        47,
+        48,
+        49,
+        62,
+        66
+      ],
+      "result": "Selected structures, classifications, reaction schemes, normalised spectra, ion-exchange media/column, chain inventories, structural hierarchy, function and conjugate tables inspected. No source images republished. Normalised spectra do not establish equal absolute absorptivity."
+    },
+    {
+      "source": "L8",
+      "pdfPages": [
+        5,
+        7,
+        13,
+        16,
+        18,
+        20,
+        23,
+        24,
+        28,
+        29,
+        30,
+        33,
+        35,
+        37,
+        40,
+        43,
+        46,
+        48,
+        49,
+        52,
+        53,
+        54,
+        56,
+        58,
+        59
+      ],
+      "result": "Selected barrier/catalysis, all seven EC classes, cofactor/carrier structures, simple kinetic equations, pH/temperature, inhibition, recognition/induced-fit, phosphorylation, precursor and LDH figures/tables inspected. No source images copied; source classification already includes EC7."
+    },
+    {
+      "source": "L9",
+      "pdfPages": [
+        4,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        21,
+        23,
+        25,
+        27
+      ],
+      "result": "Organisation, cell compartment map, six reaction examples, lac schematic, allostery, glucose compartments and steroid/surface-receptor signals inspected. Aconitase overall rearrangement versus EC4 classification and partial succinate oxidation explicitly reconciled. No source image copied."
+    },
+    {
+      "source": "L10",
+      "pdfPages": [
+        7,
+        11,
+        14,
+        19,
+        21,
+        22,
+        24,
+        25,
+        26,
+        29,
+        34,
+        35,
+        36,
+        39,
+        42
+      ],
+      "result": "Fatty-acid/essential diagrams, acylglycerols, head groups/ethers, ceramide/sphingomyelin, GM glycan series, isoprenoids/steroid structures and micelles inspected; actual pp11,29,34 enlarged. No source image copied. Alpha/gamma, sulfate/sialic and carotenoid label/ring discrepancies reconciled."
+    }
+  ]
+}

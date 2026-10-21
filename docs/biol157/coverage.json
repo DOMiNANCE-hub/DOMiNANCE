@@ -1,0 +1,2195 @@
+{
+  "course": "BIOL157",
+  "status": "academic-review-pending",
+  "academicApproval": null,
+  "officialObjectives": [
+    {
+      "id": "BIOL157-CLO1",
+      "text": "Understand the origin of elements and the chemical evolution of living systems.",
+      "notesConcepts": [
+        "BIOL157-U01-C01",
+        "BIOL157-U01-C02",
+        "BIOL157-U01-C03",
+        "BIOL157-U01-C04",
+        "BIOL157-U01-C05",
+        "BIOL157-U01-C06",
+        "BIOL157-U02-C01",
+        "BIOL157-U02-C02",
+        "BIOL157-U02-C03",
+        "BIOL157-U02-C04",
+        "BIOL157-U02-C05",
+        "BIOL157-U02-C06",
+        "BIOL157-U02-C07",
+        "BIOL157-U02-C08"
+      ],
+      "questions": [
+        "BIOL157-U01-Q001",
+        "BIOL157-U01-Q002",
+        "BIOL157-U01-Q003",
+        "BIOL157-U01-Q004",
+        "BIOL157-U01-Q005",
+        "BIOL157-U01-Q006",
+        "BIOL157-U01-Q007",
+        "BIOL157-U01-Q008",
+        "BIOL157-U01-Q009",
+        "BIOL157-U01-Q010",
+        "BIOL157-U01-Q011",
+        "BIOL157-U01-Q012",
+        "BIOL157-U01-Q013",
+        "BIOL157-U01-Q014",
+        "BIOL157-U01-Q015",
+        "BIOL157-U01-Q016",
+        "BIOL157-U01-Q017",
+        "BIOL157-U01-Q018",
+        "BIOL157-U02-Q001",
+        "BIOL157-U02-Q002",
+        "BIOL157-U02-Q003",
+        "BIOL157-U02-Q004",
+        "BIOL157-U02-Q005",
+        "BIOL157-U02-Q006",
+        "BIOL157-U02-Q007",
+        "BIOL157-U02-Q008",
+        "BIOL157-U02-Q009",
+        "BIOL157-U02-Q010",
+        "BIOL157-U02-Q011",
+        "BIOL157-U02-Q012",
+        "BIOL157-U02-Q013",
+        "BIOL157-U02-Q014",
+        "BIOL157-U02-Q015",
+        "BIOL157-U02-Q016"
+      ],
+      "coverageStatus": "draft-partial-not-certified"
+    },
+    {
+      "id": "BIOL157-CLO2",
+      "text": "Appreciate the various atomic models and the periodic properties of elements.",
+      "notesConcepts": [
+        "BIOL157-U03-C01",
+        "BIOL157-U03-C02",
+        "BIOL157-U03-C03",
+        "BIOL157-U03-C04",
+        "BIOL157-U03-C05",
+        "BIOL157-U03-C06",
+        "BIOL157-U03-C07",
+        "BIOL157-U03-C08",
+        "BIOL157-U03-C09"
+      ],
+      "questions": [
+        "BIOL157-U03-Q001",
+        "BIOL157-U03-Q002",
+        "BIOL157-U03-Q003",
+        "BIOL157-U03-Q004",
+        "BIOL157-U03-Q005",
+        "BIOL157-U03-Q006",
+        "BIOL157-U03-Q007",
+        "BIOL157-U03-Q008",
+        "BIOL157-U03-Q009",
+        "BIOL157-U03-Q010",
+        "BIOL157-U03-Q011",
+        "BIOL157-U03-Q012",
+        "BIOL157-U03-Q013",
+        "BIOL157-U03-Q014",
+        "BIOL157-U03-Q015",
+        "BIOL157-U03-Q016",
+        "BIOL157-U03-Q017",
+        "BIOL157-U03-Q018",
+        "BIOL157-U03-Q019",
+        "BIOL157-U03-Q020",
+        "BIOL157-U03-Q021",
+        "BIOL157-U03-Q022",
+        "BIOL157-U03-Q023",
+        "BIOL157-U03-Q024",
+        "BIOL157-U03-Q025",
+        "BIOL157-U03-Q026",
+        "BIOL157-U03-Q027",
+        "BIOL157-U03-Q028",
+        "BIOL157-U03-Q029",
+        "BIOL157-U03-Q030",
+        "BIOL157-U03-Q031",
+        "BIOL157-U03-Q032",
+        "BIOL157-U03-Q033",
+        "BIOL157-U03-Q034"
+      ],
+      "coverageStatus": "draft-partial-not-certified"
+    },
+    {
+      "id": "BIOL157-CLO3",
+      "text": "Explain the types and importance of chemical bonds in biomolecule formation.",
+      "notesConcepts": [
+        "BIOL157-U04-C01",
+        "BIOL157-U04-C02",
+        "BIOL157-U04-C03",
+        "BIOL157-U04-C04",
+        "BIOL157-U04-C05",
+        "BIOL157-U04-C06",
+        "BIOL157-U04-C07",
+        "BIOL157-U04-C08",
+        "BIOL157-U04-C09",
+        "BIOL157-U04-C10",
+        "BIOL157-U04-C11",
+        "BIOL157-U04-C12"
+      ],
+      "questions": [
+        "BIOL157-U04-Q001",
+        "BIOL157-U04-Q002",
+        "BIOL157-U04-Q003",
+        "BIOL157-U04-Q004",
+        "BIOL157-U04-Q005",
+        "BIOL157-U04-Q006",
+        "BIOL157-U04-Q007",
+        "BIOL157-U04-Q008",
+        "BIOL157-U04-Q009",
+        "BIOL157-U04-Q010",
+        "BIOL157-U04-Q011",
+        "BIOL157-U04-Q012",
+        "BIOL157-U04-Q013",
+        "BIOL157-U04-Q014",
+        "BIOL157-U04-Q015",
+        "BIOL157-U04-Q016",
+        "BIOL157-U04-Q017",
+        "BIOL157-U04-Q018",
+        "BIOL157-U04-Q019",
+        "BIOL157-U04-Q020",
+        "BIOL157-U04-Q021",
+        "BIOL157-U04-Q022",
+        "BIOL157-U04-Q023",
+        "BIOL157-U04-Q024",
+        "BIOL157-U04-Q025",
+        "BIOL157-U04-Q026",
+        "BIOL157-U04-Q027",
+        "BIOL157-U04-Q028",
+        "BIOL157-U04-Q029",
+        "BIOL157-U04-Q030",
+        "BIOL157-U04-Q031",
+        "BIOL157-U04-Q032",
+        "BIOL157-U04-Q033",
+        "BIOL157-U04-Q034",
+        "BIOL157-U04-Q035",
+        "BIOL157-U04-Q036",
+        "BIOL157-U04-Q037",
+        "BIOL157-U04-Q038",
+        "BIOL157-U04-Q039",
+        "BIOL157-U04-Q040",
+        "BIOL157-U04-Q041",
+        "BIOL157-U04-Q042",
+        "BIOL157-U04-Q043",
+        "BIOL157-U04-Q044",
+        "BIOL157-U04-Q045",
+        "BIOL157-U04-Q046",
+        "BIOL157-U04-Q047",
+        "BIOL157-U04-Q048",
+        "BIOL157-U04-Q049",
+        "BIOL157-U04-Q050",
+        "BIOL157-U04-Q051"
+      ],
+      "coverageStatus": "draft-partial-not-certified"
+    },
+    {
+      "id": "BIOL157-CLO4",
+      "text": "Explain enzyme function, classification, and factors affecting enzyme function.",
+      "notesConcepts": [
+        "BIOL157-U08-C01",
+        "BIOL157-U08-C02",
+        "BIOL157-U08-C03",
+        "BIOL157-U08-C04",
+        "BIOL157-U08-C05",
+        "BIOL157-U08-C06",
+        "BIOL157-U08-C07",
+        "BIOL157-U08-C08",
+        "BIOL157-U08-C09",
+        "BIOL157-U08-C10",
+        "BIOL157-U08-C11",
+        "BIOL157-U08-C12",
+        "BIOL157-U08-C13",
+        "BIOL157-U08-C14",
+        "BIOL157-U09-C05",
+        "BIOL157-U09-C06",
+        "BIOL157-U09-C07"
+      ],
+      "questions": [
+        "BIOL157-U08-Q001",
+        "BIOL157-U08-Q002",
+        "BIOL157-U08-Q003",
+        "BIOL157-U08-Q004",
+        "BIOL157-U08-Q005",
+        "BIOL157-U08-Q006",
+        "BIOL157-U08-Q007",
+        "BIOL157-U08-Q008",
+        "BIOL157-U08-Q009",
+        "BIOL157-U08-Q010",
+        "BIOL157-U08-Q011",
+        "BIOL157-U08-Q012",
+        "BIOL157-U08-Q013",
+        "BIOL157-U08-Q014",
+        "BIOL157-U08-Q015",
+        "BIOL157-U08-Q016",
+        "BIOL157-U08-Q017",
+        "BIOL157-U08-Q018",
+        "BIOL157-U08-Q019",
+        "BIOL157-U08-Q020",
+        "BIOL157-U08-Q021",
+        "BIOL157-U08-Q022",
+        "BIOL157-U08-Q023",
+        "BIOL157-U08-Q024",
+        "BIOL157-U08-Q025",
+        "BIOL157-U08-Q026",
+        "BIOL157-U08-Q027",
+        "BIOL157-U08-Q028",
+        "BIOL157-U08-Q029",
+        "BIOL157-U08-Q030",
+        "BIOL157-U08-Q031",
+        "BIOL157-U08-Q032",
+        "BIOL157-U08-Q033",
+        "BIOL157-U08-Q034",
+        "BIOL157-U08-Q035",
+        "BIOL157-U08-Q036",
+        "BIOL157-U08-Q037",
+        "BIOL157-U08-Q038",
+        "BIOL157-U08-Q039",
+        "BIOL157-U08-Q040",
+        "BIOL157-U08-Q041",
+        "BIOL157-U08-Q042",
+        "BIOL157-U08-Q043",
+        "BIOL157-U08-Q044",
+        "BIOL157-U08-Q045",
+        "BIOL157-U08-Q046",
+        "BIOL157-U08-Q047",
+        "BIOL157-U08-Q048",
+        "BIOL157-U08-Q049",
+        "BIOL157-U08-Q050",
+        "BIOL157-U08-Q051",
+        "BIOL157-U08-Q052",
+        "BIOL157-U08-Q053",
+        "BIOL157-U08-Q054",
+        "BIOL157-U08-Q055",
+        "BIOL157-U08-Q056",
+        "BIOL157-U08-Q057",
+        "BIOL157-U08-Q058",
+        "BIOL157-U08-Q059",
+        "BIOL157-U08-Q060",
+        "BIOL157-U08-Q061",
+        "BIOL157-U08-Q062",
+        "BIOL157-U08-Q063",
+        "BIOL157-U09-Q019",
+        "BIOL157-U09-Q020",
+        "BIOL157-U09-Q021",
+        "BIOL157-U09-Q022",
+        "BIOL157-U09-Q023",
+        "BIOL157-U09-Q024",
+        "BIOL157-U09-Q025",
+        "BIOL157-U09-Q026",
+        "BIOL157-U09-Q027",
+        "BIOL157-U09-Q028",
+        "BIOL157-U09-Q029",
+        "BIOL157-U09-Q030",
+        "BIOL157-U09-Q031",
+        "BIOL157-U09-Q032",
+        "BIOL157-U09-Q033"
+      ],
+      "coverageStatus": "draft-partial-not-certified"
+    },
+    {
+      "id": "BIOL157-CLO5",
+      "text": "Understand the biological role of carbohydrates, proteins, nucleic acids, and lipids.",
+      "notesConcepts": [
+        "BIOL157-U05-C01",
+        "BIOL157-U05-C02",
+        "BIOL157-U05-C03",
+        "BIOL157-U05-C04",
+        "BIOL157-U05-C05",
+        "BIOL157-U05-C06",
+        "BIOL157-U05-C07",
+        "BIOL157-U05-C08",
+        "BIOL157-U05-C09",
+        "BIOL157-U05-C10",
+        "BIOL157-U05-C11",
+        "BIOL157-U05-C12",
+        "BIOL157-U05-C13",
+        "BIOL157-U05-C14",
+        "BIOL157-U06-C01",
+        "BIOL157-U06-C02",
+        "BIOL157-U06-C03",
+        "BIOL157-U06-C04",
+        "BIOL157-U06-C05",
+        "BIOL157-U06-C06",
+        "BIOL157-U06-C07",
+        "BIOL157-U06-C08",
+        "BIOL157-U06-C09",
+        "BIOL157-U06-C10",
+        "BIOL157-U07-C01",
+        "BIOL157-U07-C02",
+        "BIOL157-U07-C03",
+        "BIOL157-U07-C04",
+        "BIOL157-U07-C05",
+        "BIOL157-U07-C06",
+        "BIOL157-U07-C07",
+        "BIOL157-U07-C08",
+        "BIOL157-U07-C09",
+        "BIOL157-U07-C10",
+        "BIOL157-U07-C11",
+        "BIOL157-U07-C12",
+        "BIOL157-U09-C01",
+        "BIOL157-U09-C02",
+        "BIOL157-U09-C03",
+        "BIOL157-U09-C04",
+        "BIOL157-U09-C05",
+        "BIOL157-U09-C06",
+        "BIOL157-U09-C07",
+        "BIOL157-U10-C01",
+        "BIOL157-U10-C02",
+        "BIOL157-U10-C03",
+        "BIOL157-U10-C04",
+        "BIOL157-U10-C05",
+        "BIOL157-U10-C06",
+        "BIOL157-U10-C07",
+        "BIOL157-U10-C08",
+        "BIOL157-U10-C09",
+        "BIOL157-U10-C10",
+        "BIOL157-U10-C11",
+        "BIOL157-U10-C12",
+        "BIOL157-U10-C13",
+        "BIOL157-U10-C14",
+        "BIOL157-U10-C15"
+      ],
+      "questions": [
+        "BIOL157-U05-Q001",
+        "BIOL157-U05-Q002",
+        "BIOL157-U05-Q003",
+        "BIOL157-U05-Q004",
+        "BIOL157-U05-Q005",
+        "BIOL157-U05-Q006",
+        "BIOL157-U05-Q007",
+        "BIOL157-U05-Q008",
+        "BIOL157-U05-Q009",
+        "BIOL157-U05-Q010",
+        "BIOL157-U05-Q011",
+        "BIOL157-U05-Q012",
+        "BIOL157-U05-Q013",
+        "BIOL157-U05-Q014",
+        "BIOL157-U05-Q015",
+        "BIOL157-U05-Q016",
+        "BIOL157-U05-Q017",
+        "BIOL157-U05-Q018",
+        "BIOL157-U05-Q019",
+        "BIOL157-U05-Q020",
+        "BIOL157-U05-Q021",
+        "BIOL157-U05-Q022",
+        "BIOL157-U05-Q023",
+        "BIOL157-U05-Q024",
+        "BIOL157-U05-Q025",
+        "BIOL157-U05-Q026",
+        "BIOL157-U05-Q027",
+        "BIOL157-U05-Q028",
+        "BIOL157-U05-Q029",
+        "BIOL157-U05-Q030",
+        "BIOL157-U05-Q031",
+        "BIOL157-U05-Q032",
+        "BIOL157-U05-Q033",
+        "BIOL157-U05-Q034",
+        "BIOL157-U05-Q035",
+        "BIOL157-U05-Q036",
+        "BIOL157-U05-Q037",
+        "BIOL157-U05-Q038",
+        "BIOL157-U05-Q039",
+        "BIOL157-U05-Q040",
+        "BIOL157-U05-Q041",
+        "BIOL157-U05-Q042",
+        "BIOL157-U05-Q043",
+        "BIOL157-U05-Q044",
+        "BIOL157-U05-Q045",
+        "BIOL157-U05-Q046",
+        "BIOL157-U05-Q047",
+        "BIOL157-U05-Q048",
+        "BIOL157-U05-Q049",
+        "BIOL157-U05-Q050",
+        "BIOL157-U05-Q051",
+        "BIOL157-U05-Q052",
+        "BIOL157-U05-Q053",
+        "BIOL157-U05-Q054",
+        "BIOL157-U05-Q055",
+        "BIOL157-U05-Q056",
+        "BIOL157-U05-Q057",
+        "BIOL157-U05-Q058",
+        "BIOL157-U06-Q001",
+        "BIOL157-U06-Q002",
+        "BIOL157-U06-Q003",
+        "BIOL157-U06-Q004",
+        "BIOL157-U06-Q005",
+        "BIOL157-U06-Q006",
+        "BIOL157-U06-Q007",
+        "BIOL157-U06-Q008",
+        "BIOL157-U06-Q009",
+        "BIOL157-U06-Q010",
+        "BIOL157-U06-Q011",
+        "BIOL157-U06-Q012",
+        "BIOL157-U06-Q013",
+        "BIOL157-U06-Q014",
+        "BIOL157-U06-Q015",
+        "BIOL157-U06-Q016",
+        "BIOL157-U06-Q017",
+        "BIOL157-U06-Q018",
+        "BIOL157-U06-Q019",
+        "BIOL157-U06-Q020",
+        "BIOL157-U06-Q021",
+        "BIOL157-U06-Q022",
+        "BIOL157-U06-Q023",
+        "BIOL157-U06-Q024",
+        "BIOL157-U06-Q025",
+        "BIOL157-U06-Q026",
+        "BIOL157-U06-Q027",
+        "BIOL157-U06-Q028",
+        "BIOL157-U06-Q029",
+        "BIOL157-U06-Q030",
+        "BIOL157-U06-Q031",
+        "BIOL157-U06-Q032",
+        "BIOL157-U06-Q033",
+        "BIOL157-U06-Q034",
+        "BIOL157-U06-Q035",
+        "BIOL157-U06-Q036",
+        "BIOL157-U06-Q037",
+        "BIOL157-U06-Q038",
+        "BIOL157-U06-Q039",
+        "BIOL157-U06-Q040",
+        "BIOL157-U06-Q041",
+        "BIOL157-U06-Q042",
+        "BIOL157-U06-Q043",
+        "BIOL157-U06-Q044",
+        "BIOL157-U06-Q045",
+        "BIOL157-U07-Q001",
+        "BIOL157-U07-Q002",
+        "BIOL157-U07-Q003",
+        "BIOL157-U07-Q004",
+        "BIOL157-U07-Q005",
+        "BIOL157-U07-Q006",
+        "BIOL157-U07-Q007",
+        "BIOL157-U07-Q008",
+        "BIOL157-U07-Q009",
+        "BIOL157-U07-Q010",
+        "BIOL157-U07-Q011",
+        "BIOL157-U07-Q012",
+        "BIOL157-U07-Q013",
+        "BIOL157-U07-Q014",
+        "BIOL157-U07-Q015",
+        "BIOL157-U07-Q016",
+        "BIOL157-U07-Q017",
+        "BIOL157-U07-Q018",
+        "BIOL157-U07-Q019",
+        "BIOL157-U07-Q020",
+        "BIOL157-U07-Q021",
+        "BIOL157-U07-Q022",
+        "BIOL157-U07-Q023",
+        "BIOL157-U07-Q024",
+        "BIOL157-U07-Q025",
+        "BIOL157-U07-Q026",
+        "BIOL157-U07-Q027",
+        "BIOL157-U07-Q028",
+        "BIOL157-U07-Q029",
+        "BIOL157-U07-Q030",
+        "BIOL157-U07-Q031",
+        "BIOL157-U07-Q032",
+        "BIOL157-U07-Q033",
+        "BIOL157-U07-Q034",
+        "BIOL157-U07-Q035",
+        "BIOL157-U07-Q036",
+        "BIOL157-U07-Q037",
+        "BIOL157-U07-Q038",
+        "BIOL157-U07-Q039",
+        "BIOL157-U07-Q040",
+        "BIOL157-U07-Q041",
+        "BIOL157-U07-Q042",
+        "BIOL157-U07-Q043",
+        "BIOL157-U07-Q044",
+        "BIOL157-U07-Q045",
+        "BIOL157-U07-Q046",
+        "BIOL157-U07-Q047",
+        "BIOL157-U07-Q048",
+        "BIOL157-U07-Q049",
+        "BIOL157-U07-Q050",
+        "BIOL157-U07-Q051",
+        "BIOL157-U07-Q052",
+        "BIOL157-U07-Q053",
+        "BIOL157-U07-Q054",
+        "BIOL157-U07-Q055",
+        "BIOL157-U07-Q056",
+        "BIOL157-U07-Q057",
+        "BIOL157-U07-Q058",
+        "BIOL157-U07-Q059",
+        "BIOL157-U07-Q060",
+        "BIOL157-U09-Q001",
+        "BIOL157-U09-Q002",
+        "BIOL157-U09-Q003",
+        "BIOL157-U09-Q004",
+        "BIOL157-U09-Q005",
+        "BIOL157-U09-Q006",
+        "BIOL157-U09-Q007",
+        "BIOL157-U09-Q008",
+        "BIOL157-U09-Q009",
+        "BIOL157-U09-Q010",
+        "BIOL157-U09-Q011",
+        "BIOL157-U09-Q012",
+        "BIOL157-U09-Q013",
+        "BIOL157-U09-Q014",
+        "BIOL157-U09-Q015",
+        "BIOL157-U09-Q016",
+        "BIOL157-U09-Q017",
+        "BIOL157-U09-Q018",
+        "BIOL157-U10-Q001",
+        "BIOL157-U10-Q002",
+        "BIOL157-U10-Q003",
+        "BIOL157-U10-Q004",
+        "BIOL157-U10-Q005",
+        "BIOL157-U10-Q006",
+        "BIOL157-U10-Q007",
+        "BIOL157-U10-Q008",
+        "BIOL157-U10-Q009",
+        "BIOL157-U10-Q010",
+        "BIOL157-U10-Q011",
+        "BIOL157-U10-Q012",
+        "BIOL157-U10-Q013",
+        "BIOL157-U10-Q014",
+        "BIOL157-U10-Q015",
+        "BIOL157-U10-Q016",
+        "BIOL157-U10-Q017",
+        "BIOL157-U10-Q018",
+        "BIOL157-U10-Q019",
+        "BIOL157-U10-Q020",
+        "BIOL157-U10-Q021",
+        "BIOL157-U10-Q022",
+        "BIOL157-U10-Q023",
+        "BIOL157-U10-Q024",
+        "BIOL157-U10-Q025",
+        "BIOL157-U10-Q026",
+        "BIOL157-U10-Q027",
+        "BIOL157-U10-Q028",
+        "BIOL157-U10-Q029",
+        "BIOL157-U10-Q030",
+        "BIOL157-U10-Q031",
+        "BIOL157-U10-Q032",
+        "BIOL157-U10-Q033",
+        "BIOL157-U10-Q034",
+        "BIOL157-U10-Q035",
+        "BIOL157-U10-Q036",
+        "BIOL157-U10-Q037",
+        "BIOL157-U10-Q038",
+        "BIOL157-U10-Q039",
+        "BIOL157-U10-Q040",
+        "BIOL157-U10-Q041",
+        "BIOL157-U10-Q042",
+        "BIOL157-U10-Q043",
+        "BIOL157-U10-Q044",
+        "BIOL157-U10-Q045",
+        "BIOL157-U10-Q046",
+        "BIOL157-U10-Q047",
+        "BIOL157-U10-Q048",
+        "BIOL157-U10-Q049",
+        "BIOL157-U10-Q050",
+        "BIOL157-U10-Q051",
+        "BIOL157-U10-Q052",
+        "BIOL157-U10-Q053"
+      ],
+      "coverageStatus": "draft-partial-not-certified"
+    }
+  ],
+  "units": [
+    {
+      "id": "U01",
+      "title": "Elemental Composition of Cells",
+      "topics": [
+        {
+          "id": "BIOL157-U01-T01",
+          "unit": "U01",
+          "title": "Origin of elements",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0102"
+          ],
+          "questions": [
+            "BIOL157-U01-Q004",
+            "BIOL157-U01-Q005",
+            "BIOL157-U01-Q006"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U01-T02",
+          "unit": "U01",
+          "title": "Elements in cells",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0101",
+            "BC0103",
+            "BC0106"
+          ],
+          "questions": [
+            "BIOL157-U01-Q001",
+            "BIOL157-U01-Q002",
+            "BIOL157-U01-Q003",
+            "BIOL157-U01-Q007",
+            "BIOL157-U01-Q008",
+            "BIOL157-U01-Q009",
+            "BIOL157-U01-Q016",
+            "BIOL157-U01-Q017",
+            "BIOL157-U01-Q018"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U01-T03",
+          "unit": "U01",
+          "title": "Features of major elements",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0104",
+            "BC0105"
+          ],
+          "questions": [
+            "BIOL157-U01-Q010",
+            "BIOL157-U01-Q011",
+            "BIOL157-U01-Q012",
+            "BIOL157-U01-Q013",
+            "BIOL157-U01-Q014",
+            "BIOL157-U01-Q015"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0101",
+        "BC0102",
+        "BC0103",
+        "BC0104",
+        "BC0105",
+        "BC0106"
+      ]
+    },
+    {
+      "id": "U02",
+      "title": "Evolution of Living Organisms",
+      "topics": [
+        {
+          "id": "BIOL157-U02-T01",
+          "unit": "U02",
+          "title": "Origin of life",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0201",
+            "BC0202",
+            "BC0203",
+            "BC0204"
+          ],
+          "questions": [
+            "BIOL157-U02-Q001",
+            "BIOL157-U02-Q002",
+            "BIOL157-U02-Q003",
+            "BIOL157-U02-Q004",
+            "BIOL157-U02-Q005",
+            "BIOL157-U02-Q006",
+            "BIOL157-U02-Q007",
+            "BIOL157-U02-Q008"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U02-T02",
+          "unit": "U02",
+          "title": "Formation of cells",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0205",
+            "BC0206",
+            "BC0207"
+          ],
+          "questions": [
+            "BIOL157-U02-Q009",
+            "BIOL157-U02-Q010",
+            "BIOL157-U02-Q011",
+            "BIOL157-U02-Q012",
+            "BIOL157-U02-Q013",
+            "BIOL157-U02-Q014"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U02-T03",
+          "unit": "U02",
+          "title": "Development of metabolic pathways",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0208"
+          ],
+          "questions": [
+            "BIOL157-U02-Q015",
+            "BIOL157-U02-Q016"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0201",
+        "BC0202",
+        "BC0203",
+        "BC0204",
+        "BC0205",
+        "BC0206",
+        "BC0207",
+        "BC0208"
+      ]
+    },
+    {
+      "id": "U03",
+      "title": "Atomic Structure and Periodic Chemistry",
+      "topics": [
+        {
+          "id": "BIOL157-U03-T01",
+          "unit": "U03",
+          "title": "Early atomic theories",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0301",
+            "BC0302"
+          ],
+          "questions": [
+            "BIOL157-U03-Q001",
+            "BIOL157-U03-Q002",
+            "BIOL157-U03-Q003",
+            "BIOL157-U03-Q004",
+            "BIOL157-U03-Q005",
+            "BIOL157-U03-Q006",
+            "BIOL157-U03-Q007"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U03-T02",
+          "unit": "U03",
+          "title": "Electronic configuration",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0303",
+            "BC0304",
+            "BC0305"
+          ],
+          "questions": [
+            "BIOL157-U03-Q008",
+            "BIOL157-U03-Q009",
+            "BIOL157-U03-Q010",
+            "BIOL157-U03-Q011",
+            "BIOL157-U03-Q012",
+            "BIOL157-U03-Q013",
+            "BIOL157-U03-Q014",
+            "BIOL157-U03-Q015",
+            "BIOL157-U03-Q016",
+            "BIOL157-U03-Q017",
+            "BIOL157-U03-Q018",
+            "BIOL157-U03-Q019"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U03-T03",
+          "unit": "U03",
+          "title": "Periodic properties",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0306",
+            "BC0307",
+            "BC0308",
+            "BC0309"
+          ],
+          "questions": [
+            "BIOL157-U03-Q020",
+            "BIOL157-U03-Q021",
+            "BIOL157-U03-Q022",
+            "BIOL157-U03-Q023",
+            "BIOL157-U03-Q024",
+            "BIOL157-U03-Q025",
+            "BIOL157-U03-Q026",
+            "BIOL157-U03-Q027",
+            "BIOL157-U03-Q028",
+            "BIOL157-U03-Q029",
+            "BIOL157-U03-Q030",
+            "BIOL157-U03-Q031",
+            "BIOL157-U03-Q032",
+            "BIOL157-U03-Q033",
+            "BIOL157-U03-Q034"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0301",
+        "BC0302",
+        "BC0303",
+        "BC0304",
+        "BC0305",
+        "BC0306",
+        "BC0307",
+        "BC0308",
+        "BC0309"
+      ]
+    },
+    {
+      "id": "U04",
+      "title": "Bond Formation and Molecules",
+      "topics": [
+        {
+          "id": "BIOL157-U04-T01",
+          "unit": "U04",
+          "title": "Chemical bonds",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0401",
+            "BC0402",
+            "BC0403",
+            "BC0404",
+            "BC0405"
+          ],
+          "questions": [
+            "BIOL157-U04-Q001",
+            "BIOL157-U04-Q002",
+            "BIOL157-U04-Q003",
+            "BIOL157-U04-Q004",
+            "BIOL157-U04-Q005",
+            "BIOL157-U04-Q006",
+            "BIOL157-U04-Q007",
+            "BIOL157-U04-Q008",
+            "BIOL157-U04-Q009",
+            "BIOL157-U04-Q010",
+            "BIOL157-U04-Q011",
+            "BIOL157-U04-Q012",
+            "BIOL157-U04-Q013",
+            "BIOL157-U04-Q014",
+            "BIOL157-U04-Q015",
+            "BIOL157-U04-Q016",
+            "BIOL157-U04-Q017",
+            "BIOL157-U04-Q018",
+            "BIOL157-U04-Q019",
+            "BIOL157-U04-Q050",
+            "BIOL157-U04-Q051"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U04-T02",
+          "unit": "U04",
+          "title": "Molecular forces",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0406"
+          ],
+          "questions": [
+            "BIOL157-U04-Q020",
+            "BIOL157-U04-Q021",
+            "BIOL157-U04-Q022",
+            "BIOL157-U04-Q023"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U04-T03",
+          "unit": "U04",
+          "title": "Isomerism",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0407",
+            "BC0408",
+            "BC0409",
+            "BC0410",
+            "BC0411"
+          ],
+          "questions": [
+            "BIOL157-U04-Q024",
+            "BIOL157-U04-Q025",
+            "BIOL157-U04-Q026",
+            "BIOL157-U04-Q027",
+            "BIOL157-U04-Q028",
+            "BIOL157-U04-Q029",
+            "BIOL157-U04-Q030",
+            "BIOL157-U04-Q031",
+            "BIOL157-U04-Q032",
+            "BIOL157-U04-Q033",
+            "BIOL157-U04-Q034",
+            "BIOL157-U04-Q035",
+            "BIOL157-U04-Q036",
+            "BIOL157-U04-Q037",
+            "BIOL157-U04-Q038",
+            "BIOL157-U04-Q039",
+            "BIOL157-U04-Q040",
+            "BIOL157-U04-Q041",
+            "BIOL157-U04-Q042",
+            "BIOL157-U04-Q043",
+            "BIOL157-U04-Q044",
+            "BIOL157-U04-Q045"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U04-T04",
+          "unit": "U04",
+          "title": "Functional groups",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0412"
+          ],
+          "questions": [
+            "BIOL157-U04-Q046",
+            "BIOL157-U04-Q047",
+            "BIOL157-U04-Q048",
+            "BIOL157-U04-Q049"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0401",
+        "BC0402",
+        "BC0403",
+        "BC0404",
+        "BC0405",
+        "BC0406",
+        "BC0407",
+        "BC0408",
+        "BC0409",
+        "BC0410",
+        "BC0411",
+        "BC0412"
+      ]
+    },
+    {
+      "id": "U05",
+      "title": "Carbohydrates",
+      "topics": [
+        {
+          "id": "BIOL157-U05-T01",
+          "unit": "U05",
+          "title": "Monosaccharide derivatives",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0501",
+            "BC0502",
+            "BC0503",
+            "BC0504",
+            "BC0505",
+            "BC0506",
+            "BC0513",
+            "BC0514"
+          ],
+          "questions": [
+            "BIOL157-U05-Q001",
+            "BIOL157-U05-Q002",
+            "BIOL157-U05-Q003",
+            "BIOL157-U05-Q004",
+            "BIOL157-U05-Q005",
+            "BIOL157-U05-Q006",
+            "BIOL157-U05-Q007",
+            "BIOL157-U05-Q008",
+            "BIOL157-U05-Q009",
+            "BIOL157-U05-Q010",
+            "BIOL157-U05-Q011",
+            "BIOL157-U05-Q012",
+            "BIOL157-U05-Q013",
+            "BIOL157-U05-Q014",
+            "BIOL157-U05-Q015",
+            "BIOL157-U05-Q016",
+            "BIOL157-U05-Q017",
+            "BIOL157-U05-Q018",
+            "BIOL157-U05-Q019",
+            "BIOL157-U05-Q020",
+            "BIOL157-U05-Q021",
+            "BIOL157-U05-Q022",
+            "BIOL157-U05-Q023",
+            "BIOL157-U05-Q024",
+            "BIOL157-U05-Q025",
+            "BIOL157-U05-Q026",
+            "BIOL157-U05-Q050",
+            "BIOL157-U05-Q051",
+            "BIOL157-U05-Q052",
+            "BIOL157-U05-Q053",
+            "BIOL157-U05-Q054",
+            "BIOL157-U05-Q055",
+            "BIOL157-U05-Q056",
+            "BIOL157-U05-Q057",
+            "BIOL157-U05-Q058"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U05-T02",
+          "unit": "U05",
+          "title": "Oligosaccharides",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0507",
+            "BC0508"
+          ],
+          "questions": [
+            "BIOL157-U05-Q027",
+            "BIOL157-U05-Q028",
+            "BIOL157-U05-Q029",
+            "BIOL157-U05-Q030",
+            "BIOL157-U05-Q031",
+            "BIOL157-U05-Q032",
+            "BIOL157-U05-Q033",
+            "BIOL157-U05-Q034"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U05-T03",
+          "unit": "U05",
+          "title": "Polysaccharides",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0509",
+            "BC0510",
+            "BC0511",
+            "BC0512"
+          ],
+          "questions": [
+            "BIOL157-U05-Q035",
+            "BIOL157-U05-Q036",
+            "BIOL157-U05-Q037",
+            "BIOL157-U05-Q038",
+            "BIOL157-U05-Q039",
+            "BIOL157-U05-Q040",
+            "BIOL157-U05-Q041",
+            "BIOL157-U05-Q042",
+            "BIOL157-U05-Q043",
+            "BIOL157-U05-Q044",
+            "BIOL157-U05-Q045",
+            "BIOL157-U05-Q046",
+            "BIOL157-U05-Q047",
+            "BIOL157-U05-Q048",
+            "BIOL157-U05-Q049"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0501",
+        "BC0502",
+        "BC0503",
+        "BC0504",
+        "BC0505",
+        "BC0506",
+        "BC0507",
+        "BC0508",
+        "BC0509",
+        "BC0510",
+        "BC0511",
+        "BC0512",
+        "BC0513",
+        "BC0514"
+      ]
+    },
+    {
+      "id": "U06",
+      "title": "Nucleic Acids",
+      "topics": [
+        {
+          "id": "BIOL157-U06-T01",
+          "unit": "U06",
+          "title": "Purines and pyrimidines",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0601"
+          ],
+          "questions": [
+            "BIOL157-U06-Q001",
+            "BIOL157-U06-Q002",
+            "BIOL157-U06-Q003",
+            "BIOL157-U06-Q004",
+            "BIOL157-U06-Q005"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U06-T02",
+          "unit": "U06",
+          "title": "Nucleosides and nucleotides",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0602",
+            "BC0603",
+            "BC0610"
+          ],
+          "questions": [
+            "BIOL157-U06-Q006",
+            "BIOL157-U06-Q007",
+            "BIOL157-U06-Q008",
+            "BIOL157-U06-Q009",
+            "BIOL157-U06-Q010",
+            "BIOL157-U06-Q011",
+            "BIOL157-U06-Q012",
+            "BIOL157-U06-Q013",
+            "BIOL157-U06-Q014",
+            "BIOL157-U06-Q040",
+            "BIOL157-U06-Q041",
+            "BIOL157-U06-Q042",
+            "BIOL157-U06-Q043"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U06-T03",
+          "unit": "U06",
+          "title": "DNA",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0604",
+            "BC0605",
+            "BC0606",
+            "BC0607"
+          ],
+          "questions": [
+            "BIOL157-U06-Q015",
+            "BIOL157-U06-Q016",
+            "BIOL157-U06-Q017",
+            "BIOL157-U06-Q018",
+            "BIOL157-U06-Q019",
+            "BIOL157-U06-Q020",
+            "BIOL157-U06-Q021",
+            "BIOL157-U06-Q022",
+            "BIOL157-U06-Q023",
+            "BIOL157-U06-Q024",
+            "BIOL157-U06-Q025",
+            "BIOL157-U06-Q026",
+            "BIOL157-U06-Q027",
+            "BIOL157-U06-Q028",
+            "BIOL157-U06-Q029",
+            "BIOL157-U06-Q030",
+            "BIOL157-U06-Q031",
+            "BIOL157-U06-Q032"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U06-T04",
+          "unit": "U06",
+          "title": "RNA",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0608",
+            "BC0609"
+          ],
+          "questions": [
+            "BIOL157-U06-Q033",
+            "BIOL157-U06-Q034",
+            "BIOL157-U06-Q035",
+            "BIOL157-U06-Q036",
+            "BIOL157-U06-Q037",
+            "BIOL157-U06-Q038",
+            "BIOL157-U06-Q039",
+            "BIOL157-U06-Q044",
+            "BIOL157-U06-Q045"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0601",
+        "BC0602",
+        "BC0603",
+        "BC0604",
+        "BC0605",
+        "BC0606",
+        "BC0607",
+        "BC0608",
+        "BC0609",
+        "BC0610"
+      ]
+    },
+    {
+      "id": "U07",
+      "title": "Proteins",
+      "topics": [
+        {
+          "id": "BIOL157-U07-T01",
+          "unit": "U07",
+          "title": "Amino acids",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0701",
+            "BC0702",
+            "BC0703",
+            "BC0704",
+            "BC0705"
+          ],
+          "questions": [
+            "BIOL157-U07-Q001",
+            "BIOL157-U07-Q002",
+            "BIOL157-U07-Q003",
+            "BIOL157-U07-Q004",
+            "BIOL157-U07-Q005",
+            "BIOL157-U07-Q006",
+            "BIOL157-U07-Q007",
+            "BIOL157-U07-Q008",
+            "BIOL157-U07-Q009",
+            "BIOL157-U07-Q010",
+            "BIOL157-U07-Q011",
+            "BIOL157-U07-Q012",
+            "BIOL157-U07-Q013",
+            "BIOL157-U07-Q014",
+            "BIOL157-U07-Q015",
+            "BIOL157-U07-Q016",
+            "BIOL157-U07-Q017",
+            "BIOL157-U07-Q018",
+            "BIOL157-U07-Q019",
+            "BIOL157-U07-Q020",
+            "BIOL157-U07-Q021",
+            "BIOL157-U07-Q022",
+            "BIOL157-U07-Q023",
+            "BIOL157-U07-Q024",
+            "BIOL157-U07-Q025"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U07-T02",
+          "unit": "U07",
+          "title": "Peptide and polypeptide formation",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0706",
+            "BC0707"
+          ],
+          "questions": [
+            "BIOL157-U07-Q026",
+            "BIOL157-U07-Q027",
+            "BIOL157-U07-Q028",
+            "BIOL157-U07-Q029",
+            "BIOL157-U07-Q030",
+            "BIOL157-U07-Q031",
+            "BIOL157-U07-Q032",
+            "BIOL157-U07-Q033",
+            "BIOL157-U07-Q034",
+            "BIOL157-U07-Q035",
+            "BIOL157-U07-Q036"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U07-T03",
+          "unit": "U07",
+          "title": "Protein structure",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0708",
+            "BC0709",
+            "BC0710",
+            "BC0711",
+            "BC0712"
+          ],
+          "questions": [
+            "BIOL157-U07-Q037",
+            "BIOL157-U07-Q038",
+            "BIOL157-U07-Q039",
+            "BIOL157-U07-Q040",
+            "BIOL157-U07-Q041",
+            "BIOL157-U07-Q042",
+            "BIOL157-U07-Q043",
+            "BIOL157-U07-Q044",
+            "BIOL157-U07-Q045",
+            "BIOL157-U07-Q046",
+            "BIOL157-U07-Q047",
+            "BIOL157-U07-Q048",
+            "BIOL157-U07-Q049",
+            "BIOL157-U07-Q050",
+            "BIOL157-U07-Q051",
+            "BIOL157-U07-Q052",
+            "BIOL157-U07-Q053",
+            "BIOL157-U07-Q054",
+            "BIOL157-U07-Q055",
+            "BIOL157-U07-Q056",
+            "BIOL157-U07-Q057",
+            "BIOL157-U07-Q058",
+            "BIOL157-U07-Q059",
+            "BIOL157-U07-Q060"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0701",
+        "BC0702",
+        "BC0703",
+        "BC0704",
+        "BC0705",
+        "BC0706",
+        "BC0707",
+        "BC0708",
+        "BC0709",
+        "BC0710",
+        "BC0711",
+        "BC0712"
+      ]
+    },
+    {
+      "id": "U08",
+      "title": "Enzymes",
+      "topics": [
+        {
+          "id": "BIOL157-U08-T01",
+          "unit": "U08",
+          "title": "Enzyme function",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0801",
+            "BC0802",
+            "BC0804"
+          ],
+          "questions": [
+            "BIOL157-U08-Q001",
+            "BIOL157-U08-Q002",
+            "BIOL157-U08-Q003",
+            "BIOL157-U08-Q004",
+            "BIOL157-U08-Q005",
+            "BIOL157-U08-Q006",
+            "BIOL157-U08-Q007",
+            "BIOL157-U08-Q008",
+            "BIOL157-U08-Q014",
+            "BIOL157-U08-Q015",
+            "BIOL157-U08-Q016",
+            "BIOL157-U08-Q017"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U08-T02",
+          "unit": "U08",
+          "title": "Enzyme classification",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0803"
+          ],
+          "questions": [
+            "BIOL157-U08-Q009",
+            "BIOL157-U08-Q010",
+            "BIOL157-U08-Q011",
+            "BIOL157-U08-Q012",
+            "BIOL157-U08-Q013"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U08-T03",
+          "unit": "U08",
+          "title": "Enzyme kinetics",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0805",
+            "BC0806",
+            "BC0807",
+            "BC0808",
+            "BC0809",
+            "BC0810",
+            "BC0811"
+          ],
+          "questions": [
+            "BIOL157-U08-Q018",
+            "BIOL157-U08-Q019",
+            "BIOL157-U08-Q020",
+            "BIOL157-U08-Q021",
+            "BIOL157-U08-Q022",
+            "BIOL157-U08-Q023",
+            "BIOL157-U08-Q024",
+            "BIOL157-U08-Q025",
+            "BIOL157-U08-Q026",
+            "BIOL157-U08-Q027",
+            "BIOL157-U08-Q028",
+            "BIOL157-U08-Q029",
+            "BIOL157-U08-Q030",
+            "BIOL157-U08-Q031",
+            "BIOL157-U08-Q032",
+            "BIOL157-U08-Q033",
+            "BIOL157-U08-Q034",
+            "BIOL157-U08-Q035",
+            "BIOL157-U08-Q036",
+            "BIOL157-U08-Q037",
+            "BIOL157-U08-Q038",
+            "BIOL157-U08-Q039",
+            "BIOL157-U08-Q040",
+            "BIOL157-U08-Q041",
+            "BIOL157-U08-Q042",
+            "BIOL157-U08-Q043",
+            "BIOL157-U08-Q044",
+            "BIOL157-U08-Q045",
+            "BIOL157-U08-Q046",
+            "BIOL157-U08-Q047",
+            "BIOL157-U08-Q048",
+            "BIOL157-U08-Q049"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U08-T04",
+          "unit": "U08",
+          "title": "Enzyme regulation",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0812",
+            "BC0813",
+            "BC0814"
+          ],
+          "questions": [
+            "BIOL157-U08-Q050",
+            "BIOL157-U08-Q051",
+            "BIOL157-U08-Q052",
+            "BIOL157-U08-Q053",
+            "BIOL157-U08-Q054",
+            "BIOL157-U08-Q055",
+            "BIOL157-U08-Q056",
+            "BIOL157-U08-Q057",
+            "BIOL157-U08-Q058",
+            "BIOL157-U08-Q059",
+            "BIOL157-U08-Q060",
+            "BIOL157-U08-Q061",
+            "BIOL157-U08-Q062",
+            "BIOL157-U08-Q063"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0801",
+        "BC0802",
+        "BC0803",
+        "BC0804",
+        "BC0805",
+        "BC0806",
+        "BC0807",
+        "BC0808",
+        "BC0809",
+        "BC0810",
+        "BC0811",
+        "BC0812",
+        "BC0813",
+        "BC0814"
+      ]
+    },
+    {
+      "id": "U09",
+      "title": "Metabolic Pathways",
+      "topics": [
+        {
+          "id": "BIOL157-U09-T01",
+          "unit": "U09",
+          "title": "Principles of metabolic pathways",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0901",
+            "BC0902",
+            "BC0903",
+            "BC0904"
+          ],
+          "questions": [
+            "BIOL157-U09-Q001",
+            "BIOL157-U09-Q002",
+            "BIOL157-U09-Q003",
+            "BIOL157-U09-Q004",
+            "BIOL157-U09-Q005",
+            "BIOL157-U09-Q006",
+            "BIOL157-U09-Q007",
+            "BIOL157-U09-Q008",
+            "BIOL157-U09-Q009",
+            "BIOL157-U09-Q010",
+            "BIOL157-U09-Q011",
+            "BIOL157-U09-Q012",
+            "BIOL157-U09-Q013",
+            "BIOL157-U09-Q014",
+            "BIOL157-U09-Q015",
+            "BIOL157-U09-Q016",
+            "BIOL157-U09-Q017",
+            "BIOL157-U09-Q018"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U09-T02",
+          "unit": "U09",
+          "title": "Control mechanisms",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC0905",
+            "BC0906",
+            "BC0907"
+          ],
+          "questions": [
+            "BIOL157-U09-Q019",
+            "BIOL157-U09-Q020",
+            "BIOL157-U09-Q021",
+            "BIOL157-U09-Q022",
+            "BIOL157-U09-Q023",
+            "BIOL157-U09-Q024",
+            "BIOL157-U09-Q025",
+            "BIOL157-U09-Q026",
+            "BIOL157-U09-Q027",
+            "BIOL157-U09-Q028",
+            "BIOL157-U09-Q029",
+            "BIOL157-U09-Q030",
+            "BIOL157-U09-Q031",
+            "BIOL157-U09-Q032",
+            "BIOL157-U09-Q033"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC0901",
+        "BC0902",
+        "BC0903",
+        "BC0904",
+        "BC0905",
+        "BC0906",
+        "BC0907"
+      ]
+    },
+    {
+      "id": "U10",
+      "title": "Lipids",
+      "topics": [
+        {
+          "id": "BIOL157-U10-T01",
+          "unit": "U10",
+          "title": "Functions of lipids",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC1001",
+            "BC1004",
+            "BC1012"
+          ],
+          "questions": [
+            "BIOL157-U10-Q001",
+            "BIOL157-U10-Q002",
+            "BIOL157-U10-Q003",
+            "BIOL157-U10-Q014",
+            "BIOL157-U10-Q015",
+            "BIOL157-U10-Q016",
+            "BIOL157-U10-Q039",
+            "BIOL157-U10-Q040",
+            "BIOL157-U10-Q041"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U10-T02",
+          "unit": "U10",
+          "title": "Lipid classification",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC1005",
+            "BC1008",
+            "BC1010",
+            "BC1011"
+          ],
+          "questions": [
+            "BIOL157-U10-Q017",
+            "BIOL157-U10-Q018",
+            "BIOL157-U10-Q019",
+            "BIOL157-U10-Q020",
+            "BIOL157-U10-Q027",
+            "BIOL157-U10-Q028",
+            "BIOL157-U10-Q032",
+            "BIOL157-U10-Q033",
+            "BIOL157-U10-Q034",
+            "BIOL157-U10-Q035",
+            "BIOL157-U10-Q036",
+            "BIOL157-U10-Q037",
+            "BIOL157-U10-Q038"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U10-T03",
+          "unit": "U10",
+          "title": "Lipid reactions",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC1006",
+            "BC1014"
+          ],
+          "questions": [
+            "BIOL157-U10-Q021",
+            "BIOL157-U10-Q022",
+            "BIOL157-U10-Q023",
+            "BIOL157-U10-Q045",
+            "BIOL157-U10-Q046",
+            "BIOL157-U10-Q047"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U10-T04",
+          "unit": "U10",
+          "title": "Structural features",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC1002",
+            "BC1007",
+            "BC1009"
+          ],
+          "questions": [
+            "BIOL157-U10-Q004",
+            "BIOL157-U10-Q005",
+            "BIOL157-U10-Q006",
+            "BIOL157-U10-Q007",
+            "BIOL157-U10-Q008",
+            "BIOL157-U10-Q009",
+            "BIOL157-U10-Q010",
+            "BIOL157-U10-Q024",
+            "BIOL157-U10-Q025",
+            "BIOL157-U10-Q026",
+            "BIOL157-U10-Q029",
+            "BIOL157-U10-Q030",
+            "BIOL157-U10-Q031"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        },
+        {
+          "id": "BIOL157-U10-T05",
+          "unit": "U10",
+          "title": "Lipid properties",
+          "status": "draft-review",
+          "sourceRefs": [
+            {
+              "source": "outline",
+              "pages": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          ],
+          "notes": [
+            "BC1003",
+            "BC1013",
+            "BC1015"
+          ],
+          "questions": [
+            "BIOL157-U10-Q011",
+            "BIOL157-U10-Q012",
+            "BIOL157-U10-Q013",
+            "BIOL157-U10-Q042",
+            "BIOL157-U10-Q043",
+            "BIOL157-U10-Q044",
+            "BIOL157-U10-Q048",
+            "BIOL157-U10-Q049",
+            "BIOL157-U10-Q050",
+            "BIOL157-U10-Q051",
+            "BIOL157-U10-Q052",
+            "BIOL157-U10-Q053"
+          ],
+          "coverageStatus": "draft-content-needs-review"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "source": "outline",
+          "pages": [
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "status": "draft-review",
+      "lessons": [
+        "BC1001",
+        "BC1002",
+        "BC1003",
+        "BC1004",
+        "BC1005",
+        "BC1006",
+        "BC1007",
+        "BC1008",
+        "BC1009",
+        "BC1010",
+        "BC1011",
+        "BC1012",
+        "BC1013",
+        "BC1014",
+        "BC1015"
+      ]
+    }
+  ],
+  "counts": {
+    "units": 10,
+    "topics": 34,
+    "concepts": 107,
+    "lessons": 107,
+    "questions": 431
+  }
+}

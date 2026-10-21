@@ -1,0 +1,85 @@
+[
+  {
+    "id": "CO-Q003",
+    "original": {
+      "options": [
+        "The total number of cells in the organism",
+        "Subcellular structure",
+        "The structure and organisation of its components",
+        "The distance between neighbouring cells"
+      ]
+    },
+    "changes": {
+      "options": [
+        "The total number of cells in the organism",
+        "Subcellular structure",
+        "Chemical composition alone, regardless of component organisation",
+        "The distance between neighbouring cells"
+      ]
+    },
+    "answerLetter": "B",
+    "reason": "Original options B and C expressed the same defensible structure-function principle. Replace only the overlapping distractor.",
+    "source": "BIOL151-LECTURER-2025",
+    "pages": [
+      194
+    ],
+    "reviewStatus": "corrected-draft-awaiting-academic-review",
+    "reviewer": null,
+    "history": "Stable ID, option positions and keyed answer retained. Earlier ambiguous practice is not academically certified and is not regraded or deleted."
+  },
+  {
+    "id": "CO-Q005",
+    "original": {
+      "question": "Which activity is NOT a general function of every cell?"
+    },
+    "changes": {
+      "question": "Which activity is specialised rather than part of the lecturer’s general cellular-function framework?"
+    },
+    "answerLetter": "D",
+    "reason": "Avoid the false universal every cell wording: some differentiated cells lose nuclear DNA or reproductive capacity.",
+    "source": "BIOL151-LECTURER-2025",
+    "pages": [
+      195
+    ],
+    "reviewStatus": "corrected-draft-awaiting-academic-review",
+    "reviewer": null,
+    "history": "Stable ID, option positions and keyed answer retained. Earlier ambiguous practice is not academically certified and is not regraded or deleted."
+  },
+  {
+    "id": "CO-Q012",
+    "original": {
+      "question": "Which factor is explicitly identified as influencing cell shape?"
+    },
+    "changes": {
+      "question": "A cell is compressed by adjacent cells while its other properties remain similar. Which listed factor most directly explains the change in its outline?"
+    },
+    "answerLetter": "C",
+    "reason": "Replace near-duplicate recall of CO-Q008 with a source-supported mechanical application; retain option order and C key.",
+    "source": "BIOL151-LECTURER-2025",
+    "pages": [
+      200
+    ],
+    "reviewStatus": "corrected-draft-awaiting-academic-review",
+    "reviewer": null,
+    "history": "Stable ID, option positions and keyed answer retained. Earlier ambiguous practice is not academically certified and is not regraded or deleted."
+  },
+  {
+    "id": "CYQ19",
+    "original": {
+      "question": "Which drug is named in the slides as used in cancer chemotherapy?"
+    },
+    "changes": {
+      "question": "Which drug is named in the slides as inhibiting microtubule assembly and used in cancer chemotherapy?"
+    },
+    "answerLetter": "B",
+    "reason": "Both paclitaxel and vincristine are anticancer drugs. Specify the assembly-inhibiting mechanism to make B uniquely correct.",
+    "source": "BIOL151-LECTURER-2025",
+    "pages": [
+      283,
+      284
+    ],
+    "reviewStatus": "corrected-draft-awaiting-academic-review",
+    "reviewer": null,
+    "history": "Stable ID, option positions and keyed answer retained. Earlier ambiguous practice is not academically certified and is not regraded or deleted."
+  }
+]

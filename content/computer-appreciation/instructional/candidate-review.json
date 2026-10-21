@@ -1,0 +1,158 @@
+[
+  {
+    "candidate": "CSM177-B01-L01-Q01",
+    "candidateCorrectOption": "Microsoft Excel",
+    "actualPdfPages": [
+      4
+    ],
+    "actualTextSha256": "aeb073bc256885a184bc4b4eed57567573e8fcb1173cffce198415a333f33219",
+    "decision": "overlap-existing-objective",
+    "relatedLesson": "CA01",
+    "reason": "Spreadsheet purpose is already taught; a second program-identification item adds little variety.",
+    "imported": false,
+    "academicApproval": null
+  },
+  {
+    "candidate": "CSM177-B01-L01-Q02",
+    "candidateCorrectOption": "Microsoft Access",
+    "actualPdfPages": [
+      3
+    ],
+    "actualTextSha256": "fa135c75f9ca8d822d1583d68d2e8d6d9c342db433266c1cb7fba354bc9bff5e",
+    "decision": "defer-context-only",
+    "relatedLesson": "CA01",
+    "reason": "Access is identified in the source, but extra application-name recall is not a priority over explaining spreadsheet behavior.",
+    "imported": false,
+    "academicApproval": null
+  },
+  {
+    "candidate": "CSM177-B01-L01-Q03",
+    "candidateCorrectOption": "Preparing a trial balance",
+    "actualPdfPages": [
+      7
+    ],
+    "actualTextSha256": "453ff6909fb0a9c0faff2ae4aa43f4a39523d4390feed538fbf821c6a0086310",
+    "decision": "defer-prerequisite-teaching",
+    "relatedLesson": "CA01",
+    "reason": "Trial balance is listed as an application, not fully taught accounting material.",
+    "imported": false,
+    "academicApproval": null
+  },
+  {
+    "candidate": "CSM177-B01-L01-Q04",
+    "candidateCorrectOption": "Analysis of variance",
+    "actualPdfPages": [
+      8
+    ],
+    "actualTextSha256": "0db1e001aa05e82eb4ddc7c5f22a4b8c336d7e52b5cafe097ff53aa6bfc89212",
+    "decision": "defer-prerequisite-teaching",
+    "relatedLesson": "CA05",
+    "reason": "The source lists ANOVA; this course implementation does not teach the procedure or assumptions.",
+    "imported": false,
+    "academicApproval": null
+  },
+  {
+    "candidate": "CSM177-B01-L01-Q05",
+    "candidateCorrectOption": "Histogram",
+    "actualPdfPages": [
+      9
+    ],
+    "actualTextSha256": "2a4ae450c781fe37c30bdae0ee2451821b97b79346b4af3613bd1ed2487aca82",
+    "decision": "defer-missing-depth",
+    "relatedLesson": "CA08",
+    "reason": "Histogram is named here; a source-reviewed distribution/bin tutorial is still needed.",
+    "imported": false,
+    "academicApproval": null
+  },
+  {
+    "candidate": "CSM177-B01-L01-Q06",
+    "candidateCorrectOption": "Mortality values",
+    "actualPdfPages": [
+      9
+    ],
+    "actualTextSha256": "2a4ae450c781fe37c30bdae0ee2451821b97b79346b4af3613bd1ed2487aca82",
+    "decision": "defer-context-only",
+    "relatedLesson": "CA08",
+    "reason": "The hospital example is verifiable but isolated example recall adds less value than chart interpretation.",
+    "imported": false,
+    "academicApproval": null
+  },
+  {
+    "candidate": "CSM177-B01-L01-Q07",
+    "candidateCorrectOption": "Forex bureaux",
+    "actualPdfPages": [
+      10
+    ],
+    "actualTextSha256": "e05808c417d04557a9064992b1d72f1cfd24f5a1e9b52a911dcce11fe094cfdc",
+    "decision": "defer-context-only",
+    "relatedLesson": "CA07",
+    "reason": "Forex is a listed application, not an assessed currency-conversion workflow.",
+    "imported": false,
+    "academicApproval": null
+  },
+  {
+    "candidate": "CSM177-B01-L01-Q08",
+    "candidateCorrectOption": "Sorting records",
+    "actualPdfPages": [
+      11
+    ],
+    "actualTextSha256": "f60b66685afb7bb31c0cdf3e10991b3d18ca8c317029ef712ee356f3ba6c4ad2",
+    "decision": "overlap-existing-objective",
+    "relatedLesson": "CA09",
+    "reason": "Sorting purpose is already assessed by CA-Q050.",
+    "imported": false,
+    "academicApproval": null
+  },
+  {
+    "candidate": "CSM177-B01-L01-Q09",
+    "candidateCorrectOption": "How changing an input affects a result",
+    "actualPdfPages": [
+      12
+    ],
+    "actualTextSha256": "a70746b6969bc4b44465fd3f111df985db5d93ce68e5d55c85e4f6d621253524",
+    "decision": "notes-improved-no-new-item",
+    "relatedLesson": "CA01",
+    "reason": "What-if input changes are now demonstrated in the register and reference exercises; no additional scored item required for the checkpoint.",
+    "imported": false,
+    "academicApproval": null
+  },
+  {
+    "candidate": "CSM177-B01-L01-Q10",
+    "candidateCorrectOption": "They recalculate",
+    "actualPdfPages": [
+      13
+    ],
+    "actualTextSha256": "6b27e882b142f5013b671a62defe2899d8c7c11e06487d923fe76c15ae9484de",
+    "decision": "notes-improved-no-new-item",
+    "relatedLesson": "CA03",
+    "reason": "Recalculation prediction is now explicit in worked examples; defer another similar item.",
+    "imported": false,
+    "academicApproval": null
+  },
+  {
+    "candidate": "CSM177-B01-L01-Q11",
+    "candidateCorrectOption": "LOTUS 1-2-3",
+    "actualPdfPages": [
+      14
+    ],
+    "actualTextSha256": "910072e6da55261dc68a20d960a4347925114c8d3cdbb358b5337a9af7d8abaf",
+    "decision": "defer-historical-recall",
+    "relatedLesson": "CA01",
+    "reason": "A legacy package name has limited instructional value for current spreadsheet skills.",
+    "imported": false,
+    "academicApproval": null
+  },
+  {
+    "candidate": "CSM177-B01-L01-Q12",
+    "candidateCorrectOption": "Worksheet",
+    "actualPdfPages": [
+      15
+    ],
+    "actualTextSha256": "34debc551dbf337ac5c04b5e864dff35270d8ae5b8d9e8535cb60b73a629a932",
+    "decision": "overlap-existing-objective",
+    "relatedLesson": "CA01",
+    "reason": "Worksheet/workbook distinction is already assessed by CA-Q002.",
+    "imported": false,
+    "academicApproval": null
+  }
+]

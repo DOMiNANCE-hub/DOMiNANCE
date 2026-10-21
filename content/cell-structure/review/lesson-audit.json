@@ -1,0 +1,1086 @@
+[
+  {
+    "lesson": "BI01",
+    "title": "BI01 — Biochemical analysis and spectrophotometry",
+    "originalSha256": "41be348a72821e3a6f8e919412bcbb07001f949ff7a7b4ba82f28ea32f1e6403",
+    "objectives": [
+      "BIOL151-ED-ANALYSIS"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Supplementary equation/calculation/controls expanded; not attributed to lecturer instrument wording.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "BI02",
+    "title": "BI02 — Autoradiography and radioactive tracers",
+    "originalSha256": "a8c51dae62b60eb37e25cf0820338a6c6122c88ae2a723399e03aad912236846",
+    "objectives": [
+      "BIOL151-ED-ANALYSIS"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Tracer/detector/identity reasoning expanded; barium-meal correction preserved.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "BI03",
+    "title": "BI03 — Chromatography and partition principles",
+    "originalSha256": "3b1be304d02bf5cf8ba271843799465927df15a2b1ea5608e36215ac8f943630",
+    "objectives": [
+      "BIOL151-ED-ANALYSIS"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Partition/adsorption distinction retained; solvent-specific quantitative example remains future work.",
+    "expansion": false,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "BI04",
+    "title": "BI04 — Paper chromatography: setup and migration",
+    "originalSha256": "4f31f5fd35ce4097e4d2b8d9add474fb2f28a7f4dca8adb320860f4ede13ea3f",
+    "objectives": [
+      "BIOL151-ED-ANALYSIS"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Baseline/front/error investigation expanded, not an executable solvent-handling protocol.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "BI05",
+    "title": "BI05 — Chromatograms and retention factor",
+    "originalSha256": "76986a4fc24a04fa54ee1c79b37a3eb3fc46f558f44b222c04dd198142d15380",
+    "objectives": [
+      "BIOL151-ED-ANALYSIS"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Offset-origin/unit arithmetic expanded; printed TLC values visually checked; identity limits retained.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CE01",
+    "title": "CE01 — Cell Disruption and Homogenisation",
+    "originalSha256": "e94a49767132f6ae111536ca3506c96b0ffedcacd2bb6053d620ad589b57115b",
+    "objectives": [
+      "BIOL151-LO07"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Goal-dependent preservation/lysis comparison expanded; unidentified cell-wall agent remains unresolved.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CE02",
+    "title": "CE02 — Centrifugation and Differential Fractionation",
+    "originalSha256": "8bea2e66c15bfaba198f2af2df903a7a87bf6d4143a1858e98f24f7b625841c1",
+    "objectives": [
+      "BIOL151-LO07"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Fraction-tracing table and enrichment/identity distinction expanded.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CE03",
+    "title": "CE03 — Density Gradients, Rate-Zonal and Isopycnic Separation",
+    "originalSha256": "755faed17d1b201385877281780df2aeb93970cbb6a075f97aed28a226a9b094",
+    "objectives": [
+      "BIOL151-LO07"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Rate/equilibrium comparison and fictional density example expanded; not a universal gradient protocol.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CE04",
+    "title": "CE04 — Analytical Ultracentrifugation and Centrifuge Examples",
+    "originalSha256": "59d83cbda9b9bc80bf18da6548627ec3d64e16656cdcc3d7377230265c8012a2",
+    "objectives": [
+      "BIOL151-LO07"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Analytical/preparative distinction retained; no-standards wording still needs specialist review.",
+    "expansion": false,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CM01",
+    "title": "CM01 — Cytosol and the phospholipid bilayer",
+    "originalSha256": "0a91098a2a04e6d2fc66d1114def021698aef21a595727439952b26fc4d307a6",
+    "objectives": [
+      "BIOL151-LO06"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 6,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CM02",
+    "title": "CM02 — Cholesterol and membrane fluidity",
+    "originalSha256": "baa9660808f808c2124474f93ee1b0bc511fd0249ace6f71bda7d7264c5ecb34",
+    "objectives": [
+      "BIOL151-LO06"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Conditional fluidity and flip-flop reasoning expanded; packing figure/text checked on pp.303-304.",
+    "expansion": true,
+    "originalQuestions": 6,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CM03",
+    "title": "CM03 — Membrane lipids, proteins and glycocalyx",
+    "originalSha256": "07aa4e8cdccb8845aa5945b6c67d8cbbb1864afed956e12b0399b1ba0d427fba",
+    "objectives": [
+      "BIOL151-LO06"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 6,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CM04",
+    "title": "CM04 — Selective permeability and electrochemical gradients",
+    "originalSha256": "6f47e36b44c64e765ac34bea1c97349f36368fb4d2966da12b3f1da102a0b09b",
+    "objectives": [
+      "BIOL151-LO06"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Opposing/reinforcing electrochemical reasoning and pathway distinction expanded.",
+    "expansion": true,
+    "originalQuestions": 6,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CO01",
+    "title": "The Cell as the Fundamental Unit of Life",
+    "originalSha256": "e5959779688eb4caba0800042b960581cad7f2fa81d42438a19df3b55dd07118",
+    "objectives": [
+      "BIOL151-LO05"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 6,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CO02",
+    "title": "Cellular Diversity, Size and Shape",
+    "originalSha256": "9dca490f4b8f674e0957049efb28df0f6a18048312502e734cb8febabc97a0df",
+    "objectives": [
+      "BIOL151-LO05"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 6,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CO03",
+    "title": "Surface-Area-to-Volume Ratio and Cell Size",
+    "originalSha256": "4bb701d023e8dff6b4c97ca1dd6990b546361a78b311ac0063a704927b5ef249",
+    "objectives": [
+      "BIOL151-LO05"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 6,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CO04",
+    "title": "Prokaryotic and Eukaryotic Cells",
+    "originalSha256": "a355cb82f9842ad23901e200acb7a5fd71eed361a965f99a5f7568699b62385c",
+    "objectives": [
+      "BIOL151-LO05"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 6,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CY01",
+    "title": "CY01 — Cytoskeleton: architecture and movement",
+    "originalSha256": "3574ca14bbd2a2afdf3011c635c864a9066b75d126c83dc4e79cc9c56dd66aee",
+    "objectives": [
+      "BIOL151-LO06",
+      "BIOL151-CY01",
+      "BIOL151-CY02",
+      "BIOL151-CY03",
+      "BIOL151-CY04",
+      "BIOL151-CY06",
+      "BIOL151-CY08",
+      "BIOL151-CY09",
+      "BIOL151-CY10"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 6,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CY02",
+    "title": "CY02 — Three filament systems and motor proteins",
+    "originalSha256": "da68109d010cede93fbc5fed1bad4dcc10aad37037e87fecd776a7ab8a0111e0",
+    "objectives": [
+      "BIOL151-LO06",
+      "BIOL151-CY03",
+      "BIOL151-CY05",
+      "BIOL151-CY09"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 6,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CY03",
+    "title": "CY03 — Microtubule structure, polarity and dynamic instability",
+    "originalSha256": "528d6538f66d5de34a70b37595888c3ee0cd7b62c57e14c0af6460d9c6265f2c",
+    "objectives": [
+      "BIOL151-LO06",
+      "BIOL151-CY04",
+      "BIOL151-CY05",
+      "BIOL151-CY07"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Polarity/dynamics reasoning expanded, particularly structural versus electrical meaning.",
+    "expansion": true,
+    "originalQuestions": 6,
+    "academicApproval": null
+  },
+  {
+    "lesson": "CY04",
+    "title": "CY04 — Microtubules in mitosis and medicine",
+    "originalSha256": "d436e6292a1282b083c1d36659c43983039fa410f93a5f6b40adbaa7b8fe7d84",
+    "objectives": [
+      "BIOL151-LO06",
+      "BIOL151-CY02",
+      "BIOL151-CY04",
+      "BIOL151-CY07"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 6,
+    "academicApproval": null
+  },
+  {
+    "lesson": "OR01",
+    "title": "OR01 — Microbodies and Peroxisomes",
+    "originalSha256": "f5832d8520e50b63107b6746c3aba4bb35f8caf78c526748de6a5b85e0b88cdb",
+    "objectives": [
+      "BIOL151-LO06"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Oxidation/peroxide mechanism expanded; three overlapping human-uricase caveats consolidated into one without deleting the unique purine-endpoint qualification.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "OR02",
+    "title": "OR02 — Glyoxysomes and Hydrogenosomes",
+    "originalSha256": "1e7e100abce176e04b50e1e0268b6ffd0220496b20b1d7c56cc427b0562896dc",
+    "objectives": [
+      "BIOL151-LO06"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "OR03",
+    "title": "OR03 — Lysosomes: Structure and Intracellular Digestion",
+    "originalSha256": "99986ee6ed9d9b0777bd070a6101a79900edf906dd0b63cabe2f0413fb11be9f",
+    "objectives": [
+      "BIOL151-LO06"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Pump/environment/cargo-origin mechanism expanded; modern maturation qualification retained.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "OR04",
+    "title": "OR04 — Lysosomes in Disease: Silicosis and Tay–Sachs",
+    "originalSha256": "c9656cea25e7e23b420b88ee68f893f9641234d1dce47f8087f6283e428ee463",
+    "objectives": [
+      "BIOL151-LO06"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Storage versus injury/fibrosis mechanism comparison expanded; ancestry/testing qualifications retained.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "OR05",
+    "title": "OR05 — Nucleus: Envelope, Pores and Genetic Instructions",
+    "originalSha256": "09e0f5e48da9da0588048e2c916402a8e7ae79d6ff8d65278b360b7fc201690e",
+    "objectives": [
+      "BIOL151-LO06"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "OR06",
+    "title": "OR06 — Nucleolus, Chromatin and Chromosomes",
+    "originalSha256": "29f68f10076e3fcd45a4b6fe7a92493ca5fc838fa2eb98b7991282176f9e8ea1",
+    "objectives": [
+      "BIOL151-LO06"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "OR07",
+    "title": "OR07 — Centrosome and Centrioles",
+    "originalSha256": "486a65a39402d97a42e9b0dfb3037a9f556795750319835ea4f87ce698dadfb1",
+    "objectives": [
+      "BIOL151-LO06",
+      "BIOL151-CY06"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Targeted independent-study mechanism/application and explicit-answer checks appended; correct existing text and original section order retained. See release Cell completion evidence for source qualifications.",
+    "expansion": true,
+    "originalQuestions": 5,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_01",
+    "title": "Lesson 1 — Why Microscopy Matters",
+    "originalSha256": "522d51384de0140141b725438d362c49f0ec46640b5c610b88a0d7755bd7e034",
+    "objectives": [
+      "BIOL151-LO01"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Unit/image-quality distinction sound; new numeric thought experiment connects magnification, contrast and resolution.",
+    "expansion": true,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_02",
+    "title": "Lesson 2 — Simple Microscopes",
+    "originalSha256": "46703253ae802e54e5ac0f0a218b5e879d2c160fe36e105625f4c33472c19cff",
+    "objectives": [
+      "BIOL151-LO01"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Single-lens explanation retained; virtual-image ray illustration remains pending.",
+    "expansion": false,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_03",
+    "title": "Lesson 3 — Optical Aberrations",
+    "originalSha256": "c5c71694ab2eb25c41176c49eef57b2f20ab0d8463e6fdada3d08c73bd39dfea",
+    "objectives": [
+      "BIOL151-LO01"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Detailed aberration explanations and lens/oil qualifications retained; optical diagrams still need review.",
+    "expansion": false,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_04",
+    "title": "Lesson 4 — Compound and Dissecting Microscopes",
+    "originalSha256": "44319c3c1c8d341db816fb3891571011a4a5717e5211b2e5a67038a89f78a29e",
+    "objectives": [
+      "BIOL151-LO01"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Compound/dissecting and eyepiece distinctions retained; source diagrams remain pending.",
+    "expansion": false,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_05",
+    "title": "Lesson 5 — Magnification, Parfocality and Working Distance",
+    "originalSha256": "5ca74c0d906aeb2b4ea891157da06c05fa0fe27d3d1ad16e88da1ef697edefd3",
+    "objectives": [
+      "BIOL151-LO01"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Correct 400x worked magnification and working-distance cautions retained.",
+    "expansion": false,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_06",
+    "title": "Lesson 6 — Resolution and Numerical Aperture",
+    "originalSha256": "b50fee7f1e6f049fe14ed7a7cdf6e7cd860d8f921cde468a2d3c6d1db74714d8",
+    "objectives": [
+      "BIOL151-LO01"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Calculation mechanism expanded and full NA table visually reconciled; remaining light-cone diagrams pending.",
+    "expansion": true,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_07",
+    "title": "Lesson 7 — Bright-field and Dark-field Microscopy",
+    "originalSha256": "8181d71867dad84eb83c6ee6520a0bd6192f40178dd2a33f0acf9139f6f9f3b3",
+    "objectives": [
+      "BIOL151-LO01"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Bright/dark-field core retained; scattered/direct ray reasoning expanded.",
+    "expansion": true,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_08",
+    "title": "Lesson 8 — Phase-Contrast Microscopy",
+    "originalSha256": "906f0b5eb0c664169be2e7c579009b485f1dec0141e3c6339c6f97c38d72b98c",
+    "objectives": [
+      "BIOL151-LO01"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Phase mechanism retained and expanded; phase optics diagram remains pending.",
+    "expansion": true,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_09",
+    "title": "Lesson 9 — Ultraviolet Microscopy",
+    "originalSha256": "1ee4b4678656c22ee6d2b4345a0d1c809e631e6cbaa68e70383a85e231324e4b",
+    "objectives": [
+      "BIOL151-LO01"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Useful UV limits retained; applications and quantitative comparisons need further teaching review.",
+    "expansion": false,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_10",
+    "title": "Lesson 10 — Fluorescence and Immunofluorescence",
+    "originalSha256": "753aa200303bd1c1e0c298a2a23bc2ad30bc6b4fcf553d16541fb57bc676195c",
+    "objectives": [
+      "BIOL151-LO01"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Fluorescence/antibody specificity retained; rationale now clarifies controls; visual pathway still pending.",
+    "expansion": false,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_11",
+    "title": "Lesson 11 — Electron Microscopy and Transmission Electron Microscopy (TEM)",
+    "originalSha256": "5f787168e5dc862e956fb3ec2eb07515a77611f7727177e844ac21e049573b31",
+    "objectives": [
+      "BIOL151-LO03",
+      "BIOL151-LO04"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Detailed TEM preparation/optics retained; instrument figures and all numerical specs not independently certified.",
+    "expansion": false,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_12",
+    "title": "Lesson 12 — Scanning Electron Microscopy (SEM) and Microscope Comparison",
+    "originalSha256": "e323896b963ba2f16ee4bc5d43cb66f0ea5eb4e3f39041f2e034870382c2ba6d",
+    "objectives": [
+      "BIOL151-LO03",
+      "BIOL151-LO04"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "TEM/SEM comparison retained; source micrographs remain pending, 3D appearance qualification retained.",
+    "expansion": false,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_13",
+    "title": "Lesson 13 — Why Specimens Must Be Prepared",
+    "originalSha256": "dd2281366838e5510ca9e69e21107ed4417e5f3d361038b7d7d63722010b80e4",
+    "objectives": [
+      "BIOL151-LO03",
+      "BIOL151-LO04"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Preservation/support/thickness/contrast causal sequence expanded.",
+    "expansion": true,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_14",
+    "title": "Lesson 14 — Fixation",
+    "originalSha256": "59c2aa974a2aa57d504f7fc8d5e28738b49a3a8d287cb20396ea3e3b0b0b4afd",
+    "objectives": [
+      "BIOL151-LO03",
+      "BIOL151-LO04"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Fixation/freezing distinctions retained; no universal protocol inferred from source reagent examples.",
+    "expansion": false,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_15",
+    "title": "Lesson 15 — Dehydration, Clearing and Embedding",
+    "originalSha256": "297262f2e23ce1ba508284113775e3ff3a6c607bddd47a57f913de9823eae211",
+    "objectives": [
+      "BIOL151-LO03",
+      "BIOL151-LO04"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Solvent compatibility and schedule limits expanded.",
+    "expansion": true,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_16",
+    "title": "Lesson 16 — Sectioning and Microtomes",
+    "originalSha256": "e32d6ccd4799d67467ef5228567aeb17f014268706fb209e35702d0bf0ef5932",
+    "objectives": [
+      "BIOL151-LO03",
+      "BIOL151-LO04"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Thickness, support and cutting-edge distinctions retained; instrument figure review pending.",
+    "expansion": false,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_17",
+    "title": "Lesson 17 — Staining for Light Microscopy",
+    "originalSha256": "9cbf9d96b23fb4f9721f909d4689acacf5d50f52dd9e913bff675118e0582405",
+    "objectives": [
+      "BIOL151-LO03",
+      "BIOL151-LO04"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Charge-based staining reasoning expanded, mordant and specialised contrast-agent caveats retained.",
+    "expansion": true,
+    "originalQuestions": 1,
+    "academicApproval": null
+  },
+  {
+    "lesson": "lesson_18",
+    "title": "Lesson 18 — Staining for Electron Microscopy",
+    "originalSha256": "141f75d39e34b7314402dfe9a7e2ad3f1396d5b6c0dcee2daf7acec401848ea5",
+    "objectives": [
+      "BIOL151-LO03",
+      "BIOL151-LO04"
+    ],
+    "objectiveCoverage": "partial source-aligned teaching; not complete current-syllabus certification",
+    "dimensionsReviewed": [
+      "terminology",
+      "explanation",
+      "causal-reasoning",
+      "comparisons",
+      "examples",
+      "checks",
+      "connections",
+      "source-and-figure-limits"
+    ],
+    "assessment": "Positive/negative spatial contrast expanded; metal-binding associations remain nonexclusive.",
+    "expansion": true,
+    "originalQuestions": 1,
+    "academicApproval": null
+  }
+]

@@ -1,0 +1,541 @@
+{
+  "status": "author-source-check-not-human-academic-approval",
+  "reviewer": null,
+  "source": "BIOL151-LECTURER-2025",
+  "pageConvention": "actual PDF page, not printed slide number",
+  "rationales": [
+    {
+      "id": "CO-Q001",
+      "pages": [
+        193
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q002",
+      "pages": [
+        195
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q003",
+      "pages": [
+        194
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q004",
+      "pages": [
+        192
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q005",
+      "pages": [
+        195
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q006",
+      "pages": [
+        194
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q007",
+      "pages": [
+        200
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q008",
+      "pages": [
+        200
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q009",
+      "pages": [
+        197
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q010",
+      "pages": [
+        197
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q011",
+      "pages": [
+        198
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q012",
+      "pages": [
+        200
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q013",
+      "pages": [
+        202
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q014",
+      "pages": [
+        202
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q015",
+      "pages": [
+        202
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q016",
+      "pages": [
+        202
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q017",
+      "pages": [
+        202
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q018",
+      "pages": [
+        203
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q019",
+      "pages": [
+        190
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q020",
+      "pages": [
+        204
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q021",
+      "pages": [
+        204
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q022",
+      "pages": [
+        204
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q023",
+      "pages": [
+        204
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CO-Q024",
+      "pages": [
+        201
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR02-Q01",
+      "pages": [
+        210,
+        211
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR02-Q02",
+      "pages": [
+        210
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR02-Q03",
+      "pages": [
+        213
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR02-Q04",
+      "pages": [
+        213
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR02-Q05",
+      "pages": [
+        206
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR05-Q01",
+      "pages": [
+        227
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR05-Q02",
+      "pages": [
+        230,
+        231,
+        233
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR05-Q03",
+      "pages": [
+        228
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR05-Q04",
+      "pages": [
+        232,
+        233
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR05-Q05",
+      "pages": [
+        229
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR06-Q01",
+      "pages": [
+        236
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR06-Q02",
+      "pages": [
+        235
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR06-Q03",
+      "pages": [
+        235,
+        236
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR06-Q04",
+      "pages": [
+        232
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR06-Q05",
+      "pages": [
+        235
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR07-Q01",
+      "pages": [
+        241,
+        243
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR07-Q02",
+      "pages": [
+        241
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR07-Q03",
+      "pages": [
+        241
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR07-Q04",
+      "pages": [
+        242
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "OR07-Q05",
+      "pages": [
+        241
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ01",
+      "pages": [
+        260
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ02",
+      "pages": [
+        261
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ03",
+      "pages": [
+        259,
+        262
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ04",
+      "pages": [
+        262
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ05",
+      "pages": [
+        259
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ06",
+      "pages": [
+        260
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ07",
+      "pages": [
+        247
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ08",
+      "pages": [
+        273
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ09",
+      "pages": [
+        274
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ10",
+      "pages": [
+        276
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ11",
+      "pages": [
+        274
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ12",
+      "pages": [
+        276
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ19",
+      "pages": [
+        284
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ20",
+      "pages": [
+        283,
+        284
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ21",
+      "pages": [
+        260
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ22",
+      "pages": [
+        259
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ23",
+      "pages": [
+        250,
+        253
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CYQ24",
+      "pages": [
+        280,
+        281,
+        284
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CM_MCQ_24-84",
+      "pages": [
+        285,
+        288
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CM_MCQ_24-85",
+      "pages": [
+        291,
+        292
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CM_MCQ_24-86",
+      "pages": [
+        291,
+        293
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CM_MCQ_24-87",
+      "pages": [
+        289,
+        290
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CM_MCQ_24-88",
+      "pages": [
+        286
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CM_MCQ_24-89",
+      "pages": [
+        287
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CM_MCQ_24-96",
+      "pages": [
+        312
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CM_MCQ_24-97",
+      "pages": [
+        313
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CM_MCQ_24-98",
+      "pages": [
+        313
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CM_MCQ_24-99",
+      "pages": [
+        316
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CM_MCQ_24-100",
+      "pages": [
+        316
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    },
+    {
+      "id": "CM_MCQ_24-101",
+      "pages": [
+        311
+      ],
+      "qualification": "Read with source-evidence independent clarifications and existing scientific exceptions; original broad source_pages is not silently rewritten."
+    }
+  ]
+}

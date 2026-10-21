@@ -1,0 +1,429 @@
+{
+  "unit": "U05",
+  "status": "author-source-checked-draft-awaiting-human-academic-review",
+  "reviewer": null,
+  "academicApproval": null,
+  "source": "L5",
+  "actualPdfPages": 58,
+  "readingScope": "All 58 actual pages text-read; 21 selected visual pages checked, six key structural pages enlarged. Actual and printed numbering recorded separately.",
+  "officialTopics": [
+    "BIOL157-U05-T01",
+    "BIOL157-U05-T02",
+    "BIOL157-U05-T03"
+  ],
+  "lessons": 14,
+  "questions": 58,
+  "originalFigures": 2,
+  "explicitAnswerChecks": 28,
+  "visualPages": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    25,
+    32,
+    35,
+    38,
+    42,
+    44,
+    48,
+    50,
+    54,
+    56,
+    57
+  ],
+  "actualToPrinted": [
+    {
+      "actual": 1,
+      "printed": null
+    },
+    {
+      "actual": 2,
+      "printed": 2
+    },
+    {
+      "actual": 3,
+      "printed": 3
+    },
+    {
+      "actual": 4,
+      "printed": 4
+    },
+    {
+      "actual": 5,
+      "printed": 5
+    },
+    {
+      "actual": 6,
+      "printed": 6
+    },
+    {
+      "actual": 7,
+      "printed": 7
+    },
+    {
+      "actual": 8,
+      "printed": 8
+    },
+    {
+      "actual": 9,
+      "printed": 9
+    },
+    {
+      "actual": 10,
+      "printed": 10
+    },
+    {
+      "actual": 11,
+      "printed": 11
+    },
+    {
+      "actual": 12,
+      "printed": 12
+    },
+    {
+      "actual": 13,
+      "printed": 13
+    },
+    {
+      "actual": 14,
+      "printed": 14
+    },
+    {
+      "actual": 15,
+      "printed": 16
+    },
+    {
+      "actual": 16,
+      "printed": 17
+    },
+    {
+      "actual": 17,
+      "printed": 18
+    },
+    {
+      "actual": 18,
+      "printed": 19
+    },
+    {
+      "actual": 19,
+      "printed": 20
+    },
+    {
+      "actual": 20,
+      "printed": 22
+    },
+    {
+      "actual": 21,
+      "printed": 24
+    },
+    {
+      "actual": 22,
+      "printed": 26
+    },
+    {
+      "actual": 23,
+      "printed": 27
+    },
+    {
+      "actual": 24,
+      "printed": 28
+    },
+    {
+      "actual": 25,
+      "printed": 29
+    },
+    {
+      "actual": 26,
+      "printed": 30
+    },
+    {
+      "actual": 27,
+      "printed": 31
+    },
+    {
+      "actual": 28,
+      "printed": 32
+    },
+    {
+      "actual": 29,
+      "printed": 33
+    },
+    {
+      "actual": 30,
+      "printed": 34
+    },
+    {
+      "actual": 31,
+      "printed": 36
+    },
+    {
+      "actual": 32,
+      "printed": 37
+    },
+    {
+      "actual": 33,
+      "printed": 38
+    },
+    {
+      "actual": 34,
+      "printed": 39
+    },
+    {
+      "actual": 35,
+      "printed": 40
+    },
+    {
+      "actual": 36,
+      "printed": 41
+    },
+    {
+      "actual": 37,
+      "printed": 42
+    },
+    {
+      "actual": 38,
+      "printed": 43
+    },
+    {
+      "actual": 39,
+      "printed": 44
+    },
+    {
+      "actual": 40,
+      "printed": 45
+    },
+    {
+      "actual": 41,
+      "printed": 46
+    },
+    {
+      "actual": 42,
+      "printed": 47
+    },
+    {
+      "actual": 43,
+      "printed": 48
+    },
+    {
+      "actual": 44,
+      "printed": 49
+    },
+    {
+      "actual": 45,
+      "printed": 50
+    },
+    {
+      "actual": 46,
+      "printed": 51
+    },
+    {
+      "actual": 47,
+      "printed": 54
+    },
+    {
+      "actual": 48,
+      "printed": 55
+    },
+    {
+      "actual": 49,
+      "printed": 56
+    },
+    {
+      "actual": 50,
+      "printed": 57
+    },
+    {
+      "actual": 51,
+      "printed": 58
+    },
+    {
+      "actual": 52,
+      "printed": 59
+    },
+    {
+      "actual": 53,
+      "printed": 60
+    },
+    {
+      "actual": 54,
+      "printed": 61
+    },
+    {
+      "actual": 55,
+      "printed": 62
+    },
+    {
+      "actual": 56,
+      "printed": 63
+    },
+    {
+      "actual": 57,
+      "printed": 64
+    },
+    {
+      "actual": 58,
+      "printed": 65
+    }
+  ],
+  "corrections": [
+    {
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "issue": "Energy, formula and dietary universals",
+      "decision": "Qualify 4 kcal/g as a digestible-carbohydrate approximation; modified formulas and other storage forms exist; dietary ranges are context, not universal guidance."
+    },
+    {
+      "pages": [
+        13,
+        14
+      ],
+      "issue": "Anomer/ring projection and configuration",
+      "decision": "Read actual diagrams with defined orientation; distinguish D/L from optical sign and α/β; do not infer complete chair energetics from flat polygons."
+    },
+    {
+      "pages": [
+        19
+      ],
+      "issue": "Unqualified glucose range mixed with postprandial wording",
+      "decision": "No diagnostic normal range or threshold question; sample and physiological conditions unprovided."
+    },
+    {
+      "pages": [
+        21,
+        22
+      ],
+      "issue": "Milk galactose and complete prevention claim for galactosaemia",
+      "decision": "Lactose is main milk carbohydrate. Classic GALT deficiency differs from lactase deficiency. Long-term complications can persist despite early appropriate dietary management; no treatment guarantee."
+    },
+    {
+      "pages": [
+        25,
+        29,
+        30
+      ],
+      "issue": "Abbreviated sucrose linkage omits fructose β descriptor",
+      "decision": "Teach both anomeric centres: Glcα(1↔2)βFru, nonreducing intact sucrose; hydrolysis changes chemistry."
+    },
+    {
+      "pages": [
+        32
+      ],
+      "issue": "Galacturonans labelled galactose",
+      "decision": "Use galacturonic-acid residues and distinguish galactan; corroborating ChEBI definition."
+    },
+    {
+      "pages": [
+        35,
+        37
+      ],
+      "issue": "Phosphorolysis described as splitting into monosaccharides",
+      "decision": "The diagram explicitly produces glucose 1-phosphate, not obligatory free glucose; distinguish hydrolysis, phosphate and bond specificity."
+    },
+    {
+      "pages": [
+        38
+      ],
+      "issue": "Cross-linked dextran juxtaposed with Bio-Gel and Sephadex labels",
+      "decision": "Matrix principle taught; commercial brand identity withheld from assessment."
+    },
+    {
+      "pages": [
+        41
+      ],
+      "issue": "Animal cellulose digestion and fixed chain counts",
+      "decision": "Qualify microbial contribution and variable chain length; no claim all animal tissues make cellulase."
+    },
+    {
+      "pages": [
+        47,
+        48
+      ],
+      "issue": "All GAGs O-linked to Ser-Gly",
+      "decision": "Qualify keratan N/O types and hyaluronan noncovalent core relationship; source figure itself includes different associations."
+    },
+    {
+      "pages": [
+        49,
+        50
+      ],
+      "issue": "Sulfonated α-naphthol prose versus standard α-naphthol reagent diagram",
+      "decision": "Teach α-naphthol reagent; no assertion that a separately sulfonated reagent is a required starting component. KNUST OER search passage supports standard description; no wet-lab execution."
+    },
+    {
+      "pages": [
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "issue": "Copper colour ladder and absolute mono/disaccharide classification",
+      "decision": "Teach Cu2+ reduction/Cu2O, fructose alkaline rearrangement, timed Barfoed limits and control-dependent interpretation; no quantitative glucose/clinical certification from uncalibrated colours."
+    }
+  ],
+  "limitations": [
+    "Human academic sign-off pending; no official examination status.",
+    "Private lecturer sources are available and hash-verified; secondary source opens that timed out or hit CAPTCHA are not described as full-text review.",
+    "No physical carbohydrate tests performed; reagent conditions require the approved supervised laboratory protocol.",
+    "No unqualified glucose/diet thresholds, clinical management promise or inconsistent commercial matrix brand is assessed.",
+    "Original diagrams are author-checked teaching schematics; independent human scientific/teaching review remains required.",
+    "Complex glycobiology synthesis and all clinical variants are outside the claimed introductory scope."
+  ],
+  "previousBanks": {
+    "commit": "b637032d0c766b72de99c5043d0371ffeae7a258",
+    "units": [
+      "U01",
+      "U02",
+      "U03",
+      "U04"
+    ],
+    "questionsSha256": "f1dbb928d6d7e034a8ffc54fc5ab1f794f9e853464cc7050cf91e01577877a4d",
+    "lessonSha256": {
+      "BC0101": "881cca0c4a028d4c2c07171c1404bd00da6c50abf6bf82431122e3e47312fab6",
+      "BC0102": "d05e3c6c2440890fcc48e88c0fa7d64cd8e233546254c196a29a77e1f3a3b031",
+      "BC0103": "45c4c38f2259cd65e2dd911084157428cb06e94c2d313b6c2f27e98490bf2b95",
+      "BC0104": "2e7fff9386684d5c2ca9e51040409629f512718d9d5b3184beca216a9fe7e5fa",
+      "BC0105": "c15e49dc05b0dd87a010382bc31fcaf46b1c8c956ca7d72e81e713450f3a2982",
+      "BC0106": "5e17c597f4ca1841b8df08d87a100b2f242cd1ec6cf25277320184cd0bc5fd5f",
+      "BC0201": "11f085f8667ab77607d4ddb548520ddbe97b94be4321f26c92164def82afd1ff",
+      "BC0202": "20bb2cf0c55917608709d157a16fa607dcefbba9ee382c70958c0db3d086516c",
+      "BC0203": "dc4a43c137f3b83e30023486ea2383b503b9458bd4efd2819f207f29ae22545d",
+      "BC0204": "732951bf621e8dd6b48cb1b2ebf64186b0cc00bc01ef67a312f2869f331902d3",
+      "BC0205": "f8d88bac7d4f85a82cf2b2dc78a2ea3e3604c60f4d1d9dba4b20a031592d6b1d",
+      "BC0206": "4c5a786908875018f5dfee07e56d05a181cbb2ef1be036fe3f63073d6fe6e717",
+      "BC0207": "83f44ff83dd2cff2ba89d5044a828412fd12bbb570766d2cf72ada8e647460ec",
+      "BC0208": "b2790f2ec3e7b4f5f2183ad91c52ee610696bbdb9268e31a90355e3eee34e679",
+      "BC0301": "ff262724357ee765ae368b21131b038b593d5d99b71168746be5312872ddefdd",
+      "BC0302": "cab6322cafcd726e9f26c9b433c5ac3ee0fcd85e0ef2d8e0c3f88fb0835c5b3f",
+      "BC0303": "481100bbde34c6b029d787d68225f4801a783816f833388b93041c85d245d03a",
+      "BC0304": "8450b8c69df3d5e3ffb3e6a0201f86e5cbeedededae2643241387677c0c77187",
+      "BC0305": "af64de6afca7151a22b783343a56353c40aa03e399298f61a3fe26a136b04a67",
+      "BC0306": "ce3618b02635c57bc5d95dc0d8527f0a8c8aa755978456f11e045c308dc98374",
+      "BC0307": "49d3ad16655dbfdc7bc354376e421bb0a0ec41a2cff7c5c9f30ca6f967c5260d",
+      "BC0308": "a95fd16a617f260df561b52ffea162f232d99da2f4205f567843e2dac4720d14",
+      "BC0309": "a91c3fd8a101a381294d66cf2dfe6305ae2e331000f06be08de0eebe001b708e",
+      "BC0401": "59df9c11c56d73e5b52b6946b0887035f0686bef4580573e7dbf391304e5f326",
+      "BC0402": "477582ab159d529869e7cf74c77d5162701a5317e3b3116bc2f8ecd7b31c3f79",
+      "BC0403": "a469aa02e9e38f3c7c1e6a69d403621264e121c4cda582609b4864e08db4b1d3",
+      "BC0404": "c113f25ea348297aa9e09a77cbec882af3824690340fa6188d100bdbab3a6424",
+      "BC0405": "5272dddc327eeeafe5589b4364f910a77a9d61ead4ce67bd690d58a089e06043",
+      "BC0406": "465470a7c4833f41a314caa66fe2c6bf06cb75d656cb3dfa6781da2d6a8174d1",
+      "BC0407": "d55aa1c07ad70437c27e2266955b27ffc7f1333a11eb9947995e1ce14226cbb1",
+      "BC0408": "b2847a6c973887f2bc49af3776f0dcfaf2aae2543a8ef11240c632d89ecd6d28",
+      "BC0409": "aeb4b55b277b2a45c3e5d6c3a2c835246b0d60884d2488161ba73457687e2d45",
+      "BC0410": "a85cd291c1dcbc7debdd7eed96c11790826b6b50c0b87ee5681a9bc6e1781e85",
+      "BC0411": "48e246ee01f62f24b643a12a3244f38fd6540f57743338c8b607f0e3a793a52d",
+      "BC0412": "e71510db781ee6d679e17a0fc1307c0030a0d04bb2e2bc5387a4d1a01719aa1d"
+    }
+  }
+}

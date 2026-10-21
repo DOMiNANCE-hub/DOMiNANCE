@@ -1,0 +1,4 @@
+### Interpret the charged binding groups
+Nucleic acids have negatively charged phosphate groups. The positively charged haematoxylin–mordant staining complex is therefore useful for nuclear contrast, giving the familiar blue-purple appearance in routine H&E. Eosin's anionic dye binds positively charged groups in many proteins, producing a different colour distribution.
+The words basic and acidic concern staining chemistry, not a rule that every nucleus has one pH and every cytoplasm another. The visible pattern also depends on fixation and staining conditions. Keep the existing qualification that India ink and other specialised agents cannot all be explained as simple acidic dyes.
+**Optional check:** Does blue-purple nuclear staining by itself prove a unique molecular identity? **Answer:** No. It is a contrast pattern consistent with the staining method; specific molecular identification needs appropriate evidence and controls.

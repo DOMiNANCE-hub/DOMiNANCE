@@ -1,0 +1,1177 @@
+{
+  "course": "Cell Structure",
+  "officialSourceYear": 2025,
+  "currentYearOutlineVerified": false,
+  "academicApproval": null,
+  "lessons": 46,
+  "expandedLessons": [
+    "BI01",
+    "BI02",
+    "BI04",
+    "BI05",
+    "CE01",
+    "CE02",
+    "CE03",
+    "CM01",
+    "CM02",
+    "CM03",
+    "CM04",
+    "CO01",
+    "CO02",
+    "CO03",
+    "CO04",
+    "CY01",
+    "CY02",
+    "CY03",
+    "CY04",
+    "OR01",
+    "OR02",
+    "OR03",
+    "OR04",
+    "OR05",
+    "OR06",
+    "OR07",
+    "lesson_01",
+    "lesson_06",
+    "lesson_07",
+    "lesson_08",
+    "lesson_13",
+    "lesson_15",
+    "lesson_17",
+    "lesson_18"
+  ],
+  "studentQuestions": 170,
+  "reviewQuestions": 178,
+  "rationalesExpanded": 170,
+  "rationalesRemainingUnchanged": 0,
+  "reviewOnlyQuestionRevisions": [
+    {
+      "id": "CO-Q003",
+      "reason": "Original options B and C expressed the same defensible structure-function principle. Replace only the overlapping distractor."
+    },
+    {
+      "id": "CO-Q005",
+      "reason": "Avoid the false universal every cell wording: some differentiated cells lose nuclear DNA or reproductive capacity."
+    },
+    {
+      "id": "CO-Q012",
+      "reason": "Replace near-duplicate recall of CO-Q008 with a source-supported mechanical application; retain option order and C key."
+    },
+    {
+      "id": "CYQ19",
+      "reason": "Both paclitaxel and vincristine are anticancer drugs. Specify the assembly-inhibiting mechanism to make B uniquely correct."
+    }
+  ],
+  "sourceObjectives": 31,
+  "originalConceptChecks": 51,
+  "reviewConceptChecks": 88,
+  "originalDiagrams": 2,
+  "sections": 277,
+  "coverageStatus": "partial source-aligned instructional review; no complete syllabus claim",
+  "questionAudit": [
+    {
+      "id": "CO-Q001",
+      "lesson": "CO01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "193"
+    },
+    {
+      "id": "CO-Q002",
+      "lesson": "CO01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "195"
+    },
+    {
+      "id": "CO-Q003",
+      "lesson": "CO01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "194"
+    },
+    {
+      "id": "CO-Q004",
+      "lesson": "CO01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "192"
+    },
+    {
+      "id": "CO-Q005",
+      "lesson": "CO01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "195"
+    },
+    {
+      "id": "CO-Q006",
+      "lesson": "CO01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "194"
+    },
+    {
+      "id": "CO-Q007",
+      "lesson": "CO02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "200"
+    },
+    {
+      "id": "CO-Q008",
+      "lesson": "CO02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "200"
+    },
+    {
+      "id": "CO-Q009",
+      "lesson": "CO02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "197"
+    },
+    {
+      "id": "CO-Q010",
+      "lesson": "CO02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "197"
+    },
+    {
+      "id": "CO-Q011",
+      "lesson": "CO02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "198"
+    },
+    {
+      "id": "CO-Q012",
+      "lesson": "CO02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "200"
+    },
+    {
+      "id": "CO-Q013",
+      "lesson": "CO03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "202"
+    },
+    {
+      "id": "CO-Q014",
+      "lesson": "CO03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "202"
+    },
+    {
+      "id": "CO-Q015",
+      "lesson": "CO03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "202"
+    },
+    {
+      "id": "CO-Q016",
+      "lesson": "CO03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "202"
+    },
+    {
+      "id": "CO-Q017",
+      "lesson": "CO03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "202"
+    },
+    {
+      "id": "CO-Q018",
+      "lesson": "CO03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "203"
+    },
+    {
+      "id": "CO-Q019",
+      "lesson": "CO04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "190"
+    },
+    {
+      "id": "CO-Q020",
+      "lesson": "CO04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "204"
+    },
+    {
+      "id": "CO-Q021",
+      "lesson": "CO04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "204"
+    },
+    {
+      "id": "CO-Q022",
+      "lesson": "CO04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "204"
+    },
+    {
+      "id": "CO-Q023",
+      "lesson": "CO04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "204"
+    },
+    {
+      "id": "CO-Q024",
+      "lesson": "CO04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "201"
+    },
+    {
+      "id": "OR01-Q01",
+      "lesson": "OR01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "206-209"
+    },
+    {
+      "id": "OR01-Q02",
+      "lesson": "OR01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "206-209"
+    },
+    {
+      "id": "OR01-Q03",
+      "lesson": "OR01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "206-209"
+    },
+    {
+      "id": "OR01-Q04",
+      "lesson": "OR01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "206-209"
+    },
+    {
+      "id": "OR01-Q05",
+      "lesson": "OR01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "206-209"
+    },
+    {
+      "id": "OR02-Q01",
+      "lesson": "OR02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "210-213"
+    },
+    {
+      "id": "OR02-Q02",
+      "lesson": "OR02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "210-213"
+    },
+    {
+      "id": "OR02-Q03",
+      "lesson": "OR02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "210-213"
+    },
+    {
+      "id": "OR02-Q04",
+      "lesson": "OR02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "210-213"
+    },
+    {
+      "id": "OR02-Q05",
+      "lesson": "OR02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "210-213"
+    },
+    {
+      "id": "OR03-Q01",
+      "lesson": "OR03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "214-218"
+    },
+    {
+      "id": "OR03-Q02",
+      "lesson": "OR03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "214"
+    },
+    {
+      "id": "OR03-Q03",
+      "lesson": "OR03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "214-218"
+    },
+    {
+      "id": "OR03-Q04",
+      "lesson": "OR03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "214-218"
+    },
+    {
+      "id": "OR03-Q05",
+      "lesson": "OR03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "214-218"
+    },
+    {
+      "id": "OR04-Q01",
+      "lesson": "OR04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "219-226"
+    },
+    {
+      "id": "OR04-Q02",
+      "lesson": "OR04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "219-226"
+    },
+    {
+      "id": "OR04-Q03",
+      "lesson": "OR04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "219-226"
+    },
+    {
+      "id": "OR04-Q04",
+      "lesson": "OR04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "219-226"
+    },
+    {
+      "id": "OR04-Q05",
+      "lesson": "OR04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "219-226"
+    },
+    {
+      "id": "OR05-Q01",
+      "lesson": "OR05",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "227-234"
+    },
+    {
+      "id": "OR05-Q02",
+      "lesson": "OR05",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "227-234"
+    },
+    {
+      "id": "OR05-Q03",
+      "lesson": "OR05",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "227-234"
+    },
+    {
+      "id": "OR05-Q04",
+      "lesson": "OR05",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "227-234"
+    },
+    {
+      "id": "OR05-Q05",
+      "lesson": "OR05",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "227-234"
+    },
+    {
+      "id": "OR06-Q01",
+      "lesson": "OR06",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "235-240"
+    },
+    {
+      "id": "OR06-Q02",
+      "lesson": "OR06",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "235-240"
+    },
+    {
+      "id": "OR06-Q03",
+      "lesson": "OR06",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "235-240"
+    },
+    {
+      "id": "OR06-Q04",
+      "lesson": "OR06",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "235-240"
+    },
+    {
+      "id": "OR06-Q05",
+      "lesson": "OR06",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "235-240"
+    },
+    {
+      "id": "OR07-Q01",
+      "lesson": "OR07",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "241-244"
+    },
+    {
+      "id": "OR07-Q02",
+      "lesson": "OR07",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "241"
+    },
+    {
+      "id": "OR07-Q03",
+      "lesson": "OR07",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "241-244"
+    },
+    {
+      "id": "OR07-Q04",
+      "lesson": "OR07",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "241-244"
+    },
+    {
+      "id": "OR07-Q05",
+      "lesson": "OR07",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "241-244"
+    },
+    {
+      "id": "CYQ01",
+      "lesson": "CY01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "245-258"
+    },
+    {
+      "id": "CYQ02",
+      "lesson": "CY01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "245-258"
+    },
+    {
+      "id": "CYQ03",
+      "lesson": "CY01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "245-258"
+    },
+    {
+      "id": "CYQ04",
+      "lesson": "CY01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "245-258"
+    },
+    {
+      "id": "CYQ05",
+      "lesson": "CY01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "245-258"
+    },
+    {
+      "id": "CYQ06",
+      "lesson": "CY01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "260"
+    },
+    {
+      "id": "CYQ07",
+      "lesson": "CY02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "259-272"
+    },
+    {
+      "id": "CYQ08",
+      "lesson": "CY02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "259-272"
+    },
+    {
+      "id": "CYQ09",
+      "lesson": "CY02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "259-272"
+    },
+    {
+      "id": "CYQ10",
+      "lesson": "CY02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "259-272"
+    },
+    {
+      "id": "CYQ11",
+      "lesson": "CY02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "259-272"
+    },
+    {
+      "id": "CYQ12",
+      "lesson": "CY02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "259-272"
+    },
+    {
+      "id": "CYQ13",
+      "lesson": "CY03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "273-279"
+    },
+    {
+      "id": "CYQ14",
+      "lesson": "CY03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "273-279"
+    },
+    {
+      "id": "CYQ15",
+      "lesson": "CY03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "273-279"
+    },
+    {
+      "id": "CYQ16",
+      "lesson": "CY03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "271"
+    },
+    {
+      "id": "CYQ17",
+      "lesson": "CY03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "273-279"
+    },
+    {
+      "id": "CYQ18",
+      "lesson": "CY03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "273-279"
+    },
+    {
+      "id": "CYQ19",
+      "lesson": "CY04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "280-284"
+    },
+    {
+      "id": "CYQ20",
+      "lesson": "CY04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "280-284"
+    },
+    {
+      "id": "CYQ21",
+      "lesson": "CY04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "280-284"
+    },
+    {
+      "id": "CYQ22",
+      "lesson": "CY04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "280-284"
+    },
+    {
+      "id": "CYQ23",
+      "lesson": "CY04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "280-284"
+    },
+    {
+      "id": "CYQ24",
+      "lesson": "CY04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "280-284"
+    },
+    {
+      "id": "CM_MCQ_24-84",
+      "lesson": "CM01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "285-294"
+    },
+    {
+      "id": "CM_MCQ_24-85",
+      "lesson": "CM01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "285-294"
+    },
+    {
+      "id": "CM_MCQ_24-86",
+      "lesson": "CM01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "285-294"
+    },
+    {
+      "id": "CM_MCQ_24-87",
+      "lesson": "CM01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "285-294"
+    },
+    {
+      "id": "CM_MCQ_24-88",
+      "lesson": "CM01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "285-294"
+    },
+    {
+      "id": "CM_MCQ_24-89",
+      "lesson": "CM01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "285-294"
+    },
+    {
+      "id": "CM_MCQ_24-90",
+      "lesson": "CM02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "295-306"
+    },
+    {
+      "id": "CM_MCQ_24-91",
+      "lesson": "CM02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "295-306"
+    },
+    {
+      "id": "CM_MCQ_24-92",
+      "lesson": "CM02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "295-306"
+    },
+    {
+      "id": "CM_MCQ_24-93",
+      "lesson": "CM02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "295-306"
+    },
+    {
+      "id": "CM_MCQ_24-94",
+      "lesson": "CM02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "295-306"
+    },
+    {
+      "id": "CM_MCQ_24-95",
+      "lesson": "CM02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "295-306"
+    },
+    {
+      "id": "CM_MCQ_24-96",
+      "lesson": "CM03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "307-317"
+    },
+    {
+      "id": "CM_MCQ_24-97",
+      "lesson": "CM03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "307-317"
+    },
+    {
+      "id": "CM_MCQ_24-98",
+      "lesson": "CM03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "307-317"
+    },
+    {
+      "id": "CM_MCQ_24-99",
+      "lesson": "CM03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "307-317"
+    },
+    {
+      "id": "CM_MCQ_24-100",
+      "lesson": "CM03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "307-317"
+    },
+    {
+      "id": "CM_MCQ_24-101",
+      "lesson": "CM03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "307-317"
+    },
+    {
+      "id": "CM_MCQ_24-102",
+      "lesson": "CM04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "318-321"
+    },
+    {
+      "id": "CM_MCQ_24-103",
+      "lesson": "CM04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "318-321"
+    },
+    {
+      "id": "CM_MCQ_24-104",
+      "lesson": "CM04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "318-321"
+    },
+    {
+      "id": "CM_MCQ_24-105",
+      "lesson": "CM04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "318-321"
+    },
+    {
+      "id": "CM_MCQ_24-106",
+      "lesson": "CM04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "318-321"
+    },
+    {
+      "id": "CM_MCQ_24-107",
+      "lesson": "CM04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "318-321"
+    },
+    {
+      "id": "CE01-Q01",
+      "lesson": "CE01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "322-340"
+    },
+    {
+      "id": "CE01-Q02",
+      "lesson": "CE01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "322-340"
+    },
+    {
+      "id": "CE01-Q03",
+      "lesson": "CE01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "322-340"
+    },
+    {
+      "id": "CE01-Q04",
+      "lesson": "CE01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "322-340"
+    },
+    {
+      "id": "CE01-Q05",
+      "lesson": "CE01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "322-340"
+    },
+    {
+      "id": "CE02-Q01",
+      "lesson": "CE02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "341-352"
+    },
+    {
+      "id": "CE02-Q02",
+      "lesson": "CE02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "345-352"
+    },
+    {
+      "id": "CE02-Q03",
+      "lesson": "CE02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "341-352"
+    },
+    {
+      "id": "CE02-Q04",
+      "lesson": "CE02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "341-352"
+    },
+    {
+      "id": "CE02-Q05",
+      "lesson": "CE02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "341-352"
+    },
+    {
+      "id": "CE03-Q01",
+      "lesson": "CE03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "359-361"
+    },
+    {
+      "id": "CE03-Q02",
+      "lesson": "CE03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "362-363"
+    },
+    {
+      "id": "CE03-Q03",
+      "lesson": "CE03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "359-361"
+    },
+    {
+      "id": "CE03-Q04",
+      "lesson": "CE03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "362-363"
+    },
+    {
+      "id": "CE03-Q05",
+      "lesson": "CE03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "353-365"
+    },
+    {
+      "id": "CE04-Q01",
+      "lesson": "CE04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "366-370"
+    },
+    {
+      "id": "CE04-Q02",
+      "lesson": "CE04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "366-370"
+    },
+    {
+      "id": "CE04-Q03",
+      "lesson": "CE04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "366-370"
+    },
+    {
+      "id": "CE04-Q04",
+      "lesson": "CE04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "366-370"
+    },
+    {
+      "id": "CE04-Q05",
+      "lesson": "CE04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "366-370"
+    },
+    {
+      "id": "BI01-Q01",
+      "lesson": "BI01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "371-381"
+    },
+    {
+      "id": "BI01-Q02",
+      "lesson": "BI01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "371-381"
+    },
+    {
+      "id": "BI01-Q03",
+      "lesson": "BI01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "371-381"
+    },
+    {
+      "id": "BI01-Q04",
+      "lesson": "BI01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "371-381"
+    },
+    {
+      "id": "BI01-Q05",
+      "lesson": "BI01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "371-381"
+    },
+    {
+      "id": "BI02-Q01",
+      "lesson": "BI02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "382-387"
+    },
+    {
+      "id": "BI02-Q02",
+      "lesson": "BI02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "385"
+    },
+    {
+      "id": "BI02-Q03",
+      "lesson": "BI02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "382-387"
+    },
+    {
+      "id": "BI02-Q04",
+      "lesson": "BI02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "382-387"
+    },
+    {
+      "id": "BI02-Q05",
+      "lesson": "BI02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "382-387"
+    },
+    {
+      "id": "BI03-Q01",
+      "lesson": "BI03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "388-391"
+    },
+    {
+      "id": "BI03-Q02",
+      "lesson": "BI03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "388-391;402"
+    },
+    {
+      "id": "BI03-Q03",
+      "lesson": "BI03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "388-391"
+    },
+    {
+      "id": "BI03-Q04",
+      "lesson": "BI03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "388-391"
+    },
+    {
+      "id": "BI03-Q05",
+      "lesson": "BI03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "388-391"
+    },
+    {
+      "id": "BI04-Q01",
+      "lesson": "BI04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "392-401"
+    },
+    {
+      "id": "BI04-Q02",
+      "lesson": "BI04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "392-401"
+    },
+    {
+      "id": "BI04-Q03",
+      "lesson": "BI04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "392-401"
+    },
+    {
+      "id": "BI04-Q04",
+      "lesson": "BI04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "392-401"
+    },
+    {
+      "id": "BI04-Q05",
+      "lesson": "BI04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "392-401"
+    },
+    {
+      "id": "BI05-Q01",
+      "lesson": "BI05",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "402-410"
+    },
+    {
+      "id": "BI05-Q02",
+      "lesson": "BI05",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "409-410"
+    },
+    {
+      "id": "BI05-Q03",
+      "lesson": "BI05",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "402-410"
+    },
+    {
+      "id": "BI05-Q04",
+      "lesson": "BI05",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "409-410"
+    },
+    {
+      "id": "BI05-Q05",
+      "lesson": "BI05",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "409-410"
+    },
+    {
+      "id": "MI-Q001",
+      "lesson": "lesson_01",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "21;24;36;62;66;73;74;75"
+    },
+    {
+      "id": "MI-Q002",
+      "lesson": "lesson_02",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "18;25;26;27;28;29;30;31"
+    },
+    {
+      "id": "MI-Q003",
+      "lesson": "lesson_03",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "43;44;47;48;49;50"
+    },
+    {
+      "id": "MI-Q004",
+      "lesson": "lesson_04",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "18;19;20;21;38;61;67;68"
+    },
+    {
+      "id": "MI-Q005",
+      "lesson": "lesson_05",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "21;61;67;68;69;70;71"
+    },
+    {
+      "id": "MI-Q006",
+      "lesson": "lesson_06",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "75;81;82;83;84;86;87;88"
+    },
+    {
+      "id": "MI-Q007",
+      "lesson": "lesson_07",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "101;105"
+    },
+    {
+      "id": "MI-Q008",
+      "lesson": "lesson_08",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "110;111;112;113;114;115;116;117"
+    },
+    {
+      "id": "MI-Q009",
+      "lesson": "lesson_09",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "125;126;127;133"
+    },
+    {
+      "id": "MI-Q010",
+      "lesson": "lesson_10",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "133;134;135;136;137;139"
+    },
+    {
+      "id": "MI-Q011",
+      "lesson": "lesson_11",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "50;64;77;129;134;143;145;146"
+    },
+    {
+      "id": "MI-Q012",
+      "lesson": "lesson_12",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "30;123;143;151;152;153;154;155"
+    },
+    {
+      "id": "MI-Q013",
+      "lesson": "lesson_13",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "134;145;159;162;165;166;167;168"
+    },
+    {
+      "id": "MI-Q014",
+      "lesson": "lesson_14",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "159;160;162;163;164;165"
+    },
+    {
+      "id": "MI-Q015",
+      "lesson": "lesson_15",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "166;170"
+    },
+    {
+      "id": "MI-Q016",
+      "lesson": "lesson_16",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "171;172;173;176"
+    },
+    {
+      "id": "MI-Q017",
+      "lesson": "lesson_17",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "180;183"
+    },
+    {
+      "id": "MI-Q018",
+      "lesson": "lesson_18",
+      "status": "rationale-expanded-awaiting-academic-review",
+      "source": "188"
+    },
+    {
+      "id": "CELL-RQ001",
+      "lesson": "lesson_06",
+      "status": "source-checked-awaiting-academic-review",
+      "source": [
+        81,
+        91
+      ]
+    },
+    {
+      "id": "CELL-RQ002",
+      "lesson": "lesson_01",
+      "status": "source-checked-awaiting-academic-review",
+      "source": [
+        21,
+        23,
+        24
+      ]
+    },
+    {
+      "id": "CELL-RQ003",
+      "lesson": "lesson_15",
+      "status": "source-checked-awaiting-academic-review",
+      "source": [
+        165,
+        166,
+        170
+      ]
+    },
+    {
+      "id": "CELL-RQ004",
+      "lesson": "CM04",
+      "status": "source-checked-awaiting-academic-review",
+      "source": [
+        318,
+        319
+      ]
+    },
+    {
+      "id": "CELL-RQ005",
+      "lesson": "CE02",
+      "status": "source-checked-awaiting-academic-review",
+      "source": [
+        349,
+        350
+      ]
+    },
+    {
+      "id": "CELL-RQ006",
+      "lesson": "CE03",
+      "status": "source-checked-awaiting-academic-review",
+      "source": [
+        362,
+        363
+      ]
+    },
+    {
+      "id": "CELL-RQ007",
+      "lesson": "BI01",
+      "status": "supplementary-awaiting-academic-review",
+      "source": [
+        372,
+        375,
+        376
+      ]
+    },
+    {
+      "id": "CELL-RQ008",
+      "lesson": "BI05",
+      "status": "source-checked-awaiting-academic-review",
+      "source": [
+        398,
+        404,
+        410
+      ]
+    }
+  ],
+  "remaining": [
+    "All 170 original rationales now have editorial teaching review; this is not formal academic approval.",
+    "34 lessons have targeted additions; the other 12 retain correct existing material and audited gaps.",
+    "LO02 historical-development outcome is only partly represented.",
+    "Biochemical analysis has lecturer chapter support but no separate official outcome text verified.",
+    "Typical-cell labels, optical ray diagrams and remaining source figures need review.",
+    "All original source files and IDs remain intact; no final approval."
+  ]
+}

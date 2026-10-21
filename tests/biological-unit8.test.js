@@ -1,0 +1,44 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {compile} from '../scripts/import-biological-chemistry.mjs';
+import '../public/dashboard/academic-contract.js';
+const data=compile(),unit=data.units.find(u=>u.id==='U08'),questions=data.questions.filter(q=>q.unit==='U08'),learning=globalThis.DominanceCellLearning.create(data.units),links=globalThis.DominanceAcademicContract;
+const find=stem=>{const qs=questions.filter(q=>q.question.includes(stem));assert.equal(qs.length,1,stem);return qs[0]},answer=stem=>{const q=find(stem);return q.options[q.letter.charCodeAt(0)-65]},read=n=>JSON.parse(readFileSync(new URL('../content/biological-chemistry/'+n,import.meta.url))),note=n=>data.lessons.find(l=>l.id==='BC08'+String(n).padStart(2,'0')).markdown;
+test('Unit 8 teaches all four listed topics with original notes, meaningful question links and explicit draft status',()=>{
+ assert.equal(unit.lessons.length,14);assert.equal(questions.length,63);for(const t of unit.topics)assert.ok(data.concepts.some(c=>c.topic===t));assert.equal(unit.lessons.reduce((sum,id)=>sum+data.lessons.find(l=>l.id===id).sections.length,0),104);
+ const parts=unit.lessons.flatMap(id=>learning.sections(data.lessons.find(l=>l.id===id))).flatMap(s=>learning.parts(s.text));assert.equal(parts.filter(p=>p.kind==='check').length,28);assert.equal(parts.some(p=>p.kind==='unresolved-check'),false);
+ for(const q of questions){assert.equal(q.status,'draft-review');assert.equal(q.reviewer,null);assert.equal(q.objective,'BIOL157-CLO4');assert.match(links.questionReferences(q,data),/Lecture 8/);const route=learning.route(links.questionRoute(q,data,learning),data);assert.equal(route.lesson.id,q.lesson);assert.equal(learning.sections(route.lesson)[route.part].title,route.lesson.sections.find(s=>s.id===q.sectionId).title)}
+ const review=read('unit-reviews/U08.json');assert.equal(review.academicApproval,null);assert.equal(review.actualPdfPages,61);assert.equal(review.visualPages.length,25);assert.equal(review.actualToPrinted.at(-1).printed,70);
+});
+test('catalysis, recognition, reaction classes and cofactors avoid the documented absolute source shortcuts',()=>{
+ assert.equal(3e4/3e-10,1e14);assert.equal(answer('Comparable first-order constants'),'10^14');assert.match(answer('favourable but slow'),/activation barrier/);assert.match(answer('same reactant and product'),/pathway.*equilibrium/);assert.match(answer('At equilibrium'),/equal and nonzero/);assert.match(answer('temporarily forms an enzyme-linked'),/Covalent catalysis/);assert.match(answer('Analogue A binds'),/Binding strength alone/);
+ for(const [stem,key] of [['hydrolyses a peptide','EC 3 hydrolase'],['ATP transfers a phosphoryl','Transferase']])assert.equal(answer(stem),key);
+ assert.equal((note(3).match(/\| EC [1-7] /g)||[]).length,7);assert.match(answer('EC 7 translocases'),/coupled translocation/);assert.match(answer('apoenzyme'),/without its required cofactor/);assert.match(answer('standard NAD notation'),/NADH$/);assert.match(answer('carrier pairing'),/Biotin.*CO2/);assert.match(answer('flavin coenzymes'),/one- and two-electron/);
+});
+test('initial-rate, activity and turnover keys independently conserve concentration, volume and time units',()=>{
+ assert.equal(6/20,.3);assert.equal(answer('blank-corrected product'),'0.30 µM/s');assert.ok(Math.abs(.3*.002*60-.036)<1e-12);assert.equal(answer('A 2.0 mL reaction'),'0.036 µmol/min');assert.equal(1e6*60,6e7);assert.equal(answer('activity-unit conversion'),'1 kat = 6×10^7 U');
+ assert.equal(6/.020/60,5);assert.equal(answer('Vmax=6 µM/min'),'5 s−1');assert.equal(10*2,20);assert.equal(answer('A 10 nM dimer'),'20 nM');assert.match(answer('units M−1 s−1'),/^kcat\/Km$/);assert.equal((20/1e-6)/(100/100e-6),20);assert.match(answer('A has kcat=100'),/factor of twenty/);assert.equal(5*2**2,20);assert.equal(answer('supplied Q10=2'),'20 units');
+});
+test('Michaelis–Menten, binding and reciprocal calculations retain independent parameter meanings',()=>{
+ const km=(20+80)/2e6,kd=20/2e6;assert.equal(km*1e6,50);assert.equal(kd*1e6,10);assert.equal(answer('Supplied constants are'),'Km=50 µM and Kd=10 µM');assert.match(answer('d[ES]/dt'),/balance while product flux/);assert.match(answer('Km approximate'),/slow relative to ES dissociation/);
+ const rate=(s,v=120,k=20)=>v*s/(k+s);assert.equal(rate(5),24);assert.equal(answer('predicted at [S]=5'),'24 µM/min');assert.equal(rate(180)/120,.9);assert.equal(answer('90% of Vmax'),'9Km');assert.equal(90*20/(120-90),60);assert.equal(answer('v=90 µM/min'),'60 µM');assert.equal(answer('y-intercept'),'1/Vmax');assert.match(answer('reciprocal straight line'),/magnify errors/);assert.match(answer('Active enzyme concentration doubles'),/Vmax doubles/);
+});
+test('inhibition patterns follow the explicitly supplied model rather than a guessed binding-site rule',()=>{
+ const mixed=(s,v,k,a,ap)=>v*s/(a*k+ap*s);assert.equal(mixed(10,100,10,3,1),25);assert.equal(answer('competitive α=3'),'25 µM/min');assert.equal(100/4,25);assert.equal(2*10/4,5);assert.equal(answer('mixed-inhibition factors'),'Vmax=25 µM/min and Km=5 µM');
+ assert.match(answer('ideal competitive inhibition'),/Increased Km with unchanged Vmax/);assert.match(answer('pure noncompetitive special case'),/α=α′/);assert.match(answer('uncompetitive inhibitor binds ES'),/Both decrease by the same factor/);assert.match(answer('one reduced rate'),/Several model types/);assert.match(answer('one dilution'),/slow dissociation/);assert.match(answer('mechanism-based inactivator'),/Target-enzyme processing/);assert.match(answer('qualified β-lactam example'),/transpeptidase/);assert.equal(80*.25,20);assert.equal(answer('leaves 25%'),'20 µM/min');
+});
+test('regulation and precursor questions distinguish context, active fraction, amplification and count-only isoforms',()=>{
+ assert.match(answer('allosteric regulation'),/one site.*another/);assert.match(answer('A→B→C→D'),/End-product feedback/);assert.match(answer('sigmoidal rate response'),/operational/);assert.match(answer('half-rate substrate from 8'),/unchanged measured limiting/);assert.match(answer('phosphatase differ'),/hydrolyses/);assert.match(answer('regulatory phosphorylation'),/specific protein, site and context/);assert.match(answer('classical PKA'),/Liberation of catalytic activity/);
+ assert.equal((10*.8)/(10*.2),4);assert.equal(answer('active fraction rises'),'Fourfold increase');assert.equal(10*20,200);assert.equal(answer('One upstream enzyme'),'200');assert.equal(new Set(Array.from({length:5},(_,b)=>'A'+(4-b)+'B'+b)).size,5);assert.equal(answer('simple LDH tetramer'),'Five');assert.match(answer('proinsulin processing'),/peptide hormone/);assert.match(answer('removing an activating protease'),/not simply reattached/);
+});
+test('worked feedback returns target the actual derivation, calculation and evidence sections',()=>{
+ for(const [stem,title] of [['Supplied constants are','Worked distinction between constants'],['Vmax=6 µM/min','Worked turnover calculation'],['mixed-inhibition factors','Mixed and pure noncompetitive inhibition'],['one dilution','Time and recovery provide complementary evidence'],['One upstream enzyme','Activation cascades amplify a signal']]){const q=find(stem),route=learning.route(links.questionRoute(q,data,learning),data);assert.equal(learning.sections(route.lesson)[route.part].title,title)}
+});
+test('Unit 8 preserves every earlier object and excludes drafts and original diagrams from normal student assets',()=>{
+ const review=read('unit-reviews/U08.json'),old=review.previousBanks,hash=o=>createHash('sha256').update(JSON.stringify(o)).digest('hex'),prior=data.questions.filter(q=>old.units.includes(q.unit));assert.equal(prior.length,282);assert.equal(hash(prior),old.questionsSha256);assert.equal(Object.keys(old.lessonSha256).length,71);
+ for(const [id,sha] of Object.entries(old.lessonSha256))assert.equal(createHash('sha256').update(readFileSync(new URL('../content/biological-chemistry/lessons/'+id+'.md',import.meta.url))).digest('hex'),sha,id);
+ assert.equal(hash(data.concepts.filter(c=>old.units.includes(c.unit))),old.conceptsSha256);assert.equal(hash(data.figures.filter(f=>old.figureIds.includes(f.id))),old.figuresSha256);
+ const asset=readFileSync(new URL('../public/dashboard/biological-content.js',import.meta.url),'utf8'),figures=data.figures.filter(f=>f.id.startsWith('BIOL157-U08-'));assert.equal(figures.length,3);for(const f of figures){assert.equal(asset.includes(f.id),false);assert.match(globalThis.DominanceAcademicFigures.html(f),/role="img"/);assert.ok(data.lessons.some(l=>l.markdown.includes('[Figure:'+f.id+']')))}assert.equal(asset.includes(questions[0].question),false);assert.equal(data.release.studentEnabled,false);assert.equal(data.release.academicApproval,null);assert.ok(figures.every(f=>/not measured|not experimental|not an asserted/.test(f.caption)));
+});

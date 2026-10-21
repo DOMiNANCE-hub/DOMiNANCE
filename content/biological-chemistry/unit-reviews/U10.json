@@ -1,0 +1,503 @@
+{
+  "unit": "U10",
+  "status": "author-source-checked-draft-awaiting-human-academic-review",
+  "reviewer": null,
+  "academicApproval": null,
+  "source": "L10",
+  "actualPdfPages": 48,
+  "readingScope": "All 48 actual pages text-read; fifteen selected visual pages inspected, with actual pp11,29,34 enlarged individually. Printed numbering reaches 50. Both original kit flags checked independently.",
+  "officialTopics": [
+    "BIOL157-U10-T01",
+    "BIOL157-U10-T02",
+    "BIOL157-U10-T03",
+    "BIOL157-U10-T04",
+    "BIOL157-U10-T05"
+  ],
+  "lessons": 15,
+  "questions": 53,
+  "explicitAnswerChecks": 30,
+  "originalFigures": 4,
+  "visualPages": [
+    7,
+    11,
+    14,
+    19,
+    21,
+    22,
+    24,
+    25,
+    26,
+    29,
+    34,
+    35,
+    36,
+    39,
+    42
+  ],
+  "actualToPrinted": [
+    {
+      "actual": 1,
+      "printed": null
+    },
+    {
+      "actual": 2,
+      "printed": 2
+    },
+    {
+      "actual": 3,
+      "printed": 3
+    },
+    {
+      "actual": 4,
+      "printed": 4
+    },
+    {
+      "actual": 5,
+      "printed": 5
+    },
+    {
+      "actual": 6,
+      "printed": 6
+    },
+    {
+      "actual": 7,
+      "printed": 7
+    },
+    {
+      "actual": 8,
+      "printed": 8
+    },
+    {
+      "actual": 9,
+      "printed": 9
+    },
+    {
+      "actual": 10,
+      "printed": 11
+    },
+    {
+      "actual": 11,
+      "printed": 12
+    },
+    {
+      "actual": 12,
+      "printed": 13
+    },
+    {
+      "actual": 13,
+      "printed": 14
+    },
+    {
+      "actual": 14,
+      "printed": 15
+    },
+    {
+      "actual": 15,
+      "printed": 16
+    },
+    {
+      "actual": 16,
+      "printed": 17
+    },
+    {
+      "actual": 17,
+      "printed": 19
+    },
+    {
+      "actual": 18,
+      "printed": 20
+    },
+    {
+      "actual": 19,
+      "printed": 21
+    },
+    {
+      "actual": 20,
+      "printed": 22
+    },
+    {
+      "actual": 21,
+      "printed": 23
+    },
+    {
+      "actual": 22,
+      "printed": 24
+    },
+    {
+      "actual": 23,
+      "printed": 25
+    },
+    {
+      "actual": 24,
+      "printed": 26
+    },
+    {
+      "actual": 25,
+      "printed": 27
+    },
+    {
+      "actual": 26,
+      "printed": 28
+    },
+    {
+      "actual": 27,
+      "printed": 29
+    },
+    {
+      "actual": 28,
+      "printed": 30
+    },
+    {
+      "actual": 29,
+      "printed": 31
+    },
+    {
+      "actual": 30,
+      "printed": 32
+    },
+    {
+      "actual": 31,
+      "printed": 33
+    },
+    {
+      "actual": 32,
+      "printed": 34
+    },
+    {
+      "actual": 33,
+      "printed": 35
+    },
+    {
+      "actual": 34,
+      "printed": 36
+    },
+    {
+      "actual": 35,
+      "printed": 37
+    },
+    {
+      "actual": 36,
+      "printed": 38
+    },
+    {
+      "actual": 37,
+      "printed": 39
+    },
+    {
+      "actual": 38,
+      "printed": 40
+    },
+    {
+      "actual": 39,
+      "printed": 41
+    },
+    {
+      "actual": 40,
+      "printed": 42
+    },
+    {
+      "actual": 41,
+      "printed": 43
+    },
+    {
+      "actual": 42,
+      "printed": 44
+    },
+    {
+      "actual": 43,
+      "printed": 45
+    },
+    {
+      "actual": 44,
+      "printed": 46
+    },
+    {
+      "actual": 45,
+      "printed": 47
+    },
+    {
+      "actual": 46,
+      "printed": 48
+    },
+    {
+      "actual": 47,
+      "printed": 49
+    },
+    {
+      "actual": 48,
+      "printed": 50
+    }
+  ],
+  "corrections": [
+    {
+      "pages": [
+        3,
+        4,
+        5,
+        30
+      ],
+      "issue": "All lipids fatty-acid derived, hydrophobic means no polar groups, all derived obtained by hydrolysis and waxes called glycerolipids",
+      "decision": "Use structural diversity, whole-molecule behaviour, free sterol/ester distinction and long monohydric wax alcohol."
+    },
+    {
+      "pages": [
+        7,
+        8,
+        9,
+        11
+      ],
+      "issue": "Mixed numbering, unsaturated >1 and double bonds limited to four",
+      "decision": "Explicit carboxyl/delta versus methyl/omega conventions; mono means one; source EPA/DHA figure itself exceeds four."
+    },
+    {
+      "pages": [
+        10,
+        11
+      ],
+      "issue": "Essential gamma-linolenic prose versus ALA figure",
+      "decision": "Independent NIH ODS support identifies linoleic plus alpha-linolenic in usual human essential pair; gamma is distinct n6. Arachidonate is not only obtainable through mammalian synthesis."
+    },
+    {
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "issue": "Generic hydrolysis/protonation, fixed storage-energy and universal mixed-lipid behaviour",
+      "decision": "State complete pure-model balances and product charge; supplied energy values approximate, not universal ATP or dietary prescription."
+    },
+    {
+      "pages": [
+        17,
+        18,
+        19
+      ],
+      "issue": "Head charge and cardiolipin description",
+      "decision": "Distinguish phosphate environment, PC/PS model charges and four-tail/two-phosphate cardiolipin; location not heart-exclusive."
+    },
+    {
+      "pages": [
+        20,
+        21,
+        22
+      ],
+      "issue": "PAF freely soluble shortcut and broad head naming conceals vinyl ether",
+      "decision": "Teach alkyl/vinyl ether versus ester, specified PAF architecture and conditional binding/solubility."
+    },
+    {
+      "pages": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "issue": "Every phospholipid glycerol, all sphingoid bases identical and every glycan bond beta",
+      "decision": "Common sphingoid/amide structure and C1 glycan link separated from variable bases/other head bonds."
+    },
+    {
+      "pages": [
+        27,
+        29
+      ],
+      "issue": "Sulfatide conflated with ganglioside and sugar heads esterified",
+      "decision": "Sulfate versus sialic definitions independently supported; GM3 has two neutral sugars plus one sialic residue; glycosidic head links."
+    },
+    {
+      "pages": [
+        28
+      ],
+      "issue": "Uniform infantile disease and symptoms treated as diagnosis",
+      "decision": "Opened GeneReviews supports HEXA/GM2 relationship and residual-function continuum; no patient diagnosis or symptom-key shortcut."
+    },
+    {
+      "pages": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "issue": "Free isoprene polymerisation, cyclopentene carotenoid wording and cyclic structure labelled lycopene",
+      "decision": "Teach activated-C5 construction and modified products; independent PubChem supports acyclic lycopene and beta-carotene cyclohexene ends. Faulty figure not copied."
+    },
+    {
+      "pages": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "issue": "Every steroid hormonal and same membrane composition/clinical inference",
+      "decision": "Specify framework/derivatives, free versus ester cholesterol and contextual membrane/transport functions."
+    },
+    {
+      "pages": [
+        40,
+        41,
+        42
+      ],
+      "issue": "All detergents anionic salts, droplets=micelles, all metals must precipitate before lather",
+      "decision": "Broader surfactant classes, assembly/geometry distinctions and conditional hard-water stoichiometry."
+    },
+    {
+      "pages": [
+        43,
+        44,
+        45
+      ],
+      "issue": "Oxidation described as degradation of oxygen, all acids odourless and sterilisation guarantees",
+      "decision": "Distinguish substrate oxidation, overlapping microbial/hydrolytic routes, primary/secondary products and conditional prevention."
+    },
+    {
+      "pages": [
+        46,
+        47
+      ],
+      "issue": "Index values treated as universal freshness/chain length, peroxide unit ambiguity and TBA specificity",
+      "decision": "Method-defined units and denominators, pure-model calculations, dynamic peroxide/secondary signals and assay specificity; no ambiguous conversion or threshold assessed."
+    }
+  ],
+  "supplementScope": "Original quantitative examples state free-molecule, ester count, mass, charge and assay assumptions. Complete listed topic representation is a draft-coverage statement, not academic release approval or exhaustive metabolic/clinical content.",
+  "withheldSourceClaims": [
+    "No erroneous gamma-essential or sulfate-ganglioside scored key.",
+    "No universal clinical dose, disease symptom diagnosis, food-quality release cutoff, ambiguous peroxide-unit conversion or exactly fixed membrane composition.",
+    "Carotenoid source image/label inconsistency is not copied as an assessment diagram."
+  ],
+  "limitations": [
+    "No human academic approval or current-year examination certification.",
+    "No wet-lab lipid analysis, food-release determination, diet intervention or clinical test executed.",
+    "External source checks are scoped in source metadata; no full paywalled ISO method or complete clinical guide review claimed."
+  ],
+  "previousBanks": {
+    "commit": "61b31d86498ba111f6d48a2d9b6da2ff26111aee",
+    "units": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05",
+      "U06",
+      "U07",
+      "U08",
+      "U09"
+    ],
+    "questionsSha256": "b9b23acbfe2f5e22dd2a77369dd696148391d35fa7893f18b62e0fdd336575ed",
+    "lessonSha256": {
+      "BC0101": "881cca0c4a028d4c2c07171c1404bd00da6c50abf6bf82431122e3e47312fab6",
+      "BC0102": "d05e3c6c2440890fcc48e88c0fa7d64cd8e233546254c196a29a77e1f3a3b031",
+      "BC0103": "45c4c38f2259cd65e2dd911084157428cb06e94c2d313b6c2f27e98490bf2b95",
+      "BC0104": "2e7fff9386684d5c2ca9e51040409629f512718d9d5b3184beca216a9fe7e5fa",
+      "BC0105": "c15e49dc05b0dd87a010382bc31fcaf46b1c8c956ca7d72e81e713450f3a2982",
+      "BC0106": "5e17c597f4ca1841b8df08d87a100b2f242cd1ec6cf25277320184cd0bc5fd5f",
+      "BC0201": "11f085f8667ab77607d4ddb548520ddbe97b94be4321f26c92164def82afd1ff",
+      "BC0202": "20bb2cf0c55917608709d157a16fa607dcefbba9ee382c70958c0db3d086516c",
+      "BC0203": "dc4a43c137f3b83e30023486ea2383b503b9458bd4efd2819f207f29ae22545d",
+      "BC0204": "732951bf621e8dd6b48cb1b2ebf64186b0cc00bc01ef67a312f2869f331902d3",
+      "BC0205": "f8d88bac7d4f85a82cf2b2dc78a2ea3e3604c60f4d1d9dba4b20a031592d6b1d",
+      "BC0206": "4c5a786908875018f5dfee07e56d05a181cbb2ef1be036fe3f63073d6fe6e717",
+      "BC0207": "83f44ff83dd2cff2ba89d5044a828412fd12bbb570766d2cf72ada8e647460ec",
+      "BC0208": "b2790f2ec3e7b4f5f2183ad91c52ee610696bbdb9268e31a90355e3eee34e679",
+      "BC0301": "ff262724357ee765ae368b21131b038b593d5d99b71168746be5312872ddefdd",
+      "BC0302": "cab6322cafcd726e9f26c9b433c5ac3ee0fcd85e0ef2d8e0c3f88fb0835c5b3f",
+      "BC0303": "481100bbde34c6b029d787d68225f4801a783816f833388b93041c85d245d03a",
+      "BC0304": "8450b8c69df3d5e3ffb3e6a0201f86e5cbeedededae2643241387677c0c77187",
+      "BC0305": "af64de6afca7151a22b783343a56353c40aa03e399298f61a3fe26a136b04a67",
+      "BC0306": "ce3618b02635c57bc5d95dc0d8527f0a8c8aa755978456f11e045c308dc98374",
+      "BC0307": "49d3ad16655dbfdc7bc354376e421bb0a0ec41a2cff7c5c9f30ca6f967c5260d",
+      "BC0308": "a95fd16a617f260df561b52ffea162f232d99da2f4205f567843e2dac4720d14",
+      "BC0309": "a91c3fd8a101a381294d66cf2dfe6305ae2e331000f06be08de0eebe001b708e",
+      "BC0401": "59df9c11c56d73e5b52b6946b0887035f0686bef4580573e7dbf391304e5f326",
+      "BC0402": "477582ab159d529869e7cf74c77d5162701a5317e3b3116bc2f8ecd7b31c3f79",
+      "BC0403": "a469aa02e9e38f3c7c1e6a69d403621264e121c4cda582609b4864e08db4b1d3",
+      "BC0404": "c113f25ea348297aa9e09a77cbec882af3824690340fa6188d100bdbab3a6424",
+      "BC0405": "5272dddc327eeeafe5589b4364f910a77a9d61ead4ce67bd690d58a089e06043",
+      "BC0406": "465470a7c4833f41a314caa66fe2c6bf06cb75d656cb3dfa6781da2d6a8174d1",
+      "BC0407": "d55aa1c07ad70437c27e2266955b27ffc7f1333a11eb9947995e1ce14226cbb1",
+      "BC0408": "b2847a6c973887f2bc49af3776f0dcfaf2aae2543a8ef11240c632d89ecd6d28",
+      "BC0409": "aeb4b55b277b2a45c3e5d6c3a2c835246b0d60884d2488161ba73457687e2d45",
+      "BC0410": "a85cd291c1dcbc7debdd7eed96c11790826b6b50c0b87ee5681a9bc6e1781e85",
+      "BC0411": "48e246ee01f62f24b643a12a3244f38fd6540f57743338c8b607f0e3a793a52d",
+      "BC0412": "e71510db781ee6d679e17a0fc1307c0030a0d04bb2e2bc5387a4d1a01719aa1d",
+      "BC0501": "b9d771f3d3fe52c217853e072477c17e5b01b61fa753b895a066ad10e4f5c074",
+      "BC0502": "456ad99b3c66c7bf09471c97945af279129fd926da1157a49126bd3657fea53a",
+      "BC0503": "d0ea41705c04cf59e051929f663ed4311158d827652dfb686726bb933a7c727b",
+      "BC0504": "520d1ae8756403775b05ed8f7b82a9a36f6b8d286ad74e22c8812e99541e47d8",
+      "BC0505": "abcafd6e5f14248460250575923cd483c033eea20aa86245ca4c273387be5fc2",
+      "BC0506": "13e8e970f385e9fdf25a3c31cda03f9e0448d143f27422485cff4b9dcdaab297",
+      "BC0507": "9b9a02edd7d4f2d4243a3b3147d2959136bd0aab46b25fedf8e71055279b33ba",
+      "BC0508": "179b88166245baa7d41eedf3985e21103de6427d8eda06d94616d6268342d11d",
+      "BC0509": "e1233e7cc837d80e1123faf8e03a4f42d981aaf7b80fb87811cbf9f002d52c69",
+      "BC0510": "311294f2b50fc6fef047786025a980da8bc43c3229bb95b3a5bd1673d1dc20ce",
+      "BC0511": "0338c3a0be53dfeed37a507a458e248feaaea5b8f07f49f26b8f318d3e2df441",
+      "BC0512": "f7d63460a089fffb8a27dd50e0dfa01de5ea6f36f2a65e073038806a6e1af027",
+      "BC0513": "7f495a59ccbc7cd3e32c0f80d045280a1635c77484be3c2ff17a258f4e6b0f2e",
+      "BC0514": "935f693a186679353040c1a7bb2ca6b088ddb4492df5a9608ef18843ecde83cc",
+      "BC0601": "6b848e785f8cd83a2d8ef053619c4e8c065d667f4c12a82c8ed0b1de43b96a6b",
+      "BC0602": "2c7d3f99edd60487a7a693cd675eab866688a301cc5a6c78421c7f0a3a95ba28",
+      "BC0603": "4d91050b54d30010409e1d213ea90e776cd0151565c3c13a2451361c4fd4d1a9",
+      "BC0604": "eb7df143c791e97e72a208581de556f29e1b669268983d37546d010861c9de60",
+      "BC0605": "b0101dbd151c24c69822f82a578114ec057199c5f6a65ae238d1531903b76787",
+      "BC0606": "7287d1f5882f332815767eb15d7e05bb1c15cc4e6e378658b216b0a71882b3db",
+      "BC0607": "3cde2c7d665b4f2d0534d1c08ee35695278b2ed9291aba01aea5a8a3240286d0",
+      "BC0608": "5270cd5d7c755dbaddb4a7782a964d185d0a74f857d8edd24b951f60b02bc98c",
+      "BC0609": "02b53955108fff3cd833d19559b3ebb704740cab12f39f8368cab3a78c36ccf9",
+      "BC0610": "718c4a427928082f301d5e66ce7d50a21f08b86f99bdde4ba84fc93a29fc1411",
+      "BC0701": "23c7aa7e5d15d78b1300d262ee3a1a923b0455736ed425efada290bade4992fc",
+      "BC0702": "abc45cbae39d9c3d560278c475a4bd1eed0f721835dc53dd55563a5679db2222",
+      "BC0703": "a6a6397158dad30845f65748904a803c2748193aa5de2bb553216cc012970a70",
+      "BC0704": "04676805ed269fe7205d64aef463fcd341fb47c484061870fc165e08cecba528",
+      "BC0705": "018108c919aa629292153c36671db1ce459217d2f4f27cafbe441f2ac90842cb",
+      "BC0706": "d026b38eb14fed281204efc6f146719520ca3161946c8b1bc636ae8c03012a63",
+      "BC0707": "e0e0e36f37fc56a08bcacf54f99e80263ef97f8ec5461eb2824881742c1baf72",
+      "BC0708": "fd6e3f4b5f45c4894258ed8327712ddc76bde084dc195dce326b64800584f0e4",
+      "BC0709": "50e849a6a8e294b325aa7a100898494319daded99539213a75801f7fa52e9d87",
+      "BC0710": "ac4dee88bb9b1c5e98ddaf4faaff4ebf1b9728410c0418e312e9acc22d3d0232",
+      "BC0711": "9c377041948dc4b0141bd7913d7f8ec88ae500e2f02851f175c2015095424c66",
+      "BC0712": "9928b7665f2eadf2573ad686aa961f5a4e13dee6078aee915383e63385667e8a",
+      "BC0801": "e4b870cadc022cff316af772109e4809ba966470944a371d6ba6cd622f9bce17",
+      "BC0802": "03e43a78dcab009072279e04a392bdabb5efd5dfb8ef10b3c2427fc6dd7213a7",
+      "BC0803": "1488979e7ae5bc4b16f679cef4c8c1fdf45344b9671d4890641e6972c2fa3c55",
+      "BC0804": "797767d7c0bdca125d51d105bd59072d10e68fa0fc0a97cc56a0c6dfc13ee0d3",
+      "BC0805": "56a3ba8579349c3d46fc93e8c22ac12231a8990d7f998277127c5fc423fc9b6e",
+      "BC0806": "65e2aa5a331e177898cecec99ef30554705e2b16fef7599890d65c555f5fd166",
+      "BC0807": "9721aa016e0630e62043586a190c4b8540d9171ec162f15df88d66aace552f35",
+      "BC0808": "fbb328c88def968e8725f2e4af18640441f3e9e25b62a28adc0e7d2d9e7322ea",
+      "BC0809": "08a3fdd4bf0efc567eae8b8406b5991098c320f9d0f07fca7f1a64b98c0c4356",
+      "BC0810": "aa012adcb42bd2f682b7e9a96237f950260fa40d1c8ddbe0e18fb84280bcd4e3",
+      "BC0811": "a2d81f1c5ebba76ced08e0e85c2160df9daeed37d4976eb6c6597e4af1221621",
+      "BC0812": "009248cf08b30c0c2e7a1341955342ef5cc39e8f3eacd6a50d5d47d4a5595ebb",
+      "BC0813": "38841c16826bab775a9dcaaa0eb5b0340a800ab07b1e8fbe6b606453d7734266",
+      "BC0814": "7395e9909b7e71ac8d048c954d7747d55bcb8a030ef79b9a774acf08fff1ca15",
+      "BC0901": "2fc8b8c159a14504962a3c7527d2d8342fc3787937d8c69ba49d57bb06665c5c",
+      "BC0902": "1fe80fe3a432ec4a1b49442ffd8cda2efc6aaf5887b48b9464b36a1c3c850a15",
+      "BC0903": "2fa8619691b5e50617a77f713374ee7e367adb5223eea89ec3dcb1144ccde79f",
+      "BC0904": "287180e76837134aeec503b8bd992ae5590122c2b90f06b1230557616619a7c8",
+      "BC0905": "fff0c7b673c7db1607c6729776c4fe4dede03e1464787fa7eae7a5845ed8662c",
+      "BC0906": "c621c005b0d5f6be8555a40cb087658ca822cfdc3475436ef6ef3ff67ddad6bc",
+      "BC0907": "4a0800e56381b4bcb4c1c4400298d943bdc807384b585862fcea9021f98c1497"
+    },
+    "conceptsSha256": "1f01cdced86c7dd2fc88dfd94b9aa5ceba5bda40c83be7a2a756831ac36a68a7",
+    "figureIds": [
+      "BIOL157-U04-POLARITY",
+      "BIOL157-U04-EZ",
+      "BIOL157-U04-CHIRAL",
+      "BIOL157-U04-FISCHER",
+      "BIOL157-U04-MESO",
+      "BIOL157-U05-FISCHER",
+      "BIOL157-U05-ANOMERS",
+      "BIOL157-U06-ANTIPARALLEL",
+      "BIOL157-U06-MELTING",
+      "BIOL157-U06-RNA-CLEAVAGE",
+      "BIOL157-U07-CHARGE",
+      "BIOL157-U07-PEPTIDE",
+      "BIOL157-U07-SECONDARY",
+      "BIOL157-U07-LEVELS",
+      "BIOL157-U08-BARRIER",
+      "BIOL157-U08-SATURATION",
+      "BIOL157-U08-FEEDBACK",
+      "BIOL157-U09-FLUX",
+      "BIOL157-U09-SIGNAL"
+    ],
+    "figuresSha256": "31d271971fdfd2f530ff99ca052fc3067deefae9bff3d54183498df96b0e40e3"
+  }
+}

@@ -5,7 +5,7 @@ import {getAuth,connectAuthEmulator,createUserWithEmailAndPassword,signInWithEma
 import {getFirestore,connectFirestoreEmulator,setDoc,updateDoc,getDoc,getDocFromServer,doc,onSnapshot,terminate,runTransaction} from 'firebase/firestore';
 import '../public/dashboard/curriculum.js';
 import {profileChanges,saveAcademicProfile} from '../src/profile-edit.js';
-import {createDashboardStorage,mergeDemoHistory,mergeCellHistory} from '../src/dashboard-session.js';
+import {createDashboardStorage,mergeDemoHistory,mergeCellHistory,mergeComputerHistory} from '../src/dashboard-session.js';
 import {observeAccount,studentAccountProfile} from '../src/account-session.js';
 const project='demo-dominance';
 const config={apiKey:'demo-only-key',projectId:project,appId:'demo-only-app'};
@@ -52,6 +52,18 @@ test('real local Auth/Firestore integration and profile isolation',async t=>{
     assert.deepEqual(saved.lessons,modernSaved.lessons);assert.deepEqual(saved.reading,modernSaved.reading);
    }finally{await updateDoc(ref,{'dashboardState.cellStructure':JSON.stringify(modernSaved)})}
   });
+  await t.test('Computer Appreciation uses private persisted drafts and concurrent result merges',async()=>{
+   const review={version:1,lessons:{CA01:'2026-10-19T12:00:00Z'},reading:{'spreadsheet-foundations':{section:'CA01',part:1,offset:.25,updatedAt:'2026-10-19T12:00:00Z'}},draft:{format:2,id:'computer-draft',questions:['CA-Q001','CA-Q002'],index:1,responses:{'CA-Q001':0},phase:'answer'},attempts:[]};
+   assert.equal(storage.setItem('computerAppreciation',JSON.stringify(review)),true);await storage.retry();assert.equal(storage.pending,0);
+   await Promise.all(['computer-one','computer-two'].map(id=>runTransaction(db,async transaction=>{
+    const ref=doc(db,'users',alice.uid),snapshot=await transaction.get(ref);
+    const incoming={...review,attempts:[{id,completedAt:'2026-10-19T12:00:00Z',answers:[{question:'CA-Q001',option:0},{question:'CA-Q002',option:null}]}]};
+    transaction.update(ref,{'dashboardState.computerAppreciation':mergeComputerHistory(snapshot.data().dashboardState.computerAppreciation,JSON.stringify(incoming))});
+   })));
+   const saved=JSON.parse((await getDocFromServer(doc(db,'users',alice.uid))).data().dashboardState.computerAppreciation);
+   assert.equal(saved.attempts.length,2);assert.equal(saved.draft.id,'computer-draft');assert.equal(saved.reading['spreadsheet-foundations'].part,1);
+   assert.equal(JSON.parse((await getDocFromServer(doc(db,'users',alice.uid))).data().dashboardState.cellStructure).draft.id,'emulator-draft');
+  });
   storage.setItem('avatar','glasses');storage.setItem('theme','aurora');storage.setItem('mode','system');storage.setItem('intensity','vibrant');storage.setItem('motion','reduced');storage.setItem('dailyGoal',JSON.stringify({enabled:true,paused:false,type:'questions',target:10,timeZone:'Africa/Accra'}));await storage.retry();assert.equal(storage.pending,0);
   await sendPasswordResetEmail(auth,aliceEmail);
   const recovery=await fetch('http://127.0.0.1:9099/emulator/v1/projects/'+project+'/oobCodes').then(response=>response.json());assert.ok(recovery.oobCodes.some(code=>code.email===aliceEmail&&code.requestType==='PASSWORD_RESET'));
@@ -69,9 +81,9 @@ test('real local Auth/Firestore integration and profile isolation',async t=>{
   assert.equal(storage.getItem('scores'),null);assert.equal(storage.setItem('scores','forged'),false);
   await assert.rejects(updateDoc(doc(other.db,'users',alice.uid),{'dashboardState.dailyGoal':'forged'}),error=>error.code==='permission-denied');
   await assert.rejects(updateDoc(doc(other.db,'users',alice.uid),{'dashboardState.avatar':'waves'}),error=>error.code==='permission-denied');
-  await assert.rejects(getDoc(doc(other.db,'users',alice.uid)),error=>error.code==='permission-denied');await assert.rejects(updateDoc(doc(other.db,'users',alice.uid),{'dashboardState.cellStructure':'forged'}),error=>error.code==='permission-denied');assert.equal(storage.getItem('cellStructure'),null);
+  await assert.rejects(getDoc(doc(other.db,'users',alice.uid)),error=>error.code==='permission-denied');await assert.rejects(updateDoc(doc(other.db,'users',alice.uid),{'dashboardState.cellStructure':'forged'}),error=>error.code==='permission-denied');assert.equal(storage.getItem('cellStructure'),null);assert.equal(storage.getItem('computerAppreciation'),null);await assert.rejects(updateDoc(doc(other.db,'users',alice.uid),{'dashboardState.computerAppreciation':'forged'}),error=>error.code==='permission-denied');
   const own=await getDoc(doc(other.db,'users',bob.uid));assert.equal(own.data().name,'Fictional Bob');
   const failure=await new Promise(resolve=>{const unsubscribe=onSnapshot(doc(other.db,'users',alice.uid),()=>resolve('unexpected success'),error=>{unsubscribe();resolve(error.code)})});assert.equal(failure,'permission-denied');
-  await signOut(auth);await signInWithEmailAndPassword(auth,aliceEmail,password);await waitFor(()=>state?.profile?.name==='Fictional Alice Edited');assert.equal(JSON.parse(state.profile.dashboardState.cellStructure).attempts[0].id,'cell-completed');assert.equal(JSON.parse(state.profile.dashboardState.cellStructure).draft.id,'emulator-draft');assert.equal(JSON.parse(state.profile.dashboardState.cellStructure).draft.index,1);assert.equal(JSON.parse(state.profile.dashboardState.cellStructure).draft.responses['CO-Q001'],3);assert.equal(JSON.parse(state.profile.dashboardState.cellStructure).reading.microscopy.part,1);assert.equal(JSON.parse(state.profile.dashboardState.cellStructure).reading.microscopy.offset,.35);assert.equal(state.profile.id,alice.uid);assert.equal(state.profile.semester,'Second');assert.ok(state.profile.dashboardState.scores.includes('owned-demo'));assert.equal(state.profile.dashboardState.avatar,'glasses');assert.equal(state.profile.dashboardState.theme,'aurora');assert.equal(state.profile.dashboardState.mode,'system');assert.equal(JSON.parse(state.profile.dashboardState.dailyGoal).target,10);storage.dispose();
+  await signOut(auth);await signInWithEmailAndPassword(auth,aliceEmail,password);await waitFor(()=>state?.profile?.name==='Fictional Alice Edited');assert.equal(JSON.parse(state.profile.dashboardState.computerAppreciation).attempts.length,2);assert.equal(JSON.parse(state.profile.dashboardState.computerAppreciation).draft.responses['CA-Q001'],0);assert.equal(JSON.parse(state.profile.dashboardState.cellStructure).attempts[0].id,'cell-completed');assert.equal(JSON.parse(state.profile.dashboardState.cellStructure).draft.id,'emulator-draft');assert.equal(JSON.parse(state.profile.dashboardState.cellStructure).draft.index,1);assert.equal(JSON.parse(state.profile.dashboardState.cellStructure).draft.responses['CO-Q001'],3);assert.equal(JSON.parse(state.profile.dashboardState.cellStructure).reading.microscopy.part,1);assert.equal(JSON.parse(state.profile.dashboardState.cellStructure).reading.microscopy.offset,.35);assert.equal(state.profile.id,alice.uid);assert.equal(state.profile.semester,'Second');assert.ok(state.profile.dashboardState.scores.includes('owned-demo'));assert.equal(state.profile.dashboardState.avatar,'glasses');assert.equal(state.profile.dashboardState.theme,'aurora');assert.equal(state.profile.dashboardState.mode,'system');assert.equal(JSON.parse(state.profile.dashboardState.dailyGoal).target,10);storage.dispose();
  }finally{stop();for(const item of clients){await terminate(item.db);await deleteApp(item.app)}}
 });

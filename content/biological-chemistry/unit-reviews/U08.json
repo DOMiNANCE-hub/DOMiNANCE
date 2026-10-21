@@ -1,0 +1,515 @@
+{
+  "unit": "U08",
+  "status": "author-source-checked-draft-awaiting-human-academic-review",
+  "reviewer": null,
+  "academicApproval": null,
+  "source": "L8",
+  "actualPdfPages": 61,
+  "readingScope": "All 61 actual pages text-read; 25 selected visual pages inspected. Source already includes seven EC classes. Actual references are not printed-number offsets.",
+  "officialTopics": [
+    "BIOL157-U08-T01",
+    "BIOL157-U08-T02",
+    "BIOL157-U08-T03",
+    "BIOL157-U08-T04"
+  ],
+  "lessons": 14,
+  "questions": 63,
+  "explicitAnswerChecks": 28,
+  "originalFigures": 3,
+  "visualPages": [
+    5,
+    7,
+    13,
+    16,
+    18,
+    20,
+    23,
+    24,
+    28,
+    29,
+    30,
+    33,
+    35,
+    37,
+    40,
+    43,
+    46,
+    48,
+    49,
+    52,
+    53,
+    54,
+    56,
+    58,
+    59
+  ],
+  "actualToPrinted": [
+    {
+      "actual": 1,
+      "printed": null
+    },
+    {
+      "actual": 2,
+      "printed": 2
+    },
+    {
+      "actual": 3,
+      "printed": 3
+    },
+    {
+      "actual": 4,
+      "printed": 4
+    },
+    {
+      "actual": 5,
+      "printed": 5
+    },
+    {
+      "actual": 6,
+      "printed": 6
+    },
+    {
+      "actual": 7,
+      "printed": 7
+    },
+    {
+      "actual": 8,
+      "printed": 8
+    },
+    {
+      "actual": 9,
+      "printed": 9
+    },
+    {
+      "actual": 10,
+      "printed": 10
+    },
+    {
+      "actual": 11,
+      "printed": 11
+    },
+    {
+      "actual": 12,
+      "printed": 12
+    },
+    {
+      "actual": 13,
+      "printed": 13
+    },
+    {
+      "actual": 14,
+      "printed": 14
+    },
+    {
+      "actual": 15,
+      "printed": 15
+    },
+    {
+      "actual": 16,
+      "printed": 16
+    },
+    {
+      "actual": 17,
+      "printed": 17
+    },
+    {
+      "actual": 18,
+      "printed": 18
+    },
+    {
+      "actual": 19,
+      "printed": 19
+    },
+    {
+      "actual": 20,
+      "printed": 20
+    },
+    {
+      "actual": 21,
+      "printed": 21
+    },
+    {
+      "actual": 22,
+      "printed": 22
+    },
+    {
+      "actual": 23,
+      "printed": 23
+    },
+    {
+      "actual": 24,
+      "printed": 25
+    },
+    {
+      "actual": 25,
+      "printed": 26
+    },
+    {
+      "actual": 26,
+      "printed": 27
+    },
+    {
+      "actual": 27,
+      "printed": 28
+    },
+    {
+      "actual": 28,
+      "printed": 30
+    },
+    {
+      "actual": 29,
+      "printed": 31
+    },
+    {
+      "actual": 30,
+      "printed": 32
+    },
+    {
+      "actual": 31,
+      "printed": 34
+    },
+    {
+      "actual": 32,
+      "printed": 35
+    },
+    {
+      "actual": 33,
+      "printed": 36
+    },
+    {
+      "actual": 34,
+      "printed": 37
+    },
+    {
+      "actual": 35,
+      "printed": 38
+    },
+    {
+      "actual": 36,
+      "printed": 39
+    },
+    {
+      "actual": 37,
+      "printed": 40
+    },
+    {
+      "actual": 38,
+      "printed": 41
+    },
+    {
+      "actual": 39,
+      "printed": 42
+    },
+    {
+      "actual": 40,
+      "printed": 43
+    },
+    {
+      "actual": 41,
+      "printed": 44
+    },
+    {
+      "actual": 42,
+      "printed": 45
+    },
+    {
+      "actual": 43,
+      "printed": 46
+    },
+    {
+      "actual": 44,
+      "printed": 48
+    },
+    {
+      "actual": 45,
+      "printed": 49
+    },
+    {
+      "actual": 46,
+      "printed": 50
+    },
+    {
+      "actual": 47,
+      "printed": 51
+    },
+    {
+      "actual": 48,
+      "printed": 54
+    },
+    {
+      "actual": 49,
+      "printed": 56
+    },
+    {
+      "actual": 50,
+      "printed": 57
+    },
+    {
+      "actual": 51,
+      "printed": 58
+    },
+    {
+      "actual": 52,
+      "printed": 59
+    },
+    {
+      "actual": 53,
+      "printed": 60
+    },
+    {
+      "actual": 54,
+      "printed": 62
+    },
+    {
+      "actual": 55,
+      "printed": 63
+    },
+    {
+      "actual": 56,
+      "printed": 64
+    },
+    {
+      "actual": 57,
+      "printed": 65
+    },
+    {
+      "actual": 58,
+      "printed": 67
+    },
+    {
+      "actual": 59,
+      "printed": 68
+    },
+    {
+      "actual": 60,
+      "printed": 69
+    },
+    {
+      "actual": 61,
+      "printed": 70
+    }
+  ],
+  "corrections": [
+    {
+      "pages": [
+        3,
+        4,
+        8,
+        9
+      ],
+      "issue": "Infinite storage, standard free-energy scope, universal catalytic superiority and zero side reactions",
+      "decision": "Use conditional thermodynamic/kinetic comparisons; no absolute storage, specificity or catalyst ranking."
+    },
+    {
+      "pages": [
+        12,
+        13
+      ],
+      "issue": "Historical six-class assumption and generic translocase examples",
+      "decision": "Source already contains seven classes; confirm current IUBMB and classify full coupled transport reaction rather than every quinone reductase."
+    },
+    {
+      "pages": [
+        14,
+        15,
+        16,
+        22
+      ],
+      "issue": "All cofactor heat stability, universal tight/covalent/noncovalent binding and element inventory",
+      "decision": "Distinguish cosubstrate/prosthetic, binding modes, regeneration and selenium-containing residue versus free metal ion."
+    },
+    {
+      "pages": [
+        19,
+        20
+      ],
+      "issue": "NADH2 and universal compartment pool trends",
+      "decision": "Use NAD+ + H+ + 2e− ⇌ NADH; qualify functional/pool trends."
+    },
+    {
+      "pages": [
+        25,
+        28,
+        29,
+        30,
+        32,
+        33,
+        51
+      ],
+      "issue": "Km as affinity, rapid equilibrium conflated with steady state, any-time rate law, kcat efficiency and turnover records",
+      "decision": "Derive initial-rate model; Km differs from Kd in general, kcat per active centre differs from specificity constant kcat/Km; no record ranking."
+    },
+    {
+      "pages": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "issue": "Fixed pH/thermal optima, universal Q10 and every thermophile fully active above 90",
+      "decision": "State assay/time/ionisation/stability conditions and illustrative ranges; no universal cutoff."
+    },
+    {
+      "pages": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "issue": "Two inhibitor categories, noncompetitive site shortcut and covalent-only irreversible definition",
+      "decision": "Teach competitive/mixed/pure noncompetitive/uncompetitive model, apparent parameters, persistence/recovery and inference limits."
+    },
+    {
+      "pages": [
+        42,
+        43
+      ],
+      "issue": "Glycoprotein peptidase, universal mechanism-based selectivity and modified residue necessarily catalytic",
+      "decision": "Use supported bacterial PBP/transpeptidase description; no clinical treatment assertion or unique catalytic-residue proof from loss of function."
+    },
+    {
+      "pages": [
+        44,
+        46,
+        48,
+        49
+      ],
+      "issue": "Absolute specificity, rigid recognition and transition-state intermediate wording",
+      "decision": "Distinguish preferential productive recognition, flexible models and transition state from stable intermediate; historical name/date not assessed."
+    },
+    {
+      "pages": [
+        50,
+        51,
+        53,
+        54
+      ],
+      "issue": "Product inhibition equated with all feedback, all cellular Km matching substrate, phosphorylation always inactivating",
+      "decision": "Separate reverse flux/product/end-product feedback, conditional model and protein/site-specific regulation."
+    },
+    {
+      "pages": [
+        55,
+        57,
+        58,
+        60
+      ],
+      "issue": "Proinsulin classed as enzyme precursor, exhaustive clotting count, all isoforms multimeric and PKA dimer wording",
+      "decision": "Separate hormone processing from zymogens, limit clotting example, teach simple LDH composition model without exhaustive claim and classical R2C2 regulation."
+    }
+  ],
+  "supplementScope": "Original detailed derivations/calculations and conditional reversible-inhibition models expand the four official enzyme topics. No additional official syllabus is claimed. IUBMB nomenclature and specific kinetic terminology checked; full external sources not certified.",
+  "withheldSourceClaims": [
+    "No fixed catalytic record, universal pH/temperature or Q10, unqualified cofactor stability, universal no-side-reaction claim, or patient diagnostic/dosing question.",
+    "Eflornithine clinical indication and detailed clotting-factor count not assessed without separate review."
+  ],
+  "limitations": [
+    "No human academic approval or examination certification.",
+    "No kinetic, thermal, spectroscopy, drug or clinical experiment executed; all example data are constructed and labelled.",
+    "External source check scope/open limitations are explicit; selected diagrams only, not every external reference."
+  ],
+  "previousBanks": {
+    "commit": "9866007b4949dbf171868bd1d4c42314ecab3ee7",
+    "units": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05",
+      "U06",
+      "U07"
+    ],
+    "questionsSha256": "2b4b6c82e51be610931e2fb0245d6550fa29b70476785033e50418170f60066f",
+    "lessonSha256": {
+      "BC0101": "881cca0c4a028d4c2c07171c1404bd00da6c50abf6bf82431122e3e47312fab6",
+      "BC0102": "d05e3c6c2440890fcc48e88c0fa7d64cd8e233546254c196a29a77e1f3a3b031",
+      "BC0103": "45c4c38f2259cd65e2dd911084157428cb06e94c2d313b6c2f27e98490bf2b95",
+      "BC0104": "2e7fff9386684d5c2ca9e51040409629f512718d9d5b3184beca216a9fe7e5fa",
+      "BC0105": "c15e49dc05b0dd87a010382bc31fcaf46b1c8c956ca7d72e81e713450f3a2982",
+      "BC0106": "5e17c597f4ca1841b8df08d87a100b2f242cd1ec6cf25277320184cd0bc5fd5f",
+      "BC0201": "11f085f8667ab77607d4ddb548520ddbe97b94be4321f26c92164def82afd1ff",
+      "BC0202": "20bb2cf0c55917608709d157a16fa607dcefbba9ee382c70958c0db3d086516c",
+      "BC0203": "dc4a43c137f3b83e30023486ea2383b503b9458bd4efd2819f207f29ae22545d",
+      "BC0204": "732951bf621e8dd6b48cb1b2ebf64186b0cc00bc01ef67a312f2869f331902d3",
+      "BC0205": "f8d88bac7d4f85a82cf2b2dc78a2ea3e3604c60f4d1d9dba4b20a031592d6b1d",
+      "BC0206": "4c5a786908875018f5dfee07e56d05a181cbb2ef1be036fe3f63073d6fe6e717",
+      "BC0207": "83f44ff83dd2cff2ba89d5044a828412fd12bbb570766d2cf72ada8e647460ec",
+      "BC0208": "b2790f2ec3e7b4f5f2183ad91c52ee610696bbdb9268e31a90355e3eee34e679",
+      "BC0301": "ff262724357ee765ae368b21131b038b593d5d99b71168746be5312872ddefdd",
+      "BC0302": "cab6322cafcd726e9f26c9b433c5ac3ee0fcd85e0ef2d8e0c3f88fb0835c5b3f",
+      "BC0303": "481100bbde34c6b029d787d68225f4801a783816f833388b93041c85d245d03a",
+      "BC0304": "8450b8c69df3d5e3ffb3e6a0201f86e5cbeedededae2643241387677c0c77187",
+      "BC0305": "af64de6afca7151a22b783343a56353c40aa03e399298f61a3fe26a136b04a67",
+      "BC0306": "ce3618b02635c57bc5d95dc0d8527f0a8c8aa755978456f11e045c308dc98374",
+      "BC0307": "49d3ad16655dbfdc7bc354376e421bb0a0ec41a2cff7c5c9f30ca6f967c5260d",
+      "BC0308": "a95fd16a617f260df561b52ffea162f232d99da2f4205f567843e2dac4720d14",
+      "BC0309": "a91c3fd8a101a381294d66cf2dfe6305ae2e331000f06be08de0eebe001b708e",
+      "BC0401": "59df9c11c56d73e5b52b6946b0887035f0686bef4580573e7dbf391304e5f326",
+      "BC0402": "477582ab159d529869e7cf74c77d5162701a5317e3b3116bc2f8ecd7b31c3f79",
+      "BC0403": "a469aa02e9e38f3c7c1e6a69d403621264e121c4cda582609b4864e08db4b1d3",
+      "BC0404": "c113f25ea348297aa9e09a77cbec882af3824690340fa6188d100bdbab3a6424",
+      "BC0405": "5272dddc327eeeafe5589b4364f910a77a9d61ead4ce67bd690d58a089e06043",
+      "BC0406": "465470a7c4833f41a314caa66fe2c6bf06cb75d656cb3dfa6781da2d6a8174d1",
+      "BC0407": "d55aa1c07ad70437c27e2266955b27ffc7f1333a11eb9947995e1ce14226cbb1",
+      "BC0408": "b2847a6c973887f2bc49af3776f0dcfaf2aae2543a8ef11240c632d89ecd6d28",
+      "BC0409": "aeb4b55b277b2a45c3e5d6c3a2c835246b0d60884d2488161ba73457687e2d45",
+      "BC0410": "a85cd291c1dcbc7debdd7eed96c11790826b6b50c0b87ee5681a9bc6e1781e85",
+      "BC0411": "48e246ee01f62f24b643a12a3244f38fd6540f57743338c8b607f0e3a793a52d",
+      "BC0412": "e71510db781ee6d679e17a0fc1307c0030a0d04bb2e2bc5387a4d1a01719aa1d",
+      "BC0501": "b9d771f3d3fe52c217853e072477c17e5b01b61fa753b895a066ad10e4f5c074",
+      "BC0502": "456ad99b3c66c7bf09471c97945af279129fd926da1157a49126bd3657fea53a",
+      "BC0503": "d0ea41705c04cf59e051929f663ed4311158d827652dfb686726bb933a7c727b",
+      "BC0504": "520d1ae8756403775b05ed8f7b82a9a36f6b8d286ad74e22c8812e99541e47d8",
+      "BC0505": "abcafd6e5f14248460250575923cd483c033eea20aa86245ca4c273387be5fc2",
+      "BC0506": "13e8e970f385e9fdf25a3c31cda03f9e0448d143f27422485cff4b9dcdaab297",
+      "BC0507": "9b9a02edd7d4f2d4243a3b3147d2959136bd0aab46b25fedf8e71055279b33ba",
+      "BC0508": "179b88166245baa7d41eedf3985e21103de6427d8eda06d94616d6268342d11d",
+      "BC0509": "e1233e7cc837d80e1123faf8e03a4f42d981aaf7b80fb87811cbf9f002d52c69",
+      "BC0510": "311294f2b50fc6fef047786025a980da8bc43c3229bb95b3a5bd1673d1dc20ce",
+      "BC0511": "0338c3a0be53dfeed37a507a458e248feaaea5b8f07f49f26b8f318d3e2df441",
+      "BC0512": "f7d63460a089fffb8a27dd50e0dfa01de5ea6f36f2a65e073038806a6e1af027",
+      "BC0513": "7f495a59ccbc7cd3e32c0f80d045280a1635c77484be3c2ff17a258f4e6b0f2e",
+      "BC0514": "935f693a186679353040c1a7bb2ca6b088ddb4492df5a9608ef18843ecde83cc",
+      "BC0601": "6b848e785f8cd83a2d8ef053619c4e8c065d667f4c12a82c8ed0b1de43b96a6b",
+      "BC0602": "2c7d3f99edd60487a7a693cd675eab866688a301cc5a6c78421c7f0a3a95ba28",
+      "BC0603": "4d91050b54d30010409e1d213ea90e776cd0151565c3c13a2451361c4fd4d1a9",
+      "BC0604": "eb7df143c791e97e72a208581de556f29e1b669268983d37546d010861c9de60",
+      "BC0605": "b0101dbd151c24c69822f82a578114ec057199c5f6a65ae238d1531903b76787",
+      "BC0606": "7287d1f5882f332815767eb15d7e05bb1c15cc4e6e378658b216b0a71882b3db",
+      "BC0607": "3cde2c7d665b4f2d0534d1c08ee35695278b2ed9291aba01aea5a8a3240286d0",
+      "BC0608": "5270cd5d7c755dbaddb4a7782a964d185d0a74f857d8edd24b951f60b02bc98c",
+      "BC0609": "02b53955108fff3cd833d19559b3ebb704740cab12f39f8368cab3a78c36ccf9",
+      "BC0610": "718c4a427928082f301d5e66ce7d50a21f08b86f99bdde4ba84fc93a29fc1411",
+      "BC0701": "23c7aa7e5d15d78b1300d262ee3a1a923b0455736ed425efada290bade4992fc",
+      "BC0702": "abc45cbae39d9c3d560278c475a4bd1eed0f721835dc53dd55563a5679db2222",
+      "BC0703": "a6a6397158dad30845f65748904a803c2748193aa5de2bb553216cc012970a70",
+      "BC0704": "04676805ed269fe7205d64aef463fcd341fb47c484061870fc165e08cecba528",
+      "BC0705": "018108c919aa629292153c36671db1ce459217d2f4f27cafbe441f2ac90842cb",
+      "BC0706": "d026b38eb14fed281204efc6f146719520ca3161946c8b1bc636ae8c03012a63",
+      "BC0707": "e0e0e36f37fc56a08bcacf54f99e80263ef97f8ec5461eb2824881742c1baf72",
+      "BC0708": "fd6e3f4b5f45c4894258ed8327712ddc76bde084dc195dce326b64800584f0e4",
+      "BC0709": "50e849a6a8e294b325aa7a100898494319daded99539213a75801f7fa52e9d87",
+      "BC0710": "ac4dee88bb9b1c5e98ddaf4faaff4ebf1b9728410c0418e312e9acc22d3d0232",
+      "BC0711": "9c377041948dc4b0141bd7913d7f8ec88ae500e2f02851f175c2015095424c66",
+      "BC0712": "9928b7665f2eadf2573ad686aa961f5a4e13dee6078aee915383e63385667e8a"
+    },
+    "conceptsSha256": "50179004147ca51175cfa6e53c8c2794763933bf26480d09224876cc3bd308fb",
+    "figureIds": [
+      "BIOL157-U04-POLARITY",
+      "BIOL157-U04-EZ",
+      "BIOL157-U04-CHIRAL",
+      "BIOL157-U04-FISCHER",
+      "BIOL157-U04-MESO",
+      "BIOL157-U05-FISCHER",
+      "BIOL157-U05-ANOMERS",
+      "BIOL157-U06-ANTIPARALLEL",
+      "BIOL157-U06-MELTING",
+      "BIOL157-U06-RNA-CLEAVAGE",
+      "BIOL157-U07-CHARGE",
+      "BIOL157-U07-PEPTIDE",
+      "BIOL157-U07-SECONDARY",
+      "BIOL157-U07-LEVELS"
+    ],
+    "figuresSha256": "ff0cd9215061410e3b0a67f994108c1bd378213e778eb75e7e5e9a5079a4cb06"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "executedAt": "2026-10-20T04:34:33.510935+00:00",
+  "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+  "fixtureSha256": "74b18f7e0a8bcbba45d8621882c82910d56aee299c3adca691e1a9078c3b9018",
+  "requiredMicrosoftOfficeGuiChecksExecuted": 0,
+  "requiredMicrosoftOfficeGuiChecksPassed": 0,
+  "evidence": [
+    {
+      "id": "Payroll Screenshot!I7",
+      "relatedOfficeScenario": "EX-01",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 3138.75,
+      "actual": 3138.75,
+      "status": "PASS"
+    },
+    {
+      "id": "Payroll Screenshot!I23",
+      "relatedOfficeScenario": "EX-01",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 30410.75,
+      "actual": 30410.75,
+      "status": "PASS"
+    },
+    {
+      "id": "Payroll Written!I7",
+      "relatedOfficeScenario": "EX-03",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 3158.125,
+      "actual": 3158.125,
+      "status": "PASS"
+    },
+    {
+      "id": "Payroll Written!I23",
+      "relatedOfficeScenario": "EX-03",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 30598.625,
+      "actual": 30598.625,
+      "status": "PASS"
+    },
+    {
+      "id": "Weighted Marks!E6",
+      "relatedOfficeScenario": "EX-04",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 74.1,
+      "actual": 74.1,
+      "status": "PASS"
+    },
+    {
+      "id": "Weighted Marks!C28",
+      "relatedOfficeScenario": "EX-04",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 74.1,
+      "actual": 74.1,
+      "status": "PASS"
+    },
+    {
+      "id": "Weighted Marks!C29",
+      "relatedOfficeScenario": "EX-04",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 30,
+      "actual": 30,
+      "status": "PASS"
+    },
+    {
+      "id": "Weighted Marks!C30",
+      "relatedOfficeScenario": "EX-04",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 55.1733333333333,
+      "actual": 55.1733333333333,
+      "status": "PASS"
+    },
+    {
+      "id": "Weighted Marks!F6",
+      "relatedOfficeScenario": "EX-05",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": "UNSET",
+      "actual": "UNSET",
+      "status": "PASS"
+    },
+    {
+      "id": "Filter and Functions!B15",
+      "relatedOfficeScenario": "EX-07",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 40449,
+      "actual": 40449,
+      "status": "PASS"
+    },
+    {
+      "id": "filter-boundary-40",
+      "relatedOfficeScenario": "EX-06",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": [
+        false,
+        true
+      ],
+      "actual": [
+        false,
+        true
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "today-versus-now",
+      "relatedOfficeScenario": "EX-07",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": "date-only midnight; NOW has a time component on same date",
+      "actual": [
+        "2026-10-20 00:00:00",
+        "2026-10-20 04:34:04.126000"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "tax-variant-E7",
+      "relatedOfficeScenario": "EX-02",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 697.5,
+      "actual": 697.5,
+      "status": "PASS"
+    },
+    {
+      "id": "tax-variant-I7",
+      "relatedOfficeScenario": "EX-02",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 3022.5,
+      "actual": 3022.5,
+      "status": "PASS"
+    },
+    {
+      "id": "reference-D2",
+      "relatedOfficeScenario": "EX-09",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 12,
+      "actual": 12,
+      "status": "PASS"
+    },
+    {
+      "id": "reference-D3",
+      "relatedOfficeScenario": "EX-09",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 18,
+      "actual": 18,
+      "status": "PASS"
+    },
+    {
+      "id": "reference-G2",
+      "relatedOfficeScenario": "new-3d-lesson",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 220,
+      "actual": 220,
+      "status": "PASS"
+    },
+    {
+      "id": "reference-G3",
+      "relatedOfficeScenario": "new-lookup-clarification",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "id": "headless-print-header",
+      "relatedOfficeScenario": "EX-11",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": "Fictional header present in exported PDF",
+      "actual": "header present",
+      "status": "PASS"
+    },
+    {
+      "id": "headless-landscape",
+      "relatedOfficeScenario": "EX-11",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": "landscape PDF",
+      "actual": "Page size:       841.89 x 595.304 pts (A4)",
+      "status": "PASS"
+    },
+    {
+      "id": "presentation-table-roundtrip",
+      "relatedOfficeScenario": "PP-04",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "id": "presentation-text-render",
+      "relatedOfficeScenario": "PP-04",
+      "method": "LibreOffice headless alternative; NOT Microsoft Office GUI",
+      "expected": "title, table and textbox present",
+      "actual": true,
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Headless LibreOffice is not Windows Excel or PowerPoint.",
+    "No keyboard shortcuts, audio playback, animation/timing, protection dialogs or physical print acceptance verified.",
+    "Payroll alternatives are calculations, not authoritative tax/grade policy."
+  ]
+}
