@@ -22,3 +22,10 @@ test('timeouts are recoverable and a late valid profile clears them',()=>{const 
 test('sign out invalidates stale callbacks and unsubscribes',()=>{const s=setup();s.login({uid:'a'});s.login(null);s.profiles.get('a').next({name:'Alice'});assert.equal(s.last().user,null);assert.equal(s.counts().profileStops,1);s.stop();assert.equal(s.counts().authStops,1)});
 test('cleanup prevents later events and clears pending timers',()=>{const s=setup();s.login({uid:'a'});s.stop();const n=s.states.length;s.profiles.get('a').next({name:'Alice'});s.login({uid:'b'});assert.equal(s.states.length,n);assert.equal(s.timers.size,0)});
 test('auth failures clear identity; raw service messages are not exposed',()=>{const s=setup();s.login({uid:'a'});s.profiles.get('a').next({name:'Alice'});s.fail();assert.equal(s.last().user,null);assert.equal(s.last().profile,null);assert.ok(s.last().error);assert.equal(accountError({code:'auth/network-request-failed'}),'Connection failed. Check your internet and try again.');assert.doesNotMatch(accountError({message:'secret internal details'}),/secret/);s.stop()});
+test('authentication error mapping provides safe, actionable guidance without exposing secrets',()=>{
+  assert.match(accountError({code:'auth/unauthorized-domain'}),/Authorized Domains/);
+  assert.match(accountError({code:'auth/operation-not-allowed'}),/Sign-in method/);
+  assert.match(accountError({code:'auth/api-key-not-valid'}),/API key/);
+  assert.match(accountError({code:'auth/unknown-custom-code'}),/Authentication error \(unknown-custom-code\)/);
+  assert.equal(accountError({message:'secret payload'}),'We could not complete that action. Please try again.');
+});

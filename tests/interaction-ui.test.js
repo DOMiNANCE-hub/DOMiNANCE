@@ -183,4 +183,11 @@ test('Final Sprint: reusable Study Area supports inline code and formula multipl
  assert.equal(compReturn.dataset.targetTopic,'lesson:CA03:0');
  compReturn.onclick();
  assert.equal(ch.lastTopic,'lesson:CA03:0');
+
+ const crlfLesson={id:'lesson_01',title:'Lesson 1 — CRLF test',markdown:'# Title\r\n## Core Ideas\r\n| Col A | Col B |\r\n|---|---|\r\n| `=A1*B1` | 42 |\r\n**Optional check:** Does CRLF parse? **Answer:** Yes, CRLF parses cleanly.'};
+ const crlfSections=cellLearning.sections(crlfLesson);
+ assert.equal(crlfSections.length,1);
+ const crlfParts=cellLearning.parts(crlfSections[0].text);
+ assert.equal(crlfParts.filter(p=>p.kind==='check').length,1);
+ assert.match(api.markdown(crlfParts[0].text),/<table><thead><tr><th scope="col">Col A<\/th>/);
 });
