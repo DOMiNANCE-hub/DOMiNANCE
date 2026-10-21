@@ -14,7 +14,7 @@ Draft integration PR: [#17](https://github.com/DOMiNANCE-hub/DOMiNANCE/pull/17).
 
 - No formal academic sign-off for the final student-visible content.
 - BIOL157: all ten units and 34 listed topics have substantial source-checked drafts; independent human academic review and explicit publication approval remain outstanding.
-- Cell: all 170 original rationales editorially improved and four review-only question revisions documented; remaining source figures, historical microscopy development, precise concept links, human approval and current-year official scope are unresolved.
+- Cell: 178-question instructional review is local-emulator-only, but the normal asset still retains the legacy 46-lesson/170-question bank. Its formal approval is not independently established here; the publication process must account for it before any RC deployment. Remaining source figures/history, 178 precise feedback targets and current-year scope remain unresolved.
 - Computer: exact manual acceptance steps are prepared but all 15 Microsoft Office desktop scenarios remain unexecuted; four questions withheld; payroll/grading/exactly-40/version ambiguities and 342 unmapped package pages remain open.
 - Protected preview requires verified existing Vercel project configuration and isolated test Firebase; production rules/auth domains/data separation/rollback not yet verified.
 
@@ -43,8 +43,9 @@ Review and map the remaining 78 Excel and 178 Cell feedback targets against thei
 - Bio Unit 8: [`7c83ea5`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/7c83ea56b5006049e475f358f49eef2a8ccc18f0)
 - Bio Unit 9: [`d55b924`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/d55b924160901706e04e8fded89624d145e3843d)
 - Bio Unit 10: [`6c84fa7`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/6c84fa75400ec457e61a18acfd3f83512f0804e6)
+- PowerPoint exact feedback links: [`8dab397`](https://github.com/DOMiNANCE-hub/DOMiNANCE/commit/8dab397b1ecdf6eb36c833549ad475b0bd4a8965)
 
-Latest implementation CI: [success](https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39576614519). Exact continuation: [CONTINUE.md](CONTINUE.md).
+Latest implementation CI: [success](https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39577763671). Exact continuation: [CONTINUE.md](CONTINUE.md).
 
 Microsoft Office remains 0/15 executed: [exact manual acceptance checklist](../csm177/MICROSOFT_OFFICE_ACCEPTANCE.md).
 

@@ -21,7 +21,7 @@
   "blockers": [
     "No formal academic sign-off for the final student-visible content.",
     "BIOL157: all ten units and 34 listed topics have substantial source-checked drafts; independent human academic review and explicit publication approval remain outstanding.",
-    "Cell: all 170 original rationales editorially improved and four review-only question revisions documented; remaining source figures, historical microscopy development, precise concept links, human approval and current-year official scope are unresolved.",
+    "Cell: 178-question instructional review is local-emulator-only, but the normal asset still retains the legacy 46-lesson/170-question bank. Its formal approval is not independently established here; the publication process must account for it before any RC deployment. Remaining source figures/history, 178 precise feedback targets and current-year scope remain unresolved.",
     "Computer: exact manual acceptance steps are prepared but all 15 Microsoft Office desktop scenarios remain unexecuted; four questions withheld; payroll/grading/exactly-40/version ambiguities and 342 unmapped package pages remain open.",
     "Protected preview requires verified existing Vercel project configuration and isolated test Firebase; production rules/auth domains/data separation/rollback not yet verified."
   ],
@@ -233,8 +233,8 @@
   "testedImplementationCommit": "d55b924160901706e04e8fded89624d145e3843d",
   "githubCI": {
     "status": "success",
-    "commit": "6c84fa75400ec457e61a18acfd3f83512f0804e6",
-    "url": "https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39576614519"
+    "commit": "8dab397b1ecdf6eb36c833549ad475b0bd4a8965",
+    "url": "https://github.com/DOMiNANCE-hub/DOMiNANCE/actions/runs/39577763671"
   },
   "checkpoints": [
     {
@@ -280,10 +280,14 @@
     {
       "batch": "Bio Unit 10",
       "commit": "6c84fa75400ec457e61a18acfd3f83512f0804e6"
+    },
+    {
+      "batch": "PowerPoint exact feedback links",
+      "commit": "8dab397b1ecdf6eb36c833549ad475b0bd4a8965"
     }
   ],
   "continuation": "docs/release/CONTINUE.md",
-  "testedCommit": "6c84fa75400ec457e61a18acfd3f83512f0804e6",
+  "testedCommit": "8dab397b1ecdf6eb36c833549ad475b0bd4a8965",
   "courses": [
     {
       "id": "BIOL151",
